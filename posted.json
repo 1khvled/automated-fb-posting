@@ -1,0 +1,43 @@
+{
+  "last_post": {
+    "hash": "b4df5090744d57db",
+    "fb_id": "1264009986803820_122114596605472689",
+    "title": "BREAKING: The semiconductor ETF, $SOXX, is underperforming the Nasdaq 100 ETF, $QQQ, by -12.3 percentage points so far in Q3 2026, on track for its largest quarterly underperformance since Q3 2002....",
+    "link": "https://x.com/KobeissiLetter/status/2103531165764276273",
+    "at": "2026-09-25T23:23:52.616998+00:00"
+  },
+  "posted_hashes": [
+    "7e0de86880325769",
+    "b4df5090744d57db"
+  ],
+  "day_counts": {
+    "2026-09-25": 2
+  },
+  "recent_titles": [
+    "Global oil markets are facing a historic loss of diesel supply: Diesel supply from the Middle East dropped by -835,000 barrels per day on average between March and August 2026 compared to the same ...",
+    "BREAKING: The semiconductor ETF, $SOXX, is underperforming the Nasdaq 100 ETF, $QQQ, by -12.3 percentage points so far in Q3 2026, on track for its largest quarterly underperformance since Q3 2002...."
+  ],
+  "history": [
+    {
+      "fb_id": "1264009986803820_122114586813472689",
+      "topics": [
+        "gold_oil"
+      ],
+      "at": "2026-09-25T22:56:02.766674+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122114596605472689",
+      "topics": [
+        "ai",
+        "crypto",
+        "stocks"
+      ],
+      "at": "2026-09-25T23:23:52.616998+00:00"
+    }
+  ],
+  "tuner": {
+    "topics": {},
+    "mult": {},
+    "updated": "2026-09-25"
+  }
+}

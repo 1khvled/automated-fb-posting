@@ -1,0 +1,58 @@
+name: FB auto-post (every 20 min)
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"   # every 20 minutes
+  workflow_dispatch:          # manual "Run workflow" button
+    inputs:
+      dry_run:
+        description: "Dry run (no Facebook publish)?"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write   # needed to commit posted.json state back
+
+jobs:
+  autopost:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache photos (download once, reuse)
+        uses: actions/cache@v4
+        with:
+          path: .photo_cache
+          key: photo-cache-v1
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run bot
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          DRY_RUN: ${{ inputs.dry_run || '0' }}
+          MAX_AGE_MINUTES: "2880"
+          MIN_VIDEO_SCORE: "4"
+          VIDEO_DEADLINE_HOUR: "20"
+          VIDEO_DEADLINE_SCORE: "1"
+          STATE_FILE: posted.json
+        run: python post_bot.py
+
+      - name: Save state (dedup)
+        if: always()
+        run: |
+          git config user.name "fb-bot"
+          git config user.email "fb-bot@users.noreply.github.com"
+          git add posted.json || true
+          git diff --staged --quiet || git commit -m "bot: update posted state [skip ci]" || true
+          git push || true
