@@ -1329,6 +1329,29 @@ def publish_to_facebook(message: str) -> str:
     return data.get("id", "")
 
 
+def floor_plan(posts_today: int, hour: int):
+    """Daily post floor (MIN_POSTS_PER_DAY, default 4).
+
+    Returns (score_discount, catchup). Behind pace -> discount lowers the
+    publish bar toward FLOOR_MIN_SCORE (default 2); after
+    FLOOR_DEADLINE_HOUR UTC (default 21) with the floor unmet, catchup
+    mode shrinks the cooldown so the day still hits its minimum."""
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "4"))
+    if posts_today >= floor:
+        return 0, False
+    expected = (hour * floor) // 24
+    discount = 0
+    if posts_today < expected:
+        discount = min(4, 2 * (expected - posts_today))
+    catchup = hour >= int(os.getenv("FLOOR_DEADLINE_HOUR", "21"))
+    if catchup:
+        discount = max(
+            discount,
+            int(os.getenv("MIN_PUBLISH_SCORE", "6"))
+            - int(os.getenv("FLOOR_MIN_SCORE", "2")))
+    return discount, catchup
+
+
 def main() -> int:
     max_age = int(os.getenv("MAX_AGE_MINUTES", "2880"))  # 2 days max
     state_file = os.getenv("STATE_FILE", "posted.json")
@@ -1353,22 +1376,33 @@ def main() -> int:
     _TUNER.update(tune_from_engagement(state))
     save_state(state_file, state)
 
-    # Cooldown: never post more often than MIN_POST_GAP_MINUTES (anti-spam:
+    # DAILY FLOOR: at least MIN_POSTS_PER_DAY (default 4) every day, always.
+    # Behind pace -> publish bar drops; late-day + unmet -> catchup burst.
+    today = now.date().isoformat()
+    day_counts = state.get("day_counts", {})
+    posts_today = day_counts.get(today, 0)
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "4"))
+    discount, catchup = floor_plan(posts_today, now.hour)
+    eff_gap = 20 if catchup else int(os.getenv("MIN_POST_GAP_MINUTES", "90"))
+    eff_bar = max(int(os.getenv("FLOOR_MIN_SCORE", "2")),
+                  int(os.getenv("MIN_PUBLISH_SCORE", "6")) - discount)
+    log(f"floor: {posts_today}/{floor} posts today, bar={eff_bar}, "
+        f"gap={eff_gap}{' CATCHUP' if catchup else ''}")
+
+    # Cooldown: never post more often than the effective gap (anti-spam:
     # cron runs every 20 min but the page posts ~11/day, not 72).
     last = state.get("last_post") if isinstance(state.get("last_post"), dict) else None
     if last and last.get("at"):
         try:
             gap = (now - datetime.fromisoformat(last["at"])).total_seconds() / 60
-            if gap < int(os.getenv("MIN_POST_GAP_MINUTES", "90")):
+            if gap < eff_gap:
                 log(f"Cooldown: last post {gap:.0f} min ago. Skipping.")
                 return 0
         except Exception:
             pass
 
     # Daily cap, matching the page's real cadence (~11/day).
-    today = now.date().isoformat()
-    day_counts = state.get("day_counts", {})
-    if day_counts.get(today, 0) >= int(os.getenv("MAX_POSTS_PER_DAY", "11")):
+    if posts_today >= int(os.getenv("MAX_POSTS_PER_DAY", "11")):
         log("Daily cap reached. Skipping.")
         return 0
 
@@ -1487,7 +1521,7 @@ def main() -> int:
     if mix_log:
         log(mix_log)
     pick = fresh[0]
-    min_score = int(os.getenv("MIN_PUBLISH_SCORE", "6"))
+    min_score = eff_bar  # daily floor may have lowered the bar
     if pick["score"] < min_score:
         log(f"Top pick score={pick['score']} < {min_score}. Too weak, skipping.")
         return 0
