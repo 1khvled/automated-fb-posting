@@ -686,17 +686,45 @@ def repair_post(post: str) -> str:
     return body + "\n\n" + tag_block
 
 
-# Virality engine: 60% rage-bait/engagement, 40% serious. Rage is detected
+# Virality engine: 60% rage-bait, 40% serious. Rage is detected
 # from proven traction (X likes/reposts, TG views) + conflict language.
 # Content alone can contribute max 2 (never flips mode solo); engagement
 # decides. Viral-mode posts decay slower (hot takes live for days) and get
 # a spicier rewrite prompt. Facts stay exact — only the framing gets hot.
+# The 60/40 ratio is enforced by apply_rage_mix (3 viral per 5 posts).
 RAGE_WORDS = [
     "slams", "blasts", "destroys", "humiliates", "exposes", "warns",
     "threatens", "leaked", "leak", "scandal", "outrage", "roasts",
     "eviscerates", "crushes", "calls out", "fumes", "erupts", "fraud",
     "meltdown", "bloodbath", "unhinged", "terrifying", "disaster",
+    "crash", "collapse", "plunge", "plummet", "tanks", "tumbles",
+    "nosedive", "slump", "rout", "wipeout", "panic", "chaos", "turmoil",
+    "backlash", "feud", "clash", "showdown", "ultimatum",
+    "sues", "lawsuit", "probe", "resigns", "layoffs", "fired",
+    "banned", "ban", "bubble", "ponzi", "dumps",
 ]
+
+
+def apply_rage_mix(fresh: list, modes: list) -> str | None:
+    """Enforce ~60% rage-bait mix: target RAGE_TARGET viral posts out of
+    every 5 (default 3). Below target the best viral candidate gets
+    +RAGE_BOOST (default 3, usually wins); above target the best serious
+    candidate gets +2 to hold the serious floor. Returns log line or None."""
+    viral_n = modes.count("viral")
+    target = int(os.getenv("RAGE_TARGET", "3"))
+    if viral_n < target:
+        need, boost = "viral", int(os.getenv("RAGE_BOOST", "3"))
+    elif viral_n >= target + 1:
+        need, boost = "serious", 2
+    else:
+        return None
+    for c in fresh:
+        if c.get("mode", "serious") == need:
+            c["score"] = round(c["score"] + boost, 1)
+            fresh.sort(key=lambda c: c["score"], reverse=True)
+            return (f"rage mix {viral_n}/5 viral: +{boost} to "
+                    f"[{c['feed']}] {need} pick")
+    return None
 
 
 def viral_bonus(text: str, likes: int = 0, reposts: int = 0,
@@ -1453,18 +1481,11 @@ def main() -> int:
                 log(f"Video draft failed QC: {vprobs}")
         else:
             log("No video candidate clears the bar today (yet).")
-    # 60/40 mix pressure: if the last 5 posts skew hard one way, boost the
-    # best candidate of the starved mode for this run.
+    # 60% RAGE MIX: target 3 viral posts out of every 5 (see apply_rage_mix).
     modes = [h.get("mode", "serious") for h in state.get("history", [])[-5:]]
-    need = ("serious" if modes.count("viral") >= 4 else
-            "viral" if modes.count("serious") >= 4 else None)
-    if need:
-        for c in fresh:
-            if c.get("mode", "serious") == need:
-                c["score"] = round(c["score"] + 2, 1)
-                log(f"mix balance: +2 to [{c['feed']}] {need} pick")
-                break
-        fresh.sort(key=lambda c: c["score"], reverse=True)
+    mix_log = apply_rage_mix(fresh, modes)
+    if mix_log:
+        log(mix_log)
     pick = fresh[0]
     min_score = int(os.getenv("MIN_PUBLISH_SCORE", "6"))
     if pick["score"] < min_score:
