@@ -24,6 +24,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Ensure photo cache dir exists
+        run: mkdir -p .photo_cache
+
       - name: Cache photos (download once, reuse)
         uses: actions/cache@v4
         with:
