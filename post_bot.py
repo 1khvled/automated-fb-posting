@@ -1299,6 +1299,24 @@ def _topic_raw_files(text: str, link: str, n: int = 2) -> list:
     return picked
 
 
+def _live_scene(query: str):
+    """Fresh web photo for split scenes: Google first, Openverse next.
+    Returns bytes or None. Never raises."""
+    try:
+        gdata, _ = _google_photo(query)
+        if gdata and _big_enough(gdata):
+            return gdata
+    except Exception:
+        pass
+    try:
+        odata, _, _ = _openverse_photo(query)
+        if odata and _big_enough(odata):
+            return odata
+    except Exception:
+        pass
+    return None
+
+
 def split_card(candidate: dict):
     """(bytes, ext, src) two-panel composite for EVERY post: logo+face when
     the story names both, otherwise paired with a curated topic photo
@@ -1326,6 +1344,12 @@ def split_card(candidate: dict):
             except Exception:
                 logo = None
     scenes: list = []
+    live = _live_scene(" ".join(
+        [k for k in (candidate.get("keywords") or []) if not k.startswith("+")][:3])
+        or text[:80])
+    if live:
+        scenes.append(live)
+        log("split scene: live web photo")
     for fn in _topic_raw_files(text, link, 2):
         p = os.path.join(ASSETS_DIR, "topics", fn)
         if os.path.exists(p):
