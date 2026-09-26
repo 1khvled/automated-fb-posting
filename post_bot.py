@@ -730,6 +730,10 @@ def sanitize(post: str) -> str:
     post = re.sub(r"_([^_]+)_", lambda m: m.group(1).upper(), post)
     # belt and suspenders: no asterisk or backtick may reach Facebook
     post = post.replace("\r", "")
+    # strip CI workflow-command sequences (::group::, ::notice::, ##[..])
+    # so LLM output can never swallow log sections or break rendering
+    post = re.sub(r"::(?i:group|endgroup|notice|warning|error|debug|add-mask|set-output|set-env|save-state|echo|command)\b", ":", post)
+    post = post.replace("##[", "#[")
     post = post.replace("*", "").replace("`", "")
     return post
 
