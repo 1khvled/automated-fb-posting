@@ -1490,8 +1490,32 @@ def publish_photo_to_facebook(image_bytes: bytes, ext: str,
     return resp.get("post_id") or resp.get("id", "")
 
 
-def publish_to_facebook(message: str) -> str:
+def publish_story_from_photo(image_bytes: bytes, ext: str) -> str:
+    """Re-post a feed photo as a 24h Page Story (POST_STORIES toggle).
+    Two-step flow: unpublished upload -> /photo_stories. Bonus step that
+    must never fail the run — callers wrap it in try/except."""
     page_id = os.getenv("FB_PAGE_ID", "").strip()
+    token = os.getenv("FB_PAGE_ACCESS_TOKEN", "").strip()
+    if not page_id or not token:
+        raise RuntimeError("FB_PAGE_ID / FB_PAGE_ACCESS_TOKEN not set")
+    r = requests.post(
+        f"https://graph.facebook.com/{FB_API_VERSION}/{page_id}/photos",
+        files={"source": (f"story.{ext}", image_bytes, f"image/{ext}")},
+        data={"published": "false", "access_token": token}, timeout=60)
+    up = r.json()
+    pid = up.get("id")
+    if r.status_code != 200 or not pid:
+        raise RuntimeError(f"story upload failed: {json.dumps(up)[:200]}")
+    r2 = requests.post(
+        f"https://graph.facebook.com/{FB_API_VERSION}/{page_id}/photo_stories",
+        json={"photo_id": pid, "access_token": token}, timeout=20)
+    st = r2.json()
+    if r2.status_code != 200 or not st.get("success"):
+        raise RuntimeError(f"story publish failed: {json.dumps(st)[:200]}")
+    return st.get("post_id", "")
+
+
+def publish_to_facebook(message: str) -> str:    page_id = os.getenv("FB_PAGE_ID", "").strip()
     token = os.getenv("FB_PAGE_ACCESS_TOKEN", "").strip()
     if not page_id or not token:
         raise RuntimeError("FB_PAGE_ID / FB_PAGE_ACCESS_TOKEN not set")
@@ -1865,6 +1889,12 @@ def main() -> int:
         if img:
             post_id = publish_photo_to_facebook(img, ext, post)
             log(f"Published WITH PHOTO ({src})! FB id={post_id}")
+            if os.getenv("POST_STORIES", "1") == "1":
+                try:
+                    story_id = publish_story_from_photo(img, ext)
+                    log(f"Story published! id={story_id}")
+                except Exception as ex:
+                    log(f"Story skipped (feed post is live): {ex}")
         else:
             log("WARNING: no photo found anywhere, posting text-only.")
             post_id = publish_to_facebook(post)

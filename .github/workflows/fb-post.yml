@@ -50,6 +50,7 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           DRY_RUN: ${{ inputs.dry_run || '0' }}
           FORCE_POST: ${{ inputs.force || '0' }}
+          POST_STORIES: "1"
           MAX_AGE_MINUTES: "2880"
           MIN_VIDEO_SCORE: "4"
           VIDEO_DEADLINE_HOUR: "20"
