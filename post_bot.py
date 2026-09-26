@@ -744,7 +744,9 @@ VIRAL MODE (this story already has traction — squeeze it):
 - Open with your hardest punch: caps, conflict, stakes. Name the winner and the loser.
 - One sharp, opinionated closer line — raised eyebrow, not essay.
 - End the body with a debate-sparking question OR a mic-drop line (viral mode only).
-- Facts stay exact: spice the framing, never the facts. No invented quotes or numbers."""
+- Facts stay exact: spice the framing, never the facts. No invented quotes or numbers.
+- Never explicitly ask for likes, shares, comments or follows — engagement
+  bait violates monetization policy and can kill page eligibility."""
 
 
 def rewrite_with_llm(candidate: dict) -> str:
@@ -784,6 +786,16 @@ def rewrite_with_llm(candidate: dict) -> str:
     raise RuntimeError("All LLM providers failed: " + " | ".join(errors))
 
 
+# Engagement bait: asking for likes/shares/comments violates Partner
+# Monetization Policies and can permanently kill monetization eligibility.
+# Debate-sparking questions are fine; explicit solicitation is rejected.
+ENGAGEMENT_BAIT = [
+    "comment below", "share this", "share if", "tag a friend",
+    "like and share", "like if", "follow for more", "comment yes",
+    "drop a comment", "type yes",
+]
+
+
 def quality_check(post: str, source_title: str) -> list[str]:
     problems = []
     if len(post) > 1000:
@@ -799,6 +811,8 @@ def quality_check(post: str, source_title: str) -> list[str]:
         problems.append("contains URL (not allowed unless requested)")
     if "*" in post or "`" in post:
         problems.append("contains markdown asterisk/backtick (FB shows it literally)")
+    if any(p in post.lower() for p in ENGAGEMENT_BAIT):
+        problems.append("engagement bait (kills monetization eligibility)")
     if re.search(r"(?m)^#{1,6}\s", post):
         problems.append("contains markdown header")
     # originality: post must not contain the full headline verbatim
@@ -1352,6 +1366,21 @@ def floor_plan(posts_today: int, hour: int):
     return discount, catchup
 
 
+def fb_token_ok() -> bool:
+    """Fail fast if the Page token is dead (saves LLM quota and log spam)."""
+    page_id = os.getenv("FB_PAGE_ID", "").strip()
+    token = os.getenv("FB_PAGE_ACCESS_TOKEN", "").strip()
+    if not page_id or not token:
+        return False
+    try:
+        r = requests.get(
+            f"https://graph.facebook.com/{FB_API_VERSION}/{page_id}",
+            params={"fields": "id", "access_token": token}, timeout=15)
+        return r.status_code == 200
+    except Exception:
+        return False
+
+
 def main() -> int:
     max_age = int(os.getenv("MAX_AGE_MINUTES", "2880"))  # 2 days max
     state_file = os.getenv("STATE_FILE", "posted.json")
@@ -1360,6 +1389,14 @@ def main() -> int:
     state = load_state(state_file)
     posted = set(state.get("posted_hashes", []))
     now = datetime.now(timezone.utc)
+
+    # Fail fast on a dead FB token (they expire ~60 days): no point burning
+    # news-fetch + LLM quota when publishing is impossible. Dry runs proceed.
+    if not dry_run and not fb_token_ok():
+        log("FB token invalid/expired — mint a fresh 60-day Page token "
+            "(README section 1, step 5) and update the FB_PAGE_ACCESS_TOKEN "
+            "secret. Skipping this run.")
+        return 5
 
     # Self-improvement: refresh engagement multipliers (max once/day),
     # then score this run with them. The algo gets smarter every day.

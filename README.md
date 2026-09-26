@@ -61,7 +61,7 @@ python -c "import post_bot; print(len(post_bot.fetch_candidates(70))))"
 
 Full dry run needs an LLM key:
 ```
-set ANTHROPIC_API_KEY=sk-ant-...
+set GEMINI_API_KEYS=key1,key2
 set DRY_RUN=1
 python post_bot.py
 ```
@@ -71,6 +71,27 @@ python post_bot.py
 - `RSS_FEEDS` / `TOPIC_WEIGHTS` / `EXCLUDE` / `X_HANDLES` in `post_bot.py` control what qualifies.
 - `MAX_AGE_MINUTES` (default 70) = how fresh news must be. Cron is 20 min, 70 gives overlap.
 - Voice rules live in `SYSTEM_PROMPT` — mirrors the Ethan Cole skill (verify → rewrite → context → hook → QC).
+
+## 5. Monetization roadmap (365-day goal)
+
+Facebook Content Monetization is **invite-only** (no application). Realistic bar:
+~10K followers, strong 28-day views/watch time, 5+ videos, original content,
+clean policy record. Stars unlock earlier (~500 followers).
+
+What the bot already does for this: 4–11 posts/day consistency, daily reel
+(watch time), 60% rage mix (reach), QC bans on markdown + engagement bait
+(asking for likes/shares/comments kills eligibility — never do it).
+
+What you must do (can't be automated):
+1. **Keep the token alive.** Page tokens expire ~60 days. When the bot logs
+   `FB token invalid/expired`, repeat README section 1 step 5 and update the
+   `FB_PAGE_ACCESS_TOKEN` secret. No token = no posts = no growth.
+2. **Interest form:** FB mobile app → Professional Dashboard → Monetization →
+   Content Monetization → submit the interest form.
+3. **Originality:** re-uploaded viral videos risk "unoriginal content" flags.
+   Original clips/charts perform safest for eligibility.
+4. **Track:** `scripts/metrics.py` snapshots followers + 28-day reach every
+   month (`metrics.jsonl`). Review it here and we steer the algo.
 
 ## Files
 
