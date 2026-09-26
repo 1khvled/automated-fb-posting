@@ -734,6 +734,9 @@ def sanitize(post: str) -> str:
     # so LLM output can never swallow log sections or break rendering
     post = re.sub(r"::(?i:group|endgroup|notice|warning|error|debug|add-mask|set-output|set-env|save-state|echo|command)\b", ":", post)
     post = post.replace("##[", "#[")
+    # strip control chars (keep \n, \t): a single NUL/vertical-tab from
+    # LLM output breaks the CI log stream and swallows all later lines
+    post = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", post)
     post = post.replace("*", "").replace("`", "")
     return post
 
