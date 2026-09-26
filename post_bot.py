@@ -1431,6 +1431,9 @@ def credit_for(feed: str, src: str) -> str:
         return "Wikimedia Commons"
     if src == "google":
         return "Google Images"
+    if (src or "").startswith("openverse:"):
+        who = src.split(":", 1)[1].strip() or "Openverse"
+        return f"{who} via Openverse"
     if feed.startswith("X @"):
         return "@" + feed[3:]
     if feed.startswith("TG "):
@@ -1558,6 +1561,30 @@ def _google_photo(query: str):
     return None, None
 
 
+def _openverse_photo(query: str):
+    """Openverse (open-licensed Flickr etc.) — keyless, commercial-use
+    filter, dead-link filter. Returns (bytes, ext, creator) or Nones."""
+    if not query or not query.strip():
+        return None, None, None
+    try:
+        r = requests.get("https://api.openverse.org/v1/images/",
+                         params={"q": query[:100], "page_size": 6,
+                                 "filter_dead": "true",
+                                 "license_type": "commercial"},
+                         headers={"User-Agent": "ethan-cole-fb-bot/1.0"},
+                         timeout=20)
+        for it in r.json().get("results", []):
+            u = it.get("url") or ""
+            if (it.get("width") or 0) < 900:
+                continue
+            data, ext = _download_image(u, min_bytes=30000)
+            if data and _big_enough(data):
+                return data, ext, (it.get("creator") or "").strip()
+    except Exception as ex:
+        log(f"Openverse search failed: {ex}")
+    return None, None, None
+
+
 def find_photo(candidate: dict):
     """(bytes, ext, src). Every image gets debranded + Ethan Cole footer;
     logo card when the story names an entity but has no photo."""
@@ -1615,6 +1642,12 @@ def find_photo(candidate: dict):
             or candidate.get("title", "")[:80])
         if gdata:
             raw = (gdata, "google")
+    if not raw:
+        odata, _oext, _ocreator = _openverse_photo(
+            " ".join((candidate.get("keywords") or [])[:3])
+            or candidate.get("title", "")[:80])
+        if odata:
+            raw = (odata, f"openverse:{_ocreator or 'Openverse'}")
     if not raw:
         # No blind web search: a relevant curated photo always beats a
         # random one. Neutral finance fallback rotates per story link.
