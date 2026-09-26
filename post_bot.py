@@ -276,16 +276,28 @@ def fetch_x_candidates(max_age_minutes: int):
                 photo_url = None
                 video_url = None
                 try:
-                    for ph in ((p.get("media") or {}).get("photos") or []):
-                        u = ph.get("url") or ph.get("src")
-                        if u:
-                            photo_url = u
-                            break
-                    for vd in ((p.get("media") or {}).get("videos") or []):
-                        u = vd.get("url") or vd.get("src")
-                        if u:
-                            video_url = u
-                            break
+                    def _pick(items):
+                        best, best_a, first = None, -1, None
+                        for m in items or []:
+                            u = m.get("url") or m.get("src")
+                            if not u:
+                                continue
+                            if first is None:
+                                first = u
+                            try:
+                                a = int(m.get("width") or 0) * int(m.get("height") or 0)
+                            except Exception:
+                                a = 0
+                            if a > best_a:
+                                best, best_a = u, a
+                        return best or first
+                    media = p.get("media") or {}
+                    # quoted tweets often carry the actual news photo
+                    qm = (p.get("quote") or {}).get("media") or {}
+                    photos = list(media.get("photos") or []) + list(qm.get("photos") or [])
+                    videos = list(media.get("videos") or []) + list(qm.get("videos") or [])
+                    photo_url = _pick(photos)
+                    video_url = _pick(videos)
                 except Exception:
                     photo_url = None
                 title = text if len(text) <= 200 else text[:197] + "..."
@@ -1187,6 +1199,12 @@ def _wiki_portrait(name: str):
 
 def _fetch_face_raw(wiki: str, queries: list):
     """Raw (unbranded) face bytes, for face cards and split composites."""
+    try:
+        ov, _, _ = _openverse_photo(f"{wiki} portrait")
+        if ov and _big_enough(ov):
+            return ov
+    except Exception:
+        pass
     data = _wiki_portrait(wiki)
     if data:
         return data
