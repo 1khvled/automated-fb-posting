@@ -1459,7 +1459,30 @@ def publish_to_facebook(message: str) -> str:
     return data.get("id", "")
 
 
-def floor_plan(posts_today: int, hour: int):
+def corroboration_boost(candidates: list) -> int:
+    """Cross-source verification: a story appearing in 2+ independent feeds
+    gets +2 (independent confirmation beats single-source claims). Returns
+    the number of corroborated stories. Social-only single-source items keep
+    their score — the rewrite prompt forces 'reportedly' framing for those."""
+    groups: dict = {}
+    for c in candidates:
+        key = re.sub(r"[^a-z0-9 ]", "",
+                     (c.get("title") or "").lower()).split()[:10]
+        key = " ".join(key)
+        if len(key) >= 20:
+            groups.setdefault(key, {"feeds": set(), "items": []})
+            groups[key]["feeds"].add(c.get("feed", ""))
+            groups[key]["items"].append(c)
+    n = 0
+    for g in groups.values():
+        if len(g["feeds"]) >= 2:
+            n += 1
+            for c in g["items"]:
+                c["score"] = round(c["score"] + 2, 1)
+                if "+corroborated" not in (c.get("keywords") or []):
+                    (c.setdefault("keywords", [])).append("+corroborated")
+    candidates.sort(key=lambda c: c["score"], reverse=True)
+    return n
     """Daily post floor (MIN_POSTS_PER_DAY, default 4).
 
     Returns (score_discount, catchup). Behind pace -> discount lowers the
@@ -1566,6 +1589,9 @@ def main() -> int:
                   + fetch_tg_candidates(max_age))
     candidates.sort(key=lambda c: c["score"], reverse=True)
     log(f"{len(candidates)} candidates passed filter")
+    n_corr = corroboration_boost(candidates)
+    if n_corr:
+        log(f"Corroborated: {n_corr} stories confirmed by 2+ feeds (+2)")
     fresh = [c for c in candidates if item_hash(c["link"], c["title"]) not in posted]
     # Cluster guard: squawk wires repeat one story 20+ ways (e.g. 20 Hammack
     # headlines). Skip anything near-identical to a recently posted title.

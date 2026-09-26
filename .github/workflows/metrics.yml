@@ -7,7 +7,7 @@ on:
 
 permissions:
   contents: write
-  issues: write     # monthly growth-report issue
+  issues: write     # monthly growth-report issue + failure alerts
 
 jobs:
   metrics:
@@ -37,7 +37,18 @@ jobs:
           git config user.email "fb-bot@users.noreply.github.com"
           git add metrics.jsonl || true
           git diff --staged --quiet || git commit -m "metrics: monthly snapshot [skip ci]" || true
+          git pull --rebase || true
           git push || true
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          OPEN=$(gh issue list --repo ${{ github.repository }} --search "[bot-alert] in:title state:open" --json number --jq length)
+          if [ "$OPEN" = "0" ]; then
+            gh issue create --repo ${{ github.repository }} --title "[bot-alert] Metrics snapshot failed" --body "Monthly metrics run failed. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
 
       - name: Growth report issue
         if: success()
