@@ -1498,6 +1498,9 @@ def corroboration_boost(candidates: list) -> int:
                     (c.setdefault("keywords", [])).append("+corroborated")
     candidates.sort(key=lambda c: c["score"], reverse=True)
     return n
+
+
+def floor_plan(posts_today: int, hour: int):
     """Daily post floor (MIN_POSTS_PER_DAY, default 4).
 
     Returns (score_discount, catchup). Behind pace -> discount lowers the
