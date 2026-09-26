@@ -1068,10 +1068,10 @@ def _logo_card(data: bytes):
         return None
     logo.thumbnail((760, 380))
     card = Image.new("RGB", (1200, 630), (11, 18, 32))
-    card.paste(logo, ((1200 - logo.size[0]) // 2, (540 - logo.size[1]) // 2),
+    card.paste(logo, ((1200 - logo.size[0]) // 2, (578 - logo.size[1]) // 2),
                logo)
     buf = io.BytesIO()
-    _footer(card, 90).save(buf, "JPEG", quality=88)
+    _footer(card).save(buf, "JPEG", quality=88)
     return buf.getvalue(), "jpeg"
 
 
@@ -1229,22 +1229,23 @@ def _split_pair(left: bytes, right: bytes, left_logo=False,
     except Exception:
         return None
     card = Image.new("RGB", (1200, 630), (11, 18, 32))
+    body_h = 630 - max(46, 630 // 12)  # 578: panels meet the footer exactly
     if left_logo:
         left_im = left_im.convert("RGBA")
         left_im.thumbnail((520, 380))
         card.paste(left_im, ((600 - left_im.size[0]) // 2,
-                             (540 - left_im.size[1]) // 2), left_im)
+                             (body_h - left_im.size[1]) // 2), left_im)
     else:
-        card.paste(_cover(left_im.convert("RGB"), 600, 540), (0, 0))
+        card.paste(_cover(left_im.convert("RGB"), 600, body_h), (0, 0))
     if right_face:
-        card.paste(_cover(right_im.convert("RGB"), 600, 540,
+        card.paste(_cover(right_im.convert("RGB"), 600, body_h,
                            top_bias=True), (600, 0))
     else:
-        card.paste(_cover(right_im.convert("RGB"), 600, 540), (600, 0))
+        card.paste(_cover(right_im.convert("RGB"), 600, body_h), (600, 0))
     d = ImageDraw.Draw(card)
-    d.line([600, 0, 600, 540], fill=(255, 255, 255), width=3)
+    d.line([600, 0, 600, body_h], fill=(255, 255, 255), width=3)
     buf = io.BytesIO()
-    _footer(card, 90).save(buf, "JPEG", quality=88)
+    _footer(card).save(buf, "JPEG", quality=88)
     return buf.getvalue(), "jpeg"
 
 
@@ -1428,6 +1429,8 @@ def credit_for(feed: str, src: str) -> str:
     if (src or "").startswith("wikimedia") or src == "entity-logo" \
             or (src or "").startswith("topic:"):
         return "Wikimedia Commons"
+    if src == "google":
+        return "Google Images"
     if feed.startswith("X @"):
         return "@" + feed[3:]
     if feed.startswith("TG "):
@@ -1529,6 +1532,32 @@ def _big_enough(data: bytes) -> bool:
         return False
 
 
+def _google_photo(query: str):
+    """Google Custom Search image lookup (needs GOOGLE_CSE_KEY + CX).
+    Real editorial photos instead of stock randomness. Silent skip if
+    unconfigured. Returns (bytes, ext) or (None, None)."""
+    key = os.getenv("GOOGLE_CSE_KEY", "").strip()
+    cx = os.getenv("GOOGLE_CSE_CX", "").strip()
+    if not (key and cx):
+        return None, None
+    try:
+        r = requests.get("https://www.googleapis.com/customsearch/v1",
+                         params={"key": key, "cx": cx, "q": query,
+                                 "searchType": "image", "num": 4,
+                                 "imgSize": "large", "safe": "active"},
+                         timeout=20)
+        for it in r.json().get("items", []):
+            u = it.get("link") or ""
+            if not u.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
+                continue
+            data, ext = _download_image(u, min_bytes=20000)
+            if data and _big_enough(data):
+                return data, ext
+    except Exception as ex:
+        log(f"Google image search failed: {ex}")
+    return None, None
+
+
 def find_photo(candidate: dict):
     """(bytes, ext, src). Every image gets debranded + Ethan Cole footer;
     logo card when the story names an entity but has no photo."""
@@ -1580,6 +1609,12 @@ def find_photo(candidate: dict):
         timg, text_, tsrc = topic_photo(candidate)
         if timg:
             return timg, text_, tsrc
+    if not raw:
+        gdata, _gext = _google_photo(
+            " ".join((candidate.get("keywords") or [])[:3])
+            or candidate.get("title", "")[:80])
+        if gdata:
+            raw = (gdata, "google")
     if not raw:
         # No blind web search: a relevant curated photo always beats a
         # random one. Neutral finance fallback rotates per story link.
@@ -1674,17 +1709,67 @@ def publish_photo_to_facebook(image_bytes: bytes, ext: str,
     return resp.get("post_id") or resp.get("id", "")
 
 
-def publish_story_from_photo(image_bytes: bytes, ext: str) -> str:
-    """Re-post a feed photo as a 24h Page Story (POST_STORIES toggle).
-    Two-step flow: unpublished upload -> /photo_stories. Bonus step that
-    must never fail the run — callers wrap it in try/except."""
+EMOJI_STRIP = None  # lazy compiled (runner fonts lack color emoji)
+
+
+def _story_text(caption: str) -> list:
+    """Body lines for the story card: no hashtags, no tofu emoji."""
+    global EMOJI_STRIP
+    if EMOJI_STRIP is None:
+        import re as _re
+        EMOJI_STRIP = _re.compile(
+            "[\U0001F300-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF\uFE0F]")
+    body = re.sub(r"((?:#\w+\s*)+)\s*$", "", caption).strip()
+    lines = [EMOJI_STRIP.sub("", ln).strip()
+             for ln in body.splitlines() if ln.strip()]
+    return [ln for ln in lines if ln]
+
+
+def _story_card(caption: str, image: bytes):
+    """1080x1920 story creative: photo top, the actual post text below,
+    house footer. This puts the POST (not just a picture) on stories."""
+    from PIL import Image, ImageDraw
+    import textwrap
+    try:
+        im = Image.open(io.BytesIO(image)).convert("RGB")
+    except Exception:
+        return None
+    # strip our branded footer bar (bottom ~9%) so it doesn't sit mid-story
+    im = im.crop((0, 0, im.size[0], int(im.size[1] * 0.91)))
+    W, H = 1080, 1920
+    card = Image.new("RGB", (W, H), (11, 18, 32))
+    card.paste(_cover(im, W, 1000), (0, 0))
+    d = ImageDraw.Draw(card)
+    d.line([0, 1000, W, 1000], fill=(255, 255, 255), width=3)
+    y = 1045
+    for i, ln in enumerate(_story_text(caption)[:10]):
+        size = 54 if i == 0 else 36
+        width = 20 if i == 0 else 30
+        for wline in textwrap.wrap(ln, width=width)[:4 if i == 0 else 3]:
+            if y > 1760:
+                break
+            d.text((50, y), wline, font=_font(size), fill=(255, 255, 255))
+            y += size + 10
+    buf = io.BytesIO()
+    _footer(card, 90).save(buf, "JPEG", quality=88)
+    return buf.getvalue(), "jpeg"
+
+
+def publish_story_from_photo(image_bytes: bytes, ext: str,
+                             caption: str = "") -> str:
+    """Publish the POST as a 24h Page Story (POST_STORIES toggle): renders
+    the photo + caption as a vertical story card, uploads it unpublished,
+    then publishes via /photo_stories. Bonus step that must never fail
+    the run — callers wrap it in try/except."""
     page_id = os.getenv("FB_PAGE_ID", "").strip()
     token = os.getenv("FB_PAGE_ACCESS_TOKEN", "").strip()
     if not page_id or not token:
         raise RuntimeError("FB_PAGE_ID / FB_PAGE_ACCESS_TOKEN not set")
+    creative = _story_card(caption, image_bytes) if caption else None
+    creative = creative or (image_bytes, ext)
     r = requests.post(
         f"https://graph.facebook.com/{FB_API_VERSION}/{page_id}/photos",
-        files={"source": (f"story.{ext}", image_bytes, f"image/{ext}")},
+        files={"source": ("story.jpeg", creative[0], "image/jpeg")},
         data={"published": "false", "access_token": token}, timeout=60)
     up = r.json()
     pid = up.get("id")
@@ -2084,7 +2169,7 @@ def main() -> int:
             log(f"Published WITH PHOTO ({src})! FB id={post_id}")
             if os.getenv("POST_STORIES", "1") == "1":
                 try:
-                    story_id = publish_story_from_photo(img, ext)
+                    story_id = publish_story_from_photo(img, ext, post)
                     log(f"Story published! id={story_id}")
                 except Exception as ex:
                     log(f"Story skipped (feed post is live): {ex}")
