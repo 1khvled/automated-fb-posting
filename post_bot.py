@@ -664,6 +664,9 @@ def repair_post(post: str) -> str:
     # strip any LLM-written attribution lines (publisher owns attribution)
     post = re.sub(r"(?im)(?<![\w-])sources?\s*:[^#\n]*", "", post)
     post = re.sub(r"(?m)^[^\n]*[🔗📸][^\n]*$", "", post)
+    # strip bare domains the URL ban missed (www.x, x.com/...)
+    post = re.sub(r"(?i)\S*(www\.|[a-z0-9-]+\.(com|org|net|io))\S*", "", post)
+    post = re.sub(r"[ \t]+", " ", post)
     post = re.sub(r"\n{3,}", "\n\n", post)
     tags = re.findall(r"#\w+", post)
     seen, kept = set(), []
@@ -815,6 +818,8 @@ def quality_check(post: str, source_title: str) -> list[str]:
         problems.append(f"too many hashtags ({len(tags)})")
     if "http" in post:
         problems.append("contains URL (not allowed unless requested)")
+    if re.search(r"(?i)\bwww\.|\.(com|org|net|io)\b", post):
+        problems.append("contains bare domain (no URLs of any form)")
     if "*" in post or "`" in post:
         problems.append("contains markdown asterisk/backtick (FB shows it literally)")
     if any(p in post.lower() for p in ENGAGEMENT_BAIT):
@@ -1398,10 +1403,20 @@ def _download_video(url: str):
         if len(data) > 250000000 or len(data) < 50000:
             log(f"Video size out of range: {len(data)} bytes")
             return None
+        if not _looks_like_video(data):
+            log("Video bytes are not mp4/webm (likely an error page), rejecting")
+            return None
         return data
     except Exception as ex:
         log(f"Video download failed: {ex}")
         return None
+
+
+def _looks_like_video(data: bytes) -> bool:
+    """Magic-bytes gate: mp4 (ftyp at offset 4) or webm (EBML header)."""
+    if not data or len(data) < 12:
+        return False
+    return data[4:8] == b"ftyp" or data[:4] == b"\x1aE\xdf\xa3"
 
 
 def publish_video_to_facebook(video_bytes: bytes, description: str) -> str:
