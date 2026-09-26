@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "d248d07438581e6c",
-    "fb_id": "1264009986803820_122114849283472689",
-    "title": "TRUMP REJECTS IRAN\u2019S HORMUZ PEACE PLAN, EXPECTS BOMBING COULD RESUME AFTER MIDTERMS \u2014 WSJ President Donald Trump has rejected Iran\u2019s proposal to reopen the Strait of Hormuz and halt regional fighti...",
-    "link": "https://x.com/DeItaone/status/2103758318095200428",
+    "hash": "a9eab993ee21cbc4",
+    "fb_id": "945513651452593",
+    "title": "A lot of people are saying Anthropic has already nerfed Claude Opus 5.5. We're launching NerfBench on BridgeBench tomorrow. We have the day 1 results. Tomorrow morning we show you the retest. Is Cl...",
+    "link": "https://x.com/bridgemindai/status/2103825430189109688",
     "mode": "serious",
-    "at": "2026-09-26T09:32:19.579664+00:00"
+    "kind": "video",
+    "at": "2026-09-26T13:53:38.775309+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -14,11 +15,12 @@
     "73449aac208c1916",
     "77abba66d602fa6d",
     "7e0de86880325769",
+    "a9eab993ee21cbc4",
     "b4df5090744d57db",
     "d248d07438581e6c"
   ],
   "day_counts": {
-    "2026-09-26": 6
+    "2026-09-26": 7
   },
   "recent_titles": [
     "Global oil markets are facing a historic loss of diesel supply: Diesel supply from the Middle East dropped by -835,000 barrels per day on average between March and August 2026 compared to the same ...",
@@ -28,7 +30,8 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC Commissioner Hester Peirce calls to end mass KYC data collection, warning it puts crypto holders at risk of phishing and physical attacks. Pierce says the current KYC/AML system cre...",
     "BREAKING: The S&P 500 rises on reports that talks between the US and Iran have entered a \"technical stage,\" per Al Jazeera. Details include: 1. Negotiations in New York have reportedly moved beyond...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC issues new guidance clarifying securities laws on crypto.",
-    "TRUMP REJECTS IRAN\u2019S HORMUZ PEACE PLAN, EXPECTS BOMBING COULD RESUME AFTER MIDTERMS \u2014 WSJ President Donald Trump has rejected Iran\u2019s proposal to reopen the Strait of Hormuz and halt regional fighti..."
+    "TRUMP REJECTS IRAN\u2019S HORMUZ PEACE PLAN, EXPECTS BOMBING COULD RESUME AFTER MIDTERMS \u2014 WSJ President Donald Trump has rejected Iran\u2019s proposal to reopen the Strait of Hormuz and halt regional fighti...",
+    "A lot of people are saying Anthropic has already nerfed Claude Opus 5.5. We're launching NerfBench on BridgeBench tomorrow. We have the day 1 results. Tomorrow morning we show you the retest. Is Cl..."
   ],
   "history": [
     {
@@ -98,6 +101,15 @@
       ],
       "mode": "serious",
       "at": "2026-09-26T09:32:19.579664+00:00"
+    },
+    {
+      "fb_id": "945513651452593",
+      "topics": [
+        "ai",
+        "fed"
+      ],
+      "mode": "serious",
+      "at": "2026-09-26T13:53:38.775309+00:00"
     }
   ],
   "tuner": {
@@ -116,5 +128,6 @@
     "by_topic": {},
     "sample_questions": [],
     "updated": "2026-09-26"
-  }
+  },
+  "last_video_post": "2026-09-26"
 }
