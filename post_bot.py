@@ -539,6 +539,8 @@ House style mined from the page's own 80 posts (top performers weighted):
 - Length 400-750 characters. NEVER under 150.
 - Hashtags: ALWAYS include #ethancole first, then 4-5 topic tags from the house set when relevant: #ai #artificialintelligence #technews #finance #stockmarket #investing #breakingnews #marketnews #federalreserve #crypto #bitcoin #openai #nvidia #economy. Exactly 5-6 total. Page data proves 7+ tags collapse engagement.
 - Rewrite originally, never copy the headline. NO URLs in the copy.
+- Do NOT write any source/credit line — the publisher appends source
+  attribution automatically at the end of every post.
 - 'BREAKING'/'JUST IN' only for genuinely fresh news; 'reportedly' if unconfirmed.
 - NEVER use markdown or special formatting: NO asterisks (*) anywhere,
   NO **bold**, NO _underscores_, NO # headers, NO > quotes, NO backticks.
@@ -659,6 +661,10 @@ def repair_post(post: str) -> str:
     first), cap length. Returns the repaired text; caller re-runs
     quality_check on it."""
     post = sanitize(post)
+    # strip any LLM-written attribution lines (publisher owns attribution)
+    post = re.sub(r"(?im)(?<![\w-])sources?\s*:[^#\n]*", "", post)
+    post = re.sub(r"(?m)^[^\n]*[🔗📸][^\n]*$", "", post)
+    post = re.sub(r"\n{3,}", "\n\n", post)
     tags = re.findall(r"#\w+", post)
     seen, kept = set(), []
     for t in tags:
@@ -813,6 +819,8 @@ def quality_check(post: str, source_title: str) -> list[str]:
         problems.append("contains markdown asterisk/backtick (FB shows it literally)")
     if any(p in post.lower() for p in ENGAGEMENT_BAIT):
         problems.append("engagement bait (kills monetization eligibility)")
+    if re.search(r"(?i)(?<![\w-])sources?\s*:|🔗|📸", post):
+        problems.append("contains attribution line (publisher appends it)")
     if re.search(r"(?m)^#{1,6}\s", post):
         problems.append("contains markdown header")
     # originality: post must not contain the full headline verbatim
@@ -997,15 +1005,23 @@ def _logo_card(data: bytes):
 
 
 def _commons_api(params: dict):
-    r = requests.get("https://commons.wikimedia.org/w/api.php",
-                     params={"action": "query", "format": "json", **params},
-                     timeout=20,
-                     headers={"User-Agent": "ethan-cole-fb-bot/1.0"})
-    try:
-        return r.json()
-    except Exception:
-        raise RuntimeError(f"Commons HTTP {r.status_code}: "
-                           f"{r.text[:120]}")
+    last = None
+    for attempt in range(3):  # Commons throttles shared cloud IPs hard
+        try:
+            r = requests.get("https://commons.wikimedia.org/w/api.php",
+                             params={"action": "query", "format": "json",
+                                     **params},
+                             timeout=20,
+                             headers={"User-Agent": "ethan-cole-fb-bot/1.0"})
+            try:
+                return r.json()
+            except Exception:
+                raise RuntimeError(f"Commons HTTP {r.status_code}: "
+                                   f"{r.text[:120]}")
+        except Exception as ex:
+            last = ex
+            time.sleep(5 * (attempt + 1))
+    raise RuntimeError(f"Commons failed 3x: {last}")
 
 
 def _commons_fetch(pages, prefer=()):
@@ -1025,6 +1041,8 @@ def _commons_fetch(pages, prefer=()):
 
 PHOTO_CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                ".photo_cache")
+ASSETS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                          "assets")
 
 
 def _photo_cache_get(key: str):
@@ -1143,6 +1161,18 @@ def entity_logo(candidate: dict):
         hit = _photo_cache_get(ckey)
         if hit:
             return hit, "jpeg"
+        # Bundled logos (assets/logos/): verified real files, zero network,
+        # immune to Commons throttling on cloud IPs.
+        bundled = os.path.join(ASSETS_DIR, "logos", f"{ckey}.png")
+        if os.path.exists(bundled):
+            try:
+                with open(bundled, "rb") as f:
+                    card = _logo_card(f.read())
+                if card:
+                    _photo_cache_put(ckey, card[0])
+                    return card
+            except Exception:
+                pass
         attempts = ([("file", f) for f in files]
                     + [("search", q) for q in queries])
         for i, (kind, target) in enumerate(attempts):
@@ -1198,11 +1228,32 @@ def credit_for(feed: str, src: str) -> str:
     return FEED_CREDIT.get(feed, feed)
 
 
+def outlet_for(feed: str) -> str:
+    """News outlet name for the end-of-post Source line."""
+    if feed.startswith("X @"):
+        return "@" + feed[3:] + " on X"
+    if feed.startswith("TG "):
+        return feed[3:] + " on Telegram"
+    return FEED_CREDIT.get(feed, feed)
+
+
 def add_credit(post: str, credit: str) -> str:
     """Credit the image source in the caption (never baked into the image)."""
     if not credit:
         return post
     line = chr(0x1F4F8) + ": " + credit  # camera emoji + source
+    m = re.search(r"((?:#\w+\s*)+)\s*$", post)
+    if m:
+        return post[:m.start()].rstrip() + "\n" + line + "\n\n" + m.group(1).strip()
+    return post.rstrip() + "\n\n" + line
+
+
+def add_source(post: str, outlet: str) -> str:
+    """Append the news-source line at the end (before hashtags). The LLM
+    must never write its own source line — the publisher owns attribution."""
+    if not outlet:
+        return post
+    line = chr(0x1F517) + " Source: " + outlet  # link emoji + outlet, no URL
     m = re.search(r"((?:#\w+\s*)+)\s*$", post)
     if m:
         return post[:m.start()].rstrip() + "\n" + line + "\n\n" + m.group(1).strip()
@@ -1470,6 +1521,12 @@ def main() -> int:
             deduped.append(c)
             seen.append(c["title"])
     fresh = deduped
+    # VERIFIED-ONLY RULE: never publish an item whose link failed the
+    # reachability check (X/TG items are verified by platform existence).
+    dropped = sum(1 for c in fresh if not c.get("verified"))
+    if dropped:
+        log(f"Dropping {dropped} unverified candidates.")
+        fresh = [c for c in fresh if c.get("verified")]
     log(f"{len(fresh)} fresh (not yet posted)")
 
     if not fresh:
@@ -1508,6 +1565,7 @@ def main() -> int:
                 vpost, vprobs = None, [str(ex)[:100]]
             if vpost and not vprobs:
                 vpost = add_credit(vpost, credit_for(vpick["feed"], "video"))
+                vpost = add_source(vpost, outlet_for(vpick["feed"]))
                 print("--- VIDEO POST ---\n" + vpost + "\n------------")
                 vh = item_hash(vpick["link"], vpick["title"])
                 vid = _download_video(vpick["video_url"])
@@ -1584,6 +1642,7 @@ def main() -> int:
     h = item_hash(pick["link"], pick["title"])
     img, ext, src = find_photo(pick)
     post = add_credit(post, credit_for(pick["feed"], src))
+    post = add_source(post, outlet_for(pick["feed"]))
     log(f"Photo: {src or 'none'} | credit added")
     if dry_run:
         log("DRY_RUN=1, not publishing.")
