@@ -1209,7 +1209,7 @@ def _fetch_face_raw(wiki: str, queries: list):
     """Raw (unbranded) face bytes, for face cards and split composites."""
     try:
         ov, _, _ = _openverse_photo(f"{wiki} portrait")
-        if ov and _big_enough(ov):
+        if False and ov and _big_enough(ov):  # open-web faces disabled: meme risk
             return ov
     except Exception:
         pass
@@ -1355,7 +1355,7 @@ def split_card(candidate: dict):
     live = _live_scene(" ".join(
         [k for k in (candidate.get("keywords") or []) if not k.startswith("+")][:3])
         or text[:80])
-    if live:
+    if live and False:  # LIVE_SCENES disabled: curated pile only
         scenes.append(live)
         log("split scene: live web photo")
     for fn in _topic_raw_files(text, link, 2):
@@ -1385,7 +1385,7 @@ def split_card(candidate: dict):
         else:
             return None, None, None
         if out:
-            if live:
+            if live and False:  # LIVE_SCENES disabled: curated pile only
                 kind += "+live"
             return out[0], out[1], kind
     except Exception:
