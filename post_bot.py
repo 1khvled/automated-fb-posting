@@ -53,6 +53,10 @@ RSS_FEEDS = [
     ("Fed Press", "https://www.federalreserve.gov/feeds/press_all.xml"),
     ("CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss/"),
     ("FinancialJuice Squawk", "https://www.financialjuice.com/feed.ashx?xy=rss"),
+    ("CNBC Politics", "https://www.cnbc.com/id/10000115/device/rss/rss.html"),
+    # Geopolitics with markets lens (power-lane gate keeps pure politics out)
+    ("BBC World", "http://feeds.bbci.co.uk/news/world/rss.xml"),
+    ("AlJazeera", "https://www.aljazeera.com/xml/rss/all.xml"),
     # AI / tech
     ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
     ("The Verge AI", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
@@ -76,6 +80,11 @@ TOPIC_WEIGHTS = {
                    "unemployment", "gdp", "recession"], 2),
     "fed": (["fed", "federal reserve", "interest rate", "rate cut",
              "rate hike"], 1),
+    "power": (["trump", "maga", "white house", "tariff", "executive order",
+               "supreme court", "congress", "senate", "election",
+               "republican", "democrat", "liberal", "woke", "biden",
+               "vance", "modi", "india", "putin", "xi jinping",
+               "netanyahu", "zelensky"], 3),
 }
 
 # Format bonuses learned from the page's top-8 posts:
@@ -186,6 +195,7 @@ X_HANDLES = [
     "KobeissiLetter",   # 2.6M — breaking + context threads
     "FirstSquawk",      # 567K — macro/geopolitics squawk
     "WatcherGuru",      # 4.9M — JUST IN crypto+macro machine
+    "Megatron_ron",      # 3M+ — raw breaking wire, strict min_score gate
     "NFT_Chen",         # Chinese AI scoops, high noise -> strict gate
     "bridgemindai",     # 59K live model tests -> video-only rule
     "clashreport",      # 896K geopolitics wire -> market-moving only
@@ -211,6 +221,7 @@ X_SOURCE_RULES = {
     "DeItaone": {"boost": 2},
     "WatcherGuru": {"boost": 1},
     "NFT_Chen": {"min_score": 6},
+    "Megatron_ron": {"min_score": 6},  # huge breaking feed, strict gate
     "bridgemindai": {"video_only": True,
                       "test_words": ["live test", "testing", "test", "benchmark",
                                      "hands-on", "first look", "made this video",
@@ -451,6 +462,14 @@ def score_entry(title: str, summary: str) -> tuple[int, list[str]]:
     if any(h in ("fed", "federal reserve", "interest rate") for h in hits) and not \
             re.search(r"market|stock|s&p|nasdaq|bitcoin|mortgage|yield|dollar", text):
         score -= 2
+    # power-lane gate: politics/geopolitics MUST move markets or it flops
+    # (and risks policy flags). Tariff/trade/oil stories pass; pure rally
+    # speeches, gaffes and street crime do not.
+    if "power" in {KW_TO_TOPIC.get(k, "") for k in hits} and not \
+            re.search(r"market|stock|s&p|nasdaq|bitcoin|crypto|oil|gold|dollar|"
+                      r"tariff|trade|jobs|gdp|inflation|fed|yield|mortgage|"
+                      r"wall street|sanction|embargo", text):
+        score -= 3
     if len(title.strip()) < 25:
         score -= 1
     return score, hits[:6]
@@ -711,6 +730,8 @@ RAGE_WORDS = [
     "backlash", "feud", "clash", "showdown", "ultimatum",
     "sues", "lawsuit", "probe", "resigns", "layoffs", "fired",
     "banned", "ban", "bubble", "ponzi", "dumps",
+    "indictment", "indicted", "crackdown", "raid", "impeach", "veto",
+    "ruling", "sentenced", "arrest", "coup", "invasion",
 ]
 
 
@@ -1076,6 +1097,7 @@ def _photo_cache_put(key: str, data: bytes):
 PEOPLE_PHOTOS = [
     (["warsh", "kevin warsh"], "Kevin Warsh", ["Kevin Warsh Federal Reserve"]),
     (["trump", "donald trump"], "Donald Trump", ["Donald Trump official portrait"]),
+    (["modi", "narendra modi"], "Narendra Modi", ["Narendra Modi portrait"]),
     (["bessent", "scott bessent"], "Scott Bessent", ["Scott Bessent Treasury"]),
     (["powell", "jerome powell"], "Jerome Powell", ["Jerome Powell Federal Reserve"]),
     (["hammack", "beth hammack"], "Beth Hammack", ["Beth Hammack Cleveland Fed"]),
@@ -1084,8 +1106,7 @@ PEOPLE_PHOTOS = [
     (["xi jinping", "president xi"], "Xi Jinping", ["Xi Jinping portrait"]),
     (["lagarde", "christine lagarde"], "Christine Lagarde", ["Christine Lagarde ECB"]),
     (["vujcic"], "Boris Vujcic", ["Boris Vujcic central bank"]),
-    (["putin", "vladimir putin"], "Vladimir Putin", ["Vladimir Putin portrait"]),
-    (["araghchi", "abbas araghchi"], "Abbas Araghchi", ["Abbas Araghchi foreign minister"]),
+    (["putin", "vladimir putin"], "Vladimir Putin", ["Vladimir Putin portrait"]),    (["araghchi", "abbas araghchi"], "Abbas Araghchi", ["Abbas Araghchi foreign minister"]),
     (["pezeshkian"], "Masoud Pezeshkian", ["Masoud Pezeshkian president"]),
     (["netanyahu"], "Benjamin Netanyahu", ["Benjamin Netanyahu portrait"]),
     (["huang", "jensen huang"], "Jensen Huang", ["Jensen Huang Nvidia"]),
@@ -1502,6 +1523,78 @@ def corroboration_boost(candidates: list) -> int:
     return n
 
 
+# Comment review: read engagement + comments on OUR posts to steer the algo.
+# Cheap (<=8 posts x 50 comments, at most once/day). Tracks questions the
+# audience asks, praise, anger (rage working?) and fake-claims (credibility
+# problem -> tighten verification). Stored in state["comment_review"].
+PRAISE_WORDS = [
+    "thanks", "thank", "great", "love", "awesome", "informative",
+    "helpful", "insightful", "brilliant", "fire",
+]
+FAKE_WORDS = [
+    "fake", "false", "lie", "lies", "lying", "misinformation",
+    "disinformation", "propaganda", "wrong", "cap",
+]
+
+
+def review_comments(state: dict) -> dict:
+    rev = state.setdefault("comment_review", {})
+    today = datetime.now(timezone.utc).date().isoformat()
+    if rev.get("updated") == today:
+        return rev
+    token = os.getenv("FB_PAGE_ACCESS_TOKEN", "").strip()
+    if not token:
+        return rev
+    items = [h for h in state.get("history", [])[-8:] if h.get("fb_id")]
+    agg = {"posts": 0, "comments": 0, "likes": 0, "questions": 0,
+           "praise": 0, "anger": 0, "fake_claims": 0, "by_topic": {},
+           "sample_questions": []}
+    for h in items:
+        try:
+            r = requests.get(
+                f"https://graph.facebook.com/{FB_API_VERSION}/{h['fb_id']}"
+                f"/comments",
+                params={"fields": "message,like_count",
+                        "limit": 50, "access_token": token},
+                timeout=15)
+            d = r.json()
+            if r.status_code != 200 or "error" in d:
+                continue
+            comments = d.get("data", [])
+            agg["posts"] += 1
+            for cm in comments:
+                msg = (cm.get("message") or "")
+                t = msg.lower()
+                if not t.strip():
+                    continue
+                agg["comments"] += 1
+                agg["likes"] += cm.get("like_count", 0) or 0
+                if "?" in msg:
+                    agg["questions"] += 1
+                    if len(agg["sample_questions"]) < 3 and len(msg) < 200:
+                        agg["sample_questions"].append(msg.strip())
+                if any(w in t for w in PRAISE_WORDS):
+                    agg["praise"] += 1
+                if any(w in t for w in RAGE_WORDS):
+                    agg["anger"] += 1
+                if any(w in t for w in FAKE_WORDS):
+                    agg["fake_claims"] += 1
+                    for tp in h.get("topics", []) or ["unknown"]:
+                        agg["by_topic"][tp] = agg["by_topic"].get(tp, 0) + 1
+        except Exception as ex:
+            log(f"comment review: skip {h.get('fb_id')}: {ex}")
+            continue
+    agg["updated"] = today
+    state["comment_review"] = agg
+    log(f"comment review: {agg['posts']} posts, {agg['comments']} comments, "
+        f"Q={agg['questions']} praise={agg['praise']} anger={agg['anger']} "
+        f"fake={agg['fake_claims']}")
+    if agg["fake_claims"] >= 3:
+        log("WARNING: audience crying fake — tighten verification, "
+            "check corroboration + reportedly framing")
+    return agg
+
+
 def floor_plan(posts_today: int, hour: int):
     """Daily post floor (MIN_POSTS_PER_DAY, default 4).
 
@@ -1570,6 +1663,7 @@ def main() -> int:
             "at": lp.get("at", now.isoformat()),
         }]
     _TUNER.update(tune_from_engagement(state))
+    review_comments(state)
     save_state(state_file, state)
 
     # DAILY FLOOR: at least MIN_POSTS_PER_DAY (default 4) every day, always.
