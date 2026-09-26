@@ -1343,8 +1343,70 @@ def _flag_photo(code):
 
 COUNTRY_PHOTOS = [
     # (keywords, flagcdn code, leader wiki name or None, leader always?)
+    # ORDER MATTERS, top wins:
+    # - US states come BEFORE countries: "Indiana" contains "india",
+    #   "New Mexico" contains "mexico" — states must win those collisions.
+    # - West Virginia sits BEFORE Virginia ("virginia" is a substring).
+    # - USA sits LAST as the national fallback.
+    (["alabama", "birmingham", "montgomery", "huntsville"], "us-al", None, False),
+    (["alaska", "anchorage", "juneau"], "us-ak", None, False),
+    (["arizona", "phoenix", "tucson", "mesa"], "us-az", None, False),
+    (["arkansas", "little rock", "fayetteville"], "us-ar", None, False),
+    (["california", "los angeles", "san francisco", "san diego",
+      "san jose", "sacramento", "silicon valley"], "us-ca", None, False),
+    (["colorado", "denver", "boulder", "colorado springs"], "us-co", None, False),
+    (["connecticut", "hartford", "new haven", "stamford"], "us-ct", None, False),
+    (["delaware", "dover", "wilmington"], "us-de", None, False),
+    (["florida", "miami", "orlando", "tampa", "tallahassee",
+      "jacksonville"], "us-fl", None, False),
+    (["georgia", "atlanta", "savannah", "augusta"], "us-ga", None, False),
+    (["hawaii", "honolulu", "maui"], "us-hi", None, False),
+    (["iowa", "des moines", "cedar rapids"], "us-ia", None, False),
+    (["idaho", "boise"], "us-id", None, False),
+    (["illinois", "chicago", "springfield"], "us-il", None, False),
+    (["indiana", "indianapolis", "fort wayne"], "us-in", None, False),
+    (["kansas", "wichita", "topeka", "overland park"], "us-ks", None, False),
+    (["kentucky", "louisville", "lexington"], "us-ky", None, False),
+    (["louisiana", "new orleans", "baton rouge"], "us-la", None, False),
+    (["massachusetts", "boston", "cambridge", "worcester"], "us-ma", None, False),
+    (["maryland", "baltimore", "annapolis"], "us-md", None, False),
+    (["maine", "bangor", "augusta"], "us-me", None, False),
+    (["michigan", "detroit", "grand rapids"], "us-mi", None, False),
+    (["minnesota", "minneapolis", "st. paul", "saint paul"], "us-mn", None, False),
+    (["missouri", "st. louis", "saint louis", "kansas city"], "us-mo", None, False),
+    (["mississippi", "biloxi", "gulfport"], "us-ms", None, False),
+    (["montana", "billings", "missoula"], "us-mt", None, False),
+    (["north carolina", "charlotte", "raleigh", "durham"], "us-nc", None, False),
+    (["north dakota", "fargo", "bismarck"], "us-nd", None, False),
+    (["nebraska", "omaha"], "us-ne", None, False),
+    (["new hampshire", "concord", "manchester", "nashua"], "us-nh", None, False),
+    (["new jersey", "trenton", "newark", "princeton"], "us-nj", None, False),
+    (["new mexico", "albuquerque", "santa fe"], "us-nm", None, False),
+    (["nevada", "las vegas", "reno", "carson city"], "us-nv", None, False),
+    (["new york", "nyc", "manhattan", "albany", "buffalo",
+      "rochester", "syracuse"], "us-ny", None, False),
+    (["ohio", "columbus", "cleveland", "cincinnati"], "us-oh", None, False),
+    (["oklahoma", "oklahoma city", "tulsa", "norman"], "us-ok", None, False),
+    (["oregon", "portland", "eugene", "salem"], "us-or", None, False),
+    (["pennsylvania", "philadelphia", "pittsburgh", "harrisburg"], "us-pa", None, False),
+    (["rhode island", "providence", "newport"], "us-ri", None, False),
+    (["south carolina", "charleston", "columbia", "greenville"], "us-sc", None, False),
+    (["south dakota", "sioux falls", "rapid city"], "us-sd", None, False),
+    (["tennessee", "nashville", "memphis", "knoxville"], "us-tn", None, False),
+    (["texas", "austin", "houston", "dallas", "san antonio",
+      "fort worth", "el paso"], "us-tx", None, False),
+    (["utah", "salt lake city", "provo"], "us-ut", None, False),
+    (["vermont", "burlington", "montpelier"], "us-vt", None, False),
+    (["west virginia", "huntington", "morgantown"], "us-wv", None, False),
+    (["virginia", "richmond", "virginia beach", "norfolk"], "us-va", None, False),
+    (["washington state", "seattle", "spokane", "tacoma", "olympia",
+      "bellevue"], "us-wa", None, False),
+    (["wisconsin", "milwaukee", "green bay"], "us-wi", None, False),
+    (["wyoming", "cheyenne", "casper"], "us-wy", None, False),
+    # Countries: China news -> China flag + Xi face (2-panel split).
     (["china", "chinese", "beijing", "shanghai", "shenzhen",
-      "hong kong"], "cn", "Xi Jinping", True),
+      "hong kong", "xi jinping", "president xi",
+      "chairman xi"], "cn", "Xi Jinping", True),
     (["india", "indian", "new delhi", "mumbai", "modi"], "in",
      "Narendra Modi", True),
     (["russia", "russian", "moscow", "kremlin", "putin"], "ru",
@@ -1363,21 +1425,21 @@ COUNTRY_PHOTOS = [
     (["japan", "japanese", "tokyo"], "jp", None, False),
     (["germany", "german", "berlin", "merz"], "de", "Friedrich Merz", True),
     (["france", "french", "paris", "macron"], "fr", None, False),
-    (["texas", "austin", "houston", "dallas"], "us-tx", None, False),
-    (["california", "los angeles", "san francisco", "silicon valley",
-      "sacramento"], "us-ca", None, False),
-    (["florida", "miami", "orlando"], "us-fl", None, False),
-    (["new york", "nyc", "manhattan", "albany", "buffalo"], "us-ny",
-     None, False),
-    (["u.s.", "usa", "america", "washington", "white house",
-      "congress", "senate", "pentagon", "capitol"], "us",
+    # USA last: national fallback. Trump news -> US flag + Trump face;
+    # any named person in the text gets flag + their face via fallback.
+    (["u.s.", "usa", "united states", "america", "washington",
+      "white house", "congress", "senate", "pentagon", "capitol",
+      "trump", "donald trump"], "us",
      "Donald Trump", False),
 ]
 
 
 def country_photo(candidate):
-    """Deterministic country/state rule: flag + leader face, or fullscreen
-    flag. Anthropic without a named person gets CEO Dario Amodei.
+    """Deterministic flag rule, simple version:
+    China news -> China flag + Xi face. USA news -> US flag (+ Trump face
+    if Trump named). State news -> that state's flag. Any other named
+    person in the text -> flag + their face; else fullscreen flag.
+    Anthropic/Claude without a named person gets logo + CEO Dario Amodei.
     Returns (bytes, ext, src) or (None, None, None)."""
     text = candidate.get("title", "") + " " + candidate.get("summary", "")
     text = text.lower()
@@ -1388,7 +1450,8 @@ def country_photo(candidate):
         if not flag:
             continue
         face = None
-        if leader and (always or leader.lower() in text):
+        if leader and (always or leader.lower() in text
+                       or leader.split()[-1].lower() in text):
             try:
                 face = _fetch_face_raw(leader, [leader])
             except Exception:
@@ -1413,7 +1476,8 @@ def country_photo(candidate):
             return branded, ext, "flag:" + code
         except Exception:
             continue
-    if "anthropic" in text:
+    if any(k in text for k in ("anthropic", "claude", "amodei",
+                                "dario")):
         face = None
         try:
             face = _fetch_face_raw("Dario Amodei", ["Dario Amodei"])
