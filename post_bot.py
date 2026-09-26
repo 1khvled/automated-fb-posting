@@ -1352,9 +1352,7 @@ def split_card(candidate: dict):
             except Exception:
                 logo = None
     scenes: list = []
-    live = _live_scene(" ".join(
-        [k for k in (candidate.get("keywords") or []) if not k.startswith("+")][:3])
-        or text[:80])
+    live = None  # live web scenes disabled (meme risk); curated pile only
     if live and False:  # LIVE_SCENES disabled: curated pile only
         scenes.append(live)
         log("split scene: live web photo")
