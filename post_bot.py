@@ -1382,6 +1382,8 @@ def split_card(candidate: dict):
         else:
             return None, None, None
         if out:
+            if live:
+                kind += "+live"
             return out[0], out[1], kind
     except Exception:
         pass
@@ -1648,7 +1650,10 @@ PHOTO_WORTHY = {"source", "og:image", "face", "entity-logo",
 
 
 def photo_worth_posting(src) -> bool:
-    return (src or "") in PHOTO_WORTHY
+    s = src or ""
+    if s.endswith("+live"):
+        s = s[:-5]
+    return s in PHOTO_WORTHY
 
 
 def find_photo(candidate: dict):
@@ -2313,6 +2318,7 @@ def main() -> int:
         "topics": sorted({KW_TO_TOPIC[k] for k in pick["keywords"]
                           if k in KW_TO_TOPIC}),
         "mode": pick.get("mode", "serious"),
+        "photo": src,
         "at": state["last_post"]["at"],
     })
     state["history"] = hist[-50:]
