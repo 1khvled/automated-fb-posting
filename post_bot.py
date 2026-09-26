@@ -1281,6 +1281,8 @@ TOPIC_PHOTOS = [
       "rate hike"],
      ["fed.jpg"]),
     (["bitcoin", "btc"], ["bitcoin.jpg"]),
+    (["crypto", "ethereum", "defi", "hack", "exchange", "wallet"],
+     ["bitcoin.jpg"]),
     (["gold"], ["gold.jpg"]),
     (["oil", "opec", "brent", "hormuz", "gas"], ["oil.jpg"]),
     (["gpu", "semiconductor", "ai chip", "artificial intelligence",
