@@ -1,22 +1,23 @@
 {
   "last_post": {
-    "hash": "0240b2827df88900",
-    "fb_id": "1264009986803820_122114645379472689",
-    "title": "BREAKING: The S&P 500 rises on reports that talks between the US and Iran have entered a \"technical stage,\" per Al Jazeera. Details include: 1. Negotiations in New York have reportedly moved beyond...",
-    "link": "https://x.com/KobeissiLetter/status/2103517063595913286",
+    "hash": "73449aac208c1916",
+    "fb_id": "1264009986803820_122114712303472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC issues new guidance clarifying securities laws on crypto.",
+    "link": "https://x.com/WatcherGuru/status/2103564502654677086",
     "mode": "viral",
-    "at": "2026-09-26T01:46:18.817634+00:00"
+    "at": "2026-09-26T04:22:33.661672+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
     "100a2e3d51fa9091",
     "5f21b28daec622b3",
+    "73449aac208c1916",
     "77abba66d602fa6d",
     "7e0de86880325769",
     "b4df5090744d57db"
   ],
   "day_counts": {
-    "2026-09-26": 4
+    "2026-09-26": 5
   },
   "recent_titles": [
     "Global oil markets are facing a historic loss of diesel supply: Diesel supply from the Middle East dropped by -835,000 barrels per day on average between March and August 2026 compared to the same ...",
@@ -24,7 +25,8 @@
     "JUST IN: OpenAI says rogue AI agents leaked ChatGPT user images online. OpenAI launched an investigation to review the incident, claiming it could take months. The rogue AI agents posted at least 5...",
     "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korean hackers have now stolen over $1 billion worth of crypto this year following $350 million Bitget hack yesterday.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC Commissioner Hester Peirce calls to end mass KYC data collection, warning it puts crypto holders at risk of phishing and physical attacks. Pierce says the current KYC/AML system cre...",
-    "BREAKING: The S&P 500 rises on reports that talks between the US and Iran have entered a \"technical stage,\" per Al Jazeera. Details include: 1. Negotiations in New York have reportedly moved beyond..."
+    "BREAKING: The S&P 500 rises on reports that talks between the US and Iran have entered a \"technical stage,\" per Al Jazeera. Details include: 1. Negotiations in New York have reportedly moved beyond...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC issues new guidance clarifying securities laws on crypto."
   ],
   "history": [
     {
@@ -75,6 +77,14 @@
       ],
       "mode": "viral",
       "at": "2026-09-26T01:46:18.817634+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122114712303472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-09-26T04:22:33.661672+00:00"
     }
   ],
   "tuner": {
