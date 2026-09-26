@@ -87,6 +87,21 @@ TOPIC_WEIGHTS = {
                "netanyahu", "zelensky"], 3),
 }
 
+# Source trust tiers: original reporting and primary sources outrank
+# secondhand squawk. Small (+1) but decisive at the bar.
+FEED_TRUST = {
+    "CNBC Top": 1, "CNBC Economy": 1, "CNBC Politics": 1,
+    "Fed Press": 1, "BBC World": 1, "AlJazeera": 1, "CoinDesk": 1,
+    "TechCrunch AI": 1, "The Verge AI": 1, "MIT Tech Review AI": 1,
+    "X @OpenAI": 1, "X @AnthropicAI": 1, "X @GoogleDeepMind": 1,
+    "X @AIatMeta": 1,
+}
+
+
+def feed_trust_bonus(feed: str) -> int:
+    return FEED_TRUST.get(feed, 0)
+
+
 # Format bonuses learned from the page's top-8 posts:
 # model launches/demos (#1 post: Opus one-shotting a game), security
 # breaches (#3: Gemini hack), hard numbers/specs, genuine breaking news.
@@ -279,6 +294,10 @@ def fetch_x_candidates(max_age_minutes: int):
                                  reposts=p.get("reposts", 0) or 0,
                                  replies=p.get("replies", 0) or 0)
                 s += vb
+                tb = feed_trust_bonus(f"X @{handle}")
+                if tb:
+                    s += tb
+                    hits.append("+trusted")
                 mode = "viral" if vb >= 3 else "serious"
                 rule = X_SOURCE_RULES.get(handle, {})
                 if rule.get("video_only"):
@@ -386,6 +405,10 @@ def fetch_tg_candidates(max_age_minutes: int):
                 s, hits = score_entry(title, text)
                 vb = viral_bonus(text, views=_tg_views(b))
                 s += vb
+                tb = feed_trust_bonus(f"TG {ch}")
+                if tb:
+                    s += tb
+                    hits.append("+trusted")
                 mode = "viral" if vb >= 3 else "serious"
                 s = decay(s, age, mode)
                 if s < 1:
@@ -472,7 +495,25 @@ def score_entry(title: str, summary: str) -> tuple[int, list[str]]:
         score -= 3
     if len(title.strip()) < 25:
         score -= 1
+    # shout tax: ALL-CAPS headlines skew tabloid (quality outlets don't
+    # shout). Small -1: squawk wires survive it, calm originals gain ground.
+    letters = [ch for ch in title if ch.isalpha()]
+    if letters and sum(1 for ch in letters if ch.isupper()) / len(letters) > 0.6:
+        score -= 1
     return score, hits[:6]
+
+
+def diversity_penalty(pick_topics: list, history: list) -> int:
+    """Reader-fatigue guard: -2 when the pick's topics ALL appeared in EACH
+    of the last 2 posts (third same-topic post in a row)."""
+    if not pick_topics:
+        return 0
+    last2 = [set(h.get("topics", []) or []) for h in history[-2:]]
+    if len(last2) < 2:
+        return 0
+    if all(set(pick_topics) <= h for h in last2):
+        return 2
+    return 0
 
 
 def fetch_candidates(max_age_minutes: int):
@@ -495,6 +536,10 @@ def fetch_candidates(max_age_minutes: int):
                 s, hits = score_entry(title, summary)
                 vb = viral_bonus(title + " " + summary)
                 s += vb
+                tb = feed_trust_bonus(name)
+                if tb:
+                    s += tb
+                    hits.append("+trusted")
                 mode = "viral" if vb >= 3 else "serious"
                 if s < 1:
                     continue
@@ -1997,6 +2042,14 @@ def main() -> int:
     if mix_log:
         log(mix_log)
     pick = fresh[0]
+    pick_topics = sorted({KW_TO_TOPIC[k] for k in pick.get("keywords", [])
+                          if k in KW_TO_TOPIC})
+    div = diversity_penalty(pick_topics, state.get("history", []))
+    if div:
+        pick["score"] = round(pick["score"] - div, 1)
+        fresh.sort(key=lambda c: c["score"], reverse=True)
+        pick = fresh[0]
+        log(f"diversity: -{div} fatigue guard, new top [{pick['feed']}]")
     min_score = eff_bar  # daily floor may have lowered the bar
     if pick["score"] < min_score:
         log(f"Top pick score={pick['score']} < {min_score}. Too weak, skipping.")
