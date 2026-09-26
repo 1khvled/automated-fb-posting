@@ -1206,7 +1206,9 @@ def _wiki_portrait(name: str):
 
 
 def _fetch_face_raw(wiki: str, queries: list):
-    """Raw (unbranded) face bytes, for face cards and split composites."""
+    """Raw (unbranded) face bytes, for face cards and split composites.
+    Wikipedia official portraits first — open-web face search produced
+    memes and edited junk, never again."""
     try:
         ov, _, _ = _openverse_photo(f"{wiki} portrait")
         if False and ov and _big_enough(ov):  # open-web faces disabled: meme risk
@@ -1325,6 +1327,114 @@ def _live_scene(query: str):
     return None
 
 
+def _flag_photo(code):
+    """Deterministic flag PNG from flagcdn. Returns bytes or None."""
+    if not code:
+        return None
+    try:
+        data, _ext = _download_image(
+            "https://flagcdn.com/w640/" + code + ".png", min_bytes=3000)
+        if data and _big_enough(data):
+            return data
+    except Exception:
+        pass
+    return None
+
+
+COUNTRY_PHOTOS = [
+    # (keywords, flagcdn code, leader wiki name or None, leader always?)
+    (["china", "chinese", "beijing", "shanghai", "shenzhen",
+      "hong kong"], "cn", "Xi Jinping", True),
+    (["india", "indian", "new delhi", "mumbai", "modi"], "in",
+     "Narendra Modi", True),
+    (["russia", "russian", "moscow", "kremlin", "putin"], "ru",
+     "Vladimir Putin", True),
+    (["ukraine", "ukrainian", "kyiv", "kiev", "zelensky"], "ua",
+     "Volodymyr Zelenskyy", True),
+    (["iran", "iranian", "tehran", "pezeshkian"], "ir",
+     "Masoud Pezeshkian", True),
+    (["israel", "israeli", "tel aviv", "gaza", "netanyahu"], "il",
+     "Benjamin Netanyahu", True),
+    (["european union", "eurozone", "ecb", "lagarde", "brussels"], "eu",
+     "Christine Lagarde", True),
+    (["britain", "london", "starmer", "bank of england"], "gb", None, False),
+    (["canada", "ottawa", "toronto"], "ca", None, False),
+    (["mexico", "mexican"], "mx", None, False),
+    (["japan", "japanese", "tokyo"], "jp", None, False),
+    (["germany", "german", "berlin", "merz"], "de", "Friedrich Merz", True),
+    (["france", "french", "paris", "macron"], "fr", None, False),
+    (["texas", "austin", "houston", "dallas"], "us-tx", None, False),
+    (["california", "los angeles", "san francisco", "silicon valley",
+      "sacramento"], "us-ca", None, False),
+    (["florida", "miami", "orlando"], "us-fl", None, False),
+    (["new york", "nyc", "manhattan", "albany", "buffalo"], "us-ny",
+     None, False),
+    (["u.s.", "usa", "america", "washington", "white house",
+      "congress", "senate", "pentagon", "capitol"], "us",
+     "Donald Trump", False),
+]
+
+
+def country_photo(candidate):
+    """Deterministic country/state rule: flag + leader face, or fullscreen
+    flag. Anthropic without a named person gets CEO Dario Amodei.
+    Returns (bytes, ext, src) or (None, None, None)."""
+    text = candidate.get("title", "") + " " + candidate.get("summary", "")
+    text = text.lower()
+    for keys, code, leader, always in COUNTRY_PHOTOS:
+        if not any(k in text for k in keys):
+            continue
+        flag = _flag_photo(code)
+        if not flag:
+            continue
+        face = None
+        if leader and (always or leader.lower() in text):
+            try:
+                face = _fetch_face_raw(leader, [leader])
+            except Exception:
+                face = None
+        if not face:
+            for keys2, wiki, queries in PEOPLE_PHOTOS:
+                if any(k in text for k in keys2):
+                    try:
+                        face = _fetch_face_raw(wiki, queries)
+                    except Exception:
+                        face = None
+                    break
+        if face:
+            try:
+                out = _split_pair(flag, face, right_face=True)
+            except Exception:
+                out = None
+            if out:
+                return out[0], out[1], "split:flag+face"
+        try:
+            branded, ext = _brand_image(flag)
+            return branded, ext, "flag:" + code
+        except Exception:
+            continue
+    if "anthropic" in text:
+        face = None
+        try:
+            face = _fetch_face_raw("Dario Amodei", ["Dario Amodei"])
+        except Exception:
+            face = None
+        if face:
+            lp = os.path.join(ASSETS_DIR, "logos", "anthropic.png")
+            if os.path.exists(lp):
+                try:
+                    fh = open(lp, "rb")
+                    ldata = fh.read()
+                    fh.close()
+                    out = _split_pair(ldata, face, left_logo=True,
+                                      right_face=True)
+                    if out:
+                        return out[0], out[1], "split:face+logo"
+                except Exception:
+                    pass
+    return None, None, None
+
+
 def split_card(candidate: dict):
     """(bytes, ext, src) two-panel composite for EVERY post: logo+face when
     the story names both, otherwise paired with a curated topic photo
@@ -1352,10 +1462,16 @@ def split_card(candidate: dict):
             except Exception:
                 logo = None
     scenes: list = []
-    live = None  # live web scenes disabled (meme risk); curated pile only
-    if live and False:  # LIVE_SCENES disabled: curated pile only
-        scenes.append(live)
-        log("split scene: live web photo")
+    live = None
+    # Live web scenes stay OFF by default: unvetted web images produced
+    # meme garbage. Curated pile only. Enable per-run via LIVE_SCENES=1.
+    if os.getenv("LIVE_SCENES", "0") == "1":
+        live = _live_scene(" ".join(
+            [k for k in (candidate.get("keywords") or []) if not k.startswith("+")][:3])
+            or text[:80])
+        if live:
+            scenes.append(live)
+            log("split scene: live web photo")
     for fn in _topic_raw_files(text, link, 2):
         p = os.path.join(ASSETS_DIR, "topics", fn)
         if os.path.exists(p):
@@ -1383,7 +1499,7 @@ def split_card(candidate: dict):
         else:
             return None, None, None
         if out:
-            if live and False:  # LIVE_SCENES disabled: curated pile only
+            if live:
                 kind += "+live"
             return out[0], out[1], kind
     except Exception:
@@ -1489,6 +1605,8 @@ def credit_for(feed: str, src: str) -> str:
         return "Wikimedia Commons"
     if src == "google":
         return "Google Images"
+    if (src or "").startswith("flag:"):
+        return "flagcdn"
     if (src or "").startswith("openverse:"):
         who = src.split(":", 1)[1].strip() or "Openverse"
         return f"{who} via Openverse"
@@ -1654,6 +1772,8 @@ def photo_worth_posting(src) -> bool:
     s = src or ""
     if s.endswith("+live"):
         s = s[:-5]
+    if s.startswith("flag:"):
+        return True
     return s in PHOTO_WORTHY
 
 
@@ -1692,6 +1812,10 @@ def find_photo(candidate: dict):
     if raw and not _big_enough(raw[0]):
         log("Source/og photo too small, falling through to curated photos")
         raw = None
+    if not raw:
+        cimg, cext, csrc = country_photo(candidate)
+        if cimg:
+            return cimg, cext, csrc
     if not raw:
         simg, sext, ssrc = split_card(candidate)
         if simg:
