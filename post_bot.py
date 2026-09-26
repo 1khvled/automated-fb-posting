@@ -1515,7 +1515,8 @@ def publish_story_from_photo(image_bytes: bytes, ext: str) -> str:
     return st.get("post_id", "")
 
 
-def publish_to_facebook(message: str) -> str:    page_id = os.getenv("FB_PAGE_ID", "").strip()
+def publish_to_facebook(message: str) -> str:
+    page_id = os.getenv("FB_PAGE_ID", "").strip()
     token = os.getenv("FB_PAGE_ACCESS_TOKEN", "").strip()
     if not page_id or not token:
         raise RuntimeError("FB_PAGE_ID / FB_PAGE_ACCESS_TOKEN not set")
