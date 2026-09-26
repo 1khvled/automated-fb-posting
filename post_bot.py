@@ -1393,8 +1393,8 @@ def main() -> int:
     # Fail fast on a dead FB token (they expire ~60 days): no point burning
     # news-fetch + LLM quota when publishing is impossible. Dry runs proceed.
     if not dry_run and not fb_token_ok():
-        log("FB token invalid/expired — mint a fresh 60-day Page token "
-            "(README section 1, step 5) and update the FB_PAGE_ACCESS_TOKEN "
+        log("FB token invalid/expired — do the one-time undying setup "
+            "(README section 3) and update the FB_PAGE_ACCESS_TOKEN "
             "secret. Skipping this run.")
         return 5
 

@@ -51,7 +51,31 @@ Pick one. GitHub Actions is recommended (dedup state persists via git).
 4. Nothing runs on your computer — your PC is only for chatting here and
    improving the algo. All posting happens in the cloud.
 
-## 3. Local test
+## 3. Undying token + auto-refresh (do once, ~15 min)
+
+Why tokens die: a Page token inherits the life of the user token that
+minted it. Ours came from a short-lived user token (hours). Minted from a
+**long-lived** (60-day) user token, the Page token gets **no expiry date**
+(Meta docs) — plus a monthly workflow re-mints the chain automatically.
+
+1. Graph Explorer → your App → Get **User** Access Token → tick
+   `pages_show_list`, `pages_manage_posts`, `pages_read_engagement` → copy.
+2. Extend it (paste in browser, fill APP_ID/APP_SECRET/TOKEN):
+   `https://graph.facebook.com/v26.0/oauth/access_token?grant_type=fb_exchange_token&client_id=APP_ID&client_secret=APP_SECRET&fb_exchange_token=TOKEN`
+   → this is your 60-day `FB_USER_TOKEN`.
+3. Get the undying Page token (paste with USER_TOKEN + PAGE_ID):
+   `https://graph.facebook.com/v26.0/me/accounts?access_token=USER_TOKEN`
+   → find your Page → its `access_token` never expires → set as
+   `FB_PAGE_ACCESS_TOKEN` secret (and in local `.env`).
+4. Repo Secrets → add `FB_APP_ID`, `FB_APP_SECRET`, `FB_USER_TOKEN`.
+5. GitHub → Settings → Developer settings → Personal access tokens →
+   **classic** token with `repo` scope → add as repo secret `GH_PAT`.
+6. Done. `refresh-token.yml` runs monthly: while the user token is alive it
+   mints a fresh 60-day user token + fresh undying Page token and stores
+   both back. Self-sustaining — only a fully dead user token needs one
+   more manual login (the workflow log will say so).
+
+## 4. Local test
 
 ```
 python -m pip install -r requirements.txt
@@ -66,13 +90,13 @@ set DRY_RUN=1
 python post_bot.py
 ```
 
-## 4. Tuning
+## 5. Tuning
 
 - `RSS_FEEDS` / `TOPIC_WEIGHTS` / `EXCLUDE` / `X_HANDLES` in `post_bot.py` control what qualifies.
 - `MAX_AGE_MINUTES` (default 70) = how fresh news must be. Cron is 20 min, 70 gives overlap.
 - Voice rules live in `SYSTEM_PROMPT` — mirrors the Ethan Cole skill (verify → rewrite → context → hook → QC).
 
-## 5. Monetization roadmap (365-day goal)
+## 6. Monetization roadmap (365-day goal)
 
 Facebook Content Monetization is **invite-only** (no application). Realistic bar:
 ~10K followers, strong 28-day views/watch time, 5+ videos, original content,
@@ -83,9 +107,10 @@ What the bot already does for this: 4–11 posts/day consistency, daily reel
 (asking for likes/shares/comments kills eligibility — never do it).
 
 What you must do (can't be automated):
-1. **Keep the token alive.** Page tokens expire ~60 days. When the bot logs
-   `FB token invalid/expired`, repeat README section 1 step 5 and update the
-   `FB_PAGE_ACCESS_TOKEN` secret. No token = no posts = no growth.
+1. **Keep the token alive.** Page tokens from short-lived logins die in hours;
+   do the one-time undying setup in section 3, then the monthly workflow
+   sustains itself. If the bot ever logs `FB token invalid/expired`, re-seed
+   per section 3. No token = no posts = no growth.
 2. **Interest form:** FB mobile app → Professional Dashboard → Monetization →
    Content Monetization → submit the interest form.
 3. **Originality:** re-uploaded viral videos risk "unoriginal content" flags.

@@ -1,0 +1,48 @@
+name: Token self-heal (monthly)
+
+# Keeps the Page token undying: re-mints the chain
+# user token -> page token and stores both back as secrets.
+# Runs monthly (well inside the 60-day user-token life) + on demand.
+# Needs secrets: FB_APP_ID, FB_APP_SECRET, FB_USER_TOKEN, FB_PAGE_ID,
+# FB_PAGE_ACCESS_TOKEN, GH_PAT (classic PAT with repo scope — the default
+# GITHUB_TOKEN cannot write secrets).
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"   # 06:00 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Mint fresh tokens
+        id: mint
+        env:
+          FB_APP_ID: ${{ secrets.FB_APP_ID }}
+          FB_APP_SECRET: ${{ secrets.FB_APP_SECRET }}
+          FB_USER_TOKEN: ${{ secrets.FB_USER_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+        run: python scripts/refresh_token.py
+
+      - name: Store rotated secrets
+        if: steps.mint.outputs.page_token != ''
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          gh secret set FB_PAGE_ACCESS_TOKEN --repo ${{ github.repository }} --body "${{ steps.mint.outputs.page_token }}"
+          gh secret set FB_USER_TOKEN --repo ${{ github.repository }} --body "${{ steps.mint.outputs.user_token }}"
