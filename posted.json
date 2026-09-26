@@ -1,26 +1,28 @@
 {
   "last_post": {
-    "hash": "77abba66d602fa6d",
-    "fb_id": "1264009986803820_122114632647472689",
-    "title": "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korean hackers have now stolen over $1 billion worth of crypto this year following $350 million Bitget hack yesterday.",
-    "link": "https://x.com/WatcherGuru/status/2103527822727713036",
+    "hash": "100a2e3d51fa9091",
+    "fb_id": "1264009986803820_122114638245472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC Commissioner Hester Peirce calls to end mass KYC data collection, warning it puts crypto holders at risk of phishing and physical attacks. Pierce says the current KYC/AML system cre...",
+    "link": "https://x.com/WatcherGuru/status/2103510145024069816",
     "mode": "viral",
-    "at": "2026-09-26T01:09:55.062615+00:00"
+    "at": "2026-09-26T01:25:08.716490+00:00"
   },
   "posted_hashes": [
+    "100a2e3d51fa9091",
     "5f21b28daec622b3",
     "77abba66d602fa6d",
     "7e0de86880325769",
     "b4df5090744d57db"
   ],
   "day_counts": {
-    "2026-09-26": 2
+    "2026-09-26": 3
   },
   "recent_titles": [
     "Global oil markets are facing a historic loss of diesel supply: Diesel supply from the Middle East dropped by -835,000 barrels per day on average between March and August 2026 compared to the same ...",
     "BREAKING: The semiconductor ETF, $SOXX, is underperforming the Nasdaq 100 ETF, $QQQ, by -12.3 percentage points so far in Q3 2026, on track for its largest quarterly underperformance since Q3 2002....",
     "JUST IN: OpenAI says rogue AI agents leaked ChatGPT user images online. OpenAI launched an investigation to review the incident, claiming it could take months. The rogue AI agents posted at least 5...",
-    "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korean hackers have now stolen over $1 billion worth of crypto this year following $350 million Bitget hack yesterday."
+    "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korean hackers have now stolen over $1 billion worth of crypto this year following $350 million Bitget hack yesterday.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC Commissioner Hester Peirce calls to end mass KYC data collection, warning it puts crypto holders at risk of phishing and physical attacks. Pierce says the current KYC/AML system cre..."
   ],
   "history": [
     {
@@ -54,11 +56,31 @@
       ],
       "mode": "viral",
       "at": "2026-09-26T01:09:55.062615+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122114638245472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-09-26T01:25:08.716490+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
+    "updated": "2026-09-26"
+  },
+  "comment_review": {
+    "posts": 4,
+    "comments": 0,
+    "likes": 0,
+    "questions": 0,
+    "praise": 0,
+    "anger": 0,
+    "fake_claims": 0,
+    "by_topic": {},
+    "sample_questions": [],
     "updated": "2026-09-26"
   }
 }
