@@ -1139,6 +1139,82 @@ def _wiki_portrait(name: str):
     return None
 
 
+def _fetch_face_raw(wiki: str, queries: list):
+    """Raw (unbranded) face bytes, for face cards and split composites."""
+    data = _wiki_portrait(wiki)
+    if data:
+        return data
+    for q in queries:
+        time.sleep(2)
+        try:
+            j = _commons_api({"generator": "search",
+                              "gsrsearch": f"filetype:bitmap {q}",
+                              "gsrnamespace": "6", "gsrlimit": "5",
+                              "prop": "imageinfo", "iiprop": "url|size",
+                              "iiurlwidth": "1200"})
+            pages = list(((j.get("query") or {}).get("pages") or {})
+                         .values())
+            data, _ext = _commons_fetch(
+                pages, prefer=("portrait", wiki.split()[0].lower()))
+            if data:
+                return data
+        except Exception as ex:
+            log(f"Commons portrait {q[:40]} failed: {ex}")
+    return None
+
+
+def _split_image(face: bytes, logo: bytes):
+    """Cointelegraph-style 1200x630: entity logo left on dark, face right."""
+    from PIL import Image, ImageDraw
+    try:
+        f = Image.open(io.BytesIO(face)).convert("RGB")
+        lg = Image.open(io.BytesIO(logo)).convert("RGBA")
+    except Exception:
+        return None
+    card = Image.new("RGB", (1200, 630), (11, 18, 32))
+    lg.thumbnail((520, 380))
+    card.paste(lg, ((600 - lg.size[0]) // 2, (540 - lg.size[1]) // 2), lg)
+    d = ImageDraw.Draw(card)
+    d.line([600, 0, 600, 540], fill=(255, 255, 255), width=3)
+    scale = max(600 / f.size[0], 540 / f.size[1])
+    f = f.resize((int(f.size[0] * scale) + 1, int(f.size[1] * scale) + 1))
+    x = (f.size[0] - 600) // 2
+    y = max((f.size[1] - 540) // 3, 0)  # bias to top (faces)
+    card.paste(f.crop((x, y, x + 600, y + 540)), (600, 0))
+    buf = io.BytesIO()
+    _footer(card, 90).save(buf, "JPEG", quality=88)
+    return buf.getvalue(), "jpeg"
+
+
+def split_card(candidate: dict):
+    """(bytes, ext, src) logo+face composite when a story names both an
+    entity and a person. Bundled logos only (network logos too fragile)."""
+    text = f"{candidate.get('title', '')} {candidate.get('summary', '')}".lower()
+    person = next((p for p in PEOPLE_PHOTOS
+                   if any(k in text for k in p[0])), None)
+    entity = next((e for e in ENTITY_LOGOS
+                   if any(k in text for k in e[0])), None)
+    if not (person and entity):
+        return None, None, None
+    _keys, wiki, queries = person
+    logo_path = os.path.join(
+        ASSETS_DIR, "logos", f"{_slug(entity[0][0]) or 'entity'}.png")
+    if not os.path.exists(logo_path):
+        return None, None, None
+    try:
+        with open(logo_path, "rb") as fh:
+            ldata = fh.read()
+        fdata = _fetch_face_raw(wiki, queries)
+        if not fdata:
+            return None, None, None
+        out = _split_image(fdata, ldata)
+        if out:
+            return out[0], out[1], "split"
+    except Exception:
+        pass
+    return None, None, None
+
+
 def people_photo(candidate: dict):
     """(jpeg_bytes, ext) face card for a named person, else (None, None)."""
     text = f"{candidate.get('title', '')} {candidate.get('summary', '')}".lower()
@@ -1149,24 +1225,7 @@ def people_photo(candidate: dict):
         hit = _photo_cache_get(ckey)
         if hit:
             return hit, "jpeg"
-        data = _wiki_portrait(wiki)
-        if not data:
-            for q in queries:
-                time.sleep(2)
-                try:
-                    j = _commons_api({"generator": "search",
-                                      "gsrsearch": f"filetype:bitmap {q}",
-                                      "gsrnamespace": "6", "gsrlimit": "5",
-                                      "prop": "imageinfo", "iiprop": "url|size",
-                                      "iiurlwidth": "1200"})
-                    pages = list(((j.get("query") or {}).get("pages") or {})
-                                 .values())
-                    data, _ext = _commons_fetch(
-                        pages, prefer=("portrait", wiki.split()[0].lower()))
-                    if data:
-                        break
-                except Exception as ex:
-                    log(f"Commons portrait {q[:40]} failed: {ex}")
+        data = _fetch_face_raw(wiki, queries)
         if data:
             try:
                 branded = _brand_image(data)
@@ -1245,6 +1304,8 @@ def entity_logo(candidate: dict):
 def credit_for(feed: str, src: str) -> str:
     if src == "face":
         return "Wikipedia"
+    if src == "split":
+        return "Wikipedia / Wikimedia Commons"
     if (src or "").startswith("wikimedia") or src == "entity-logo" \
             or (src or "").startswith("topic:"):
         return "Wikimedia Commons"
@@ -1384,6 +1445,10 @@ def find_photo(candidate: dict):
     if raw and not _big_enough(raw[0]):
         log("Source/og photo too small, falling through to curated photos")
         raw = None
+    if not raw:
+        simg, sext, ssrc = split_card(candidate)
+        if simg:
+            return simg, sext, ssrc
     if not raw:
         face = people_photo(candidate)
         if face[0]:
