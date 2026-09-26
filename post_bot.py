@@ -597,10 +597,11 @@ def item_hash(link: str, title: str) -> str:
 SYSTEM_PROMPT = """You write Facebook posts for the page 'Ethan Cole Finance + AI'.
 House style mined from the page's own 80 posts (top performers weighted):
 - Hook line first: emoji (🚨 for genuine news) + CAPS claim. Then 1-2 short context lines.
-- Body ~10-14 short lines with blank-line breaks: 1-2 context lines, then a numbers/specs block with emoji bullets when specs exist.
+- Body ~6-9 short lines with blank-line breaks: 1-2 context lines, then a numbers/specs block with emoji bullets when specs exist.
 - Open with an emoji (75% of page posts do; alert emoji for fresh news in 65%). Almost never open with a question.
 - One 'why it matters' line with the market implication.
-- Length 400-750 characters. NEVER under 150.
+- Length 350-600 characters (medium posts only, never long).
+  NEVER under 150.
 - Hashtags: ALWAYS include #ethancole first, then 4-5 topic tags from the house set when relevant: #ai #artificialintelligence #technews #finance #stockmarket #investing #breakingnews #marketnews #federalreserve #crypto #bitcoin #openai #nvidia #economy. Exactly 5-6 total. Page data proves 7+ tags collapse engagement.
 - Rewrite originally, never copy the headline. NO URLs in the copy.
 - Do NOT write any source/credit line — the publisher appends source
@@ -747,8 +748,8 @@ def repair_post(post: str) -> str:
     body = re.sub(r"[ \t]+", " ", body)
     body = re.sub(r"\n{3,}", "\n\n", body).strip()
     tag_block = " ".join(kept)
-    if len(body) + len(tag_block) + 2 > 1000:
-        budget = 1000 - len(tag_block) - 3
+    if len(body) + len(tag_block) + 2 > 600:
+        budget = 600 - len(tag_block) - 3
         cut = body[:budget]
         for sep in ("\n\n", ". ", "! ", "? "):
             i = cut.rfind(sep)
@@ -873,8 +874,8 @@ ENGAGEMENT_BAIT = [
 
 def quality_check(post: str, source_title: str) -> list[str]:
     problems = []
-    if len(post) > 1000:
-        problems.append("too long (>1000 chars)")
+    if len(post) > 600:
+        problems.append("too long (>600 chars, medium posts only)")
     if len(post) < 150:
         problems.append("too short (<150 chars, page data: shorts flop)")
     tags = re.findall(r"#\w+", post)
@@ -1318,18 +1319,23 @@ def split_card(candidate: dict):
     try:
         if face and logo:
             out = _split_pair(logo, face, left_logo=True, right_face=True)
+            kind = "split:face+logo"
         elif face and scenes:
             out = _split_pair(scenes[0], face, right_face=True)
+            kind = "split:face"
         elif logo and scenes:
             out = _split_pair(logo, scenes[0], left_logo=True)
+            kind = "split:logo"
         elif len(scenes) >= 2:
             out = _split_pair(scenes[0], scenes[1])
+            kind = "split:scene"
         elif scenes:
             out = _split_pair(scenes[0], scenes[0])
+            kind = "split:scene"
         else:
             return None, None, None
         if out:
-            return out[0], out[1], "split"
+            return out[0], out[1], kind
     except Exception:
         pass
     return None, None, None
@@ -1422,9 +1428,11 @@ def entity_logo(candidate: dict):
 
 
 def credit_for(feed: str, src: str) -> str:
+    if not src or src == "text-only":
+        return ""
     if src == "face":
         return "Wikipedia"
-    if src == "split":
+    if (src or "").startswith("split:"):
         return "Wikipedia / Wikimedia Commons"
     if (src or "").startswith("wikimedia") or src == "entity-logo" \
             or (src or "").startswith("topic:"):
@@ -1583,6 +1591,17 @@ def _openverse_photo(query: str):
     except Exception as ex:
         log(f"Openverse search failed: {ex}")
     return None, None, None
+
+
+# Photo selectivity: post a photo only when it's genuinely good (the
+# story's own image, a face, a logo, or a split starring one). Generic
+# scene splits go text-only. PHOTO_SELECTIVE=0 restores always-photo.
+PHOTO_WORTHY = {"source", "og:image", "face", "entity-logo",
+                "split:face+logo", "split:face", "split:logo"}
+
+
+def photo_worth_posting(src) -> bool:
+    return (src or "") in PHOTO_WORTHY
 
 
 def find_photo(candidate: dict):
@@ -1758,31 +1777,41 @@ def _story_text(caption: str) -> list:
     return [ln for ln in lines if ln]
 
 
-def _story_card(caption: str, image: bytes):
-    """1080x1920 story creative: photo top, the actual post text below,
-    house footer. This puts the POST (not just a picture) on stories."""
+def _story_card(caption: str, image: bytes | None):
+    """1080x1920 story creative: photo top (when the post has one), the
+    actual post text below, house footer. Text-only posts get a full
+    text card. This puts the POST (not just a picture) on stories."""
     from PIL import Image, ImageDraw
     import textwrap
-    try:
-        im = Image.open(io.BytesIO(image)).convert("RGB")
-    except Exception:
-        return None
-    # strip our branded footer bar (bottom ~9%) so it doesn't sit mid-story
-    im = im.crop((0, 0, im.size[0], int(im.size[1] * 0.91)))
     W, H = 1080, 1920
     card = Image.new("RGB", (W, H), (11, 18, 32))
-    card.paste(_cover(im, W, 1000), (0, 0))
     d = ImageDraw.Draw(card)
-    d.line([0, 1000, W, 1000], fill=(255, 255, 255), width=3)
-    y = 1045
+    if image is None:
+        y = 140
+    else:
+        try:
+            im = Image.open(io.BytesIO(image)).convert("RGB")
+        except Exception:
+            return None
+        # strip our branded footer bar (bottom ~9%) so it doesn't sit mid-story
+        im = im.crop((0, 0, im.size[0], int(im.size[1] * 0.91)))
+        card.paste(_cover(im, W, 1000), (0, 0))
+        d.line([0, 1000, W, 1000], fill=(255, 255, 255), width=3)
+        y = 1045
+    wrapped: list = []
     for i, ln in enumerate(_story_text(caption)[:10]):
         size = 54 if i == 0 else 36
         width = 20 if i == 0 else 30
         for wline in textwrap.wrap(ln, width=width)[:4 if i == 0 else 3]:
-            if y > 1760:
-                break
-            d.text((50, y), wline, font=_font(size), fill=(255, 255, 255))
-            y += size + 10
+            wrapped.append((wline, size))
+    if image is None and wrapped:
+        total = sum(s + 10 for _, s in wrapped)
+        y = max(120, (1830 - total) // 2)
+    for wline, size in wrapped:
+        if y > 1760:
+            break
+        d.text((50, y), wline, font=_font(size), fill=(255, 255, 255))
+        y += size + 10
     buf = io.BytesIO()
     _footer(card, 90).save(buf, "JPEG", quality=88)
     return buf.getvalue(), "jpeg"
@@ -2190,6 +2219,10 @@ def main() -> int:
 
     h = item_hash(pick["link"], pick["title"])
     img, ext, src = find_photo(pick)
+    if os.getenv("PHOTO_SELECTIVE", "1") == "1" \
+            and not photo_worth_posting(src):
+        log(f"Photo {src} not worth posting, going text-only.")
+        img, src = None, "text-only"
     post = add_credit(post, credit_for(pick["feed"], src))
     post = add_source(post, outlet_for(pick["feed"]))
     log(f"Photo: {src or 'none'} | credit added")
@@ -2200,16 +2233,16 @@ def main() -> int:
         if img:
             post_id = publish_photo_to_facebook(img, ext, post)
             log(f"Published WITH PHOTO ({src})! FB id={post_id}")
-            if os.getenv("POST_STORIES", "1") == "1":
-                try:
-                    story_id = publish_story_from_photo(img, ext, post)
-                    log(f"Story published! id={story_id}")
-                except Exception as ex:
-                    log(f"Story skipped (feed post is live): {ex}")
         else:
-            log("WARNING: no photo found anywhere, posting text-only.")
+            log("Text-only post (no worthy photo).")
             post_id = publish_to_facebook(post)
             log(f"Published (text-only)! FB post id={post_id}")
+        if os.getenv("POST_STORIES", "1") == "1":
+            try:
+                story_id = publish_story_from_photo(img, ext, post)
+                log(f"Story published! id={story_id}")
+            except Exception as ex:
+                log(f"Story skipped (feed post is live): {ex}")
     except Exception as ex:
         log(f"Publish failed: {ex}")
         return 4
