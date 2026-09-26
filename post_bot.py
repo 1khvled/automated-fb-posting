@@ -729,6 +729,7 @@ def sanitize(post: str) -> str:
     post = re.sub(r"\*([^*]+)\*", lambda m: m.group(1).upper(), post)
     post = re.sub(r"_([^_]+)_", lambda m: m.group(1).upper(), post)
     # belt and suspenders: no asterisk or backtick may reach Facebook
+    post = post.replace("\r", "")
     post = post.replace("*", "").replace("`", "")
     return post
 
