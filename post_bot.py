@@ -1298,6 +1298,9 @@ TOPIC_PHOTOS = [
      ["wallstreet.jpg", "stocks-nyse.jpg"]),
     (["mortgage", "rates", "yield", "bonds", "dollar"],
      ["wallstreet.jpg", "stocks-nyse.jpg"]),
+    (["white house", "trump", "biden", "vance", "congress", "senate",
+      "election", "supreme court", "tariff", "trade", "modi", "maga"],
+     ["whitehouse.jpg"]),
     (["fed", "powell", "warsh", "fomc", "interest rate", "rate cut",
       "rate hike"],
      ["fed.jpg"]),
@@ -1394,15 +1397,21 @@ def find_photo(candidate: dict):
         if timg:
             return timg, text_, tsrc
     if not raw:
-        queries = [k for k in (candidate.get("keywords") or [])
-                   if not k.startswith("+")][:3]
-        if not queries:
-            queries = ["stock market", "artificial intelligence"]
-        for q in queries:
-            data, _ext = _wikimedia_photo(q, cache_key=f"wiki-{_slug(q)}")
-            if data:
-                raw = (data, f"wikimedia:{q}")
-                break
+        # No blind web search: a relevant curated photo always beats a
+        # random one. Neutral finance fallback rotates per story link.
+        neutral = ["stocks-nyse.jpg", "market-hall.jpg", "wallstreet.jpg"]
+        fn = neutral[int(hashlib.sha256(
+            candidate.get("link", "").encode()).hexdigest(), 16)
+            % len(neutral)]
+        p = os.path.join(ASSETS_DIR, "topics", fn)
+        if not os.path.exists(p):
+            return None, None, None
+        try:
+            with open(p, "rb") as f:
+                branded, ext = _brand_image(f.read())
+            return branded, ext, f"topic:{fn}"
+        except Exception:
+            return None, None, None
     if not raw:
         return None, None, None
     try:
