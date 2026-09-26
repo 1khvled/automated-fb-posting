@@ -1428,8 +1428,11 @@ def main() -> int:
 
     # Cooldown: never post more often than the effective gap (anti-spam:
     # cron runs every 20 min but the page posts ~11/day, not 72).
+    # FORCE_POST=1 (manual "post now" runs) skips the cooldown.
+    if os.getenv("FORCE_POST", "") == "1":
+        log("FORCE_POST=1, cooldown skipped (manual run)")
     last = state.get("last_post") if isinstance(state.get("last_post"), dict) else None
-    if last and last.get("at"):
+    if last and last.get("at") and os.getenv("FORCE_POST", "") != "1":
         try:
             gap = (now - datetime.fromisoformat(last["at"])).total_seconds() / 60
             if gap < eff_gap:
