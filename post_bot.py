@@ -916,7 +916,7 @@ ENTITY_LOGOS = [
     (["ethereum", "vitalik"],
      ["File:Ethereum Logo.png"], []),
     (["federal reserve", "fed", "powell", "warsh", "fomc", "eccles"],
-     ["File:2025 construction Eccles Federal Reserve Building Washington DC 2025-02-10 12-05-42.jpg"],
+     ["File:Eccles Building (26088200676).jpg"],
      ["Eccles Federal Reserve Building", "Federal Reserve headquarters"]),
     (["google", "gemini", "deepmind", "pichai"],
      [], ["Google G logo", "Google headquarters"]),
@@ -1219,7 +1219,8 @@ def entity_logo(candidate: dict):
 def credit_for(feed: str, src: str) -> str:
     if src == "face":
         return "Wikipedia"
-    if (src or "").startswith("wikimedia") or src == "entity-logo":
+    if (src or "").startswith("wikimedia") or src == "entity-logo" \
+            or (src or "").startswith("topic:"):
         return "Wikimedia Commons"
     if feed.startswith("X @"):
         return "@" + feed[3:]
@@ -1260,6 +1261,63 @@ def add_source(post: str, outlet: str) -> str:
     return post.rstrip() + "\n\n" + line
 
 
+# Curated topic photos (assets/topics/): hand-picked, visually verified.
+# Safety net between entity logos and blind Wikimedia search — a CPI story
+# gets Wall Street, an oil story gets pumpjacks, never a random image.
+# File rotation per story link spreads variety across posts.
+TOPIC_PHOTOS = [
+    (["s&p", "nasdaq", "dow", "stock market", "nyse"],
+     ["stocks-nyse.jpg", "market-hall.jpg", "wallstreet.jpg"]),
+    (["wall street", "treasury", "bond yield", "ecb"],
+     ["wallstreet.jpg", "stocks-nyse.jpg"]),
+    (["mortgage", "rates", "yield", "bonds", "dollar"],
+     ["wallstreet.jpg", "stocks-nyse.jpg"]),
+    (["fed", "powell", "warsh", "fomc", "interest rate", "rate cut",
+      "rate hike"],
+     ["fed.jpg"]),
+    (["bitcoin", "btc"], ["bitcoin.jpg"]),
+    (["gold"], ["gold.jpg"]),
+    (["oil", "opec", "brent", "hormuz", "gas"], ["oil.jpg"]),
+    (["gpu", "semiconductor", "ai chip", "artificial intelligence",
+      "generative ai"],
+     ["chips.jpg"]),
+    (["inflation", "cpi", "jobs report", "gdp", "recession"],
+     ["wallstreet.jpg", "market-hall.jpg"]),
+]
+
+
+def topic_photo(candidate: dict):
+    """(bytes, ext, src) branded topic photo, else (None, None, None)."""
+    text = f"{candidate.get('title', '')} {candidate.get('summary', '')}".lower()
+    for keys, files in TOPIC_PHOTOS:
+        if not any(k in text for k in keys):
+            continue
+        start = int(hashlib.sha256(
+            candidate.get("link", "").encode()).hexdigest(), 16) % len(files)
+        for off in range(len(files)):
+            fn = files[(start + off) % len(files)]
+            p = os.path.join(ASSETS_DIR, "topics", fn)
+            if not os.path.exists(p):
+                continue
+            try:
+                with open(p, "rb") as f:
+                    branded, ext = _brand_image(f.read())
+                return branded, ext, f"topic:{fn}"
+            except Exception:
+                continue
+    return None, None, None
+
+
+def _big_enough(data: bytes) -> bool:
+    """Reject tiny thumbnails from source/og photos (min 250k px)."""
+    try:
+        from PIL import Image
+        w, h = Image.open(io.BytesIO(data)).size
+        return w * h >= int(os.getenv("MIN_PHOTO_PX", "250000"))
+    except Exception:
+        return False
+
+
 def find_photo(candidate: dict):
     """(bytes, ext, src). Every image gets debranded + Ethan Cole footer;
     logo card when the story names an entity but has no photo."""
@@ -1292,6 +1350,9 @@ def find_photo(candidate: dict):
                         raw = (data, "og:image")
         except Exception:
             pass
+    if raw and not _big_enough(raw[0]):
+        log("Source/og photo too small, falling through to curated photos")
+        raw = None
     if not raw:
         face = people_photo(candidate)
         if face[0]:
@@ -1300,6 +1361,10 @@ def find_photo(candidate: dict):
         card = entity_logo(candidate)
         if card[0]:
             return card[0], card[1], "entity-logo"
+    if not raw:
+        timg, text_, tsrc = topic_photo(candidate)
+        if timg:
+            return timg, text_, tsrc
     if not raw:
         queries = [k for k in (candidate.get("keywords") or [])
                    if not k.startswith("+")][:3]

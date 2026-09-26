@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write   # needed to commit posted.json state back
+  issues: write     # needed to open/resolve bot-alert issues
 
 jobs:
   autopost:
@@ -64,3 +65,20 @@ jobs:
           git add posted.json || true
           git diff --staged --quiet || git commit -m "bot: update posted state [skip ci]" || true
           git push || true
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          OPEN=$(gh issue list --repo ${{ github.repository }} --search "[bot-alert] in:title state:open" --json number --jq length)
+          if [ "$OPEN" = "0" ]; then
+            gh issue create --repo ${{ github.repository }} --title "[bot-alert] FB bot run failed" --body "Run ${{ github.run_id }} failed (publish error, dead token, or QC loop). Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
+
+      - name: Resolve alert
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue list --repo ${{ github.repository }} --search "[bot-alert] in:title state:open" --json number --jq '.[].number' | xargs -r -n1 gh issue close --repo ${{ github.repository }} --comment "Recovered on run ${{ github.run_id }}." 2>/dev/null || true

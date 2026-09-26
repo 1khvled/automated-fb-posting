@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write     # monthly growth-report issue
 
 jobs:
   metrics:
@@ -37,3 +38,11 @@ jobs:
           git add metrics.jsonl || true
           git diff --staged --quiet || git commit -m "metrics: monthly snapshot [skip ci]" || true
           git push || true
+
+      - name: Growth report issue
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/report.py > /tmp/report.md
+          gh issue create --repo ${{ github.repository }} --title "Growth report $(date -u +%Y-%m)" --body-file /tmp/report.md

@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: read
+  issues: write     # critical alerts (e.g. user token dead = human login needed)
 
 jobs:
   refresh:
@@ -46,3 +47,13 @@ jobs:
         run: |
           gh secret set FB_PAGE_ACCESS_TOKEN --repo ${{ github.repository }} --body "${{ steps.mint.outputs.page_token }}"
           gh secret set FB_USER_TOKEN --repo ${{ github.repository }} --body "${{ steps.mint.outputs.user_token }}"
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          OPEN=$(gh issue list --repo ${{ github.repository }} --search "[bot-alert] in:title state:open" --json number --jq length)
+          if [ "$OPEN" = "0" ]; then
+            gh issue create --repo ${{ github.repository }} --title "[bot-alert] Token self-heal failed — human login needed" --body "The monthly refresh failed (exit 4 = user token fully dead, or missing GH_PAT/app secrets). Re-seed per README section 3. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
