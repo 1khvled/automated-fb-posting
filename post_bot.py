@@ -1163,51 +1163,125 @@ def _fetch_face_raw(wiki: str, queries: list):
     return None
 
 
-def _split_image(face: bytes, logo: bytes):
-    """Cointelegraph-style 1200x630: entity logo left on dark, face right."""
+def _cover(im, w, h, top_bias=False):
+    """Resize-and-crop to exactly w×h. Faces use top bias, scenes center."""
+    scale = max(w / im.size[0], h / im.size[1])
+    im = im.resize((int(im.size[0] * scale) + 1, int(im.size[1] * scale) + 1))
+    x = (im.size[0] - w) // 2
+    y = (im.size[1] - h) // (3 if top_bias else 2)
+    y = max(y, 0)
+    return im.crop((x, y, x + w, y + h))
+
+
+def _split_pair(left: bytes, right: bytes, left_logo=False,
+                right_face=False):
+    """1200x630 two-panel composite. Logos sit contained on dark;
+    photos cover-crop (faces top-biased). Always ends with house footer."""
     from PIL import Image, ImageDraw
     try:
-        f = Image.open(io.BytesIO(face)).convert("RGB")
-        lg = Image.open(io.BytesIO(logo)).convert("RGBA")
+        left_im = Image.open(io.BytesIO(left))
+        right_im = Image.open(io.BytesIO(right))
     except Exception:
         return None
     card = Image.new("RGB", (1200, 630), (11, 18, 32))
-    lg.thumbnail((520, 380))
-    card.paste(lg, ((600 - lg.size[0]) // 2, (540 - lg.size[1]) // 2), lg)
+    if left_logo:
+        left_im = left_im.convert("RGBA")
+        left_im.thumbnail((520, 380))
+        card.paste(left_im, ((600 - left_im.size[0]) // 2,
+                             (540 - left_im.size[1]) // 2), left_im)
+    else:
+        card.paste(_cover(left_im.convert("RGB"), 600, 540), (0, 0))
+    if right_face:
+        card.paste(_cover(right_im.convert("RGB"), 600, 540,
+                           top_bias=True), (600, 0))
+    else:
+        card.paste(_cover(right_im.convert("RGB"), 600, 540), (600, 0))
     d = ImageDraw.Draw(card)
     d.line([600, 0, 600, 540], fill=(255, 255, 255), width=3)
-    scale = max(600 / f.size[0], 540 / f.size[1])
-    f = f.resize((int(f.size[0] * scale) + 1, int(f.size[1] * scale) + 1))
-    x = (f.size[0] - 600) // 2
-    y = max((f.size[1] - 540) // 3, 0)  # bias to top (faces)
-    card.paste(f.crop((x, y, x + 600, y + 540)), (600, 0))
     buf = io.BytesIO()
     _footer(card, 90).save(buf, "JPEG", quality=88)
     return buf.getvalue(), "jpeg"
 
 
+def _split_image(face: bytes, logo: bytes):
+    """Legacy wrapper: logo left, face right."""
+    return _split_pair(logo, face, left_logo=True, right_face=True)
+
+
+NEUTRAL_TOPICS = ["stocks-nyse.jpg", "market-hall.jpg", "wallstreet.jpg"]
+
+
+def _topic_raw_files(text: str, link: str, n: int = 2) -> list:
+    """Up to n unbranded topic filenames for text (ordered, distinct)."""
+    picked: list = []
+    for keys, files in TOPIC_PHOTOS:
+        if any(k in text for k in keys):
+            start = int(hashlib.sha256(link.encode()).hexdigest(), 16)
+            for i in range(len(files)):
+                fn = files[(start + i) % len(files)]
+                if fn not in picked:
+                    picked.append(fn)
+                if len(picked) >= n:
+                    return picked
+            break
+    start = int(hashlib.sha256((link + "neutral").encode()).hexdigest(), 16)
+    for i in range(len(NEUTRAL_TOPICS)):
+        fn = NEUTRAL_TOPICS[(start + i) % len(NEUTRAL_TOPICS)]
+        if fn not in picked:
+            picked.append(fn)
+        if len(picked) >= n:
+            break
+    return picked
+
+
 def split_card(candidate: dict):
-    """(bytes, ext, src) logo+face composite when a story names both an
-    entity and a person. Bundled logos only (network logos too fragile)."""
+    """(bytes, ext, src) two-panel composite for EVERY post: logo+face when
+    the story names both, otherwise paired with a curated topic photo
+    (face+scene, logo+scene, or scene+scene). Never random, never single."""
     text = f"{candidate.get('title', '')} {candidate.get('summary', '')}".lower()
+    link = candidate.get("link", "")
     person = next((p for p in PEOPLE_PHOTOS
                    if any(k in text for k in p[0])), None)
     entity = next((e for e in ENTITY_LOGOS
                    if any(k in text for k in e[0])), None)
-    if not (person and entity):
-        return None, None, None
-    _keys, wiki, queries = person
-    logo_path = os.path.join(
-        ASSETS_DIR, "logos", f"{_slug(entity[0][0]) or 'entity'}.png")
-    if not os.path.exists(logo_path):
-        return None, None, None
+    face = None
+    if person:
+        try:
+            face = _fetch_face_raw(person[1], person[2])
+        except Exception:
+            face = None
+    logo = None
+    if entity:
+        lp = os.path.join(ASSETS_DIR, "logos",
+                           f"{_slug(entity[0][0]) or 'entity'}.png")
+        if os.path.exists(lp):
+            try:
+                with open(lp, "rb") as fh:
+                    logo = fh.read()
+            except Exception:
+                logo = None
+    scenes: list = []
+    for fn in _topic_raw_files(text, link, 2):
+        p = os.path.join(ASSETS_DIR, "topics", fn)
+        if os.path.exists(p):
+            try:
+                with open(p, "rb") as fh:
+                    scenes.append(fh.read())
+            except Exception:
+                pass
     try:
-        with open(logo_path, "rb") as fh:
-            ldata = fh.read()
-        fdata = _fetch_face_raw(wiki, queries)
-        if not fdata:
+        if face and logo:
+            out = _split_pair(logo, face, left_logo=True, right_face=True)
+        elif face and scenes:
+            out = _split_pair(scenes[0], face, right_face=True)
+        elif logo and scenes:
+            out = _split_pair(logo, scenes[0], left_logo=True)
+        elif len(scenes) >= 2:
+            out = _split_pair(scenes[0], scenes[1])
+        elif scenes:
+            out = _split_pair(scenes[0], scenes[0])
+        else:
             return None, None, None
-        out = _split_image(fdata, ldata)
         if out:
             return out[0], out[1], "split"
     except Exception:
