@@ -73,7 +73,8 @@ TOPIC_WEIGHTS = {
     "stocks": (["s&p", "nasdaq", "dow", "stock market", "wall street",
                 "treasury", "bond yield", "ecb", "imf", "price target",
                 "analyst", "buy rating", "overweight", "underweight",
-                "initiated coverage", "initiates coverage"], 3),
+                "initiated coverage", "initiates coverage", "13f",
+                "insider", "form 4", "section 16"], 3),
     "ai": (["openai", "anthropic", "nvidia", "gpu", "llm", "chatgpt", "claude",
             "gemini", "copilot", "artificial intelligence", "generative ai",
             "ai chip", "ai model", "ai funding", "ai startup",
@@ -86,7 +87,10 @@ TOPIC_WEIGHTS = {
                "supreme court", "congress", "senate", "election",
                "republican", "democrat", "liberal", "woke", "biden",
                "vance", "modi", "india", "putin", "xi jinping",
-               "netanyahu", "zelensky"], 3),
+                               "netanyahu", "zelensky", "pelosi", "schumer", "mcconnell",
+                "mike johnson", "jeffries", "aoc", "ocasio", "cruz",
+                "rubio", "bernie", "elizabeth warren", "newsom",
+                "abbott"], 3),
 }
 
 # Famous large-cap stocks (roughly $50B+ market cap). Analyst-rating posts
@@ -97,9 +101,9 @@ FAMOUS_STOCKS = [
     ["googl", "goog", "google", "alphabet"], ["amzn", "amazon"],
     ["meta", "facebook"], ["tsla", "tesla"],
     ["brk", "berkshire"], ["avgo", "broadcom"], ["jpm", "jpmorgan"],
-    ["xom", "exxon"], ["lly", "eli lilly"], ["(v)", "$v", "visa"],
+    ["xom", "exxon"], ["eli lilly", "w:lly"], ["(v)", "$v", "visa"],
     ["mastercard"], ["orcl", "oracle"], ["nflx", "netflix"],
-    ["cost", "costco"], ["wmt", "walmart"], ["amd"],
+    ["costco"], ["wmt", "walmart"], ["amd"],
     ["jnj", "johnson"], ["bank of america", "w:bac"],
     ["gs", "goldman"], ["(ms)", "$ms", "morgan stanley"],
     ["(c)", "$c", "citi", "citigroup"], ["wfc", "wells fargo"],
@@ -134,6 +138,32 @@ FAMOUS_STOCKS = [
     ["w:ubs", "ubs group"],
 ]
 
+# Famous 13F filers: only their filings pass the gate (quarterly waves
+# are 90% unknown funds).
+FAMOUS_FILERS = [
+    "berkshire", "buffett", "weschler", "combs", "bridgewater", "dalio",
+    "duquesne", "druckenmiller", "pershing", "ackman", "elliott",
+    "singer", "citadel", "griffin", "baupost", "klarman", "third point",
+    "loeb", "greenlight", "einhorn", "icahn", "soros", "renaissance",
+    "simons", "two sigma", "shaw", "apollo", "blackstone", "schwarzman",
+    "kkr", "kravis", "carlyle", "brookfield", "viking", "halvorsen",
+    "lone pine", "mandel", "tiger global", "coleman", "coatue", "laffont",
+    "scion", "burry", "starboard", "trian", "peltz", "altimeter",
+    "gerstner",
+]
+
+# $500B+ mega-caps (first keywords of FAMOUS_STOCKS entries). Insider
+# trades only post on these names.
+MEGA_TICKERS = {"aapl", "msft", "nvda", "amzn", "googl", "meta", "tsla",
+                "brk", "avgo", "lly", "tsm", "(v)", "mastercard", "xom",
+                "orcl", "nflx", "cost", "wmt", "jpm"}
+
+
+def _mega_stock(text: str) -> bool:
+    return any(k in text for e in FAMOUS_STOCKS if e[0] in MEGA_TICKERS
+               for k in e)
+
+
 # Source trust tiers: original reporting and primary sources outrank
 # secondhand squawk. Small (+1) but decisive at the bar.
 FEED_TRUST = {
@@ -158,6 +188,14 @@ ANALYST_PAT = re.compile(r"price target|upgrade[ds]?|downgrade[ds]?|"
                          r"initiat\w*( coverage)?|overweight|underweight|"
                          r"buy rating|raises .* target", re.I)
 
+# 13F filings + insider trades detectors (gated to famous names below).
+F13_PAT = re.compile(r"13\s?f[\s\-]?(hr)?\b|13f filing|files? 13f", re.I)
+INSIDER_PAT = re.compile(
+    r"insider (buy|bought|buying|purchase|sell|sold|selling)|"
+    r"(ceo|cfo|chairman|founder|director) (buys|bought|purchases|sells|sold)|"
+    r"(buys|bought|purchases|sells|sold|unloads|offloads|dumps) (shares|stock)|"
+    r"shares? worth \$|cluster buy|form 4\b|section 16", re.I)
+
 FORMAT_BONUS = [
     (re.compile(r"launch|unveil|release|demo|one-shot|gpt-\d|opus|gro[kq]", re.I),
      3, "launch/demo"),
@@ -166,6 +204,8 @@ FORMAT_BONUS = [
      2, "hard-numbers"),
     (re.compile(r"breaking|just in", re.I), 1, "breaking"),
     (ANALYST_PAT, 2, "analyst-call"),
+    (F13_PAT, 2, "13f-filing"),
+    (INSIDER_PAT, 2, "insider-trade"),
 ]
 
 EXCLUDE = [
@@ -280,6 +320,9 @@ X_HANDLES = [
     "BillAckman",       # Bill Ackman — longform letters/threads
     "RayDalio",         # Ray Dalio — principles + macro
     "CathieDWood",      # Cathie Wood / ARK — innovation calls
+    # Politician trade trackers (visual: politician + stock they bought)
+    "PelosiTracker_",   # Nancy Pelosi stock tracker — rare gold, boosted
+    "congresstrading",  # congressional trades across both parties
     # Bank analyst actions (price targets, upgrades — Stockstoearn style)
     "StockMKTNewz",     # analyst PT changes all day
     "unusual_whales",   # flow + analyst ratings, noisy -> strict gate
@@ -307,6 +350,7 @@ X_SOURCE_RULES = {
                                      "vs ", "comparison", "torture test"]},
     "clashreport": {"geo_only": True},
     "BurryTracker": {"boost": 2},   # rare Burry signal, rank it up
+    "PelosiTracker_": {"boost": 2},  # rare Pelosi trade, rank it up
     "jimcramer": {"min_score": 6},   # showy daily takes, strict gate
     "saylor": {"min_score": 5},      # daily perma-bull drumbeat, firm gate
     "unusual_whales": {"min_score": 6},  # options-flow firehose, strict gate
@@ -552,6 +596,13 @@ def score_entry(title: str, summary: str) -> tuple[int, list[str]]:
     if ANALYST_PAT.search(text) and not _match_table(
             text, [(e, None, None) for e in FAMOUS_STOCKS]):
         return -100, []
+    # 13F gate: only famous filers' filings post (quarterly waves are
+    # 90% unknown funds).
+    if F13_PAT.search(text) and not any(f in text for f in FAMOUS_FILERS):
+        return -100, []
+    # Insider gate: only $500B+ mega-cap names post.
+    if INSIDER_PAT.search(text) and not _mega_stock(text):
+        return -100, []
     hits: list[str] = []
     score = 0.0
     for topic, (kws, w) in TOPIC_WEIGHTS.items():
@@ -566,6 +617,11 @@ def score_entry(title: str, summary: str) -> tuple[int, list[str]]:
         if pat.search(text):
             score += bonus
             hits.append(f"+{label}")
+    # blue-chip base: famous $50B+ stocks are core page content (+1 when
+    # anything else already scored, so politician trades clear the bar).
+    if _match_table(text, [(e, None, None) for e in FAMOUS_STOCKS]):
+        score += 1
+        hits.append("+blue-chip")
     # learned: generic fed-process stories with no market angle flop (avg 1.5)
     if any(h in ("fed", "federal reserve", "interest rate") for h in hits) and not \
             re.search(r"market|stock|s&p|nasdaq|bitcoin|mortgage|yield|dollar", text):
@@ -576,7 +632,9 @@ def score_entry(title: str, summary: str) -> tuple[int, list[str]]:
     if "power" in {KW_TO_TOPIC.get(k, "") for k in hits} and not \
             re.search(r"market|stock|s&p|nasdaq|bitcoin|crypto|oil|gold|dollar|"
                       r"tariff|trade|jobs|gdp|inflation|fed|yield|mortgage|"
-                      r"wall street|sanction|embargo", text):
+                      r"wall street|sanction|embargo|calls|puts|options|buys|"
+                      r"bought|purchase|disclosure|13f|insider|price target|"
+                      r"filing|shares", text):
         score -= 3
     if len(title.strip()) < 25:
         score -= 1
@@ -599,6 +657,53 @@ def diversity_penalty(pick_topics: list, history: list) -> int:
     if all(set(pick_topics) <= h for h in last2):
         return 2
     return 0
+
+
+# SEC 13F-HR filings (atom). SEC blocks generic scrapers, so this uses
+# requests with a descriptive UA, then feedparser on the bytes. Only
+# famous filers survive (see FAMOUS_FILERS gate in score_entry).
+SEC_13F_URL = ("https://www.sec.gov/cgi-bin/browse-edgar?"
+               "action=getcurrent&type=13F-HR&company=&dateb=&owner=include"
+               "&start=0&count=40&output=atom")
+SEC_UA = {"User-Agent": "EthanColeBot/1.0 (automated finance news monitor)"}
+
+
+def fetch_sec_13f(max_age_minutes: int):
+    out = []
+    try:
+        r = requests.get(SEC_13F_URL, timeout=25, headers=SEC_UA)
+        if r.status_code != 200 or not r.content:
+            log(f"SEC 13F: HTTP {r.status_code}")
+            return out
+        feed = feedparser.parse(r.content)
+        log(f"SEC 13F: {len(feed.entries)} filings")
+        for e in feed.entries[:40]:
+            title = (e.get("title") or "").strip()
+            link = (e.get("link") or "").strip()
+            if not title or not link:
+                continue
+            age = entry_age_minutes(e)
+            if age is not None and age > max_age_minutes:
+                continue
+            summary = (e.get("summary") or "")[:300]
+            s, hits = score_entry(title, summary)
+            if s < 1:
+                continue
+            verified = verify_url(link)
+            out.append({
+                "feed": "SEC 13F", "mode": "serious", "viral": 0,
+                "title": re.sub(r"\s+", " ", html.unescape(title))[:200],
+                "summary": html.unescape(re.sub(r"<[^>]+>", "", summary))[:400],
+                "link": link,
+                "age_min": round(age) if age is not None else None,
+                "score": decay(s + (1 if verified else -1), age, "serious"),
+                "keywords": hits[:5],
+                "verified": verified,
+            })
+    except Exception as ex:
+        log(f"SEC 13F error: {ex}")
+    out.sort(key=lambda c: c["score"], reverse=True)
+    return out
 
 
 def fetch_candidates(max_age_minutes: int):
@@ -1344,6 +1449,21 @@ PEOPLE_PHOTOS = [
     (["vivek arya", "arya"], "Vivek Arya", ["Vivek Arya Bank of America"]),
     (["dan ives", "ives"], "Dan Ives", ["Dan Ives Wedbush"]),
     (["gene munster", "munster"], "Gene Munster", ["Gene Munster Deepwater"]),
+    (["pelosi", "nancy pelosi"], "Nancy Pelosi", ["Nancy Pelosi portrait"]),
+    (["biden", "joe biden"], "Joe Biden", ["Joe Biden portrait"]),
+    (["obama", "barack obama"], "Barack Obama", ["Barack Obama portrait"]),
+    (["schumer", "chuck schumer"], "Chuck Schumer", ["Chuck Schumer portrait"]),
+    (["mcconnell", "mitch mcconnell"], "Mitch McConnell", ["Mitch McConnell portrait"]),
+    (["mike johnson", "speaker johnson"], "Mike Johnson", ["Mike Johnson speaker portrait"]),
+    (["jeffries", "hakeem jeffries"], "Hakeem Jeffries", ["Hakeem Jeffries portrait"]),
+    (["aoc", "ocasio-cortez", "ocasio cortez", "alexandria ocasio"], "Alexandria Ocasio-Cortez", ["Alexandria Ocasio-Cortez portrait"]),
+    (["elizabeth warren", "senator warren"], "Elizabeth Warren", ["Elizabeth Warren portrait"]),
+    (["bernie sanders", "bernie"], "Bernie Sanders", ["Bernie Sanders portrait"]),
+    (["cruz", "ted cruz"], "Ted Cruz", ["Ted Cruz portrait"]),
+    (["rubio", "marco rubio"], "Marco Rubio", ["Marco Rubio portrait"]),
+    (["hillary clinton", "hillary"], "Hillary Clinton", ["Hillary Clinton portrait"]),
+    (["bezos", "jeff bezos"], "Jeff Bezos", ["Jeff Bezos portrait"]),
+    (["jassy", "andy jassy"], "Andy Jassy", ["Andy Jassy portrait"]),
 ]
 
 
@@ -2882,7 +3002,7 @@ def main() -> int:
         return 0
 
     candidates = (fetch_candidates(max_age) + fetch_x_candidates(max_age)
-                  + fetch_tg_candidates(max_age))
+                  + fetch_tg_candidates(max_age) + fetch_sec_13f(max_age))
     candidates.sort(key=lambda c: c["score"], reverse=True)
     log(f"{len(candidates)} candidates passed filter")
     n_corr = corroboration_boost(candidates)
