@@ -78,7 +78,7 @@ TOPIC_WEIGHTS = {
     "ai": (["openai", "anthropic", "nvidia", "gpu", "llm", "chatgpt", "claude",
             "gemini", "copilot", "artificial intelligence", "generative ai",
             "ai chip", "ai model", "ai funding", "ai startup",
-            "semiconductor"], 3),
+            "semiconductor", "deepseek", "mistral", "grok", "llama"], 3),
     "inflation": (["inflation", "cpi", "ppi", "jobs report", "payrolls",
                    "unemployment", "gdp", "recession"], 2),
     "fed": (["fed", "federal reserve", "interest rate", "rate cut",
@@ -317,6 +317,7 @@ X_HANDLES = [
     "shengtang135754",  # Gemini/GPT leaks (CN/EN), often first
     "testingcatalog",   # unreleased AI models/features tracker
     "ChatGPTapp",       # ChatGPT updates + rollouts watcher
+    "Priyannkaaaa",     # Priya — DeepSeek/AI leaks, often first
     # Famous investors (faces + posts; Burry rarely tweets himself)
     "BurryTracker",     # Michael Burry tracker (13F, quotes, deletes)
     "saylor",           # Michael Saylor — daily Bitcoin, strict-ish gate
