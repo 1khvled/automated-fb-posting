@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "9e821647d63289bd",
-    "fb_id": "1264009986803820_122115849303472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 California Governor Gavin Newsom signs law banning public officials from issuing crypto meme coins.",
-    "link": "https://x.com/WatcherGuru/status/2104266524844577165",
+    "hash": "bbec67196eba705d",
+    "fb_id": "1264009986803820_122115901095472689",
+    "title": "If Sam Bankman-Fried's FTX didn't liquidate its investments following the collapse, it would still hold: \u2022 Solana: $7.0 billion (35x) \u2022 SpaceX: $15.1 billion (75x) \u2022 Cursor: $3 billion (15,000x) \u2022 ...",
+    "link": "https://x.com/WatcherGuru/status/2104278900255707263",
     "mode": "viral",
-    "at": "2026-09-27T21:27:55.538171+00:00"
+    "at": "2026-09-27T23:58:11.267530+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -24,14 +24,14 @@
     "b4df5090744d57db",
     "ba53dd395241dbaf",
     "baa35c16631d5782",
+    "bbec67196eba705d",
     "d248d07438581e6c",
     "d861583e99fec9ab"
   ],
   "day_counts": {
-    "2026-09-27": 6
+    "2026-09-27": 7
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korean hackers have now stolen over $1 billion worth of crypto this year following $350 million Bitget hack yesterday.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC Commissioner Hester Peirce calls to end mass KYC data collection, warning it puts crypto holders at risk of phishing and physical attacks. Pierce says the current KYC/AML system cre...",
     "BREAKING: The S&P 500 rises on reports that talks between the US and Iran have entered a \"technical stage,\" per Al Jazeera. Details include: 1. Negotiations in New York have reportedly moved beyond...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC issues new guidance clarifying securities laws on crypto.",
@@ -45,7 +45,8 @@
     "Trump on Iran: Last night, we took a record amount of oil out from the Hormuz Strait, more than we took out before the war.",
     "\ud83d\udea8 OpenAI's \"o\" Leak >\"o\" is confirmed in ChatGPT's own code, listed as a benefit across every Pro plan >Code literally says \"Lowercase o is the assistant's product name\" >Will be OpenAI's always-on...",
     "JUST IN: \ud83c\uddf8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Saudi Arabia's oil exports hit highest level since Iran war began as shipments increase through new US-secured Strait of Hormuz route. Saudi's crude oil exports increased almost 80% t...",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 California Governor Gavin Newsom signs law banning public officials from issuing crypto meme coins."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 California Governor Gavin Newsom signs law banning public officials from issuing crypto meme coins.",
+    "If Sam Bankman-Fried's FTX didn't liquidate its investments following the collapse, it would still hold: \u2022 Solana: $7.0 billion (35x) \u2022 SpaceX: $15.1 billion (75x) \u2022 Cursor: $3 billion (15,000x) \u2022 ..."
   ],
   "history": [
     {
@@ -212,6 +213,15 @@
       "mode": "viral",
       "photo": "split:flag+face",
       "at": "2026-09-27T21:27:55.538171+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122115901095472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-09-27T23:58:11.267530+00:00"
     }
   ],
   "tuner": {
