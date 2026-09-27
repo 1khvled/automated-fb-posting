@@ -72,11 +72,14 @@ jobs:
         if: failure()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           OPEN=$(gh issue list --repo ${{ github.repository }} --search "[bot-alert] in:title state:open" --json number --jq length)
           if [ "$OPEN" = "0" ]; then
             gh issue create --repo ${{ github.repository }} --title "[bot-alert] FB bot run failed" --body "Run ${{ github.run_id }} failed (publish error, dead token, or QC loop). Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           fi
+          python scripts/notify_telegram.py "🚨 Ethan Cole bot run FAILED (run ${{ github.run_id }}). Triage: 1) FB token dead/expired → re-seed per README section 3 (monthly self-heal should have caught it — check its runs). 2) All Gemini keys exhausted (429/quota) → wait for reset or add keys. 3) QC loop → open the run log, find 'Quality check FAILED' for the reason. 4) Publish error → FB API message is in the log. Full fix guide: README section 7. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
 
       - name: Resolve alert
         if: success()

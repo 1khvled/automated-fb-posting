@@ -118,6 +118,30 @@ What you must do (can't be automated):
 4. **Track:** `scripts/metrics.py` snapshots followers + 28-day reach every
    month (`metrics.jsonl`). Review it here and we steer the algo.
 
+## 7. When something breaks (alerts keep you posted)
+
+Every bot-run failure and the weekly Sunday credential check ping you on
+Telegram (bot + `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_ID` secrets — message
+the bot once first, then set your numeric chat id). Triage by cause:
+
+1. **FB token dead/expired** (`FB token invalid`, `debug_token error`,
+   publish `OAuthException`). Fix: re-seed per section 3. If the monthly
+   self-heal workflow also fails with exit 4, the user token is fully
+   dead — a human login is required, it cannot self-fix.
+2. **All Gemini keys exhausted** (`429`, `quota`, `GenerateContent 400`).
+   Fix: wait for the daily quota reset, or add fresh AI Studio keys to
+   `GEMINI_API_KEYS` (comma-separated). Rotation + failover is automatic.
+3. **QC loop** (`Quality check FAILED`, exit 3). Fix: read the listed
+   reason in the run log (usually length/tags); the writer prompt or
+   thresholds need a nudge — tell me here and we tune it.
+4. **Publish error** (FB API message in log, e.g. permission removed).
+   Fix: re-grant `pages_manage_posts` on the Page for the App, then test
+   with a dry run (`Run workflow` → dry_run=1).
+5. **Leadership mismatch** (`LEADERSHIP MISMATCH ... may have changed`).
+   Not fatal — the bot falls back to flag/institution visuals. Fix: confirm
+   the new officeholder via an official source, then update the hint in
+   `OFFICES` (`post_bot.py`) so inferred faces resume.
+
 ## Files
 
 - `ethan-cole-fb-bot/post_bot.py:1` — fetch → filter → rewrite → QC → publish
