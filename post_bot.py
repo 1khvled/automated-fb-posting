@@ -410,8 +410,15 @@ def fetch_x_candidates(max_age_minutes: int):
                     media = p.get("media") or {}
                     # Main post media ONLY: quote-tweet and reply media
                     # caused wrong-image posts (e.g. pricing screenshots).
-                    photos = list(media.get("photos") or [])
-                    videos = list(media.get("videos") or [])
+                    # A post quoting anything keeps its TEXT but never its
+                    # attachments: the API mixes quoted media in, so quoted
+                    # posts resolve to subject visuals (logo/face) instead.
+                    quoted = p.get("quote") or {}
+                    if quoted.get("id") or quoted.get("text"):
+                        photos, videos = [], []
+                    else:
+                        photos = list(media.get("photos") or [])
+                        videos = list(media.get("videos") or [])
                     photo_url = _pick(photos)
                     video_url = _pick(videos)
                 except Exception:
