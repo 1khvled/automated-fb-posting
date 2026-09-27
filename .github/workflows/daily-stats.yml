@@ -1,0 +1,42 @@
+name: Daily stats digest
+
+on:
+  schedule:
+    - cron: "30 7 * * *"   # 07:30 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit daily_stats.jsonl baseline back
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Send daily digest
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          STATE_FILE: posted.json
+        run: python scripts/daily_stats.py
+
+      - name: Save baseline
+        if: always()
+        run: |
+          git config user.name "fb-bot"
+          git config user.email "fb-bot@users.noreply.github.com"
+          git add daily_stats.jsonl || true
+          git diff --staged --quiet || git commit -m "stats: daily digest baseline [skip ci]" || true
+          git pull --rebase || true
+          git push || true
