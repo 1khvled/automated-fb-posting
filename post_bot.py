@@ -809,6 +809,7 @@ House style mined from the page's own 80 posts (top performers weighted):
   NEVER under 150.
 - Hashtags: ALWAYS include #ethancole first, then 4-5 topic tags from the house set when relevant: #ai #artificialintelligence #technews #finance #stockmarket #investing #breakingnews #marketnews #federalreserve #crypto #bitcoin #openai #nvidia #economy. Exactly 5-6 total. Page data proves 7+ tags collapse engagement.
 - Rewrite originally, never copy the headline. NO URLs in the copy.
+- SOURCE-ONLY: use ONLY the facts, names, numbers, and titles stated in the provided headline/summary below. NEVER fill gaps from your training data — if the source doesn't say it, don't add it. In particular, never infer job titles or 'former/current' status from memory; copy titles exactly as the source states them.
 - Do NOT write any source/credit line — the publisher appends source
   attribution automatically at the end of every post.
 - 'BREAKING'/'JUST IN' only for genuinely fresh news; 'reportedly' if unconfirmed.
