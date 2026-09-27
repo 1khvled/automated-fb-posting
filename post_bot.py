@@ -12,7 +12,7 @@ Env secrets required:
 
 Optional:
   DRY_RUN=1 — generate post but skip Facebook publish
-  MAX_AGE_MINUTES=2880 — only consider news newer than this (default 2880 = 2d)
+  MAX_AGE_MINUTES=1440 — only consider news newer than this (default 1440 = 24h)
   STATE_FILE=posted.json — dedup store
   GEMINI_API_KEYS=k1,k2,.. — comma-separated key pool, rotated every run
   MIN_VIDEO_SCORE=4 — video pick bar (default 4)
@@ -386,7 +386,7 @@ def fetch_x_candidates(max_age_minutes: int):
                     age = (time.time() - int(ts)) / 60 if ts else None
                 except Exception:
                     age = None
-                if age is not None and age > max_age_minutes:
+                if age is None or age > max_age_minutes:
                     continue
                 link = (p.get("url")
                         or f"https://x.com/{handle}/status/{p.get('id')}")
@@ -519,7 +519,7 @@ def fetch_tg_candidates(max_age_minutes: int):
                     age = (datetime.now(timezone.utc) - dt).total_seconds() / 60
                 except Exception:
                     age = None
-                if age is not None and (age < -5 or age > max_age_minutes):
+                if age is None or age < -5 or age > max_age_minutes:
                     continue
                 text = html.unescape(re.sub(r"<[^>]+>", " ", m_text.group(1)))
                 text = re.sub(r"\s+", " ", text).strip()
@@ -3003,7 +3003,7 @@ def fb_token_ok() -> bool:
 
 
 def main() -> int:
-    max_age = int(os.getenv("MAX_AGE_MINUTES", "2880"))  # 2 days max
+    max_age = int(os.getenv("MAX_AGE_MINUTES", "1440"))  # 24h cap
     state_file = os.getenv("STATE_FILE", "posted.json")
     dry_run = os.getenv("DRY_RUN", "") == "1"
 
