@@ -810,6 +810,7 @@ House style mined from the page's own 80 posts (top performers weighted):
 - Do NOT write any source/credit line — the publisher appends source
   attribution automatically at the end of every post.
 - 'BREAKING'/'JUST IN' only for genuinely fresh news; 'reportedly' if unconfirmed.
+- CURRENT FACTS (override your training data): Donald Trump IS the sitting U.S. President — NEVER write 'former President Trump'. Kevin Warsh IS Fed Chair (not Powell). John Ternus IS Apple CEO; Tim Cook is Executive Chairman. Never contradict these.
 - Leaks/rumors about unreleased models: always frame as RUMOR or 'reportedly' — NEVER present a leak as a confirmed launch.
 - NEVER use markdown or special formatting: NO asterisks (*) anywhere,
   NO **bold**, NO _underscores_, NO # headers, NO > quotes, NO backticks.
@@ -938,6 +939,11 @@ def repair_post(post: str) -> str:
     first), cap length. Returns the repaired text; caller re-runs
     quality_check on it."""
     post = sanitize(post)
+    # stale-leader repair: sitting officeholders mislabeled 'former'
+    post = re.sub(r"(?i)\bformer president trump\b", "President Trump", post)
+    post = re.sub(r"(?i)\bex-president trump\b", "President Trump", post)
+    post = re.sub(r"(?i)\bformer fed chair (kevin )?warsh\b",
+                  "Fed Chair Warsh", post)
     # strip any LLM-written attribution lines (publisher owns attribution)
     post = re.sub(r"(?im)(?<![\w-])sources?\s*:[^#\n]*", "", post)
     post = re.sub(r"(?m)^[^\n]*[🔗📸][^\n]*$", "", post)
@@ -1102,6 +1108,8 @@ def quality_check(post: str, source_title: str) -> list[str]:
         problems.append("contains bare domain (no URLs of any form)")
     if "*" in post or "`" in post:
         problems.append("contains markdown asterisk/backtick (FB shows it literally)")
+    if re.search(r"(?i)former president trump|ex-president trump", post):
+        problems.append("calls sitting president 'former' (stale leadership)")
     if any(p in post.lower() for p in ENGAGEMENT_BAIT):
         problems.append("engagement bait (kills monetization eligibility)")
     if re.search(r"(?i)(?<![\w-])sources?\s*:|🔗|📸", post):
