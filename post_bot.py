@@ -89,6 +89,51 @@ TOPIC_WEIGHTS = {
                "netanyahu", "zelensky"], 3),
 }
 
+# Famous large-cap stocks (roughly $50B+ market cap). Analyst-rating posts
+# only pass the gate when they name one of these (ticker or company).
+# Short tickers use (T)/$T forms so "V" doesn't match every sentence.
+FAMOUS_STOCKS = [
+    ["aapl", "apple"], ["msft", "microsoft"], ["nvda", "nvidia"],
+    ["googl", "goog", "google", "alphabet"], ["amzn", "amazon"],
+    ["meta", "facebook"], ["tsla", "tesla"],
+    ["brk", "berkshire"], ["avgo", "broadcom"], ["jpm", "jpmorgan"],
+    ["xom", "exxon"], ["lly", "eli lilly"], ["(v)", "$v", "visa"],
+    ["mastercard"], ["orcl", "oracle"], ["nflx", "netflix"],
+    ["cost", "costco"], ["wmt", "walmart"], ["amd"],
+    ["jnj", "johnson"], ["bank of america", "w:bac"],
+    ["gs", "goldman"], ["(ms)", "$ms", "morgan stanley"],
+    ["(c)", "$c", "citi", "citigroup"], ["wfc", "wells fargo"],
+    ["axp", "american express"], ["blk", "blackrock"], ["schw", "schwab"],
+    ["unh", "unitedhealth"], ["mrk", "merck"], ["abbv", "abbvie"],
+    ["pfe", "pfizer"], ["tmo", "thermo fisher"], ["abt", "abbott"],
+    ["dhr", "danaher"], ["amgn", "amgen"], ["gild", "gilead"],
+    ["vrtx", "vertex"], ["zts", "zoetis"], ["(ci)", "$ci", "cigna"],
+    ["home depot", "w:hd"], ["mcd", "mcdonald"], ["sbux", "starbucks"],
+    ["lowe"], ["tjx", "tj maxx"], ["booking"],
+    ["marriott"], ["cvx", "chevron"], ["conocophillips", "w:cop"],
+    ["pg", "procter"], ["coca-cola", "coca cola", "w:ko"], ["pepsi"],
+    ["philip morris"], ["(mo)", "$mo", "altria"],
+    ["(t)", "$t", "at&t"], ["vz", "verizon"], ["tmus", "t-mobile"],
+    ["cmcsa", "comcast"], ["crm", "salesforce"], ["adbe", "adobe"],
+    ["servicenow"], ["intc", "intel"], ["qcom", "qualcomm"],
+    ["txn", "texas instruments"], ["amat", "applied materials"],
+    ["lrcx", "lam research"], ["micron", "w:mu"], ["klac", "kla"],
+    ["mrvl", "marvell"], ["arm holdings", "w:arm"], ["snps", "synopsys"],
+    ["cdns", "cadence"], ["pltr", "palantir"], ["coin", "coinbase"],
+    ["shopify", "w:shop"], ["uber"], ["abnb", "airbnb"], ["disney", "w:dis"],
+    ["nke", "nike"], ["tsm", "taiwan semi"], ["asml"],
+    ["baba", "alibaba"], ["spotify", "w:spot"], ["block", "w:sq"],
+    ["pypl", "paypal"], ["ibm"], ["csco", "cisco"], ["acn", "accenture"],
+    ["ge aerospace", "w:ge"], ["honeywell"], ["caterpillar", "w:cat"],
+    ["deere", "john deere"], ["lmt", "lockheed"], ["rtx"],
+    ["united parcel", "(ups)", "$ups", "ups earnings", "ups stock",
+     "ups cuts", "ups results", "ups guides"], ["fdx", "fedex"], ["toyota", "w:tm"], ["gm", "general motors"],
+    ["panw", "palo alto"], ["crwd", "crowdstrike"], ["snow", "snowflake"],
+    ["cloudflare"], ["dell"], ["hood", "robinhood"],
+    ["nxpi", "nxp"],
+    ["w:ubs", "ubs group"],
+]
+
 # Source trust tiers: original reporting and primary sources outrank
 # secondhand squawk. Small (+1) but decisive at the bar.
 FEED_TRUST = {
@@ -107,6 +152,12 @@ def feed_trust_bonus(feed: str) -> int:
 # Format bonuses learned from the page's top-8 posts:
 # model launches/demos (#1 post: Opus one-shotting a game), security
 # breaches (#3: Gemini hack), hard numbers/specs, genuine breaking news.
+# Shared analyst-action detector: bank ratings on stocks. Used for the
+# format bonus AND the famous-stock gate below.
+ANALYST_PAT = re.compile(r"price target|upgrade[ds]?|downgrade[ds]?|"
+                         r"initiat\w*( coverage)?|overweight|underweight|"
+                         r"buy rating|raises .* target", re.I)
+
 FORMAT_BONUS = [
     (re.compile(r"launch|unveil|release|demo|one-shot|gpt-\d|opus|gro[kq]", re.I),
      3, "launch/demo"),
@@ -114,9 +165,7 @@ FORMAT_BONUS = [
     (re.compile(r"\$\d|\d+%|\d+\.\d+%|billion|million|record|all-time high", re.I),
      2, "hard-numbers"),
     (re.compile(r"breaking|just in", re.I), 1, "breaking"),
-    (re.compile(r"price target|upgrade[ds]?|downgrade[ds]?|initiated( coverage)?|"
-                r"overweight|underweight|buy rating|raises .* target", re.I),
-     2, "analyst-call"),
+    (ANALYST_PAT, 2, "analyst-call"),
 ]
 
 EXCLUDE = [
@@ -497,6 +546,11 @@ def entry_age_minutes(entry) -> float | None:
 def score_entry(title: str, summary: str) -> tuple[int, list[str]]:
     text = f"{title} {summary}".lower()
     if any(x in text for x in EXCLUDE):
+        return -100, []
+    # Famous-stock gate: bank-rating posts only count when they name a
+    # $50B+ famous stock. Random small-cap ratings never post.
+    if ANALYST_PAT.search(text) and not _match_table(
+            text, [(e, None, None) for e in FAMOUS_STOCKS]):
         return -100, []
     hits: list[str] = []
     score = 0.0
