@@ -219,6 +219,13 @@ X_HANDLES = [
     "AnthropicAI",      # 1.8M
     "GoogleDeepMind",   # 1.5M — papers, benchmarks
     "AIatMeta",         # 855K — Llama/open-source side
+    # Famous investors (faces + posts; Burry rarely tweets himself)
+    "BurryTracker",     # Michael Burry tracker (13F, quotes, deletes)
+    "saylor",           # Michael Saylor — daily Bitcoin, strict-ish gate
+    "jimcramer",        # Jim Cramer — very noisy, strict gate
+    "BillAckman",       # Bill Ackman — longform letters/threads
+    "RayDalio",         # Ray Dalio — principles + macro
+    "CathieDWood",      # Cathie Wood / ARK — innovation calls
 ]
 
 # Per-account rules: high-volume or off-format accounts get their own gate.
@@ -242,6 +249,9 @@ X_SOURCE_RULES = {
                                      "hands-on", "first look", "made this video",
                                      "vs ", "comparison", "torture test"]},
     "clashreport": {"geo_only": True},
+    "BurryTracker": {"boost": 2},   # rare Burry signal, rank it up
+    "jimcramer": {"min_score": 6},   # showy daily takes, strict gate
+    "saylor": {"min_score": 5},      # daily perma-bull drumbeat, firm gate
 }
 
 
@@ -799,6 +809,7 @@ RAGE_WORDS = [
     "banned", "ban", "bubble", "ponzi", "dumps",
     "indictment", "indicted", "crackdown", "raid", "impeach", "veto",
     "ruling", "sentenced", "arrest", "coup", "invasion",
+    "burry", "saylor", "cramer",
 ]
 
 
@@ -1239,6 +1250,16 @@ PEOPLE_PHOTOS = [
     (["philip jefferson", "governor jefferson"], "Philip Jefferson", ["Philip Jefferson Federal Reserve"]),
     (["lisa cook", "governor cook"], "Lisa Cook", ["Lisa Cook Federal Reserve"]),
     (["michael barr"], "Michael Barr", ["Michael Barr Federal Reserve"]),
+    (["michael burry", "burry"], "Michael Burry", ["Michael Burry portrait"]),
+    (["michael saylor", "saylor"], "Michael Saylor", ["Michael Saylor portrait"]),
+    (["jim cramer", "cramer"], "Jim Cramer", ["Jim Cramer portrait"]),
+    (["warren buffett", "buffett"], "Warren Buffett", ["Warren Buffett portrait"]),
+    (["bill ackman", "ackman"], "Bill Ackman", ["Bill Ackman portrait"]),
+    (["ray dalio", "dalio"], "Ray Dalio", ["Ray Dalio portrait"]),
+    (["cathie wood", "cathie"], "Cathie Wood", ["Cathie Wood portrait"]),
+    (["jamie dimon", "dimon"], "Jamie Dimon", ["Jamie Dimon portrait"]),
+    (["larry fink", "fink"], "Larry Fink", ["Larry Fink portrait"]),
+    (["druckenmiller", "stanley druckenmiller"], "Stanley Druckenmiller", ["Stanley Druckenmiller portrait"]),
 ]
 
 
