@@ -215,19 +215,30 @@ EXCLUDE = [
 ]
 
 # Engagement tuner: multipliers learned from OUR OWN posts' performance.
-# tune_from_engagement() refreshes them at most once/day (cheap: <=8 calls).
+# tune_from_engagement() refreshes them at most once/day (cheap: <=20 calls).
 _TUNER: dict = {}
 KW_TO_TOPIC = {k: t for t, (kws, _w) in TOPIC_WEIGHTS.items() for k in kws}
 
 
 def _post_engagement(fb_id: str):
     page_token = os.getenv("FB_PAGE_ACCESS_TOKEN", "").strip()
+    url = f"https://graph.facebook.com/{FB_API_VERSION}/{fb_id}"
     r = requests.get(
-        f"https://graph.facebook.com/{FB_API_VERSION}/{fb_id}",
+        url,
         params={"fields": "likes.summary(true),comments.summary(true),shares",
                 "access_token": page_token},
         timeout=15)
     d = r.json()
+    if (r.status_code != 200 or "error" in d) \
+            and "share" in json.dumps(d)[:300].lower():
+        # reels/videos reject the shares field outright — retry without it
+        # instead of skipping the post (a blind tuner never learns).
+        r = requests.get(
+            url,
+            params={"fields": "likes.summary(true),comments.summary(true)",
+                    "access_token": page_token},
+            timeout=15)
+        d = r.json()
     if r.status_code != 200 or "error" in d:
         raise RuntimeError(f"engagement lookup failed: {str(d)[:150]}")
     likes = ((d.get("likes") or {}).get("summary") or {}).get("total_count", 0)
@@ -238,7 +249,7 @@ def _post_engagement(fb_id: str):
 
 
 def tune_from_engagement(state: dict) -> dict:
-    """Pull engagement on our posts from the last 7 days, update multipliers.
+    """Pull engagement on our posts from the last 14 days, update multipliers.
     mult = smoothed (per-topic avg / global avg), clamped 0.5-2.0, needs n>=2."""
     tuner = state.setdefault("tuner", {"topics": {}, "mult": {}})
     today = datetime.now(timezone.utc).date().isoformat()
@@ -246,9 +257,9 @@ def tune_from_engagement(state: dict) -> dict:
         return tuner.get("mult", {})
     if not os.getenv("FB_PAGE_ACCESS_TOKEN", "").strip():
         return tuner.get("mult", {})
-    cutoff = datetime.now(timezone.utc).timestamp() - 7 * 86400
+    cutoff = datetime.now(timezone.utc).timestamp() - 14 * 86400
     items = []
-    for h in state.get("history", [])[-8:]:
+    for h in state.get("history", [])[-20:]:
         if not h.get("fb_id"):
             continue
         try:
