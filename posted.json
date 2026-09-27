@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "321b0f3bbbfcc499",
-    "fb_id": "1264009986803820_122115753237472689",
-    "title": "JUST IN: \ud83c\uddf8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Saudi Arabia's oil exports hit highest level since Iran war began as shipments increase through new US-secured Strait of Hormuz route. Saudi's crude oil exports increased almost 80% t...",
-    "link": "https://x.com/WatcherGuru/status/2104206023556813036",
+    "hash": "9e821647d63289bd",
+    "fb_id": "1264009986803820_122115849303472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 California Governor Gavin Newsom signs law banning public officials from issuing crypto meme coins.",
+    "link": "https://x.com/WatcherGuru/status/2104266524844577165",
     "mode": "viral",
-    "at": "2026-09-27T18:11:37.778251+00:00"
+    "at": "2026-09-27T21:27:55.538171+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -19,6 +19,7 @@
     "77abba66d602fa6d",
     "7e0de86880325769",
     "7edfc3f168220e43",
+    "9e821647d63289bd",
     "a9eab993ee21cbc4",
     "b4df5090744d57db",
     "ba53dd395241dbaf",
@@ -27,10 +28,9 @@
     "d861583e99fec9ab"
   ],
   "day_counts": {
-    "2026-09-27": 5
+    "2026-09-27": 6
   },
   "recent_titles": [
-    "JUST IN: OpenAI says rogue AI agents leaked ChatGPT user images online. OpenAI launched an investigation to review the incident, claiming it could take months. The rogue AI agents posted at least 5...",
     "JUST IN: \ud83c\uddf0\ud83c\uddf5 North Korean hackers have now stolen over $1 billion worth of crypto this year following $350 million Bitget hack yesterday.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC Commissioner Hester Peirce calls to end mass KYC data collection, warning it puts crypto holders at risk of phishing and physical attacks. Pierce says the current KYC/AML system cre...",
     "BREAKING: The S&P 500 rises on reports that talks between the US and Iran have entered a \"technical stage,\" per Al Jazeera. Details include: 1. Negotiations in New York have reportedly moved beyond...",
@@ -44,7 +44,8 @@
     "\ud83d\udca5Codex \u8d1f\u8d23\u4eba Andrew Ambrosino \u9996\u6b21\u7206\u6599OpenAI\u5185\u90e8\u5bf9\u65b0\u6a21\u578b\u7684\u79c1\u85cf\u538b\u6d4b\uff1a \u6bcf\u51fa\u4e00\u4e2a\u65b0\u6a21\u578b\uff0c\u4ed6\u5c31\u8ba9\u5b83\u628a\u6574\u5957 Codex \u684c\u9762\u5e94\u7528\u7528 Rust / GPUI \u91cd\u5199\u4e00\u904d\u3002 \u4e0d\u662f\u8ba9\u65b0\u6a21\u578b\u5199 demo\u3002 \u662f\u5f00\u53d1\u6574\u4e2a\u539f\u751f\u4e14\u8de8\u5e73\u53f0\u5bf9\u9f50\u7684\u5e94\u7528 \u4ed6\u8bf4\u8fd9\u4e0d\u53ea\u662f\u6280\u672f\u9898\uff0c\u662f\u534f\u540c\u9898\uff0c\u56e2\u961f\u8dd1\u592a\u5feb\uff0c\u529f\u80fd\u6839\u672c\u9501\u4e0d\u4f4f\u6b65\u3002 \u68a6\u60f3\u662f\uff1a\u4e00\u4e2a\u591f\u5f3a\u7684\u6a21\u578b\uff0c\u540c\u65f6\u7ef4\u62a4 Mac \u7684 AppKit\u3001Windows ...",
     "Trump on Iran: Last night, we took a record amount of oil out from the Hormuz Strait, more than we took out before the war.",
     "\ud83d\udea8 OpenAI's \"o\" Leak >\"o\" is confirmed in ChatGPT's own code, listed as a benefit across every Pro plan >Code literally says \"Lowercase o is the assistant's product name\" >Will be OpenAI's always-on...",
-    "JUST IN: \ud83c\uddf8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Saudi Arabia's oil exports hit highest level since Iran war began as shipments increase through new US-secured Strait of Hormuz route. Saudi's crude oil exports increased almost 80% t..."
+    "JUST IN: \ud83c\uddf8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Saudi Arabia's oil exports hit highest level since Iran war began as shipments increase through new US-secured Strait of Hormuz route. Saudi's crude oil exports increased almost 80% t...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 California Governor Gavin Newsom signs law banning public officials from issuing crypto meme coins."
   ],
   "history": [
     {
@@ -201,6 +202,16 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-09-27T18:11:37.778251+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122115849303472689",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "split:flag+face",
+      "at": "2026-09-27T21:27:55.538171+00:00"
     }
   ],
   "tuner": {
