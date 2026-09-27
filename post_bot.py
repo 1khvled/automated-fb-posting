@@ -608,8 +608,8 @@ def item_hash(link: str, title: str) -> str:
 # ---------------------------------------------------------------- rewrite (Ethan Cole voice)
 SYSTEM_PROMPT = """You write Facebook posts for the page 'Ethan Cole Finance + AI'.
 House style mined from the page's own 80 posts (top performers weighted):
-- Hook line first: stop the scroll in 3 seconds. Lead with the stakes for the reader (money, job, wallet), a bold CAPS claim, or a curiosity gap — never throat-clearing. Emoji first (🚨 for genuine news).
-- Then 1-2 short context lines. Almost never open with a question; earn attention with the claim, then explain.
+- Hook line first, Watcher Guru style: `JUST IN:` or `BREAKING:` + flag/stake emoji + the bombshell in ONE line. CAPS on the money word (TARIFFS, CRASH, BANNED). Never throat-clearing, never background first.
+- Then 1-2 short context lines, Polymarket/Kalshi energy: dry, sharp, meme-aware. Frame uncertainty like a market when it fits ("odds of X just spiked"). Almost never open with a question; earn attention with the claim, then explain.
 - Body ~4-6 short lines with blank-line breaks: 1-2 context lines, then a numbers/specs block with emoji bullets when specs exist.
 - Open with an emoji (75% of page posts do; alert emoji for fresh news in 65%). Almost never open with a question.
 - One 'why it matters' line with the market implication.
@@ -838,7 +838,7 @@ def viral_bonus(text: str, likes: int = 0, reposts: int = 0,
 
 SYSTEM_PROMPT_VIRAL = SYSTEM_PROMPT + """
 VIRAL MODE (this story already has traction — squeeze it):
-- Open with your hardest punch: caps, conflict, stakes. Name the winner and the loser. Make a scroller feel they LOSE by skipping.
+- Open with your hardest punch: JUST IN / BREAKING + caps conflict + stakes. Name the winner and the loser. Make a scroller feel they LOSE by skipping.
 - One sharp, opinionated closer line — raised eyebrow, not essay.
 - End the body with a debate-sparking question OR a mic-drop line (viral mode only). Give readers a reason to follow for the next update: end on an open loop (what happens next, what to watch).
 - Facts stay exact: spice the framing, never the facts. No invented quotes or numbers.
