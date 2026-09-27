@@ -2544,8 +2544,17 @@ def select_visuals(candidate: dict):
 
 def find_photo(candidate: dict):
     """(bytes, ext, src). Every image gets debranded + Ethan Cole footer;
-    logo card when the story names an entity but has no photo."""
+    logo card when the story names an entity but has no photo.
+    X attachments go LAST for X-sourced posts: X media is unvetted
+    (memes, screenshots, pricing cards) while article og:images are
+    editorially chosen, so RSS keeps source-first but X goes
+    subject-first (logo/face beats a random screenshot)."""
     raw = None  # (data, src)
+    x_post = (candidate.get("feed") or "").startswith("X @")
+    if x_post:
+        vimg, vext, vsrc = select_visuals(candidate)
+        if vimg:
+            return vimg, vext, vsrc
     if candidate.get("photo_url"):
         key = "src-" + hashlib.sha256(
             candidate["photo_url"].encode()).hexdigest()[:16]
@@ -2577,7 +2586,7 @@ def find_photo(candidate: dict):
     if raw and not _big_enough(raw[0]):
         log("Source/og photo too small, falling through to curated photos")
         raw = None
-    if not raw:
+    if not raw and not x_post:
         vimg, vext, vsrc = select_visuals(candidate)
         if vimg:
             return vimg, vext, vsrc
