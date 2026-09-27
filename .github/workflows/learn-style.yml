@@ -1,0 +1,43 @@
+name: Monthly style refresh
+
+on:
+  schedule:
+    - cron: "0 9 1 * *"   # 09:00 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write     # findings report
+
+jobs:
+  style:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Learn style profile
+        run: python scripts/learn_style.py
+
+      - name: Save profile
+        run: |
+          git config user.name "fb-bot"
+          git config user.email "fb-bot@users.noreply.github.com"
+          git add style_profile.json || true
+          git diff --staged --quiet || git commit -m "style: monthly profile refresh [skip ci]" || true
+          git pull --rebase || true
+          git push || true
+
+      - name: Findings report
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/learn_style.py > /tmp/style.txt 2>&1 || true
+          gh issue create --repo ${{ github.repository }} --title "Style profile $(date -u +%Y-%m)" --body-file /tmp/style.txt

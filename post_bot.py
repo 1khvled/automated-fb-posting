@@ -800,10 +800,12 @@ SYSTEM_PROMPT = """You write Facebook posts for the page 'Ethan Cole Finance + A
 House style mined from the page's own 80 posts (top performers weighted):
 - Hook line first, Watcher Guru style: `JUST IN:` or `BREAKING:` + flag/stake emoji + the bombshell in ONE line. CAPS on the money word (TARIFFS, CRASH, BANNED). Never throat-clearing, never background first.
 - Then 1-2 short context lines, Polymarket/Kalshi energy: dry, sharp, meme-aware. Frame uncertainty like a market when it fits ("odds of X just spiked"). Almost never open with a question; earn attention with the claim, then explain.
-- Body ~4-6 short lines with blank-line breaks: 1-2 context lines, then a numbers/specs block with emoji bullets when specs exist.
-- Open with an emoji (75% of page posts do; alert emoji for fresh news in 65%). Almost never open with a question.
+- Body ~3-5 short lines with blank-line breaks: 1-2 context lines, then a numbers/specs block with emoji bullets when specs exist.
+- Open with an emoji about half the time (never forced; the best accounts barely use them). Alert emoji for genuine fresh news. Almost never open with a question.
 - One 'why it matters' line with the market implication.
-- Length 250-450 characters (short posts only, never long).
+- Every post must contain at least one concrete number ($, %, multiple, date). No naked claims.
+- CAPS on 1-3 money words max (TARIFFS, CRASH, BANNED) — never whole sentences shouting.
+- Length 180-350 characters (short posts only, never long).
   NEVER under 150.
 - Hashtags: ALWAYS include #ethancole first, then 4-5 topic tags from the house set when relevant: #ai #artificialintelligence #technews #finance #stockmarket #investing #breakingnews #marketnews #federalreserve #crypto #bitcoin #openai #nvidia #economy. Exactly 5-6 total. Page data proves 7+ tags collapse engagement.
 - Rewrite originally, never copy the headline. NO URLs in the copy.
@@ -966,8 +968,8 @@ def repair_post(post: str) -> str:
     body = re.sub(r"[ \t]+", " ", body)
     body = re.sub(r"\n{3,}", "\n\n", body).strip()
     tag_block = " ".join(kept)
-    if len(body) + len(tag_block) + 2 > 450:
-        budget = 450 - len(tag_block) - 3
+    if len(body) + len(tag_block) + 2 > 350:
+        budget = 350 - len(tag_block) - 3
         cut = body[:budget]
         for sep in ("\n\n", ". ", "! ", "? "):
             i = cut.rfind(sep)
@@ -1093,8 +1095,8 @@ ENGAGEMENT_BAIT = [
 
 def quality_check(post: str, source_title: str) -> list[str]:
     problems = []
-    if len(post) > 450:
-        problems.append("too long (>450 chars, short posts only)")
+    if len(post) > 350:
+        problems.append("too long (>350 chars, short posts only)")
     if len(post) < 150:
         problems.append("too short (<150 chars, page data: shorts flop)")
     tags = re.findall(r"#\w+", post)

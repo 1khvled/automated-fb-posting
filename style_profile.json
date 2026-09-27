@@ -1,0 +1,128 @@
+{
+  "accounts": {
+    "WatcherGuru": {
+      "n": 20,
+      "median_chars": 124,
+      "p90_chars": 573,
+      "opens_with_emoji": 0.0,
+      "has_emoji_anywhere": 0.0,
+      "breaking_leader": 0.9,
+      "any_leader": 0.9,
+      "has_dollar_or_pct": 0.3,
+      "has_number": 0.4,
+      "ends_with_question": 0.0,
+      "has_hashtag": 0.0,
+      "median_hashtags": 0,
+      "top_openers": [
+        [
+          "JUST IN",
+          18
+        ]
+      ],
+      "median_caps_ratio_firstline": 0.16
+    },
+    "KobeissiLetter": {
+      "n": 18,
+      "median_chars": 631,
+      "p90_chars": 917,
+      "opens_with_emoji": 0.0,
+      "has_emoji_anywhere": 0.0,
+      "breaking_leader": 0.5,
+      "any_leader": 0.5,
+      "has_dollar_or_pct": 0.67,
+      "has_number": 0.94,
+      "ends_with_question": 0.0,
+      "has_hashtag": 0.0,
+      "median_hashtags": 0,
+      "top_openers": [
+        [
+          "BREAKING",
+          9
+        ]
+      ],
+      "median_caps_ratio_firstline": 0.16
+    },
+    "unusual_whales": {
+      "n": 19,
+      "median_chars": 109,
+      "p90_chars": 224,
+      "opens_with_emoji": 0.0,
+      "has_emoji_anywhere": 0.0,
+      "breaking_leader": 0.16,
+      "any_leader": 0.16,
+      "has_dollar_or_pct": 0.32,
+      "has_number": 0.53,
+      "ends_with_question": 0.0,
+      "has_hashtag": 0.0,
+      "median_hashtags": 0,
+      "top_openers": [
+        [
+          "JUST IN",
+          2
+        ],
+        [
+          "BREAKING",
+          1
+        ]
+      ],
+      "median_caps_ratio_firstline": 0.05
+    },
+    "StockMKTNewz": {
+      "n": 18,
+      "median_chars": 124,
+      "p90_chars": 598,
+      "opens_with_emoji": 0.0,
+      "has_emoji_anywhere": 0.33,
+      "breaking_leader": 0.0,
+      "any_leader": 0.0,
+      "has_dollar_or_pct": 0.78,
+      "has_number": 0.89,
+      "ends_with_question": 0.11,
+      "has_hashtag": 0.0,
+      "median_hashtags": 0,
+      "top_openers": [],
+      "median_caps_ratio_firstline": 0.11
+    },
+    "DeItaone": {
+      "n": 20,
+      "median_chars": 107,
+      "p90_chars": 433,
+      "opens_with_emoji": 0.0,
+      "has_emoji_anywhere": 0.0,
+      "breaking_leader": 0.0,
+      "any_leader": 0.0,
+      "has_dollar_or_pct": 0.05,
+      "has_number": 0.1,
+      "ends_with_question": 0.0,
+      "has_hashtag": 0.0,
+      "median_hashtags": 0,
+      "top_openers": [],
+      "median_caps_ratio_firstline": 1.0
+    }
+  },
+  "combined": {
+    "n": 95,
+    "median_chars": 146,
+    "p90_chars": 680,
+    "opens_with_emoji": 0.0,
+    "has_emoji_anywhere": 0.06,
+    "breaking_leader": 0.32,
+    "any_leader": 0.32,
+    "has_dollar_or_pct": 0.41,
+    "has_number": 0.56,
+    "ends_with_question": 0.02,
+    "has_hashtag": 0.0,
+    "median_hashtags": 0,
+    "top_openers": [
+      [
+        "JUST IN",
+        20
+      ],
+      [
+        "BREAKING",
+        10
+      ]
+    ],
+    "median_caps_ratio_firstline": 0.16
+  }
+}
