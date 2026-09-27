@@ -71,7 +71,9 @@ TOPIC_WEIGHTS = {
     "crypto": (["bitcoin", "btc", "crypto", "ethereum", "etf"], 4),
     "gold_oil": (["gold", "oil", "opec", "brent", "hormuz"], 3),
     "stocks": (["s&p", "nasdaq", "dow", "stock market", "wall street",
-                "treasury", "bond yield", "ecb", "imf"], 3),
+                "treasury", "bond yield", "ecb", "imf", "price target",
+                "analyst", "buy rating", "overweight", "underweight",
+                "initiated coverage", "initiates coverage"], 3),
     "ai": (["openai", "anthropic", "nvidia", "gpu", "llm", "chatgpt", "claude",
             "gemini", "copilot", "artificial intelligence", "generative ai",
             "ai chip", "ai model", "ai funding", "ai startup",
@@ -112,6 +114,9 @@ FORMAT_BONUS = [
     (re.compile(r"\$\d|\d+%|\d+\.\d+%|billion|million|record|all-time high", re.I),
      2, "hard-numbers"),
     (re.compile(r"breaking|just in", re.I), 1, "breaking"),
+    (re.compile(r"price target|upgrade[ds]?|downgrade[ds]?|initiated( coverage)?|"
+                r"overweight|underweight|buy rating|raises .* target", re.I),
+     2, "analyst-call"),
 ]
 
 EXCLUDE = [
@@ -226,6 +231,9 @@ X_HANDLES = [
     "BillAckman",       # Bill Ackman — longform letters/threads
     "RayDalio",         # Ray Dalio — principles + macro
     "CathieDWood",      # Cathie Wood / ARK — innovation calls
+    # Bank analyst actions (price targets, upgrades — Stockstoearn style)
+    "StockMKTNewz",     # analyst PT changes all day
+    "unusual_whales",   # flow + analyst ratings, noisy -> strict gate
 ]
 
 # Per-account rules: high-volume or off-format accounts get their own gate.
@@ -252,6 +260,7 @@ X_SOURCE_RULES = {
     "BurryTracker": {"boost": 2},   # rare Burry signal, rank it up
     "jimcramer": {"min_score": 6},   # showy daily takes, strict gate
     "saylor": {"min_score": 5},      # daily perma-bull drumbeat, firm gate
+    "unusual_whales": {"min_score": 6},  # options-flow firehose, strict gate
 }
 
 
@@ -1049,6 +1058,24 @@ ENTITY_LOGOS = [
      [], ["BlackRock headquarters"]),
     (["goldman sachs", "goldman"],
      [], ["Goldman Sachs headquarters"]),
+    (["bank of america", "bofa"],
+     [], ["Bank of America logo"]),
+    (["morgan stanley"],
+     [], ["Morgan Stanley logo"]),
+    (["citi", "citigroup"],
+     [], ["Citigroup logo"]),
+    (["wells fargo"],
+     [], ["Wells Fargo logo"]),
+    (["ubs"],
+     [], ["UBS logo"]),
+    (["bernstein"],
+     [], ["Bernstein logo"]),
+    (["wedbush", "ives"],
+     [], ["Wedbush logo"]),
+    (["evercore"],
+     [], ["Evercore logo"]),
+    (["keybanc"],
+     [], ["KeyBanc logo"]),
     # Institutions (files empty -> runtime Commons search -> branded photo,
     # not a logo card). Used by institution_photo() and as tail fallback.
     (["white house"],
@@ -1260,6 +1287,9 @@ PEOPLE_PHOTOS = [
     (["jamie dimon", "dimon"], "Jamie Dimon", ["Jamie Dimon portrait"]),
     (["larry fink", "fink"], "Larry Fink", ["Larry Fink portrait"]),
     (["druckenmiller", "stanley druckenmiller"], "Stanley Druckenmiller", ["Stanley Druckenmiller portrait"]),
+    (["vivek arya", "arya"], "Vivek Arya", ["Vivek Arya Bank of America"]),
+    (["dan ives", "ives"], "Dan Ives", ["Dan Ives Wedbush"]),
+    (["gene munster", "munster"], "Gene Munster", ["Gene Munster Deepwater"]),
 ]
 
 
