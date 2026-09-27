@@ -1017,6 +1017,40 @@ ENTITY_LOGOS = [
     (["tesla", "spacex"],
      ["File:Tesla logo.png"],
      ["Tesla logo", "SpaceX headquarters"]),
+    (["apple", "iphone", "ipad", "ternus", "tim cook"],
+     [], ["Apple logo", "Apple Store"]),
+    (["microsoft", "copilot", "nadella", "azure"],
+     [], ["Microsoft logo", "Microsoft headquarters"]),
+    (["amd", "ryzen", "lisa su"],
+     [], ["AMD logo"]),
+    (["samsung"],
+     [], ["Samsung logo"]),
+    (["xai", "grok"],
+     [], ["xAI logo", "Grok xAI"]),
+    (["deepseek"],
+     [], ["DeepSeek logo"]),
+    (["mistral"],
+     [], ["Mistral AI logo"]),
+    (["jpmorgan", "jpmorgan chase", "dimon"],
+     [], ["JPMorgan Chase headquarters"]),
+    (["blackrock", "fink"],
+     [], ["BlackRock headquarters"]),
+    (["goldman sachs", "goldman"],
+     [], ["Goldman Sachs headquarters"]),
+    # Institutions (files empty -> runtime Commons search -> branded photo,
+    # not a logo card). Used by institution_photo() and as tail fallback.
+    (["white house"],
+     [], ["White House Washington DC"]),
+    (["u.s. capitol", "us capitol", "capitol hill", "congress"],
+     [], ["United States Capitol building"]),
+    (["european central bank", "ecb"],
+     [], ["European Central Bank Frankfurt"]),
+    (["nato"],
+     [], ["NATO headquarters Brussels"]),
+    (["united nations", "un general assembly", "un security council"],
+     [], ["United Nations headquarters New York"]),
+    (["european commission", "berlaymont"],
+     [], ["Berlaymont Brussels"]),
 ]
 
 FEED_CREDIT = {
@@ -1161,7 +1195,8 @@ def _photo_cache_put(key: str, data: bytes):
 # Commons search fallback. Checked before company logos so a Powell story
 # gets Powell's face, not a building.
 PEOPLE_PHOTOS = [
-    (["warsh", "kevin warsh"], "Kevin Warsh", ["Kevin Warsh Federal Reserve"]),
+    (["warsh", "kevin warsh", "fed chair", "fed chairman", "fomc chair",
+      "federal reserve chair"], "Kevin Warsh", ["Kevin Warsh Federal Reserve"]),
     (["trump", "donald trump"], "Donald Trump", ["Donald Trump official portrait"]),
     (["modi", "narendra modi"], "Narendra Modi", ["Narendra Modi portrait"]),
     (["bessent", "scott bessent"], "Scott Bessent", ["Scott Bessent Treasury"]),
@@ -1169,7 +1204,7 @@ PEOPLE_PHOTOS = [
     (["hammack", "beth hammack"], "Beth Hammack", ["Beth Hammack Cleveland Fed"]),
     (["greer", "jamieson greer"], "Jamieson Greer", ["Jamieson Greer USTR"]),
     (["lutnick", "howard lutnick"], "Howard Lutnick", ["Howard Lutnick Commerce"]),
-    (["xi jinping", "president xi"], "Xi Jinping", ["Xi Jinping portrait"]),
+    (["xi jinping", "president xi", "w:xi"], "Xi Jinping", ["Xi Jinping portrait"]),
     (["lagarde", "christine lagarde"], "Christine Lagarde", ["Christine Lagarde ECB"]),
     (["vujcic"], "Boris Vujcic", ["Boris Vujcic central bank"]),
     (["putin", "vladimir putin"], "Vladimir Putin", ["Vladimir Putin portrait"]),    (["araghchi", "abbas araghchi"], "Abbas Araghchi", ["Abbas Araghchi foreign minister"]),
@@ -1183,6 +1218,26 @@ PEOPLE_PHOTOS = [
     (["merz", "friedrich merz"], "Friedrich Merz", ["Friedrich Merz chancellor"]),
     (["mohammed bin salman", "bin salman", "mbs"], "Mohammed bin Salman", ["Mohammed bin Salman portrait"]),
     (["zelensky", "zelenskyy"], "Volodymyr Zelenskyy", ["Volodymyr Zelenskyy portrait"]),
+    (["vance", "jd vance"], "JD Vance", ["JD Vance portrait"]),
+    (["macron", "emmanuel macron"], "Emmanuel Macron", ["Emmanuel Macron portrait"]),
+    (["starmer", "keir starmer"], "Keir Starmer", ["Keir Starmer portrait"]),
+    (["erdogan", "erdoğan", "recep tayyip erdogan"], "Recep Tayyip Erdoğan", ["Recep Tayyip Erdogan portrait"]),
+    (["lee jae-myung", "lee jae myung"], "Lee Jae-myung", ["Lee Jae-myung portrait"]),
+    (["lai ching-te", "william lai"], "Lai Ching-te", ["Lai Ching-te portrait"]),
+    (["takaichi", "sanae takaichi"], "Sanae Takaichi", ["Sanae Takaichi portrait"]),
+    (["mohamed bin zayed", "bin zayed"], "Mohamed bin Zayed", ["Mohamed bin Zayed portrait"]),
+    (["greg abbott", "governor abbott"], "Greg Abbott", ["Greg Abbott Texas governor"]),
+    (["gavin newsom", "governor newsom"], "Gavin Newsom", ["Gavin Newsom portrait"]),
+    (["zuckerberg", "mark zuckerberg"], "Mark Zuckerberg", ["Mark Zuckerberg portrait"]),
+    (["nadella", "satya nadella"], "Satya Nadella", ["Satya Nadella portrait"]),
+    (["pichai", "sundar pichai"], "Sundar Pichai", ["Sundar Pichai portrait"]),
+    (["john ternus", "ternus"], "John Ternus", ["John Ternus Apple"]),
+    (["tim cook"], "Tim Cook", ["Tim Cook Apple"]),
+    (["michelle bowman", "governor bowman"], "Michelle Bowman", ["Michelle Bowman Federal Reserve"]),
+    (["christopher waller", "governor waller"], "Christopher Waller", ["Christopher Waller Federal Reserve"]),
+    (["philip jefferson", "governor jefferson"], "Philip Jefferson", ["Philip Jefferson Federal Reserve"]),
+    (["lisa cook", "governor cook"], "Lisa Cook", ["Lisa Cook Federal Reserve"]),
+    (["michael barr"], "Michael Barr", ["Michael Barr Federal Reserve"]),
 ]
 
 
@@ -1248,7 +1303,7 @@ def _cover(im, w, h, top_bias=False):
 
 
 def _split_pair(left: bytes, right: bytes, left_logo=False,
-                right_face=False):
+                right_face=False, left_face=False, right_logo=False):
     """1200x630 two-panel composite. Logos sit contained on dark;
     photos cover-crop (faces top-biased). Always ends with house footer."""
     from PIL import Image, ImageDraw
@@ -1264,9 +1319,17 @@ def _split_pair(left: bytes, right: bytes, left_logo=False,
         left_im.thumbnail((520, 380))
         card.paste(left_im, ((600 - left_im.size[0]) // 2,
                              (body_h - left_im.size[1]) // 2), left_im)
+    elif left_face:
+        card.paste(_cover(left_im.convert("RGB"), 600, body_h,
+                           top_bias=True), (0, 0))
     else:
         card.paste(_cover(left_im.convert("RGB"), 600, body_h), (0, 0))
-    if right_face:
+    if right_logo:
+        right_im = right_im.convert("RGBA")
+        right_im.thumbnail((520, 380))
+        card.paste(right_im, (600 + (600 - right_im.size[0]) // 2,
+                              (body_h - right_im.size[1]) // 2), right_im)
+    elif right_face:
         card.paste(_cover(right_im.convert("RGB"), 600, body_h,
                            top_bias=True), (600, 0))
     else:
@@ -1427,11 +1490,152 @@ COUNTRY_PHOTOS = [
     (["france", "french", "paris", "macron"], "fr", None, False),
     # USA last: national fallback. Trump news -> US flag + Trump face;
     # any named person in the text gets flag + their face via fallback.
-    (["u.s.", "usa", "united states", "america", "washington",
-      "white house", "congress", "senate", "pentagon", "capitol",
-      "trump", "donald trump"], "us",
+    (["u.s.", "usa", "w:us", "united states", "america", "washington",
+      "white house", "congress", "senate", "pentagon", "capitol"], "us",
      "Donald Trump", False),
 ]
+
+
+# Leadership verification (spec sections 27-28): never trust a permanent
+# leader table. OFFICES maps a key -> (Wikipedia page, last-known holder,
+# infobox field). The name is only a search hint: before any INFERRED face
+# is used, office_verified() confirms the hint against a FRESH Wikipedia
+# infobox (incumbent / key_people). People NAMED in the article skip
+# verification entirely (the article itself is the current source).
+OFFICES = {
+    # key -> (Wikipedia page, last-known holder, infobox field to check).
+    # The name is only a search hint, always confirmed fresh before use.
+    "cn": ("President of China", "Xi Jinping", "incumbent"),
+    "in": ("Prime Minister of India", "Narendra Modi", "incumbent"),
+    "ru": ("President of Russia", "Vladimir Putin", "incumbent"),
+    "ua": ("President of Ukraine", "Volodymyr Zelenskyy", "incumbent"),
+    "ir": ("President of Iran", "Masoud Pezeshkian", "incumbent"),
+    "il": ("Prime Minister of Israel", "Benjamin Netanyahu", "incumbent"),
+    "eu": ("President of the European Central Bank", "Christine Lagarde",
+           "incumbent"),
+    "de": ("Chancellor of Germany", "Friedrich Merz", "incumbent"),
+    "fed": ("Chair of the Federal Reserve", "Kevin Warsh", "incumbent"),
+    "apple": ("Apple Inc.", "John Ternus", "key_people"),
+}
+
+LEADERSHIP_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                               "leadership.json")
+
+
+def _leadership_cache():
+    try:
+        with open(LEADERSHIP_FILE, "r", encoding="utf-8") as f:
+            d = json.load(f)
+        return d if isinstance(d, dict) else {}
+    except Exception:
+        return {}
+
+
+def _leadership_save(cache):
+    try:
+        with open(LEADERSHIP_FILE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, indent=2, sort_keys=True)
+    except Exception as ex:
+        log(f"leadership cache save failed: {ex}")
+
+
+def _infobox_block(wt: str, field: str) -> str:
+    """Raw text of an infobox field (handles multiline template values).
+    Returns '' when the field is absent."""
+    buf, cap = [], False
+    for ln in wt.splitlines():
+        if not cap:
+            m = re.match(r"\s*\|\s*" + re.escape(field) + r"\s*=(.*)$",
+                         ln, re.I)
+            if m:
+                buf.append(m.group(1))
+                cap = True
+        else:
+            if re.match(r"\s*\|[a-zA-Z_ ]+=", ln):
+                break
+            buf.append(ln)
+    return "\n".join(buf)
+
+
+def _office_wikitext(page: str) -> str:
+    for attempt in range(3):
+        try:
+            r = requests.get("https://en.wikipedia.org/w/api.php",
+                             params={"action": "parse", "page": page,
+                                     "prop": "wikitext", "format": "json"},
+                             timeout=25,
+                             headers={"User-Agent": "ethan-cole-fb-bot/1.0"})
+            d = r.json()
+            wt = ((d.get("parse") or {}).get("wikitext") or {}).get("*", "")
+            if wt:
+                return wt
+        except Exception:
+            pass
+        time.sleep(4 * (attempt + 1))
+    return ""
+def office_verified(key: str) -> bool:
+    """True if OFFICES[key]'s hinted officeholder is confirmed by a fresh
+    Wikipedia infobox check (cached LEADERSHIP_MAX_AGE_DAYS, default 7).
+    A mismatch returns False: leadership may have changed, so the caller
+    must fall back to institution/flag visuals, never guess a face.
+    Network failure with a prior OK returns True with a warning. Never
+    raises."""
+    if key not in OFFICES:
+        return False
+    page, hint, field = OFFICES[key]
+    try:
+        max_age = int(os.getenv("LEADERSHIP_MAX_AGE_DAYS", "7")) * 86400
+    except Exception:
+        max_age = 7 * 86400
+    cache = _leadership_cache()
+    ent = cache.get(key) or {}
+    if ent.get("ok") and ent.get("name") == hint:
+        try:
+            if time.time() - float(ent.get("checked_at", 0)) < max_age:
+                return True
+        except Exception:
+            pass
+    try:
+        wt = _office_wikitext(page)
+        if not wt:
+            raise RuntimeError("empty wikitext response")
+        raw = _infobox_block(wt, field)
+        clean = re.sub(r"[\[\]]", "", raw)
+        if field == "key_people":
+            # Holder must appear WITH the top role (e.g. Ternus as CEO,
+            # not merely mentioned on the page).
+            ok = hint.split()[-1].lower() in clean.lower() \
+                and "ceo" in clean.lower()
+            actual = clean.strip().replace("\n", " ")[:120]
+        else:
+            m = re.search(r"\[\[([^|\]]+)", raw)
+            actual = (m.group(1) if m
+                      else clean.strip().split("<")[0].strip())[:80]
+            ok = hint.split()[-1].lower() in clean.lower()
+        cache[key] = {"name": hint, "checked_at": int(time.time()),
+                      "ok": ok, "actual": actual,
+                      "source": "en.wikipedia.org/wiki/"
+                      + page.replace(" ", "_")}
+        _leadership_save(cache)
+        if not ok:
+            log(f"LEADERSHIP MISMATCH for {key}: expected '{hint}', "
+                f"page shows '{actual}' — no inferred face")
+        return ok
+    except Exception as ex:
+        if ent.get("ok") and ent.get("name") == hint:
+            log(f"leadership check offline for {key}, using last verified "
+                f"({hint}): {ex}")
+            return True
+        log(f"leadership check failed for {key}: {ex}")
+        return False
+
+
+# Words signalling the office-holder is the story's subject (used with
+# fresh office verification; never alone as proof of identity).
+LEADER_TITLE_WORDS = ["president", "chairman", "chairwoman", "chair",
+                      "ceo", "chief executive", "premier", "prime minister",
+                      "chancellor", "governor", "crown prince", " king ",
+                      " queen ", " emir "]
 
 
 def country_photo(candidate):
@@ -1443,27 +1647,31 @@ def country_photo(candidate):
     Returns (bytes, ext, src) or (None, None, None)."""
     text = candidate.get("title", "") + " " + candidate.get("summary", "")
     text = text.lower()
-    for keys, code, leader, always in COUNTRY_PHOTOS:
-        if not any(k in text for k in keys):
-            continue
+    title_l = candidate.get("title", "").lower()
+    for keys, code, leader, always in _match_table(text, COUNTRY_PHOTOS):
         flag = _flag_photo(code)
         if not flag:
             continue
         face = None
-        if leader and (always or leader.lower() in text
-                       or leader.split()[-1].lower() in text):
+        named = bool(leader) and (leader.lower() in text
+                                  or leader.split()[-1].lower() in text)
+        # Inferred leaders need BOTH a leadership title in the headline
+        # ("president announces...") AND fresh office verification; a bare
+        # country story never forces a face (spec sections 6, 22, 28).
+        titled = any(w in title_l for w in LEADER_TITLE_WORDS)
+        if leader and (named or (always and titled
+                                 and office_verified(code))):
             try:
                 face = _fetch_face_raw(leader, [leader])
             except Exception:
                 face = None
         if not face:
-            for keys2, wiki, queries in PEOPLE_PHOTOS:
-                if any(k in text for k in keys2):
-                    try:
-                        face = _fetch_face_raw(wiki, queries)
-                    except Exception:
-                        face = None
-                    break
+            for keys2, wiki, queries in _match_table(text, PEOPLE_PHOTOS):
+                try:
+                    face = _fetch_face_raw(wiki, queries)
+                except Exception:
+                    face = None
+                break
         if face:
             try:
                 out = _split_pair(flag, face, right_face=True)
@@ -1476,26 +1684,39 @@ def country_photo(candidate):
             return branded, ext, "flag:" + code
         except Exception:
             continue
+    # Anthropic/Claude: product/company story -> branding only; Dario's
+    # face only joins when HE is named (spec sections 7, 15, 22).
     if any(k in text for k in ("anthropic", "claude", "amodei",
                                 "dario")):
-        face = None
-        try:
-            face = _fetch_face_raw("Dario Amodei", ["Dario Amodei"])
-        except Exception:
-            face = None
-        if face:
-            lp = os.path.join(ASSETS_DIR, "logos", "anthropic.png")
-            if os.path.exists(lp):
-                try:
-                    fh = open(lp, "rb")
+        ldata = None
+        lp = os.path.join(ASSETS_DIR, "logos", "anthropic.png")
+        if os.path.exists(lp):
+            try:
+                with open(lp, "rb") as fh:
                     ldata = fh.read()
-                    fh.close()
+            except Exception:
+                ldata = None
+        if ldata and ("amodei" in text or "dario" in text):
+            face = None
+            try:
+                face = _fetch_face_raw("Dario Amodei", ["Dario Amodei"])
+            except Exception:
+                face = None
+            if face:
+                try:
                     out = _split_pair(ldata, face, left_logo=True,
                                       right_face=True)
-                    if out:
-                        return out[0], out[1], "split:face+logo"
                 except Exception:
-                    pass
+                    out = None
+                if out:
+                    return out[0], out[1], "split:face+logo"
+        if ldata:
+            try:
+                card = _logo_card(ldata)
+                if card:
+                    return card[0], card[1], "entity-logo"
+            except Exception:
+                pass
     return None, None, None
 
 
@@ -1505,10 +1726,8 @@ def split_card(candidate: dict):
     (face+scene, logo+scene, or scene+scene). Never random, never single."""
     text = f"{candidate.get('title', '')} {candidate.get('summary', '')}".lower()
     link = candidate.get("link", "")
-    person = next((p for p in PEOPLE_PHOTOS
-                   if any(k in text for k in p[0])), None)
-    entity = next((e for e in ENTITY_LOGOS
-                   if any(k in text for k in e[0])), None)
+    person = next(iter(_match_table(text, PEOPLE_PHOTOS)), None)
+    entity = next(iter(_match_table(text, ENTITY_LOGOS)), None)
     face = None
     if person:
         try:
@@ -1574,9 +1793,7 @@ def split_card(candidate: dict):
 def people_photo(candidate: dict):
     """(jpeg_bytes, ext) face card for a named person, else (None, None)."""
     text = f"{candidate.get('title', '')} {candidate.get('summary', '')}".lower()
-    for keys, wiki, queries in PEOPLE_PHOTOS:
-        if not any(k in text for k in keys):
-            continue
+    for keys, wiki, queries in _match_table(text, PEOPLE_PHOTOS):
         ckey = "face-" + (_slug(keys[0]) or "person")
         hit = _photo_cache_get(ckey)
         if hit:
@@ -1595,9 +1812,7 @@ def people_photo(candidate: dict):
 def entity_logo(candidate: dict):
     """(jpeg_bytes, ext) logo card for the story's main entity, else (None, None)."""
     text = f"{candidate.get('title', '')} {candidate.get('summary', '')}".lower()
-    for keys, files, queries in ENTITY_LOGOS:
-        if not any(k in text for k in keys):
-            continue
+    for keys, files, queries in _match_table(text, ENTITY_LOGOS):
         ckey = _slug(keys[0]) or "entity"
         hit = _photo_cache_get(ckey)
         if hit:
@@ -1671,6 +1886,8 @@ def credit_for(feed: str, src: str) -> str:
         return "Google Images"
     if (src or "").startswith("flag:"):
         return "flagcdn"
+    if (src or "").startswith("inst:"):
+        return "Wikimedia Commons"
     if (src or "").startswith("openverse:"):
         who = src.split(":", 1)[1].strip() or "Openverse"
         return f"{who} via Openverse"
@@ -1836,9 +2053,262 @@ def photo_worth_posting(src) -> bool:
     s = src or ""
     if s.endswith("+live"):
         s = s[:-5]
-    if s.startswith("flag:"):
+    if s.startswith("flag:") or s.startswith("inst:"):
         return True
+    if s.startswith("split:"):
+        return s != "split:scene"
     return s in PHOTO_WORTHY
+
+
+# Visual subject hierarchy (spec sections 2, 20, 29): person > product/
+# company > institution > state/city > country > generic. select_visuals
+# implements the decision tree; find_photo() calls it after the story's
+# own image, keeping the old fetchers as fallbacks.
+INSTITUTIONS = [
+    (["federal reserve", "fed", "fomc"], "fed",
+     ["Eccles Federal Reserve Building", "Federal Reserve headquarters"]),
+    (["white house"], "whitehouse", ["White House Washington DC"]),
+    (["u.s. capitol", "us capitol", "capitol hill", "congress"], "capitol",
+     ["United States Capitol building"]),
+    (["european central bank", "ecb"], "ecb",
+     ["European Central Bank Frankfurt"]),
+    (["nato"], "nato", ["NATO headquarters Brussels"]),
+    (["united nations", "un general assembly", "un security council"],
+     "un", ["United Nations headquarters New York"]),
+    (["european commission", "berlaymont"], "eu",
+     ["Berlaymont Brussels"]),
+]
+
+
+def _match_table(text: str, table: list) -> list:
+    """Entries whose keywords appear in text, in table order. A keyword
+    prefixed with 'w:' matches on word boundaries instead (e.g. 'w:us'
+    matches 'US tariffs' but not 'campus'; 'w:xi' matches 'Xi' not
+    'Xiaomi')."""
+    out = []
+    for e in table:
+        for k in e[0]:
+            if k.startswith("w:"):
+                if re.search(r"\b" + re.escape(k[2:]) + r"\b", text):
+                    out.append(e)
+                    break
+            elif k in text:
+                out.append(e)
+                break
+    return out
+
+
+def _geo_kind(code: str) -> str:
+    return "state" if code.startswith("us-") else "country"
+
+
+def _bundled_logo_for(entity) -> bytes | None:
+    """Bundled assets/logos/<slug>.png bytes, else None."""
+    lp = os.path.join(ASSETS_DIR, "logos",
+                       f"{_slug(entity[0][0]) or 'entity'}.png")
+    if os.path.exists(lp):
+        try:
+            with open(lp, "rb") as fh:
+                return fh.read()
+        except Exception:
+            return None
+    return None
+
+
+def institution_photo_bytes(inst) -> bytes | None:
+    """Raw institution photo bytes via Commons search. Never raises."""
+    for q in inst[2]:
+        try:
+            j = _commons_api({"generator": "search",
+                              "gsrsearch": f"filetype:bitmap {q}",
+                              "gsrnamespace": "6", "gsrlimit": "8",
+                              "prop": "imageinfo", "iiprop": "url|size",
+                              "iiurlwidth": "1200"})
+            pages = list(((j.get("query") or {}).get("pages") or {})
+                         .values())
+            data, _ext = _commons_fetch(
+                pages, prefer=("building", "headquarters", "logo"))
+            if data:
+                return data
+        except Exception as ex:
+            log(f"Commons institution {q[:40]} failed: {ex}")
+            continue
+    return None
+
+
+def select_visuals(candidate: dict):
+    """(bytes, ext, src) for the story's MAIN subject (spec section 29):
+    person > company/product > institution > state/city > country.
+    Never forces a famous face: unnamed leaders fall back to flag/
+    institution visuals. Returns (None, None, None) on no match."""
+    title = candidate.get("title", "")
+    text = (title + " " + candidate.get("summary", "")).lower()
+    title_l = title.lower()
+    persons_t = _match_table(title_l, PEOPLE_PHOTOS)
+    persons = _match_table(text, PEOPLE_PHOTOS)
+    companies_t = [e for e in _match_table(title_l, ENTITY_LOGOS)]
+    geos = _match_table(text, COUNTRY_PHOTOS)
+    geos_t = _match_table(title_l, COUNTRY_PHOTOS)
+    insts = _match_table(text, INSTITUTIONS)
+
+    def face_of(entry):
+        try:
+            return _fetch_face_raw(entry[1], entry[2])
+        except Exception:
+            return None
+
+    def flag_of(geo):
+        try:
+            return _flag_photo(geo[1])
+        except Exception:
+            return None
+
+    # 1. person vs person ("Xi meets Trump") -> face + face
+    if len(persons_t) >= 2:
+        f1, f2 = face_of(persons_t[0]), face_of(persons_t[1])
+        if f1 and f2:
+            try:
+                out = _split_pair(f1, f2, left_face=True, right_face=True)
+            except Exception:
+                out = None
+            if out:
+                return out[0], out[1], "split:face+face"
+    # 2. one person as the subject
+    if len(persons_t) == 1:
+        f = face_of(persons_t[0])
+        if f:
+            if companies_t:
+                logo = _bundled_logo_for(companies_t[0])
+                if logo:
+                    try:
+                        out = _split_pair(logo, f, left_logo=True,
+                                          right_face=True)
+                    except Exception:
+                        out = None
+                    if out:
+                        return out[0], out[1], "split:face+logo"
+            if insts:
+                ibytes = institution_photo_bytes(insts[0])
+                if ibytes:
+                    try:
+                        out = _split_pair(ibytes, f, right_face=True)
+                    except Exception:
+                        out = None
+                    if out:
+                        return out[0], out[1], "split:face+inst"
+            if geos_t:
+                fl = flag_of(geos_t[0])
+                if fl:
+                    try:
+                        out = _split_pair(fl, f, right_face=True)
+                    except Exception:
+                        out = None
+                    if out:
+                        return out[0], out[1], "split:flag+face"
+            try:
+                branded, ext = _brand_image(f)
+                return branded, ext, "face"
+            except Exception:
+                pass
+    # 3. single-company subject; named CEO anywhere -> logo + face,
+    # else logo. (Two-company pairs are handled at step 5.)
+    if len(companies_t) == 1:
+        logo = _bundled_logo_for(companies_t[0])
+        if logo:
+            for p in persons:
+                f = face_of(p)
+                if f:
+                    try:
+                        out = _split_pair(logo, f, left_logo=True,
+                                          right_face=True)
+                    except Exception:
+                        out = None
+                    if out:
+                        return out[0], out[1], "split:face+logo"
+            # Unnamed CEO ("Apple CEO announces..."): verified sitting
+            # CEO only, never a guess (spec section 11).
+            if not persons and ("ceo" in title_l
+                                or "chief executive" in title_l):
+                okey = {"apple": "apple"}.get(_slug(companies_t[0][0][0]))
+                if okey and office_verified(okey):
+                    ceo = next((p for p in PEOPLE_PHOTOS
+                                if p[1] == OFFICES[okey][1]), None)
+                    f = face_of(ceo) if ceo else None
+                    if f:
+                        try:
+                            out = _split_pair(logo, f, left_logo=True,
+                                              right_face=True)
+                        except Exception:
+                            out = None
+                        if out:
+                            return out[0], out[1], "split:face+logo"
+            try:
+                card = _logo_card(logo)
+                if card:
+                    return card[0], card[1], "entity-logo"
+            except Exception:
+                pass
+    # 4. two countries directly involved -> flag + flag
+    countries = [g for g in geos if _geo_kind(g[1]) == "country"]
+    if len(countries) >= 2 and countries[0][1] != countries[1][1]:
+        f1, f2 = flag_of(countries[0]), flag_of(countries[1])
+        if f1 and f2:
+            try:
+                out = _split_pair(f1, f2)
+            except Exception:
+                out = None
+            if out:
+                return out[0], out[1], "split:flag+flag"
+    # 5. two companies -> logo + logo
+    if len(companies_t) >= 2:
+        l1 = _bundled_logo_for(companies_t[0])
+        l2 = _bundled_logo_for(companies_t[1])
+        if l1 and l2:
+            try:
+                out = _split_pair(l1, l2, left_logo=True, right_logo=True)
+            except Exception:
+                out = None
+            if out:
+                return out[0], out[1], "split:logo+logo"
+    # 6. institution subject (+ named person -> person + institution).
+    # Fed with no person defaults to the VERIFIED sitting chair only.
+    if insts:
+        tag = insts[0][1]
+        ibytes = institution_photo_bytes(insts[0])
+        if ibytes:
+            for p in persons:
+                f = face_of(p)
+                if f:
+                    try:
+                        out = _split_pair(ibytes, f, right_face=True)
+                    except Exception:
+                        out = None
+                    if out:
+                        return out[0], out[1], "split:face+inst"
+            if tag == "fed" and not persons and office_verified("fed"):
+                warsh = next((p for p in PEOPLE_PHOTOS
+                              if p[1] == "Kevin Warsh"), None)
+                if warsh:
+                    f = face_of(warsh)
+                    if f:
+                        try:
+                            out = _split_pair(ibytes, f, right_face=True)
+                        except Exception:
+                            out = None
+                        if out:
+                            return out[0], out[1], "split:face+inst"
+            try:
+                branded, ext = _brand_image(ibytes)
+                return branded, ext, "inst:" + tag
+            except Exception:
+                pass
+    # 7. state/country subject -> verified flag logic (leaders only when
+    # named or freshly office-verified; else fullscreen flag)
+    if geos:
+        cimg, cext, csrc = country_photo(candidate)
+        if cimg:
+            return cimg, cext, csrc
+    return None, None, None
 
 
 def find_photo(candidate: dict):
@@ -1877,9 +2347,9 @@ def find_photo(candidate: dict):
         log("Source/og photo too small, falling through to curated photos")
         raw = None
     if not raw:
-        cimg, cext, csrc = country_photo(candidate)
-        if cimg:
-            return cimg, cext, csrc
+        vimg, vext, vsrc = select_visuals(candidate)
+        if vimg:
+            return vimg, vext, vsrc
     if not raw:
         simg, sext, ssrc = split_card(candidate)
         if simg:
