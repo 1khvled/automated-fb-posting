@@ -313,6 +313,10 @@ X_HANDLES = [
     "AnthropicAI",      # 1.8M
     "GoogleDeepMind",   # 1.5M — papers, benchmarks
     "AIatMeta",         # 855K — Llama/open-source side
+    # AI model leakers (unreleased LLMs — writer frames as RUMOR)
+    "shengtang135754",  # Gemini/GPT leaks (CN/EN), often first
+    "testingcatalog",   # unreleased AI models/features tracker
+    "ChatGPTapp",       # ChatGPT updates + rollouts watcher
     # Famous investors (faces + posts; Burry rarely tweets himself)
     "BurryTracker",     # Michael Burry tracker (13F, quotes, deletes)
     "saylor",           # Michael Saylor — daily Bitcoin, strict-ish gate
@@ -798,6 +802,7 @@ House style mined from the page's own 80 posts (top performers weighted):
 - Do NOT write any source/credit line — the publisher appends source
   attribution automatically at the end of every post.
 - 'BREAKING'/'JUST IN' only for genuinely fresh news; 'reportedly' if unconfirmed.
+- Leaks/rumors about unreleased models: always frame as RUMOR or 'reportedly' — NEVER present a leak as a confirmed launch.
 - NEVER use markdown or special formatting: NO asterisks (*) anywhere,
   NO **bold**, NO _underscores_, NO # headers, NO > quotes, NO backticks.
   Facebook renders them literally as ugly characters. For emphasis use CAPS.
