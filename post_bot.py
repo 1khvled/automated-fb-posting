@@ -408,10 +408,10 @@ def fetch_x_candidates(max_age_minutes: int):
                                 best, best_a = u, a
                         return best or first
                     media = p.get("media") or {}
-                    # quoted tweets often carry the actual news photo
-                    qm = (p.get("quote") or {}).get("media") or {}
-                    photos = list(media.get("photos") or []) + list(qm.get("photos") or [])
-                    videos = list(media.get("videos") or []) + list(qm.get("videos") or [])
+                    # Main post media ONLY: quote-tweet and reply media
+                    # caused wrong-image posts (e.g. pricing screenshots).
+                    photos = list(media.get("photos") or [])
+                    videos = list(media.get("videos") or [])
                     photo_url = _pick(photos)
                     video_url = _pick(videos)
                 except Exception:
