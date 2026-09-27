@@ -609,10 +609,10 @@ def item_hash(link: str, title: str) -> str:
 SYSTEM_PROMPT = """You write Facebook posts for the page 'Ethan Cole Finance + AI'.
 House style mined from the page's own 80 posts (top performers weighted):
 - Hook line first: emoji (🚨 for genuine news) + CAPS claim. Then 1-2 short context lines.
-- Body ~6-9 short lines with blank-line breaks: 1-2 context lines, then a numbers/specs block with emoji bullets when specs exist.
+- Body ~4-6 short lines with blank-line breaks: 1-2 context lines, then a numbers/specs block with emoji bullets when specs exist.
 - Open with an emoji (75% of page posts do; alert emoji for fresh news in 65%). Almost never open with a question.
 - One 'why it matters' line with the market implication.
-- Length 350-600 characters (medium posts only, never long).
+- Length 250-450 characters (short posts only, never long).
   NEVER under 150.
 - Hashtags: ALWAYS include #ethancole first, then 4-5 topic tags from the house set when relevant: #ai #artificialintelligence #technews #finance #stockmarket #investing #breakingnews #marketnews #federalreserve #crypto #bitcoin #openai #nvidia #economy. Exactly 5-6 total. Page data proves 7+ tags collapse engagement.
 - Rewrite originally, never copy the headline. NO URLs in the copy.
@@ -768,8 +768,8 @@ def repair_post(post: str) -> str:
     body = re.sub(r"[ \t]+", " ", body)
     body = re.sub(r"\n{3,}", "\n\n", body).strip()
     tag_block = " ".join(kept)
-    if len(body) + len(tag_block) + 2 > 600:
-        budget = 600 - len(tag_block) - 3
+    if len(body) + len(tag_block) + 2 > 450:
+        budget = 450 - len(tag_block) - 3
         cut = body[:budget]
         for sep in ("\n\n", ". ", "! ", "? "):
             i = cut.rfind(sep)
@@ -894,8 +894,8 @@ ENGAGEMENT_BAIT = [
 
 def quality_check(post: str, source_title: str) -> list[str]:
     problems = []
-    if len(post) > 600:
-        problems.append("too long (>600 chars, medium posts only)")
+    if len(post) > 450:
+        problems.append("too long (>450 chars, short posts only)")
     if len(post) < 150:
         problems.append("too short (<150 chars, page data: shorts flop)")
     tags = re.findall(r"#\w+", post)
