@@ -2832,6 +2832,40 @@ def publish_to_facebook(message: str) -> str:
     return data.get("id", "")
 
 
+def notify_post_live(post_id: str, post_text: str) -> None:
+    """One-tap group-share ping (never fails the run): Telegram message with
+    the live post URL plus copy/paste share text for manual Group shares
+    (Groups API is deprecated, so auto-posting to groups is impossible)."""
+    try:
+        token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+        chat = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+        if not token or not chat:
+            return
+        page_id = os.getenv("FB_PAGE_ID", "").strip()
+        if "_" in (post_id or ""):
+            pid, suffix = post_id.split("_", 1)
+            url = f"https://www.facebook.com/{pid}/posts/{suffix}"
+        elif post_id and page_id:
+            url = f"https://www.facebook.com/{page_id}/posts/{post_id}"
+        elif page_id:
+            url = f"https://www.facebook.com/{page_id}"
+        else:
+            url = ""
+        lines = [ln.strip() for ln in (post_text or "").splitlines()
+                 if ln.strip()][:2]
+        share = " ".join(lines)[:200]
+        groups = os.getenv("GROUP_SHARE_TARGETS", "").strip()
+        msg = (f"✅ Ethan Cole post live\n{url}\n"
+               f"Share text (paste into groups):\n{share}\n"
+               f"Groups: {groups or '(set GROUP_SHARE_TARGETS)'}")
+        requests.post("https://api.telegram.org/bot" + token + "/sendMessage",
+                      json={"chat_id": chat, "text": msg[:4000],
+                            "disable_web_page_preview": True},
+                      timeout=20)
+    except Exception as ex:
+        print(f"telegram share ping skipped: {ex}")
+
+
 def corroboration_boost(candidates: list) -> int:
     """Cross-source verification: a story appearing in 2+ independent feeds
     gets +2 (independent confirmation beats single-source claims). Returns
@@ -3119,6 +3153,7 @@ def main() -> int:
                     try:
                         post_id = publish_video_to_facebook(vid, vpost)
                         log(f"Published VIDEO! FB id={post_id}")
+                        notify_post_live(post_id, vpost)
                     except Exception as ex:
                         log(f"Video publish failed: {ex}")
                         return 4
@@ -3207,6 +3242,7 @@ def main() -> int:
             log("Text-only post (no worthy photo).")
             post_id = publish_to_facebook(post)
             log(f"Published (text-only)! FB post id={post_id}")
+        notify_post_live(post_id, post)
         if os.getenv("POST_STORIES", "1") == "1":
             try:
                 story_id = publish_story_from_photo(img, ext, post)

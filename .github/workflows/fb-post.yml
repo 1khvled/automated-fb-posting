@@ -51,6 +51,9 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run || '0' }}
           FORCE_POST: ${{ inputs.force || '0' }}
           POST_STORIES: "1"
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GROUP_SHARE_TARGETS: ${{ secrets.GROUP_SHARE_TARGETS }}
           MAX_AGE_MINUTES: "2880"
           MIN_VIDEO_SCORE: "4"
           VIDEO_DEADLINE_HOUR: "20"
