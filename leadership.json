@@ -1,70 +1,70 @@
 {
   "apple": {
     "actual": "{{Unbulleted list  | Tim Cook (chairman)  | John Ternus (CEO)  }}",
-    "checked_at": 1790467734,
+    "checked_at": 1790608230,
     "name": "John Ternus",
     "ok": true,
     "source": "en.wikipedia.org/wiki/Apple_Inc."
   },
   "cn": {
     "actual": "Xi Jinping",
-    "checked_at": 1790467749,
+    "checked_at": 1790608230,
     "name": "Xi Jinping",
     "ok": true,
     "source": "en.wikipedia.org/wiki/President_of_China"
   },
   "de": {
     "actual": "Friedrich Merz",
-    "checked_at": 1790467749,
+    "checked_at": 1790608230,
     "name": "Friedrich Merz",
     "ok": true,
     "source": "en.wikipedia.org/wiki/Chancellor_of_Germany"
   },
   "eu": {
     "actual": "Christine Lagarde",
-    "checked_at": 1790467750,
+    "checked_at": 1790608230,
     "name": "Christine Lagarde",
     "ok": true,
     "source": "en.wikipedia.org/wiki/President_of_the_European_Central_Bank"
   },
   "fed": {
     "actual": "Kevin Warsh",
-    "checked_at": 1790467751,
+    "checked_at": 1790608231,
     "name": "Kevin Warsh",
     "ok": true,
     "source": "en.wikipedia.org/wiki/Chair_of_the_Federal_Reserve"
   },
   "il": {
     "actual": "Benjamin Netanyahu",
-    "checked_at": 1790467753,
+    "checked_at": 1790608231,
     "name": "Benjamin Netanyahu",
     "ok": true,
     "source": "en.wikipedia.org/wiki/Prime_Minister_of_Israel"
   },
   "in": {
     "actual": "Narendra Modi",
-    "checked_at": 1790467756,
+    "checked_at": 1790608231,
     "name": "Narendra Modi",
     "ok": true,
     "source": "en.wikipedia.org/wiki/Prime_Minister_of_India"
   },
   "ir": {
     "actual": "Masoud Pezeshkian",
-    "checked_at": 1790467757,
+    "checked_at": 1790608231,
     "name": "Masoud Pezeshkian",
     "ok": true,
     "source": "en.wikipedia.org/wiki/President_of_Iran"
   },
   "ru": {
     "actual": "Vladimir Putin",
-    "checked_at": 1790467758,
+    "checked_at": 1790608233,
     "name": "Vladimir Putin",
     "ok": true,
     "source": "en.wikipedia.org/wiki/President_of_Russia"
   },
   "ua": {
     "actual": "Volodymyr Zelenskyy",
-    "checked_at": 1790467759,
+    "checked_at": 1790608233,
     "name": "Volodymyr Zelenskyy",
     "ok": true,
     "source": "en.wikipedia.org/wiki/President_of_Ukraine"
