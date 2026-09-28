@@ -1525,10 +1525,27 @@ def _wiki_portrait(name: str):
     return None
 
 
+def _bundled_face_for(wiki: str) -> bytes | None:
+    """Bundled assets/faces/<slug>.png bytes, else None. Owner-supplied
+    portraits beat Wikipedia (e.g. SBF)."""
+    lp = os.path.join(ASSETS_DIR, "faces",
+                       f"{_slug(wiki) or 'person'}.png")
+    if os.path.exists(lp):
+        try:
+            with open(lp, "rb") as fh:
+                return fh.read()
+        except Exception:
+            return None
+    return None
+
+
 def _fetch_face_raw(wiki: str, queries: list):
     """Raw (unbranded) face bytes, for face cards and split composites.
-    Wikipedia official portraits first — open-web face search produced
-    memes and edited junk, never again."""
+    Owner-bundled portrait first, then Wikipedia official portraits —
+    open-web face search produced memes and edited junk, never again."""
+    bundled = _bundled_face_for(wiki)
+    if bundled:
+        return bundled
     try:
         ov, _, _ = _openverse_photo(f"{wiki} portrait")
         if False and ov and _big_enough(ov):  # open-web faces disabled: meme risk
