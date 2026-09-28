@@ -821,8 +821,8 @@ House style mined from the page's own 80 posts (top performers weighted):
 - Hashtags: ALWAYS include #ethancole first, then 4-5 topic tags from the house set when relevant: #ai #artificialintelligence #technews #finance #stockmarket #investing #breakingnews #marketnews #federalreserve #crypto #bitcoin #openai #nvidia #economy. Exactly 5-6 total. Page data proves 7+ tags collapse engagement.
 - Rewrite originally, never copy the headline. NO URLs in the copy.
 - SOURCE-ONLY: use ONLY the facts, names, numbers, and titles stated in the provided headline/summary below. NEVER fill gaps from your training data — if the source doesn't say it, don't add it. In particular, never infer job titles or 'former/current' status from memory; copy titles exactly as the source states them.
-- Do NOT write any source/credit line — the publisher appends source
-  attribution automatically at the end of every post.
+- NEVER write any source/credit/attribution line: no 'Source:', no outlet names,
+  no camera/link emoji lines. Posts go out with zero attribution.
 - 'BREAKING'/'JUST IN' only for genuinely fresh news; 'reportedly' if unconfirmed.
 - CURRENT FACTS (override your training data): Donald Trump IS the sitting U.S. President — NEVER write 'former President Trump'. Kevin Warsh IS Fed Chair (not Powell). John Ternus IS Apple CEO; Tim Cook is Executive Chairman. Never contradict these.
 - Leaks/rumors about unreleased models: always frame as RUMOR or 'reportedly' — NEVER present a leak as a confirmed launch.
@@ -958,7 +958,7 @@ def repair_post(post: str) -> str:
     post = re.sub(r"(?i)\bex-president trump\b", "President Trump", post)
     post = re.sub(r"(?i)\bformer fed chair (kevin )?warsh\b",
                   "Fed Chair Warsh", post)
-    # strip any LLM-written attribution lines (publisher owns attribution)
+    # strip any LLM-written attribution lines (no attribution allowed)
     post = re.sub(r"(?im)(?<![\w-])sources?\s*:[^#\n]*", "", post)
     post = re.sub(r"(?m)^[^\n]*[🔗📸][^\n]*$", "", post)
     # strip bare domains the URL ban missed (www.x, x.com/...)
@@ -1127,7 +1127,7 @@ def quality_check(post: str, source_title: str) -> list[str]:
     if any(p in post.lower() for p in ENGAGEMENT_BAIT):
         problems.append("engagement bait (kills monetization eligibility)")
     if re.search(r"(?i)(?<![\w-])sources?\s*:|🔗|📸", post):
-        problems.append("contains attribution line (publisher appends it)")
+        problems.append("contains attribution line (no attribution allowed)")
     if re.search(r"(?m)^#{1,6}\s", post):
         problems.append("contains markdown header")
     # originality: post must not contain the full headline verbatim
@@ -2169,26 +2169,13 @@ def outlet_for(feed: str) -> str:
 
 
 def add_credit(post: str, credit: str) -> str:
-    """Credit the image source in the caption (never baked into the image)."""
-    if not credit:
-        return post
-    line = chr(0x1F4F8) + ": " + credit  # camera emoji + source
-    m = re.search(r"((?:#\w+\s*)+)\s*$", post)
-    if m:
-        return post[:m.start()].rstrip() + "\n" + line + "\n\n" + m.group(1).strip()
-    return post.rstrip() + "\n\n" + line
+    """Disabled per owner request: posts go out with no image attribution."""
+    return post
 
 
 def add_source(post: str, outlet: str) -> str:
-    """Append the news-source line at the end (before hashtags). The LLM
-    must never write its own source line — the publisher owns attribution."""
-    if not outlet:
-        return post
-    line = chr(0x1F517) + " Source: " + outlet  # link emoji + outlet, no URL
-    m = re.search(r"((?:#\w+\s*)+)\s*$", post)
-    if m:
-        return post[:m.start()].rstrip() + "\n" + line + "\n\n" + m.group(1).strip()
-    return post.rstrip() + "\n\n" + line
+    """Disabled per owner request: posts go out with no source line."""
+    return post
 
 
 # Curated topic photos (assets/topics/): hand-picked, visually verified.
