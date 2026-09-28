@@ -1,17 +1,18 @@
 {
   "last_post": {
-    "hash": "89f910e39140c0f6",
-    "fb_id": "1264009986803820_122116423773472689",
-    "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Iran has increasingly relied on Tether\u2019s USDT stablecoin to bypass U.S. sanctions and support its shadow banking system, according to a U.S. Senate report reviewed by WSJ. The investigation, s...",
-    "link": "https://x.com/Megatron_ron/status/2104578254220759398",
+    "hash": "24629a86488d45a0",
+    "fb_id": "1264009986803820_122116553247472689",
+    "title": "Breaking: Michael Burry says the AI bubble is bursting sooner than later He has disclosed his updated positions: \u2022 Covered Micron $MU short \u2022 Covered Nebius $NBIS short \u2022 Covered Caterpillar $CAT s...",
+    "link": "https://x.com/burrytracker/status/2104657653565730874",
     "mode": "viral",
-    "at": "2026-09-28T19:29:58.549318+00:00"
+    "at": "2026-09-28T23:57:33.233678+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
     "100a2e3d51fa9091",
     "11e9a2979f0b49a2",
     "23b87ba2a601b4f6",
+    "24629a86488d45a0",
     "321b0f3bbbfcc499",
     "3b4aa213b4a64a56",
     "4a1e37b41cd1e43a",
@@ -32,10 +33,9 @@
     "d861583e99fec9ab"
   ],
   "day_counts": {
-    "2026-09-28": 3
+    "2026-09-28": 4
   },
   "recent_titles": [
-    "TRUMP REJECTS IRAN\u2019S HORMUZ PEACE PLAN, EXPECTS BOMBING COULD RESUME AFTER MIDTERMS \u2014 WSJ President Donald Trump has rejected Iran\u2019s proposal to reopen the Strait of Hormuz and halt regional fighti...",
     "A lot of people are saying Anthropic has already nerfed Claude Opus 5.5. We're launching NerfBench on BridgeBench tomorrow. We have the day 1 results. Tomorrow morning we show you the retest. Is Cl...",
     "Timeline of events since Congress failed to pass the Crypto Clarity Act September 17: \u2022 SEC allows limited on-chain trading of tokenized US stocks. \u2022 CFTC allows developers to build passive derivat...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States and China reach deal to cut tariffs on $30,000,000,000 worth of goods following Xi Jinping's talks with President Trump.",
@@ -49,7 +49,8 @@
     "If Sam Bankman-Fried's FTX didn't liquidate its investments following the collapse, it would still hold: \u2022 Solana: $7.0 billion (35x) \u2022 SpaceX: $15.1 billion (75x) \u2022 Cursor: $3 billion (15,000x) \u2022 ...",
     "Did Anthropic nerf Claude Opus 5.5? The first NerfBench results are live. We retested Opus 5.5 and GPT 6 Astra against their own launch scores. Claude Opus 5.5: 99.2% (-0.8% vs launch) GPT 6 Astra:...",
     "$META - META PRICE TARGET RAISED TO $830 Monness Crespi Hardt raised its Meta price target to $830 from $730, maintaining a Buy rating. The firm says early traction for Meta\u2019s Muse personal AI agen...",
-    "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Iran has increasingly relied on Tether\u2019s USDT stablecoin to bypass U.S. sanctions and support its shadow banking system, according to a U.S. Senate report reviewed by WSJ. The investigation, s..."
+    "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Iran has increasingly relied on Tether\u2019s USDT stablecoin to bypass U.S. sanctions and support its shadow banking system, according to a U.S. Senate report reviewed by WSJ. The investigation, s...",
+    "Breaking: Michael Burry says the AI bubble is bursting sooner than later He has disclosed his updated positions: \u2022 Covered Micron $MU short \u2022 Covered Nebius $NBIS short \u2022 Covered Caterpillar $CAT s..."
   ],
   "history": [
     {
@@ -262,6 +263,17 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-09-28T19:29:58.549318+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122116553247472689",
+      "topics": [
+        "ai",
+        "crypto",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-09-28T23:57:33.233678+00:00"
     }
   ],
   "tuner": {
