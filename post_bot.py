@@ -1242,6 +1242,8 @@ ENTITY_LOGOS = [
      [], ["Samsung logo"]),
     (["xai", "grok"],
      [], ["xAI logo", "Grok xAI"]),
+    (["ftx", "alameda"],
+     [], ["FTX logo"]),
     (["deepseek"],
      [], ["DeepSeek logo"]),
     (["mistral"],
@@ -1447,6 +1449,8 @@ PEOPLE_PHOTOS = [
     (["altman", "sam altman"], "Sam Altman", ["Sam Altman OpenAI"]),
     (["amodei", "dario amodei"], "Dario Amodei", ["Dario Amodei Anthropic"]),
     (["musk", "elon musk"], "Elon Musk", ["Elon Musk portrait"]),
+    (["sam bankman-fried", "bankman-fried", "w:sbf"], "Sam Bankman-Fried",
+     ["Sam Bankman-Fried portrait"]),
     (["reeves", "rachel reeves"], "Rachel Reeves", ["Rachel Reeves chancellor"]),
     (["merz", "friedrich merz"], "Friedrich Merz", ["Friedrich Merz chancellor"]),
     (["mohammed bin salman", "bin salman", "mbs"], "Mohammed bin Salman", ["Mohammed bin Salman portrait"]),
@@ -1987,8 +1991,10 @@ def split_card(candidate: dict):
     (face+scene, logo+scene, or scene+scene). Never random, never single."""
     text = f"{candidate.get('title', '')} {candidate.get('summary', '')}".lower()
     link = candidate.get("link", "")
-    person = next(iter(_match_table(text, PEOPLE_PHOTOS)), None)
-    entity = next(iter(_match_table(text, ENTITY_LOGOS)), None)
+    person = next(iter(_by_position(
+        text, _match_table(text, PEOPLE_PHOTOS))), None)
+    entity = next(iter(_by_position(
+        text, _match_table(text, ENTITY_LOGOS))), None)
     face = None
     if person:
         try:
@@ -2346,6 +2352,24 @@ def _match_table(text: str, table: list) -> list:
     return out
 
 
+def _by_position(text_l: str, matches: list) -> list:
+    """Earliest-named-subject-first: the story's subject is usually named
+    before background mentions (e.g. FTX before its SpaceX holding), so
+    sort matches by first keyword occurrence, not table order."""
+    def pos(e):
+        best = None
+        for k in e[0]:
+            if k.startswith("w:"):
+                m = re.search(r"\b" + re.escape(k[2:]) + r"\b", text_l)
+                i = m.start() if m else -1
+            else:
+                i = text_l.find(k)
+            if i >= 0 and (best is None or i < best):
+                best = i
+        return best if best is not None else 10 ** 9
+    return sorted(matches, key=pos)
+
+
 def _geo_kind(code: str) -> str:
     return "state" if code.startswith("us-") else "country"
 
@@ -2394,7 +2418,8 @@ def select_visuals(candidate: dict):
     title_l = title.lower()
     persons_t = _match_table(title_l, PEOPLE_PHOTOS)
     persons = _match_table(text, PEOPLE_PHOTOS)
-    companies_t = [e for e in _match_table(title_l, ENTITY_LOGOS)]
+    companies_t = _by_position(
+        title_l, [e for e in _match_table(title_l, ENTITY_LOGOS)])
     geos = _match_table(text, COUNTRY_PHOTOS)
     geos_t = _match_table(title_l, COUNTRY_PHOTOS)
     insts = _match_table(text, INSTITUTIONS)
