@@ -1,17 +1,17 @@
 {
   "last_post": {
-    "hash": "4a1e37b41cd1e43a",
-    "fb_id": "29223155963953529",
-    "title": "Did Anthropic nerf Claude Opus 5.5? The first NerfBench results are live. We retested Opus 5.5 and GPT 6 Astra against their own launch scores. Claude Opus 5.5: 99.2% (-0.8% vs launch) GPT 6 Astra:...",
-    "link": "https://x.com/bridgemindai/status/2104242319037804728",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-09-28T05:12:00.008165+00:00"
+    "hash": "23b87ba2a601b4f6",
+    "fb_id": "1264009986803820_122116195509472689",
+    "title": "$META - META PRICE TARGET RAISED TO $830 Monness Crespi Hardt raised its Meta price target to $830 from $730, maintaining a Buy rating. The firm says early traction for Meta\u2019s Muse personal AI agen...",
+    "link": "https://x.com/DeItaone/status/2104536283577974969",
+    "mode": "serious",
+    "at": "2026-09-28T11:48:57.196156+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
     "100a2e3d51fa9091",
     "11e9a2979f0b49a2",
+    "23b87ba2a601b4f6",
     "321b0f3bbbfcc499",
     "3b4aa213b4a64a56",
     "4a1e37b41cd1e43a",
@@ -31,10 +31,9 @@
     "d861583e99fec9ab"
   ],
   "day_counts": {
-    "2026-09-28": 1
+    "2026-09-28": 2
   },
   "recent_titles": [
-    "BREAKING: The S&P 500 rises on reports that talks between the US and Iran have entered a \"technical stage,\" per Al Jazeera. Details include: 1. Negotiations in New York have reportedly moved beyond...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC issues new guidance clarifying securities laws on crypto.",
     "TRUMP REJECTS IRAN\u2019S HORMUZ PEACE PLAN, EXPECTS BOMBING COULD RESUME AFTER MIDTERMS \u2014 WSJ President Donald Trump has rejected Iran\u2019s proposal to reopen the Strait of Hormuz and halt regional fighti...",
     "A lot of people are saying Anthropic has already nerfed Claude Opus 5.5. We're launching NerfBench on BridgeBench tomorrow. We have the day 1 results. Tomorrow morning we show you the retest. Is Cl...",
@@ -48,7 +47,8 @@
     "JUST IN: \ud83c\uddf8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Saudi Arabia's oil exports hit highest level since Iran war began as shipments increase through new US-secured Strait of Hormuz route. Saudi's crude oil exports increased almost 80% t...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 California Governor Gavin Newsom signs law banning public officials from issuing crypto meme coins.",
     "If Sam Bankman-Fried's FTX didn't liquidate its investments following the collapse, it would still hold: \u2022 Solana: $7.0 billion (35x) \u2022 SpaceX: $15.1 billion (75x) \u2022 Cursor: $3 billion (15,000x) \u2022 ...",
-    "Did Anthropic nerf Claude Opus 5.5? The first NerfBench results are live. We retested Opus 5.5 and GPT 6 Astra against their own launch scores. Claude Opus 5.5: 99.2% (-0.8% vs launch) GPT 6 Astra:..."
+    "Did Anthropic nerf Claude Opus 5.5? The first NerfBench results are live. We retested Opus 5.5 and GPT 6 Astra against their own launch scores. Claude Opus 5.5: 99.2% (-0.8% vs launch) GPT 6 Astra:...",
+    "$META - META PRICE TARGET RAISED TO $830 Monness Crespi Hardt raised its Meta price target to $830 from $730, maintaining a Buy rating. The firm says early traction for Meta\u2019s Muse personal AI agen..."
   ],
   "history": [
     {
@@ -241,6 +241,15 @@
       ],
       "mode": "viral",
       "at": "2026-09-28T05:12:00.008165+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122116195509472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-09-28T11:48:57.196156+00:00"
     }
   ],
   "tuner": {
