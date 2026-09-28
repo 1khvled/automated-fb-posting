@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "bbec67196eba705d",
-    "fb_id": "1264009986803820_122115915153472689",
-    "title": "If Sam Bankman-Fried's FTX didn't liquidate its investments following the collapse, it would still hold: \u2022 Solana: $7.0 billion (35x) \u2022 SpaceX: $15.1 billion (75x) \u2022 Cursor: $3 billion (15,000x) \u2022 ...",
-    "link": "https://x.com/WatcherGuru/status/2104278900255707263",
+    "hash": "4a1e37b41cd1e43a",
+    "fb_id": "29223155963953529",
+    "title": "Did Anthropic nerf Claude Opus 5.5? The first NerfBench results are live. We retested Opus 5.5 and GPT 6 Astra against their own launch scores. Claude Opus 5.5: 99.2% (-0.8% vs launch) GPT 6 Astra:...",
+    "link": "https://x.com/bridgemindai/status/2104242319037804728",
     "mode": "viral",
-    "at": "2026-09-28T00:40:13.474470+00:00"
+    "kind": "video",
+    "at": "2026-09-28T05:12:00.008165+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -13,6 +14,7 @@
     "11e9a2979f0b49a2",
     "321b0f3bbbfcc499",
     "3b4aa213b4a64a56",
+    "4a1e37b41cd1e43a",
     "5b08901b0be5a112",
     "5f21b28daec622b3",
     "73449aac208c1916",
@@ -29,10 +31,9 @@
     "d861583e99fec9ab"
   ],
   "day_counts": {
-    "2026-09-27": 7
+    "2026-09-28": 1
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC Commissioner Hester Peirce calls to end mass KYC data collection, warning it puts crypto holders at risk of phishing and physical attacks. Pierce says the current KYC/AML system cre...",
     "BREAKING: The S&P 500 rises on reports that talks between the US and Iran have entered a \"technical stage,\" per Al Jazeera. Details include: 1. Negotiations in New York have reportedly moved beyond...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC issues new guidance clarifying securities laws on crypto.",
     "TRUMP REJECTS IRAN\u2019S HORMUZ PEACE PLAN, EXPECTS BOMBING COULD RESUME AFTER MIDTERMS \u2014 WSJ President Donald Trump has rejected Iran\u2019s proposal to reopen the Strait of Hormuz and halt regional fighti...",
@@ -46,7 +47,8 @@
     "\ud83d\udea8 OpenAI's \"o\" Leak >\"o\" is confirmed in ChatGPT's own code, listed as a benefit across every Pro plan >Code literally says \"Lowercase o is the assistant's product name\" >Will be OpenAI's always-on...",
     "JUST IN: \ud83c\uddf8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Saudi Arabia's oil exports hit highest level since Iran war began as shipments increase through new US-secured Strait of Hormuz route. Saudi's crude oil exports increased almost 80% t...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 California Governor Gavin Newsom signs law banning public officials from issuing crypto meme coins.",
-    "If Sam Bankman-Fried's FTX didn't liquidate its investments following the collapse, it would still hold: \u2022 Solana: $7.0 billion (35x) \u2022 SpaceX: $15.1 billion (75x) \u2022 Cursor: $3 billion (15,000x) \u2022 ..."
+    "If Sam Bankman-Fried's FTX didn't liquidate its investments following the collapse, it would still hold: \u2022 Solana: $7.0 billion (35x) \u2022 SpaceX: $15.1 billion (75x) \u2022 Cursor: $3 billion (15,000x) \u2022 ...",
+    "Did Anthropic nerf Claude Opus 5.5? The first NerfBench results are live. We retested Opus 5.5 and GPT 6 Astra against their own launch scores. Claude Opus 5.5: 99.2% (-0.8% vs launch) GPT 6 Astra:..."
   ],
   "history": [
     {
@@ -231,15 +233,23 @@
       "mode": "viral",
       "photo": "face",
       "at": "2026-09-28T00:40:13.474470+00:00"
+    },
+    {
+      "fb_id": "29223155963953529",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-09-28T05:12:00.008165+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-09-27"
+    "updated": "2026-09-28"
   },
   "comment_review": {
-    "posts": 8,
+    "posts": 6,
     "comments": 0,
     "likes": 0,
     "questions": 0,
@@ -248,7 +258,7 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-09-27"
+    "updated": "2026-09-28"
   },
-  "last_video_post": "2026-09-27"
+  "last_video_post": "2026-09-28"
 }
