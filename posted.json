@@ -1,11 +1,11 @@
 {
   "last_post": {
     "hash": "bbec67196eba705d",
-    "fb_id": "1264009986803820_122115901095472689",
+    "fb_id": "1264009986803820_122115915153472689",
     "title": "If Sam Bankman-Fried's FTX didn't liquidate its investments following the collapse, it would still hold: \u2022 Solana: $7.0 billion (35x) \u2022 SpaceX: $15.1 billion (75x) \u2022 Cursor: $3 billion (15,000x) \u2022 ...",
     "link": "https://x.com/WatcherGuru/status/2104278900255707263",
     "mode": "viral",
-    "at": "2026-09-27T23:58:11.267530+00:00"
+    "at": "2026-09-28T00:40:13.474470+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -222,6 +222,15 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-09-27T23:58:11.267530+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122115915153472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-09-28T00:40:13.474470+00:00"
     }
   ],
   "tuner": {
