@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "23b87ba2a601b4f6",
-    "fb_id": "1264009986803820_122116195509472689",
-    "title": "$META - META PRICE TARGET RAISED TO $830 Monness Crespi Hardt raised its Meta price target to $830 from $730, maintaining a Buy rating. The firm says early traction for Meta\u2019s Muse personal AI agen...",
-    "link": "https://x.com/DeItaone/status/2104536283577974969",
-    "mode": "serious",
-    "at": "2026-09-28T11:48:57.196156+00:00"
+    "hash": "89f910e39140c0f6",
+    "fb_id": "1264009986803820_122116423773472689",
+    "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Iran has increasingly relied on Tether\u2019s USDT stablecoin to bypass U.S. sanctions and support its shadow banking system, according to a U.S. Senate report reviewed by WSJ. The investigation, s...",
+    "link": "https://x.com/Megatron_ron/status/2104578254220759398",
+    "mode": "viral",
+    "at": "2026-09-28T19:29:58.549318+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -21,6 +21,7 @@
     "77abba66d602fa6d",
     "7e0de86880325769",
     "7edfc3f168220e43",
+    "89f910e39140c0f6",
     "9e821647d63289bd",
     "a9eab993ee21cbc4",
     "b4df5090744d57db",
@@ -31,10 +32,9 @@
     "d861583e99fec9ab"
   ],
   "day_counts": {
-    "2026-09-28": 2
+    "2026-09-28": 3
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC issues new guidance clarifying securities laws on crypto.",
     "TRUMP REJECTS IRAN\u2019S HORMUZ PEACE PLAN, EXPECTS BOMBING COULD RESUME AFTER MIDTERMS \u2014 WSJ President Donald Trump has rejected Iran\u2019s proposal to reopen the Strait of Hormuz and halt regional fighti...",
     "A lot of people are saying Anthropic has already nerfed Claude Opus 5.5. We're launching NerfBench on BridgeBench tomorrow. We have the day 1 results. Tomorrow morning we show you the retest. Is Cl...",
     "Timeline of events since Congress failed to pass the Crypto Clarity Act September 17: \u2022 SEC allows limited on-chain trading of tokenized US stocks. \u2022 CFTC allows developers to build passive derivat...",
@@ -48,7 +48,8 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 California Governor Gavin Newsom signs law banning public officials from issuing crypto meme coins.",
     "If Sam Bankman-Fried's FTX didn't liquidate its investments following the collapse, it would still hold: \u2022 Solana: $7.0 billion (35x) \u2022 SpaceX: $15.1 billion (75x) \u2022 Cursor: $3 billion (15,000x) \u2022 ...",
     "Did Anthropic nerf Claude Opus 5.5? The first NerfBench results are live. We retested Opus 5.5 and GPT 6 Astra against their own launch scores. Claude Opus 5.5: 99.2% (-0.8% vs launch) GPT 6 Astra:...",
-    "$META - META PRICE TARGET RAISED TO $830 Monness Crespi Hardt raised its Meta price target to $830 from $730, maintaining a Buy rating. The firm says early traction for Meta\u2019s Muse personal AI agen..."
+    "$META - META PRICE TARGET RAISED TO $830 Monness Crespi Hardt raised its Meta price target to $830 from $730, maintaining a Buy rating. The firm says early traction for Meta\u2019s Muse personal AI agen...",
+    "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Iran has increasingly relied on Tether\u2019s USDT stablecoin to bypass U.S. sanctions and support its shadow banking system, according to a U.S. Senate report reviewed by WSJ. The investigation, s..."
   ],
   "history": [
     {
@@ -250,6 +251,17 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-09-28T11:48:57.196156+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122116423773472689",
+      "topics": [
+        "crypto",
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-09-28T19:29:58.549318+00:00"
     }
   ],
   "tuner": {
