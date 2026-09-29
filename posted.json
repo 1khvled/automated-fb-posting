@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "626c970a426ee62c",
-    "fb_id": "1264009986803820_122117031639472689",
-    "title": "What is happening here. The bond market is now pricing-in 4 more 25 basis point rate hikes by June 2027, a total of +125 basis points including September's hike. Just 9 months ago, markets had expe...",
-    "link": "https://x.com/KobeissiLetter/status/2104965173446422545",
-    "mode": "viral",
-    "at": "2026-09-29T17:02:34.156739+00:00"
+    "hash": "e9339d6ea619a42d",
+    "fb_id": "1264009986803820_122117151897472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Illinois releases draft rules to tax crypto transactions regardless of profit or loss, starting in 2027.",
+    "link": "https://x.com/WatcherGuru/status/2105040164238270963",
+    "mode": "serious",
+    "at": "2026-09-29T21:28:11.808219+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -33,13 +33,13 @@
     "baa35c16631d5782",
     "bbec67196eba705d",
     "d248d07438581e6c",
-    "d861583e99fec9ab"
+    "d861583e99fec9ab",
+    "e9339d6ea619a42d"
   ],
   "day_counts": {
-    "2026-09-29": 3
+    "2026-09-29": 4
   },
   "recent_titles": [
-    "BREAKING: The US and China have reached a trade deal to lower tariffs on $30 billion worth of \"non-sensitive goods\" after President Trump and President Xi met this week. This deal will likely lower...",
     "So @RoKhanna continues to double down on his alliance with Hamas in his shameless courting of the anti-Israel left in his party. Want to know more about the person he wants released? An Israeli civ...",
     "\ud83d\udca5Codex \u8d1f\u8d23\u4eba Andrew Ambrosino \u9996\u6b21\u7206\u6599OpenAI\u5185\u90e8\u5bf9\u65b0\u6a21\u578b\u7684\u79c1\u85cf\u538b\u6d4b\uff1a \u6bcf\u51fa\u4e00\u4e2a\u65b0\u6a21\u578b\uff0c\u4ed6\u5c31\u8ba9\u5b83\u628a\u6574\u5957 Codex \u684c\u9762\u5e94\u7528\u7528 Rust / GPUI \u91cd\u5199\u4e00\u904d\u3002 \u4e0d\u662f\u8ba9\u65b0\u6a21\u578b\u5199 demo\u3002 \u662f\u5f00\u53d1\u6574\u4e2a\u539f\u751f\u4e14\u8de8\u5e73\u53f0\u5bf9\u9f50\u7684\u5e94\u7528 \u4ed6\u8bf4\u8fd9\u4e0d\u53ea\u662f\u6280\u672f\u9898\uff0c\u662f\u534f\u540c\u9898\uff0c\u56e2\u961f\u8dd1\u592a\u5feb\uff0c\u529f\u80fd\u6839\u672c\u9501\u4e0d\u4f4f\u6b65\u3002 \u68a6\u60f3\u662f\uff1a\u4e00\u4e2a\u591f\u5f3a\u7684\u6a21\u578b\uff0c\u540c\u65f6\u7ef4\u62a4 Mac \u7684 AppKit\u3001Windows ...",
     "Trump on Iran: Last night, we took a record amount of oil out from the Hormuz Strait, more than we took out before the war.",
@@ -53,7 +53,8 @@
     "Breaking: Michael Burry says the AI bubble is bursting sooner than later He has disclosed his updated positions: \u2022 Covered Micron $MU short \u2022 Covered Nebius $NBIS short \u2022 Covered Caterpillar $CAT s...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 White House blames Democrats for failing to pass the Crypto Clarity Act.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 15-Minute Bitcoin $BTC Price markets on its US app.",
-    "What is happening here. The bond market is now pricing-in 4 more 25 basis point rate hikes by June 2027, a total of +125 basis points including September's hike. Just 9 months ago, markets had expe..."
+    "What is happening here. The bond market is now pricing-in 4 more 25 basis point rate hikes by June 2027, a total of +125 basis points including September's hike. Just 9 months ago, markets had expe...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Illinois releases draft rules to tax crypto transactions regardless of profit or loss, starting in 2027."
   ],
   "history": [
     {
@@ -306,6 +307,15 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-09-29T17:02:34.156739+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122117151897472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-09-29T21:28:11.808219+00:00"
     }
   ],
   "tuner": {
