@@ -103,12 +103,27 @@ def main() -> int:
         fol = f"{_fmt(snap['followers'])} ({delta:+d})"
     else:
         fol = _fmt(snap["followers"])
+    # 10K goal pace: followers still needed / days left = required +/day.
+    goal_line = ""
+    try:
+        goal = int(os.getenv("GOAL_FOLLOWERS", "10000"))
+        deadline = datetime.strptime(
+            os.getenv("GOAL_DEADLINE", "2027-09-29"), "%Y-%m-%d").date()
+        days_left = (deadline - yesterday).days
+        if isinstance(snap["followers"], int) and days_left > 0:
+            need = (goal - snap["followers"]) / days_left
+            pct = 100.0 * snap["followers"] / goal
+            goal_line = (f"\n🎯 Goal {goal:,} by {deadline}: {pct:.1f}% — "
+                         f"need +{need:.0f}/day ({days_left}d left)")
+    except Exception:
+        pass
     msg = (f"📊 Ethan Cole daily — {yesterday}\n"
            f"Posts: {snap['posts'] if snap['posts'] is not None else 'n/a'}\n"
            f"Followers: {fol}\n"
            f"Reach: {_fmt(snap['page_impressions_unique'])}\n"
            f"Engagement: {_fmt(snap['page_post_engagements'])}\n"
-           f"Video views: {_fmt(snap['page_video_views'])}")
+           f"Video views: {_fmt(snap['page_video_views'])}"
+           f"{goal_line}")
     print(msg.replace("\n", " | "))
     send_telegram(msg)
     return 0
