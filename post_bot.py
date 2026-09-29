@@ -1031,16 +1031,16 @@ RAGE_WORDS = [
 def apply_rage_mix(fresh: list, modes: list) -> str | None:
     """Enforce ~60% rage-bait mix: target RAGE_TARGET viral posts out of
     every 5 (default 3). Below target the best viral candidate gets
-    +RAGE_BOOST (default 3, usually wins); above target the best serious
-    candidate gets +2 to hold the serious floor. Returns log line or None."""
+    +RAGE_BOOST (default 3, usually wins); at/above target the best serious
+    candidate gets +3 to hold the serious floor (the funnel skews viral by
+    construction, so neutrality at target drifts to ~75% viral). Returns
+    log line or None."""
     viral_n = modes.count("viral")
     target = int(os.getenv("RAGE_TARGET", "3"))
     if viral_n < target:
         need, boost = "viral", int(os.getenv("RAGE_BOOST", "3"))
-    elif viral_n >= target + 1:
-        need, boost = "serious", 2
     else:
-        return None
+        need, boost = "serious", 3
     for c in fresh:
         if c.get("mode", "serious") == need:
             c["score"] = round(c["score"] + boost, 1)
@@ -3096,14 +3096,14 @@ def main() -> int:
     posts_today = day_counts.get(today, 0)
     floor = int(os.getenv("MIN_POSTS_PER_DAY", "6"))
     discount, catchup = floor_plan(posts_today, now.hour)
-    eff_gap = 20 if catchup else int(os.getenv("MIN_POST_GAP_MINUTES", "90"))
+    eff_gap = 20 if catchup else int(os.getenv("MIN_POST_GAP_MINUTES", "30"))
     eff_bar = max(int(os.getenv("FLOOR_MIN_SCORE", "2")),
                   int(os.getenv("MIN_PUBLISH_SCORE", "6")) - discount)
     log(f"floor: {posts_today}/{floor} posts today, bar={eff_bar}, "
         f"gap={eff_gap}{' CATCHUP' if catchup else ''}")
 
     # Cooldown: never post more often than the effective gap (anti-spam:
-    # cron runs every 20 min but the page posts ~11/day, not 72).
+    # cron runs every 20 min but the page posts ~15/day, not 72).
     # FORCE_POST=1 (manual "post now" runs) skips the cooldown.
     if os.getenv("FORCE_POST", "") == "1":
         log("FORCE_POST=1, cooldown skipped (manual run)")
@@ -3117,8 +3117,8 @@ def main() -> int:
         except Exception:
             pass
 
-    # Daily cap, matching the page's real cadence (~11/day).
-    if posts_today >= int(os.getenv("MAX_POSTS_PER_DAY", "11")):
+    # Daily cap (live wire: up to ~15/day).
+    if posts_today >= int(os.getenv("MAX_POSTS_PER_DAY", "15")):
         log("Daily cap reached. Skipping.")
         return 0
 
