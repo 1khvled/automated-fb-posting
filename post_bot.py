@@ -213,6 +213,15 @@ EXCLUDE = [
     "premier league", "cricket score", "lottery winner", "giveaway",
     "discount code", "coupon", "porn", "casino bonus",
 ]
+CONFLICT_PAT = re.compile(
+    r"hamas|hezbollah|houthi|hostage|gaza|\bidf\b|airstrike|ceasefire|"
+    r"genocide|war crime", re.I)
+MARKET_ANGLE_PAT = re.compile(
+    r"market|stock|s&p|nasdaq|bitcoin|crypto|oil|gold|dollar|"
+    r"tariff|trade|jobs|gdp|inflation|fed|yield|mortgage|"
+    r"wall street|sanction|embargo|hormuz|opec|brent|crude|"
+    r"calls|puts|options|buys|bought|purchase|disclosure|13f|insider|"
+    r"price target|filing|shares", re.I)
 
 # Engagement tuner: multipliers learned from OUR OWN posts' performance.
 # tune_from_engagement() refreshes them at most once/day (cheap: <=20 calls).
@@ -614,6 +623,10 @@ def score_entry(title: str, summary: str) -> tuple[int, list[str]]:
     text = f"{title} {summary}".lower()
     if any(x in text for x in EXCLUDE):
         return -100, []
+    # war/conflict with no market angle is off-brand for Finance+AI
+    # (oil-route wars keep their market words and pass).
+    if CONFLICT_PAT.search(text) and not MARKET_ANGLE_PAT.search(text):
+        return -100, []
     # Famous-stock gate: bank-rating posts only count when they name a
     # $50B+ famous stock. Random small-cap ratings never post.
     if ANALYST_PAT.search(text) and not _match_table(
@@ -629,7 +642,11 @@ def score_entry(title: str, summary: str) -> tuple[int, list[str]]:
     hits: list[str] = []
     score = 0.0
     for topic, (kws, w) in TOPIC_WEIGHTS.items():
-        matched = [k for k in kws if k in text]
+        # short tokens match on word boundaries only ("dow" must not fire
+        # inside "double down", "oil" not inside "boiling").
+        matched = [k for k in kws
+                   if (re.search(r"\b" + re.escape(k) + r"\b", text)
+                       if len(k) <= 4 else k in text)]
         if matched:
             # topic weight x engagement-learned multiplier + depth, capped
             score += w * _TUNER.get(topic, 1.0) + min(len(matched) - 1, 2)
@@ -649,16 +666,13 @@ def score_entry(title: str, summary: str) -> tuple[int, list[str]]:
     if any(h in ("fed", "federal reserve", "interest rate") for h in hits) and not \
             re.search(r"market|stock|s&p|nasdaq|bitcoin|mortgage|yield|dollar", text):
         score -= 2
-    # power-lane gate: politics/geopolitics MUST move markets or it flops
-    # (and risks policy flags). Tariff/trade/oil stories pass; pure rally
-    # speeches, gaffes and street crime do not.
+    # power-lane gate: politics/geopolitics MUST move markets. Tariff/trade/
+    # oil stories pass; pure rally speeches, gaffes, war talk and street
+    # crime are excluded outright — they flop on a Finance+AI page and cost
+    # followers (proven by off-brand posts).
     if "power" in {KW_TO_TOPIC.get(k, "") for k in hits} and not \
-            re.search(r"market|stock|s&p|nasdaq|bitcoin|crypto|oil|gold|dollar|"
-                      r"tariff|trade|jobs|gdp|inflation|fed|yield|mortgage|"
-                      r"wall street|sanction|embargo|calls|puts|options|buys|"
-                      r"bought|purchase|disclosure|13f|insider|price target|"
-                      r"filing|shares", text):
-        score -= 3
+            MARKET_ANGLE_PAT.search(text):
+        return -100, []
     if len(title.strip()) < 25:
         score -= 1
     # shout tax: ALL-CAPS headlines skew tabloid (quality outlets don't
@@ -3005,13 +3019,13 @@ def review_comments(state: dict) -> dict:
 
 
 def floor_plan(posts_today: int, hour: int):
-    """Daily post floor (MIN_POSTS_PER_DAY, default 4).
+    """Daily post floor (MIN_POSTS_PER_DAY, default 6).
 
     Returns (score_discount, catchup). Behind pace -> discount lowers the
     publish bar toward FLOOR_MIN_SCORE (default 2); after
     FLOOR_DEADLINE_HOUR UTC (default 21) with the floor unmet, catchup
     mode shrinks the cooldown so the day still hits its minimum."""
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "4"))
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "6"))
     if posts_today >= floor:
         return 0, False
     expected = (hour * floor) // 24
@@ -3080,7 +3094,7 @@ def main() -> int:
     today = now.date().isoformat()
     day_counts = state.get("day_counts", {})
     posts_today = day_counts.get(today, 0)
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "4"))
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "6"))
     discount, catchup = floor_plan(posts_today, now.hour)
     eff_gap = 20 if catchup else int(os.getenv("MIN_POST_GAP_MINUTES", "90"))
     eff_bar = max(int(os.getenv("FLOOR_MIN_SCORE", "2")),
