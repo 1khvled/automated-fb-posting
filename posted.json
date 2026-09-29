@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "8ad57dc874ac363d",
-    "fb_id": "1264009986803820_122116697601472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 White House blames Democrats for failing to pass the Crypto Clarity Act.",
-    "link": "https://x.com/WatcherGuru/status/2104787373305274597",
+    "hash": "adefb15cd7173c79",
+    "fb_id": "1817000709455321",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 15-Minute Bitcoin $BTC Price markets on its US app.",
+    "link": "https://x.com/WatcherGuru/status/2104602237859516883",
     "mode": "viral",
-    "at": "2026-09-29T05:31:05.419168+00:00"
+    "kind": "video",
+    "at": "2026-09-29T11:34:50.113744+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -26,6 +27,7 @@
     "8ad57dc874ac363d",
     "9e821647d63289bd",
     "a9eab993ee21cbc4",
+    "adefb15cd7173c79",
     "b4df5090744d57db",
     "ba53dd395241dbaf",
     "baa35c16631d5782",
@@ -34,10 +36,9 @@
     "d861583e99fec9ab"
   ],
   "day_counts": {
-    "2026-09-29": 1
+    "2026-09-29": 2
   },
   "recent_titles": [
-    "Timeline of events since Congress failed to pass the Crypto Clarity Act September 17: \u2022 SEC allows limited on-chain trading of tokenized US stocks. \u2022 CFTC allows developers to build passive derivat...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 United States and China reach deal to cut tariffs on $30,000,000,000 worth of goods following Xi Jinping's talks with President Trump.",
     "BREAKING: The US and China have reached a trade deal to lower tariffs on $30 billion worth of \"non-sensitive goods\" after President Trump and President Xi met this week. This deal will likely lower...",
     "So @RoKhanna continues to double down on his alliance with Hamas in his shameless courting of the anti-Israel left in his party. Want to know more about the person he wants released? An Israeli civ...",
@@ -51,7 +52,8 @@
     "$META - META PRICE TARGET RAISED TO $830 Monness Crespi Hardt raised its Meta price target to $830 from $730, maintaining a Buy rating. The firm says early traction for Meta\u2019s Muse personal AI agen...",
     "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Iran has increasingly relied on Tether\u2019s USDT stablecoin to bypass U.S. sanctions and support its shadow banking system, according to a U.S. Senate report reviewed by WSJ. The investigation, s...",
     "Breaking: Michael Burry says the AI bubble is bursting sooner than later He has disclosed his updated positions: \u2022 Covered Micron $MU short \u2022 Covered Nebius $NBIS short \u2022 Covered Caterpillar $CAT s...",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 White House blames Democrats for failing to pass the Crypto Clarity Act."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 White House blames Democrats for failing to pass the Crypto Clarity Act.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 15-Minute Bitcoin $BTC Price markets on its US app."
   ],
   "history": [
     {
@@ -285,6 +287,14 @@
       "mode": "viral",
       "photo": "inst:whitehouse",
       "at": "2026-09-29T05:31:05.419168+00:00"
+    },
+    {
+      "fb_id": "1817000709455321",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-09-29T11:34:50.113744+00:00"
     }
   ],
   "tuner": {
@@ -304,5 +314,5 @@
     "sample_questions": [],
     "updated": "2026-09-29"
   },
-  "last_video_post": "2026-09-28"
+  "last_video_post": "2026-09-29"
 }
