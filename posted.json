@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "53384af31d4e0217",
-    "fb_id": "2569967863500174",
-    "title": "Trump on Iran: We have almost total control of the Strait of Hormuz.",
-    "link": "https://x.com/clashreport/status/2105354818009125293",
-    "mode": "serious",
-    "kind": "video",
-    "at": "2026-09-30T18:26:12.055455+00:00"
+    "hash": "85c5bffa38b6f61d",
+    "fb_id": "1264009986803820_122117761707472689",
+    "title": "JUST IN: Major financial firms officially launch new crypto stablecoin, Open USD $OUSD Backed by: \u2022 Visa \u2022 Stripe \u2022 Shopify \u2022 Coinbase \u2022 Mastercard OUSD is launching across Solana, Base, Ethereum, ...",
+    "link": "https://x.com/WatcherGuru/status/2105325360027926599",
+    "mode": "viral",
+    "at": "2026-09-30T22:37:54.442120+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -27,6 +26,7 @@
     "77abba66d602fa6d",
     "7e0de86880325769",
     "7edfc3f168220e43",
+    "85c5bffa38b6f61d",
     "89f910e39140c0f6",
     "8ad57dc874ac363d",
     "96d536b14c03c692",
@@ -42,10 +42,9 @@
     "e9339d6ea619a42d"
   ],
   "day_counts": {
-    "2026-09-30": 4
+    "2026-09-30": 5
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddf8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Saudi Arabia's oil exports hit highest level since Iran war began as shipments increase through new US-secured Strait of Hormuz route. Saudi's crude oil exports increased almost 80% t...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 California Governor Gavin Newsom signs law banning public officials from issuing crypto meme coins.",
     "If Sam Bankman-Fried's FTX didn't liquidate its investments following the collapse, it would still hold: \u2022 Solana: $7.0 billion (35x) \u2022 SpaceX: $15.1 billion (75x) \u2022 Cursor: $3 billion (15,000x) \u2022 ...",
     "Did Anthropic nerf Claude Opus 5.5? The first NerfBench results are live. We retested Opus 5.5 and GPT 6 Astra against their own launch scores. Claude Opus 5.5: 99.2% (-0.8% vs launch) GPT 6 Astra:...",
@@ -59,7 +58,8 @@
     "Robinhood $HOOD just announced it is partnering with all of these companies to make their data available directly on Robinhood \u2022Options Trader by Unusual Whales: Find your next options trade with r...",
     "BREAKING: Bitcoin is up +43.1% so far in Q3 2026, on track for its best quarterly performance since Q4 2024. This would also mark their 3rd-best quarterly gain since US spot Bitcoin ETFs officially...",
     "\ud83e\udd14\u6881\u6587\u5cf0\u5f97\u53cd\u601d\u554a\uff01\u667a\u8c31 GLM-5.3 \u59a5\u59a5\u7684\u56fd\u6a21\u5b89\u5168\u625b\u628a\u5b50\uff01DeepSeek\u3001Moonshot\u5728Anthropic\u8fd9\u5f20\u8868\u4e0a\u6ca1\u6709\u4efb\u4f55\u5e0c\u671b\uff01 \u5206\u70b9\u6253\u8138\uff1a \ud83d\udd39GLM-5.3\uff1a\u5b8c\u6574\u63a7\u5236\u6d41\u52ab\u6301 4%\uff0c\u7aef\u5230\u7aef\u5229\u7528 12%\uff0c\u56fd\u6a21\u552f\u4e00\u8fc7\u7ebf \ud83d\udd39Claude Mythos Preview\uff1a6% / 14%\uff0c\u7f8e\u5382\u7565\u9ad8\u4e00\u6863 \ud83d\udd39Claude Opus 4.6\uff1a0% / 0%\uff0c\u95e8\u69db\u524d\u4e00\u4ee3 \ud83d\udd39Kimi K3\uff1a0% / ...",
-    "Trump on Iran: We have almost total control of the Strait of Hormuz."
+    "Trump on Iran: We have almost total control of the Strait of Hormuz.",
+    "JUST IN: Major financial firms officially launch new crypto stablecoin, Open USD $OUSD Backed by: \u2022 Visa \u2022 Stripe \u2022 Shopify \u2022 Coinbase \u2022 Mastercard OUSD is launching across Solana, Base, Ethereum, ..."
   ],
   "history": [
     {
@@ -360,6 +360,15 @@
       ],
       "mode": "serious",
       "at": "2026-09-30T18:26:12.055455+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122117761707472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-09-30T22:37:54.442120+00:00"
     }
   ],
   "tuner": {
