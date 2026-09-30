@@ -3129,6 +3129,19 @@ def main() -> int:
     n_corr = corroboration_boost(candidates)
     if n_corr:
         log(f"Corroborated: {n_corr} stories confirmed by 2+ feeds (+2)")
+    # HOT LANE: stories under 60 min old post live — freshness beats polish.
+    # Without this, a fresh 4-pointer sits until the evening floor-drop and
+    # goes out 12h stale. +2 puts live breaking over the publish bar now.
+    n_hot = 0
+    for c in candidates:
+        a = c.get("age_min")
+        if a is not None and a <= 60:
+            c["score"] = round(c["score"] + 2, 1)
+            c.setdefault("keywords", []).append("+hot")
+            n_hot += 1
+    if n_hot:
+        log(f"Hot lane: {n_hot} stories <60m old (+2)")
+        candidates.sort(key=lambda c: c["score"], reverse=True)
     fresh = [c for c in candidates if item_hash(c["link"], c["title"]) not in posted]
     # Cluster guard: squawk wires repeat one story 20+ ways (e.g. 20 Hammack
     # headlines). Skip anything near-identical to a recently posted title.
