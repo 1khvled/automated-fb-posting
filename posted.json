@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "3798774b8ed68fb4",
-    "fb_id": "1264009986803820_122118088227472689",
-    "title": "Breaking: Meta just got caught classifying its AI data centers as \"experiments\" to dodge ~$4B in taxes Here's how biggest companies avoid taxes: 1. Microsoft $MSFT: $18.7B total tax break, mostly f...",
-    "link": "https://x.com/burrytracker/status/2105677251354218973",
+    "hash": "a2e71eefd32ea0f0",
+    "fb_id": "1264009986803820_122118183903472689",
+    "title": "Google unveils latest AI model, but Wall Street wants a breakout personal agent",
+    "link": "https://www.cnbc.com/2026/10/01/google-gemini-4-arrives-as-wall-street-shifts-to-personal-agents.html",
     "mode": "serious",
-    "at": "2026-10-01T15:17:10.902715+00:00"
+    "at": "2026-10-01T20:25:01.015267+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -34,6 +34,7 @@
     "96d536b14c03c692",
     "97eaf41a60bc6480",
     "9e821647d63289bd",
+    "a2e71eefd32ea0f0",
     "a9eab993ee21cbc4",
     "adefb15cd7173c79",
     "b4df5090744d57db",
@@ -45,10 +46,9 @@
     "e9339d6ea619a42d"
   ],
   "day_counts": {
-    "2026-10-01": 3
+    "2026-10-01": 4
   },
   "recent_titles": [
-    "$META - META PRICE TARGET RAISED TO $830 Monness Crespi Hardt raised its Meta price target to $830 from $730, maintaining a Buy rating. The firm says early traction for Meta\u2019s Muse personal AI agen...",
     "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Iran has increasingly relied on Tether\u2019s USDT stablecoin to bypass U.S. sanctions and support its shadow banking system, according to a U.S. Senate report reviewed by WSJ. The investigation, s...",
     "Breaking: Michael Burry says the AI bubble is bursting sooner than later He has disclosed his updated positions: \u2022 Covered Micron $MU short \u2022 Covered Nebius $NBIS short \u2022 Covered Caterpillar $CAT s...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 White House blames Democrats for failing to pass the Crypto Clarity Act.",
@@ -62,7 +62,8 @@
     "JUST IN: Major financial firms officially launch new crypto stablecoin, Open USD $OUSD Backed by: \u2022 Visa \u2022 Stripe \u2022 Shopify \u2022 Coinbase \u2022 Mastercard OUSD is launching across Solana, Base, Ethereum, ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Morgan Stanley launches \"Digital Asset Lab\" to test crypto infrastructure for Wall Street.",
     "BREAKING: \ud83c\uddec\ud83c\udde7\ud83c\uddee\ud83c\uddf7 UK Prime Minister Andy Burnham officially accuses Iran of involvement in the RAF Fairford incident Despite that the UK authorities announced that it was just random thieves smuggling...",
-    "Breaking: Meta just got caught classifying its AI data centers as \"experiments\" to dodge ~$4B in taxes Here's how biggest companies avoid taxes: 1. Microsoft $MSFT: $18.7B total tax break, mostly f..."
+    "Breaking: Meta just got caught classifying its AI data centers as \"experiments\" to dodge ~$4B in taxes Here's how biggest companies avoid taxes: 1. Microsoft $MSFT: $18.7B total tax break, mostly f...",
+    "Google unveils latest AI model, but Wall Street wants a breakout personal agent"
   ],
   "history": [
     {
@@ -399,6 +400,17 @@
       "mode": "serious",
       "photo": "source",
       "at": "2026-10-01T15:17:10.902715+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122118183903472689",
+      "topics": [
+        "ai",
+        "power",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "og:image",
+      "at": "2026-10-01T20:25:01.015267+00:00"
     }
   ],
   "tuner": {
