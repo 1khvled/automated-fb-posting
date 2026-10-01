@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "334c8b5f3a1b20db",
-    "fb_id": "1827966908377567",
-    "title": "BREAKING: \ud83c\uddec\ud83c\udde7\ud83c\uddee\ud83c\uddf7 UK Prime Minister Andy Burnham officially accuses Iran of involvement in the RAF Fairford incident Despite that the UK authorities announced that it was just random thieves smuggling...",
-    "link": "https://x.com/Megatron_ron/status/2105348124843917812",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-01T07:48:13.368772+00:00"
+    "hash": "3798774b8ed68fb4",
+    "fb_id": "1264009986803820_122118088227472689",
+    "title": "Breaking: Meta just got caught classifying its AI data centers as \"experiments\" to dodge ~$4B in taxes Here's how biggest companies avoid taxes: 1. Microsoft $MSFT: $18.7B total tax break, mostly f...",
+    "link": "https://x.com/burrytracker/status/2105677251354218973",
+    "mode": "serious",
+    "at": "2026-10-01T15:17:10.902715+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -17,6 +16,7 @@
     "24629a86488d45a0",
     "321b0f3bbbfcc499",
     "334c8b5f3a1b20db",
+    "3798774b8ed68fb4",
     "3b4aa213b4a64a56",
     "4a1e37b41cd1e43a",
     "53384af31d4e0217",
@@ -45,10 +45,9 @@
     "e9339d6ea619a42d"
   ],
   "day_counts": {
-    "2026-10-01": 2
+    "2026-10-01": 3
   },
   "recent_titles": [
-    "Did Anthropic nerf Claude Opus 5.5? The first NerfBench results are live. We retested Opus 5.5 and GPT 6 Astra against their own launch scores. Claude Opus 5.5: 99.2% (-0.8% vs launch) GPT 6 Astra:...",
     "$META - META PRICE TARGET RAISED TO $830 Monness Crespi Hardt raised its Meta price target to $830 from $730, maintaining a Buy rating. The firm says early traction for Meta\u2019s Muse personal AI agen...",
     "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Iran has increasingly relied on Tether\u2019s USDT stablecoin to bypass U.S. sanctions and support its shadow banking system, according to a U.S. Senate report reviewed by WSJ. The investigation, s...",
     "Breaking: Michael Burry says the AI bubble is bursting sooner than later He has disclosed his updated positions: \u2022 Covered Micron $MU short \u2022 Covered Nebius $NBIS short \u2022 Covered Caterpillar $CAT s...",
@@ -62,7 +61,8 @@
     "Trump on Iran: We have almost total control of the Strait of Hormuz.",
     "JUST IN: Major financial firms officially launch new crypto stablecoin, Open USD $OUSD Backed by: \u2022 Visa \u2022 Stripe \u2022 Shopify \u2022 Coinbase \u2022 Mastercard OUSD is launching across Solana, Base, Ethereum, ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Morgan Stanley launches \"Digital Asset Lab\" to test crypto infrastructure for Wall Street.",
-    "BREAKING: \ud83c\uddec\ud83c\udde7\ud83c\uddee\ud83c\uddf7 UK Prime Minister Andy Burnham officially accuses Iran of involvement in the RAF Fairford incident Despite that the UK authorities announced that it was just random thieves smuggling..."
+    "BREAKING: \ud83c\uddec\ud83c\udde7\ud83c\uddee\ud83c\uddf7 UK Prime Minister Andy Burnham officially accuses Iran of involvement in the RAF Fairford incident Despite that the UK authorities announced that it was just random thieves smuggling...",
+    "Breaking: Meta just got caught classifying its AI data centers as \"experiments\" to dodge ~$4B in taxes Here's how biggest companies avoid taxes: 1. Microsoft $MSFT: $18.7B total tax break, mostly f..."
   ],
   "history": [
     {
@@ -390,6 +390,15 @@
       ],
       "mode": "viral",
       "at": "2026-10-01T07:48:13.368772+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122118088227472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "source",
+      "at": "2026-10-01T15:17:10.902715+00:00"
     }
   ],
   "tuner": {
