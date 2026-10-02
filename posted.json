@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "64962f2dd92c7de5",
-    "fb_id": "1264009986803820_122118257211472689",
-    "title": "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
-    "link": "https://www.cnbc.com/2026/10/01/spacex-to-launch-google-ai-chips-to-orbit-with-planet-labs-satellites.html",
-    "mode": "serious",
-    "at": "2026-10-02T00:13:53.590167+00:00"
+    "hash": "2f82b7d57908eb27",
+    "fb_id": "1264009986803820_122118362169472689",
+    "title": "JUST IN: $110,000,000 worth of shorts liquidated from the crypto market in the past 10 minutes.",
+    "link": "https://x.com/WatcherGuru/status/2105878316192354400",
+    "mode": "viral",
+    "at": "2026-10-02T05:53:31.138759+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -14,6 +14,7 @@
     "11e9a2979f0b49a2",
     "23b87ba2a601b4f6",
     "24629a86488d45a0",
+    "2f82b7d57908eb27",
     "321b0f3bbbfcc499",
     "334c8b5f3a1b20db",
     "3798774b8ed68fb4",
@@ -47,10 +48,9 @@
     "e9339d6ea619a42d"
   ],
   "day_counts": {
-    "2026-10-02": 1
+    "2026-10-02": 2
   },
   "recent_titles": [
-    "Breaking: Michael Burry says the AI bubble is bursting sooner than later He has disclosed his updated positions: \u2022 Covered Micron $MU short \u2022 Covered Nebius $NBIS short \u2022 Covered Caterpillar $CAT s...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 White House blames Democrats for failing to pass the Crypto Clarity Act.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 15-Minute Bitcoin $BTC Price markets on its US app.",
     "What is happening here. The bond market is now pricing-in 4 more 25 basis point rate hikes by June 2027, a total of +125 basis points including September's hike. Just 9 months ago, markets had expe...",
@@ -64,7 +64,8 @@
     "BREAKING: \ud83c\uddec\ud83c\udde7\ud83c\uddee\ud83c\uddf7 UK Prime Minister Andy Burnham officially accuses Iran of involvement in the RAF Fairford incident Despite that the UK authorities announced that it was just random thieves smuggling...",
     "Breaking: Meta just got caught classifying its AI data centers as \"experiments\" to dodge ~$4B in taxes Here's how biggest companies avoid taxes: 1. Microsoft $MSFT: $18.7B total tax break, mostly f...",
     "Google unveils latest AI model, but Wall Street wants a breakout personal agent",
-    "SpaceX launches Google AI chips into orbit in push toward space-based data centers"
+    "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
+    "JUST IN: $110,000,000 worth of shorts liquidated from the crypto market in the past 10 minutes."
   ],
   "history": [
     {
@@ -421,6 +422,15 @@
       "mode": "serious",
       "photo": "og:image",
       "at": "2026-10-02T00:13:53.590167+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122118362169472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-02T05:53:31.138759+00:00"
     }
   ],
   "tuner": {
