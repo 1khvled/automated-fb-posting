@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "a2e71eefd32ea0f0",
-    "fb_id": "1264009986803820_122118183903472689",
-    "title": "Google unveils latest AI model, but Wall Street wants a breakout personal agent",
-    "link": "https://www.cnbc.com/2026/10/01/google-gemini-4-arrives-as-wall-street-shifts-to-personal-agents.html",
+    "hash": "64962f2dd92c7de5",
+    "fb_id": "1264009986803820_122118257211472689",
+    "title": "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
+    "link": "https://www.cnbc.com/2026/10/01/spacex-to-launch-google-ai-chips-to-orbit-with-planet-labs-satellites.html",
     "mode": "serious",
-    "at": "2026-10-01T20:25:01.015267+00:00"
+    "at": "2026-10-02T00:13:53.590167+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -23,6 +23,7 @@
     "5b08901b0be5a112",
     "5f21b28daec622b3",
     "626c970a426ee62c",
+    "64962f2dd92c7de5",
     "66f515d28624ba5d",
     "73449aac208c1916",
     "77abba66d602fa6d",
@@ -46,10 +47,9 @@
     "e9339d6ea619a42d"
   ],
   "day_counts": {
-    "2026-10-01": 4
+    "2026-10-02": 1
   },
   "recent_titles": [
-    "\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Iran has increasingly relied on Tether\u2019s USDT stablecoin to bypass U.S. sanctions and support its shadow banking system, according to a U.S. Senate report reviewed by WSJ. The investigation, s...",
     "Breaking: Michael Burry says the AI bubble is bursting sooner than later He has disclosed his updated positions: \u2022 Covered Micron $MU short \u2022 Covered Nebius $NBIS short \u2022 Covered Caterpillar $CAT s...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 White House blames Democrats for failing to pass the Crypto Clarity Act.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 15-Minute Bitcoin $BTC Price markets on its US app.",
@@ -63,7 +63,8 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Morgan Stanley launches \"Digital Asset Lab\" to test crypto infrastructure for Wall Street.",
     "BREAKING: \ud83c\uddec\ud83c\udde7\ud83c\uddee\ud83c\uddf7 UK Prime Minister Andy Burnham officially accuses Iran of involvement in the RAF Fairford incident Despite that the UK authorities announced that it was just random thieves smuggling...",
     "Breaking: Meta just got caught classifying its AI data centers as \"experiments\" to dodge ~$4B in taxes Here's how biggest companies avoid taxes: 1. Microsoft $MSFT: $18.7B total tax break, mostly f...",
-    "Google unveils latest AI model, but Wall Street wants a breakout personal agent"
+    "Google unveils latest AI model, but Wall Street wants a breakout personal agent",
+    "SpaceX launches Google AI chips into orbit in push toward space-based data centers"
   ],
   "history": [
     {
@@ -411,12 +412,21 @@
       "mode": "serious",
       "photo": "og:image",
       "at": "2026-10-01T20:25:01.015267+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122118257211472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "og:image",
+      "at": "2026-10-02T00:13:53.590167+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-01"
+    "updated": "2026-10-02"
   },
   "comment_review": {
     "posts": 8,
@@ -428,7 +438,7 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-01"
+    "updated": "2026-10-02"
   },
   "last_video_post": "2026-10-01"
 }
