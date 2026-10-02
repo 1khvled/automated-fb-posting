@@ -3019,13 +3019,13 @@ def review_comments(state: dict) -> dict:
 
 
 def floor_plan(posts_today: int, hour: int):
-    """Daily post floor (MIN_POSTS_PER_DAY, default 6).
+    """Daily post floor (MIN_POSTS_PER_DAY, default 10).
 
     Returns (score_discount, catchup). Behind pace -> discount lowers the
     publish bar toward FLOOR_MIN_SCORE (default 2); after
     FLOOR_DEADLINE_HOUR UTC (default 21) with the floor unmet, catchup
     mode shrinks the cooldown so the day still hits its minimum."""
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "6"))
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "10"))
     if posts_today >= floor:
         return 0, False
     expected = (hour * floor) // 24
@@ -3089,12 +3089,12 @@ def main() -> int:
     review_comments(state)
     save_state(state_file, state)
 
-    # DAILY FLOOR: at least MIN_POSTS_PER_DAY (default 4) every day, always.
+    # DAILY FLOOR: at least MIN_POSTS_PER_DAY (default 10) every day, always.
     # Behind pace -> publish bar drops; late-day + unmet -> catchup burst.
     today = now.date().isoformat()
     day_counts = state.get("day_counts", {})
     posts_today = day_counts.get(today, 0)
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "6"))
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "10"))
     discount, catchup = floor_plan(posts_today, now.hour)
     eff_gap = 20 if catchup else int(os.getenv("MIN_POST_GAP_MINUTES", "30"))
     eff_bar = max(int(os.getenv("FLOOR_MIN_SCORE", "2")),
