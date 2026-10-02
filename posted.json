@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "502825213b373f41",
-    "fb_id": "1264009986803820_122118616245472689",
-    "title": "JUST IN: \ud83c\uddea\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8 President Trump says Europe has agreed to immediately release a \"massive amount\" of its diesel oil reserves.",
-    "link": "https://x.com/WatcherGuru/status/2106022876394500593",
-    "mode": "viral",
-    "at": "2026-10-02T17:55:46.268734+00:00"
+    "hash": "53fc57ae28b68910",
+    "fb_id": "1264009986803820_122118706479472689",
+    "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+    "link": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+    "mode": "serious",
+    "at": "2026-10-02T22:01:06.258513+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -23,6 +23,7 @@
     "4a1e37b41cd1e43a",
     "502825213b373f41",
     "53384af31d4e0217",
+    "53fc57ae28b68910",
     "5b08901b0be5a112",
     "5f21b28daec622b3",
     "626c970a426ee62c",
@@ -50,10 +51,9 @@
     "e9339d6ea619a42d"
   ],
   "day_counts": {
-    "2026-10-02": 4
+    "2026-10-02": 5
   },
   "recent_titles": [
-    "What is happening here. The bond market is now pricing-in 4 more 25 basis point rate hikes by June 2027, a total of +125 basis points including September's hike. Just 9 months ago, markets had expe...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Illinois releases draft rules to tax crypto transactions regardless of profit or loss, starting in 2027.",
     "Robinhood $HOOD just announced it is partnering with all of these companies to make their data available directly on Robinhood \u2022Options Trader by Unusual Whales: Find your next options trade with r...",
     "BREAKING: Bitcoin is up +43.1% so far in Q3 2026, on track for its best quarterly performance since Q4 2024. This would also mark their 3rd-best quarterly gain since US spot Bitcoin ETFs officially...",
@@ -67,7 +67,8 @@
     "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
     "JUST IN: $110,000,000 worth of shorts liquidated from the crypto market in the past 10 minutes.",
     "Claude Opus 5.5 and GPT 6 Astra are not nerfed. Latest NerfBench results: Claude Opus 5.5: 103.8% of launch power GPT-6 Astra: 101.1% of launch power Both are within normal variance (90% to 110%). ...",
-    "JUST IN: \ud83c\uddea\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8 President Trump says Europe has agreed to immediately release a \"massive amount\" of its diesel oil reserves."
+    "JUST IN: \ud83c\uddea\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8 President Trump says Europe has agreed to immediately release a \"massive amount\" of its diesel oil reserves.",
+    "G7 to release 100 million barrels of oil and diesel after Trump export ban threat"
   ],
   "history": [
     {
@@ -451,6 +452,16 @@
       "mode": "viral",
       "photo": "face",
       "at": "2026-10-02T17:55:46.268734+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122118706479472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "og:image",
+      "at": "2026-10-02T22:01:06.258513+00:00"
     }
   ],
   "tuner": {
