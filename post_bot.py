@@ -30,7 +30,7 @@ import os
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 import feedparser
@@ -3227,8 +3227,9 @@ def main() -> int:
                     posted.add(vh)
                     state["posted_hashes"] = sorted(posted)[-500:]
                     day_counts[today] = day_counts.get(today, 0) + 1
+                    keep_from = (now.date() - timedelta(days=2)).isoformat()
                     state["day_counts"] = {k: v for k, v in day_counts.items()
-                                           if k >= today}
+                                           if k >= keep_from}
                     recent = state.get("recent_titles", [])
                     recent.append(vpick["title"])
                     state["recent_titles"] = recent[-15:]
@@ -3323,7 +3324,9 @@ def main() -> int:
     posted.add(h)
     state["posted_hashes"] = sorted(posted)[-500:]
     day_counts[today] = day_counts.get(today, 0) + 1
-    state["day_counts"] = {k: v for k, v in day_counts.items() if k >= today}
+    keep_from = (now.date() - timedelta(days=2)).isoformat()
+    state["day_counts"] = {k: v for k, v in day_counts.items()
+                           if k >= keep_from}
     recent = state.get("recent_titles", [])
     recent.append(pick["title"])
     state["recent_titles"] = recent[-15:]
