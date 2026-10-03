@@ -1359,7 +1359,7 @@ def _brand_image(data: bytes):
     from PIL import Image
     buf = io.BytesIO()
     _footer(_crop_bars(Image.open(io.BytesIO(data)).convert("RGB"))) \
-        .save(buf, "JPEG", quality=88)
+        .save(buf, "JPEG", quality=95)
     return buf.getvalue(), "jpeg"
 
 
@@ -1375,7 +1375,7 @@ def _logo_card(data: bytes):
     card.paste(logo, ((1200 - logo.size[0]) // 2, (578 - logo.size[1]) // 2),
                logo)
     buf = io.BytesIO()
-    _footer(card).save(buf, "JPEG", quality=88)
+    _footer(card).save(buf, "JPEG", quality=95)
     return buf.getvalue(), "jpeg"
 
 
@@ -1633,7 +1633,7 @@ def _split_pair(left: bytes, right: bytes, left_logo=False,
     d = ImageDraw.Draw(card)
     d.line([600, 0, 600, body_h], fill=(255, 255, 255), width=3)
     buf = io.BytesIO()
-    _footer(card).save(buf, "JPEG", quality=88)
+    _footer(card).save(buf, "JPEG", quality=95)
     return buf.getvalue(), "jpeg"
 
 
@@ -2837,7 +2837,7 @@ def _story_card(caption: str, image: bytes | None):
         d.text((50, y), wline, font=_font(size), fill=(255, 255, 255))
         y += size + 10
     buf = io.BytesIO()
-    _footer(card, 90).save(buf, "JPEG", quality=88)
+    _footer(card, 90).save(buf, "JPEG", quality=95)
     return buf.getvalue(), "jpeg"
 
 
