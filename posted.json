@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "a2909c1a00c4321d",
-    "fb_id": "1264009986803820_122119182243472689",
-    "title": "Iraq: shipped 2 million barrels of crude on VLCC past Strait of Hormuz - statement",
-    "link": "https://www.financialjuice.com/News/9790567/Iraq-shipped-2-million-barrels-of-crude-on-VLCC-past-Strait-of-Hormuz---statement.aspx?xy=rss",
-    "mode": "serious",
-    "at": "2026-10-03T19:24:41.866430+00:00"
+    "hash": "6dfde226099b02e8",
+    "fb_id": "1264009986803820_122119261497472689",
+    "title": "FUN FACT: 10 years ago today, Bitcoin was $612",
+    "link": "https://x.com/WatcherGuru/status/2106418005353668886",
+    "mode": "viral",
+    "at": "2026-10-03T22:26:29.885399+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -29,6 +29,7 @@
     "626c970a426ee62c",
     "64962f2dd92c7de5",
     "66f515d28624ba5d",
+    "6dfde226099b02e8",
     "73449aac208c1916",
     "77abba66d602fa6d",
     "7e0de86880325769",
@@ -55,10 +56,9 @@
   ],
   "day_counts": {
     "2026-10-02": 5,
-    "2026-10-03": 3
+    "2026-10-03": 4
   },
   "recent_titles": [
-    "\ud83e\udd14\u6881\u6587\u5cf0\u5f97\u53cd\u601d\u554a\uff01\u667a\u8c31 GLM-5.3 \u59a5\u59a5\u7684\u56fd\u6a21\u5b89\u5168\u625b\u628a\u5b50\uff01DeepSeek\u3001Moonshot\u5728Anthropic\u8fd9\u5f20\u8868\u4e0a\u6ca1\u6709\u4efb\u4f55\u5e0c\u671b\uff01 \u5206\u70b9\u6253\u8138\uff1a \ud83d\udd39GLM-5.3\uff1a\u5b8c\u6574\u63a7\u5236\u6d41\u52ab\u6301 4%\uff0c\u7aef\u5230\u7aef\u5229\u7528 12%\uff0c\u56fd\u6a21\u552f\u4e00\u8fc7\u7ebf \ud83d\udd39Claude Mythos Preview\uff1a6% / 14%\uff0c\u7f8e\u5382\u7565\u9ad8\u4e00\u6863 \ud83d\udd39Claude Opus 4.6\uff1a0% / 0%\uff0c\u95e8\u69db\u524d\u4e00\u4ee3 \ud83d\udd39Kimi K3\uff1a0% / ...",
     "Trump on Iran: We have almost total control of the Strait of Hormuz.",
     "JUST IN: Major financial firms officially launch new crypto stablecoin, Open USD $OUSD Backed by: \u2022 Visa \u2022 Stripe \u2022 Shopify \u2022 Coinbase \u2022 Mastercard OUSD is launching across Solana, Base, Ethereum, ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Morgan Stanley launches \"Digital Asset Lab\" to test crypto infrastructure for Wall Street.",
@@ -72,7 +72,8 @@
     "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
     "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
     "Hegseth on Iran: More oil is going through the Strait of Hormuz today than before the conflict even started, because incredible pilots control the airspace.",
-    "Iraq: shipped 2 million barrels of crude on VLCC past Strait of Hormuz - statement"
+    "Iraq: shipped 2 million barrels of crude on VLCC past Strait of Hormuz - statement",
+    "FUN FACT: 10 years ago today, Bitcoin was $612"
   ],
   "history": [
     {
@@ -494,6 +495,15 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-03T19:24:41.866430+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122119261497472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-03T22:26:29.885399+00:00"
     }
   ],
   "tuner": {
