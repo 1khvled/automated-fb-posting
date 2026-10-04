@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "163b472205423d09",
-    "fb_id": "1264009986803820_122119673133472689",
-    "title": "Germany's Chancellor Merz: The Russian economy cannot wage this war indefinitely. We know that the Russian economy has already reached its pain threshold: 7% inflation, a 14% central-bank rate, fal...",
-    "link": "https://t.me/ClashReport/99605",
+    "hash": "febbc2efe8a87926",
+    "fb_id": "1264009986803820_122119733133472689",
+    "title": "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
+    "link": "https://www.cnbc.com/2026/10/04/trump-5000-checks-cash-payments-midterms.html",
     "mode": "serious",
-    "at": "2026-10-04T18:13:40.770736+00:00"
+    "at": "2026-10-04T21:39:11.604167+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -56,15 +56,15 @@
     "d248d07438581e6c",
     "d551335658005d85",
     "d861583e99fec9ab",
-    "e9339d6ea619a42d"
+    "e9339d6ea619a42d",
+    "febbc2efe8a87926"
   ],
   "day_counts": {
     "2026-10-02": 5,
     "2026-10-03": 4,
-    "2026-10-04": 4
+    "2026-10-04": 5
   },
   "recent_titles": [
-    "Breaking: Meta just got caught classifying its AI data centers as \"experiments\" to dodge ~$4B in taxes Here's how biggest companies avoid taxes: 1. Microsoft $MSFT: $18.7B total tax break, mostly f...",
     "Google unveils latest AI model, but Wall Street wants a breakout personal agent",
     "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
     "JUST IN: $110,000,000 worth of shorts liquidated from the crypto market in the past 10 minutes.",
@@ -78,16 +78,10 @@
     "The surge we are seeing in borrowing costs right now is not a coincidence. Even as the US Treasury has attempted to intervene, yields just keep on rising. Amid record deficit spending and 60-straig...",
     "\u4e0a\u70b9\u5e72\u8d27\uff0c\u4e0a\u70b9\u786c\u5b9e\u529b\uff0c\u82b1\u70b9\u7f8e\u5143\uff0c\u7ed9\u4f60\u4eec\u6d4b\u6a21\u578b\u73a9\u513f\u6cd5\u3002 \u6a21\u578b:Claude opus5.5 \u6d88\u8017\u65f6\u957f:19\u520619\u79d2 \u6d88\u8017\u91d1\u989d:3.22\u7f8e\u5143 \u8fd9\u79cd\u89c6\u9891\u9002\u5408\u7ed9\u81ea\u5df1\u505a\u7684\u4ea7\u54c1\u505a\u5ba3\u4f20\uff0c\u6bd4\u5982\u4f60\u60f3\u6295\u8c37\u6b4c\u5e7f\u544a\uff0c\u53ef\u4ee5\u81ea\u5df1\u505a\u4e2a\u89c6\u9891\u4e0a\u63a8\u5e7f\uff0c\u6211\u89c9\u5f97\u505a\u51fa\u6765\u7684\u6548\u679c\u8ddf\u5728X\u63a8\u7ed9\u6211\u7684\u5dee\u4e0d\u591a\u6c34\u5e73\u3002 \u63d0\u793a\u8bcd\u4e5f\u653e\u8fd9\u91cc\u4e86\uff0c\u559c\u6b22\u7684\u81ea\u5df1\u53d6\u3002 \ud83d\udc47\ud83d\udc47\ud83d\udc47",
     "Breaking: The Trump administration is giving Vistra $4,000,000,000 loan to upgrade 3 nuclear plants \u2023 Nancy Pelosi bought up to $750K at ~$171 \u2023 Peter Thiel filed ~$60M position at ~$148 $VST trade...",
-    "Germany's Chancellor Merz: The Russian economy cannot wage this war indefinitely. We know that the Russian economy has already reached its pain threshold: 7% inflation, a 14% central-bank rate, fal..."
+    "Germany's Chancellor Merz: The Russian economy cannot wage this war indefinitely. We know that the Russian economy has already reached its pain threshold: 7% inflation, a 14% central-bank rate, fal...",
+    "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122114586813472689",
-      "topics": [
-        "gold_oil"
-      ],
-      "at": "2026-09-25T22:56:02.766674+00:00"
-    },
     {
       "fb_id": "1264009986803820_122114596605472689",
       "topics": [
@@ -546,6 +540,15 @@
       "mode": "serious",
       "photo": "face",
       "at": "2026-10-04T18:13:40.770736+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122119733133472689",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "og:image",
+      "at": "2026-10-04T21:39:11.604167+00:00"
     }
   ],
   "tuner": {
