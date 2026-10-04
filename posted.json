@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "6dfde226099b02e8",
-    "fb_id": "1264009986803820_122119261497472689",
-    "title": "FUN FACT: 10 years ago today, Bitcoin was $612",
-    "link": "https://x.com/WatcherGuru/status/2106418005353668886",
+    "hash": "d551335658005d85",
+    "fb_id": "1264009986803820_122119324959472689",
+    "title": "The surge we are seeing in borrowing costs right now is not a coincidence. Even as the US Treasury has attempted to intervene, yields just keep on rising. Amid record deficit spending and 60-straig...",
+    "link": "https://x.com/KobeissiLetter/status/2106429572686164000",
     "mode": "viral",
-    "at": "2026-10-03T22:26:29.885399+00:00"
+    "at": "2026-10-04T01:59:37.327406+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -51,15 +51,16 @@
     "bbec67196eba705d",
     "beda8733ff194127",
     "d248d07438581e6c",
+    "d551335658005d85",
     "d861583e99fec9ab",
     "e9339d6ea619a42d"
   ],
   "day_counts": {
     "2026-10-02": 5,
-    "2026-10-03": 4
+    "2026-10-03": 4,
+    "2026-10-04": 1
   },
   "recent_titles": [
-    "Trump on Iran: We have almost total control of the Strait of Hormuz.",
     "JUST IN: Major financial firms officially launch new crypto stablecoin, Open USD $OUSD Backed by: \u2022 Visa \u2022 Stripe \u2022 Shopify \u2022 Coinbase \u2022 Mastercard OUSD is launching across Solana, Base, Ethereum, ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Morgan Stanley launches \"Digital Asset Lab\" to test crypto infrastructure for Wall Street.",
     "BREAKING: \ud83c\uddec\ud83c\udde7\ud83c\uddee\ud83c\uddf7 UK Prime Minister Andy Burnham officially accuses Iran of involvement in the RAF Fairford incident Despite that the UK authorities announced that it was just random thieves smuggling...",
@@ -73,7 +74,8 @@
     "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
     "Hegseth on Iran: More oil is going through the Strait of Hormuz today than before the conflict even started, because incredible pilots control the airspace.",
     "Iraq: shipped 2 million barrels of crude on VLCC past Strait of Hormuz - statement",
-    "FUN FACT: 10 years ago today, Bitcoin was $612"
+    "FUN FACT: 10 years ago today, Bitcoin was $612",
+    "The surge we are seeing in borrowing costs right now is not a coincidence. Even as the US Treasury has attempted to intervene, yields just keep on rising. Amid record deficit spending and 60-straig..."
   ],
   "history": [
     {
@@ -504,12 +506,22 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-03T22:26:29.885399+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122119324959472689",
+      "topics": [
+        "inflation",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-04T01:59:37.327406+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-03"
+    "updated": "2026-10-04"
   },
   "comment_review": {
     "posts": 8,
@@ -521,7 +533,7 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-03"
+    "updated": "2026-10-04"
   },
   "last_video_post": "2026-10-03"
 }
