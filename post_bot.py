@@ -2296,11 +2296,12 @@ def add_source(post: str, outlet: str) -> str:
 # File rotation per story link spreads variety across posts.
 TOPIC_PHOTOS = [
     (["s&p", "nasdaq", "dow", "stock market", "nyse"],
-     ["stocks-nyse.jpg", "market-hall.jpg", "wallstreet.jpg"]),
+     ["chart-screen.jpg", "stocks-nyse.jpg", "market-hall.jpg",
+      "wallstreet.jpg"]),
     (["wall street", "treasury", "bond yield", "ecb"],
      ["wallstreet.jpg", "stocks-nyse.jpg"]),
     (["mortgage", "rates", "yield", "bonds", "dollar"],
-     ["wallstreet.jpg", "stocks-nyse.jpg"]),
+     ["cash-dollars.jpg", "wallstreet.jpg", "stocks-nyse.jpg"]),
     (["white house", "trump", "biden", "vance", "congress", "senate",
       "election", "supreme court", "tariff", "trade", "modi", "maga"],
      ["whitehouse.jpg"]),
@@ -2309,8 +2310,9 @@ TOPIC_PHOTOS = [
      ["fed.jpg"]),
     (["bitcoin", "btc"], ["bitcoin-trade.jpg", "bitcoin.jpg"]),
     (["crypto", "ethereum", "defi", "hack", "exchange", "wallet"],
-     ["bitcoin-trade.jpg", "bitcoin.jpg"]),
+     ["ethereum.jpg", "bitcoin-trade.jpg", "bitcoin.jpg"]),
     (["gold"], ["gold.jpg"]),
+    (["silver", "xag"], ["silver.jpg", "silver-bar.jpg"]),
     (["oil", "opec", "brent", "hormuz"], ["oil.jpg"]),
     # NOTE: no bare "gas" here — it matches "gas fees" in DeFi text and used
     # to route crypto stories to the oil photo.
