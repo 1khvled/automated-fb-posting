@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "f041ccdd0f70088f",
-    "fb_id": "1264009986803820_122120031399472689",
-    "title": "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million.",
-    "link": "https://x.com/WatcherGuru/status/2107077686258716987",
+    "hash": "1d0fcda880497169",
+    "fb_id": "1264009986803820_122120042535472689",
+    "title": "Strive acquired 2,000 $BTC for $169M at an average cost of $84,422 per bitcoin, bringing total holdings to \u20bf29,462. 61.5% of capital raised came from SATA, with warrants generating $56.7M. Today\u2019s ...",
+    "link": "https://x.com/ColeMacro/status/2107078979383664974",
     "mode": "viral",
-    "at": "2026-10-05T12:21:11.757275+00:00"
+    "at": "2026-10-05T12:51:29.642612+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -14,6 +14,7 @@
     "100a2e3d51fa9091",
     "11e9a2979f0b49a2",
     "163b472205423d09",
+    "1d0fcda880497169",
     "23b87ba2a601b4f6",
     "24629a86488d45a0",
     "2839c0e8680cd401",
@@ -66,10 +67,9 @@
   "day_counts": {
     "2026-10-03": 4,
     "2026-10-04": 5,
-    "2026-10-05": 4
+    "2026-10-05": 5
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddea\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8 President Trump says Europe has agreed to immediately release a \"massive amount\" of its diesel oil reserves.",
     "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
     "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
     "Hegseth on Iran: More oil is going through the Strait of Hormuz today than before the conflict even started, because incredible pilots control the airspace.",
@@ -83,18 +83,10 @@
     "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
     "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo...",
     "$SPCX - MORGAN STANLEY: SPACEX \u201cCHEAP AND GETTING CHEAPER\u201d Morgan Stanley reiterates Overweight on SpaceX with a $300 price target, arguing the stock looks cheap once its growth profile is consider...",
-    "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million."
+    "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million.",
+    "Strive acquired 2,000 $BTC for $169M at an average cost of $84,422 per bitcoin, bringing total holdings to \u20bf29,462. 61.5% of capital raised came from SATA, with warrants generating $56.7M. Today\u2019s ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122114645379472689",
-      "topics": [
-        "gold_oil",
-        "stocks"
-      ],
-      "mode": "viral",
-      "at": "2026-09-26T01:46:18.817634+00:00"
-    },
     {
       "fb_id": "1264009986803820_122114712303472689",
       "topics": [
@@ -557,6 +549,15 @@
       "mode": "viral",
       "photo": "split:face+logo",
       "at": "2026-10-05T12:21:11.757275+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120042535472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-05T12:51:29.642612+00:00"
     }
   ],
   "tuner": {
