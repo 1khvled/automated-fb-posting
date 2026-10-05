@@ -1719,19 +1719,20 @@ def _split_image(face: bytes, logo: bytes):
 NEUTRAL_TOPICS = ["stocks-nyse.jpg", "market-hall.jpg", "wallstreet.jpg"]
 
 
-def _topic_raw_files(text: str, link: str, n: int = 2) -> list:
-    """Up to n unbranded topic filenames for text (ordered, distinct)."""
+def _topic_raw_files(title: str, text: str, link: str,
+                     n: int = 2) -> list:
+    """Up to n unbranded topic filenames for text (ordered, distinct).
+    Walks rows by subject relevance so a bitcoin story mentioning gold still
+    yields bitcoin scenes first."""
     picked: list = []
-    for keys, files in TOPIC_PHOTOS:
-        if any(k in text for k in keys):
-            start = int(hashlib.sha256(link.encode()).hexdigest(), 16)
-            for i in range(len(files)):
-                fn = files[(start + i) % len(files)]
-                if fn not in picked:
-                    picked.append(fn)
-                if len(picked) >= n:
-                    return picked
-            break
+    for keys, files in _score_topic_rows(title, text):
+        start = int(hashlib.sha256(link.encode()).hexdigest(), 16)
+        for i in range(len(files)):
+            fn = files[(start + i) % len(files)]
+            if fn not in picked:
+                picked.append(fn)
+            if len(picked) >= n:
+                return picked
     start = int(hashlib.sha256((link + "neutral").encode()).hexdigest(), 16)
     for i in range(len(NEUTRAL_TOPICS)):
         fn = NEUTRAL_TOPICS[(start + i) % len(NEUTRAL_TOPICS)]
@@ -2127,7 +2128,7 @@ def split_card(candidate: dict):
         if live:
             scenes.append(live)
             log("split scene: live web photo")
-    for fn in _topic_raw_files(text, link, 2):
+    for fn in _topic_raw_files(candidate.get("title", ""), text, link, 2):
         p = os.path.join(ASSETS_DIR, "topics", fn)
         if os.path.exists(p):
             try:
@@ -2306,11 +2307,13 @@ TOPIC_PHOTOS = [
     (["fed", "powell", "warsh", "fomc", "interest rate", "rate cut",
       "rate hike"],
      ["fed.jpg"]),
-    (["bitcoin", "btc"], ["bitcoin.jpg"]),
+    (["bitcoin", "btc"], ["bitcoin-trade.jpg", "bitcoin.jpg"]),
     (["crypto", "ethereum", "defi", "hack", "exchange", "wallet"],
-     ["bitcoin.jpg"]),
+     ["bitcoin-trade.jpg", "bitcoin.jpg"]),
     (["gold"], ["gold.jpg"]),
-    (["oil", "opec", "brent", "hormuz", "gas"], ["oil.jpg"]),
+    (["oil", "opec", "brent", "hormuz"], ["oil.jpg"]),
+    # NOTE: no bare "gas" here — it matches "gas fees" in DeFi text and used
+    # to route crypto stories to the oil photo.
     (["gpu", "semiconductor", "ai chip", "artificial intelligence",
       "generative ai"],
      ["chips.jpg"]),
@@ -2319,10 +2322,30 @@ TOPIC_PHOTOS = [
 ]
 
 
+def _beat_scores(title: str, text: str, rows: list) -> list:
+    """Rows ordered by subject relevance. The hook defines the subject, so
+    title hits weigh 3x (a bitcoin ETF story that mentions gold/silver in the
+    body must resolve bitcoin, not gold). Ties break by table order."""
+    tl = (title or "").lower()
+    scored = []
+    for i, (keys, files) in enumerate(rows):
+        s = (sum(3 for k in keys if k in tl)
+             + sum(1 for k in keys if k in text))
+        if s:
+            scored.append((-s, i, keys, files))
+    scored.sort()
+    return [(keys, files) for _, _, keys, files in scored]
+
+
+def _score_topic_rows(title: str, text: str) -> list:
+    """TOPIC_PHOTOS rows ordered by subject relevance (see _beat_scores)."""
+    return _beat_scores(title, text, TOPIC_PHOTOS)
+
+
 def topic_photo(candidate: dict):
     """(bytes, ext, src) branded topic photo, else (None, None, None)."""
     text = f"{candidate.get('title', '')} {candidate.get('summary', '')}".lower()
-    for keys, files in TOPIC_PHOTOS:
+    for keys, files in _score_topic_rows(candidate.get("title", ""), text):
         if not any(k in text for k in keys):
             continue
         start = int(hashlib.sha256(
@@ -2690,18 +2713,31 @@ def select_visuals(candidate: dict):
 
 
 def find_photo(candidate: dict):
-    """(bytes, ext, src). Every image gets debranded + Ethan Cole footer;
-    logo card when the story names an entity but has no photo.
-    X attachments go LAST for X-sourced posts: X media is unvetted
-    (memes, screenshots, pricing cards) while article og:images are
-    editorially chosen, so RSS keeps source-first but X goes
-    subject-first (logo/face beats a random screenshot)."""
+    """(bytes, ext, src). SUBJECT-FIRST: curated relevance beats source art.
+    Oct 2026 incident: a bitcoin ETF story shipped the article's generic
+    gold-bars hero image. The story's own subject (face/logo/topic scene)
+    always wins now; source/og art is fallback; scraped web photos last
+    resort before neutral. X attachments stay deprioritized: X media is
+    unvetted (memes, screenshots, pricing cards)."""
+    # 1. subject visuals: person/face, entity logo, topic scenes
+    vimg, vext, vsrc = select_visuals(candidate)
+    if vimg:
+        return vimg, vext, vsrc
+    simg, sext, ssrc = split_card(candidate)
+    if simg:
+        return simg, sext, ssrc
+    face = people_photo(candidate)
+    if face[0]:
+        return face[0], face[1], "face"
+    card = entity_logo(candidate)
+    if card[0]:
+        return card[0], card[1], "entity-logo"
+    timg, text_, tsrc = topic_photo(candidate)
+    if timg:
+        return timg, text_, tsrc
+    # 2. source art fallback (demoted from first: editorial hero images are
+    # generic as often as apt)
     raw = None  # (data, src)
-    x_post = (candidate.get("feed") or "").startswith("X @")
-    if x_post:
-        vimg, vext, vsrc = select_visuals(candidate)
-        if vimg:
-            return vimg, vext, vsrc
     if candidate.get("photo_url"):
         key = "src-" + hashlib.sha256(
             candidate["photo_url"].encode()).hexdigest()[:16]
@@ -2733,26 +2769,6 @@ def find_photo(candidate: dict):
     if raw and not _big_enough(raw[0]):
         log("Source/og photo too small, falling through to curated photos")
         raw = None
-    if not raw and not x_post:
-        vimg, vext, vsrc = select_visuals(candidate)
-        if vimg:
-            return vimg, vext, vsrc
-    if not raw:
-        simg, sext, ssrc = split_card(candidate)
-        if simg:
-            return simg, sext, ssrc
-    if not raw:
-        face = people_photo(candidate)
-        if face[0]:
-            return face[0], face[1], "face"
-    if not raw:
-        card = entity_logo(candidate)
-        if card[0]:
-            return card[0], card[1], "entity-logo"
-    if not raw:
-        timg, text_, tsrc = topic_photo(candidate)
-        if timg:
-            return timg, text_, tsrc
     if not raw:
         gdata, _gext = _google_photo(
             " ".join((candidate.get("keywords") or [])[:3])
