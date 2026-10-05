@@ -965,6 +965,7 @@ KNOWN_STOCK = {
     "AMZN": "Amazon ($AMZN)",
     "META": "Meta ($META)",
     "VST": "Vistra ($VST)",
+    "AVGO": "Broadcom ($AVGO)",
     "STRC": "Strategy ($STRC)",
     "STRF": "Strategy ($STRF)",
     "SATA": "Strive ($SATA)",
