@@ -835,6 +835,7 @@ House style mined from the page's own 80 posts (top performers weighted):
 - Hashtags: ALWAYS include #ethancole first, then 4-5 topic tags from the house set when relevant: #ai #artificialintelligence #technews #finance #stockmarket #investing #breakingnews #marketnews #federalreserve #crypto #bitcoin #openai #nvidia #economy. Exactly 5-6 total. Page data proves 7+ tags collapse engagement.
 - Rewrite originally, never copy the headline. NO URLs in the copy.
 - SOURCE-ONLY: use ONLY the facts, names, numbers, and titles stated in the provided headline/summary below. NEVER fill gaps from your training data — if the source doesn't say it, don't add it. In particular, never infer job titles or 'former/current' status from memory; copy titles exactly as the source states them.
+- IDENTIFICATION: first mention of any company is its full name + ($TICKER) when listed — 'Strategy ($MSTR)', 'Coinbase ($COIN)', 'Strive, Inc.'. A bare single-word name ('Strive', 'Metaplanet') with no identifier leaves readers lost; never ship that. Never hedge a real company name in scare quotes ('Strategy').
 - NEVER write any source/credit/attribution line: no 'Source:', no outlet names,
   no camera/link emoji lines. Posts go out with zero attribution.
 - 'BREAKING'/'JUST IN' only for genuinely fresh news; 'reportedly' if unconfirmed.
@@ -935,6 +936,55 @@ def gen_openrouter(model: str, system: str, user: str) -> str:
         raise RuntimeError(f"OpenRouter {model} parse error: {ex}")
 
 
+# Bare tickers confuse readers the same way in English ("$COIN" alone next to
+# crypto news reads as a token). Expand to English name + ticker. Verified
+# tickers only (SPCX confirmed = Space Exploration Technologies Corp. Nasdaq
+# vehicle, ASST/SATA = Strive Inc. common/preferred — Nasdaq API, Oct 2026).
+# Case-sensitive, whole-word, paren-guarded (no double-expansion).
+KNOWN_STOCK = {
+    "COIN": "Coinbase ($COIN)",
+    "MSTR": "Strategy ($MSTR)",
+    "NVDA": "Nvidia ($NVDA)",
+    "TSLA": "Tesla ($TSLA)",
+    "AAPL": "Apple ($AAPL)",
+    "MSFT": "Microsoft ($MSFT)",
+    "GOOGL": "Google ($GOOGL)",
+    "AMZN": "Amazon ($AMZN)",
+    "META": "Meta ($META)",
+    "VST": "Vistra ($VST)",
+    "STRC": "Strategy ($STRC)",
+    "STRF": "Strategy ($STRF)",
+    "SATA": "Strive ($SATA)",
+}
+
+# Obscure-but-real names get their identifier ("who the fuck is Strive" —
+# bare single-word company names ship readers lost). Verified identities
+# only; unknown names stay exactly as the source wrote them. Case-sensitive:
+# lowercase "strive" is a verb.
+KNOWN_ENTITY = {
+    "Strive": "Strive, Inc.",
+    "Metaplanet": "Metaplanet Inc.",
+    "'Strategy'": "Strategy",
+    "'Strive'": "Strive, Inc.",
+}
+
+
+def _fix_names(post: str) -> str:
+    for name, full in KNOWN_ENTITY.items():
+        if name[:1] in ("'", '"'):
+            # quoted variant: \b never matches beside a quote, use guards
+            post = re.sub(r"(?<!\w)" + re.escape(name) + r"(?!\w)",
+                          full, post)
+        else:
+            # identify once: a possessive after identification stays bare
+            # ("Strive, Inc. ... Strive's total" — not "Strive, Inc.'s")
+            post = re.sub(r"\b" + re.escape(name) + r"\b(?![’']s\b)",
+                          full, post)
+    for ticker, full in KNOWN_STOCK.items():
+        post = re.sub(r"\b" + ticker + r"\b(?![^(]*\))", full, post)
+    return post
+
+
 def sanitize(post: str) -> str:
     """Facebook renders no markdown: **bold** -> UPPERCASE, strip # headers,
     > quotes and ALL stray asterisks/backticks (bullets preserved as -).
@@ -959,6 +1009,9 @@ def sanitize(post: str) -> str:
     # LLM output breaks the CI log stream and swallows all later lines
     post = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]", "", post)
     post = post.replace("*", "").replace("`", "")
+    # deterministic identification: bare tickers -> Name ($TICKER),
+    # obscure firms -> full legal name (a bare "Strive" ships readers lost)
+    post = _fix_names(post)
     return post
 
 
