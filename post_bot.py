@@ -1544,6 +1544,10 @@ PEOPLE_PHOTOS = [
     (["michael barr"], "Michael Barr", ["Michael Barr Federal Reserve"]),
     (["michael burry", "burry"], "Michael Burry", ["Michael Burry portrait"]),
     (["michael saylor", "saylor"], "Michael Saylor", ["Michael Saylor portrait"]),
+    # w:strive (word-boundary): bare "strive" is the company in practice —
+    # verb collisions measured at zero in page history, and a face beats a
+    # clip-art coin for a treasury-company story every time.
+    (["vivek ramaswamy", "ramaswamy", "w:strive"], "Vivek Ramaswamy", ["Vivek Ramaswamy portrait"]),
     (["jim cramer", "cramer"], "Jim Cramer", ["Jim Cramer portrait"]),
     (["warren buffett", "buffett"], "Warren Buffett", ["Warren Buffett portrait"]),
     (["bill ackman", "ackman"], "Bill Ackman", ["Bill Ackman portrait"]),
@@ -1593,16 +1597,18 @@ def _wiki_portrait(name: str):
 
 
 def _bundled_face_for(wiki: str) -> bytes | None:
-    """Bundled assets/faces/<slug>.png bytes, else None. Owner-supplied
+    """Bundled assets/faces/<slug>.(png|jpg) bytes, else None. Owner-supplied
     portraits beat Wikipedia (e.g. SBF)."""
-    lp = os.path.join(ASSETS_DIR, "faces",
-                       f"{_slug(wiki) or 'person'}.png")
-    if os.path.exists(lp):
+    stem = _slug(wiki) or "person"
+    for ext in (".png", ".jpg", ".jpeg"):
+        lp = os.path.join(ASSETS_DIR, "faces", f"{stem}{ext}")
+        if not os.path.exists(lp):
+            continue
         try:
             with open(lp, "rb") as fh:
                 return fh.read()
         except Exception:
-            return None
+            continue
     return None
 
 
