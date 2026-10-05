@@ -1142,7 +1142,8 @@ VIRAL MODE (this story already has traction — squeeze it):
 OPENROUTER_MODELS_DEFAULT = ("google/gemma-4-31b-it:free,"
                              "google/gemma-4-26b-a4b-it:free,"
                              "nvidia/nemotron-3-super-120b-a12b:free")
-NVIDIA_MODELS_DEFAULT = "nvidia/nemotron-3-super-120b-a12b"
+NVIDIA_MODELS_DEFAULT = ("openai/gpt-oss-20b,"
+                         "nvidia/nemotron-3-super-120b-a12b")
 
 
 def gen_nvidia(model: str, system: str, user: str) -> str:
