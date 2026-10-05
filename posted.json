@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "601a84aa97a5995b",
-    "fb_id": "1264009986803820_122119781547472689",
-    "title": "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
-    "link": "https://x.com/KobeissiLetter/status/2106792212293955969",
-    "mode": "viral",
-    "at": "2026-10-05T00:11:18.058007+00:00"
+    "hash": "49e7734863e36891",
+    "fb_id": "1099007942506034",
+    "title": "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo...",
+    "link": "https://x.com/Megatron_ron/status/2107047026961658114",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-05T10:46:18.088659+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -23,6 +24,7 @@
     "3798774b8ed68fb4",
     "3b4aa213b4a64a56",
     "3eb4a262e3a6a366",
+    "49e7734863e36891",
     "4a1e37b41cd1e43a",
     "502825213b373f41",
     "53384af31d4e0217",
@@ -63,10 +65,9 @@
   "day_counts": {
     "2026-10-03": 4,
     "2026-10-04": 5,
-    "2026-10-05": 1
+    "2026-10-05": 2
   },
   "recent_titles": [
-    "SpaceX launches Google AI chips into orbit in push toward space-based data centers",
     "JUST IN: $110,000,000 worth of shorts liquidated from the crypto market in the past 10 minutes.",
     "Claude Opus 5.5 and GPT 6 Astra are not nerfed. Latest NerfBench results: Claude Opus 5.5: 103.8% of launch power GPT-6 Astra: 101.1% of launch power Both are within normal variance (90% to 110%). ...",
     "JUST IN: \ud83c\uddea\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8 President Trump says Europe has agreed to immediately release a \"massive amount\" of its diesel oil reserves.",
@@ -80,17 +81,10 @@
     "Breaking: The Trump administration is giving Vistra $4,000,000,000 loan to upgrade 3 nuclear plants \u2023 Nancy Pelosi bought up to $750K at ~$171 \u2023 Peter Thiel filed ~$60M position at ~$148 $VST trade...",
     "Germany's Chancellor Merz: The Russian economy cannot wage this war indefinitely. We know that the Russian economy has already reached its pain threshold: 7% inflation, a 14% central-bank rate, fal...",
     "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
-    "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th...."
+    "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
+    "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122114615055472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "at": "2026-09-26T00:19:26.101103+00:00"
-    },
     {
       "fb_id": "1264009986803820_122114632647472689",
       "topics": [
@@ -550,6 +544,15 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-05T00:11:18.058007+00:00"
+    },
+    {
+      "fb_id": "1099007942506034",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-05T10:46:18.088659+00:00"
     }
   ],
   "tuner": {
@@ -569,5 +572,5 @@
     "sample_questions": [],
     "updated": "2026-10-05"
   },
-  "last_video_post": "2026-10-04"
+  "last_video_post": "2026-10-05"
 }
