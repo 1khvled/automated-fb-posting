@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "1ee80daa10c57716",
-    "fb_id": "1264009986803820_122120131185472689",
-    "title": "Trump: Refinery Disruptions, Not Strait of Hormuz, Are Driving Gasoline Prices Higher - Truth Social",
-    "link": "https://www.financialjuice.com/News/9792195/Trump-Refinery-Disruptions-Not-Strait-of-Hormuz-Are-Driving-Gasoline-Prices-Higher---Truth-Social.aspx?xy=rss",
-    "mode": "serious",
-    "at": "2026-10-05T16:51:28.122917+00:00"
+    "hash": "99c9f9218a07a71a",
+    "fb_id": "1264009986803820_122120142363472689",
+    "title": "BREAKING: President Trump says gasoline prices are no longer being driven higher by disruptions in the Strait of Hormuz, but rather by Russian refineries being blown up by Ukraine.",
+    "link": "https://x.com/KobeissiLetter/status/2107147524033090025",
+    "mode": "viral",
+    "at": "2026-10-05T17:21:29.885937+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -50,6 +50,7 @@
     "921b6370813ac363",
     "96d536b14c03c692",
     "97eaf41a60bc6480",
+    "99c9f9218a07a71a",
     "9e821647d63289bd",
     "a2909c1a00c4321d",
     "a2e71eefd32ea0f0",
@@ -74,10 +75,9 @@
   "day_counts": {
     "2026-10-03": 4,
     "2026-10-04": 5,
-    "2026-10-05": 12
+    "2026-10-05": 13
   },
   "recent_titles": [
-    "Breaking: The Trump administration is giving Vistra $4,000,000,000 loan to upgrade 3 nuclear plants \u2023 Nancy Pelosi bought up to $750K at ~$171 \u2023 Peter Thiel filed ~$60M position at ~$148 $VST trade...",
     "Germany's Chancellor Merz: The Russian economy cannot wage this war indefinitely. We know that the Russian economy has already reached its pain threshold: 7% inflation, a 14% central-bank rate, fal...",
     "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
     "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
@@ -91,19 +91,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC approves first-ever 3x leveraged Bitcoin and Ethereum ETFs. \u2022 The SEC approved Cboe BZX to list six new Volatility Shares ETFs, including 3x Bitcoin and Ether ETFs, along with 3x go...",
     "BREAKING: Market expectations of a Democrat \"sweep\" in the 2026 Midterm elections rise to a record 67%. Last year at this time, the market saw just a 24% chance of a Democrat \"sweep.\" Election Day ...",
     "\"Trump just soft-launched higher inflation as the new solution for rebalancing the $40 trillion U.S. national debt,\" per FORTUNE",
-    "Trump: Refinery Disruptions, Not Strait of Hormuz, Are Driving Gasoline Prices Higher - Truth Social"
+    "Trump: Refinery Disruptions, Not Strait of Hormuz, Are Driving Gasoline Prices Higher - Truth Social",
+    "BREAKING: President Trump says gasoline prices are no longer being driven higher by disruptions in the Strait of Hormuz, but rather by Russian refineries being blown up by Ukraine."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122115463881472689",
-      "topics": [
-        "ai",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "source",
-      "at": "2026-09-27T07:52:50.299569+00:00"
-    },
     {
       "fb_id": "1264009986803820_122115644895472689",
       "topics": [
@@ -570,6 +561,16 @@
       "mode": "serious",
       "photo": "face",
       "at": "2026-10-05T16:51:28.122917+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120142363472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-05T17:21:29.885937+00:00"
     }
   ],
   "tuner": {
