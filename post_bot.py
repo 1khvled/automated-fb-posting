@@ -1142,6 +1142,43 @@ VIRAL MODE (this story already has traction — squeeze it):
 OPENROUTER_MODELS_DEFAULT = ("google/gemma-4-31b-it:free,"
                              "google/gemma-4-26b-a4b-it:free,"
                              "nvidia/nemotron-3-super-120b-a12b:free")
+NVIDIA_MODELS_DEFAULT = "nvidia/nemotron-3-super-120b-a12b"
+
+
+def gen_nvidia(model: str, system: str, user: str) -> str:
+    """NVIDIA Build API (OpenAI-compatible). Verified live Oct 2026:
+    super-120b writes clean copy but thinks ~6k tokens first, so it gets
+    max_tokens 4096 and a long timeout. Content only — empty content is a
+    failure, never a post."""
+    import json as _json
+    key = os.getenv("NVIDIA_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError("No NVIDIA_API_KEY set")
+    r = requests.post(
+        "https://integrate.api.nvidia.com/v1/chat/completions",
+        headers={"Authorization": f"Bearer {key}",
+                 "Content-Type": "application/json"},
+        json={"model": model, "max_tokens": 4096, "temperature": 0.5,
+              "messages": [{"role": "system", "content": system},
+                           {"role": "user", "content": user}]},
+        timeout=180)
+    try:
+        d = r.json()
+    except Exception:
+        raise RuntimeError(f"NVIDIA {model} HTTP {r.status_code}: "
+                           f"non-JSON body")
+    if r.status_code != 200:
+        raise RuntimeError(f"NVIDIA {model} HTTP {r.status_code}: "
+                           f"{_json.dumps(d)[:200]}")
+    try:
+        text = (d["choices"][0]["message"].get("content") or "").strip()
+        if not text:
+            raise RuntimeError(
+                f"NVIDIA {model} returned no content "
+                f"(finish_reason={d['choices'][0].get('finish_reason')})")
+        return text
+    except Exception as ex:
+        raise RuntimeError(f"NVIDIA {model} parse error: {ex}")
 
 
 def _openrouter_models() -> list:
@@ -1163,6 +1200,13 @@ def rewrite_with_llm(candidate: dict) -> str:
     if _gemini_keys():
         chain.append(("gemini",
                       os.getenv("GEMINI_MODEL", "gemini-2.5-flash")))
+    if os.getenv("NVIDIA_API_KEY", "").strip():
+        multi = os.getenv("NVIDIA_MODELS", "").strip()
+        nmodels = ([m.strip() for m in multi.split(",") if m.strip()]
+                   if multi else [m.strip() for m in
+                                   NVIDIA_MODELS_DEFAULT.split(",")
+                                   if m.strip()])
+        chain += [("nvidia", m) for m in nmodels]
     if os.getenv("OPENROUTER_API_KEY", "").strip():
         chain += [("openrouter", m) for m in _openrouter_models()]
     if not chain:
@@ -1172,6 +1216,8 @@ def rewrite_with_llm(candidate: dict) -> str:
         try:
             text = (gen_gemini(model, system, user_msg)
                     if kind == "gemini"
+                    else gen_nvidia(model, system, user_msg)
+                    if kind == "nvidia"
                     else gen_openrouter(model, system, user_msg))
             text = sanitize(text)  # strip markdown BEFORE QC so ** never passes
         except Exception as ex:

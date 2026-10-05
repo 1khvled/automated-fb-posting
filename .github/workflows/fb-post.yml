@@ -51,6 +51,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           DRY_RUN: ${{ inputs.dry_run || '0' }}
           FORCE_POST: ${{ inputs.force || '0' }}
           POST_STORIES: "1"
