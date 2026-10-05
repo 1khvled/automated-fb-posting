@@ -925,23 +925,19 @@ def gen_gemini(model: str, system: str, user: str) -> str:
 def gen_openrouter(model: str, system: str, user: str) -> str:
     import json as _json
     key = os.getenv("OPENROUTER_API_KEY", "").strip()
-    for _attempt in (1, 2):
-        r = requests.post(
-            "https://openrouter.ai/api/v1/chat/completions",
-            headers={"Authorization": f"Bearer {key}",
-                     "HTTP-Referer": "https://github.com/ethan-cole-fb-bot",
-                     "X-Title": "ethan-cole-fb-bot",
-                     "Content-Type": "application/json"},
-            json={"model": model, "max_tokens": 500, "temperature": 0.5,
-                  "reasoning": {"exclude": True},
-                  "messages": [{"role": "system", "content": system},
-                               {"role": "user", "content": user}]},
-            timeout=90)
-        d = r.json()
-        if r.status_code != 429:
-            break
-        log("OpenRouter 429 rate-limited, waiting 45s and retrying once…")
-        time.sleep(45)
+    # Fail fast to the next model in the list: no sleeping inside a call.
+    r = requests.post(
+        "https://openrouter.ai/api/v1/chat/completions",
+        headers={"Authorization": f"Bearer {key}",
+                 "HTTP-Referer": "https://github.com/ethan-cole-fb-bot",
+                 "X-Title": "ethan-cole-fb-bot",
+                 "Content-Type": "application/json"},
+        json={"model": model, "max_tokens": 500, "temperature": 0.5,
+              "reasoning": {"exclude": True},
+              "messages": [{"role": "system", "content": system},
+                           {"role": "user", "content": user}]},
+        timeout=90)
+    d = r.json()
     if r.status_code != 200:
         raise RuntimeError(f"OpenRouter {model} HTTP {r.status_code}: "
                            f"{_json.dumps(d)[:200]}")
@@ -1140,6 +1136,25 @@ VIRAL MODE (this story already has traction — squeeze it):
   bait violates monetization policy and can kill page eligibility."""
 
 
+# Free-tier model slugs ROTATE without warning (Oct 2026: OpenRouter pulled
+# qwen3.8-27b:free mid-day). The backup chain tries a LIST, not one slug.
+# Pinnable via OPENROUTER_MODELS (comma-separated); default tracks live.
+OPENROUTER_MODELS_DEFAULT = ("google/gemma-4-31b-it:free,"
+                             "google/gemma-4-26b-a4b-it:free,"
+                             "nvidia/nemotron-3-super-120b-a12b:free")
+
+
+def _openrouter_models() -> list:
+    multi = os.getenv("OPENROUTER_MODELS", "").strip()
+    if multi:
+        return [m.strip() for m in multi.split(",") if m.strip()]
+    one = os.getenv("OPENROUTER_MODEL", "").strip()
+    if one:
+        return [one]
+    return [m.strip() for m in OPENROUTER_MODELS_DEFAULT.split(",")
+            if m.strip()]
+
+
 def rewrite_with_llm(candidate: dict) -> str:
     user_msg = USER_TEMPLATE.format(**candidate)
     system = (SYSTEM_PROMPT_VIRAL if candidate.get("mode") == "viral"
@@ -1149,9 +1164,7 @@ def rewrite_with_llm(candidate: dict) -> str:
         chain.append(("gemini",
                       os.getenv("GEMINI_MODEL", "gemini-2.5-flash")))
     if os.getenv("OPENROUTER_API_KEY", "").strip():
-        chain.append(("openrouter",
-                      os.getenv("OPENROUTER_MODEL",
-                                "qwen/qwen3.8-27b:free")))
+        chain += [("openrouter", m) for m in _openrouter_models()]
     if not chain:
         raise RuntimeError("No LLM key set (GEMINI_API_KEY or OPENROUTER_API_KEY)")
     errors = []
