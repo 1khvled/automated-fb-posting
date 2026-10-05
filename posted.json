@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "99c9f9218a07a71a",
-    "fb_id": "1264009986803820_122120142363472689",
-    "title": "BREAKING: President Trump says gasoline prices are no longer being driven higher by disruptions in the Strait of Hormuz, but rather by Russian refineries being blown up by Ukraine.",
-    "link": "https://x.com/KobeissiLetter/status/2107147524033090025",
-    "mode": "viral",
-    "at": "2026-10-05T17:21:29.885937+00:00"
+    "hash": "7dd4c394ede9d017",
+    "fb_id": "1264009986803820_122120158971472689",
+    "title": "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
+    "link": "https://x.com/Cointelegraph/status/2107166645500129586",
+    "mode": "serious",
+    "at": "2026-10-05T17:52:21.259309+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -41,6 +41,7 @@
     "6dfde226099b02e8",
     "73449aac208c1916",
     "77abba66d602fa6d",
+    "7dd4c394ede9d017",
     "7e0de86880325769",
     "7edfc3f168220e43",
     "7f0d3da8ca7d890e",
@@ -75,10 +76,9 @@
   "day_counts": {
     "2026-10-03": 4,
     "2026-10-04": 5,
-    "2026-10-05": 13
+    "2026-10-05": 14
   },
   "recent_titles": [
-    "Germany's Chancellor Merz: The Russian economy cannot wage this war indefinitely. We know that the Russian economy has already reached its pain threshold: 7% inflation, a 14% central-bank rate, fal...",
     "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
     "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
     "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo...",
@@ -92,19 +92,10 @@
     "BREAKING: Market expectations of a Democrat \"sweep\" in the 2026 Midterm elections rise to a record 67%. Last year at this time, the market saw just a 24% chance of a Democrat \"sweep.\" Election Day ...",
     "\"Trump just soft-launched higher inflation as the new solution for rebalancing the $40 trillion U.S. national debt,\" per FORTUNE",
     "Trump: Refinery Disruptions, Not Strait of Hormuz, Are Driving Gasoline Prices Higher - Truth Social",
-    "BREAKING: President Trump says gasoline prices are no longer being driven higher by disruptions in the Strait of Hormuz, but rather by Russian refineries being blown up by Ukraine."
+    "BREAKING: President Trump says gasoline prices are no longer being driven higher by disruptions in the Strait of Hormuz, but rather by Russian refineries being blown up by Ukraine.",
+    "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122115644895472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "face",
-      "at": "2026-09-27T13:44:15.733537+00:00"
-    },
     {
       "fb_id": "1264009986803820_122115646527472689",
       "topics": [
@@ -571,6 +562,17 @@
       "mode": "viral",
       "photo": "face",
       "at": "2026-10-05T17:21:29.885937+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120158971472689",
+      "topics": [
+        "crypto",
+        "fed",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "split:face+inst",
+      "at": "2026-10-05T17:52:21.259309+00:00"
     }
   ],
   "tuner": {
