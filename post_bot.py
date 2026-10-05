@@ -2765,12 +2765,42 @@ def publish_video_to_facebook(video_bytes: bytes, description: str) -> str:
     return resp.get("post_id") or resp.get("id", "")
 
 
+UPLOAD_W, UPLOAD_H = 1200, 630
+
+
+def _normalize_upload(data: bytes, ext: str = "jpeg"):
+    """Force any outgoing photo to exactly UPLOAD_W x UPLOAD_H.
+
+    Without this the page mixes shapes: 1200x630 cards, 848x1100 portrait
+    faces, 3840x1646 hires shots. Facebook crops each one to its own
+    containers, so a portrait next to a 1.91:1 card (or an ultra-wide frame)
+    renders as if it had been squeezed. One canvas, no surprises.
+
+    _cover only scales proportionally and crops the overflow, so this can
+    never stretch a face. Portrait sources are cropped top-biased to keep the
+    head in frame. Returns (jpeg_bytes, 'jpeg').
+    """
+    from PIL import Image
+    try:
+        im = Image.open(io.BytesIO(data)).convert("RGB")
+    except Exception:
+        return data, ext
+    top_bias = im.size[1] > im.size[0]
+    out = (_cover(im, UPLOAD_W, UPLOAD_H, top_bias=top_bias)
+           if im.size != (UPLOAD_W, UPLOAD_H) else im)
+    buf = io.BytesIO()
+    out.save(buf, "JPEG", quality=95, optimize=True, progressive=True)
+    return buf.getvalue(), "jpeg"
+
+
 def publish_photo_to_facebook(image_bytes: bytes, ext: str,
                                 caption: str) -> str:
     page_id = os.getenv("FB_PAGE_ID", "").strip()
     token = os.getenv("FB_PAGE_ACCESS_TOKEN", "").strip()
     if not page_id or not token:
         raise RuntimeError("FB_PAGE_ID / FB_PAGE_ACCESS_TOKEN not set")
+    # single choke point: nothing reaches Facebook off-canvas
+    image_bytes, ext = _normalize_upload(image_bytes, ext)
     url = f"https://graph.facebook.com/{FB_API_VERSION}/{page_id}/photos"
     files = {"source": (f"photo.{ext}", image_bytes, f"image/{ext}")}
     data = {"caption": caption, "access_token": token}
@@ -3025,7 +3055,7 @@ def floor_plan(posts_today: int, hour: int):
     publish bar toward FLOOR_MIN_SCORE (default 2); after
     FLOOR_DEADLINE_HOUR UTC (default 21) with the floor unmet, catchup
     mode shrinks the cooldown so the day still hits its minimum."""
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "10"))
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "14"))
     if posts_today >= floor:
         return 0, False
     expected = (hour * floor) // 24
@@ -3094,9 +3124,9 @@ def main() -> int:
     today = now.date().isoformat()
     day_counts = state.get("day_counts", {})
     posts_today = day_counts.get(today, 0)
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "10"))
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "14"))
     discount, catchup = floor_plan(posts_today, now.hour)
-    eff_gap = 20 if catchup else int(os.getenv("MIN_POST_GAP_MINUTES", "30"))
+    eff_gap = 20 if catchup else int(os.getenv("MIN_POST_GAP_MINUTES", "20"))
     eff_bar = max(int(os.getenv("FLOOR_MIN_SCORE", "2")),
                   int(os.getenv("MIN_PUBLISH_SCORE", "6")) - discount)
     log(f"floor: {posts_today}/{floor} posts today, bar={eff_bar}, "

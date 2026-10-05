@@ -1,8 +1,11 @@
-name: FB auto-post (every 20 min)
+name: FB auto-post (every 10 min)
 
 on:
   schedule:
-    - cron: "*/20 * * * *"   # every 20 minutes
+    # Poll every 10 min. Previously 20 min while the cooldown was 30, so the
+    # t+20 run was ALWAYS skipped and posts landed every ~40 min. For a news
+    # page that staleness is the whole game: a 40-min-old story is dead.
+    - cron: "*/10 * * * *"
   workflow_dispatch:          # manual "Run workflow" button
     inputs:
       dry_run:
@@ -10,7 +13,7 @@ on:
         required: false
         default: "0"
       force:
-        description: "FORCE_POST=1: skip the 90-min cooldown (manual test posts)"
+        description: "FORCE_POST=1: skip the post gap (manual test posts)"
         required: false
         default: "0"
 
@@ -55,6 +58,11 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GROUP_SHARE_TARGETS: ${{ secrets.GROUP_SHARE_TARGETS }}
           MAX_AGE_MINUTES: "1440"
+          # Volume + freshness. gap must be <= cron or runs get wasted:
+          # 10-min polling with a 20-min gap posts within ~20 min of a story
+          # qualifying, versus ~40 min at the old 20/30 pairing.
+          MIN_POST_GAP_MINUTES: "20"
+          MIN_POSTS_PER_DAY: "14"
           MIN_VIDEO_SCORE: "4"
           VIDEO_DEADLINE_HOUR: "20"
           VIDEO_DEADLINE_SCORE: "1"
