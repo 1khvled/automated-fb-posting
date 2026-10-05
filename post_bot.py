@@ -351,6 +351,12 @@ X_HANDLES = [
     # Bank analyst actions (price targets, upgrades — Stockstoearn style)
     "StockMKTNewz",     # analyst PT changes all day
     "unusual_whales",   # flow + analyst ratings, noisy -> strict gate
+    # Faster crypto breaking than WatcherGuru (all verified live Oct 2026:
+    # real handles, follower counts + bios checked via FxEmbed author block)
+    "Cointelegraph",    # 2.9M — fastest detailed crypto breaking
+    "BitcoinMagazine",  # 4.5M — trusted BTC voice
+    "DegenerateNews",   # 426K — raw degen wire, strict min_score gate
+    "Newsquawk",        # 138K — pro squawk desk
 ]
 
 # Per-account rules: high-volume or off-format accounts get their own gate.
@@ -379,111 +385,120 @@ X_SOURCE_RULES = {
     "jimcramer": {"min_score": 6},   # showy daily takes, strict gate
     "saylor": {"min_score": 5},      # daily perma-bull drumbeat, firm gate
     "unusual_whales": {"min_score": 6},  # options-flow firehose, strict gate
+    "DegenerateNews": {"min_score": 6},  # fast but meme-y by its own bio
 }
 
 
 def fetch_x_candidates(max_age_minutes: int):
     out = []
     for handle in X_HANDLES:
-        try:
-            r = requests.get(
-                f"https://api.fxtwitter.com/2/profile/{handle}/statuses",
-                params={"limit": 20}, timeout=15,
-                headers={"User-Agent": "ethan-cole-fb-bot/1.0"})
-            d = r.json()
-            if d.get("code") != 200:
-                log(f"X @{handle}: API code {d.get('code')}")
+        # FxEmbed flaps per-handle (working handles 404 for stretches, then
+        # recover) — one retry after 5s saves most of those runs.
+        d = None
+        for _x_try in (1, 2):
+            try:
+                r = requests.get(
+                    f"https://api.fxtwitter.com/2/profile/{handle}/statuses",
+                    params={"limit": 20}, timeout=15,
+                    headers={"User-Agent": "ethan-cole-fb-bot/1.0"})
+                d = r.json()
+            except Exception as ex:
+                d = {"code": f"fetch-error {type(ex).__name__}"}
+            if (d or {}).get("code") == 200:
+                break
+            if _x_try == 1:
+                time.sleep(5)
+        if (d or {}).get("code") != 200:
+            log(f"X @{handle}: API code {(d or {}).get('code')} (after retry)")
+            continue
+        for p in (d.get("results") or [])[:20]:
+            text = re.sub(r"https?://\S+", "", p.get("text") or "").strip()
+            text = re.sub(r"\s+", " ", text)
+            if not text or text.startswith("RT @"):
                 continue
-            for p in (d.get("results") or [])[:20]:
-                text = re.sub(r"https?://\S+", "", p.get("text") or "").strip()
-                text = re.sub(r"\s+", " ", text)
-                if not text or text.startswith("RT @"):
-                    continue
-                if p.get("replying_to"):  # context-less replies
-                    continue
-                ts = p.get("created_timestamp")
-                try:
-                    age = (time.time() - int(ts)) / 60 if ts else None
-                except Exception:
-                    age = None
-                if age is None or age > max_age_minutes:
-                    continue
-                link = (p.get("url")
-                        or f"https://x.com/{handle}/status/{p.get('id')}")
+            if p.get("replying_to"):  # context-less replies
+                continue
+            ts = p.get("created_timestamp")
+            try:
+                age = (time.time() - int(ts)) / 60 if ts else None
+            except Exception:
+                age = None
+            if age is None or age > max_age_minutes:
+                continue
+            link = (p.get("url")
+                    or f"https://x.com/{handle}/status/{p.get('id')}")
+            photo_url = None
+            video_url = None
+            try:
+                def _pick(items):
+                    best, best_a, first = None, -1, None
+                    for m in items or []:
+                        u = m.get("url") or m.get("src")
+                        if not u:
+                            continue
+                        if first is None:
+                            first = u
+                        try:
+                            a = int(m.get("width") or 0) * int(m.get("height") or 0)
+                        except Exception:
+                            a = 0
+                        if a > best_a:
+                            best, best_a = u, a
+                    return best or first
+                media = p.get("media") or {}
+                # Main post media ONLY: quote-tweet and reply media
+                # caused wrong-image posts (e.g. pricing screenshots).
+                # A post quoting anything keeps its TEXT but never its
+                # attachments: the API mixes quoted media in, so quoted
+                # posts resolve to subject visuals (logo/face) instead.
+                quoted = p.get("quote") or {}
+                if quoted.get("id") or quoted.get("text"):
+                    photos, videos = [], []
+                else:
+                    photos = list(media.get("photos") or [])
+                    videos = list(media.get("videos") or [])
+                photo_url = _pick(photos)
+                video_url = _pick(videos)
+            except Exception:
                 photo_url = None
-                video_url = None
-                try:
-                    def _pick(items):
-                        best, best_a, first = None, -1, None
-                        for m in items or []:
-                            u = m.get("url") or m.get("src")
-                            if not u:
-                                continue
-                            if first is None:
-                                first = u
-                            try:
-                                a = int(m.get("width") or 0) * int(m.get("height") or 0)
-                            except Exception:
-                                a = 0
-                            if a > best_a:
-                                best, best_a = u, a
-                        return best or first
-                    media = p.get("media") or {}
-                    # Main post media ONLY: quote-tweet and reply media
-                    # caused wrong-image posts (e.g. pricing screenshots).
-                    # A post quoting anything keeps its TEXT but never its
-                    # attachments: the API mixes quoted media in, so quoted
-                    # posts resolve to subject visuals (logo/face) instead.
-                    quoted = p.get("quote") or {}
-                    if quoted.get("id") or quoted.get("text"):
-                        photos, videos = [], []
-                    else:
-                        photos = list(media.get("photos") or [])
-                        videos = list(media.get("videos") or [])
-                    photo_url = _pick(photos)
-                    video_url = _pick(videos)
-                except Exception:
-                    photo_url = None
-                title = text if len(text) <= 200 else text[:197] + "..."
-                s, hits = score_entry(title, text)
-                vb = viral_bonus(text, likes=p.get("likes", 0) or 0,
-                                 reposts=p.get("reposts", 0) or 0,
-                                 replies=p.get("replies", 0) or 0)
-                s += vb
-                tb = feed_trust_bonus(f"X @{handle}")
-                if tb:
-                    s += tb
-                    hits.append("+trusted")
-                mode = "viral" if vb >= 3 else "serious"
-                rule = X_SOURCE_RULES.get(handle, {})
-                if rule.get("video_only"):
-                    media = p.get("media") or {}
-                    if not media.get("videos"):
-                        continue
-                    tw = rule.get("test_words", [])
-                    if tw and not any(w in text.lower() for w in tw):
-                        continue
-                if rule.get("geo_only"):
-                    if not any(k in text.lower() for k in GEO_MARKET_MOVERS):
-                        continue
-                s += rule.get("boost", 0)
-                s = decay(s, age, mode)
-                if s < rule.get("min_score", 1):
+            title = text if len(text) <= 200 else text[:197] + "..."
+            s, hits = score_entry(title, text)
+            vb = viral_bonus(text, likes=p.get("likes", 0) or 0,
+                             reposts=p.get("reposts", 0) or 0,
+                             replies=p.get("replies", 0) or 0)
+            s += vb
+            tb = feed_trust_bonus(f"X @{handle}")
+            if tb:
+                s += tb
+                hits.append("+trusted")
+            mode = "viral" if vb >= 3 else "serious"
+            rule = X_SOURCE_RULES.get(handle, {})
+            if rule.get("video_only"):
+                media = p.get("media") or {}
+                if not media.get("videos"):
                     continue
-                out.append({
-                    "feed": f"X @{handle}",
-                    "photo_url": photo_url, "video_url": video_url,
-                    "mode": mode, "viral": vb,
-                    "title": title,
-                    "summary": text[:400],
-                    "link": link,
-                    "age_min": round(age) if age is not None else None,
-                    "score": s,
-                    "keywords": hits[:5],
-                    "verified": True,  # exists by definition of API return
-                })
-        except Exception as ex:
-            log(f"X @{handle} error: {ex}")
+                tw = rule.get("test_words", [])
+                if tw and not any(w in text.lower() for w in tw):
+                    continue
+            if rule.get("geo_only"):
+                if not any(k in text.lower() for k in GEO_MARKET_MOVERS):
+                    continue
+            s += rule.get("boost", 0)
+            s = decay(s, age, mode)
+            if s < rule.get("min_score", 1):
+                continue
+            out.append({
+                "feed": f"X @{handle}",
+                "photo_url": photo_url, "video_url": video_url,
+                "mode": mode, "viral": vb,
+                "title": title,
+                "summary": text[:400],
+                "link": link,
+                "age_min": round(age) if age is not None else None,
+                "score": s,
+                "keywords": hits[:5],
+                "verified": True,  # exists by definition of API return
+            })
     out.sort(key=lambda c: c["score"], reverse=True)
     return out
 
