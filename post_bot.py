@@ -853,6 +853,8 @@ House style mined from the page's own 80 posts (top performers weighted):
 - IDENTIFICATION: first mention of any company is its full name + ($TICKER) when listed — 'Strategy ($MSTR)', 'Coinbase ($COIN)', 'Strive, Inc.'. A bare single-word name ('Strive', 'Metaplanet') with no identifier leaves readers lost; never ship that. Never hedge a real company name in scare quotes ('Strategy').
 - NEVER write any source/credit/attribution line: no 'Source:', no outlet names,
   no camera/link emoji lines. Posts go out with zero attribution.
+- The Source field is not a person: never quote it or make it act
+  ('DeItaone says', 'CoinDesk reports'). Report the news, not its carrier.
 - 'BREAKING'/'JUST IN' only for genuinely fresh news; 'reportedly' if unconfirmed.
 - CURRENT FACTS (override your training data): Donald Trump IS the sitting U.S. President — NEVER write 'former President Trump'. Kevin Warsh IS Fed Chair (not Powell). John Ternus IS Apple CEO; Tim Cook is Executive Chairman. Never contradict these.
 - Leaks/rumors about unreleased models: always frame as RUMOR or 'reportedly' — NEVER present a leak as a confirmed launch.
@@ -1149,7 +1151,7 @@ NVIDIA_MODELS_DEFAULT = ("openai/gpt-oss-20b,"
 def gen_nvidia(model: str, system: str, user: str) -> str:
     """NVIDIA Build API (OpenAI-compatible). Verified live Oct 2026:
     super-120b writes clean copy but thinks ~6k tokens first, so it gets
-    max_tokens 4096 and a long timeout. Content only — empty content is a
+    max_tokens 8000 and a long timeout. Content only — empty content is a
     failure, never a post."""
     import json as _json
     key = os.getenv("NVIDIA_API_KEY", "").strip()
@@ -1260,6 +1262,8 @@ def quality_check(post: str, source_title: str) -> list[str]:
         problems.append(f"too many hashtags ({len(tags)})")
     if "http" in post:
         problems.append("contains URL (not allowed unless requested)")
+    if "@" in post:
+        problems.append("contains @handle (sources are never actors)")
     if re.search(r"(?i)\bwww\.|\.(com|org|net|io)\b", post):
         problems.append("contains bare domain (no URLs of any form)")
     if "*" in post or "`" in post:
