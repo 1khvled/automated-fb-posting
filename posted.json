@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "1d0fcda880497169",
-    "fb_id": "1264009986803820_122120054031472689",
-    "title": "Strive acquired 2,000 $BTC for $169M at an average cost of $84,422 per bitcoin, bringing total holdings to \u20bf29,462. 61.5% of capital raised came from SATA, with warrants generating $56.7M. Today\u2019s ...",
-    "link": "https://x.com/ColeMacro/status/2107078979383664974",
-    "mode": "viral",
-    "at": "2026-10-05T13:24:50.085105+00:00"
+    "hash": "d425f4f753b3e194",
+    "fb_id": "1264009986803820_122120064969472689",
+    "title": "TREASURY WITHDRAWS TWO CONTROVERSIAL CRYPTO SURVEILLANCE PROPOSALS The U.S. Treasury has withdrawn two long-pending FinCEN proposals targeting unhosted crypto wallets and cryptocurrency mixing. The...",
+    "link": "https://x.com/DeItaone/status/2107099988979286336",
+    "mode": "serious",
+    "at": "2026-10-05T13:51:24.786132+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -58,6 +58,7 @@
     "bbec67196eba705d",
     "beda8733ff194127",
     "d248d07438581e6c",
+    "d425f4f753b3e194",
     "d551335658005d85",
     "d861583e99fec9ab",
     "e9339d6ea619a42d",
@@ -67,10 +68,9 @@
   "day_counts": {
     "2026-10-03": 4,
     "2026-10-04": 5,
-    "2026-10-05": 5
+    "2026-10-05": 6
   },
   "recent_titles": [
-    "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
     "BREAKING: President Trump says higher US inflation will \"pay off\" US debt \"very rapidly\" in response to total US debt rising above $40 trillion. \"I know I'm the best in the world... you can pay off...",
     "Hegseth on Iran: More oil is going through the Strait of Hormuz today than before the conflict even started, because incredible pilots control the airspace.",
     "Iraq: shipped 2 million barrels of crude on VLCC past Strait of Hormuz - statement",
@@ -84,17 +84,10 @@
     "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo...",
     "$SPCX - MORGAN STANLEY: SPACEX \u201cCHEAP AND GETTING CHEAPER\u201d Morgan Stanley reiterates Overweight on SpaceX with a $300 price target, arguing the stock looks cheap once its growth profile is consider...",
     "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million.",
-    "Strive acquired 2,000 $BTC for $169M at an average cost of $84,422 per bitcoin, bringing total holdings to \u20bf29,462. 61.5% of capital raised came from SATA, with warrants generating $56.7M. Today\u2019s ..."
+    "Strive acquired 2,000 $BTC for $169M at an average cost of $84,422 per bitcoin, bringing total holdings to \u20bf29,462. 61.5% of capital raised came from SATA, with warrants generating $56.7M. Today\u2019s ...",
+    "TREASURY WITHDRAWS TWO CONTROVERSIAL CRYPTO SURVEILLANCE PROPOSALS The U.S. Treasury has withdrawn two long-pending FinCEN proposals targeting unhosted crypto wallets and cryptocurrency mixing. The..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122114712303472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "at": "2026-09-26T04:22:33.661672+00:00"
-    },
     {
       "fb_id": "1264009986803820_122114849283472689",
       "topics": [
@@ -558,6 +551,16 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-05T12:51:29.642612+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120064969472689",
+      "topics": [
+        "crypto",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-05T13:51:24.786132+00:00"
     }
   ],
   "tuner": {
