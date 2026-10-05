@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "7dd4c394ede9d017",
-    "fb_id": "1264009986803820_122120158971472689",
-    "title": "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
-    "link": "https://x.com/Cointelegraph/status/2107166645500129586",
+    "hash": "749f44d93c1f420c",
+    "fb_id": "1264009986803820_122120169585472689",
+    "title": "Fairshake crypto PAC network backs 32 House candidates in midterms",
+    "link": "https://www.cnbc.com/2026/10/05/fairshake-crypto-super-pac-house-races.html",
     "mode": "serious",
-    "at": "2026-10-05T17:52:21.259309+00:00"
+    "at": "2026-10-05T18:21:24.632187+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -40,6 +40,7 @@
     "699c6c3d56200756",
     "6dfde226099b02e8",
     "73449aac208c1916",
+    "749f44d93c1f420c",
     "77abba66d602fa6d",
     "7dd4c394ede9d017",
     "7e0de86880325769",
@@ -76,10 +77,9 @@
   "day_counts": {
     "2026-10-03": 4,
     "2026-10-04": 5,
-    "2026-10-05": 14
+    "2026-10-05": 15
   },
   "recent_titles": [
-    "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
     "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
     "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo...",
     "$SPCX - MORGAN STANLEY: SPACEX \u201cCHEAP AND GETTING CHEAPER\u201d Morgan Stanley reiterates Overweight on SpaceX with a $300 price target, arguing the stock looks cheap once its growth profile is consider...",
@@ -93,19 +93,10 @@
     "\"Trump just soft-launched higher inflation as the new solution for rebalancing the $40 trillion U.S. national debt,\" per FORTUNE",
     "Trump: Refinery Disruptions, Not Strait of Hormuz, Are Driving Gasoline Prices Higher - Truth Social",
     "BREAKING: President Trump says gasoline prices are no longer being driven higher by disruptions in the Strait of Hormuz, but rather by Russian refineries being blown up by Ukraine.",
-    "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%."
+    "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
+    "Fairshake crypto PAC network backs 32 House candidates in midterms"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122115646527472689",
-      "topics": [
-        "ai",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-09-27T13:46:41.389938+00:00"
-    },
     {
       "fb_id": "1264009986803820_122115753237472689",
       "topics": [
@@ -573,6 +564,16 @@
       "mode": "serious",
       "photo": "split:face+inst",
       "at": "2026-10-05T17:52:21.259309+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120169585472689",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "inst:capitol",
+      "at": "2026-10-05T18:21:24.632187+00:00"
     }
   ],
   "tuner": {
