@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "ba533a34928a8dc1",
-    "fb_id": "1264009986803820_122120396757472689",
-    "title": "ECB\u2019s Lane: There are problems if inflation runs too low compared to our 2% target",
-    "link": "https://www.financialjuice.com/News/9793122/ECBs-Lane-There-are-problems-if-inflation-runs-too-low-compared-to-our-2-target.aspx?xy=rss",
-    "mode": "serious",
-    "at": "2026-10-06T07:14:21.429755+00:00"
+    "hash": "1962708cba969b70",
+    "fb_id": "1264009986803820_122120426589472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming.",
+    "link": "https://x.com/WatcherGuru/status/2107173875029090689",
+    "mode": "viral",
+    "at": "2026-10-06T07:42:00.107501+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -14,6 +14,7 @@
     "100a2e3d51fa9091",
     "11e9a2979f0b49a2",
     "163b472205423d09",
+    "1962708cba969b70",
     "1d0fcda880497169",
     "1ee80daa10c57716",
     "23b87ba2a601b4f6",
@@ -90,10 +91,9 @@
   "day_counts": {
     "2026-10-04": 5,
     "2026-10-05": 15,
-    "2026-10-06": 13
+    "2026-10-06": 14
   },
   "recent_titles": [
-    "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
     "Fairshake crypto PAC network backs 32 House candidates in midterms",
     "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
     "Breaking: Michael Burry says Nvidia is lying to you Here's what he found: 1. Nvidia claims its old chips hold their value but the numbers aren't resale prices, they're a rental estimate from a data...",
@@ -107,19 +107,10 @@
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC and SOL spot ETFs saw net outflows, while ETH saw net inflows. XRP recorded zero net flow on October 5th. BTC: -$89.90M ETH: +$110.84M SOL: -$9.25M XRP: $0",
     "\ud83e\udd2f\u4e00\u6bd4\u5413\u4e00\u8df3\uff01\u540c\u6837 $200\uff01ChatGPT Pro vs Claude Max \u6536\u636e\u8fd8\u5728\u6253\uff1aSonnet $12,529\uff5cOpus $11,726 \u5df2\u7ecf\u76d6\u7ae0\uff1aGPT-6.1 Sol \u53ea\u6709 $2,084 Claude Max \u989d\u5ea6\u4ef7\u503c\u7ea6 6 \u500d\uff0cFable \u8fd8\u53ea\u7528\u4e86\u4e00\u534a\u8ba1\u5212\u3002 #ClaudeMax #ChatGPTPro #AI\u8ba2\u9605 #SemiAnalysis #Sonnet55 #Opus...",
     "Ukrainian drones hit the Volodarskaya oil depot in Moscow Oblast, reportedly setting at least two fuel tanks on fire. The facility is the largest oil depot in Moscow Oblast by storage capacity and ...",
-    "ECB\u2019s Lane: There are problems if inflation runs too low compared to our 2% target"
+    "ECB\u2019s Lane: There are problems if inflation runs too low compared to our 2% target",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122117331273472689",
-      "topics": [
-        "crypto",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-09-30T06:29:07.851258+00:00"
-    },
     {
       "fb_id": "1264009986803820_122117506233472689",
       "topics": [
@@ -580,6 +571,16 @@
       "mode": "serious",
       "photo": "inst:ecb",
       "at": "2026-10-06T07:14:21.429755+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120426589472689",
+      "topics": [
+        "ai",
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-06T07:42:00.107501+00:00"
     }
   ],
   "tuner": {
@@ -601,23 +602,6 @@
   },
   "last_video_post": "2026-10-06",
   "recent_fps": [
-    {
-      "fp": [
-        "3x",
-        "BZX",
-        "ETF",
-        "IN",
-        "JUST",
-        "SEC",
-        "bitcoin",
-        "cboe",
-        "ether",
-        "ethereum",
-        "shares",
-        "volatility"
-      ],
-      "at": null
-    },
     {
       "fp": [
         "day",
@@ -830,6 +814,16 @@
         "there"
       ],
       "at": "2026-10-06T07:14:21.429745+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "gemini",
+        "tyler",
+        "winklevoss"
+      ],
+      "at": "2026-10-06T07:42:00.107491+00:00"
     }
   ],
   "recent_hooks": [
@@ -844,6 +838,7 @@
     "JUST IN: \ud83c\uddee\ud83c\uddf3 India HSBC & S&P Global Services PMI falls to 55.2 from flash 55.8. \ud83d\udcc9 Final reading still shows robust growth but a slight dip signals slowing momentum. Market odds: investors eye easing demand. Why it matters: PMI dip may tighten credit and hurt earnings. #ethancole #finance #marketnews #economy #investing",
     "JUST IN: \ud83d\udcc9 CRYPTO ETF outflows hit BTC, SOL. ETH sees INFLOWS.",
     "JUST IN: \ud83d\udea9 ChatGPT Pro & Claude Max battle: Sonnet $12,529, Opus $11,726 vs GPT\u20116.1 Sol $2,084. Claude Max value ~6\u00d7 GPT\u20116.1 Sol, yet Fable only half\u2011plan. Odds of switching are high. WHY IT MATTERS: $200 BUDGET can stretch 6\u00d7 with Claude Max. #ethancole #ai #openai #anthropic #technews",
-    "JUST IN: \ud83d\udea8 ECB's Lane flags problems if INFLATION runs too low."
+    "JUST IN: \ud83d\udea8 ECB's Lane flags problems if INFLATION runs too low.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Tyler Winklevoss says CLEAR RULES for crypto are COMING."
   ]
 }
