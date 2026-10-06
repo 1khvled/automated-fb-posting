@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "b36ff231b46d1643",
-    "fb_id": "1264009986803820_122120339037472689",
-    "title": "JPMORGAN RAISES BLACKROCK PRICE TARGET TO $1,435 VS $1,364 PREVIOUSLY",
-    "link": "https://x.com/FirstSquawk/status/2107303907609453007",
+    "hash": "de5489e354d6c29c",
+    "fb_id": "1264009986803820_122120347149472689",
+    "title": "\ud83d\udd25\u53d8\u5766\u8bda\u4e86\uff01Gemini 4 Argon \u5728\u201c\u4e0d\u77e5\u9053\u5c31\u522b\u7f16\u201d\u8fd9\u4ef6\u4e8b\u4e0a\u76f4\u63a5\u4e0eGPT-6 Astra\u62c9\u5f00\u5dee\u8ddd\uff01 AA-Omniscience \u7f16\u9020\u7387\uff08\u8d8a\u4f4e\u8d8a\u597d\uff0c10\u67085\u65e5\u6570\u636e\uff09\uff1a 1\ufe0f\u20e3Gemini 4 Argon\uff1a15.1% 2\ufe0f\u20e3Qwen3.8 Max\uff1a28.8% 3\ufe0f\u20e3Grok 4.7\uff1a29.3% \u4e0b\u4e00\u540d\u51e0\u4e4e\u662fGemini 4 Argon\u7684\u4e24\u500d\u3002 GPT-6 Astra \u51c6\u786e\u7387\u66f4\u9ad8\uff0861%...",
+    "link": "https://x.com/NFT_Chen/status/2107313286232567946",
     "mode": "serious",
-    "at": "2026-10-06T03:13:22.446236+00:00"
+    "at": "2026-10-06T03:48:05.493911+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -74,6 +74,7 @@
     "d425f4f753b3e194",
     "d551335658005d85",
     "d861583e99fec9ab",
+    "de5489e354d6c29c",
     "e8db4b728ba26ead",
     "e9339d6ea619a42d",
     "ef9e9adaee7d4177",
@@ -83,10 +84,9 @@
   "day_counts": {
     "2026-10-04": 5,
     "2026-10-05": 15,
-    "2026-10-06": 6
+    "2026-10-06": 7
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury withdraws proposed crypto surveillance rules targeting unhosted wallets and crypto mixers.",
     "I gave my AI Agent the task of beating the NASDAQ 100 over the long term without taking on a lot more risk than the index This is what my beat the NASDAQ portfolio looks like right now: Nvidia $NVD...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC approves first-ever 3x leveraged Bitcoin and Ethereum ETFs. \u2022 The SEC approved Cboe BZX to list six new Volatility Shares ETFs, including 3x Bitcoin and Ether ETFs, along with 3x go...",
     "BREAKING: Market expectations of a Democrat \"sweep\" in the 2026 Midterm elections rise to a record 67%. Last year at this time, the market saw just a 24% chance of a Democrat \"sweep.\" Election Day ...",
@@ -100,20 +100,10 @@
     "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO",
     "BREAKING: The S&P 500 closes +55 points higher, adding +$500 billion in market cap today. The S&P 500 is now just 0.5% away from a new record high.",
     "Anthropic tells Australian parliament it found no unauthorized interactions with government data",
-    "JPMORGAN RAISES BLACKROCK PRICE TARGET TO $1,435 VS $1,364 PREVIOUSLY"
+    "JPMORGAN RAISES BLACKROCK PRICE TARGET TO $1,435 VS $1,364 PREVIOUSLY",
+    "\ud83d\udd25\u53d8\u5766\u8bda\u4e86\uff01Gemini 4 Argon \u5728\u201c\u4e0d\u77e5\u9053\u5c31\u522b\u7f16\u201d\u8fd9\u4ef6\u4e8b\u4e0a\u76f4\u63a5\u4e0eGPT-6 Astra\u62c9\u5f00\u5dee\u8ddd\uff01 AA-Omniscience \u7f16\u9020\u7387\uff08\u8d8a\u4f4e\u8d8a\u597d\uff0c10\u67085\u65e5\u6570\u636e\uff09\uff1a 1\ufe0f\u20e3Gemini 4 Argon\uff1a15.1% 2\ufe0f\u20e3Qwen3.8 Max\uff1a28.8% 3\ufe0f\u20e3Grok 4.7\uff1a29.3% \u4e0b\u4e00\u540d\u51e0\u4e4e\u662fGemini 4 Argon\u7684\u4e24\u500d\u3002 GPT-6 Astra \u51c6\u786e\u7387\u66f4\u9ad8\uff0861%..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122116423773472689",
-      "topics": [
-        "crypto",
-        "power",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-09-28T19:29:58.549318+00:00"
-    },
     {
       "fb_id": "1264009986803820_122116553247472689",
       "topics": [
@@ -580,6 +570,15 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-06T03:13:22.446236+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120347149472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-06T03:48:05.493911+00:00"
     }
   ],
   "tuner": {
@@ -601,19 +600,6 @@
   },
   "last_video_post": "2026-10-05",
   "recent_fps": [
-    {
-      "fp": [
-        "US",
-        "brazil",
-        "iran",
-        "iraq",
-        "lula",
-        "now",
-        "president",
-        "trump"
-      ],
-      "at": null
-    },
     {
       "fp": [
         "$300",
@@ -818,6 +804,24 @@
         "VS"
       ],
       "at": "2026-10-06T03:13:22.446222+00:00"
+    },
+    {
+      "fp": [
+        "AA",
+        "AI",
+        "GPT",
+        "LLM",
+        "argon",
+        "astra",
+        "gemini",
+        "google",
+        "grok",
+        "hallucination",
+        "max",
+        "omniscience",
+        "sundar"
+      ],
+      "at": "2026-10-06T03:48:05.493896+00:00"
     }
   ],
   "recent_hooks": [
@@ -826,6 +830,7 @@
     "JUST IN: \ud83c\udfc1 Wall Street banks launch record $60\u202fbillion chip deal for Broadcom ($AVGO) and Anthropic. Banks flood the AI hardware market, locking in a $60\u202fB contract.",
     "\ud83d\udea8 BREAKING: S&P 500 ADDS +$500 BILLION IN MARKET CAP.",
     "BREAKING: \ud83c\udde6\ud83c\uddfa Anthropic says it found no unauthorized interactions with Australian government data.",
-    "JUST IN: \ud83d\udea9 BlackRock price target jumps to $1,435 from $1,364 after JPMorgan\u2019s latest call."
+    "JUST IN: \ud83d\udea9 BlackRock price target jumps to $1,435 from $1,364 after JPMorgan\u2019s latest call.",
+    "BREAKING: \ud83c\udde8\ud83c\uddf3 Gemini 4 Argon leads the \u201cdon\u2019t fabricate\u201d race. On Oct\u202f5 AA\u2011Omniscience data: Argon 15.1% hallucination, Qwen3.8\u202fMax 28.8%, Grok\u202f4.7 29.3%. GPT\u20116 Astra hits 61% accuracy but 44.8% fabrication. Honest answers win in production\u2014wrong data can cost more than silence. #ethancole #ai #technews #breakingnews #investing"
   ]
 }
