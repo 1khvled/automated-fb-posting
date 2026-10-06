@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "749f44d93c1f420c",
-    "fb_id": "1264009986803820_122120169585472689",
-    "title": "Fairshake crypto PAC network backs 32 House candidates in midterms",
-    "link": "https://www.cnbc.com/2026/10/05/fairshake-crypto-super-pac-house-races.html",
-    "mode": "serious",
-    "at": "2026-10-05T18:21:24.632187+00:00"
+    "hash": "63036692c3b611ed",
+    "fb_id": "1264009986803820_122120293557472689",
+    "title": "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
+    "link": "https://x.com/gerovich/status/2107046348008874252",
+    "mode": "viral",
+    "at": "2026-10-06T00:13:45.397272+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -35,6 +35,7 @@
     "5f21b28daec622b3",
     "601a84aa97a5995b",
     "626c970a426ee62c",
+    "63036692c3b611ed",
     "64962f2dd92c7de5",
     "66f515d28624ba5d",
     "699c6c3d56200756",
@@ -75,12 +76,11 @@
     "febbc2efe8a87926"
   ],
   "day_counts": {
-    "2026-10-03": 4,
     "2026-10-04": 5,
-    "2026-10-05": 15
+    "2026-10-05": 15,
+    "2026-10-06": 1
   },
   "recent_titles": [
-    "Oil flows in the Strait of Hormuz have sharply rebounded: Persian Gulf crude oil exports surpassed 14 million barrels per day last week for the first time since the Iran War began on February 28th....",
     "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo...",
     "$SPCX - MORGAN STANLEY: SPACEX \u201cCHEAP AND GETTING CHEAPER\u201d Morgan Stanley reiterates Overweight on SpaceX with a $300 price target, arguing the stock looks cheap once its growth profile is consider...",
     "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million.",
@@ -94,20 +94,10 @@
     "Trump: Refinery Disruptions, Not Strait of Hormuz, Are Driving Gasoline Prices Higher - Truth Social",
     "BREAKING: President Trump says gasoline prices are no longer being driven higher by disruptions in the Strait of Hormuz, but rather by Russian refineries being blown up by Ukraine.",
     "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
-    "Fairshake crypto PAC network backs 32 House candidates in midterms"
+    "Fairshake crypto PAC network backs 32 House candidates in midterms",
+    "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122115753237472689",
-      "topics": [
-        "gold_oil",
-        "inflation",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-09-27T18:11:37.778251+00:00"
-    },
     {
       "fb_id": "1264009986803820_122115849303472689",
       "topics": [
@@ -574,6 +564,16 @@
       "mode": "serious",
       "photo": "inst:capitol",
       "at": "2026-10-05T18:21:24.632187+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120293557472689",
+      "topics": [
+        "crypto",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-06T00:13:45.397272+00:00"
     }
   ],
   "tuner": {
@@ -593,5 +593,192 @@
     "sample_questions": [],
     "updated": "2026-10-06"
   },
-  "last_video_post": "2026-10-05"
+  "last_video_post": "2026-10-05",
+  "recent_fps": [
+    {
+      "fp": [
+        "february",
+        "gulf",
+        "hormuz",
+        "iran",
+        "oil",
+        "persian",
+        "strait",
+        "war"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "US",
+        "brazil",
+        "iran",
+        "iraq",
+        "lula",
+        "now",
+        "president",
+        "trump"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "$300",
+        "AND",
+        "CHEAP",
+        "MORGAN",
+        "SPACEX",
+        "SPCX",
+        "morgan",
+        "overweight",
+        "stanley"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "$29",
+        "IN",
+        "JUST",
+        "bitcoin",
+        "michael",
+        "saylor",
+        "strategy"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "$169",
+        "$56.7",
+        "$84,422",
+        "BTC",
+        "SATA",
+        "strive",
+        "today"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "CRYPTO",
+        "TWO",
+        "treasury"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "US",
+        "treasury"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "AI",
+        "NASDAQ",
+        "NVD",
+        "agent",
+        "nvidia",
+        "this"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "3x",
+        "BZX",
+        "ETF",
+        "IN",
+        "JUST",
+        "SEC",
+        "bitcoin",
+        "cboe",
+        "ether",
+        "ethereum",
+        "shares",
+        "volatility"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "day",
+        "democrat",
+        "election",
+        "last",
+        "market",
+        "midterm"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "$40",
+        "trump"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "disruptions",
+        "driving",
+        "gasoline",
+        "higher",
+        "hormuz",
+        "not",
+        "prices",
+        "refinery",
+        "social",
+        "strait",
+        "trump",
+        "truth"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "hormuz",
+        "president",
+        "russian",
+        "strait",
+        "trump",
+        "ukraine"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "LATEST",
+        "bitcoin",
+        "fed",
+        "october",
+        "treasury"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "PAC",
+        "fairshake",
+        "house"
+      ],
+      "at": null
+    },
+    {
+      "fp": [
+        "asia",
+        "bitcoin",
+        "metaplanet",
+        "our"
+      ],
+      "at": "2026-10-06T00:13:45.397256+00:00"
+    }
+  ],
+  "recent_hooks": [
+    "JUST IN: \ud83c\uddef\ud83c\uddf5 METAPLANET ($MPL) announces two major BITCOIN strategy updates."
+  ]
 }
