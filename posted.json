@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "ef9e9adaee7d4177",
-    "fb_id": "1264009986803820_122120327643472689",
-    "title": "Anthropic tells Australian parliament it found no unauthorized interactions with government data",
-    "link": "https://www.financialjuice.com/News/9792708/Anthropic-tells-Australian-parliament-it-found-no-unauthorized-interactions-with-government-data.aspx?xy=rss",
+    "hash": "b36ff231b46d1643",
+    "fb_id": "1264009986803820_122120339037472689",
+    "title": "JPMORGAN RAISES BLACKROCK PRICE TARGET TO $1,435 VS $1,364 PREVIOUSLY",
+    "link": "https://x.com/FirstSquawk/status/2107303907609453007",
     "mode": "serious",
-    "at": "2026-10-06T02:35:08.871477+00:00"
+    "at": "2026-10-06T03:13:22.446236+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -64,6 +64,7 @@
     "ad0a8f54278a0bf0",
     "adefb15cd7173c79",
     "b259bbd0146ca3d9",
+    "b36ff231b46d1643",
     "b4df5090744d57db",
     "ba53dd395241dbaf",
     "baa35c16631d5782",
@@ -82,10 +83,9 @@
   "day_counts": {
     "2026-10-04": 5,
     "2026-10-05": 15,
-    "2026-10-06": 5
+    "2026-10-06": 6
   },
   "recent_titles": [
-    "TREASURY WITHDRAWS TWO CONTROVERSIAL CRYPTO SURVEILLANCE PROPOSALS The U.S. Treasury has withdrawn two long-pending FinCEN proposals targeting unhosted crypto wallets and cryptocurrency mixing. The...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury withdraws proposed crypto surveillance rules targeting unhosted wallets and crypto mixers.",
     "I gave my AI Agent the task of beating the NASDAQ 100 over the long term without taking on a lot more risk than the index This is what my beat the NASDAQ portfolio looks like right now: Nvidia $NVD...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 SEC approves first-ever 3x leveraged Bitcoin and Ethereum ETFs. \u2022 The SEC approved Cboe BZX to list six new Volatility Shares ETFs, including 3x Bitcoin and Ether ETFs, along with 3x go...",
@@ -99,18 +99,10 @@
     "Breaking: Michael Burry says Nvidia is lying to you Here's what he found: 1. Nvidia claims its old chips hold their value but the numbers aren't resale prices, they're a rental estimate from a data...",
     "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO",
     "BREAKING: The S&P 500 closes +55 points higher, adding +$500 billion in market cap today. The S&P 500 is now just 0.5% away from a new record high.",
-    "Anthropic tells Australian parliament it found no unauthorized interactions with government data"
+    "Anthropic tells Australian parliament it found no unauthorized interactions with government data",
+    "JPMORGAN RAISES BLACKROCK PRICE TARGET TO $1,435 VS $1,364 PREVIOUSLY"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122116195509472689",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-09-28T11:48:57.196156+00:00"
-    },
     {
       "fb_id": "1264009986803820_122116423773472689",
       "topics": [
@@ -579,6 +571,15 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-06T02:35:08.871477+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120339037472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-06T03:13:22.446236+00:00"
     }
   ],
   "tuner": {
@@ -600,19 +601,6 @@
   },
   "last_video_post": "2026-10-05",
   "recent_fps": [
-    {
-      "fp": [
-        "february",
-        "gulf",
-        "hormuz",
-        "iran",
-        "oil",
-        "persian",
-        "strait",
-        "war"
-      ],
-      "at": null
-    },
     {
       "fp": [
         "US",
@@ -818,6 +806,18 @@
         "australian"
       ],
       "at": "2026-10-06T02:35:08.871466+00:00"
+    },
+    {
+      "fp": [
+        "$1,364",
+        "$1,435",
+        "PRICE",
+        "RAISE",
+        "TARGET",
+        "TO",
+        "VS"
+      ],
+      "at": "2026-10-06T03:13:22.446222+00:00"
     }
   ],
   "recent_hooks": [
@@ -825,6 +825,7 @@
     "BREAKING: \ud83d\udea8 Michael Burry says Nvidia ($NVDA) is LYING.",
     "JUST IN: \ud83c\udfc1 Wall Street banks launch record $60\u202fbillion chip deal for Broadcom ($AVGO) and Anthropic. Banks flood the AI hardware market, locking in a $60\u202fB contract.",
     "\ud83d\udea8 BREAKING: S&P 500 ADDS +$500 BILLION IN MARKET CAP.",
-    "BREAKING: \ud83c\udde6\ud83c\uddfa Anthropic says it found no unauthorized interactions with Australian government data."
+    "BREAKING: \ud83c\udde6\ud83c\uddfa Anthropic says it found no unauthorized interactions with Australian government data.",
+    "JUST IN: \ud83d\udea9 BlackRock price target jumps to $1,435 from $1,364 after JPMorgan\u2019s latest call."
   ]
 }
