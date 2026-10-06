@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "9d586d423b6a80d7",
-    "fb_id": "1264009986803820_122120318121472689",
-    "title": "BREAKING: The S&P 500 closes +55 points higher, adding +$500 billion in market cap today. The S&P 500 is now just 0.5% away from a new record high.",
-    "link": "https://x.com/KobeissiLetter/status/2107199479350735262",
-    "mode": "viral",
-    "at": "2026-10-06T01:53:10.994662+00:00"
+    "hash": "ef9e9adaee7d4177",
+    "fb_id": "1264009986803820_122120327643472689",
+    "title": "Anthropic tells Australian parliament it found no unauthorized interactions with government data",
+    "link": "https://www.financialjuice.com/News/9792708/Anthropic-tells-Australian-parliament-it-found-no-unauthorized-interactions-with-government-data.aspx?xy=rss",
+    "mode": "serious",
+    "at": "2026-10-06T02:35:08.871477+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -75,16 +75,16 @@
     "d861583e99fec9ab",
     "e8db4b728ba26ead",
     "e9339d6ea619a42d",
+    "ef9e9adaee7d4177",
     "f041ccdd0f70088f",
     "febbc2efe8a87926"
   ],
   "day_counts": {
     "2026-10-04": 5,
     "2026-10-05": 15,
-    "2026-10-06": 4
+    "2026-10-06": 5
   },
   "recent_titles": [
-    "Strive acquired 2,000 $BTC for $169M at an average cost of $84,422 per bitcoin, bringing total holdings to \u20bf29,462. 61.5% of capital raised came from SATA, with warrants generating $56.7M. Today\u2019s ...",
     "TREASURY WITHDRAWS TWO CONTROVERSIAL CRYPTO SURVEILLANCE PROPOSALS The U.S. Treasury has withdrawn two long-pending FinCEN proposals targeting unhosted crypto wallets and cryptocurrency mixing. The...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury withdraws proposed crypto surveillance rules targeting unhosted wallets and crypto mixers.",
     "I gave my AI Agent the task of beating the NASDAQ 100 over the long term without taking on a lot more risk than the index This is what my beat the NASDAQ portfolio looks like right now: Nvidia $NVD...",
@@ -98,17 +98,10 @@
     "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
     "Breaking: Michael Burry says Nvidia is lying to you Here's what he found: 1. Nvidia claims its old chips hold their value but the numbers aren't resale prices, they're a rental estimate from a data...",
     "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO",
-    "BREAKING: The S&P 500 closes +55 points higher, adding +$500 billion in market cap today. The S&P 500 is now just 0.5% away from a new record high."
+    "BREAKING: The S&P 500 closes +55 points higher, adding +$500 billion in market cap today. The S&P 500 is now just 0.5% away from a new record high.",
+    "Anthropic tells Australian parliament it found no unauthorized interactions with government data"
   ],
   "history": [
-    {
-      "fb_id": "29223155963953529",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "at": "2026-09-28T05:12:00.008165+00:00"
-    },
     {
       "fb_id": "1264009986803820_122116195509472689",
       "topics": [
@@ -577,6 +570,15 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-06T01:53:10.994662+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120327643472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-06T02:35:08.871477+00:00"
     }
   ],
   "tuner": {
@@ -809,12 +811,20 @@
         "$500"
       ],
       "at": "2026-10-06T01:53:10.994642+00:00"
+    },
+    {
+      "fp": [
+        "anthropic",
+        "australian"
+      ],
+      "at": "2026-10-06T02:35:08.871466+00:00"
     }
   ],
   "recent_hooks": [
     "JUST IN: \ud83c\uddef\ud83c\uddf5 METAPLANET ($MPL) announces two major BITCOIN strategy updates.",
     "BREAKING: \ud83d\udea8 Michael Burry says Nvidia ($NVDA) is LYING.",
     "JUST IN: \ud83c\udfc1 Wall Street banks launch record $60\u202fbillion chip deal for Broadcom ($AVGO) and Anthropic. Banks flood the AI hardware market, locking in a $60\u202fB contract.",
-    "\ud83d\udea8 BREAKING: S&P 500 ADDS +$500 BILLION IN MARKET CAP."
+    "\ud83d\udea8 BREAKING: S&P 500 ADDS +$500 BILLION IN MARKET CAP.",
+    "BREAKING: \ud83c\udde6\ud83c\uddfa Anthropic says it found no unauthorized interactions with Australian government data."
   ]
 }
