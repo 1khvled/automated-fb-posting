@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "63036692c3b611ed",
-    "fb_id": "1264009986803820_122120293557472689",
-    "title": "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
-    "link": "https://x.com/gerovich/status/2107046348008874252",
+    "hash": "ad0a8f54278a0bf0",
+    "fb_id": "1264009986803820_122120299833472689",
+    "title": "Breaking: Michael Burry says Nvidia is lying to you Here's what he found: 1. Nvidia claims its old chips hold their value but the numbers aren't resale prices, they're a rental estimate from a data...",
+    "link": "https://x.com/burrytracker/status/2107133069089984895",
     "mode": "viral",
-    "at": "2026-10-06T00:13:45.397272+00:00"
+    "at": "2026-10-06T00:43:36.642029+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -59,6 +59,7 @@
     "a2e71eefd32ea0f0",
     "a9eab993ee21cbc4",
     "aa4543247334ecdc",
+    "ad0a8f54278a0bf0",
     "adefb15cd7173c79",
     "b259bbd0146ca3d9",
     "b4df5090744d57db",
@@ -78,10 +79,9 @@
   "day_counts": {
     "2026-10-04": 5,
     "2026-10-05": 15,
-    "2026-10-06": 1
+    "2026-10-06": 2
   },
   "recent_titles": [
-    "\ud83c\udde7\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Brazil President Lula: \u201cThe US lied about Iran's nuclear weapons just like it lied about Iraq. It provoked this war. Now Trump says oil owners must pay him 20% for each ship he claims to unblo...",
     "$SPCX - MORGAN STANLEY: SPACEX \u201cCHEAP AND GETTING CHEAPER\u201d Morgan Stanley reiterates Overweight on SpaceX with a $300 price target, arguing the stock looks cheap once its growth profile is consider...",
     "JUST IN: Michael Saylor's 'Strategy' buys 334.3 Bitcoin worth $29 million.",
     "Strive acquired 2,000 $BTC for $169M at an average cost of $84,422 per bitcoin, bringing total holdings to \u20bf29,462. 61.5% of capital raised came from SATA, with warrants generating $56.7M. Today\u2019s ...",
@@ -95,19 +95,10 @@
     "BREAKING: President Trump says gasoline prices are no longer being driven higher by disruptions in the Strait of Hormuz, but rather by Russian refineries being blown up by Ukraine.",
     "\ud83d\udea8 LATEST: Bitcoin surged 43% in its best Q3 since 2017, but Treasury yields above 5% threaten further gains as October Fed hike odds plunge from over 75% to 24%.",
     "Fairshake crypto PAC network backs 32 House candidates in midterms",
-    "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu..."
+    "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
+    "Breaking: Michael Burry says Nvidia is lying to you Here's what he found: 1. Nvidia claims its old chips hold their value but the numbers aren't resale prices, they're a rental estimate from a data..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122115849303472689",
-      "topics": [
-        "crypto",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "split:flag+face",
-      "at": "2026-09-27T21:27:55.538171+00:00"
-    },
     {
       "fb_id": "1264009986803820_122115901095472689",
       "topics": [
@@ -574,6 +565,15 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-06T00:13:45.397272+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120299833472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-06T00:43:36.642029+00:00"
     }
   ],
   "tuner": {
@@ -776,9 +776,22 @@
         "our"
       ],
       "at": "2026-10-06T00:13:45.397256+00:00"
+    },
+    {
+      "fp": [
+        "45x",
+        "big",
+        "burry",
+        "here",
+        "michael",
+        "nvidia",
+        "tech"
+      ],
+      "at": "2026-10-06T00:43:36.642013+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddef\ud83c\uddf5 METAPLANET ($MPL) announces two major BITCOIN strategy updates."
+    "JUST IN: \ud83c\uddef\ud83c\uddf5 METAPLANET ($MPL) announces two major BITCOIN strategy updates.",
+    "BREAKING: \ud83d\udea8 Michael Burry says Nvidia ($NVDA) is LYING."
   ]
 }
