@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "2bbf1d770e89e3e5",
-    "fb_id": "2228724585188105",
-    "title": "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt.",
-    "link": "https://x.com/clashreport/status/2107582999600762988",
-    "mode": "serious",
-    "kind": "video",
-    "at": "2026-10-07T00:03:09.296344+00:00"
+    "hash": "e4ddbb5bfc5310e3",
+    "fb_id": "1264009986803820_122120764755472689",
+    "title": "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank launches crypto trading for nearly 9 million customers. The following cryptocurrencies can now be traded: \u2022 XRP \u2022 USDT \u2022 Solana \u2022 Bitcoin \u2022 Ethereum",
+    "link": "https://x.com/WatcherGuru/status/2107593857676267754",
+    "mode": "viral",
+    "at": "2026-10-07T00:32:55.664543+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -83,6 +82,7 @@
     "d551335658005d85",
     "d861583e99fec9ab",
     "de5489e354d6c29c",
+    "e4ddbb5bfc5310e3",
     "e8db4b728ba26ead",
     "e9339d6ea619a42d",
     "ef9e9adaee7d4177",
@@ -94,10 +94,9 @@
   "day_counts": {
     "2026-10-05": 15,
     "2026-10-06": 15,
-    "2026-10-07": 1
+    "2026-10-07": 2
   },
   "recent_titles": [
-    "Breaking: Michael Burry says Nvidia is lying to you Here's what he found: 1. Nvidia claims its old chips hold their value but the numbers aren't resale prices, they're a rental estimate from a data...",
     "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO",
     "BREAKING: The S&P 500 closes +55 points higher, adding +$500 billion in market cap today. The S&P 500 is now just 0.5% away from a new record high.",
     "Anthropic tells Australian parliament it found no unauthorized interactions with government data",
@@ -111,18 +110,10 @@
     "ECB\u2019s Lane: There are problems if inflation runs too low compared to our 2% target",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\"",
-    "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt."
+    "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt.",
+    "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank launches crypto trading for nearly 9 million customers. The following cryptocurrencies can now be traded: \u2022 XRP \u2022 USDT \u2022 Solana \u2022 Bitcoin \u2022 Ethereum"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122117761707472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-09-30T22:37:54.442120+00:00"
-    },
     {
       "fb_id": "1264009986803820_122117805489472689",
       "topics": [
@@ -583,6 +574,15 @@
       ],
       "mode": "serious",
       "at": "2026-10-07T00:03:09.296344+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120764755472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "split:logo+logo",
+      "at": "2026-10-07T00:32:55.664543+00:00"
     }
   ],
   "tuner": {
@@ -604,23 +604,6 @@
   },
   "last_video_post": "2026-10-07",
   "recent_fps": [
-    {
-      "fp": [
-        "disruptions",
-        "driving",
-        "gasoline",
-        "higher",
-        "hormuz",
-        "not",
-        "prices",
-        "refinery",
-        "social",
-        "strait",
-        "trump",
-        "truth"
-      ],
-      "at": null
-    },
     {
       "fp": [
         "hormuz",
@@ -829,6 +812,22 @@
         "trump"
       ],
       "at": "2026-10-07T00:03:09.296332+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "USDT",
+        "XRP",
+        "africa",
+        "bank",
+        "bitcoin",
+        "ethereum",
+        "national",
+        "solana",
+        "south"
+      ],
+      "at": "2026-10-07T00:32:55.664524+00:00"
     }
   ],
   "recent_hooks": [
@@ -845,6 +844,7 @@
     "JUST IN: \ud83d\udea9 ChatGPT Pro & Claude Max battle: Sonnet $12,529, Opus $11,726 vs GPT\u20116.1 Sol $2,084. Claude Max value ~6\u00d7 GPT\u20116.1 Sol, yet Fable only half\u2011plan. Odds of switching are high. WHY IT MATTERS: $200 BUDGET can stretch 6\u00d7 with Claude Max. #ethancole #ai #openai #anthropic #technews",
     "JUST IN: \ud83d\udea8 ECB's Lane flags problems if INFLATION runs too low.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Tyler Winklevoss says CLEAR RULES for crypto are COMING.",
-    "JUST IN: \ud83d\udea8 US CRYPTO REGULATION incoming! CFTC Chair Mike Selig unveils new rules."
+    "JUST IN: \ud83d\udea8 US CRYPTO REGULATION incoming! CFTC Chair Mike Selig unveils new rules.",
+    "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank opens crypto trading to 9\u202fmillion customers. XRP, USDT, Solana, Bitcoin, Ethereum now live."
   ]
 }
