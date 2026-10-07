@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "63d8e6fd67210451",
-    "fb_id": "1264009986803820_122120851089472689",
-    "title": "Since Strategy adopted the Bitcoin Standard in 2020, Digital Equity ($MSTR) and Digital Capital ($BTC) have delivered 52% and 38% annualized returns, outperforming the stock, gold, real estate, and...",
-    "link": "https://x.com/saylor/status/2107443970607612398",
-    "mode": "viral",
-    "at": "2026-10-07T05:51:41.602092+00:00"
+    "hash": "8c979261e3d4a088",
+    "fb_id": "1264009986803820_122120861007472689",
+    "title": "IMF'S GEORGIEVA: GLOBAL PUBLIC DEBT IS SET TO SURPASS 100% OF GDP, WITH ADVANCED ECONOMIES CARRYING THE HEAVIEST BURDENS",
+    "link": "https://x.com/FirstSquawk/status/2107714803984994618",
+    "mode": "serious",
+    "at": "2026-10-07T06:22:17.648072+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -63,6 +63,7 @@
     "85c5bffa38b6f61d",
     "89f910e39140c0f6",
     "8ad57dc874ac363d",
+    "8c979261e3d4a088",
     "921b6370813ac363",
     "96d536b14c03c692",
     "97eaf41a60bc6480",
@@ -104,10 +105,9 @@
   "day_counts": {
     "2026-10-05": 15,
     "2026-10-06": 15,
-    "2026-10-07": 12
+    "2026-10-07": 13
   },
   "recent_titles": [
-    "ECB\u2019s Lane: There are problems if inflation runs too low compared to our 2% target",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\"",
     "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt.",
@@ -121,17 +121,10 @@
     "Breaking: Michael Burry says the AI boom is running on one giant loop and time is running out Here's his breakdown: 1. Burry shared a report from Wall Street lender Ares tracking $573B of AI financ...",
     "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
     "India\u2019s central bank hikes rates for the first time since 2023 as inflation risks build",
-    "Since Strategy adopted the Bitcoin Standard in 2020, Digital Equity ($MSTR) and Digital Capital ($BTC) have delivered 52% and 38% annualized returns, outperforming the stock, gold, real estate, and..."
+    "Since Strategy adopted the Bitcoin Standard in 2020, Digital Equity ($MSTR) and Digital Capital ($BTC) have delivered 52% and 38% annualized returns, outperforming the stock, gold, real estate, and...",
+    "IMF'S GEORGIEVA: GLOBAL PUBLIC DEBT IS SET TO SURPASS 100% OF GDP, WITH ADVANCED ECONOMIES CARRYING THE HEAVIEST BURDENS"
   ],
   "history": [
-    {
-      "fb_id": "940579992033417",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "at": "2026-10-03T16:41:10.479065+00:00"
-    },
     {
       "fb_id": "1264009986803820_122119182243472689",
       "topics": [
@@ -594,6 +587,17 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-07T05:51:41.602092+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120861007472689",
+      "topics": [
+        "inflation",
+        "power",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "face",
+      "at": "2026-10-07T06:22:17.648072+00:00"
     }
   ],
   "tuner": {
@@ -615,18 +619,6 @@
   },
   "last_video_post": "2026-10-07",
   "recent_fps": [
-    {
-      "fp": [
-        "US",
-        "america",
-        "inventories",
-        "petroleum",
-        "reserve",
-        "strategic",
-        "this"
-      ],
-      "at": "2026-10-06T04:14:13.513652+00:00"
-    },
     {
       "fp": [
         "HSBC",
@@ -858,10 +850,25 @@
         "strategy"
       ],
       "at": "2026-10-07T05:51:41.602077+00:00"
+    },
+    {
+      "fp": [
+        "DEBT",
+        "GDP",
+        "GLOBAL",
+        "IMF",
+        "IS",
+        "OF",
+        "PUBLIC",
+        "SET",
+        "THE",
+        "TO",
+        "WITH"
+      ],
+      "at": "2026-10-07T06:22:17.648057+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 ChatGPT Pro & Claude Max battle: Sonnet $12,529, Opus $11,726 vs GPT\u20116.1 Sol $2,084. Claude Max value ~6\u00d7 GPT\u20116.1 Sol, yet Fable only half\u2011plan. Odds of switching are high. WHY IT MATTERS: $200 BUDGET can stretch 6\u00d7 with Claude Max. #ethancole #ai #openai #anthropic #technews",
     "JUST IN: \ud83d\udea8 ECB's Lane flags problems if INFLATION runs too low.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Tyler Winklevoss says CLEAR RULES for crypto are COMING.",
     "JUST IN: \ud83d\udea8 US CRYPTO REGULATION incoming! CFTC Chair Mike Selig unveils new rules.",
@@ -875,6 +882,7 @@
     "JUST IN: AI BOOM IS RUNNING ON ONE GIANT LOOP \ud83d\udea8",
     "BREAKING: \ud83d\udea8 Bitcoin CRASHes below $84,000 as oil soars after Iranian tanker attacks.",
     "\ud83d\udea8 JUST IN: India's central bank HIKES rates for the first time since 2023.",
-    "BREAKING: \ud83d\udea9 Strategy ($MSTR) & Bitcoin ($BTC) outshine gold, real estate, bonds\u201452% & 38% annualized returns since 2020 Bitcoin Standard adoption. Digital equity is the new king. Why still bet on paper? #ethancole #finance #crypto #bitcoin #stockmarket #investing"
+    "BREAKING: \ud83d\udea9 Strategy ($MSTR) & Bitcoin ($BTC) outshine gold, real estate, bonds\u201452% & 38% annualized returns since 2020 Bitcoin Standard adoption. Digital equity is the new king. Why still bet on paper? #ethancole #finance #crypto #bitcoin #stockmarket #investing",
+    "JUST IN: \ud83d\udea9 GLOBAL PUBLIC DEBT TO SURPASS 100% OF GDP, warns IMF chief Kristalina Georgieva. The report flags that advanced economies carry the heaviest burdens. \ud83d\udcca GLOBAL PUBLIC DEBT: 100%+ of GDP. \ud83d\udcca ADVANCED ECONOMIES: highest debt ratios"
   ]
 }
