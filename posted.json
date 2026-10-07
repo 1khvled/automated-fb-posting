@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "08ac912336069268",
-    "fb_id": "1264009986803820_122120869527472689",
-    "title": "JUST IN: \"Big Short\" investor Michael Burry warns a stock market crash is coming. \"The stock market is quite obviously in its first stage of grief, denial. Per 2000 and 2008, this stage lasts 6-9 m...",
-    "link": "https://x.com/WatcherGuru/status/2107488844882780538",
+    "hash": "4d61c8b851c9cafd",
+    "fb_id": "1264009986803820_122120877291472689",
+    "title": "Diversification is dying. For every $1 invested in the S&P 500, ~41 cents now goes to just the 10 largest stocks. Nvidia, $NVDA, alone accounts for 8 cents, followed by Apple, $AAPL, at 7 cents, Mi...",
+    "link": "https://x.com/KobeissiLetter/status/2107519296595284450",
     "mode": "viral",
-    "at": "2026-10-07T06:52:54.093397+00:00"
+    "at": "2026-10-07T07:23:09.643444+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -37,6 +37,7 @@
     "4987c4f1f6f22605",
     "49e7734863e36891",
     "4a1e37b41cd1e43a",
+    "4d61c8b851c9cafd",
     "502825213b373f41",
     "53384af31d4e0217",
     "53fc57ae28b68910",
@@ -106,10 +107,9 @@
   "day_counts": {
     "2026-10-05": 15,
     "2026-10-06": 15,
-    "2026-10-07": 14
+    "2026-10-07": 15
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\"",
     "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt.",
     "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank launches crypto trading for nearly 9 million customers. The following cryptocurrencies can now be traded: \u2022 XRP \u2022 USDT \u2022 Solana \u2022 Bitcoin \u2022 Ethereum",
     "BREAKING: SpaceX, $SPCX, is in talks with banks and investors to raise $40 billion of debt to buy chips from Nvidia amid \"insatiable demand\" among AI developers, per Bloomberg. The company is seeki...",
@@ -123,18 +123,10 @@
     "India\u2019s central bank hikes rates for the first time since 2023 as inflation risks build",
     "Since Strategy adopted the Bitcoin Standard in 2020, Digital Equity ($MSTR) and Digital Capital ($BTC) have delivered 52% and 38% annualized returns, outperforming the stock, gold, real estate, and...",
     "IMF'S GEORGIEVA: GLOBAL PUBLIC DEBT IS SET TO SURPASS 100% OF GDP, WITH ADVANCED ECONOMIES CARRYING THE HEAVIEST BURDENS",
-    "JUST IN: \"Big Short\" investor Michael Burry warns a stock market crash is coming. \"The stock market is quite obviously in its first stage of grief, denial. Per 2000 and 2008, this stage lasts 6-9 m..."
+    "JUST IN: \"Big Short\" investor Michael Burry warns a stock market crash is coming. \"The stock market is quite obviously in its first stage of grief, denial. Per 2000 and 2008, this stage lasts 6-9 m...",
+    "Diversification is dying. For every $1 invested in the S&P 500, ~41 cents now goes to just the 10 largest stocks. Nvidia, $NVDA, alone accounts for 8 cents, followed by Apple, $AAPL, at 7 cents, Mi..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122119261497472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-03T22:26:29.885399+00:00"
-    },
     {
       "fb_id": "1264009986803820_122119324959472689",
       "topics": [
@@ -599,6 +591,16 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-07T06:52:54.093397+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120877291472689",
+      "topics": [
+        "ai",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "split:logo+logo",
+      "at": "2026-10-07T07:23:09.643444+00:00"
     }
   ],
   "tuner": {
@@ -620,22 +622,6 @@
   },
   "last_video_post": "2026-10-07",
   "recent_fps": [
-    {
-      "fp": [
-        "$0",
-        "$110.84",
-        "$89.90",
-        "$9.25",
-        "BTC",
-        "ETF",
-        "ETH",
-        "FLOW",
-        "SOL",
-        "XRP",
-        "october"
-      ],
-      "at": "2026-10-06T05:43:30.983410+00:00"
-    },
     {
       "fp": [
         "$11,726",
@@ -870,10 +856,35 @@
         "today"
       ],
       "at": "2026-10-07T06:52:54.093382+00:00"
+    },
+    {
+      "fp": [
+        "$1",
+        "AAPL",
+        "AMD",
+        "AMZN",
+        "AVGO",
+        "GOOGL",
+        "META",
+        "MSFT",
+        "MU",
+        "NVDA",
+        "TSLA",
+        "alphabet",
+        "amazon",
+        "apple",
+        "broadcom",
+        "diversification",
+        "meta",
+        "micron",
+        "microsoft",
+        "nvidia",
+        "tesla"
+      ],
+      "at": "2026-10-07T07:23:09.643432+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Tyler Winklevoss says CLEAR RULES for crypto are COMING.",
     "JUST IN: \ud83d\udea8 US CRYPTO REGULATION incoming! CFTC Chair Mike Selig unveils new rules.",
     "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank opens crypto trading to 9\u202fmillion customers. XRP, USDT, Solana, Bitcoin, Ethereum now live.",
     "BREAKING: SPACEX ($SPCX) RAISES $40 BILLION IN DEBT TO BUY NVIDIA CHIPS \ud83d\udea9",
@@ -887,6 +898,7 @@
     "\ud83d\udea8 JUST IN: India's central bank HIKES rates for the first time since 2023.",
     "BREAKING: \ud83d\udea9 Strategy ($MSTR) & Bitcoin ($BTC) outshine gold, real estate, bonds\u201452% & 38% annualized returns since 2020 Bitcoin Standard adoption. Digital equity is the new king. Why still bet on paper? #ethancole #finance #crypto #bitcoin #stockmarket #investing",
     "JUST IN: \ud83d\udea9 GLOBAL PUBLIC DEBT TO SURPASS 100% OF GDP, warns IMF chief Kristalina Georgieva. The report flags that advanced economies carry the heaviest burdens. \ud83d\udcca GLOBAL PUBLIC DEBT: 100%+ of GDP. \ud83d\udcca ADVANCED ECONOMIES: highest debt ratios",
-    "JUST IN: STOCK MARKET CRASH ALERT \ud83d\udea8 Michael Burry says the S&P 500 is in denial, the first grief stage that lasted 6\u20119 months in 2000 & 2008. Today\u2019s all\u2011time high may mask the storm. Why invest when the market\u2019s mood is shifting? #ethancole #finance #stockmarket #investing #breakingnews"
+    "JUST IN: STOCK MARKET CRASH ALERT \ud83d\udea8 Michael Burry says the S&P 500 is in denial, the first grief stage that lasted 6\u20119 months in 2000 & 2008. Today\u2019s all\u2011time high may mask the storm. Why invest when the market\u2019s mood is shifting? #ethancole #finance #stockmarket #investing #breakingnews",
+    "JUST IN: \ud83d\udcc8 DIVERSIFICATION IS DYING in the S&P 500."
   ]
 }
