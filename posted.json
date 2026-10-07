@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "faa585879730d067",
-    "fb_id": "1264009986803820_122120438691472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\"",
-    "link": "https://x.com/WatcherGuru/status/2107138333268955426",
-    "mode": "viral",
-    "at": "2026-10-06T08:03:46.722717+00:00"
+    "hash": "2bbf1d770e89e3e5",
+    "fb_id": "2228724585188105",
+    "title": "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt.",
+    "link": "https://x.com/clashreport/status/2107582999600762988",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-07T00:03:09.296344+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -23,6 +24,7 @@
     "2512ce2309eb0afd",
     "2839c0e8680cd401",
     "29ec1e6d5581205f",
+    "2bbf1d770e89e3e5",
     "2f82b7d57908eb27",
     "321b0f3bbbfcc499",
     "334c8b5f3a1b20db",
@@ -90,12 +92,11 @@
     "febbc2efe8a87926"
   ],
   "day_counts": {
-    "2026-10-04": 5,
     "2026-10-05": 15,
-    "2026-10-06": 15
+    "2026-10-06": 15,
+    "2026-10-07": 1
   },
   "recent_titles": [
-    "I have two important updates to share with you today as we continue to build Metaplanet into a global financial platform rooted in Bitcoin. From the beginning, our strategy was never simply to accu...",
     "Breaking: Michael Burry says Nvidia is lying to you Here's what he found: 1. Nvidia claims its old chips hold their value but the numbers aren't resale prices, they're a rental estimate from a data...",
     "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO",
     "BREAKING: The S&P 500 closes +55 points higher, adding +$500 billion in market cap today. The S&P 500 is now just 0.5% away from a new record high.",
@@ -109,18 +110,10 @@
     "Ukrainian drones hit the Volodarskaya oil depot in Moscow Oblast, reportedly setting at least two fuel tanks on fire. The facility is the largest oil depot in Moscow Oblast by storage capacity and ...",
     "ECB\u2019s Lane: There are problems if inflation runs too low compared to our 2% target",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\""
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\"",
+    "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt."
   ],
   "history": [
-    {
-      "fb_id": "2569967863500174",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "at": "2026-09-30T18:26:12.055455+00:00"
-    },
     {
       "fb_id": "1264009986803820_122117761707472689",
       "topics": [
@@ -582,12 +575,20 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-06T08:03:46.722717+00:00"
+    },
+    {
+      "fb_id": "2228724585188105",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-07T00:03:09.296344+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-06"
+    "updated": "2026-10-07"
   },
   "comment_review": {
     "posts": 8,
@@ -599,17 +600,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-06"
+    "updated": "2026-10-07"
   },
-  "last_video_post": "2026-10-06",
+  "last_video_post": "2026-10-07",
   "recent_fps": [
-    {
-      "fp": [
-        "$40",
-        "trump"
-      ],
-      "at": null
-    },
     {
       "fp": [
         "disruptions",
@@ -827,6 +821,14 @@
         "selig"
       ],
       "at": "2026-10-06T08:03:46.722700+00:00"
+    },
+    {
+      "fp": [
+        "democrats",
+        "therefore",
+        "trump"
+      ],
+      "at": "2026-10-07T00:03:09.296332+00:00"
     }
   ],
   "recent_hooks": [
