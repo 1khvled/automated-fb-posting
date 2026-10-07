@@ -1,16 +1,17 @@
 {
   "last_post": {
-    "hash": "8c979261e3d4a088",
-    "fb_id": "1264009986803820_122120861007472689",
-    "title": "IMF'S GEORGIEVA: GLOBAL PUBLIC DEBT IS SET TO SURPASS 100% OF GDP, WITH ADVANCED ECONOMIES CARRYING THE HEAVIEST BURDENS",
-    "link": "https://x.com/FirstSquawk/status/2107714803984994618",
-    "mode": "serious",
-    "at": "2026-10-07T06:22:17.648072+00:00"
+    "hash": "08ac912336069268",
+    "fb_id": "1264009986803820_122120869527472689",
+    "title": "JUST IN: \"Big Short\" investor Michael Burry warns a stock market crash is coming. \"The stock market is quite obviously in its first stage of grief, denial. Per 2000 and 2008, this stage lasts 6-9 m...",
+    "link": "https://x.com/WatcherGuru/status/2107488844882780538",
+    "mode": "viral",
+    "at": "2026-10-07T06:52:54.093397+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
     "0645eb4c06eed671",
     "0709e3e2addffc4e",
+    "08ac912336069268",
     "100a2e3d51fa9091",
     "11e9a2979f0b49a2",
     "163b472205423d09",
@@ -105,10 +106,9 @@
   "day_counts": {
     "2026-10-05": 15,
     "2026-10-06": 15,
-    "2026-10-07": 13
+    "2026-10-07": 14
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\"",
     "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt.",
     "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank launches crypto trading for nearly 9 million customers. The following cryptocurrencies can now be traded: \u2022 XRP \u2022 USDT \u2022 Solana \u2022 Bitcoin \u2022 Ethereum",
@@ -122,18 +122,10 @@
     "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
     "India\u2019s central bank hikes rates for the first time since 2023 as inflation risks build",
     "Since Strategy adopted the Bitcoin Standard in 2020, Digital Equity ($MSTR) and Digital Capital ($BTC) have delivered 52% and 38% annualized returns, outperforming the stock, gold, real estate, and...",
-    "IMF'S GEORGIEVA: GLOBAL PUBLIC DEBT IS SET TO SURPASS 100% OF GDP, WITH ADVANCED ECONOMIES CARRYING THE HEAVIEST BURDENS"
+    "IMF'S GEORGIEVA: GLOBAL PUBLIC DEBT IS SET TO SURPASS 100% OF GDP, WITH ADVANCED ECONOMIES CARRYING THE HEAVIEST BURDENS",
+    "JUST IN: \"Big Short\" investor Michael Burry warns a stock market crash is coming. \"The stock market is quite obviously in its first stage of grief, denial. Per 2000 and 2008, this stage lasts 6-9 m..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122119182243472689",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-03T19:24:41.866430+00:00"
-    },
     {
       "fb_id": "1264009986803820_122119261497472689",
       "topics": [
@@ -598,6 +590,15 @@
       "mode": "serious",
       "photo": "face",
       "at": "2026-10-07T06:22:17.648072+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120869527472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-07T06:52:54.093397+00:00"
     }
   ],
   "tuner": {
@@ -619,16 +620,6 @@
   },
   "last_video_post": "2026-10-07",
   "recent_fps": [
-    {
-      "fp": [
-        "HSBC",
-        "PMI",
-        "global",
-        "india",
-        "september"
-      ],
-      "at": "2026-10-06T05:14:34.979700+00:00"
-    },
     {
       "fp": [
         "$0",
@@ -866,10 +857,22 @@
         "WITH"
       ],
       "at": "2026-10-07T06:22:17.648057+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "big",
+        "burry",
+        "michael",
+        "per",
+        "short",
+        "today"
+      ],
+      "at": "2026-10-07T06:52:54.093382+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 ECB's Lane flags problems if INFLATION runs too low.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Tyler Winklevoss says CLEAR RULES for crypto are COMING.",
     "JUST IN: \ud83d\udea8 US CRYPTO REGULATION incoming! CFTC Chair Mike Selig unveils new rules.",
     "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank opens crypto trading to 9\u202fmillion customers. XRP, USDT, Solana, Bitcoin, Ethereum now live.",
@@ -883,6 +886,7 @@
     "BREAKING: \ud83d\udea8 Bitcoin CRASHes below $84,000 as oil soars after Iranian tanker attacks.",
     "\ud83d\udea8 JUST IN: India's central bank HIKES rates for the first time since 2023.",
     "BREAKING: \ud83d\udea9 Strategy ($MSTR) & Bitcoin ($BTC) outshine gold, real estate, bonds\u201452% & 38% annualized returns since 2020 Bitcoin Standard adoption. Digital equity is the new king. Why still bet on paper? #ethancole #finance #crypto #bitcoin #stockmarket #investing",
-    "JUST IN: \ud83d\udea9 GLOBAL PUBLIC DEBT TO SURPASS 100% OF GDP, warns IMF chief Kristalina Georgieva. The report flags that advanced economies carry the heaviest burdens. \ud83d\udcca GLOBAL PUBLIC DEBT: 100%+ of GDP. \ud83d\udcca ADVANCED ECONOMIES: highest debt ratios"
+    "JUST IN: \ud83d\udea9 GLOBAL PUBLIC DEBT TO SURPASS 100% OF GDP, warns IMF chief Kristalina Georgieva. The report flags that advanced economies carry the heaviest burdens. \ud83d\udcca GLOBAL PUBLIC DEBT: 100%+ of GDP. \ud83d\udcca ADVANCED ECONOMIES: highest debt ratios",
+    "JUST IN: STOCK MARKET CRASH ALERT \ud83d\udea8 Michael Burry says the S&P 500 is in denial, the first grief stage that lasted 6\u20119 months in 2000 & 2008. Today\u2019s all\u2011time high may mask the storm. Why invest when the market\u2019s mood is shifting? #ethancole #finance #stockmarket #investing #breakingnews"
   ]
 }
