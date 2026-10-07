@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "ffb7fa8b43514930",
-    "fb_id": "1264009986803820_122120784759472689",
-    "title": "\ud83c\uddfa\ud83c\uddf8 JUST IN: US government wallets just moved over $103M in crypto in nine hours, shipping 833 BTC and 40,285 BNB to unlabeled addresses, per Arkham.",
-    "link": "https://x.com/Cointelegraph/status/2107644753386877044",
+    "hash": "83ca0e3307091887",
+    "fb_id": "1264009986803820_122120791407472689",
+    "title": "Trump isn't \u2018completely wrong\u2019: Hormuz disruption is Asia\u2019s problem, says Singapore's foreign minister",
+    "link": "https://www.cnbc.com/2026/10/07/hormuz-iran-war-singapore-vivian-balakrishnan.html",
     "mode": "serious",
-    "at": "2026-10-07T01:53:23.689364+00:00"
+    "at": "2026-10-07T02:24:13.436984+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -54,6 +54,7 @@
     "7e0de86880325769",
     "7edfc3f168220e43",
     "7f0d3da8ca7d890e",
+    "83ca0e3307091887",
     "85c5bffa38b6f61d",
     "89f910e39140c0f6",
     "8ad57dc874ac363d",
@@ -96,10 +97,9 @@
   "day_counts": {
     "2026-10-05": 15,
     "2026-10-06": 15,
-    "2026-10-07": 4
+    "2026-10-07": 5
   },
   "recent_titles": [
-    "Anthropic tells Australian parliament it found no unauthorized interactions with government data",
     "JPMORGAN RAISES BLACKROCK PRICE TARGET TO $1,435 VS $1,364 PREVIOUSLY",
     "\ud83d\udd25\u53d8\u5766\u8bda\u4e86\uff01Gemini 4 Argon \u5728\u201c\u4e0d\u77e5\u9053\u5c31\u522b\u7f16\u201d\u8fd9\u4ef6\u4e8b\u4e0a\u76f4\u63a5\u4e0eGPT-6 Astra\u62c9\u5f00\u5dee\u8ddd\uff01 AA-Omniscience \u7f16\u9020\u7387\uff08\u8d8a\u4f4e\u8d8a\u597d\uff0c10\u67085\u65e5\u6570\u636e\uff09\uff1a 1\ufe0f\u20e3Gemini 4 Argon\uff1a15.1% 2\ufe0f\u20e3Qwen3.8 Max\uff1a28.8% 3\ufe0f\u20e3Grok 4.7\uff1a29.3% \u4e0b\u4e00\u540d\u51e0\u4e4e\u662fGemini 4 Argon\u7684\u4e24\u500d\u3002 GPT-6 Astra \u51c6\u786e\u7387\u66f4\u9ad8\uff0861%...",
     "BREAKING: Inventories in the US Strategic Petroleum Reserve fell by 767,000 barrels last week, to 283 million barrels, the lowest level since 1982. This marks the 28th consecutive weekly decline, p...",
@@ -113,18 +113,10 @@
     "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt.",
     "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank launches crypto trading for nearly 9 million customers. The following cryptocurrencies can now be traded: \u2022 XRP \u2022 USDT \u2022 Solana \u2022 Bitcoin \u2022 Ethereum",
     "BREAKING: SpaceX, $SPCX, is in talks with banks and investors to raise $40 billion of debt to buy chips from Nvidia amid \"insatiable demand\" among AI developers, per Bloomberg. The company is seeki...",
-    "\ud83c\uddfa\ud83c\uddf8 JUST IN: US government wallets just moved over $103M in crypto in nine hours, shipping 833 BTC and 40,285 BNB to unlabeled addresses, per Arkham."
+    "\ud83c\uddfa\ud83c\uddf8 JUST IN: US government wallets just moved over $103M in crypto in nine hours, shipping 833 BTC and 40,285 BNB to unlabeled addresses, per Arkham.",
+    "Trump isn't \u2018completely wrong\u2019: Hormuz disruption is Asia\u2019s problem, says Singapore's foreign minister"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122118088227472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "source",
-      "at": "2026-10-01T15:17:10.902715+00:00"
-    },
     {
       "fb_id": "1264009986803820_122118183903472689",
       "topics": [
@@ -585,6 +577,16 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-07T01:53:23.689364+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120791407472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "face",
+      "at": "2026-10-07T02:24:13.436984+00:00"
     }
   ],
   "tuner": {
@@ -606,14 +608,6 @@
   },
   "last_video_post": "2026-10-07",
   "recent_fps": [
-    {
-      "fp": [
-        "PAC",
-        "fairshake",
-        "house"
-      ],
-      "at": null
-    },
     {
       "fp": [
         "asia",
@@ -834,10 +828,19 @@
         "arkham"
       ],
       "at": "2026-10-07T01:53:23.689350+00:00"
+    },
+    {
+      "fp": [
+        "asia",
+        "asian",
+        "hormuz",
+        "singapore",
+        "trump"
+      ],
+      "at": "2026-10-07T02:24:13.436969+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\udfc1 Wall Street banks launch record $60\u202fbillion chip deal for Broadcom ($AVGO) and Anthropic. Banks flood the AI hardware market, locking in a $60\u202fB contract.",
     "\ud83d\udea8 BREAKING: S&P 500 ADDS +$500 BILLION IN MARKET CAP.",
     "BREAKING: \ud83c\udde6\ud83c\uddfa Anthropic says it found no unauthorized interactions with Australian government data.",
     "JUST IN: \ud83d\udea9 BlackRock price target jumps to $1,435 from $1,364 after JPMorgan\u2019s latest call.",
@@ -851,6 +854,7 @@
     "JUST IN: \ud83d\udea8 US CRYPTO REGULATION incoming! CFTC Chair Mike Selig unveils new rules.",
     "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank opens crypto trading to 9\u202fmillion customers. XRP, USDT, Solana, Bitcoin, Ethereum now live.",
     "BREAKING: SPACEX ($SPCX) RAISES $40 BILLION IN DEBT TO BUY NVIDIA CHIPS \ud83d\udea9",
-    "\ud83c\uddfa\ud83c\uddf8 JUST IN: US government wallets just shipped $103M in crypto in 9 hrs, moving 833 BTC & 40,285 BNB to unlabeled addresses, per Arkham. The move spikes speculation on state\u2011backed crypto strategy. Why it matters: could signal a new market shift. #ethancole #crypto #bitcoin #finance #marketnews #breakingnews"
+    "\ud83c\uddfa\ud83c\uddf8 JUST IN: US government wallets just shipped $103M in crypto in 9 hrs, moving 833 BTC & 40,285 BNB to unlabeled addresses, per Arkham. The move spikes speculation on state\u2011backed crypto strategy. Why it matters: could signal a new market shift. #ethancole #crypto #bitcoin #finance #marketnews #breakingnews",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Trump says Asia must shoulder more to keep Hormuz open. Singapore\u2019s Vivian Balakrishnan says the problem is Asia\u2019s. 2026-10-07"
   ]
 }
