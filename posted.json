@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "191614348896e501",
-    "fb_id": "1264009986803820_122120837643472689",
-    "title": "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
-    "link": "https://www.coindesk.com/markets/2026/10/07/bitcoin-dips-below-usd84-000-as-oil-jumps-on-iranian-tanker-attacks",
+    "hash": "a1cc606c7a126979",
+    "fb_id": "1264009986803820_122120845173472689",
+    "title": "India\u2019s central bank hikes rates for the first time since 2023 as inflation risks build",
+    "link": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
     "mode": "serious",
-    "at": "2026-10-07T04:54:47.913004+00:00"
+    "at": "2026-10-07T05:22:32.416883+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -68,6 +68,7 @@
     "99c9f9218a07a71a",
     "9d586d423b6a80d7",
     "9e821647d63289bd",
+    "a1cc606c7a126979",
     "a2909c1a00c4321d",
     "a2e71eefd32ea0f0",
     "a9eab993ee21cbc4",
@@ -102,10 +103,9 @@
   "day_counts": {
     "2026-10-05": 15,
     "2026-10-06": 15,
-    "2026-10-07": 10
+    "2026-10-07": 11
   },
   "recent_titles": [
-    "\ud83e\udd2f\u4e00\u6bd4\u5413\u4e00\u8df3\uff01\u540c\u6837 $200\uff01ChatGPT Pro vs Claude Max \u6536\u636e\u8fd8\u5728\u6253\uff1aSonnet $12,529\uff5cOpus $11,726 \u5df2\u7ecf\u76d6\u7ae0\uff1aGPT-6.1 Sol \u53ea\u6709 $2,084 Claude Max \u989d\u5ea6\u4ef7\u503c\u7ea6 6 \u500d\uff0cFable \u8fd8\u53ea\u7528\u4e86\u4e00\u534a\u8ba1\u5212\u3002 #ClaudeMax #ChatGPTPro #AI\u8ba2\u9605 #SemiAnalysis #Sonnet55 #Opus...",
     "Ukrainian drones hit the Volodarskaya oil depot in Moscow Oblast, reportedly setting at least two fuel tanks on fire. The facility is the largest oil depot in Moscow Oblast by storage capacity and ...",
     "ECB\u2019s Lane: There are problems if inflation runs too low compared to our 2% target",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming.",
@@ -119,19 +119,10 @@
     "\ud83d\udca5\u5929\u5450\uff01Opus 5.5 \u662f\u76ee\u524d\u7814\u7a76\u54c1\u5473\u6700\u51fa\u8272\u7684\u6a21\u578b\uff0c\u662f\u4eba\u7c7b\u9876\u7ea7\u4e13\u5bb6\u76842.3\u500d\uff0c\u4e5f\u66f4\u63a5\u8fd1\u4e8e\u7f16\u7801ASI\uff01 P-Zero \u7684 TasteVal \u5bf9AI\u7814\u7a76\u54c1\u5473\u4e13\u95e8\u8fdb\u884c\u4e86\u5168\u65b9\u4f4d\u7684\u7814\u7a76\u5206\u6790\uff0c\u4ed6\u4eec\u53d1\u73b0\uff1a \ud83d\udd39\u5b9e\u9a8c\u7814\u7a76\u54c1\u5473\u662f\u9876\u7ea7\u4eba\u7c7b\u4e13\u5bb6\u7684 2.3 \u500d\uff0895% CI 1.15\u20134.37\uff09\uff0c\u4e5f\u9ad8\u4e8e\u540c\u671f\u5176\u4ed6\u524d\u6cbf\u6a21\u578b \ud83d\udd39\u540c\u6837\u5206\u6570\uff0cAI\u5927\u7ea6\u7528 17 \u4e2a GPU \u5c0f\u65f6\u6253\u5e73\u4e13\u5bb6\u7684 40 \u5c0f\u65f6 \ud83d\udd39\u5355\u6b21\u6210\u672c\u5927\u7ea6\u53ea\u6709\u4eba\u7c7b\u57fa\u7ebf...",
     "JUST IN: $ETH falls under $2,600 as $400 million in crypto longs are liquidated in the past 20 minutes.",
     "Breaking: Michael Burry says the AI boom is running on one giant loop and time is running out Here's his breakdown: 1. Burry shared a report from Wall Street lender Ares tracking $573B of AI financ...",
-    "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks"
+    "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
+    "India\u2019s central bank hikes rates for the first time since 2023 as inflation risks build"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122118706479472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "og:image",
-      "at": "2026-10-02T22:01:06.258513+00:00"
-    },
     {
       "fb_id": "1264009986803820_122118860517472689",
       "topics": [
@@ -592,6 +583,17 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-07T04:54:47.913004+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120845173472689",
+      "topics": [
+        "fed",
+        "inflation",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "flag:in",
+      "at": "2026-10-07T05:22:32.416883+00:00"
     }
   ],
   "tuner": {
@@ -613,18 +615,6 @@
   },
   "last_video_post": "2026-10-07",
   "recent_fps": [
-    {
-      "fp": [
-        "$1,364",
-        "$1,435",
-        "PRICE",
-        "RAISE",
-        "TARGET",
-        "TO",
-        "VS"
-      ],
-      "at": "2026-10-06T03:13:22.446222+00:00"
-    },
     {
       "fp": [
         "AA",
@@ -861,10 +851,20 @@
         "iranian"
       ],
       "at": "2026-10-07T04:54:47.912993+00:00"
+    },
+    {
+      "fp": [
+        "HSBC",
+        "RBI",
+        "december",
+        "goldman",
+        "india",
+        "sachs"
+      ],
+      "at": "2026-10-07T05:22:32.416861+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddee\ud83c\uddf3 India HSBC & S&P Global Services PMI falls to 55.2 from flash 55.8. \ud83d\udcc9 Final reading still shows robust growth but a slight dip signals slowing momentum. Market odds: investors eye easing demand. Why it matters: PMI dip may tighten credit and hurt earnings. #ethancole #finance #marketnews #economy #investing",
     "JUST IN: \ud83d\udcc9 CRYPTO ETF outflows hit BTC, SOL. ETH sees INFLOWS.",
     "JUST IN: \ud83d\udea9 ChatGPT Pro & Claude Max battle: Sonnet $12,529, Opus $11,726 vs GPT\u20116.1 Sol $2,084. Claude Max value ~6\u00d7 GPT\u20116.1 Sol, yet Fable only half\u2011plan. Odds of switching are high. WHY IT MATTERS: $200 BUDGET can stretch 6\u00d7 with Claude Max. #ethancole #ai #openai #anthropic #technews",
     "JUST IN: \ud83d\udea8 ECB's Lane flags problems if INFLATION runs too low.",
@@ -878,6 +878,7 @@
     "JUST IN: \ud83d\udea9 Opus\u202f5.5 is the most refined research\u2011taste model yet, outpacing top human experts 2.3\u00d7 and closer to ASI coding. P\u2011Zero\u2019s TasteVal study shows: \u2022 2.3\u00d7 expert performance (95%\u202fCI\u202f1.15\u20134.37) \u2022 17\u202fGPU\u2011hrs vs 40\u202fhrs for same score \u2022 cost \u22481/30 baseline \u2022 models double every\u202f3\u202fmo after Dec\u202f2025.",
     "\ud83d\udea8 JUST IN: $ETH CRASHES below $2,600.",
     "JUST IN: AI BOOM IS RUNNING ON ONE GIANT LOOP \ud83d\udea8",
-    "BREAKING: \ud83d\udea8 Bitcoin CRASHes below $84,000 as oil soars after Iranian tanker attacks."
+    "BREAKING: \ud83d\udea8 Bitcoin CRASHes below $84,000 as oil soars after Iranian tanker attacks.",
+    "\ud83d\udea8 JUST IN: India's central bank HIKES rates for the first time since 2023."
   ]
 }
