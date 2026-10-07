@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "e4ddbb5bfc5310e3",
-    "fb_id": "1264009986803820_122120764755472689",
-    "title": "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank launches crypto trading for nearly 9 million customers. The following cryptocurrencies can now be traded: \u2022 XRP \u2022 USDT \u2022 Solana \u2022 Bitcoin \u2022 Ethereum",
-    "link": "https://x.com/WatcherGuru/status/2107593857676267754",
+    "hash": "d1ada08f4696f8f6",
+    "fb_id": "1264009986803820_122120776395472689",
+    "title": "BREAKING: SpaceX, $SPCX, is in talks with banks and investors to raise $40 billion of debt to buy chips from Nvidia amid \"insatiable demand\" among AI developers, per Bloomberg. The company is seeki...",
+    "link": "https://x.com/KobeissiLetter/status/2107630789206724835",
     "mode": "viral",
-    "at": "2026-10-07T00:32:55.664543+00:00"
+    "at": "2026-10-07T01:22:36.497644+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -77,6 +77,7 @@
     "baa35c16631d5782",
     "bbec67196eba705d",
     "beda8733ff194127",
+    "d1ada08f4696f8f6",
     "d248d07438581e6c",
     "d425f4f753b3e194",
     "d551335658005d85",
@@ -94,10 +95,9 @@
   "day_counts": {
     "2026-10-05": 15,
     "2026-10-06": 15,
-    "2026-10-07": 2
+    "2026-10-07": 3
   },
   "recent_titles": [
-    "Wall Street banks launch record $60 bln chip deal for Broadcom and Anthropic - FT. $AVGO",
     "BREAKING: The S&P 500 closes +55 points higher, adding +$500 billion in market cap today. The S&P 500 is now just 0.5% away from a new record high.",
     "Anthropic tells Australian parliament it found no unauthorized interactions with government data",
     "JPMORGAN RAISES BLACKROCK PRICE TARGET TO $1,435 VS $1,364 PREVIOUSLY",
@@ -111,19 +111,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Gemini crypto exchange co-founder Tyler Winklevoss says \"clear rules\" for crypto are coming.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC Chair Mike Selig releases video unveiling proposed rules to regulate US crypto markets. \"Clear rules of the road start now.\"",
     "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt.",
-    "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank launches crypto trading for nearly 9 million customers. The following cryptocurrencies can now be traded: \u2022 XRP \u2022 USDT \u2022 Solana \u2022 Bitcoin \u2022 Ethereum"
+    "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank launches crypto trading for nearly 9 million customers. The following cryptocurrencies can now be traded: \u2022 XRP \u2022 USDT \u2022 Solana \u2022 Bitcoin \u2022 Ethereum",
+    "BREAKING: SpaceX, $SPCX, is in talks with banks and investors to raise $40 billion of debt to buy chips from Nvidia amid \"insatiable demand\" among AI developers, per Bloomberg. The company is seeki..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122117805489472689",
-      "topics": [
-        "crypto",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-01T01:36:24.663671+00:00"
-    },
     {
       "fb_id": "1827966908377567",
       "topics": [
@@ -583,6 +574,15 @@
       "mode": "viral",
       "photo": "split:logo+logo",
       "at": "2026-10-07T00:32:55.664543+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122120776395472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "photo": "split:logo+logo",
+      "at": "2026-10-07T01:22:36.497644+00:00"
     }
   ],
   "tuner": {
@@ -604,17 +604,6 @@
   },
   "last_video_post": "2026-10-07",
   "recent_fps": [
-    {
-      "fp": [
-        "hormuz",
-        "president",
-        "russian",
-        "strait",
-        "trump",
-        "ukraine"
-      ],
-      "at": null
-    },
     {
       "fp": [
         "LATEST",
@@ -828,10 +817,22 @@
         "south"
       ],
       "at": "2026-10-07T00:32:55.664524+00:00"
+    },
+    {
+      "fp": [
+        "$10",
+        "$30",
+        "$40",
+        "AI",
+        "SPCX",
+        "bloomberg",
+        "nvidia",
+        "revolution"
+      ],
+      "at": "2026-10-07T01:22:36.497631+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddef\ud83c\uddf5 METAPLANET ($MPL) announces two major BITCOIN strategy updates.",
     "BREAKING: \ud83d\udea8 Michael Burry says Nvidia ($NVDA) is LYING.",
     "JUST IN: \ud83c\udfc1 Wall Street banks launch record $60\u202fbillion chip deal for Broadcom ($AVGO) and Anthropic. Banks flood the AI hardware market, locking in a $60\u202fB contract.",
     "\ud83d\udea8 BREAKING: S&P 500 ADDS +$500 BILLION IN MARKET CAP.",
@@ -845,6 +846,7 @@
     "JUST IN: \ud83d\udea8 ECB's Lane flags problems if INFLATION runs too low.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Tyler Winklevoss says CLEAR RULES for crypto are COMING.",
     "JUST IN: \ud83d\udea8 US CRYPTO REGULATION incoming! CFTC Chair Mike Selig unveils new rules.",
-    "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank opens crypto trading to 9\u202fmillion customers. XRP, USDT, Solana, Bitcoin, Ethereum now live."
+    "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank opens crypto trading to 9\u202fmillion customers. XRP, USDT, Solana, Bitcoin, Ethereum now live.",
+    "BREAKING: SPACEX ($SPCX) RAISES $40 BILLION IN DEBT TO BUY NVIDIA CHIPS \ud83d\udea9"
   ]
 }
