@@ -216,6 +216,15 @@ EXCLUDE = [
 CONFLICT_PAT = re.compile(
     r"hamas|hezbollah|houthi|hostage|gaza|\bidf\b|airstrike|ceasefire|"
     r"genocide|war crime", re.I)
+# Roundups/schedules/listicles are not news: Cramer's "top 10 things to
+# watch" became repetitive gibberish plus an upside-down photo once.
+# Evergreen + previews never post, on either page.
+LISTICLE_PAT = re.compile(
+    r"things to watch|what to watch|stocks? to watch|week ahead|day ahead|"
+    r"morning brief|evening brief|top \d+|best stocks|stocks? to buy|"
+    r"watchlist|market preview|week in review|looking ahead|"
+    r"\bop-ed\b|opinion:|explainer|earnings calendar|economic calendar|"
+    r"investor day", re.I)
 MARKET_ANGLE_PAT = re.compile(
     r"market|stock|s&p|nasdaq|bitcoin|crypto|oil|gold|dollar|"
     r"tariff|trade|jobs|gdp|inflation|fed|yield|mortgage|"
@@ -641,6 +650,8 @@ def score_entry(title: str, summary: str) -> tuple[int, list[str]]:
     # war/conflict with no market angle is off-brand for Finance+AI
     # (oil-route wars keep their market words and pass).
     if CONFLICT_PAT.search(text) and not MARKET_ANGLE_PAT.search(text):
+        return -100, []
+    if LISTICLE_PAT.search(text):
         return -100, []
     # Famous-stock gate: bank-rating posts only count when they name a
     # $50B+ famous stock. Random small-cap ratings never post.
