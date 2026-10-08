@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "f99897bde7abfc3a",
-    "fb_id": "1264009986803820_122121283839472689",
-    "title": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's largest bank Sberbank officially approved as crypto custodian to launch Bitcoin, Ethereum and USDT products.",
-    "link": "https://x.com/WatcherGuru/status/2107755079172522313",
-    "mode": "viral",
-    "at": "2026-10-08T04:02:17.134679+00:00"
+    "hash": "31edcb10d3042c04",
+    "fb_id": "1264009986803820_122121292803472689",
+    "title": "Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report",
+    "link": "https://www.coindesk.com/markets/2026/10/08/bitcoin-breaks-below-usd83-000-as-oil-jumps-on-iran-strike-plan-report",
+    "mode": "serious",
+    "at": "2026-10-08T04:32:15.708478+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -28,6 +28,7 @@
     "29ec1e6d5581205f",
     "2bbf1d770e89e3e5",
     "2f82b7d57908eb27",
+    "31edcb10d3042c04",
     "321b0f3bbbfcc499",
     "334c8b5f3a1b20db",
     "33cee8ad7b0e1683",
@@ -116,10 +117,9 @@
   "day_counts": {
     "2026-10-06": 15,
     "2026-10-07": 15,
-    "2026-10-08": 9
+    "2026-10-08": 10
   },
   "recent_titles": [
-    "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
     "India\u2019s central bank hikes rates for the first time since 2023 as inflation risks build",
     "Since Strategy adopted the Bitcoin Standard in 2020, Digital Equity ($MSTR) and Digital Capital ($BTC) have delivered 52% and 38% annualized returns, outperforming the stock, gold, real estate, and...",
     "IMF'S GEORGIEVA: GLOBAL PUBLIC DEBT IS SET TO SURPASS 100% OF GDP, WITH ADVANCED ECONOMIES CARRYING THE HEAVIEST BURDENS",
@@ -133,18 +133,10 @@
     "Oil gains as Middle East hostilities stoke supply worries",
     "BREAKING: The \"AI Big 10\" now accounts for a record 42% of US stock market cap. This includes Magnificent 7 stocks as well as Broadcom, $AVGO, AMD, $AMD, and Micron, $MU. This figure has more than ...",
     "JUST IN: $13 trillion Charles Schwab says 64% of Millennials plan to buy Bitcoin & crypto \ud83d\udc40 Bullish! \ud83d\ude80",
-    "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's largest bank Sberbank officially approved as crypto custodian to launch Bitcoin, Ethereum and USDT products."
+    "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's largest bank Sberbank officially approved as crypto custodian to launch Bitcoin, Ethereum and USDT products.",
+    "Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120042535472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-05T12:51:29.642612+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120064969472689",
       "topics": [
@@ -611,6 +603,16 @@
       "mode": "viral",
       "photo": "split:logo+logo",
       "at": "2026-10-08T04:02:17.134679+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121292803472689",
+      "topics": [
+        "crypto",
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-08T04:32:15.708478+00:00"
     }
   ],
   "tuner": {
@@ -632,16 +634,6 @@
   },
   "last_video_post": "2026-10-08",
   "recent_fps": [
-    {
-      "fp": [
-        "asia",
-        "asian",
-        "hormuz",
-        "singapore",
-        "trump"
-      ],
-      "at": "2026-10-07T02:24:13.436969+00:00"
-    },
     {
       "fp": [
         "$2,000",
@@ -913,10 +905,17 @@
         "sberbank"
       ],
       "at": "2026-10-08T04:02:17.134664+00:00"
+    },
+    {
+      "fp": [
+        "$83,000",
+        "bitcoin",
+        "iran"
+      ],
+      "at": "2026-10-08T04:32:15.708467+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: AI BOOM IS RUNNING ON ONE GIANT LOOP \ud83d\udea8",
     "BREAKING: \ud83d\udea8 Bitcoin CRASHes below $84,000 as oil soars after Iranian tanker attacks.",
     "\ud83d\udea8 JUST IN: India's central bank HIKES rates for the first time since 2023.",
     "BREAKING: \ud83d\udea9 Strategy ($MSTR) & Bitcoin ($BTC) outshine gold, real estate, bonds\u201452% & 38% annualized returns since 2020 Bitcoin Standard adoption. Digital equity is the new king. Why still bet on paper? #ethancole #finance #crypto #bitcoin #stockmarket #investing",
@@ -930,6 +929,7 @@
     "BREAKING: \ud83d\udee2\ufe0f OIL prices GAIN on new Iran military operation RUMORS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 The AI Big 10 now owns 42% of U.S. market cap\u2014double 2022 low.",
     "JUST IN: \ud83d\ude80 Charles Schwab ($SCHW) reveals 64% of Millennials plan to BUY BITCOIN & crypto.",
-    "JUST IN: \ud83c\uddf7\ud83c\uddfa SBERBANK approved as crypto custodian to launch 3 products: Bitcoin, Ethereum, USDT. Russia's biggest bank steps into digital asset custody. This could shift crypto regulation in the East. Will other banks follow? #ethancole #crypto #bitcoin #ethereum #marketnews"
+    "JUST IN: \ud83c\uddf7\ud83c\uddfa SBERBANK approved as crypto custodian to launch 3 products: Bitcoin, Ethereum, USDT. Russia's biggest bank steps into digital asset custody. This could shift crypto regulation in the East. Will other banks follow? #ethancole #crypto #bitcoin #ethereum #marketnews",
+    "\ud83d\udea8 BREAKING: Bitcoin ($BTC) CRASHES below $83,000."
   ]
 }
