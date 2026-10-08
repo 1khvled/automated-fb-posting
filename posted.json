@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "e18b53d68b9a46a2",
-    "fb_id": "1264009986803820_122121275427472689",
-    "title": "JUST IN: $13 trillion Charles Schwab says 64% of Millennials plan to buy Bitcoin & crypto \ud83d\udc40 Bullish! \ud83d\ude80",
-    "link": "https://x.com/BitcoinMagazine/status/2107906745603620968",
+    "hash": "f99897bde7abfc3a",
+    "fb_id": "1264009986803820_122121283839472689",
+    "title": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's largest bank Sberbank officially approved as crypto custodian to launch Bitcoin, Ethereum and USDT products.",
+    "link": "https://x.com/WatcherGuru/status/2107755079172522313",
     "mode": "viral",
-    "at": "2026-10-08T03:32:05.901066+00:00"
+    "at": "2026-10-08T04:02:17.134679+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -107,6 +107,7 @@
     "ef9e9adaee7d4177",
     "f041ccdd0f70088f",
     "f657b460fe198b75",
+    "f99897bde7abfc3a",
     "faa585879730d067",
     "fd91eb7bedaa641e",
     "febbc2efe8a87926",
@@ -115,10 +116,9 @@
   "day_counts": {
     "2026-10-06": 15,
     "2026-10-07": 15,
-    "2026-10-08": 8
+    "2026-10-08": 9
   },
   "recent_titles": [
-    "Breaking: Michael Burry says the AI boom is running on one giant loop and time is running out Here's his breakdown: 1. Burry shared a report from Wall Street lender Ares tracking $573B of AI financ...",
     "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
     "India\u2019s central bank hikes rates for the first time since 2023 as inflation risks build",
     "Since Strategy adopted the Bitcoin Standard in 2020, Digital Equity ($MSTR) and Digital Capital ($BTC) have delivered 52% and 38% annualized returns, outperforming the stock, gold, real estate, and...",
@@ -132,18 +132,10 @@
     "JUST IN: Democrat James Talarico is now a 66% favorite to win the Texas Senate race, per Polymarket\u2060.com. It has been back and forth between him and Ken Paxton all race. Texas has not elected a Dem...",
     "Oil gains as Middle East hostilities stoke supply worries",
     "BREAKING: The \"AI Big 10\" now accounts for a record 42% of US stock market cap. This includes Magnificent 7 stocks as well as Broadcom, $AVGO, AMD, $AMD, and Micron, $MU. This figure has more than ...",
-    "JUST IN: $13 trillion Charles Schwab says 64% of Millennials plan to buy Bitcoin & crypto \ud83d\udc40 Bullish! \ud83d\ude80"
+    "JUST IN: $13 trillion Charles Schwab says 64% of Millennials plan to buy Bitcoin & crypto \ud83d\udc40 Bullish! \ud83d\ude80",
+    "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's largest bank Sberbank officially approved as crypto custodian to launch Bitcoin, Ethereum and USDT products."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120031399472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "split:face+logo",
-      "at": "2026-10-05T12:21:11.757275+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120042535472689",
       "topics": [
@@ -610,6 +602,15 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-08T03:32:05.901066+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121283839472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "split:logo+logo",
+      "at": "2026-10-08T04:02:17.134679+00:00"
     }
   ],
   "tuner": {
@@ -631,18 +632,6 @@
   },
   "last_video_post": "2026-10-08",
   "recent_fps": [
-    {
-      "fp": [
-        "$103",
-        "BNB",
-        "BTC",
-        "IN",
-        "JUST",
-        "US",
-        "arkham"
-      ],
-      "at": "2026-10-07T01:53:23.689350+00:00"
-    },
     {
       "fp": [
         "asia",
@@ -912,10 +901,21 @@
         "schwab"
       ],
       "at": "2026-10-08T03:32:05.901049+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "USDT",
+        "bitcoin",
+        "ethereum",
+        "russia",
+        "sberbank"
+      ],
+      "at": "2026-10-08T04:02:17.134664+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 JUST IN: $ETH CRASHES below $2,600.",
     "JUST IN: AI BOOM IS RUNNING ON ONE GIANT LOOP \ud83d\udea8",
     "BREAKING: \ud83d\udea8 Bitcoin CRASHes below $84,000 as oil soars after Iranian tanker attacks.",
     "\ud83d\udea8 JUST IN: India's central bank HIKES rates for the first time since 2023.",
@@ -929,6 +929,7 @@
     "JUST IN: \ud83d\udea8 Democrat James Talarico is now a 66% favorite to WIN the Texas Senate race.",
     "BREAKING: \ud83d\udee2\ufe0f OIL prices GAIN on new Iran military operation RUMORS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 The AI Big 10 now owns 42% of U.S. market cap\u2014double 2022 low.",
-    "JUST IN: \ud83d\ude80 Charles Schwab ($SCHW) reveals 64% of Millennials plan to BUY BITCOIN & crypto."
+    "JUST IN: \ud83d\ude80 Charles Schwab ($SCHW) reveals 64% of Millennials plan to BUY BITCOIN & crypto.",
+    "JUST IN: \ud83c\uddf7\ud83c\uddfa SBERBANK approved as crypto custodian to launch 3 products: Bitcoin, Ethereum, USDT. Russia's biggest bank steps into digital asset custody. This could shift crypto regulation in the East. Will other banks follow? #ethancole #crypto #bitcoin #ethereum #marketnews"
   ]
 }
