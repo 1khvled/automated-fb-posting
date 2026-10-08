@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "8315e5792eb54e84",
-    "fb_id": "1264009986803820_122121258315472689",
-    "title": "Oil gains as Middle East hostilities stoke supply worries",
-    "link": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
+    "hash": "6ca4a493922b82af",
+    "fb_id": "1264009986803820_122121266871472689",
+    "title": "BREAKING: The \"AI Big 10\" now accounts for a record 42% of US stock market cap. This includes Magnificent 7 stocks as well as Broadcom, $AVGO, AMD, $AMD, and Micron, $MU. This figure has more than ...",
+    "link": "https://x.com/KobeissiLetter/status/2108025486907461837",
     "mode": "serious",
-    "at": "2026-10-08T02:31:21.789547+00:00"
+    "at": "2026-10-08T03:03:50.847072+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -54,6 +54,7 @@
     "65239bf3a2c20e14",
     "66f515d28624ba5d",
     "699c6c3d56200756",
+    "6ca4a493922b82af",
     "6dfde226099b02e8",
     "73449aac208c1916",
     "736434c78c60fd62",
@@ -113,10 +114,9 @@
   "day_counts": {
     "2026-10-06": 15,
     "2026-10-07": 15,
-    "2026-10-08": 6
+    "2026-10-08": 7
   },
   "recent_titles": [
-    "\ud83d\udca5\u5929\u5450\uff01Opus 5.5 \u662f\u76ee\u524d\u7814\u7a76\u54c1\u5473\u6700\u51fa\u8272\u7684\u6a21\u578b\uff0c\u662f\u4eba\u7c7b\u9876\u7ea7\u4e13\u5bb6\u76842.3\u500d\uff0c\u4e5f\u66f4\u63a5\u8fd1\u4e8e\u7f16\u7801ASI\uff01 P-Zero \u7684 TasteVal \u5bf9AI\u7814\u7a76\u54c1\u5473\u4e13\u95e8\u8fdb\u884c\u4e86\u5168\u65b9\u4f4d\u7684\u7814\u7a76\u5206\u6790\uff0c\u4ed6\u4eec\u53d1\u73b0\uff1a \ud83d\udd39\u5b9e\u9a8c\u7814\u7a76\u54c1\u5473\u662f\u9876\u7ea7\u4eba\u7c7b\u4e13\u5bb6\u7684 2.3 \u500d\uff0895% CI 1.15\u20134.37\uff09\uff0c\u4e5f\u9ad8\u4e8e\u540c\u671f\u5176\u4ed6\u524d\u6cbf\u6a21\u578b \ud83d\udd39\u540c\u6837\u5206\u6570\uff0cAI\u5927\u7ea6\u7528 17 \u4e2a GPU \u5c0f\u65f6\u6253\u5e73\u4e13\u5bb6\u7684 40 \u5c0f\u65f6 \ud83d\udd39\u5355\u6b21\u6210\u672c\u5927\u7ea6\u53ea\u6709\u4eba\u7c7b\u57fa\u7ebf...",
     "JUST IN: $ETH falls under $2,600 as $400 million in crypto longs are liquidated in the past 20 minutes.",
     "Breaking: Michael Burry says the AI boom is running on one giant loop and time is running out Here's his breakdown: 1. Burry shared a report from Wall Street lender Ares tracking $573B of AI financ...",
     "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
@@ -130,18 +130,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says more oil has passed through the Strait of Hormuz in the last 3 nights than ever before in history.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $6 billion in longer-term debt tomorrow \ud83d\udc40 Buy Bitcoin \ud83d\ude80",
     "JUST IN: Democrat James Talarico is now a 66% favorite to win the Texas Senate race, per Polymarket\u2060.com. It has been back and forth between him and Ken Paxton all race. Texas has not elected a Dem...",
-    "Oil gains as Middle East hostilities stoke supply worries"
+    "Oil gains as Middle East hostilities stoke supply worries",
+    "BREAKING: The \"AI Big 10\" now accounts for a record 42% of US stock market cap. This includes Magnificent 7 stocks as well as Broadcom, $AVGO, AMD, $AMD, and Micron, $MU. This figure has more than ..."
   ],
   "history": [
-    {
-      "fb_id": "1099007942506034",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "at": "2026-10-05T10:46:18.088659+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120021577472689",
       "topics": [
@@ -609,6 +601,15 @@
       "mode": "serious",
       "photo": "split:face",
       "at": "2026-10-08T02:31:21.789547+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121266871472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-08T03:03:50.847072+00:00"
     }
   ],
   "tuner": {
@@ -630,22 +631,6 @@
   },
   "last_video_post": "2026-10-08",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "USDT",
-        "XRP",
-        "africa",
-        "bank",
-        "bitcoin",
-        "ethereum",
-        "national",
-        "solana",
-        "south"
-      ],
-      "at": "2026-10-07T00:32:55.664524+00:00"
-    },
     {
       "fp": [
         "$10",
@@ -902,10 +887,34 @@
         "trump"
       ],
       "at": "2026-10-08T02:31:21.789538+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "AMD",
+        "AVGO",
+        "MU",
+        "TMT",
+        "US",
+        "big",
+        "broadcom",
+        "bubble",
+        "com",
+        "dot",
+        "fifty",
+        "furthe",
+        "magnificent",
+        "media",
+        "micron",
+        "nifty",
+        "technology",
+        "telecom",
+        "this"
+      ],
+      "at": "2026-10-08T03:03:50.847062+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udd25 Bitcoin ($BTC) dives $2,000 in 20 min as $400M of levered longs liquidated in under an hour. Market odds spike; risk of cascade. Traders beware. If you\u2019re holding leveraged positions, this could be a warning sign. #ethancole #bitcoin #crypto #marketnews #investing #breakingnews",
     "JUST IN: \ud83d\udea9 Opus\u202f5.5 is the most refined research\u2011taste model yet, outpacing top human experts 2.3\u00d7 and closer to ASI coding. P\u2011Zero\u2019s TasteVal study shows: \u2022 2.3\u00d7 expert performance (95%\u202fCI\u202f1.15\u20134.37) \u2022 17\u202fGPU\u2011hrs vs 40\u202fhrs for same score \u2022 cost \u22481/30 baseline \u2022 models double every\u202f3\u202fmo after Dec\u202f2025.",
     "\ud83d\udea8 JUST IN: $ETH CRASHES below $2,600.",
     "JUST IN: AI BOOM IS RUNNING ON ONE GIANT LOOP \ud83d\udea8",
@@ -919,6 +928,7 @@
     "JUST IN: \ud83d\udea8 President Trump says record OIL volume through Strait of Hormuz.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 US Treasury to buy back $6 BILLION in debt tomorrow.",
     "JUST IN: \ud83d\udea8 Democrat James Talarico is now a 66% favorite to WIN the Texas Senate race.",
-    "BREAKING: \ud83d\udee2\ufe0f OIL prices GAIN on new Iran military operation RUMORS."
+    "BREAKING: \ud83d\udee2\ufe0f OIL prices GAIN on new Iran military operation RUMORS.",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 The AI Big 10 now owns 42% of U.S. market cap\u2014double 2022 low."
   ]
 }
