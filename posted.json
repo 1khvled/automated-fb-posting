@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "58cfd490098879f3",
-    "fb_id": "1264009986803820_122121221919472689",
-    "title": "BREAKING: The US Pentagon has instructed the US Military to conclude preparations for potentially resuming \"major combat operations\" in Iran, per Axios. Details include: 1. US and Israeli sources s...",
-    "link": "https://x.com/KobeissiLetter/status/2107977179518644668",
+    "hash": "fd91eb7bedaa641e",
+    "fb_id": "1264009986803820_122121228957472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says more oil has passed through the Strait of Hormuz in the last 3 nights than ever before in history.",
+    "link": "https://x.com/WatcherGuru/status/2107986441468883348",
     "mode": "viral",
-    "at": "2026-10-08T00:31:20.505412+00:00"
+    "at": "2026-10-08T01:02:21.583341+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
@@ -103,16 +103,16 @@
     "f041ccdd0f70088f",
     "f657b460fe198b75",
     "faa585879730d067",
+    "fd91eb7bedaa641e",
     "febbc2efe8a87926",
     "ffb7fa8b43514930"
   ],
   "day_counts": {
     "2026-10-06": 15,
     "2026-10-07": 15,
-    "2026-10-08": 2
+    "2026-10-08": 3
   },
   "recent_titles": [
-    "BREAKING: SpaceX, $SPCX, is in talks with banks and investors to raise $40 billion of debt to buy chips from Nvidia amid \"insatiable demand\" among AI developers, per Bloomberg. The company is seeki...",
     "\ud83c\uddfa\ud83c\uddf8 JUST IN: US government wallets just moved over $103M in crypto in nine hours, shipping 833 BTC and 40,285 BNB to unlabeled addresses, per Arkham.",
     "Trump isn't \u2018completely wrong\u2019: Hormuz disruption is Asia\u2019s problem, says Singapore's foreign minister",
     "BREAKING: Bitcoin falls nearly -$2,000 in 20 minutes as $400 million worth of levered longs are liquidated in under one hour.",
@@ -126,18 +126,10 @@
     "JUST IN: \"Big Short\" investor Michael Burry warns a stock market crash is coming. \"The stock market is quite obviously in its first stage of grief, denial. Per 2000 and 2008, this stage lasts 6-9 m...",
     "Diversification is dying. For every $1 invested in the S&P 500, ~41 cents now goes to just the 10 largest stocks. Nvidia, $NVDA, alone accounts for 8 cents, followed by Apple, $AAPL, at 7 cents, Mi...",
     "GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to gr...",
-    "BREAKING: The US Pentagon has instructed the US Military to conclude preparations for potentially resuming \"major combat operations\" in Iran, per Axios. Details include: 1. US and Israeli sources s..."
+    "BREAKING: The US Pentagon has instructed the US Military to conclude preparations for potentially resuming \"major combat operations\" in Iran, per Axios. Details include: 1. US and Israeli sources s...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says more oil has passed through the Strait of Hormuz in the last 3 nights than ever before in history."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122119588809472689",
-      "topics": [
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "split:face+face",
-      "at": "2026-10-04T14:12:37.200767+00:00"
-    },
     {
       "fb_id": "1264009986803820_122119673133472689",
       "topics": [
@@ -603,6 +595,16 @@
       "mode": "viral",
       "photo": "split:face+inst",
       "at": "2026-10-08T00:31:20.505412+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121228957472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-08T01:02:21.583341+00:00"
     }
   ],
   "tuner": {
@@ -624,14 +626,6 @@
   },
   "last_video_post": "2026-10-08",
   "recent_fps": [
-    {
-      "fp": [
-        "ECB",
-        "lane",
-        "there"
-      ],
-      "at": "2026-10-06T07:14:21.429745+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -882,10 +876,20 @@
         "white"
       ],
       "at": "2026-10-08T00:31:20.505403+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "hormuz",
+        "president",
+        "strait",
+        "trump"
+      ],
+      "at": "2026-10-08T01:02:21.583327+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank opens crypto trading to 9\u202fmillion customers. XRP, USDT, Solana, Bitcoin, Ethereum now live.",
     "BREAKING: SPACEX ($SPCX) RAISES $40 BILLION IN DEBT TO BUY NVIDIA CHIPS \ud83d\udea9",
     "\ud83c\uddfa\ud83c\uddf8 JUST IN: US government wallets just shipped $103M in crypto in 9 hrs, moving 833 BTC & 40,285 BNB to unlabeled addresses, per Arkham. The move spikes speculation on state\u2011backed crypto strategy. Why it matters: could signal a new market shift. #ethancole #crypto #bitcoin #finance #marketnews #breakingnews",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Trump says Asia must shoulder more to keep Hormuz open. Singapore\u2019s Vivian Balakrishnan says the problem is Asia\u2019s. 2026-10-07",
@@ -899,6 +903,7 @@
     "JUST IN: \ud83d\udea9 GLOBAL PUBLIC DEBT TO SURPASS 100% OF GDP, warns IMF chief Kristalina Georgieva. The report flags that advanced economies carry the heaviest burdens. \ud83d\udcca GLOBAL PUBLIC DEBT: 100%+ of GDP. \ud83d\udcca ADVANCED ECONOMIES: highest debt ratios",
     "JUST IN: STOCK MARKET CRASH ALERT \ud83d\udea8 Michael Burry says the S&P 500 is in denial, the first grief stage that lasted 6\u20119 months in 2000 & 2008. Today\u2019s all\u2011time high may mask the storm. Why invest when the market\u2019s mood is shifting? #ethancole #finance #stockmarket #investing #breakingnews",
     "JUST IN: \ud83d\udcc8 DIVERSIFICATION IS DYING in the S&P 500.",
-    "\ud83d\udea8 BREAKING: Pentagon orders US Military to prepare for MAJOR COMBAT OPERATIONS in Iran."
+    "\ud83d\udea8 BREAKING: Pentagon orders US Military to prepare for MAJOR COMBAT OPERATIONS in Iran.",
+    "JUST IN: \ud83d\udea8 President Trump says record OIL volume through Strait of Hormuz."
   ]
 }
