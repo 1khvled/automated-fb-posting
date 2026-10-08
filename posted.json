@@ -1,13 +1,14 @@
 {
   "last_post": {
-    "hash": "70921c7e7f00e526",
-    "fb_id": "1264009986803820_122121308169472689",
-    "title": "\ud83c\uddf8\ud83c\uddec TOKEN2049: Institutions are coming onchain, but the Ethereum panel couldn't agree on what to do with all that ETH. Joe Lubin, founder of Consensys, says Ethereum is close to unifying L1, L2s and...",
-    "link": "https://x.com/Cointelegraph/status/2108058939094872227",
+    "hash": "006c6b9c4417defe",
+    "fb_id": "1264009986803820_122121318525472689",
+    "title": "\ud83d\ude02\u6551\u547d\uff01Dario \u5728\u964d\u672c\u589e\u6548\uff0c\u9a6c\u65af\u514b\u5728\u63a5\u5165Opus 5.5\uff0c\u800c Sam Altman \u5728\u5fd9\u4e8e\u89e3\u6570\u5b66\u9898\uff01 \ud83d\udd39\u4e00\u8fb9\uff0cElon Musk \u521a\u5728 Anthropic \u5b98\u53f7\u5e95\u4e0b\u56de\u4e86\u53e5 \u201cCongrats on another great model!\u201d \uff0c\u79f0\u8d5eHaiku 5.5\uff0c\u6bd4\u4e0a\u4e00\u4ee3\u4fbf\u5b9c\u7ea6 75% \ud83d\udd39\u53e6\u4e00\u8fb9\uff0cOpenAI \u7684 Tibo \u53d1\u4e86\u53e5 \u201cGoodbye Grok models\u201d\uff0cSpac...",
+    "link": "https://x.com/NFT_Chen/status/2108076634289168657",
     "mode": "serious",
-    "at": "2026-10-08T05:31:25.945825+00:00"
+    "at": "2026-10-08T06:22:00.877190+00:00"
   },
   "posted_hashes": [
+    "006c6b9c4417defe",
     "0240b2827df88900",
     "0645eb4c06eed671",
     "0709e3e2addffc4e",
@@ -119,10 +120,9 @@
   "day_counts": {
     "2026-10-06": 15,
     "2026-10-07": 15,
-    "2026-10-08": 12
+    "2026-10-08": 13
   },
   "recent_titles": [
-    "IMF'S GEORGIEVA: GLOBAL PUBLIC DEBT IS SET TO SURPASS 100% OF GDP, WITH ADVANCED ECONOMIES CARRYING THE HEAVIEST BURDENS",
     "JUST IN: \"Big Short\" investor Michael Burry warns a stock market crash is coming. \"The stock market is quite obviously in its first stage of grief, denial. Per 2000 and 2008, this stage lasts 6-9 m...",
     "Diversification is dying. For every $1 invested in the S&P 500, ~41 cents now goes to just the 10 largest stocks. Nvidia, $NVDA, alone accounts for 8 cents, followed by Apple, $AAPL, at 7 cents, Mi...",
     "GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to gr...",
@@ -136,20 +136,10 @@
     "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's largest bank Sberbank officially approved as crypto custodian to launch Bitcoin, Ethereum and USDT products.",
     "Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Samsung partners with Solana to enable crypto stablecoin transactions for 82 million devices in US with Samsung Wallet.",
-    "\ud83c\uddf8\ud83c\uddec TOKEN2049: Institutions are coming onchain, but the Ethereum panel couldn't agree on what to do with all that ETH. Joe Lubin, founder of Consensys, says Ethereum is close to unifying L1, L2s and..."
+    "\ud83c\uddf8\ud83c\uddec TOKEN2049: Institutions are coming onchain, but the Ethereum panel couldn't agree on what to do with all that ETH. Joe Lubin, founder of Consensys, says Ethereum is close to unifying L1, L2s and...",
+    "\ud83d\ude02\u6551\u547d\uff01Dario \u5728\u964d\u672c\u589e\u6548\uff0c\u9a6c\u65af\u514b\u5728\u63a5\u5165Opus 5.5\uff0c\u800c Sam Altman \u5728\u5fd9\u4e8e\u89e3\u6570\u5b66\u9898\uff01 \ud83d\udd39\u4e00\u8fb9\uff0cElon Musk \u521a\u5728 Anthropic \u5b98\u53f7\u5e95\u4e0b\u56de\u4e86\u53e5 \u201cCongrats on another great model!\u201d \uff0c\u79f0\u8d5eHaiku 5.5\uff0c\u6bd4\u4e0a\u4e00\u4ee3\u4fbf\u5b9c\u7ea6 75% \ud83d\udd39\u53e6\u4e00\u8fb9\uff0cOpenAI \u7684 Tibo \u53d1\u4e86\u53e5 \u201cGoodbye Grok models\u201d\uff0cSpac..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120087679472689",
-      "topics": [
-        "ai",
-        "crypto",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-05T14:51:23.834341+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120098269472689",
       "topics": [
@@ -614,6 +604,15 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-08T05:31:25.945825+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121318525472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "split:face+face",
+      "at": "2026-10-08T06:22:00.877190+00:00"
     }
   ],
   "tuner": {
@@ -635,16 +634,6 @@
   },
   "last_video_post": "2026-10-08",
   "recent_fps": [
-    {
-      "fp": [
-        "$2,600",
-        "$400",
-        "ETH",
-        "IN",
-        "JUST"
-      ],
-      "at": "2026-10-07T03:51:20.904461+00:00"
-    },
     {
       "fp": [
         "$573",
@@ -922,10 +911,28 @@
         "tabar"
       ],
       "at": "2026-10-08T05:31:25.945809+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "altman",
+        "anthropic",
+        "congrats",
+        "dario",
+        "dots",
+        "elon",
+        "goodbye",
+        "grok",
+        "lauren",
+        "musk",
+        "sam",
+        "spac",
+        "tibo"
+      ],
+      "at": "2026-10-08T06:22:00.877176+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udea9 Strategy ($MSTR) & Bitcoin ($BTC) outshine gold, real estate, bonds\u201452% & 38% annualized returns since 2020 Bitcoin Standard adoption. Digital equity is the new king. Why still bet on paper? #ethancole #finance #crypto #bitcoin #stockmarket #investing",
     "JUST IN: \ud83d\udea9 GLOBAL PUBLIC DEBT TO SURPASS 100% OF GDP, warns IMF chief Kristalina Georgieva. The report flags that advanced economies carry the heaviest burdens. \ud83d\udcca GLOBAL PUBLIC DEBT: 100%+ of GDP. \ud83d\udcca ADVANCED ECONOMIES: highest debt ratios",
     "JUST IN: STOCK MARKET CRASH ALERT \ud83d\udea8 Michael Burry says the S&P 500 is in denial, the first grief stage that lasted 6\u20119 months in 2000 & 2008. Today\u2019s all\u2011time high may mask the storm. Why invest when the market\u2019s mood is shifting? #ethancole #finance #stockmarket #investing #breakingnews",
     "JUST IN: \ud83d\udcc8 DIVERSIFICATION IS DYING in the S&P 500.",
@@ -939,6 +946,7 @@
     "JUST IN: \ud83c\uddf7\ud83c\uddfa SBERBANK approved as crypto custodian to launch 3 products: Bitcoin, Ethereum, USDT. Russia's biggest bank steps into digital asset custody. This could shift crypto regulation in the East. Will other banks follow? #ethancole #crypto #bitcoin #ethereum #marketnews",
     "\ud83d\udea8 BREAKING: Bitcoin ($BTC) CRASHES below $83,000.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Samsung + Solana unlock crypto stablecoin payments on 82M US devices with Samsung Wallet.",
-    "JUST IN: \ud83c\uddf8\ud83c\uddec Institutions are coming ONCHAIN, but Ethereum panel can't agree on ETH's future."
+    "JUST IN: \ud83c\uddf8\ud83c\uddec Institutions are coming ONCHAIN, but Ethereum panel can't agree on ETH's future.",
+    "\ud83d\udea8 BREAKING: Elon Musk PRAISES Anthropic's Haiku 5.5, 75% CHEAPER than previous."
   ]
 }
