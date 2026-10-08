@@ -1,17 +1,19 @@
 {
   "last_post": {
-    "hash": "4d61c8b851c9cafd",
-    "fb_id": "1264009986803820_122120877291472689",
-    "title": "Diversification is dying. For every $1 invested in the S&P 500, ~41 cents now goes to just the 10 largest stocks. Nvidia, $NVDA, alone accounts for 8 cents, followed by Apple, $AAPL, at 7 cents, Mi...",
-    "link": "https://x.com/KobeissiLetter/status/2107519296595284450",
+    "hash": "08f210dc7becee93",
+    "fb_id": "1836015930615071",
+    "title": "GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to gr...",
+    "link": "https://x.com/OpenAI/status/2107894997538525580",
     "mode": "viral",
-    "at": "2026-10-07T07:23:09.643444+00:00"
+    "kind": "video",
+    "at": "2026-10-08T00:02:33.062448+00:00"
   },
   "posted_hashes": [
     "0240b2827df88900",
     "0645eb4c06eed671",
     "0709e3e2addffc4e",
     "08ac912336069268",
+    "08f210dc7becee93",
     "100a2e3d51fa9091",
     "11e9a2979f0b49a2",
     "163b472205423d09",
@@ -105,12 +107,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-05": 15,
     "2026-10-06": 15,
-    "2026-10-07": 15
+    "2026-10-07": 15,
+    "2026-10-08": 1
   },
   "recent_titles": [
-    "Trump: Democrats can\u2019t do the dividend because they don\u2019t do tariffs. Therefore, the country is gonna go bankrupt.",
     "JUST IN: \ud83c\uddff\ud83c\udde6 South Africa's First National Bank launches crypto trading for nearly 9 million customers. The following cryptocurrencies can now be traded: \u2022 XRP \u2022 USDT \u2022 Solana \u2022 Bitcoin \u2022 Ethereum",
     "BREAKING: SpaceX, $SPCX, is in talks with banks and investors to raise $40 billion of debt to buy chips from Nvidia amid \"insatiable demand\" among AI developers, per Bloomberg. The company is seeki...",
     "\ud83c\uddfa\ud83c\uddf8 JUST IN: US government wallets just moved over $103M in crypto in nine hours, shipping 833 BTC and 40,285 BNB to unlabeled addresses, per Arkham.",
@@ -124,19 +125,10 @@
     "Since Strategy adopted the Bitcoin Standard in 2020, Digital Equity ($MSTR) and Digital Capital ($BTC) have delivered 52% and 38% annualized returns, outperforming the stock, gold, real estate, and...",
     "IMF'S GEORGIEVA: GLOBAL PUBLIC DEBT IS SET TO SURPASS 100% OF GDP, WITH ADVANCED ECONOMIES CARRYING THE HEAVIEST BURDENS",
     "JUST IN: \"Big Short\" investor Michael Burry warns a stock market crash is coming. \"The stock market is quite obviously in its first stage of grief, denial. Per 2000 and 2008, this stage lasts 6-9 m...",
-    "Diversification is dying. For every $1 invested in the S&P 500, ~41 cents now goes to just the 10 largest stocks. Nvidia, $NVDA, alone accounts for 8 cents, followed by Apple, $AAPL, at 7 cents, Mi..."
+    "Diversification is dying. For every $1 invested in the S&P 500, ~41 cents now goes to just the 10 largest stocks. Nvidia, $NVDA, alone accounts for 8 cents, followed by Apple, $AAPL, at 7 cents, Mi...",
+    "GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to gr..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122119324959472689",
-      "topics": [
-        "inflation",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-04T01:59:37.327406+00:00"
-    },
     {
       "fb_id": "1101708288886572",
       "topics": [
@@ -601,12 +593,20 @@
       "mode": "viral",
       "photo": "split:logo+logo",
       "at": "2026-10-07T07:23:09.643444+00:00"
+    },
+    {
+      "fb_id": "1836015930615071",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-10-08T00:02:33.062448+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-07"
+    "updated": "2026-10-08"
   },
   "comment_review": {
     "posts": 8,
@@ -618,28 +618,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-07"
+    "updated": "2026-10-08"
   },
-  "last_video_post": "2026-10-07",
+  "last_video_post": "2026-10-08",
   "recent_fps": [
-    {
-      "fp": [
-        "$11,726",
-        "$12,529",
-        "$2,084",
-        "$200",
-        "GPT",
-        "anthropic",
-        "claude",
-        "fable",
-        "max",
-        "opus",
-        "pro",
-        "sol",
-        "sonnet"
-      ],
-      "at": "2026-10-06T06:12:32.195719+00:00"
-    },
     {
       "fp": [
         "moscow",
@@ -882,6 +864,14 @@
         "tesla"
       ],
       "at": "2026-10-07T07:23:09.643432+00:00"
+    },
+    {
+      "fp": [
+        "GPT",
+        "UI",
+        "intelligent"
+      ],
+      "at": "2026-10-08T00:02:33.062437+00:00"
     }
   ],
   "recent_hooks": [
