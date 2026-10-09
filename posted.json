@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "06e66bab9ed6a263",
-    "fb_id": "1264009986803820_122121713283472689",
-    "title": "BREAKING: The Nasdaq 100 extends losses to -1.5% on the day as oil prices rise and OpenAI\u2019s annualized revenue comes in $20 billion below expectations.",
-    "link": "https://x.com/KobeissiLetter/status/2108269075843760291",
-    "mode": "viral",
-    "at": "2026-10-09T01:03:03.421317+00:00"
+    "hash": "1b28613e6ccbab62",
+    "fb_id": "1264009986803820_122121722871472689",
+    "title": "CRUDE OIL WEAKENS BELOW $90.50 AS TRUMP RULES OUT PRE-ELECTION MILITARY ACTION AGAINST IRAN - FX",
+    "link": "https://x.com/FirstSquawk/status/2108369354836660249",
+    "mode": "serious",
+    "at": "2026-10-09T01:31:46.809921+00:00"
   },
   "posted_hashes": [
     "006c6b9c4417defe",
@@ -21,6 +21,7 @@
     "163b472205423d09",
     "191614348896e501",
     "1962708cba969b70",
+    "1b28613e6ccbab62",
     "1d0fcda880497169",
     "1ee80daa10c57716",
     "23b87ba2a601b4f6",
@@ -125,10 +126,9 @@
   "day_counts": {
     "2026-10-07": 15,
     "2026-10-08": 15,
-    "2026-10-09": 3
+    "2026-10-09": 4
   },
   "recent_titles": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $6 billion in longer-term debt tomorrow \ud83d\udc40 Buy Bitcoin \ud83d\ude80",
     "JUST IN: Democrat James Talarico is now a 66% favorite to win the Texas Senate race, per Polymarket\u2060.com. It has been back and forth between him and Ken Paxton all race. Texas has not elected a Dem...",
     "Oil gains as Middle East hostilities stoke supply worries",
     "BREAKING: The \"AI Big 10\" now accounts for a record 42% of US stock market cap. This includes Magnificent 7 stocks as well as Broadcom, $AVGO, AMD, $AMD, and Micron, $MU. This figure has more than ...",
@@ -142,20 +142,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Banking giant Wells Fargo in talks with Kraken's parent company to provide crypto trading liquidity.",
     "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work. Near-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says \"America is no longer sitting back while crypto moves overseas, and other countries set the standard.\" \"America leading the way.\" Over the past month, the CFTC has taken the f...",
-    "BREAKING: The Nasdaq 100 extends losses to -1.5% on the day as oil prices rise and OpenAI\u2019s annualized revenue comes in $20 billion below expectations."
+    "BREAKING: The Nasdaq 100 extends losses to -1.5% on the day as oil prices rise and OpenAI\u2019s annualized revenue comes in $20 billion below expectations.",
+    "CRUDE OIL WEAKENS BELOW $90.50 AS TRUMP RULES OUT PRE-ELECTION MILITARY ACTION AGAINST IRAN - FX"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120158971472689",
-      "topics": [
-        "crypto",
-        "fed",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "split:face+inst",
-      "at": "2026-10-05T17:52:21.259309+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120169585472689",
       "topics": [
@@ -617,6 +607,16 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-09T01:03:03.421317+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121722871472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "face",
+      "at": "2026-10-09T01:31:46.809921+00:00"
     }
   ],
   "tuner": {
@@ -638,19 +638,6 @@
   },
   "last_video_post": "2026-10-09",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "big",
-        "burry",
-        "michael",
-        "per",
-        "short",
-        "today"
-      ],
-      "at": "2026-10-07T06:52:54.093382+00:00"
-    },
     {
       "fp": [
         "$1",
@@ -920,10 +907,26 @@
         "nasdaq"
       ],
       "at": "2026-10-09T01:03:03.421309+00:00"
+    },
+    {
+      "fp": [
+        "$90.50",
+        "ACTION",
+        "AS",
+        "BELOW",
+        "CRUDE",
+        "FX",
+        "IRAN",
+        "OIL",
+        "OUT",
+        "PRE",
+        "RULE",
+        "TRUMP"
+      ],
+      "at": "2026-10-09T01:31:46.809911+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 President Trump says record OIL volume through Strait of Hormuz.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 US Treasury to buy back $6 BILLION in debt tomorrow.",
     "JUST IN: \ud83d\udea8 Democrat James Talarico is now a 66% favorite to WIN the Texas Senate race.",
     "BREAKING: \ud83d\udee2\ufe0f OIL prices GAIN on new Iran military operation RUMORS.",
@@ -937,6 +940,7 @@
     "BREAKING: \ud83d\udea9 ECB says 100% of euro\u2011area inflation comes from energy. Inflation is 100% energy in the Euro area. \u26a1 100% energy\u2011driven price rise.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo in talks to provide crypto TRADING liquidity to Kraken's parent.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says America is no longer idle while crypto moves overseas \u2013 the U.S. is leading. After Congress stalled the Clarity Act, Chair Mike Selig ordered a formal crypto framework and opened a path for devs. \u26a1 2 decisive moves. Why it matters? The U.S",
-    "BREAKING: \ud83d\udea8 NASDAQ 100 sinks 1.5% as oil prices climb and OpenAI\u2019s annualized revenue falls $20B below expectations. Oil\u2019s rally fuels a tech sell\u2011off, pushing the index deeper into red. Why it matters: investors face tech weakness and energy gains. What\u2019s next for tech stocks? #ethancole #ai #technews #stockmarket #investing #breakingnews"
+    "BREAKING: \ud83d\udea8 NASDAQ 100 sinks 1.5% as oil prices climb and OpenAI\u2019s annualized revenue falls $20B below expectations. Oil\u2019s rally fuels a tech sell\u2011off, pushing the index deeper into red. Why it matters: investors face tech weakness and energy gains. What\u2019s next for tech stocks? #ethancole #ai #technews #stockmarket #investing #breakingnews",
+    "JUST IN: \ud83d\udea9 CRUDE OIL SLIPS BELOW $90.50 PER BARREL as President Trump rules out pre\u2011election military action against Iran. Oil fell 0.8% in early trade, breaching the $90.50 threshold. Lower prices could ease inflationary pressure and calm market volatility"
   ]
 }
