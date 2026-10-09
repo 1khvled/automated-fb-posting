@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "2fefdaf693a6683e",
-    "fb_id": "1264009986803820_122121756783472689",
-    "title": "We\u2019re launching the Anthropic Cyber Mission, a new effort to secure critical infrastructure and open-source software.",
-    "link": "https://x.com/AnthropicAI/status/2108302539498414208",
+    "hash": "7ecc262303aef709",
+    "fb_id": "1264009986803820_122121763143472689",
+    "title": "BREAKING: Bitcoin falls below $81,000 as over $400 million worth of levered longs are liquidated in 60 minutes.",
+    "link": "https://x.com/KobeissiLetter/status/2108222195881406769",
     "mode": "viral",
-    "at": "2026-10-09T03:32:16.107904+00:00"
+    "at": "2026-10-09T04:03:02.054691+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -72,6 +72,7 @@
     "77abba66d602fa6d",
     "7dd4c394ede9d017",
     "7e0de86880325769",
+    "7ecc262303aef709",
     "7edfc3f168220e43",
     "7f0d3da8ca7d890e",
     "8315e5792eb54e84",
@@ -130,10 +131,9 @@
   "day_counts": {
     "2026-10-07": 15,
     "2026-10-08": 15,
-    "2026-10-09": 8
+    "2026-10-09": 9
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's largest bank Sberbank officially approved as crypto custodian to launch Bitcoin, Ethereum and USDT products.",
     "Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Samsung partners with Solana to enable crypto stablecoin transactions for 82 million devices in US with Samsung Wallet.",
     "\ud83c\uddf8\ud83c\uddec TOKEN2049: Institutions are coming onchain, but the Ethereum panel couldn't agree on what to do with all that ETH. Joe Lubin, founder of Consensys, says Ethereum is close to unifying L1, L2s and...",
@@ -147,18 +147,10 @@
     "SPOT GOLD ADVANCES TO $4,173.05 PER OUNCE, UP AROUND 1%",
     "JUST IN: Bitcoin $BTC falls under $82,000 and $ETH falls under $2,500. $185,000,000 liquidated from the crypto market in the past 60 minutes.",
     "China authorizes non-state crude oil import quota for 2027 at 257 million metric tons: commerce ministry",
-    "We\u2019re launching the Anthropic Cyber Mission, a new effort to secure critical infrastructure and open-source software."
+    "We\u2019re launching the Anthropic Cyber Mission, a new effort to secure critical infrastructure and open-source software.",
+    "BREAKING: Bitcoin falls below $81,000 as over $400 million worth of levered longs are liquidated in 60 minutes."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120318121472689",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-06T01:53:10.994662+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120327643472689",
       "topics": [
@@ -619,6 +611,15 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-09T03:32:16.107904+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121763143472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-09T04:03:02.054691+00:00"
     }
   ],
   "tuner": {
@@ -640,17 +641,6 @@
   },
   "last_video_post": "2026-10-09",
   "recent_fps": [
-    {
-      "fp": [
-        "$6",
-        "US",
-        "bitcoin",
-        "buy",
-        "department",
-        "treasury"
-      ],
-      "at": "2026-10-08T01:32:05.930826+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -904,10 +894,17 @@
         "mission"
       ],
       "at": "2026-10-09T03:32:16.107892+00:00"
+    },
+    {
+      "fp": [
+        "$400",
+        "$81,000",
+        "bitcoin"
+      ],
+      "at": "2026-10-09T04:03:02.054682+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\ude80 Charles Schwab ($SCHW) reveals 64% of Millennials plan to BUY BITCOIN & crypto.",
     "JUST IN: \ud83c\uddf7\ud83c\uddfa SBERBANK approved as crypto custodian to launch 3 products: Bitcoin, Ethereum, USDT. Russia's biggest bank steps into digital asset custody. This could shift crypto regulation in the East. Will other banks follow? #ethancole #crypto #bitcoin #ethereum #marketnews",
     "\ud83d\udea8 BREAKING: Bitcoin ($BTC) CRASHES below $83,000.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Samsung + Solana unlock crypto stablecoin payments on 82M US devices with Samsung Wallet.",
@@ -921,6 +918,7 @@
     "JUST IN: \ud83d\udea9 SPOT GOLD JUMPS 1% to $4,173.05/oz",
     "JUST IN: \ud83d\udea9 Bitcoin $BTC slips under $82,000, ETH under $2,500, $185M liquidated in 60 mins.",
     "JUST IN: \ud83d\udea9 China clears 2027 crude import quota at 257\u202fM metric tons.",
-    "JUST IN: ANTHROPIC LAUNCHES CYBER MISSION to guard critical infrastructure & open\u2011source software \ud83d\udea8"
+    "JUST IN: ANTHROPIC LAUNCHES CYBER MISSION to guard critical infrastructure & open\u2011source software \ud83d\udea8",
+    "BREAKING: Bitcoin slips under $81,000 after $400M of leveraged longs wiped out in 60 minutes. Market odds spiked, liquidity evaporated. $BTC now under $81k, a 5% drop from yesterday. Why it matters: panic could ripple to altcoins. Will the rally recover or keep falling? #ethancole #bitcoin #crypto #marketnews #investing"
   ]
 }
