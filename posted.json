@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "1957b710635e93a0",
-    "fb_id": "1264009986803820_122121740019472689",
-    "title": "JUST IN: Bitcoin $BTC falls under $82,000 and $ETH falls under $2,500. $185,000,000 liquidated from the crypto market in the past 60 minutes.",
-    "link": "https://x.com/WatcherGuru/status/2108216593159233906",
-    "mode": "viral",
-    "at": "2026-10-09T02:33:01.222390+00:00"
+    "hash": "bbe5f378455409e5",
+    "fb_id": "1264009986803820_122121748095472689",
+    "title": "China authorizes non-state crude oil import quota for 2027 at 257 million metric tons: commerce ministry",
+    "link": "https://www.financialjuice.com/News/9798224/China-authorizes-non-state-crude-oil-import-quota-for-2027-at-257-million-metric-tons-commerce-ministry.aspx?xy=rss",
+    "mode": "serious",
+    "at": "2026-10-09T03:02:39.142238+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -101,6 +101,7 @@
     "ba533a34928a8dc1",
     "ba53dd395241dbaf",
     "baa35c16631d5782",
+    "bbe5f378455409e5",
     "bbec67196eba705d",
     "beda8733ff194127",
     "d1ada08f4696f8f6",
@@ -128,10 +129,9 @@
   "day_counts": {
     "2026-10-07": 15,
     "2026-10-08": 15,
-    "2026-10-09": 6
+    "2026-10-09": 7
   },
   "recent_titles": [
-    "BREAKING: The \"AI Big 10\" now accounts for a record 42% of US stock market cap. This includes Magnificent 7 stocks as well as Broadcom, $AVGO, AMD, $AMD, and Micron, $MU. This figure has more than ...",
     "JUST IN: $13 trillion Charles Schwab says 64% of Millennials plan to buy Bitcoin & crypto \ud83d\udc40 Bullish! \ud83d\ude80",
     "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's largest bank Sberbank officially approved as crypto custodian to launch Bitcoin, Ethereum and USDT products.",
     "Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report",
@@ -145,18 +145,10 @@
     "BREAKING: The Nasdaq 100 extends losses to -1.5% on the day as oil prices rise and OpenAI\u2019s annualized revenue comes in $20 billion below expectations.",
     "CRUDE OIL WEAKENS BELOW $90.50 AS TRUMP RULES OUT PRE-ELECTION MILITARY ACTION AGAINST IRAN - FX",
     "SPOT GOLD ADVANCES TO $4,173.05 PER OUNCE, UP AROUND 1%",
-    "JUST IN: Bitcoin $BTC falls under $82,000 and $ETH falls under $2,500. $185,000,000 liquidated from the crypto market in the past 60 minutes."
+    "JUST IN: Bitcoin $BTC falls under $82,000 and $ETH falls under $2,500. $185,000,000 liquidated from the crypto market in the past 60 minutes.",
+    "China authorizes non-state crude oil import quota for 2027 at 257 million metric tons: commerce ministry"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120299833472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-06T00:43:36.642029+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120309823472689",
       "topics": [
@@ -618,6 +610,15 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-09T02:33:01.222390+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121748095472689",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-09T03:02:39.142238+00:00"
     }
   ],
   "tuner": {
@@ -639,23 +640,6 @@
   },
   "last_video_post": "2026-10-09",
   "recent_fps": [
-    {
-      "fp": [
-        "US",
-        "axios",
-        "details",
-        "friday",
-        "house",
-        "iran",
-        "israeli",
-        "military",
-        "pentagon",
-        "president",
-        "trump",
-        "white"
-      ],
-      "at": "2026-10-08T00:31:20.505403+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -917,10 +901,15 @@
         "bitcoin"
       ],
       "at": "2026-10-09T02:33:01.222368+00:00"
+    },
+    {
+      "fp": [
+        "china"
+      ],
+      "at": "2026-10-09T03:02:39.142226+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udee2\ufe0f OIL prices GAIN on new Iran military operation RUMORS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 The AI Big 10 now owns 42% of U.S. market cap\u2014double 2022 low.",
     "JUST IN: \ud83d\ude80 Charles Schwab ($SCHW) reveals 64% of Millennials plan to BUY BITCOIN & crypto.",
     "JUST IN: \ud83c\uddf7\ud83c\uddfa SBERBANK approved as crypto custodian to launch 3 products: Bitcoin, Ethereum, USDT. Russia's biggest bank steps into digital asset custody. This could shift crypto regulation in the East. Will other banks follow? #ethancole #crypto #bitcoin #ethereum #marketnews",
@@ -934,6 +923,7 @@
     "BREAKING: \ud83d\udea8 NASDAQ 100 sinks 1.5% as oil prices climb and OpenAI\u2019s annualized revenue falls $20B below expectations. Oil\u2019s rally fuels a tech sell\u2011off, pushing the index deeper into red. Why it matters: investors face tech weakness and energy gains. What\u2019s next for tech stocks? #ethancole #ai #technews #stockmarket #investing #breakingnews",
     "JUST IN: \ud83d\udea9 CRUDE OIL SLIPS BELOW $90.50 PER BARREL as President Trump rules out pre\u2011election military action against Iran. Oil fell 0.8% in early trade, breaching the $90.50 threshold. Lower prices could ease inflationary pressure and calm market volatility",
     "JUST IN: \ud83d\udea9 SPOT GOLD JUMPS 1% to $4,173.05/oz",
-    "JUST IN: \ud83d\udea9 Bitcoin $BTC slips under $82,000, ETH under $2,500, $185M liquidated in 60 mins."
+    "JUST IN: \ud83d\udea9 Bitcoin $BTC slips under $82,000, ETH under $2,500, $185M liquidated in 60 mins.",
+    "JUST IN: \ud83d\udea9 China clears 2027 crude import quota at 257\u202fM metric tons."
   ]
 }
