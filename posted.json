@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "7509d90fd4de9e6c",
-    "fb_id": "1264009986803820_122121340929472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Banking giant Wells Fargo in talks with Kraken's parent company to provide crypto trading liquidity.",
-    "link": "https://x.com/WatcherGuru/status/2107927408137720191",
+    "hash": "0afa79877035161a",
+    "fb_id": "1584614626219382",
+    "title": "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work. Near-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come.",
+    "link": "https://x.com/OpenAIDevs/status/2108262812489531498",
     "mode": "viral",
-    "at": "2026-10-08T07:31:30.753220+00:00"
+    "kind": "video",
+    "at": "2026-10-09T00:04:30.411463+00:00"
   },
   "posted_hashes": [
     "006c6b9c4417defe",
@@ -14,6 +15,7 @@
     "0709e3e2addffc4e",
     "08ac912336069268",
     "08f210dc7becee93",
+    "0afa79877035161a",
     "100a2e3d51fa9091",
     "11e9a2979f0b49a2",
     "163b472205423d09",
@@ -120,12 +122,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-06": 15,
     "2026-10-07": 15,
-    "2026-10-08": 15
+    "2026-10-08": 15,
+    "2026-10-09": 1
   },
   "recent_titles": [
-    "GPT-6 and Intelligent UI, now rolling out in ChatGPT for everyone. Intelligent UI in ChatGPT delivers fast, interactive answers that make everyday questions more visual, complex topics easier to gr...",
     "BREAKING: The US Pentagon has instructed the US Military to conclude preparations for potentially resuming \"major combat operations\" in Iran, per Axios. Details include: 1. US and Israeli sources s...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says more oil has passed through the Strait of Hormuz in the last 3 nights than ever before in history.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $6 billion in longer-term debt tomorrow \ud83d\udc40 Buy Bitcoin \ud83d\ude80",
@@ -139,19 +140,10 @@
     "\ud83c\uddf8\ud83c\uddec TOKEN2049: Institutions are coming onchain, but the Ethereum panel couldn't agree on what to do with all that ETH. Joe Lubin, founder of Consensys, says Ethereum is close to unifying L1, L2s and...",
     "\ud83d\ude02\u6551\u547d\uff01Dario \u5728\u964d\u672c\u589e\u6548\uff0c\u9a6c\u65af\u514b\u5728\u63a5\u5165Opus 5.5\uff0c\u800c Sam Altman \u5728\u5fd9\u4e8e\u89e3\u6570\u5b66\u9898\uff01 \ud83d\udd39\u4e00\u8fb9\uff0cElon Musk \u521a\u5728 Anthropic \u5b98\u53f7\u5e95\u4e0b\u56de\u4e86\u53e5 \u201cCongrats on another great model!\u201d \uff0c\u79f0\u8d5eHaiku 5.5\uff0c\u6bd4\u4e0a\u4e00\u4ee3\u4fbf\u5b9c\u7ea6 75% \ud83d\udd39\u53e6\u4e00\u8fb9\uff0cOpenAI \u7684 Tibo \u53d1\u4e86\u53e5 \u201cGoodbye Grok models\u201d\uff0cSpac...",
     "ECB's Moulin: Inflation is 100% energy in the Euro area",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Banking giant Wells Fargo in talks with Kraken's parent company to provide crypto trading liquidity."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Banking giant Wells Fargo in talks with Kraken's parent company to provide crypto trading liquidity.",
+    "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work. Near-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120116785472689",
-      "topics": [
-        "inflation",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "face",
-      "at": "2026-10-05T16:22:12.064845+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120131185472689",
       "topics": [
@@ -615,12 +607,20 @@
       "mode": "viral",
       "photo": "flag:us-nd",
       "at": "2026-10-08T07:31:30.753220+00:00"
+    },
+    {
+      "fb_id": "1584614626219382",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-10-09T00:04:30.411463+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-08"
+    "updated": "2026-10-09"
   },
   "comment_review": {
     "posts": 8,
@@ -632,21 +632,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-08"
+    "updated": "2026-10-09"
   },
-  "last_video_post": "2026-10-08",
+  "last_video_post": "2026-10-09",
   "recent_fps": [
-    {
-      "fp": [
-        "HSBC",
-        "RBI",
-        "december",
-        "goldman",
-        "india",
-        "sachs"
-      ],
-      "at": "2026-10-07T05:22:32.416861+00:00"
-    },
     {
       "fp": [
         "BTC",
@@ -922,6 +911,21 @@
         "wells"
       ],
       "at": "2026-10-08T07:31:30.753205+00:00"
+    },
+    {
+      "fp": [
+        "8x",
+        "API",
+        "GPT",
+        "astra",
+        "codex",
+        "near",
+        "sol",
+        "standard",
+        "ultrafast",
+        "work"
+      ],
+      "at": "2026-10-09T00:04:30.411451+00:00"
     }
   ],
   "recent_hooks": [
