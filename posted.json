@@ -1,16 +1,17 @@
 {
   "last_post": {
-    "hash": "eacc6893c16ea1dc",
-    "fb_id": "1264009986803820_122121703083472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says \"America is no longer sitting back while crypto moves overseas, and other countries set the standard.\" \"America leading the way.\" Over the past month, the CFTC has taken the f...",
-    "link": "https://x.com/WatcherGuru/status/2108231964717179353",
+    "hash": "06e66bab9ed6a263",
+    "fb_id": "1264009986803820_122121713283472689",
+    "title": "BREAKING: The Nasdaq 100 extends losses to -1.5% on the day as oil prices rise and OpenAI\u2019s annualized revenue comes in $20 billion below expectations.",
+    "link": "https://x.com/KobeissiLetter/status/2108269075843760291",
     "mode": "viral",
-    "at": "2026-10-09T00:32:29.073618+00:00"
+    "at": "2026-10-09T01:03:03.421317+00:00"
   },
   "posted_hashes": [
     "006c6b9c4417defe",
     "0240b2827df88900",
     "0645eb4c06eed671",
+    "06e66bab9ed6a263",
     "0709e3e2addffc4e",
     "08ac912336069268",
     "08f210dc7becee93",
@@ -124,10 +125,9 @@
   "day_counts": {
     "2026-10-07": 15,
     "2026-10-08": 15,
-    "2026-10-09": 2
+    "2026-10-09": 3
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says more oil has passed through the Strait of Hormuz in the last 3 nights than ever before in history.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 US Treasury Department to buy back up to $6 billion in longer-term debt tomorrow \ud83d\udc40 Buy Bitcoin \ud83d\ude80",
     "JUST IN: Democrat James Talarico is now a 66% favorite to win the Texas Senate race, per Polymarket\u2060.com. It has been back and forth between him and Ken Paxton all race. Texas has not elected a Dem...",
     "Oil gains as Middle East hostilities stoke supply worries",
@@ -141,19 +141,10 @@
     "ECB's Moulin: Inflation is 100% energy in the Euro area",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Banking giant Wells Fargo in talks with Kraken's parent company to provide crypto trading liquidity.",
     "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work. Near-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says \"America is no longer sitting back while crypto moves overseas, and other countries set the standard.\" \"America leading the way.\" Over the past month, the CFTC has taken the f..."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says \"America is no longer sitting back while crypto moves overseas, and other countries set the standard.\" \"America leading the way.\" Over the past month, the CFTC has taken the f...",
+    "BREAKING: The Nasdaq 100 extends losses to -1.5% on the day as oil prices rise and OpenAI\u2019s annualized revenue comes in $20 billion below expectations."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120142363472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "face",
-      "at": "2026-10-05T17:21:29.885937+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120158971472689",
       "topics": [
@@ -615,6 +606,17 @@
       "mode": "viral",
       "photo": "inst:capitol",
       "at": "2026-10-09T00:32:29.073618+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121713283472689",
+      "topics": [
+        "ai",
+        "gold_oil",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-09T01:03:03.421317+00:00"
     }
   ],
   "tuner": {
@@ -636,22 +638,6 @@
   },
   "last_video_post": "2026-10-09",
   "recent_fps": [
-    {
-      "fp": [
-        "DEBT",
-        "GDP",
-        "GLOBAL",
-        "IMF",
-        "IS",
-        "OF",
-        "PUBLIC",
-        "SET",
-        "THE",
-        "TO",
-        "WITH"
-      ],
-      "at": "2026-10-07T06:22:17.648057+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -927,10 +913,16 @@
         "selig"
       ],
       "at": "2026-10-09T00:32:29.073606+00:00"
+    },
+    {
+      "fp": [
+        "$20",
+        "nasdaq"
+      ],
+      "at": "2026-10-09T01:03:03.421309+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 BREAKING: Pentagon orders US Military to prepare for MAJOR COMBAT OPERATIONS in Iran.",
     "JUST IN: \ud83d\udea8 President Trump says record OIL volume through Strait of Hormuz.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 US Treasury to buy back $6 BILLION in debt tomorrow.",
     "JUST IN: \ud83d\udea8 Democrat James Talarico is now a 66% favorite to WIN the Texas Senate race.",
@@ -944,6 +936,7 @@
     "\ud83d\udea8 BREAKING: Elon Musk PRAISES Anthropic's Haiku 5.5, 75% CHEAPER than previous.",
     "BREAKING: \ud83d\udea9 ECB says 100% of euro\u2011area inflation comes from energy. Inflation is 100% energy in the Euro area. \u26a1 100% energy\u2011driven price rise.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo in talks to provide crypto TRADING liquidity to Kraken's parent.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says America is no longer idle while crypto moves overseas \u2013 the U.S. is leading. After Congress stalled the Clarity Act, Chair Mike Selig ordered a formal crypto framework and opened a path for devs. \u26a1 2 decisive moves. Why it matters? The U.S"
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says America is no longer idle while crypto moves overseas \u2013 the U.S. is leading. After Congress stalled the Clarity Act, Chair Mike Selig ordered a formal crypto framework and opened a path for devs. \u26a1 2 decisive moves. Why it matters? The U.S",
+    "BREAKING: \ud83d\udea8 NASDAQ 100 sinks 1.5% as oil prices climb and OpenAI\u2019s annualized revenue falls $20B below expectations. Oil\u2019s rally fuels a tech sell\u2011off, pushing the index deeper into red. Why it matters: investors face tech weakness and energy gains. What\u2019s next for tech stocks? #ethancole #ai #technews #stockmarket #investing #breakingnews"
   ]
 }
