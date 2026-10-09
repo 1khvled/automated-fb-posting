@@ -90,6 +90,14 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
+          # Alert ONLY on consecutive failures: isolated blips self-heal
+          # next slot and must stay silent, or alerts become spam.
+          PREV=$(gh api repos/${{ github.repository }}/actions/workflows/fb-post.yml/runs?per_page=5 --jq '[.workflow_runs[] | select(.id != ${{ github.run_id }} and .status == "completed")][0].conclusion')
+          if [ "$PREV" != "failure" ]; then
+            echo "First consecutive failure (prev=$PREV) — staying silent, next run decides."
+            exit 0
+          fi
+          echo "Consecutive failure (prev=$PREV) — alerting."
           OPEN=$(gh issue list --repo ${{ github.repository }} --search "[bot-alert] in:title state:open" --json number --jq length)
           if [ "$OPEN" = "0" ]; then
             gh issue create --repo ${{ github.repository }} --title "[bot-alert] FB bot run failed" --body "Run ${{ github.run_id }} failed (publish error, dead token, or QC loop). Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
