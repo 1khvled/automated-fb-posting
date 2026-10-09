@@ -3028,10 +3028,31 @@ def _story_text(caption: str) -> list:
     return [ln for ln in lines if ln]
 
 
+def _story_photo_area(card, im, y0: int, h: int):
+    """Paint im into (0, y0, 1080, y0+h) with ZERO cropping: fit-contain
+    centered over a blurred darkened cover-fill of itself."""
+    from PIL import Image, ImageFilter
+    W = 1080
+    bg = im.convert("RGB")
+    scale = max(W / bg.size[0], h / bg.size[1])
+    bg = bg.resize((int(bg.size[0] * scale) + 1,
+                    int(bg.size[1] * scale) + 1), Image.LANCZOS)
+    x = (bg.size[0] - W) // 2
+    y = (bg.size[1] - h) // 2
+    bg = bg.crop((x, y, x + W, y + h)).filter(ImageFilter.GaussianBlur(40))
+    bg = bg.point(lambda v: int(v * 0.45))
+    card.paste(bg, (0, y0))
+    fg = im.convert("RGB")
+    fg.thumbnail((W, h), Image.LANCZOS)
+    card.paste(fg, ((W - fg.size[0]) // 2, y0 + (h - fg.size[1]) // 2))
+
+
 def _story_card(caption: str, image: bytes | None):
     """1080x1920 story creative: photo top (when the post has one), the
     actual post text below, house footer. Text-only posts get a full
-    text card. This puts the POST (not just a picture) on stories."""
+    text card. This puts the POST (not just a picture) on stories.
+    Photo starts below the story-UI zone (~170px) so FB chrome never
+    covers it."""
     from PIL import Image, ImageDraw
     import textwrap
     W, H = 1080, 1920
@@ -3046,9 +3067,9 @@ def _story_card(caption: str, image: bytes | None):
             return None
         # strip our branded footer bar (bottom ~9%) so it doesn't sit mid-story
         im = im.crop((0, 0, im.size[0], int(im.size[1] * 0.91)))
-        card.paste(_cover(im, W, 1000), (0, 0))
-        d.line([0, 1000, W, 1000], fill=(255, 255, 255), width=3)
-        y = 1045
+        _story_photo_area(card, im, 170, 1000)
+        d.line([0, 1170, W, 1170], fill=(255, 255, 255), width=3)
+        y = 1210
     wrapped: list = []
     for i, ln in enumerate(_story_text(caption)[:10]):
         size = 54 if i == 0 else 36
@@ -3068,6 +3089,22 @@ def _story_card(caption: str, image: bytes | None):
     return buf.getvalue(), "jpeg"
 
 
+def _story_photo_only(image: bytes):
+    """Fallback story creative: the photo alone, letterboxed uncropped on
+    the story canvas. Uploading a raw landscape image lets FB center-crop
+    it — same disease as the old cover-crop."""
+    from PIL import Image
+    try:
+        im = Image.open(io.BytesIO(image)).convert("RGB")
+    except Exception:
+        return None
+    card = Image.new("RGB", (1080, 1920), (11, 18, 32))
+    _story_photo_area(card, im, 170, 1450)
+    buf = io.BytesIO()
+    _footer(card, 90).save(buf, "JPEG", quality=95)
+    return buf.getvalue(), "jpeg"
+
+
 def publish_story_from_photo(image_bytes: bytes, ext: str,
                              caption: str = "") -> str:
     """Publish the POST as a 24h Page Story (POST_STORIES toggle): renders
@@ -3079,6 +3116,7 @@ def publish_story_from_photo(image_bytes: bytes, ext: str,
     if not page_id or not token:
         raise RuntimeError("FB_PAGE_ID / FB_PAGE_ACCESS_TOKEN not set")
     creative = _story_card(caption, image_bytes) if caption else None
+    creative = creative or _story_photo_only(image_bytes)
     creative = creative or (image_bytes, ext)
     r = requests.post(
         f"https://graph.facebook.com/{FB_API_VERSION}/{page_id}/photos",
