@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "a3a826e937ac0d6c",
-    "fb_id": "1264009986803820_122121803463472689",
-    "title": "\ud83d\udd25 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows, while XRP saw net inflows on October 8th. BTC: -$244.00M ETH: -$72.54M SOL: -$3.32M XRP: +$8.17M",
-    "link": "https://x.com/Cointelegraph/status/2108425047975108717",
+    "hash": "dde661577906eb9a",
+    "fb_id": "1264009986803820_122121838275472689",
+    "title": "\ud83d\udd25 NEW: Crypto projects including Ethereum client Nethermind and Bitcoin wallet ZEUS have applied for Anthropic's free OSS Scanner, which promises vulnerability reports from its strongest AI models,...",
+    "link": "https://x.com/Cointelegraph/status/2108441260377751869",
     "mode": "serious",
-    "at": "2026-10-09T06:03:20.141113+00:00"
+    "at": "2026-10-09T06:32:42.457089+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -116,6 +116,7 @@
     "d861583e99fec9ab",
     "d9e68d9471ca15df",
     "dd3b30e96ab2a14d",
+    "dde661577906eb9a",
     "de5489e354d6c29c",
     "e18b53d68b9a46a2",
     "e4ddbb5bfc5310e3",
@@ -135,10 +136,9 @@
   "day_counts": {
     "2026-10-07": 15,
     "2026-10-08": 15,
-    "2026-10-09": 13
+    "2026-10-09": 14
   },
   "recent_titles": [
-    "ECB's Moulin: Inflation is 100% energy in the Euro area",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Banking giant Wells Fargo in talks with Kraken's parent company to provide crypto trading liquidity.",
     "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work. Near-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says \"America is no longer sitting back while crypto moves overseas, and other countries set the standard.\" \"America leading the way.\" Over the past month, the CFTC has taken the f...",
@@ -152,19 +152,10 @@
     "Ether bets were wiped out at six times bitcoin\u2019s rate in crypto\u2019s $1 billion flush",
     "\ud83d\udea8 Gemini 4 Argon may be rolling out today \u2022 Already spotted in Google Cloud \u2022 Gemini 4 Argon spotted in Antigravity CLI \u2022 Wider access could be coming very soon \u2022 $4 input / $20 output per 1M token...",
     "BREAKING: Brent crude oil prices rise above $105/barrel on reports that President Trump is considering resuming \u201cmajor combat operations\u201d in Iran.",
-    "\ud83d\udd25 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows, while XRP saw net inflows on October 8th. BTC: -$244.00M ETH: -$72.54M SOL: -$3.32M XRP: +$8.17M"
+    "\ud83d\udd25 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows, while XRP saw net inflows on October 8th. BTC: -$244.00M ETH: -$72.54M SOL: -$3.32M XRP: +$8.17M",
+    "\ud83d\udd25 NEW: Crypto projects including Ethereum client Nethermind and Bitcoin wallet ZEUS have applied for Anthropic's free OSS Scanner, which promises vulnerability reports from its strongest AI models,..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120369103472689",
-      "topics": [
-        "power",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "flag:in",
-      "at": "2026-10-06T05:14:34.979716+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120376039472689",
       "topics": [
@@ -625,6 +616,16 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-09T06:03:20.141113+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121838275472689",
+      "topics": [
+        "ai",
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "split:logo+logo",
+      "at": "2026-10-09T06:32:42.457089+00:00"
     }
   ],
   "tuner": {
@@ -646,18 +647,6 @@
   },
   "last_video_post": "2026-10-09",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "USDT",
-        "bitcoin",
-        "ethereum",
-        "russia",
-        "sberbank"
-      ],
-      "at": "2026-10-08T04:02:17.134664+00:00"
-    },
     {
       "fp": [
         "$83,000",
@@ -892,10 +881,26 @@
         "october"
       ],
       "at": "2026-10-09T06:03:20.141097+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "NEW",
+        "OSS",
+        "ZEU",
+        "anthropic",
+        "bitcoin",
+        "claude",
+        "crypto",
+        "ethereum",
+        "mythos",
+        "nethermind",
+        "scanner"
+      ],
+      "at": "2026-10-09T06:32:42.457073+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 BREAKING: Elon Musk PRAISES Anthropic's Haiku 5.5, 75% CHEAPER than previous.",
     "BREAKING: \ud83d\udea9 ECB says 100% of euro\u2011area inflation comes from energy. Inflation is 100% energy in the Euro area. \u26a1 100% energy\u2011driven price rise.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo in talks to provide crypto TRADING liquidity to Kraken's parent.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says America is no longer idle while crypto moves overseas \u2013 the U.S. is leading. After Congress stalled the Clarity Act, Chair Mike Selig ordered a formal crypto framework and opened a path for devs. \u26a1 2 decisive moves. Why it matters? The U.S",
@@ -909,6 +914,7 @@
     "BREAKING: \u26a1\ufe0fETHER BETS WIPED OUT AT SIX TIMES BITCOIN\u2019S RATE IN $1B CRYPTO FLUSH",
     "JUST IN: \ud83d\udea9 Gemini 4 Argon may roll out today, spotted in Google Cloud & Antigravity CLI. Pricing $4 input / $20 output per 1M token, $2/$10 intro. Built for coding. Wider access could hit soon. #ethancole #ai #technews #finance #stockmarket",
     "BREAKING: \ud83d\udea9 Brent crude price spikes past $105/barrel as Trump eyes major combat ops in Iran. Oil markets spooked by geopolitical tension. \ud83d\udcc8 $105.23, up 1.2% from yesterday. Higher oil costs could push inflation higher and squeeze margins. Will this spark a new oil war or just a price spike? #ethancole #oil #finance #breakingnews #marketnews",
-    "JUST IN: \ud83d\udea9 BTC, ETH & SOL spot ETFs pull $319.86M out, XRP dumps $8.17M in on Oct\u202f8. Market vibes: investors dumping blue\u2011chip crypto, chasing something else. Why it matters? ETF flows can signal shifting sentiment before price swings. #ethancole #crypto #bitcoin #ethereum #solana #xrp"
+    "JUST IN: \ud83d\udea9 BTC, ETH & SOL spot ETFs pull $319.86M out, XRP dumps $8.17M in on Oct\u202f8. Market vibes: investors dumping blue\u2011chip crypto, chasing something else. Why it matters? ETF flows can signal shifting sentiment before price swings. #ethancole #crypto #bitcoin #ethereum #solana #xrp",
+    "\ud83d\udea8 NEW: Crypto projects are getting FREE AI SECURITY."
   ]
 }
