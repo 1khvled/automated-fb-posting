@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "bbe5f378455409e5",
-    "fb_id": "1264009986803820_122121748095472689",
-    "title": "China authorizes non-state crude oil import quota for 2027 at 257 million metric tons: commerce ministry",
-    "link": "https://www.financialjuice.com/News/9798224/China-authorizes-non-state-crude-oil-import-quota-for-2027-at-257-million-metric-tons-commerce-ministry.aspx?xy=rss",
-    "mode": "serious",
-    "at": "2026-10-09T03:02:39.142238+00:00"
+    "hash": "2fefdaf693a6683e",
+    "fb_id": "1264009986803820_122121756783472689",
+    "title": "We\u2019re launching the Anthropic Cyber Mission, a new effort to secure critical infrastructure and open-source software.",
+    "link": "https://x.com/AnthropicAI/status/2108302539498414208",
+    "mode": "viral",
+    "at": "2026-10-09T03:32:16.107904+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -34,6 +34,7 @@
     "29ec1e6d5581205f",
     "2bbf1d770e89e3e5",
     "2f82b7d57908eb27",
+    "2fefdaf693a6683e",
     "31edcb10d3042c04",
     "321b0f3bbbfcc499",
     "334c8b5f3a1b20db",
@@ -129,10 +130,9 @@
   "day_counts": {
     "2026-10-07": 15,
     "2026-10-08": 15,
-    "2026-10-09": 7
+    "2026-10-09": 8
   },
   "recent_titles": [
-    "JUST IN: $13 trillion Charles Schwab says 64% of Millennials plan to buy Bitcoin & crypto \ud83d\udc40 Bullish! \ud83d\ude80",
     "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia's largest bank Sberbank officially approved as crypto custodian to launch Bitcoin, Ethereum and USDT products.",
     "Bitcoin breaks below $83,000 as oil jumps on Iran strike-plan report",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Samsung partners with Solana to enable crypto stablecoin transactions for 82 million devices in US with Samsung Wallet.",
@@ -146,19 +146,10 @@
     "CRUDE OIL WEAKENS BELOW $90.50 AS TRUMP RULES OUT PRE-ELECTION MILITARY ACTION AGAINST IRAN - FX",
     "SPOT GOLD ADVANCES TO $4,173.05 PER OUNCE, UP AROUND 1%",
     "JUST IN: Bitcoin $BTC falls under $82,000 and $ETH falls under $2,500. $185,000,000 liquidated from the crypto market in the past 60 minutes.",
-    "China authorizes non-state crude oil import quota for 2027 at 257 million metric tons: commerce ministry"
+    "China authorizes non-state crude oil import quota for 2027 at 257 million metric tons: commerce ministry",
+    "We\u2019re launching the Anthropic Cyber Mission, a new effort to secure critical infrastructure and open-source software."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120309823472689",
-      "topics": [
-        "ai",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-06T01:25:39.955810+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120318121472689",
       "topics": [
@@ -619,6 +610,15 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-09T03:02:39.142238+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121756783472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-09T03:32:16.107904+00:00"
     }
   ],
   "tuner": {
@@ -640,17 +640,6 @@
   },
   "last_video_post": "2026-10-09",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "hormuz",
-        "president",
-        "strait",
-        "trump"
-      ],
-      "at": "2026-10-08T01:02:21.583327+00:00"
-    },
     {
       "fp": [
         "$6",
@@ -907,10 +896,17 @@
         "china"
       ],
       "at": "2026-10-09T03:02:39.142226+00:00"
+    },
+    {
+      "fp": [
+        "anthropic",
+        "cyber",
+        "mission"
+      ],
+      "at": "2026-10-09T03:32:16.107892+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 The AI Big 10 now owns 42% of U.S. market cap\u2014double 2022 low.",
     "JUST IN: \ud83d\ude80 Charles Schwab ($SCHW) reveals 64% of Millennials plan to BUY BITCOIN & crypto.",
     "JUST IN: \ud83c\uddf7\ud83c\uddfa SBERBANK approved as crypto custodian to launch 3 products: Bitcoin, Ethereum, USDT. Russia's biggest bank steps into digital asset custody. This could shift crypto regulation in the East. Will other banks follow? #ethancole #crypto #bitcoin #ethereum #marketnews",
     "\ud83d\udea8 BREAKING: Bitcoin ($BTC) CRASHES below $83,000.",
@@ -924,6 +920,7 @@
     "JUST IN: \ud83d\udea9 CRUDE OIL SLIPS BELOW $90.50 PER BARREL as President Trump rules out pre\u2011election military action against Iran. Oil fell 0.8% in early trade, breaching the $90.50 threshold. Lower prices could ease inflationary pressure and calm market volatility",
     "JUST IN: \ud83d\udea9 SPOT GOLD JUMPS 1% to $4,173.05/oz",
     "JUST IN: \ud83d\udea9 Bitcoin $BTC slips under $82,000, ETH under $2,500, $185M liquidated in 60 mins.",
-    "JUST IN: \ud83d\udea9 China clears 2027 crude import quota at 257\u202fM metric tons."
+    "JUST IN: \ud83d\udea9 China clears 2027 crude import quota at 257\u202fM metric tons.",
+    "JUST IN: ANTHROPIC LAUNCHES CYBER MISSION to guard critical infrastructure & open\u2011source software \ud83d\udea8"
   ]
 }
