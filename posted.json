@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "2d63a9f4c47e07bc",
-    "fb_id": "1264009986803820_122121786297472689",
-    "title": "BREAKING: Brent crude oil prices rise above $105/barrel on reports that President Trump is considering resuming \u201cmajor combat operations\u201d in Iran.",
-    "link": "https://x.com/KobeissiLetter/status/2108169034110026043",
-    "mode": "viral",
-    "at": "2026-10-09T05:31:42.799427+00:00"
+    "hash": "a3a826e937ac0d6c",
+    "fb_id": "1264009986803820_122121803463472689",
+    "title": "\ud83d\udd25 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows, while XRP saw net inflows on October 8th. BTC: -$244.00M ETH: -$72.54M SOL: -$3.32M XRP: +$8.17M",
+    "link": "https://x.com/Cointelegraph/status/2108425047975108717",
+    "mode": "serious",
+    "at": "2026-10-09T06:03:20.141113+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -94,6 +94,7 @@
     "a1cc606c7a126979",
     "a2909c1a00c4321d",
     "a2e71eefd32ea0f0",
+    "a3a826e937ac0d6c",
     "a9eab993ee21cbc4",
     "aa4543247334ecdc",
     "ad0a8f54278a0bf0",
@@ -134,10 +135,9 @@
   "day_counts": {
     "2026-10-07": 15,
     "2026-10-08": 15,
-    "2026-10-09": 12
+    "2026-10-09": 13
   },
   "recent_titles": [
-    "\ud83d\ude02\u6551\u547d\uff01Dario \u5728\u964d\u672c\u589e\u6548\uff0c\u9a6c\u65af\u514b\u5728\u63a5\u5165Opus 5.5\uff0c\u800c Sam Altman \u5728\u5fd9\u4e8e\u89e3\u6570\u5b66\u9898\uff01 \ud83d\udd39\u4e00\u8fb9\uff0cElon Musk \u521a\u5728 Anthropic \u5b98\u53f7\u5e95\u4e0b\u56de\u4e86\u53e5 \u201cCongrats on another great model!\u201d \uff0c\u79f0\u8d5eHaiku 5.5\uff0c\u6bd4\u4e0a\u4e00\u4ee3\u4fbf\u5b9c\u7ea6 75% \ud83d\udd39\u53e6\u4e00\u8fb9\uff0cOpenAI \u7684 Tibo \u53d1\u4e86\u53e5 \u201cGoodbye Grok models\u201d\uff0cSpac...",
     "ECB's Moulin: Inflation is 100% energy in the Euro area",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Banking giant Wells Fargo in talks with Kraken's parent company to provide crypto trading liquidity.",
     "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work. Near-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come.",
@@ -151,18 +151,10 @@
     "BREAKING: Bitcoin falls below $81,000 as over $400 million worth of levered longs are liquidated in 60 minutes.",
     "Ether bets were wiped out at six times bitcoin\u2019s rate in crypto\u2019s $1 billion flush",
     "\ud83d\udea8 Gemini 4 Argon may be rolling out today \u2022 Already spotted in Google Cloud \u2022 Gemini 4 Argon spotted in Antigravity CLI \u2022 Wider access could be coming very soon \u2022 $4 input / $20 output per 1M token...",
-    "BREAKING: Brent crude oil prices rise above $105/barrel on reports that President Trump is considering resuming \u201cmajor combat operations\u201d in Iran."
+    "BREAKING: Brent crude oil prices rise above $105/barrel on reports that President Trump is considering resuming \u201cmajor combat operations\u201d in Iran.",
+    "\ud83d\udd25 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows, while XRP saw net inflows on October 8th. BTC: -$244.00M ETH: -$72.54M SOL: -$3.32M XRP: +$8.17M"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120352921472689",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-06T04:14:13.513664+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120369103472689",
       "topics": [
@@ -624,6 +616,15 @@
       "mode": "viral",
       "photo": "face",
       "at": "2026-10-09T05:31:42.799427+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122121803463472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-09T06:03:20.141113+00:00"
     }
   ],
   "tuner": {
@@ -645,19 +646,6 @@
   },
   "last_video_post": "2026-10-09",
   "recent_fps": [
-    {
-      "fp": [
-        "$13",
-        "IN",
-        "JUST",
-        "bitcoin",
-        "bullish",
-        "charles",
-        "millennials",
-        "schwab"
-      ],
-      "at": "2026-10-08T03:32:05.901049+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -888,10 +876,25 @@
         "trump"
       ],
       "at": "2026-10-09T05:31:42.799415+00:00"
+    },
+    {
+      "fp": [
+        "$244.00",
+        "$3.32",
+        "$72.54",
+        "$8.17",
+        "BTC",
+        "ETF",
+        "ETH",
+        "FLOW",
+        "SOL",
+        "XRP",
+        "october"
+      ],
+      "at": "2026-10-09T06:03:20.141097+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddf8\ud83c\uddec Institutions are coming ONCHAIN, but Ethereum panel can't agree on ETH's future.",
     "\ud83d\udea8 BREAKING: Elon Musk PRAISES Anthropic's Haiku 5.5, 75% CHEAPER than previous.",
     "BREAKING: \ud83d\udea9 ECB says 100% of euro\u2011area inflation comes from energy. Inflation is 100% energy in the Euro area. \u26a1 100% energy\u2011driven price rise.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo in talks to provide crypto TRADING liquidity to Kraken's parent.",
@@ -905,6 +908,7 @@
     "BREAKING: Bitcoin slips under $81,000 after $400M of leveraged longs wiped out in 60 minutes. Market odds spiked, liquidity evaporated. $BTC now under $81k, a 5% drop from yesterday. Why it matters: panic could ripple to altcoins. Will the rally recover or keep falling? #ethancole #bitcoin #crypto #marketnews #investing",
     "BREAKING: \u26a1\ufe0fETHER BETS WIPED OUT AT SIX TIMES BITCOIN\u2019S RATE IN $1B CRYPTO FLUSH",
     "JUST IN: \ud83d\udea9 Gemini 4 Argon may roll out today, spotted in Google Cloud & Antigravity CLI. Pricing $4 input / $20 output per 1M token, $2/$10 intro. Built for coding. Wider access could hit soon. #ethancole #ai #technews #finance #stockmarket",
-    "BREAKING: \ud83d\udea9 Brent crude price spikes past $105/barrel as Trump eyes major combat ops in Iran. Oil markets spooked by geopolitical tension. \ud83d\udcc8 $105.23, up 1.2% from yesterday. Higher oil costs could push inflation higher and squeeze margins. Will this spark a new oil war or just a price spike? #ethancole #oil #finance #breakingnews #marketnews"
+    "BREAKING: \ud83d\udea9 Brent crude price spikes past $105/barrel as Trump eyes major combat ops in Iran. Oil markets spooked by geopolitical tension. \ud83d\udcc8 $105.23, up 1.2% from yesterday. Higher oil costs could push inflation higher and squeeze margins. Will this spark a new oil war or just a price spike? #ethancole #oil #finance #breakingnews #marketnews",
+    "JUST IN: \ud83d\udea9 BTC, ETH & SOL spot ETFs pull $319.86M out, XRP dumps $8.17M in on Oct\u202f8. Market vibes: investors dumping blue\u2011chip crypto, chasing something else. Why it matters? ETF flows can signal shifting sentiment before price swings. #ethancole #crypto #bitcoin #ethereum #solana #xrp"
   ]
 }
