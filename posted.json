@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "0a36c68d9af0b560",
-    "fb_id": "28826504170310245",
-    "title": "Q: Zelensky said you were weak because of your oil deal with Russia. Trump: Who said that? Q: Zelensky. Trump: Okay.",
-    "link": "https://x.com/clashreport/status/2108667045151940612",
+    "hash": "7c887ce0c4c325c6",
+    "fb_id": "1264009986803820_122122272231472689",
+    "title": "BREAKING: Trump: I have just concluded a highly successful discussion with President Vladimir Putin, of Russia, wherein it was agreed that Russia will immediately supply over 300,000 Tons of Diesel...",
+    "link": "https://x.com/clashreport/status/2108630861214372206",
     "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-10T00:03:57.970689+00:00"
+    "at": "2026-10-10T00:33:42.280987+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -74,6 +73,7 @@
     "7509d90fd4de9e6c",
     "77abba66d602fa6d",
     "79bf8126b948e64b",
+    "7c887ce0c4c325c6",
     "7dd4c394ede9d017",
     "7e0de86880325769",
     "7ecc262303aef709",
@@ -139,10 +139,9 @@
   "day_counts": {
     "2026-10-08": 15,
     "2026-10-09": 15,
-    "2026-10-10": 1
+    "2026-10-10": 2
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says \"America is no longer sitting back while crypto moves overseas, and other countries set the standard.\" \"America leading the way.\" Over the past month, the CFTC has taken the f...",
     "BREAKING: The Nasdaq 100 extends losses to -1.5% on the day as oil prices rise and OpenAI\u2019s annualized revenue comes in $20 billion below expectations.",
     "CRUDE OIL WEAKENS BELOW $90.50 AS TRUMP RULES OUT PRE-ELECTION MILITARY ACTION AGAINST IRAN - FX",
     "SPOT GOLD ADVANCES TO $4,173.05 PER OUNCE, UP AROUND 1%",
@@ -156,17 +155,10 @@
     "\ud83d\udd25 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows, while XRP saw net inflows on October 8th. BTC: -$244.00M ETH: -$72.54M SOL: -$3.32M XRP: +$8.17M",
     "\ud83d\udd25 NEW: Crypto projects including Ethereum client Nethermind and Bitcoin wallet ZEUS have applied for Anthropic's free OSS Scanner, which promises vulnerability reports from its strongest AI models,...",
     "New tech to power bitcoin lending is set to debut with $500 million in commitments",
-    "Q: Zelensky said you were weak because of your oil deal with Russia. Trump: Who said that? Q: Zelensky. Trump: Okay."
+    "Q: Zelensky said you were weak because of your oil deal with Russia. Trump: Who said that? Q: Zelensky. Trump: Okay.",
+    "BREAKING: Trump: I have just concluded a highly successful discussion with President Vladimir Putin, of Russia, wherein it was agreed that Russia will immediately supply over 300,000 Tons of Diesel..."
   ],
   "history": [
-    {
-      "fb_id": "1467907921912028",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "at": "2026-10-06T06:51:53.562258+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120396757472689",
       "topics": [
@@ -629,6 +621,16 @@
       ],
       "mode": "viral",
       "at": "2026-10-10T00:03:57.970689+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122122272231472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "split:face+face",
+      "at": "2026-10-10T00:33:42.280987+00:00"
     }
   ],
   "tuner": {
@@ -650,27 +652,6 @@
   },
   "last_video_post": "2026-10-10",
   "recent_fps": [
-    {
-      "fp": [
-        "CEO",
-        "ETH",
-        "bit",
-        "coinbase",
-        "consensys",
-        "digital",
-        "ethereum",
-        "frambot",
-        "institutions",
-        "joe",
-        "lubin",
-        "morpho",
-        "paul",
-        "robinhood",
-        "sam",
-        "tabar"
-      ],
-      "at": "2026-10-08T05:31:25.945809+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -898,10 +879,28 @@
         "zelensky"
       ],
       "at": "2026-10-10T00:03:57.970676+00:00"
+    },
+    {
+      "fp": [
+        "additionally",
+        "american",
+        "diesel",
+        "fuel",
+        "global",
+        "marketplace",
+        "november",
+        "president",
+        "putin",
+        "refineries",
+        "russia",
+        "tons",
+        "trump",
+        "vladimir"
+      ],
+      "at": "2026-10-10T00:33:42.280973+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Wells Fargo in talks to provide crypto TRADING liquidity to Kraken's parent.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says America is no longer idle while crypto moves overseas \u2013 the U.S. is leading. After Congress stalled the Clarity Act, Chair Mike Selig ordered a formal crypto framework and opened a path for devs. \u26a1 2 decisive moves. Why it matters? The U.S",
     "BREAKING: \ud83d\udea8 NASDAQ 100 sinks 1.5% as oil prices climb and OpenAI\u2019s annualized revenue falls $20B below expectations. Oil\u2019s rally fuels a tech sell\u2011off, pushing the index deeper into red. Why it matters: investors face tech weakness and energy gains. What\u2019s next for tech stocks? #ethancole #ai #technews #stockmarket #investing #breakingnews",
     "JUST IN: \ud83d\udea9 CRUDE OIL SLIPS BELOW $90.50 PER BARREL as President Trump rules out pre\u2011election military action against Iran. Oil fell 0.8% in early trade, breaching the $90.50 threshold. Lower prices could ease inflationary pressure and calm market volatility",
@@ -915,6 +914,7 @@
     "BREAKING: \ud83d\udea9 Brent crude price spikes past $105/barrel as Trump eyes major combat ops in Iran. Oil markets spooked by geopolitical tension. \ud83d\udcc8 $105.23, up 1.2% from yesterday. Higher oil costs could push inflation higher and squeeze margins. Will this spark a new oil war or just a price spike? #ethancole #oil #finance #breakingnews #marketnews",
     "JUST IN: \ud83d\udea9 BTC, ETH & SOL spot ETFs pull $319.86M out, XRP dumps $8.17M in on Oct\u202f8. Market vibes: investors dumping blue\u2011chip crypto, chasing something else. Why it matters? ETF flows can signal shifting sentiment before price swings. #ethancole #crypto #bitcoin #ethereum #solana #xrp",
     "\ud83d\udea8 NEW: Crypto projects are getting FREE AI SECURITY.",
-    "JUST IN: \ud83d\udea8 New tech to power BITCOIN lending debuts with $500 MILLION in commitments."
+    "JUST IN: \ud83d\udea8 New tech to power BITCOIN lending debuts with $500 MILLION in commitments.",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa Trump & Putin ink diesel pact: 300,000\u202fTons today, 500,000\u202fTons in Nov, 1\u202fM\u202fTons after."
   ]
 }
