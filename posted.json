@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "0f167e673f05e771",
-    "fb_id": "1264009986803820_122122337943472689",
-    "title": "\ud83d\udd25\ud83d\udea8 JUST IN: Ripple-backed XRP treasury Evernorth just closed its SPAC merger, dragging 473M XRP and $300M cash onto Nasdaq with XRPN set to trade Monday.",
-    "link": "https://x.com/Cointelegraph/status/2108724562187727249",
+    "hash": "720cc98216e4fbd4",
+    "fb_id": "1264009986803820_122122349577472689",
+    "title": "BREAKING: China\u2019s central bank officially bought +23 tonnes of gold in September, its largest monthly purchase since September 2023. This follows +20 tonnes purchased in both August and July, and m...",
+    "link": "https://x.com/KobeissiLetter/status/2108612204258021732",
     "mode": "viral",
-    "at": "2026-10-10T04:12:05.940971+00:00"
+    "at": "2026-10-10T04:53:15.872797+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -71,6 +71,7 @@
     "6ca4a493922b82af",
     "6dfde226099b02e8",
     "70921c7e7f00e526",
+    "720cc98216e4fbd4",
     "73449aac208c1916",
     "736434c78c60fd62",
     "749f44d93c1f420c",
@@ -145,10 +146,9 @@
   "day_counts": {
     "2026-10-08": 15,
     "2026-10-09": 15,
-    "2026-10-10": 8
+    "2026-10-10": 9
   },
   "recent_titles": [
-    "BREAKING: Bitcoin falls below $81,000 as over $400 million worth of levered longs are liquidated in 60 minutes.",
     "Ether bets were wiped out at six times bitcoin\u2019s rate in crypto\u2019s $1 billion flush",
     "\ud83d\udea8 Gemini 4 Argon may be rolling out today \u2022 Already spotted in Google Cloud \u2022 Gemini 4 Argon spotted in Antigravity CLI \u2022 Wider access could be coming very soon \u2022 $4 input / $20 output per 1M token...",
     "BREAKING: Brent crude oil prices rise above $105/barrel on reports that President Trump is considering resuming \u201cmajor combat operations\u201d in Iran.",
@@ -162,18 +162,10 @@
     "\ud83d\ude02Logan\u8bf4\uff1aArgon is coming, fear not :) \u7ffb\u8bd1\u4e00\u4e0b\uff1a\u518d\u7b49\u7b49\uff0c\u522b\u6015\uff0c\u6211\u4eec\u8fd8\u5728\u753b\u997c\u3002 \u7b49 Gemini 4 Argon \u771f\u6b63\u4e0a\u7ebf\u90a3\u5929\uff1a \ud83d\udd39Opus 6.0 \ud83d\udd39GPT-7 Bel \ud83d\udd39Grok 5.0 \ud83d\udd39DeepSeek V5 Pro \ud83d\udd39Kimi K4 \u65e9\u5c31\u4e0a\u7ebf\u3001\u8fed\u4ee3\u5b8c\u3001\u751a\u81f3\u5f00\u59cb\u88ab\u793e\u533a\u5410\u69fd\u201c\u53c8\u53d8\u7b28\u4e86\u201d\u4e86\u3002 Google \u7684\u201c\u5373\u5c06\u5230\u6765\u201d\u662f\u6c38\u6052\u7684\uff0c\u5bf9\u624b\u7684\u53d1\u5e03\u8282\u594f\u624d\u662f\u771f\u7684\u3002...",
     "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 JUST IN: Kalshi is investigating suspicious trades that correctly called Katie Zacharia as Trump's new White House press secretary before anyone saw her as a front-runner.",
     "JUST IN: Ledger investigates potential $86 million crypto theft linked to hardware wallets sold by a reseller in Southeast Asia.",
-    "\ud83d\udd25\ud83d\udea8 JUST IN: Ripple-backed XRP treasury Evernorth just closed its SPAC merger, dragging 473M XRP and $300M cash onto Nasdaq with XRPN set to trade Monday."
+    "\ud83d\udd25\ud83d\udea8 JUST IN: Ripple-backed XRP treasury Evernorth just closed its SPAC merger, dragging 473M XRP and $300M cash onto Nasdaq with XRPN set to trade Monday.",
+    "BREAKING: China\u2019s central bank officially bought +23 tonnes of gold in September, its largest monthly purchase since September 2023. This follows +20 tonnes purchased in both August and July, and m..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120784759472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-07T01:53:23.689364+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120791407472689",
       "topics": [
@@ -638,6 +630,15 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-10T04:12:05.940971+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122122349577472689",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-10T04:53:15.872797+00:00"
     }
   ],
   "tuner": {
@@ -659,23 +660,6 @@
   },
   "last_video_post": "2026-10-10",
   "recent_fps": [
-    {
-      "fp": [
-        "$90.50",
-        "ACTION",
-        "AS",
-        "BELOW",
-        "CRUDE",
-        "FX",
-        "IRAN",
-        "OIL",
-        "OUT",
-        "PRE",
-        "RULE",
-        "TRUMP"
-      ],
-      "at": "2026-10-09T01:31:46.809911+00:00"
-    },
     {
       "fp": [
         "$4,173.05",
@@ -930,10 +914,19 @@
         "ripple"
       ],
       "at": "2026-10-10T04:12:05.940941+00:00"
+    },
+    {
+      "fp": [
+        "august",
+        "china",
+        "july",
+        "september",
+        "this"
+      ],
+      "at": "2026-10-10T04:53:15.872787+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: ANTHROPIC LAUNCHES CYBER MISSION to guard critical infrastructure & open\u2011source software \ud83d\udea8",
     "BREAKING: Bitcoin slips under $81,000 after $400M of leveraged longs wiped out in 60 minutes. Market odds spiked, liquidity evaporated. $BTC now under $81k, a 5% drop from yesterday. Why it matters: panic could ripple to altcoins. Will the rally recover or keep falling? #ethancole #bitcoin #crypto #marketnews #investing",
     "BREAKING: \u26a1\ufe0fETHER BETS WIPED OUT AT SIX TIMES BITCOIN\u2019S RATE IN $1B CRYPTO FLUSH",
     "JUST IN: \ud83d\udea9 Gemini 4 Argon may roll out today, spotted in Google Cloud & Antigravity CLI. Pricing $4 input / $20 output per 1M token, $2/$10 intro. Built for coding. Wider access could hit soon. #ethancole #ai #technews #finance #stockmarket",
@@ -947,6 +940,7 @@
     "BREAKING: \ud83d\udea9 ARGON IS COMING, DON'T FRET \ud83d\ude31",
     "JUST IN: \ud83d\udea8 Kalshi is probing suspicious trades that correctly named Katie Zacharia as Trump's new White House press secretary before any front\u2011runner emerged. Market odds spiked as traders bet on the hire",
     "JUST IN: \ud83d\udea9 $86M crypto theft linked to Ledger wallets sold by a reseller in Southeast Asia. Ledger is probing the breach. $86,000,000 could wipe out thousands of users' holdings. Why does this matter? It dents confidence in wallets and could spark regulation",
-    "JUST IN: \ud83d\udea9 Ripple-backed XRP treasury Evernorth closes SPAC merger, hauling 473M XRP and $300M cash onto Nasdaq. XRPN debuts Monday. 473M XRP + $300M cash all under one ticker. Why it matters: XRPN could redefine crypto listings on Nasdaq. Will XRPN become the next big crypto stock? #ethancole #crypto #bitcoin #stockmarket #marketnews #technews"
+    "JUST IN: \ud83d\udea9 Ripple-backed XRP treasury Evernorth closes SPAC merger, hauling 473M XRP and $300M cash onto Nasdaq. XRPN debuts Monday. 473M XRP + $300M cash all under one ticker. Why it matters: XRPN could redefine crypto listings on Nasdaq. Will XRPN become the next big crypto stock? #ethancole #crypto #bitcoin #stockmarket #marketnews #technews",
+    "BREAKING: CHINA BUYS +23 TONNES GOLD IN SEPTEMBER, LARGEST SINCE 2023. \ud83d\udcc8"
   ]
 }
