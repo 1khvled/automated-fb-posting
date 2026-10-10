@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "efb052f68304f89a",
-    "fb_id": "1264009986803820_122122282317472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky slams President Trump for lifting sanctions on Russian diesel imports. \"It looks like a happy birthday present for Putin.\" \"It is, in my view, a weak deci...",
-    "link": "https://x.com/WatcherGuru/status/2108664118748107254",
-    "mode": "viral",
-    "at": "2026-10-10T01:13:25.721657+00:00"
+    "hash": "6470eb4210e740d8",
+    "fb_id": "1264009986803820_122122293909472689",
+    "title": "This week at Bitcoin Magazine \ud83d\udcf0 - BMTV wild'n! - Metaplanet, Strategy, Strive - CFTC - ETFs - Polymarket - Power Law - Gold corr. - BlackRock - BTC & WSJ - FNB - Robinhood - Exchanges - Trump - Sbe...",
+    "link": "https://x.com/theonlyposted/status/2108702441185087794",
+    "mode": "serious",
+    "at": "2026-10-10T02:01:58.290182+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -60,6 +60,7 @@
     "626c970a426ee62c",
     "63036692c3b611ed",
     "63d8e6fd67210451",
+    "6470eb4210e740d8",
     "64962f2dd92c7de5",
     "65239bf3a2c20e14",
     "66f515d28624ba5d",
@@ -140,10 +141,9 @@
   "day_counts": {
     "2026-10-08": 15,
     "2026-10-09": 15,
-    "2026-10-10": 3
+    "2026-10-10": 4
   },
   "recent_titles": [
-    "CRUDE OIL WEAKENS BELOW $90.50 AS TRUMP RULES OUT PRE-ELECTION MILITARY ACTION AGAINST IRAN - FX",
     "SPOT GOLD ADVANCES TO $4,173.05 PER OUNCE, UP AROUND 1%",
     "JUST IN: Bitcoin $BTC falls under $82,000 and $ETH falls under $2,500. $185,000,000 liquidated from the crypto market in the past 60 minutes.",
     "China authorizes non-state crude oil import quota for 2027 at 257 million metric tons: commerce ministry",
@@ -157,19 +157,10 @@
     "New tech to power bitcoin lending is set to debut with $500 million in commitments",
     "Q: Zelensky said you were weak because of your oil deal with Russia. Trump: Who said that? Q: Zelensky. Trump: Okay.",
     "BREAKING: Trump: I have just concluded a highly successful discussion with President Vladimir Putin, of Russia, wherein it was agreed that Russia will immediately supply over 300,000 Tons of Diesel...",
-    "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky slams President Trump for lifting sanctions on Russian diesel imports. \"It looks like a happy birthday present for Putin.\" \"It is, in my view, a weak deci..."
+    "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky slams President Trump for lifting sanctions on Russian diesel imports. \"It looks like a happy birthday present for Putin.\" \"It is, in my view, a weak deci...",
+    "This week at Bitcoin Magazine \ud83d\udcf0 - BMTV wild'n! - Metaplanet, Strategy, Strive - CFTC - ETFs - Polymarket - Power Law - Gold corr. - BlackRock - BTC & WSJ - FNB - Robinhood - Exchanges - Trump - Sbe..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120426589472689",
-      "topics": [
-        "ai",
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-06T07:42:00.107501+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120438691472689",
       "topics": [
@@ -631,6 +622,17 @@
       "mode": "viral",
       "photo": "split:face+face",
       "at": "2026-10-10T01:13:25.721657+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122122293909472689",
+      "topics": [
+        "crypto",
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:face+face",
+      "at": "2026-10-10T02:01:58.290182+00:00"
     }
   ],
   "tuner": {
@@ -652,15 +654,6 @@
   },
   "last_video_post": "2026-10-10",
   "recent_fps": [
-    {
-      "fp": [
-        "ECB",
-        "euro",
-        "inflation",
-        "moulin"
-      ],
-      "at": "2026-10-08T07:02:52.616915+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -892,10 +885,44 @@
         "zelensky"
       ],
       "at": "2026-10-10T01:13:25.721648+00:00"
+    },
+    {
+      "fp": [
+        "BMTV",
+        "BTC",
+        "CFTC",
+        "ETF",
+        "FNB",
+        "SC",
+        "TD",
+        "WSJ",
+        "bank",
+        "bitcoin",
+        "cardone",
+        "exchanges",
+        "gold",
+        "hong",
+        "kong",
+        "law",
+        "magazine",
+        "metaplanet",
+        "polymarket",
+        "power",
+        "robinhood",
+        "salvador",
+        "sbe",
+        "sberbank",
+        "schwab",
+        "strategy",
+        "strive",
+        "thailand",
+        "this",
+        "trump"
+      ],
+      "at": "2026-10-10T02:01:58.290170+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udea8 NASDAQ 100 sinks 1.5% as oil prices climb and OpenAI\u2019s annualized revenue falls $20B below expectations. Oil\u2019s rally fuels a tech sell\u2011off, pushing the index deeper into red. Why it matters: investors face tech weakness and energy gains. What\u2019s next for tech stocks? #ethancole #ai #technews #stockmarket #investing #breakingnews",
     "JUST IN: \ud83d\udea9 CRUDE OIL SLIPS BELOW $90.50 PER BARREL as President Trump rules out pre\u2011election military action against Iran. Oil fell 0.8% in early trade, breaching the $90.50 threshold. Lower prices could ease inflationary pressure and calm market volatility",
     "JUST IN: \ud83d\udea9 SPOT GOLD JUMPS 1% to $4,173.05/oz",
     "JUST IN: \ud83d\udea9 Bitcoin $BTC slips under $82,000, ETH under $2,500, $185M liquidated in 60 mins.",
@@ -909,6 +936,7 @@
     "\ud83d\udea8 NEW: Crypto projects are getting FREE AI SECURITY.",
     "JUST IN: \ud83d\udea8 New tech to power BITCOIN lending debuts with $500 MILLION in commitments.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa Trump & Putin ink diesel pact: 300,000\u202fTons today, 500,000\u202fTons in Nov, 1\u202fM\u202fTons after.",
-    "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky blasts President Trump for lifting sanctions on Russian diesel imports. He calls it a 'happy birthday present for Putin' and a weak decision. Tweet ID 2108664118748107254 shows the heat. This could shift oil prices and fuel geopolitics. #ethancole #ai #technews #politics #breakingnews"
+    "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky blasts President Trump for lifting sanctions on Russian diesel imports. He calls it a 'happy birthday present for Putin' and a weak decision. Tweet ID 2108664118748107254 shows the heat. This could shift oil prices and fuel geopolitics. #ethancole #ai #technews #politics #breakingnews",
+    "\ud83d\udea8 BITCOIN WEEKLY RECAP: Metaplanet Inc. Inc. Inc., Strategy ($MSTR), Strive, Inc., Inc., Inc., Inc. making moves."
   ]
 }
