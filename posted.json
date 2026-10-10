@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "7c887ce0c4c325c6",
-    "fb_id": "1264009986803820_122122272231472689",
-    "title": "BREAKING: Trump: I have just concluded a highly successful discussion with President Vladimir Putin, of Russia, wherein it was agreed that Russia will immediately supply over 300,000 Tons of Diesel...",
-    "link": "https://x.com/clashreport/status/2108630861214372206",
+    "hash": "efb052f68304f89a",
+    "fb_id": "1264009986803820_122122282317472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky slams President Trump for lifting sanctions on Russian diesel imports. \"It looks like a happy birthday present for Putin.\" \"It is, in my view, a weak deci...",
+    "link": "https://x.com/WatcherGuru/status/2108664118748107254",
     "mode": "viral",
-    "at": "2026-10-10T00:33:42.280987+00:00"
+    "at": "2026-10-10T01:13:25.721657+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -128,6 +128,7 @@
     "eacc6893c16ea1dc",
     "eca4f5a6aeff6619",
     "ef9e9adaee7d4177",
+    "efb052f68304f89a",
     "f041ccdd0f70088f",
     "f657b460fe198b75",
     "f99897bde7abfc3a",
@@ -139,10 +140,9 @@
   "day_counts": {
     "2026-10-08": 15,
     "2026-10-09": 15,
-    "2026-10-10": 2
+    "2026-10-10": 3
   },
   "recent_titles": [
-    "BREAKING: The Nasdaq 100 extends losses to -1.5% on the day as oil prices rise and OpenAI\u2019s annualized revenue comes in $20 billion below expectations.",
     "CRUDE OIL WEAKENS BELOW $90.50 AS TRUMP RULES OUT PRE-ELECTION MILITARY ACTION AGAINST IRAN - FX",
     "SPOT GOLD ADVANCES TO $4,173.05 PER OUNCE, UP AROUND 1%",
     "JUST IN: Bitcoin $BTC falls under $82,000 and $ETH falls under $2,500. $185,000,000 liquidated from the crypto market in the past 60 minutes.",
@@ -156,19 +156,10 @@
     "\ud83d\udd25 NEW: Crypto projects including Ethereum client Nethermind and Bitcoin wallet ZEUS have applied for Anthropic's free OSS Scanner, which promises vulnerability reports from its strongest AI models,...",
     "New tech to power bitcoin lending is set to debut with $500 million in commitments",
     "Q: Zelensky said you were weak because of your oil deal with Russia. Trump: Who said that? Q: Zelensky. Trump: Okay.",
-    "BREAKING: Trump: I have just concluded a highly successful discussion with President Vladimir Putin, of Russia, wherein it was agreed that Russia will immediately supply over 300,000 Tons of Diesel..."
+    "BREAKING: Trump: I have just concluded a highly successful discussion with President Vladimir Putin, of Russia, wherein it was agreed that Russia will immediately supply over 300,000 Tons of Diesel...",
+    "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky slams President Trump for lifting sanctions on Russian diesel imports. \"It looks like a happy birthday present for Putin.\" \"It is, in my view, a weak deci..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120396757472689",
-      "topics": [
-        "inflation",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "inst:ecb",
-      "at": "2026-10-06T07:14:21.429755+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120426589472689",
       "topics": [
@@ -631,6 +622,15 @@
       "mode": "viral",
       "photo": "split:face+face",
       "at": "2026-10-10T00:33:42.280987+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122122282317472689",
+      "topics": [
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "split:face+face",
+      "at": "2026-10-10T01:13:25.721657+00:00"
     }
   ],
   "tuner": {
@@ -652,25 +652,6 @@
   },
   "last_video_post": "2026-10-10",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "altman",
-        "anthropic",
-        "congrats",
-        "dario",
-        "dots",
-        "elon",
-        "goodbye",
-        "grok",
-        "lauren",
-        "musk",
-        "sam",
-        "spac",
-        "tibo"
-      ],
-      "at": "2026-10-08T06:22:00.877176+00:00"
-    },
     {
       "fp": [
         "ECB",
@@ -898,10 +879,22 @@
         "vladimir"
       ],
       "at": "2026-10-10T00:33:42.280973+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "president",
+        "putin",
+        "russian",
+        "trump",
+        "ukrainian",
+        "zelensky"
+      ],
+      "at": "2026-10-10T01:13:25.721648+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says America is no longer idle while crypto moves overseas \u2013 the U.S. is leading. After Congress stalled the Clarity Act, Chair Mike Selig ordered a formal crypto framework and opened a path for devs. \u26a1 2 decisive moves. Why it matters? The U.S",
     "BREAKING: \ud83d\udea8 NASDAQ 100 sinks 1.5% as oil prices climb and OpenAI\u2019s annualized revenue falls $20B below expectations. Oil\u2019s rally fuels a tech sell\u2011off, pushing the index deeper into red. Why it matters: investors face tech weakness and energy gains. What\u2019s next for tech stocks? #ethancole #ai #technews #stockmarket #investing #breakingnews",
     "JUST IN: \ud83d\udea9 CRUDE OIL SLIPS BELOW $90.50 PER BARREL as President Trump rules out pre\u2011election military action against Iran. Oil fell 0.8% in early trade, breaching the $90.50 threshold. Lower prices could ease inflationary pressure and calm market volatility",
     "JUST IN: \ud83d\udea9 SPOT GOLD JUMPS 1% to $4,173.05/oz",
@@ -915,6 +908,7 @@
     "JUST IN: \ud83d\udea9 BTC, ETH & SOL spot ETFs pull $319.86M out, XRP dumps $8.17M in on Oct\u202f8. Market vibes: investors dumping blue\u2011chip crypto, chasing something else. Why it matters? ETF flows can signal shifting sentiment before price swings. #ethancole #crypto #bitcoin #ethereum #solana #xrp",
     "\ud83d\udea8 NEW: Crypto projects are getting FREE AI SECURITY.",
     "JUST IN: \ud83d\udea8 New tech to power BITCOIN lending debuts with $500 MILLION in commitments.",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa Trump & Putin ink diesel pact: 300,000\u202fTons today, 500,000\u202fTons in Nov, 1\u202fM\u202fTons after."
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa Trump & Putin ink diesel pact: 300,000\u202fTons today, 500,000\u202fTons in Nov, 1\u202fM\u202fTons after.",
+    "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky blasts President Trump for lifting sanctions on Russian diesel imports. He calls it a 'happy birthday present for Putin' and a weak decision. Tweet ID 2108664118748107254 shows the heat. This could shift oil prices and fuel geopolitics. #ethancole #ai #technews #politics #breakingnews"
   ]
 }
