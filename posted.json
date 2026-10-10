@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "352579361ebc4eef",
-    "fb_id": "1264009986803820_122122311801472689",
-    "title": "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 JUST IN: Kalshi is investigating suspicious trades that correctly called Katie Zacharia as Trump's new White House press secretary before anyone saw her as a front-runner.",
-    "link": "https://x.com/Cointelegraph/status/2108754603726516700",
-    "mode": "serious",
-    "at": "2026-10-10T03:03:17.105512+00:00"
+    "hash": "80be697d6204611b",
+    "fb_id": "1264009986803820_122122332057472689",
+    "title": "JUST IN: Ledger investigates potential $86 million crypto theft linked to hardware wallets sold by a reseller in Southeast Asia.",
+    "link": "https://x.com/WatcherGuru/status/2108567866798944328",
+    "mode": "viral",
+    "at": "2026-10-10T03:44:00.598412+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -82,6 +82,7 @@
     "7ecc262303aef709",
     "7edfc3f168220e43",
     "7f0d3da8ca7d890e",
+    "80be697d6204611b",
     "8315e5792eb54e84",
     "8338fa19f7fc3596",
     "83ca0e3307091887",
@@ -143,10 +144,9 @@
   "day_counts": {
     "2026-10-08": 15,
     "2026-10-09": 15,
-    "2026-10-10": 6
+    "2026-10-10": 7
   },
   "recent_titles": [
-    "China authorizes non-state crude oil import quota for 2027 at 257 million metric tons: commerce ministry",
     "We\u2019re launching the Anthropic Cyber Mission, a new effort to secure critical infrastructure and open-source software.",
     "BREAKING: Bitcoin falls below $81,000 as over $400 million worth of levered longs are liquidated in 60 minutes.",
     "Ether bets were wiped out at six times bitcoin\u2019s rate in crypto\u2019s $1 billion flush",
@@ -160,18 +160,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky slams President Trump for lifting sanctions on Russian diesel imports. \"It looks like a happy birthday present for Putin.\" \"It is, in my view, a weak deci...",
     "This week at Bitcoin Magazine \ud83d\udcf0 - BMTV wild'n! - Metaplanet, Strategy, Strive - CFTC - ETFs - Polymarket - Power Law - Gold corr. - BlackRock - BTC & WSJ - FNB - Robinhood - Exchanges - Trump - Sbe...",
     "\ud83d\ude02Logan\u8bf4\uff1aArgon is coming, fear not :) \u7ffb\u8bd1\u4e00\u4e0b\uff1a\u518d\u7b49\u7b49\uff0c\u522b\u6015\uff0c\u6211\u4eec\u8fd8\u5728\u753b\u997c\u3002 \u7b49 Gemini 4 Argon \u771f\u6b63\u4e0a\u7ebf\u90a3\u5929\uff1a \ud83d\udd39Opus 6.0 \ud83d\udd39GPT-7 Bel \ud83d\udd39Grok 5.0 \ud83d\udd39DeepSeek V5 Pro \ud83d\udd39Kimi K4 \u65e9\u5c31\u4e0a\u7ebf\u3001\u8fed\u4ee3\u5b8c\u3001\u751a\u81f3\u5f00\u59cb\u88ab\u793e\u533a\u5410\u69fd\u201c\u53c8\u53d8\u7b28\u4e86\u201d\u4e86\u3002 Google \u7684\u201c\u5373\u5c06\u5230\u6765\u201d\u662f\u6c38\u6052\u7684\uff0c\u5bf9\u624b\u7684\u53d1\u5e03\u8282\u594f\u624d\u662f\u771f\u7684\u3002...",
-    "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 JUST IN: Kalshi is investigating suspicious trades that correctly called Katie Zacharia as Trump's new White House press secretary before anyone saw her as a front-runner."
+    "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 JUST IN: Kalshi is investigating suspicious trades that correctly called Katie Zacharia as Trump's new White House press secretary before anyone saw her as a front-runner.",
+    "JUST IN: Ledger investigates potential $86 million crypto theft linked to hardware wallets sold by a reseller in Southeast Asia."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120764755472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "split:logo+logo",
-      "at": "2026-10-07T00:32:55.664543+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120776395472689",
       "topics": [
@@ -636,6 +628,15 @@
       "mode": "serious",
       "photo": "split:face+inst",
       "at": "2026-10-10T03:03:17.105512+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122122332057472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-10T03:44:00.598412+00:00"
     }
   ],
   "tuner": {
@@ -657,21 +658,6 @@
   },
   "last_video_post": "2026-10-10",
   "recent_fps": [
-    {
-      "fp": [
-        "CFTC",
-        "IN",
-        "JUST",
-        "act",
-        "america",
-        "chair",
-        "clarity",
-        "congress",
-        "mike",
-        "selig"
-      ],
-      "at": "2026-10-09T00:32:29.073606+00:00"
-    },
     {
       "fp": [
         "$20",
@@ -924,10 +910,20 @@
         "zacharia"
       ],
       "at": "2026-10-10T03:03:17.105500+00:00"
+    },
+    {
+      "fp": [
+        "$86",
+        "IN",
+        "JUST",
+        "asia",
+        "ledger",
+        "southeast"
+      ],
+      "at": "2026-10-10T03:44:00.598394+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 Bitcoin $BTC slips under $82,000, ETH under $2,500, $185M liquidated in 60 mins.",
     "JUST IN: \ud83d\udea9 China clears 2027 crude import quota at 257\u202fM metric tons.",
     "JUST IN: ANTHROPIC LAUNCHES CYBER MISSION to guard critical infrastructure & open\u2011source software \ud83d\udea8",
     "BREAKING: Bitcoin slips under $81,000 after $400M of leveraged longs wiped out in 60 minutes. Market odds spiked, liquidity evaporated. $BTC now under $81k, a 5% drop from yesterday. Why it matters: panic could ripple to altcoins. Will the rally recover or keep falling? #ethancole #bitcoin #crypto #marketnews #investing",
@@ -941,6 +937,7 @@
     "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky blasts President Trump for lifting sanctions on Russian diesel imports. He calls it a 'happy birthday present for Putin' and a weak decision. Tweet ID 2108664118748107254 shows the heat. This could shift oil prices and fuel geopolitics. #ethancole #ai #technews #politics #breakingnews",
     "\ud83d\udea8 BITCOIN WEEKLY RECAP: Metaplanet Inc. Inc. Inc., Strategy ($MSTR), Strive, Inc., Inc., Inc., Inc. making moves.",
     "BREAKING: \ud83d\udea9 ARGON IS COMING, DON'T FRET \ud83d\ude31",
-    "JUST IN: \ud83d\udea8 Kalshi is probing suspicious trades that correctly named Katie Zacharia as Trump's new White House press secretary before any front\u2011runner emerged. Market odds spiked as traders bet on the hire"
+    "JUST IN: \ud83d\udea8 Kalshi is probing suspicious trades that correctly named Katie Zacharia as Trump's new White House press secretary before any front\u2011runner emerged. Market odds spiked as traders bet on the hire",
+    "JUST IN: \ud83d\udea9 $86M crypto theft linked to Ledger wallets sold by a reseller in Southeast Asia. Ledger is probing the breach. $86,000,000 could wipe out thousands of users' holdings. Why does this matter? It dents confidence in wallets and could spark regulation"
   ]
 }
