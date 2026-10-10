@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "dfe42122b9580316",
-    "fb_id": "1264009986803820_122121873861472689",
-    "title": "New tech to power bitcoin lending is set to debut with $500 million in commitments",
-    "link": "https://www.coindesk.com/markets/2026/10/09/new-tech-to-power-bitcoin-lending-is-set-to-debut-with-usd500-million-in-commitments",
-    "mode": "serious",
-    "at": "2026-10-09T07:02:36.738117+00:00"
+    "hash": "0a36c68d9af0b560",
+    "fb_id": "28826504170310245",
+    "title": "Q: Zelensky said you were weak because of your oil deal with Russia. Trump: Who said that? Q: Zelensky. Trump: Okay.",
+    "link": "https://x.com/clashreport/status/2108667045151940612",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-10-10T00:03:57.970689+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -16,6 +17,7 @@
     "0709e3e2addffc4e",
     "08ac912336069268",
     "08f210dc7becee93",
+    "0a36c68d9af0b560",
     "0afa79877035161a",
     "100a2e3d51fa9091",
     "11e9a2979f0b49a2",
@@ -135,12 +137,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-07": 15,
     "2026-10-08": 15,
-    "2026-10-09": 15
+    "2026-10-09": 15,
+    "2026-10-10": 1
   },
   "recent_titles": [
-    "Ultrafast is rolling out today for GPT-6.1 Sol in the API, Codex, and ChatGPT Work. Near-Astra intelligence at up to 8x faster speeds than Sol Standard, so you can build as fast as the ideas come.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 CFTC says \"America is no longer sitting back while crypto moves overseas, and other countries set the standard.\" \"America leading the way.\" Over the past month, the CFTC has taken the f...",
     "BREAKING: The Nasdaq 100 extends losses to -1.5% on the day as oil prices rise and OpenAI\u2019s annualized revenue comes in $20 billion below expectations.",
     "CRUDE OIL WEAKENS BELOW $90.50 AS TRUMP RULES OUT PRE-ELECTION MILITARY ACTION AGAINST IRAN - FX",
@@ -154,18 +155,10 @@
     "BREAKING: Brent crude oil prices rise above $105/barrel on reports that President Trump is considering resuming \u201cmajor combat operations\u201d in Iran.",
     "\ud83d\udd25 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows, while XRP saw net inflows on October 8th. BTC: -$244.00M ETH: -$72.54M SOL: -$3.32M XRP: +$8.17M",
     "\ud83d\udd25 NEW: Crypto projects including Ethereum client Nethermind and Bitcoin wallet ZEUS have applied for Anthropic's free OSS Scanner, which promises vulnerability reports from its strongest AI models,...",
-    "New tech to power bitcoin lending is set to debut with $500 million in commitments"
+    "New tech to power bitcoin lending is set to debut with $500 million in commitments",
+    "Q: Zelensky said you were weak because of your oil deal with Russia. Trump: Who said that? Q: Zelensky. Trump: Okay."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120382375472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "split:logo+logo",
-      "at": "2026-10-06T06:12:32.195730+00:00"
-    },
     {
       "fb_id": "1467907921912028",
       "topics": [
@@ -627,12 +620,21 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-09T07:02:36.738117+00:00"
+    },
+    {
+      "fb_id": "28826504170310245",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "at": "2026-10-10T00:03:57.970689+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-09"
+    "updated": "2026-10-10"
   },
   "comment_review": {
     "posts": 8,
@@ -644,21 +646,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-09"
+    "updated": "2026-10-10"
   },
-  "last_video_post": "2026-10-09",
+  "last_video_post": "2026-10-10",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "US",
-        "samsung",
-        "solana",
-        "wallet"
-      ],
-      "at": "2026-10-08T05:01:36.145646+00:00"
-    },
     {
       "fp": [
         "CEO",
@@ -897,6 +888,16 @@
         "$500"
       ],
       "at": "2026-10-09T07:02:36.738109+00:00"
+    },
+    {
+      "fp": [
+        "okay",
+        "russia",
+        "trump",
+        "who",
+        "zelensky"
+      ],
+      "at": "2026-10-10T00:03:57.970676+00:00"
     }
   ],
   "recent_hooks": [
