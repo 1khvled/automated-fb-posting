@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "89ac828e8f5cead9",
-    "fb_id": "1264009986803820_122122399281472689",
-    "title": "JUST IN: Bitcoin $BTC is no longer projected to reclaim $100,000 this year.",
-    "link": "https://x.com/WatcherGuru/status/2108584589962707320",
+    "hash": "090f78c3b2e3ecf1",
+    "fb_id": "1264009986803820_122122410291472689",
+    "title": "\ud83c\uddee\ud83c\uddf7 Iran has struck an oil tanker near Fujairah, UAE. Oil is now leaking from the vessel.",
+    "link": "https://x.com/Megatron_ron/status/2108613912727892380",
     "mode": "viral",
-    "at": "2026-10-10T07:41:19.064650+00:00"
+    "at": "2026-10-10T08:12:24.382975+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -16,6 +16,7 @@
     "0709e3e2addffc4e",
     "08ac912336069268",
     "08f210dc7becee93",
+    "090f78c3b2e3ecf1",
     "0a36c68d9af0b560",
     "0afa79877035161a",
     "0f167e673f05e771",
@@ -151,10 +152,9 @@
   "day_counts": {
     "2026-10-08": 15,
     "2026-10-09": 15,
-    "2026-10-10": 14
+    "2026-10-10": 15
   },
   "recent_titles": [
-    "New tech to power bitcoin lending is set to debut with $500 million in commitments",
     "Q: Zelensky said you were weak because of your oil deal with Russia. Trump: Who said that? Q: Zelensky. Trump: Okay.",
     "BREAKING: Trump: I have just concluded a highly successful discussion with President Vladimir Putin, of Russia, wherein it was agreed that Russia will immediately supply over 300,000 Tons of Diesel...",
     "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky slams President Trump for lifting sanctions on Russian diesel imports. \"It looks like a happy birthday present for Putin.\" \"It is, in my view, a weak deci...",
@@ -168,19 +168,10 @@
     "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
     "Egypt's yearly urban consumer price inflation slows to 13.9% in September",
     "One year ago today, crypto suffered its largest liquidation event in history, wiping out over $19,100,000,000 in leveraged positions.",
-    "JUST IN: Bitcoin $BTC is no longer projected to reclaim $100,000 this year."
+    "JUST IN: Bitcoin $BTC is no longer projected to reclaim $100,000 this year.",
+    "\ud83c\uddee\ud83c\uddf7 Iran has struck an oil tanker near Fujairah, UAE. Oil is now leaking from the vessel."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120837643472689",
-      "topics": [
-        "crypto",
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-07T04:54:47.913004+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120845173472689",
       "topics": [
@@ -643,6 +634,15 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-10T07:41:19.064650+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122122410291472689",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-10T08:12:24.382975+00:00"
     }
   ],
   "tuner": {
@@ -664,13 +664,6 @@
   },
   "last_video_post": "2026-10-10",
   "recent_fps": [
-    {
-      "fp": [
-        "$1",
-        "ether"
-      ],
-      "at": "2026-10-09T04:32:42.835714+00:00"
-    },
     {
       "fp": [
         "$10",
@@ -924,10 +917,18 @@
         "bitcoin"
       ],
       "at": "2026-10-10T07:41:19.064633+00:00"
+    },
+    {
+      "fp": [
+        "UAE",
+        "fujairah",
+        "iran",
+        "oil"
+      ],
+      "at": "2026-10-10T08:12:24.382954+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 NEW: Crypto projects are getting FREE AI SECURITY.",
     "JUST IN: \ud83d\udea8 New tech to power BITCOIN lending debuts with $500 MILLION in commitments.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa Trump & Putin ink diesel pact: 300,000\u202fTons today, 500,000\u202fTons in Nov, 1\u202fM\u202fTons after.",
     "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky blasts President Trump for lifting sanctions on Russian diesel imports. He calls it a 'happy birthday present for Putin' and a weak decision. Tweet ID 2108664118748107254 shows the heat. This could shift oil prices and fuel geopolitics. #ethancole #ai #technews #politics #breakingnews",
@@ -941,6 +942,7 @@
     "JUST IN: \ud83c\udfc1 Bitcoin\u2019s volatility has plunged, yet extreme swings are more frequent than in 2018.",
     "JUST IN: \ud83c\uddea\ud83c\uddec Egypt's annual urban consumer inflation slows to 13.9% in September. After a 15.5% peak last year, the slowdown hints at easing cost pressure. \ud83d\udcc9 13.9% is still high but the decline signals cooling",
     "JUST IN: \ud83d\udca5 Crypto suffered its LARGEST liquidation event in history one year ago today.",
-    "JUST IN: \ud83d\udcc9 Bitcoin ($BTC) will NOT reclaim $100,000 this year."
+    "JUST IN: \ud83d\udcc9 Bitcoin ($BTC) will NOT reclaim $100,000 this year.",
+    "\ud83d\udea8 BREAKING: Iran STRIKES oil tanker near Fujairah, UAE."
   ]
 }
