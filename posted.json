@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "25d3e965ce6b33b2",
-    "fb_id": "1264009986803820_122122841901472689",
-    "title": "JUST IN: Microsoft $MSFT CEO Satya Nadella calls for \"emergency brake\" on advanced AI.",
-    "link": "https://x.com/WatcherGuru/status/2109043855832072456",
-    "mode": "viral",
-    "at": "2026-10-11T05:42:23.965544+00:00"
+    "hash": "ba0962c96cf784fa",
+    "fb_id": "1264009986803820_122122848063472689",
+    "title": "claude100\u7f8e\u5143\u8d5e\u52a9\u8d39\u5df2\u6536\u5230\u3002 \u4eca\u5929\u5f00\u809dopus5.5\u6a21\u578b\u4e86\uff0c\u6211\u628a\u6e38\u620f\u573a\u666f\u53bb\u642d\u5efa\u5b8c\u5584\uff0c\u540e\u9762\u518d\u505a\u63a2\u9669\u89c6\u9891\u5c31\u5bb9\u6613\u591a\u4e86\u3002 \u53ef\u4ee5\u63a2\u7d22\u66f4\u591a\u7684\u73a9\u6cd5\u4e86\u3002 \u8c22\u8c22\u8def\u98de\u5927\u54e5\u7684\u9f0e\u529b\u76f8\u52a9@Aigoodbro",
+    "link": "https://x.com/shengtang135754/status/2109154003385033199",
+    "mode": "serious",
+    "at": "2026-10-11T06:11:21.353343+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -124,6 +124,7 @@
     "b36ff231b46d1643",
     "b4df5090744d57db",
     "b79341c94e166719",
+    "ba0962c96cf784fa",
     "ba533a34928a8dc1",
     "ba53dd395241dbaf",
     "baa35c16631d5782",
@@ -164,10 +165,9 @@
   "day_counts": {
     "2026-10-09": 15,
     "2026-10-10": 15,
-    "2026-10-11": 12
+    "2026-10-11": 13
   },
   "recent_titles": [
-    "One year ago today, crypto suffered its largest liquidation event in history, wiping out over $19,100,000,000 in leveraged positions.",
     "JUST IN: Bitcoin $BTC is no longer projected to reclaim $100,000 this year.",
     "\ud83c\uddee\ud83c\uddf7 Iran has struck an oil tanker near Fujairah, UAE. Oil is now leaking from the vessel.",
     "\ud83d\udca5\u5fae\u8f6f Decision-1 \u5728\u592a\u7a7a\u4fb5\u7565\u8005\u91cc\u76f4\u63a5\u628a OpenAI \u51b3\u7b56\u6a21\u578b\u6309\u5728\u5730\u4e0a\u6469\u64e6\uff01 \ud83d\udd39Microsoft-Decision-1 \u25ab\ufe0f\u51b3\u7b56\u5ef6\u8fdf ~75\u2013100ms\uff083.5x \u66f4\u5feb\uff09 \u25ab\ufe0f\u5f97\u5206 3320\uff0c\u6e05\u6389 4 \u6ce2\u5916\u661f\u4eba \u25ab\ufe0f\u5b98\u65b9\u57fa\u51c6\uff1a83.5% \u51c6\u786e\u7387 | 85ms p50 | \u6bd4 GPT-6 Sol \u5feb 35x \u25ab\ufe0f$0.042/\u767e\u4e07\u8f93\u5165\uff0c\u8f93\u51fa\u514d\u8d39 \ud83d\udd38OpenAI Decision ...",
@@ -181,18 +181,10 @@
     "\ud83d\ude04\u6837\u7247\u6765\u4e86\uff0c\u6bd5\u7adf\u521a\u5f00\u59cb\uff0c\u5148\u522b\u55b7\u6211\uff0c\u6211\u4f1a\u7ee7\u7eed\u4f18\u5316\u3002claude opus5.5\u2795haiku5.5\uff0c\u82b1\u8d39\u4e86\u5927\u69827\u5143\u3002 \u505a\u8fd9\u4e2a\u7684\u539f\u56e0\u662f\u6211\u5f88\u559c\u6b22\u6296\u97f3\u7684\u795e\u79d8\u56ed\u8001\u5e08\uff0c\u4ed6\u7684\u63a2\u9669\u89c6\u9891\u505a\u7684\u975e\u5e38\u597d\uff0c\u58f0\u97f3\u4e5f\u65e0\u6cd5\u66ff\u4ee3\uff0c\u81ea\u4ece\u6709\u4e86Ai\u6211\u4e00\u76f4\u60f3\u8981\u590d\u523b\u3002 \u6211\u4e00\u76f4\u5728\u7814\u7a76\u6781\u81f4\u6027\u4ef7\u6bd4\uff0c\u4e0d\u60f3\u501f\u52a9\u4e8e\u89c6\u9891\u751f\u6210\u80fd\u529b\u6765\u505a\uff0c\u56e0\u4e3a\u6210\u672c\u4e0d\u53ef\u63a7\uff0c\u4e0d\u9002\u5408\u6211\u4eec\u666e\u901a\u4eba\u3002 \u6240\u4ee5\u6211\u7684\u601d\u8def\u662f\uff0c\u5148\u505a\u6e38\u620f\uff0c\u7136\u540e\u901a\u8fc7haiku5.5\u6765\u64cd\u4f5c\u6e38\u620f\u5f55\u5c4f\uff0c\u526a\u8f91\uff0c\u706b\u5c71\u5f15\u64ce\u914d...",
     "BREAKING: The Bank of Japan's total assets declined -$98 billion in Q3 2026, to $3.95 trillion, the lowest since Q1 2020. Since the Q1 2024 peak, the BoJ has reduced its balance sheet by -$828 bill...",
     "\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8Trump thanks Russia for saving him with the diesel amid midterms: \u201cRussia agreed to send us millions and millions of barrels of oil. And it's diesel \u2014 that's what we really need! So, thank you!\u201d",
-    "JUST IN: Microsoft $MSFT CEO Satya Nadella calls for \"emergency brake\" on advanced AI."
+    "JUST IN: Microsoft $MSFT CEO Satya Nadella calls for \"emergency brake\" on advanced AI.",
+    "claude100\u7f8e\u5143\u8d5e\u52a9\u8d39\u5df2\u6536\u5230\u3002 \u4eca\u5929\u5f00\u809dopus5.5\u6a21\u578b\u4e86\uff0c\u6211\u628a\u6e38\u620f\u573a\u666f\u53bb\u642d\u5efa\u5b8c\u5584\uff0c\u540e\u9762\u518d\u505a\u63a2\u9669\u89c6\u9891\u5c31\u5bb9\u6613\u591a\u4e86\u3002 \u53ef\u4ee5\u63a2\u7d22\u66f4\u591a\u7684\u73a9\u6cd5\u4e86\u3002 \u8c22\u8c22\u8def\u98de\u5927\u54e5\u7684\u9f0e\u529b\u76f8\u52a9@Aigoodbro"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122121275427472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-08T03:32:05.901066+00:00"
-    },
     {
       "fb_id": "1264009986803820_122121283839472689",
       "topics": [
@@ -647,6 +639,15 @@
       "mode": "viral",
       "photo": "split:face+face",
       "at": "2026-10-11T05:42:23.965544+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122122848063472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-11T06:11:21.353343+00:00"
     }
   ],
   "tuner": {
@@ -668,21 +669,6 @@
   },
   "last_video_post": "2026-10-11",
   "recent_fps": [
-    {
-      "fp": [
-        "$300",
-        "IN",
-        "JUST",
-        "SPAC",
-        "XRP",
-        "XRPN",
-        "evernorth",
-        "monday",
-        "nasdaq",
-        "ripple"
-      ],
-      "at": "2026-10-10T04:12:05.940941+00:00"
-    },
     {
       "fp": [
         "august",
@@ -874,10 +860,15 @@
         "satya"
       ],
       "at": "2026-10-11T05:42:23.965532+00:00"
+    },
+    {
+      "fp": [
+        "aigoodbro"
+      ],
+      "at": "2026-10-11T06:11:21.353328+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddea\ud83c\uddec Egypt's annual urban consumer inflation slows to 13.9% in September. After a 15.5% peak last year, the slowdown hints at easing cost pressure. \ud83d\udcc9 13.9% is still high but the decline signals cooling",
     "JUST IN: \ud83d\udca5 Crypto suffered its LARGEST liquidation event in history one year ago today.",
     "JUST IN: \ud83d\udcc9 Bitcoin ($BTC) will NOT reclaim $100,000 this year.",
     "\ud83d\udea8 BREAKING: Iran STRIKES oil tanker near Fujairah, UAE.",
@@ -891,6 +882,7 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Treasury Secretary Scott Bessent FIRES BACK at Senator Elizabeth Warren.",
     "BREAKING: \ud83d\udea9 The Bank of Japan\u2019s total assets fell $98\u202fB in Q3\u202f2026, down to $3.95\u202fT \u2013 lowest since Q1\u202f2020. Since Q1\u202f2024 peak, the balance sheet shrank $828\u202fB, a 17.4\u202f% cut. Asset\u2011to\u2011GDP ratio plunged 28 points to 94%, the lowest since 2018. Bond holdings fell $90\u202fB.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa TRUMP THANKS RUSSIA FOR DIESEL RESCUE! He claims Russia will send millions of barrels of oil\u2014diesel is the real need. Odds of a midterm energy shift just spiked.",
-    "JUST IN: \ud83d\udea8 Microsoft ($MSFT) CEO Satya Nadella wants an \"emergency brake\" on advanced AI."
+    "JUST IN: \ud83d\udea8 Microsoft ($MSFT) CEO Satya Nadella wants an \"emergency brake\" on advanced AI.",
+    "JUST IN: \ud83d\udcb0 Claude receives $100 SPONSORSHIP."
   ]
 }
