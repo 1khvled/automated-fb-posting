@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "9f162789c72b6097",
-    "fb_id": "1264009986803820_122122854921472689",
-    "title": "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\udde6 The US is offering the Russians huge sums of money to accept a limited ceasefire, per NYT The U.S. proposed three major economic incentives to persuade Russia to accept a limited c...",
-    "link": "https://x.com/Megatron_ron/status/2108998027629490675",
-    "mode": "viral",
-    "at": "2026-10-11T06:42:32.474186+00:00"
+    "hash": "f6ab0f1cbf1e0293",
+    "fb_id": "1264009986803820_122122862235472689",
+    "title": "Trump praises Putin: Putin is freeing up a lot of oil for the world, okay? A good thing. And by the way, at a very low price.",
+    "link": "https://x.com/clashreport/status/2109173244754317407",
+    "mode": "serious",
+    "at": "2026-10-11T07:11:53.895045+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -155,6 +155,7 @@
     "f041ccdd0f70088f",
     "f5c9f3c52bf9d8cb",
     "f657b460fe198b75",
+    "f6ab0f1cbf1e0293",
     "f6d6a3d5a0a3a147",
     "f99897bde7abfc3a",
     "fa152430a72a73ba",
@@ -166,10 +167,9 @@
   "day_counts": {
     "2026-10-09": 15,
     "2026-10-10": 15,
-    "2026-10-11": 14
+    "2026-10-11": 15
   },
   "recent_titles": [
-    "\ud83c\uddee\ud83c\uddf7 Iran has struck an oil tanker near Fujairah, UAE. Oil is now leaking from the vessel.",
     "\ud83d\udca5\u5fae\u8f6f Decision-1 \u5728\u592a\u7a7a\u4fb5\u7565\u8005\u91cc\u76f4\u63a5\u628a OpenAI \u51b3\u7b56\u6a21\u578b\u6309\u5728\u5730\u4e0a\u6469\u64e6\uff01 \ud83d\udd39Microsoft-Decision-1 \u25ab\ufe0f\u51b3\u7b56\u5ef6\u8fdf ~75\u2013100ms\uff083.5x \u66f4\u5feb\uff09 \u25ab\ufe0f\u5f97\u5206 3320\uff0c\u6e05\u6389 4 \u6ce2\u5916\u661f\u4eba \u25ab\ufe0f\u5b98\u65b9\u57fa\u51c6\uff1a83.5% \u51c6\u786e\u7387 | 85ms p50 | \u6bd4 GPT-6 Sol \u5feb 35x \u25ab\ufe0f$0.042/\u767e\u4e07\u8f93\u5165\uff0c\u8f93\u51fa\u514d\u8d39 \ud83d\udd38OpenAI Decision ...",
     "Trump: calls Saudi attack 'a terrible thing'",
     "FUN FACT: Bitcoin $BTC has a larger market cap than Bank of America and Bank of China combined.",
@@ -183,19 +183,10 @@
     "\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8Trump thanks Russia for saving him with the diesel amid midterms: \u201cRussia agreed to send us millions and millions of barrels of oil. And it's diesel \u2014 that's what we really need! So, thank you!\u201d",
     "JUST IN: Microsoft $MSFT CEO Satya Nadella calls for \"emergency brake\" on advanced AI.",
     "claude100\u7f8e\u5143\u8d5e\u52a9\u8d39\u5df2\u6536\u5230\u3002 \u4eca\u5929\u5f00\u809dopus5.5\u6a21\u578b\u4e86\uff0c\u6211\u628a\u6e38\u620f\u573a\u666f\u53bb\u642d\u5efa\u5b8c\u5584\uff0c\u540e\u9762\u518d\u505a\u63a2\u9669\u89c6\u9891\u5c31\u5bb9\u6613\u591a\u4e86\u3002 \u53ef\u4ee5\u63a2\u7d22\u66f4\u591a\u7684\u73a9\u6cd5\u4e86\u3002 \u8c22\u8c22\u8def\u98de\u5927\u54e5\u7684\u9f0e\u529b\u76f8\u52a9@Aigoodbro",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\udde6 The US is offering the Russians huge sums of money to accept a limited ceasefire, per NYT The U.S. proposed three major economic incentives to persuade Russia to accept a limited c..."
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\udde6 The US is offering the Russians huge sums of money to accept a limited ceasefire, per NYT The U.S. proposed three major economic incentives to persuade Russia to accept a limited c...",
+    "Trump praises Putin: Putin is freeing up a lot of oil for the world, okay? A good thing. And by the way, at a very low price."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122121292803472689",
-      "topics": [
-        "crypto",
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-08T04:32:15.708478+00:00"
-    },
     {
       "fb_id": "1264009986803820_122121301119472689",
       "topics": [
@@ -649,6 +640,16 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-11T06:42:32.474186+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122122862235472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:face+face",
+      "at": "2026-10-11T07:11:53.895045+00:00"
     }
   ],
   "tuner": {
@@ -670,20 +671,6 @@
   },
   "last_video_post": "2026-10-11",
   "recent_fps": [
-    {
-      "fp": [
-        "LLM",
-        "VRAM",
-        "clef",
-        "colab",
-        "jev",
-        "kaggle",
-        "laya",
-        "notebook",
-        "unsloth"
-      ],
-      "at": "2026-10-10T05:21:33.479838+00:00"
-    },
     {
       "fp": [
         "bitcoin"
@@ -868,10 +855,16 @@
         "russians"
       ],
       "at": "2026-10-11T06:42:32.474174+00:00"
+    },
+    {
+      "fp": [
+        "putin",
+        "trump"
+      ],
+      "at": "2026-10-11T07:11:53.895030+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udcc9 Bitcoin ($BTC) will NOT reclaim $100,000 this year.",
     "\ud83d\udea8 BREAKING: Iran STRIKES oil tanker near Fujairah, UAE.",
     "\ud83d\udca5 Microsoft's Decision-1 is CRUSHING OpenAI in Space Invaders.",
     "JUST IN: \ud83d\udea8 Trump calls Saudi attack a TERRIBLE thing.",
@@ -885,6 +878,7 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa TRUMP THANKS RUSSIA FOR DIESEL RESCUE! He claims Russia will send millions of barrels of oil\u2014diesel is the real need. Odds of a midterm energy shift just spiked.",
     "JUST IN: \ud83d\udea8 Microsoft ($MSFT) CEO Satya Nadella wants an \"emergency brake\" on advanced AI.",
     "JUST IN: \ud83d\udcb0 Claude receives $100 SPONSORSHIP.",
-    "BREAKING: US offers billions to Russia for limited ceasefire \u2014 US wins, Russia loses. 3 major economic incentives target energy and maritime ops, including release of frozen assets worth billions. If accepted, could shift global energy markets and sanctions. Is this the last straw for Putin? #ethancole #finance #breakingnews #economy #marketnews"
+    "BREAKING: US offers billions to Russia for limited ceasefire \u2014 US wins, Russia loses. 3 major economic incentives target energy and maritime ops, including release of frozen assets worth billions. If accepted, could shift global energy markets and sanctions. Is this the last straw for Putin? #ethancole #finance #breakingnews #economy #marketnews",
+    "BREAKING: \ud83d\udee2\ufe0f Trump praises Putin for 'freeing up a lot of OIL' at a 'very low price.'"
   ]
 }
