@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "090f78c3b2e3ecf1",
-    "fb_id": "1264009986803820_122122410291472689",
-    "title": "\ud83c\uddee\ud83c\uddf7 Iran has struck an oil tanker near Fujairah, UAE. Oil is now leaking from the vessel.",
-    "link": "https://x.com/Megatron_ron/status/2108613912727892380",
-    "mode": "viral",
-    "at": "2026-10-10T08:12:24.382975+00:00"
+    "hash": "f5c9f3c52bf9d8cb",
+    "fb_id": "1264009986803820_122122744839472689",
+    "title": "\ud83d\udca5\u5fae\u8f6f Decision-1 \u5728\u592a\u7a7a\u4fb5\u7565\u8005\u91cc\u76f4\u63a5\u628a OpenAI \u51b3\u7b56\u6a21\u578b\u6309\u5728\u5730\u4e0a\u6469\u64e6\uff01 \ud83d\udd39Microsoft-Decision-1 \u25ab\ufe0f\u51b3\u7b56\u5ef6\u8fdf ~75\u2013100ms\uff083.5x \u66f4\u5feb\uff09 \u25ab\ufe0f\u5f97\u5206 3320\uff0c\u6e05\u6389 4 \u6ce2\u5916\u661f\u4eba \u25ab\ufe0f\u5b98\u65b9\u57fa\u51c6\uff1a83.5% \u51c6\u786e\u7387 | 85ms p50 | \u6bd4 GPT-6 Sol \u5feb 35x \u25ab\ufe0f$0.042/\u767e\u4e07\u8f93\u5165\uff0c\u8f93\u51fa\u514d\u8d39 \ud83d\udd38OpenAI Decision ...",
+    "link": "https://x.com/NFT_Chen/status/2109069910131519624",
+    "mode": "serious",
+    "at": "2026-10-11T00:02:54.233424+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -142,6 +142,7 @@
     "ef9e9adaee7d4177",
     "efb052f68304f89a",
     "f041ccdd0f70088f",
+    "f5c9f3c52bf9d8cb",
     "f657b460fe198b75",
     "f99897bde7abfc3a",
     "faa585879730d067",
@@ -150,12 +151,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-08": 15,
     "2026-10-09": 15,
-    "2026-10-10": 15
+    "2026-10-10": 15,
+    "2026-10-11": 1
   },
   "recent_titles": [
-    "Q: Zelensky said you were weak because of your oil deal with Russia. Trump: Who said that? Q: Zelensky. Trump: Okay.",
     "BREAKING: Trump: I have just concluded a highly successful discussion with President Vladimir Putin, of Russia, wherein it was agreed that Russia will immediately supply over 300,000 Tons of Diesel...",
     "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky slams President Trump for lifting sanctions on Russian diesel imports. \"It looks like a happy birthday present for Putin.\" \"It is, in my view, a weak deci...",
     "This week at Bitcoin Magazine \ud83d\udcf0 - BMTV wild'n! - Metaplanet, Strategy, Strive - CFTC - ETFs - Polymarket - Power Law - Gold corr. - BlackRock - BTC & WSJ - FNB - Robinhood - Exchanges - Trump - Sbe...",
@@ -169,20 +169,10 @@
     "Egypt's yearly urban consumer price inflation slows to 13.9% in September",
     "One year ago today, crypto suffered its largest liquidation event in history, wiping out over $19,100,000,000 in leveraged positions.",
     "JUST IN: Bitcoin $BTC is no longer projected to reclaim $100,000 this year.",
-    "\ud83c\uddee\ud83c\uddf7 Iran has struck an oil tanker near Fujairah, UAE. Oil is now leaking from the vessel."
+    "\ud83c\uddee\ud83c\uddf7 Iran has struck an oil tanker near Fujairah, UAE. Oil is now leaking from the vessel.",
+    "\ud83d\udca5\u5fae\u8f6f Decision-1 \u5728\u592a\u7a7a\u4fb5\u7565\u8005\u91cc\u76f4\u63a5\u628a OpenAI \u51b3\u7b56\u6a21\u578b\u6309\u5728\u5730\u4e0a\u6469\u64e6\uff01 \ud83d\udd39Microsoft-Decision-1 \u25ab\ufe0f\u51b3\u7b56\u5ef6\u8fdf ~75\u2013100ms\uff083.5x \u66f4\u5feb\uff09 \u25ab\ufe0f\u5f97\u5206 3320\uff0c\u6e05\u6389 4 \u6ce2\u5916\u661f\u4eba \u25ab\ufe0f\u5b98\u65b9\u57fa\u51c6\uff1a83.5% \u51c6\u786e\u7387 | 85ms p50 | \u6bd4 GPT-6 Sol \u5feb 35x \u25ab\ufe0f$0.042/\u767e\u4e07\u8f93\u5165\uff0c\u8f93\u51fa\u514d\u8d39 \ud83d\udd38OpenAI Decision ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120845173472689",
-      "topics": [
-        "fed",
-        "inflation",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "flag:in",
-      "at": "2026-10-07T05:22:32.416883+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120851089472689",
       "topics": [
@@ -643,12 +633,21 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-10T08:12:24.382975+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122122744839472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "split:logo+logo",
+      "at": "2026-10-11T00:02:54.233424+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-10"
+    "updated": "2026-10-11"
   },
   "comment_review": {
     "posts": 8,
@@ -660,31 +659,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-10"
+    "updated": "2026-10-11"
   },
   "last_video_post": "2026-10-10",
   "recent_fps": [
-    {
-      "fp": [
-        "$10",
-        "$2",
-        "$20",
-        "$4",
-        "CLI",
-        "already",
-        "antigravity",
-        "argon",
-        "astra",
-        "built",
-        "cloud",
-        "early",
-        "gemini",
-        "google",
-        "opus",
-        "wider"
-      ],
-      "at": "2026-10-09T05:04:29.815366+00:00"
-    },
     {
       "fp": [
         "$105",
@@ -926,10 +904,23 @@
         "oil"
       ],
       "at": "2026-10-10T08:12:24.382954+00:00"
+    },
+    {
+      "fp": [
+        "$0.042",
+        "$0.10",
+        "3.5x",
+        "35x",
+        "API",
+        "GPT",
+        "decision",
+        "microsoft",
+        "sol"
+      ],
+      "at": "2026-10-11T00:02:54.233409+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 New tech to power BITCOIN lending debuts with $500 MILLION in commitments.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa Trump & Putin ink diesel pact: 300,000\u202fTons today, 500,000\u202fTons in Nov, 1\u202fM\u202fTons after.",
     "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky blasts President Trump for lifting sanctions on Russian diesel imports. He calls it a 'happy birthday present for Putin' and a weak decision. Tweet ID 2108664118748107254 shows the heat. This could shift oil prices and fuel geopolitics. #ethancole #ai #technews #politics #breakingnews",
     "\ud83d\udea8 BITCOIN WEEKLY RECAP: Metaplanet Inc. Inc. Inc., Strategy ($MSTR), Strive, Inc., Inc., Inc., Inc. making moves.",
@@ -943,6 +934,7 @@
     "JUST IN: \ud83c\uddea\ud83c\uddec Egypt's annual urban consumer inflation slows to 13.9% in September. After a 15.5% peak last year, the slowdown hints at easing cost pressure. \ud83d\udcc9 13.9% is still high but the decline signals cooling",
     "JUST IN: \ud83d\udca5 Crypto suffered its LARGEST liquidation event in history one year ago today.",
     "JUST IN: \ud83d\udcc9 Bitcoin ($BTC) will NOT reclaim $100,000 this year.",
-    "\ud83d\udea8 BREAKING: Iran STRIKES oil tanker near Fujairah, UAE."
+    "\ud83d\udea8 BREAKING: Iran STRIKES oil tanker near Fujairah, UAE.",
+    "\ud83d\udca5 Microsoft's Decision-1 is CRUSHING OpenAI in Space Invaders."
   ]
 }
