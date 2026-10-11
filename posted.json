@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "67b3dc14d2c60b7e",
-    "fb_id": "1264009986803820_122122774461472689",
-    "title": "Bernie Sanders has said: If you paid $1 in federal income taxes last year, you paid more than Citigroup after making $4 billion in profits, charging 32.74% interest on credit cards & slashing 20,00...",
-    "link": "https://x.com/unusual_whales/status/2109056633556853071",
-    "mode": "viral",
-    "at": "2026-10-11T02:02:38.911592+00:00"
+    "hash": "3ccaf6ca07aa5503",
+    "fb_id": "1264009986803820_122122784193472689",
+    "title": "Trump Calls on Democratic Senator John Fetterman to Join the Republican Party",
+    "link": "https://x.com/FirstSquawk/status/2109106444973039624",
+    "mode": "serious",
+    "at": "2026-10-11T02:33:19.236137+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -50,6 +50,7 @@
     "3798774b8ed68fb4",
     "3b4aa213b4a64a56",
     "3c7e63595369afd6",
+    "3ccaf6ca07aa5503",
     "3eb4a262e3a6a366",
     "4987c4f1f6f22605",
     "49e7734863e36891",
@@ -157,10 +158,9 @@
   "day_counts": {
     "2026-10-09": 15,
     "2026-10-10": 15,
-    "2026-10-11": 5
+    "2026-10-11": 6
   },
   "recent_titles": [
-    "\ud83c\uddfa\ud83c\uddf8\ud83d\udea8 JUST IN: Kalshi is investigating suspicious trades that correctly called Katie Zacharia as Trump's new White House press secretary before anyone saw her as a front-runner.",
     "JUST IN: Ledger investigates potential $86 million crypto theft linked to hardware wallets sold by a reseller in Southeast Asia.",
     "\ud83d\udd25\ud83d\udea8 JUST IN: Ripple-backed XRP treasury Evernorth just closed its SPAC merger, dragging 473M XRP and $300M cash onto Nasdaq with XRPN set to trade Monday.",
     "BREAKING: China\u2019s central bank officially bought +23 tonnes of gold in September, its largest monthly purchase since September 2023. This follows +20 tonnes purchased in both August and July, and m...",
@@ -174,17 +174,10 @@
     "Trump: calls Saudi attack 'a terrible thing'",
     "FUN FACT: Bitcoin $BTC has a larger market cap than Bank of America and Bank of China combined.",
     "NEW: \ud83c\udde7\ud83c\uddec Bulgaria's First Investment Bank will offer Bitcoin and crypto assets to over 1 million clients \ud83d\ude80",
-    "Bernie Sanders has said: If you paid $1 in federal income taxes last year, you paid more than Citigroup after making $4 billion in profits, charging 32.74% interest on credit cards & slashing 20,00..."
+    "Bernie Sanders has said: If you paid $1 in federal income taxes last year, you paid more than Citigroup after making $4 billion in profits, charging 32.74% interest on credit cards & slashing 20,00...",
+    "Trump Calls on Democratic Senator John Fetterman to Join the Republican Party"
   ],
   "history": [
-    {
-      "fb_id": "1836015930615071",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "at": "2026-10-08T00:02:33.062448+00:00"
-    },
     {
       "fb_id": "1264009986803820_122121221919472689",
       "topics": [
@@ -642,6 +635,15 @@
       "mode": "viral",
       "photo": "split:face+inst",
       "at": "2026-10-11T02:02:38.911592+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122122784193472689",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:face+inst",
+      "at": "2026-10-11T02:33:19.236137+00:00"
     }
   ],
   "tuner": {
@@ -663,16 +665,6 @@
   },
   "last_video_post": "2026-10-10",
   "recent_fps": [
-    {
-      "fp": [
-        "okay",
-        "russia",
-        "trump",
-        "who",
-        "zelensky"
-      ],
-      "at": "2026-10-10T00:03:57.970676+00:00"
-    },
     {
       "fp": [
         "additionally",
@@ -908,10 +900,23 @@
         "sanders"
       ],
       "at": "2026-10-11T02:02:38.911580+00:00"
+    },
+    {
+      "fp": [
+        "calls",
+        "democratic",
+        "fetterman",
+        "john",
+        "join",
+        "party",
+        "republican",
+        "senator",
+        "trump"
+      ],
+      "at": "2026-10-11T02:33:19.236122+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 Kalshi is probing suspicious trades that correctly named Katie Zacharia as Trump's new White House press secretary before any front\u2011runner emerged. Market odds spiked as traders bet on the hire",
     "JUST IN: \ud83d\udea9 $86M crypto theft linked to Ledger wallets sold by a reseller in Southeast Asia. Ledger is probing the breach. $86,000,000 could wipe out thousands of users' holdings. Why does this matter? It dents confidence in wallets and could spark regulation",
     "JUST IN: \ud83d\udea9 Ripple-backed XRP treasury Evernorth closes SPAC merger, hauling 473M XRP and $300M cash onto Nasdaq. XRPN debuts Monday. 473M XRP + $300M cash all under one ticker. Why it matters: XRPN could redefine crypto listings on Nasdaq. Will XRPN become the next big crypto stock? #ethancole #crypto #bitcoin #stockmarket #marketnews #technews",
     "BREAKING: CHINA BUYS +23 TONNES GOLD IN SEPTEMBER, LARGEST SINCE 2023. \ud83d\udcc8",
@@ -925,6 +930,7 @@
     "JUST IN: \ud83d\udea8 Trump calls Saudi attack a TERRIBLE thing.",
     "JUST IN: \ud83d\udca5 Bitcoin ($BTC) market cap now BIGGER than Bank of America ($BAC) AND Bank of China combined.",
     "JUST IN: \ud83c\udde7\ud83c\uddec Bulgaria's First Investment Bank to offer BITCOIN and crypto to 1 MILLION clients.",
-    "JUST IN: \ud83d\udea8 Citigroup ($C) paid ZERO federal income TAXES last year despite $4 BILLION in profits."
+    "JUST IN: \ud83d\udea8 Citigroup ($C) paid ZERO federal income TAXES last year despite $4 BILLION in profits.",
+    "BREAKING: \ud83c\udfc1 Trump calls on Democratic Senator John Fetterman to switch parties \u2013 1 senator, 2024 Congress."
   ]
 }
