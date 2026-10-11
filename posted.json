@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "f5c9f3c52bf9d8cb",
-    "fb_id": "1264009986803820_122122744839472689",
-    "title": "\ud83d\udca5\u5fae\u8f6f Decision-1 \u5728\u592a\u7a7a\u4fb5\u7565\u8005\u91cc\u76f4\u63a5\u628a OpenAI \u51b3\u7b56\u6a21\u578b\u6309\u5728\u5730\u4e0a\u6469\u64e6\uff01 \ud83d\udd39Microsoft-Decision-1 \u25ab\ufe0f\u51b3\u7b56\u5ef6\u8fdf ~75\u2013100ms\uff083.5x \u66f4\u5feb\uff09 \u25ab\ufe0f\u5f97\u5206 3320\uff0c\u6e05\u6389 4 \u6ce2\u5916\u661f\u4eba \u25ab\ufe0f\u5b98\u65b9\u57fa\u51c6\uff1a83.5% \u51c6\u786e\u7387 | 85ms p50 | \u6bd4 GPT-6 Sol \u5feb 35x \u25ab\ufe0f$0.042/\u767e\u4e07\u8f93\u5165\uff0c\u8f93\u51fa\u514d\u8d39 \ud83d\udd38OpenAI Decision ...",
-    "link": "https://x.com/NFT_Chen/status/2109069910131519624",
+    "hash": "29c4d0c4decaa67c",
+    "fb_id": "1264009986803820_122122752429472689",
+    "title": "Trump: calls Saudi attack 'a terrible thing'",
+    "link": "https://www.financialjuice.com/News/9800280/Trump-calls-Saudi-attack-a-terrible-thing.aspx?xy=rss",
     "mode": "serious",
-    "at": "2026-10-11T00:02:54.233424+00:00"
+    "at": "2026-10-11T00:32:26.222652+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -35,6 +35,7 @@
     "24629a86488d45a0",
     "2512ce2309eb0afd",
     "2839c0e8680cd401",
+    "29c4d0c4decaa67c",
     "29ec1e6d5581205f",
     "2bbf1d770e89e3e5",
     "2d63a9f4c47e07bc",
@@ -153,10 +154,9 @@
   "day_counts": {
     "2026-10-09": 15,
     "2026-10-10": 15,
-    "2026-10-11": 1
+    "2026-10-11": 2
   },
   "recent_titles": [
-    "BREAKING: Trump: I have just concluded a highly successful discussion with President Vladimir Putin, of Russia, wherein it was agreed that Russia will immediately supply over 300,000 Tons of Diesel...",
     "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky slams President Trump for lifting sanctions on Russian diesel imports. \"It looks like a happy birthday present for Putin.\" \"It is, in my view, a weak deci...",
     "This week at Bitcoin Magazine \ud83d\udcf0 - BMTV wild'n! - Metaplanet, Strategy, Strive - CFTC - ETFs - Polymarket - Power Law - Gold corr. - BlackRock - BTC & WSJ - FNB - Robinhood - Exchanges - Trump - Sbe...",
     "\ud83d\ude02Logan\u8bf4\uff1aArgon is coming, fear not :) \u7ffb\u8bd1\u4e00\u4e0b\uff1a\u518d\u7b49\u7b49\uff0c\u522b\u6015\uff0c\u6211\u4eec\u8fd8\u5728\u753b\u997c\u3002 \u7b49 Gemini 4 Argon \u771f\u6b63\u4e0a\u7ebf\u90a3\u5929\uff1a \ud83d\udd39Opus 6.0 \ud83d\udd39GPT-7 Bel \ud83d\udd39Grok 5.0 \ud83d\udd39DeepSeek V5 Pro \ud83d\udd39Kimi K4 \u65e9\u5c31\u4e0a\u7ebf\u3001\u8fed\u4ee3\u5b8c\u3001\u751a\u81f3\u5f00\u59cb\u88ab\u793e\u533a\u5410\u69fd\u201c\u53c8\u53d8\u7b28\u4e86\u201d\u4e86\u3002 Google \u7684\u201c\u5373\u5c06\u5230\u6765\u201d\u662f\u6c38\u6052\u7684\uff0c\u5bf9\u624b\u7684\u53d1\u5e03\u8282\u594f\u624d\u662f\u771f\u7684\u3002...",
@@ -170,19 +170,10 @@
     "One year ago today, crypto suffered its largest liquidation event in history, wiping out over $19,100,000,000 in leveraged positions.",
     "JUST IN: Bitcoin $BTC is no longer projected to reclaim $100,000 this year.",
     "\ud83c\uddee\ud83c\uddf7 Iran has struck an oil tanker near Fujairah, UAE. Oil is now leaking from the vessel.",
-    "\ud83d\udca5\u5fae\u8f6f Decision-1 \u5728\u592a\u7a7a\u4fb5\u7565\u8005\u91cc\u76f4\u63a5\u628a OpenAI \u51b3\u7b56\u6a21\u578b\u6309\u5728\u5730\u4e0a\u6469\u64e6\uff01 \ud83d\udd39Microsoft-Decision-1 \u25ab\ufe0f\u51b3\u7b56\u5ef6\u8fdf ~75\u2013100ms\uff083.5x \u66f4\u5feb\uff09 \u25ab\ufe0f\u5f97\u5206 3320\uff0c\u6e05\u6389 4 \u6ce2\u5916\u661f\u4eba \u25ab\ufe0f\u5b98\u65b9\u57fa\u51c6\uff1a83.5% \u51c6\u786e\u7387 | 85ms p50 | \u6bd4 GPT-6 Sol \u5feb 35x \u25ab\ufe0f$0.042/\u767e\u4e07\u8f93\u5165\uff0c\u8f93\u51fa\u514d\u8d39 \ud83d\udd38OpenAI Decision ..."
+    "\ud83d\udca5\u5fae\u8f6f Decision-1 \u5728\u592a\u7a7a\u4fb5\u7565\u8005\u91cc\u76f4\u63a5\u628a OpenAI \u51b3\u7b56\u6a21\u578b\u6309\u5728\u5730\u4e0a\u6469\u64e6\uff01 \ud83d\udd39Microsoft-Decision-1 \u25ab\ufe0f\u51b3\u7b56\u5ef6\u8fdf ~75\u2013100ms\uff083.5x \u66f4\u5feb\uff09 \u25ab\ufe0f\u5f97\u5206 3320\uff0c\u6e05\u6389 4 \u6ce2\u5916\u661f\u4eba \u25ab\ufe0f\u5b98\u65b9\u57fa\u51c6\uff1a83.5% \u51c6\u786e\u7387 | 85ms p50 | \u6bd4 GPT-6 Sol \u5feb 35x \u25ab\ufe0f$0.042/\u767e\u4e07\u8f93\u5165\uff0c\u8f93\u51fa\u514d\u8d39 \ud83d\udd38OpenAI Decision ...",
+    "Trump: calls Saudi attack 'a terrible thing'"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122120851089472689",
-      "topics": [
-        "crypto",
-        "gold_oil"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-07T05:51:41.602092+00:00"
-    },
     {
       "fb_id": "1264009986803820_122120861007472689",
       "topics": [
@@ -642,6 +633,15 @@
       "mode": "serious",
       "photo": "split:logo+logo",
       "at": "2026-10-11T00:02:54.233424+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122122752429472689",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "face",
+      "at": "2026-10-11T00:32:26.222652+00:00"
     }
   ],
   "tuner": {
@@ -663,16 +663,6 @@
   },
   "last_video_post": "2026-10-10",
   "recent_fps": [
-    {
-      "fp": [
-        "$105",
-        "brent",
-        "iran",
-        "president",
-        "trump"
-      ],
-      "at": "2026-10-09T05:31:42.799415+00:00"
-    },
     {
       "fp": [
         "$244.00",
@@ -918,10 +908,16 @@
         "sol"
       ],
       "at": "2026-10-11T00:02:54.233409+00:00"
+    },
+    {
+      "fp": [
+        "saudi",
+        "trump"
+      ],
+      "at": "2026-10-11T00:32:26.222643+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa Trump & Putin ink diesel pact: 300,000\u202fTons today, 500,000\u202fTons in Nov, 1\u202fM\u202fTons after.",
     "JUST IN: \ud83c\uddfa\ud83c\udde6\ud83c\uddfa\ud83c\uddf8 Ukrainian President Zelensky blasts President Trump for lifting sanctions on Russian diesel imports. He calls it a 'happy birthday present for Putin' and a weak decision. Tweet ID 2108664118748107254 shows the heat. This could shift oil prices and fuel geopolitics. #ethancole #ai #technews #politics #breakingnews",
     "\ud83d\udea8 BITCOIN WEEKLY RECAP: Metaplanet Inc. Inc. Inc., Strategy ($MSTR), Strive, Inc., Inc., Inc., Inc. making moves.",
     "BREAKING: \ud83d\udea9 ARGON IS COMING, DON'T FRET \ud83d\ude31",
@@ -935,6 +931,7 @@
     "JUST IN: \ud83d\udca5 Crypto suffered its LARGEST liquidation event in history one year ago today.",
     "JUST IN: \ud83d\udcc9 Bitcoin ($BTC) will NOT reclaim $100,000 this year.",
     "\ud83d\udea8 BREAKING: Iran STRIKES oil tanker near Fujairah, UAE.",
-    "\ud83d\udca5 Microsoft's Decision-1 is CRUSHING OpenAI in Space Invaders."
+    "\ud83d\udca5 Microsoft's Decision-1 is CRUSHING OpenAI in Space Invaders.",
+    "JUST IN: \ud83d\udea8 Trump calls Saudi attack a TERRIBLE thing."
   ]
 }
