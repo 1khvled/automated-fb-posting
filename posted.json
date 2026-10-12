@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "126ff52b33bd93a7",
-    "fb_id": "1264009986803820_122123168037472689",
-    "title": "Trump has said it is the Democrats that led to high prices. He says Republicans are \"fixing it.\" Inflation is currently running at 3.4%, well above the Fed's 2% target.",
-    "link": "https://x.com/unusual_whales/status/2109403921223713021",
-    "mode": "serious",
-    "at": "2026-10-12T00:31:53.939034+00:00"
+    "hash": "eec6a6d1910591bf",
+    "fb_id": "1264009986803820_122123175351472689",
+    "title": "BREAKING: The Trump Administration is now threatening to halt weapons supplies to Ukraine in an effort to pressure Zelensky to stop striking Russian energy infrastructure, per FT. Details include: ...",
+    "link": "https://x.com/KobeissiLetter/status/2109371986296352861",
+    "mode": "viral",
+    "at": "2026-10-12T01:03:06.669625+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -152,6 +152,7 @@
     "eacc6893c16ea1dc",
     "ebb9dfc4c90a11b6",
     "eca4f5a6aeff6619",
+    "eec6a6d1910591bf",
     "ef9e9adaee7d4177",
     "efb052f68304f89a",
     "f041ccdd0f70088f",
@@ -169,10 +170,9 @@
   "day_counts": {
     "2026-10-10": 15,
     "2026-10-11": 15,
-    "2026-10-12": 2
+    "2026-10-12": 3
   },
   "recent_titles": [
-    "FUN FACT: Bitcoin $BTC has a larger market cap than Bank of America and Bank of China combined.",
     "NEW: \ud83c\udde7\ud83c\uddec Bulgaria's First Investment Bank will offer Bitcoin and crypto assets to over 1 million clients \ud83d\ude80",
     "Bernie Sanders has said: If you paid $1 in federal income taxes last year, you paid more than Citigroup after making $4 billion in profits, charging 32.74% interest on credit cards & slashing 20,00...",
     "Trump Calls on Democratic Senator John Fetterman to Join the Republican Party",
@@ -186,18 +186,10 @@
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\udde6 The US is offering the Russians huge sums of money to accept a limited ceasefire, per NYT The U.S. proposed three major economic incentives to persuade Russia to accept a limited c...",
     "Trump praises Putin: Putin is freeing up a lot of oil for the world, okay? A good thing. And by the way, at a very low price.",
     "JUST IN: \ud83c\uddee\ud83c\uddf7 A third oil tanker struck a naval mine in the Strait of Hormuz today Iran's IRGC Navy announced a third oil tanker struck a naval mine in the Strait of Hormuz today, triggering an explo...",
-    "Trump has said it is the Democrats that led to high prices. He says Republicans are \"fixing it.\" Inflation is currently running at 3.4%, well above the Fed's 2% target."
+    "Trump has said it is the Democrats that led to high prices. He says Republicans are \"fixing it.\" Inflation is currently running at 3.4%, well above the Fed's 2% target.",
+    "BREAKING: The Trump Administration is now threatening to halt weapons supplies to Ukraine in an effort to pressure Zelensky to stop striking Russian energy infrastructure, per FT. Details include: ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122121318525472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "split:face+face",
-      "at": "2026-10-08T06:22:00.877190+00:00"
-    },
     {
       "fb_id": "1264009986803820_122121330843472689",
       "topics": [
@@ -652,6 +644,16 @@
       "mode": "serious",
       "photo": "split:face+inst",
       "at": "2026-10-12T00:31:53.939034+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123175351472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "split:face+face",
+      "at": "2026-10-12T01:03:06.669625+00:00"
     }
   ],
   "tuner": {
@@ -673,13 +675,6 @@
   },
   "last_video_post": "2026-10-12",
   "recent_fps": [
-    {
-      "fp": [
-        "$19,100,000,000",
-        "one"
-      ],
-      "at": "2026-10-10T07:11:21.196355+00:00"
-    },
     {
       "fp": [
         "$100,000",
@@ -874,10 +869,23 @@
         "trump"
       ],
       "at": "2026-10-12T00:31:53.939019+00:00"
+    },
+    {
+      "fp": [
+        "FT",
+        "US",
+        "administration",
+        "details",
+        "european",
+        "russian",
+        "trump",
+        "ukraine",
+        "zelensky"
+      ],
+      "at": "2026-10-12T01:03:06.669614+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udca5 Microsoft's Decision-1 is CRUSHING OpenAI in Space Invaders.",
     "JUST IN: \ud83d\udea8 Trump calls Saudi attack a TERRIBLE thing.",
     "JUST IN: \ud83d\udca5 Bitcoin ($BTC) market cap now BIGGER than Bank of America ($BAC) AND Bank of China combined.",
     "JUST IN: \ud83c\udde7\ud83c\uddec Bulgaria's First Investment Bank to offer BITCOIN and crypto to 1 MILLION clients.",
@@ -891,6 +899,7 @@
     "JUST IN: \ud83d\udcb0 Claude receives $100 SPONSORSHIP.",
     "BREAKING: US offers billions to Russia for limited ceasefire \u2014 US wins, Russia loses. 3 major economic incentives target energy and maritime ops, including release of frozen assets worth billions. If accepted, could shift global energy markets and sanctions. Is this the last straw for Putin? #ethancole #finance #breakingnews #economy #marketnews",
     "BREAKING: \ud83d\udee2\ufe0f Trump praises Putin for 'freeing up a lot of OIL' at a 'very low price.'",
-    "JUST IN: \ud83d\udea8 Donald Trump blames Democrats for HIGH PRICES."
+    "JUST IN: \ud83d\udea8 Donald Trump blames Democrats for HIGH PRICES.",
+    "\ud83d\udea8 BREAKING: Trump Administration THREATENS to halt Ukraine weapons supplies."
   ]
 }
