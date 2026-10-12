@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "6a4263d89d1d1a9e",
-    "fb_id": "1264009986803820_122123241423472689",
-    "title": "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
-    "link": "https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls",
-    "mode": "serious",
-    "at": "2026-10-12T05:01:48.510665+00:00"
+    "hash": "b5332e905fcd45e4",
+    "fb_id": "1264009986803820_122123248293472689",
+    "title": "Key Events This Week: 1. OPEC Monthly Report - Tuesday 2. September Existing Home Sales data - Tuesday 3. September CPI Inflation data - Wednesday 4. September PPI Inflation data - Thursday 5. Fed ...",
+    "link": "https://x.com/KobeissiLetter/status/2109319907267559899",
+    "mode": "viral",
+    "at": "2026-10-12T05:31:48.223597+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -132,6 +132,7 @@
     "b2c26501e86f55be",
     "b36ff231b46d1643",
     "b4df5090744d57db",
+    "b5332e905fcd45e4",
     "b79341c94e166719",
     "ba0962c96cf784fa",
     "ba533a34928a8dc1",
@@ -178,10 +179,9 @@
   "day_counts": {
     "2026-10-10": 15,
     "2026-10-11": 15,
-    "2026-10-12": 11
+    "2026-10-12": 12
   },
   "recent_titles": [
-    "JUST IN: Microsoft $MSFT CEO Satya Nadella calls for \"emergency brake\" on advanced AI.",
     "claude100\u7f8e\u5143\u8d5e\u52a9\u8d39\u5df2\u6536\u5230\u3002 \u4eca\u5929\u5f00\u809dopus5.5\u6a21\u578b\u4e86\uff0c\u6211\u628a\u6e38\u620f\u573a\u666f\u53bb\u642d\u5efa\u5b8c\u5584\uff0c\u540e\u9762\u518d\u505a\u63a2\u9669\u89c6\u9891\u5c31\u5bb9\u6613\u591a\u4e86\u3002 \u53ef\u4ee5\u63a2\u7d22\u66f4\u591a\u7684\u73a9\u6cd5\u4e86\u3002 \u8c22\u8c22\u8def\u98de\u5927\u54e5\u7684\u9f0e\u529b\u76f8\u52a9@Aigoodbro",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\udde6 The US is offering the Russians huge sums of money to accept a limited ceasefire, per NYT The U.S. proposed three major economic incentives to persuade Russia to accept a limited c...",
     "Trump praises Putin: Putin is freeing up a lot of oil for the world, okay? A good thing. And by the way, at a very low price.",
@@ -195,18 +195,10 @@
     "JUST IN: Tom Lee predicts Ethereum $ETH will surpass $5,000 by the end of this year.",
     "\ud83d\udd25\u7801\u4f4f\uff01\u53ea\u9700\u4e00\u4e2a\u63d0\u793a\u8bcd\uff0c\u8ba9Opus 5.5\u79d2\u53d8\u5168\u7403\u6700\u4fbf\u5b9c\u524d\u6cbf\u6a21\u578b\uff01 99% \u7684\u4eba\u5728 Claude Code \u91cc\u51e0\u5c0f\u65f6\u70e7\u6389 $20\uff0c\u5168\u662f\u778e\u8fed\u4ee3\u3002 \u8fd9\u4e2a\u63d0\u793a\u8bcd\u76f4\u63a5\u7981\u6b62\u6a21\u578b\u5199\u4ee3\u7801\uff0c\u76f4\u5230\u5b83\u95ee\u5b8c\u6700\u591a 7 \u4e2a\u7cbe\u51c6\u95ee\u9898\u3001\u6316\u51fa\u6240\u6709\u9690\u5f62\u67b6\u6784\u5751\uff0c\u518d\u4e00\u6b65\u4e00\u6b65\u5c0f diff \u63a8\u8fdb\uff0c\u5e76\u5f3a\u5236\u7ef4\u62a4 DECISIONS.md\uff08\u4f60\u80fd\u770b\u5230\u5b83\u62d2\u7edd\u4e86\u54ea\u4e9b\u201c\u6b63\u786e\u60f3\u6cd5\u201d\u4ee5\u53ca\u4e3a\u4ec0\u4e48\uff09\u3002 1 \u5206\u949f\u590d\u5236\u7c98\u8d34\u8fdb Claude\uff0c\u6210\u672c\u76f4\u63a5\u8170\u65a9\u3002 \u6838...",
     "oil falling on an energy cease fire. We have seen these again and again and we are fooled again and again. As long as there is a war on oil will stay clustered around $100",
-    "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls"
+    "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
+    "Key Events This Week: 1. OPEC Monthly Report - Tuesday 2. September Existing Home Sales data - Tuesday 3. September CPI Inflation data - Wednesday 4. September PPI Inflation data - Thursday 5. Fed ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122121748095472689",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-09T03:02:39.142238+00:00"
-    },
     {
       "fb_id": "1264009986803820_122121756783472689",
       "topics": [
@@ -663,6 +655,17 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-12T05:01:48.510665+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123248293472689",
+      "topics": [
+        "fed",
+        "gold_oil",
+        "inflation"
+      ],
+      "mode": "viral",
+      "photo": "split:face+inst",
+      "at": "2026-10-12T05:31:48.223597+00:00"
     }
   ],
   "tuner": {
@@ -684,10 +687,6 @@
   },
   "last_video_post": "2026-10-12",
   "recent_fps": [
-    {
-      "fp": [],
-      "at": "2026-10-11T03:02:30.771064+00:00"
-    },
     {
       "fp": [
         "FX",
@@ -925,10 +924,37 @@
         "bitcoin"
       ],
       "at": "2026-10-12T05:01:48.510651+00:00"
+    },
+    {
+      "fp": [
+        "CPI",
+        "OPEC",
+        "PPI",
+        "begins",
+        "chair",
+        "earnings",
+        "events",
+        "existing",
+        "fed",
+        "home",
+        "inflation",
+        "key",
+        "monthly",
+        "sales",
+        "season",
+        "september",
+        "speaks",
+        "this",
+        "thursday",
+        "tuesday",
+        "warsh",
+        "wednesday",
+        "week"
+      ],
+      "at": "2026-10-12T05:31:48.223588+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa TRUMP THANKS RUSSIA FOR DIESEL RESCUE! He claims Russia will send millions of barrels of oil\u2014diesel is the real need. Odds of a midterm energy shift just spiked.",
     "JUST IN: \ud83d\udea8 Microsoft ($MSFT) CEO Satya Nadella wants an \"emergency brake\" on advanced AI.",
     "JUST IN: \ud83d\udcb0 Claude receives $100 SPONSORSHIP.",
     "BREAKING: US offers billions to Russia for limited ceasefire \u2014 US wins, Russia loses. 3 major economic incentives target energy and maritime ops, including release of frozen assets worth billions. If accepted, could shift global energy markets and sanctions. Is this the last straw for Putin? #ethancole #finance #breakingnews #economy #marketnews",
@@ -942,6 +968,7 @@
     "JUST IN: \ud83d\udea9 TOM LEE SAYS ETH WILL SURPASS $5,000 BY YEAR END. Ethereum\u2019s price could jump from $3,200 today to over $5k in 12 months, a 56% upside. If true, the rally could boost the entire crypto market and shift institutional flows. Will the hype turn into reality? #ethancole #ethereum #crypto #marketnews #investing",
     "JUST IN: \ud83d\udea9 ONE prompt word turns Opus 5.5s into the world\u2019s cheapest cutting\u2011edge model! 99% of Claude users burn $20 in hours\u2014now that\u2019s a MASSIVE COST cut. The trick stops code, asks up to 7 precise questions, digs hidden architecture flaws, then applies tiny diffs and logs",
     "BREAKING: \ud83d\udea9 OIL PRICES CLUSTERING AT $100 AS WAR ON OIL CONTINUES. JUST IN: Market odds still high, no ceasefire to break the cycle. 1\ufe0f\u20e3 $100 per barrel, 2\ufe0f\u20e3 war\u2011driven supply shock. Why it matters: investors face a stubborn $100 floor. Will the next geopolitical shift lift the ceiling? #ethancole #oil #finance #marketnews #investing",
-    "JUST IN: \ud83d\udea9 Bitcoin stays above $84,000 despite recent ETF outflows. Oil prices dip today, adding to risk\u2011on vibes. BTC up 0.2% amid volatility. Why it matters: Energy\u2011price drop fuels bullish sentiment, keeping crypto in the spotlight. #ethancole #bitcoin #crypto #marketnews #investing #breakingnews"
+    "JUST IN: \ud83d\udea9 Bitcoin stays above $84,000 despite recent ETF outflows. Oil prices dip today, adding to risk\u2011on vibes. BTC up 0.2% amid volatility. Why it matters: Energy\u2011price drop fuels bullish sentiment, keeping crypto in the spotlight. #ethancole #bitcoin #crypto #marketnews #investing #breakingnews",
+    "JUST IN: This week\u2019s economic calendar is packed\u2014OPEC report, home sales, CPI, PPI, Fed Chair Warsh, and Q3\u202f2026 earnings season kicks off. Markets are watching the data spikes and policy cues. What will the numbers say about the next move? #ethancole #finance #marketnews #inflation #fed #earnings"
   ]
 }
