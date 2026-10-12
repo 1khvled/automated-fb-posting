@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "ebb9dfc4c90a11b6",
-    "fb_id": "1770696497485545",
-    "title": "JUST IN: \ud83c\uddee\ud83c\uddf7 A third oil tanker struck a naval mine in the Strait of Hormuz today Iran's IRGC Navy announced a third oil tanker struck a naval mine in the Strait of Hormuz today, triggering an explo...",
-    "link": "https://x.com/Megatron_ron/status/2109399884365468008",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-12T00:01:58.734360+00:00"
+    "hash": "126ff52b33bd93a7",
+    "fb_id": "1264009986803820_122123168037472689",
+    "title": "Trump has said it is the Democrats that led to high prices. He says Republicans are \"fixing it.\" Inflation is currently running at 3.4%, well above the Fed's 2% target.",
+    "link": "https://x.com/unusual_whales/status/2109403921223713021",
+    "mode": "serious",
+    "at": "2026-10-12T00:31:53.939034+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -25,6 +24,7 @@
     "100a2e3d51fa9091",
     "109a368c58a2c37c",
     "11e9a2979f0b49a2",
+    "126ff52b33bd93a7",
     "163b472205423d09",
     "191614348896e501",
     "1957b710635e93a0",
@@ -169,10 +169,9 @@
   "day_counts": {
     "2026-10-10": 15,
     "2026-10-11": 15,
-    "2026-10-12": 1
+    "2026-10-12": 2
   },
   "recent_titles": [
-    "Trump: calls Saudi attack 'a terrible thing'",
     "FUN FACT: Bitcoin $BTC has a larger market cap than Bank of America and Bank of China combined.",
     "NEW: \ud83c\udde7\ud83c\uddec Bulgaria's First Investment Bank will offer Bitcoin and crypto assets to over 1 million clients \ud83d\ude80",
     "Bernie Sanders has said: If you paid $1 in federal income taxes last year, you paid more than Citigroup after making $4 billion in profits, charging 32.74% interest on credit cards & slashing 20,00...",
@@ -186,19 +185,10 @@
     "claude100\u7f8e\u5143\u8d5e\u52a9\u8d39\u5df2\u6536\u5230\u3002 \u4eca\u5929\u5f00\u809dopus5.5\u6a21\u578b\u4e86\uff0c\u6211\u628a\u6e38\u620f\u573a\u666f\u53bb\u642d\u5efa\u5b8c\u5584\uff0c\u540e\u9762\u518d\u505a\u63a2\u9669\u89c6\u9891\u5c31\u5bb9\u6613\u591a\u4e86\u3002 \u53ef\u4ee5\u63a2\u7d22\u66f4\u591a\u7684\u73a9\u6cd5\u4e86\u3002 \u8c22\u8c22\u8def\u98de\u5927\u54e5\u7684\u9f0e\u529b\u76f8\u52a9@Aigoodbro",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\udde6 The US is offering the Russians huge sums of money to accept a limited ceasefire, per NYT The U.S. proposed three major economic incentives to persuade Russia to accept a limited c...",
     "Trump praises Putin: Putin is freeing up a lot of oil for the world, okay? A good thing. And by the way, at a very low price.",
-    "JUST IN: \ud83c\uddee\ud83c\uddf7 A third oil tanker struck a naval mine in the Strait of Hormuz today Iran's IRGC Navy announced a third oil tanker struck a naval mine in the Strait of Hormuz today, triggering an explo..."
+    "JUST IN: \ud83c\uddee\ud83c\uddf7 A third oil tanker struck a naval mine in the Strait of Hormuz today Iran's IRGC Navy announced a third oil tanker struck a naval mine in the Strait of Hormuz today, triggering an explo...",
+    "Trump has said it is the Democrats that led to high prices. He says Republicans are \"fixing it.\" Inflation is currently running at 3.4%, well above the Fed's 2% target."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122121308169472689",
-      "topics": [
-        "crypto",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-08T05:31:25.945825+00:00"
-    },
     {
       "fb_id": "1264009986803820_122121318525472689",
       "topics": [
@@ -651,6 +641,17 @@
       ],
       "mode": "viral",
       "at": "2026-10-12T00:01:58.734360+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123168037472689",
+      "topics": [
+        "fed",
+        "inflation",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:face+inst",
+      "at": "2026-10-12T00:31:53.939034+00:00"
     }
   ],
   "tuner": {
@@ -672,13 +673,6 @@
   },
   "last_video_post": "2026-10-12",
   "recent_fps": [
-    {
-      "fp": [
-        "egypt",
-        "september"
-      ],
-      "at": "2026-10-10T06:32:10.010030+00:00"
-    },
     {
       "fp": [
         "$19,100,000,000",
@@ -870,10 +864,19 @@
         "strait"
       ],
       "at": "2026-10-12T00:01:58.734346+00:00"
+    },
+    {
+      "fp": [
+        "democrats",
+        "fed",
+        "inflation",
+        "republicans",
+        "trump"
+      ],
+      "at": "2026-10-12T00:31:53.939019+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 BREAKING: Iran STRIKES oil tanker near Fujairah, UAE.",
     "\ud83d\udca5 Microsoft's Decision-1 is CRUSHING OpenAI in Space Invaders.",
     "JUST IN: \ud83d\udea8 Trump calls Saudi attack a TERRIBLE thing.",
     "JUST IN: \ud83d\udca5 Bitcoin ($BTC) market cap now BIGGER than Bank of America ($BAC) AND Bank of China combined.",
@@ -887,6 +890,7 @@
     "JUST IN: \ud83d\udea8 Microsoft ($MSFT) CEO Satya Nadella wants an \"emergency brake\" on advanced AI.",
     "JUST IN: \ud83d\udcb0 Claude receives $100 SPONSORSHIP.",
     "BREAKING: US offers billions to Russia for limited ceasefire \u2014 US wins, Russia loses. 3 major economic incentives target energy and maritime ops, including release of frozen assets worth billions. If accepted, could shift global energy markets and sanctions. Is this the last straw for Putin? #ethancole #finance #breakingnews #economy #marketnews",
-    "BREAKING: \ud83d\udee2\ufe0f Trump praises Putin for 'freeing up a lot of OIL' at a 'very low price.'"
+    "BREAKING: \ud83d\udee2\ufe0f Trump praises Putin for 'freeing up a lot of OIL' at a 'very low price.'",
+    "JUST IN: \ud83d\udea8 Donald Trump blames Democrats for HIGH PRICES."
   ]
 }
