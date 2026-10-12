@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "eec6a6d1910591bf",
-    "fb_id": "1264009986803820_122123175351472689",
-    "title": "BREAKING: The Trump Administration is now threatening to halt weapons supplies to Ukraine in an effort to pressure Zelensky to stop striking Russian energy infrastructure, per FT. Details include: ...",
-    "link": "https://x.com/KobeissiLetter/status/2109371986296352861",
-    "mode": "viral",
-    "at": "2026-10-12T01:03:06.669625+00:00"
+    "hash": "9bc995ae7806e12d",
+    "fb_id": "1264009986803820_122123183151472689",
+    "title": "GOLD ROSE 0.3% TO $4,206.86/OUNCE AS TRADERS ASSESSED TRUMP\u2019S CLAIM OF AN IMMEDIATE RUSSIA-UKRAINE ENERGY CEASEFIRE, WHILE BRENT CRUDE FELL 1.2%. RENEWED HOUTHI ATTACKS ON SAUDI ARABIA\u2019S MAIN AIRPO...",
+    "link": "https://x.com/FirstSquawk/status/2109446370046476311",
+    "mode": "serious",
+    "at": "2026-10-12T01:31:11.687164+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -109,6 +109,7 @@
     "96d536b14c03c692",
     "97eaf41a60bc6480",
     "99c9f9218a07a71a",
+    "9bc995ae7806e12d",
     "9bf4038f6b73620f",
     "9d586d423b6a80d7",
     "9e0be7e5de8268d0",
@@ -170,10 +171,9 @@
   "day_counts": {
     "2026-10-10": 15,
     "2026-10-11": 15,
-    "2026-10-12": 3
+    "2026-10-12": 4
   },
   "recent_titles": [
-    "NEW: \ud83c\udde7\ud83c\uddec Bulgaria's First Investment Bank will offer Bitcoin and crypto assets to over 1 million clients \ud83d\ude80",
     "Bernie Sanders has said: If you paid $1 in federal income taxes last year, you paid more than Citigroup after making $4 billion in profits, charging 32.74% interest on credit cards & slashing 20,00...",
     "Trump Calls on Democratic Senator John Fetterman to Join the Republican Party",
     "\u2753\u6211\u60f3\u5229\u7528claude opus\u548csonnet\u505a\u8fd9\u79cd\u63a2\u9669\u751f\u6210\u5f0f\u89c6\u9891\u3002 \u7531\u4e8eclaude\u6ca1\u6709\u89c6\u9891\u751f\u6210\u80fd\u529b\uff0c\u8c03\u7528\u5916\u90e8\u89c6\u9891\u6a21\u578b\u592a\u8d35\u4e86\uff0c\u7a0b\u5e8f\u5316\u89c6\u9891\u6bd4\u8f83\u96be\u505a\u51fa\u6765\u8fd9\u79cd\u3002 \u4f60\u4eec\u6709\u4ec0\u4e48\u597d\u601d\u8def\uff1f",
@@ -187,19 +187,10 @@
     "Trump praises Putin: Putin is freeing up a lot of oil for the world, okay? A good thing. And by the way, at a very low price.",
     "JUST IN: \ud83c\uddee\ud83c\uddf7 A third oil tanker struck a naval mine in the Strait of Hormuz today Iran's IRGC Navy announced a third oil tanker struck a naval mine in the Strait of Hormuz today, triggering an explo...",
     "Trump has said it is the Democrats that led to high prices. He says Republicans are \"fixing it.\" Inflation is currently running at 3.4%, well above the Fed's 2% target.",
-    "BREAKING: The Trump Administration is now threatening to halt weapons supplies to Ukraine in an effort to pressure Zelensky to stop striking Russian energy infrastructure, per FT. Details include: ..."
+    "BREAKING: The Trump Administration is now threatening to halt weapons supplies to Ukraine in an effort to pressure Zelensky to stop striking Russian energy infrastructure, per FT. Details include: ...",
+    "GOLD ROSE 0.3% TO $4,206.86/OUNCE AS TRADERS ASSESSED TRUMP\u2019S CLAIM OF AN IMMEDIATE RUSSIA-UKRAINE ENERGY CEASEFIRE, WHILE BRENT CRUDE FELL 1.2%. RENEWED HOUTHI ATTACKS ON SAUDI ARABIA\u2019S MAIN AIRPO..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122121330843472689",
-      "topics": [
-        "inflation",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "inst:ecb",
-      "at": "2026-10-08T07:02:52.616936+00:00"
-    },
     {
       "fb_id": "1264009986803820_122121340929472689",
       "topics": [
@@ -654,6 +645,18 @@
       "mode": "viral",
       "photo": "split:face+face",
       "at": "2026-10-12T01:03:06.669625+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123183151472689",
+      "topics": [
+        "fed",
+        "gold_oil",
+        "inflation",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "face",
+      "at": "2026-10-12T01:31:11.687164+00:00"
     }
   ],
   "tuner": {
@@ -675,16 +678,6 @@
   },
   "last_video_post": "2026-10-12",
   "recent_fps": [
-    {
-      "fp": [
-        "$100,000",
-        "BTC",
-        "IN",
-        "JUST",
-        "bitcoin"
-      ],
-      "at": "2026-10-10T07:41:19.064633+00:00"
-    },
     {
       "fp": [
         "UAE",
@@ -883,10 +876,49 @@
         "zelensky"
       ],
       "at": "2026-10-12T01:03:06.669614+00:00"
+    },
+    {
+      "fp": [
+        "$4,206.86",
+        "$60.99",
+        "AIRPO",
+        "AN",
+        "AND",
+        "ARABIA",
+        "AS",
+        "BRENT",
+        "CLAIM",
+        "COST",
+        "CRUDE",
+        "EAST",
+        "ENERGY",
+        "FELL",
+        "GAINED",
+        "GOLD",
+        "HIGHER",
+        "HIKE",
+        "HOUTHI",
+        "MAIN",
+        "MIDDLE",
+        "OF",
+        "ON",
+        "OUNCE",
+        "OVER",
+        "RAISED",
+        "RATE",
+        "ROSE",
+        "RUSSIA",
+        "SAUDI",
+        "SILVER",
+        "TO",
+        "TRUMP",
+        "WHILE",
+        "WIDER"
+      ],
+      "at": "2026-10-12T01:31:11.687147+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 Trump calls Saudi attack a TERRIBLE thing.",
     "JUST IN: \ud83d\udca5 Bitcoin ($BTC) market cap now BIGGER than Bank of America ($BAC) AND Bank of China combined.",
     "JUST IN: \ud83c\udde7\ud83c\uddec Bulgaria's First Investment Bank to offer BITCOIN and crypto to 1 MILLION clients.",
     "JUST IN: \ud83d\udea8 Citigroup ($C) paid ZERO federal income TAXES last year despite $4 BILLION in profits.",
@@ -900,6 +932,7 @@
     "BREAKING: US offers billions to Russia for limited ceasefire \u2014 US wins, Russia loses. 3 major economic incentives target energy and maritime ops, including release of frozen assets worth billions. If accepted, could shift global energy markets and sanctions. Is this the last straw for Putin? #ethancole #finance #breakingnews #economy #marketnews",
     "BREAKING: \ud83d\udee2\ufe0f Trump praises Putin for 'freeing up a lot of OIL' at a 'very low price.'",
     "JUST IN: \ud83d\udea8 Donald Trump blames Democrats for HIGH PRICES.",
-    "\ud83d\udea8 BREAKING: Trump Administration THREATENS to halt Ukraine weapons supplies."
+    "\ud83d\udea8 BREAKING: Trump Administration THREATENS to halt Ukraine weapons supplies.",
+    "BREAKING: \ud83d\udea8 GOLD hits $4,206.86/ounce on TRUMP's Russia-Ukraine ceasefire claim."
   ]
 }
