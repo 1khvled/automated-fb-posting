@@ -1,16 +1,17 @@
 {
   "last_post": {
-    "hash": "0e590aebd2b44c59",
-    "fb_id": "1264009986803820_122123259087472689",
-    "title": "IMF'S GEORGIEVA: REDUCING NON-TARIFF BARRIERS AND DEEPENING REGIONAL TRADE TIES COULD RAISE ASIA'S GDP BY AROUND 1.8% OVER TIME",
-    "link": "https://x.com/FirstSquawk/status/2109526739009634789",
-    "mode": "serious",
-    "at": "2026-10-12T06:12:28.597395+00:00"
+    "hash": "03e22223f98f7cc0",
+    "fb_id": "1264009986803820_122123264559472689",
+    "title": "JUST IN: Michael Saylor hints at another Bitcoin announcement tomorrow \ud83d\udc40 \"There's always room for more orange.\"",
+    "link": "https://x.com/BitcoinMagazine/status/2109274424696283349",
+    "mode": "viral",
+    "at": "2026-10-12T06:41:18.444941+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
     "006c6b9c4417defe",
     "0240b2827df88900",
+    "03e22223f98f7cc0",
     "0645eb4c06eed671",
     "06e66bab9ed6a263",
     "0709e3e2addffc4e",
@@ -180,10 +181,9 @@
   "day_counts": {
     "2026-10-10": 15,
     "2026-10-11": 15,
-    "2026-10-12": 13
+    "2026-10-12": 14
   },
   "recent_titles": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\udde6 The US is offering the Russians huge sums of money to accept a limited ceasefire, per NYT The U.S. proposed three major economic incentives to persuade Russia to accept a limited c...",
     "Trump praises Putin: Putin is freeing up a lot of oil for the world, okay? A good thing. And by the way, at a very low price.",
     "JUST IN: \ud83c\uddee\ud83c\uddf7 A third oil tanker struck a naval mine in the Strait of Hormuz today Iran's IRGC Navy announced a third oil tanker struck a naval mine in the Strait of Hormuz today, triggering an explo...",
     "Trump has said it is the Democrats that led to high prices. He says Republicans are \"fixing it.\" Inflation is currently running at 3.4%, well above the Fed's 2% target.",
@@ -197,18 +197,10 @@
     "oil falling on an energy cease fire. We have seen these again and again and we are fooled again and again. As long as there is a war on oil will stay clustered around $100",
     "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
     "Key Events This Week: 1. OPEC Monthly Report - Tuesday 2. September Existing Home Sales data - Tuesday 3. September CPI Inflation data - Wednesday 4. September PPI Inflation data - Thursday 5. Fed ...",
-    "IMF'S GEORGIEVA: REDUCING NON-TARIFF BARRIERS AND DEEPENING REGIONAL TRADE TIES COULD RAISE ASIA'S GDP BY AROUND 1.8% OVER TIME"
+    "IMF'S GEORGIEVA: REDUCING NON-TARIFF BARRIERS AND DEEPENING REGIONAL TRADE TIES COULD RAISE ASIA'S GDP BY AROUND 1.8% OVER TIME",
+    "JUST IN: Michael Saylor hints at another Bitcoin announcement tomorrow \ud83d\udc40 \"There's always room for more orange.\""
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122121763143472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-09T04:03:02.054691+00:00"
-    },
     {
       "fb_id": "1264009986803820_122121769815472689",
       "topics": [
@@ -669,6 +661,15 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-12T06:12:28.597395+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123264559472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "split:face+logo",
+      "at": "2026-10-12T06:41:18.444941+00:00"
     }
   ],
   "tuner": {
@@ -690,10 +691,6 @@
   },
   "last_video_post": "2026-10-12",
   "recent_fps": [
-    {
-      "fp": [],
-      "at": "2026-10-11T04:11:31.919232+00:00"
-    },
     {
       "fp": [
         "$3.95",
@@ -956,10 +953,20 @@
         "TRADE"
       ],
       "at": "2026-10-12T06:12:28.597385+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "bitcoin",
+        "michael",
+        "saylor",
+        "there"
+      ],
+      "at": "2026-10-12T06:41:18.444923+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udcb0 Claude receives $100 SPONSORSHIP.",
     "BREAKING: US offers billions to Russia for limited ceasefire \u2014 US wins, Russia loses. 3 major economic incentives target energy and maritime ops, including release of frozen assets worth billions. If accepted, could shift global energy markets and sanctions. Is this the last straw for Putin? #ethancole #finance #breakingnews #economy #marketnews",
     "BREAKING: \ud83d\udee2\ufe0f Trump praises Putin for 'freeing up a lot of OIL' at a 'very low price.'",
     "JUST IN: \ud83d\udea8 Donald Trump blames Democrats for HIGH PRICES.",
@@ -973,6 +980,7 @@
     "BREAKING: \ud83d\udea9 OIL PRICES CLUSTERING AT $100 AS WAR ON OIL CONTINUES. JUST IN: Market odds still high, no ceasefire to break the cycle. 1\ufe0f\u20e3 $100 per barrel, 2\ufe0f\u20e3 war\u2011driven supply shock. Why it matters: investors face a stubborn $100 floor. Will the next geopolitical shift lift the ceiling? #ethancole #oil #finance #marketnews #investing",
     "JUST IN: \ud83d\udea9 Bitcoin stays above $84,000 despite recent ETF outflows. Oil prices dip today, adding to risk\u2011on vibes. BTC up 0.2% amid volatility. Why it matters: Energy\u2011price drop fuels bullish sentiment, keeping crypto in the spotlight. #ethancole #bitcoin #crypto #marketnews #investing #breakingnews",
     "JUST IN: This week\u2019s economic calendar is packed\u2014OPEC report, home sales, CPI, PPI, Fed Chair Warsh, and Q3\u202f2026 earnings season kicks off. Markets are watching the data spikes and policy cues. What will the numbers say about the next move? #ethancole #finance #marketnews #inflation #fed #earnings",
-    "JUST IN: \ud83d\udea9 IMF says cutting non\u2011tariff barriers could raise Asia's GDP by 1.8% over time. If the projections hold, regional trade deepening becomes a new growth engine. A 1.8% lift equals trillions in added trade, spiking Asian equity markets. #ethancole #finance #marketnews #economy #asia #trade"
+    "JUST IN: \ud83d\udea9 IMF says cutting non\u2011tariff barriers could raise Asia's GDP by 1.8% over time. If the projections hold, regional trade deepening becomes a new growth engine. A 1.8% lift equals trillions in added trade, spiking Asian equity markets. #ethancole #finance #marketnews #economy #asia #trade",
+    "JUST IN: \ud83d\udea9 Michael Saylor hints at another Bitcoin announcement tomorrow \ud83d\udc40"
   ]
 }
