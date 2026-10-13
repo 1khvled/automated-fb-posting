@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "959bd28d9c00ec90",
-    "fb_id": "1264009986803820_122123671983472689",
-    "title": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes 6%.",
-    "link": "https://x.com/WatcherGuru/status/2109821579710361652",
-    "mode": "viral",
-    "at": "2026-10-13T03:53:12.680740+00:00"
+    "hash": "90475a1c74fc1067",
+    "fb_id": "1264009986803820_122123677335472689",
+    "title": "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
+    "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
+    "mode": "serious",
+    "at": "2026-10-13T04:23:03.637130+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -115,6 +115,7 @@
     "89f910e39140c0f6",
     "8ad57dc874ac363d",
     "8c979261e3d4a088",
+    "90475a1c74fc1067",
     "90fe6b0d6b5f46fb",
     "921b6370813ac363",
     "959bd28d9c00ec90",
@@ -190,10 +191,9 @@
   "day_counts": {
     "2026-10-11": 15,
     "2026-10-12": 15,
-    "2026-10-13": 8
+    "2026-10-13": 9
   },
   "recent_titles": [
-    "\ud83d\udd25\u7801\u4f4f\uff01\u53ea\u9700\u4e00\u4e2a\u63d0\u793a\u8bcd\uff0c\u8ba9Opus 5.5\u79d2\u53d8\u5168\u7403\u6700\u4fbf\u5b9c\u524d\u6cbf\u6a21\u578b\uff01 99% \u7684\u4eba\u5728 Claude Code \u91cc\u51e0\u5c0f\u65f6\u70e7\u6389 $20\uff0c\u5168\u662f\u778e\u8fed\u4ee3\u3002 \u8fd9\u4e2a\u63d0\u793a\u8bcd\u76f4\u63a5\u7981\u6b62\u6a21\u578b\u5199\u4ee3\u7801\uff0c\u76f4\u5230\u5b83\u95ee\u5b8c\u6700\u591a 7 \u4e2a\u7cbe\u51c6\u95ee\u9898\u3001\u6316\u51fa\u6240\u6709\u9690\u5f62\u67b6\u6784\u5751\uff0c\u518d\u4e00\u6b65\u4e00\u6b65\u5c0f diff \u63a8\u8fdb\uff0c\u5e76\u5f3a\u5236\u7ef4\u62a4 DECISIONS.md\uff08\u4f60\u80fd\u770b\u5230\u5b83\u62d2\u7edd\u4e86\u54ea\u4e9b\u201c\u6b63\u786e\u60f3\u6cd5\u201d\u4ee5\u53ca\u4e3a\u4ec0\u4e48\uff09\u3002 1 \u5206\u949f\u590d\u5236\u7c98\u8d34\u8fdb Claude\uff0c\u6210\u672c\u76f4\u63a5\u8170\u65a9\u3002 \u6838...",
     "oil falling on an energy cease fire. We have seen these again and again and we are fooled again and again. As long as there is a war on oil will stay clustered around $100",
     "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
     "Key Events This Week: 1. OPEC Monthly Report - Tuesday 2. September Existing Home Sales data - Tuesday 3. September CPI Inflation data - Wednesday 4. September PPI Inflation data - Thursday 5. Fed ...",
@@ -207,20 +207,10 @@
     "BREAKING: Brent crude oil prices surge above $107/barrel after Ukraine's President Zelensky accuses Russia of striking 6 Ukranian energy facilities today. Iran also said a third crude oil supertank...",
     "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
     "BREAKING: Global physical gold-backed ETFs attracted +$30.7 billion in inflows in Q3 2026, their largest quarterly intake on record. In September, inflows totaled +$10 billion, the 3rd-largest mont...",
-    "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes 6%."
+    "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes 6%.",
+    "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122293909472689",
-      "topics": [
-        "crypto",
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "split:face+face",
-      "at": "2026-10-10T02:01:58.290182+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122301217472689",
       "topics": [
@@ -681,6 +671,16 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-13T03:53:12.680740+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123677335472689",
+      "topics": [
+        "crypto",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-13T04:23:03.637130+00:00"
     }
   ],
   "tuner": {
@@ -702,46 +702,6 @@
   },
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "$4,206.86",
-        "$60.99",
-        "AIRPO",
-        "AN",
-        "AND",
-        "ARABIA",
-        "AS",
-        "BRENT",
-        "CLAIM",
-        "COST",
-        "CRUDE",
-        "EAST",
-        "ENERGY",
-        "FELL",
-        "GAINED",
-        "GOLD",
-        "HIGHER",
-        "HIKE",
-        "HOUTHI",
-        "MAIN",
-        "MIDDLE",
-        "OF",
-        "ON",
-        "OUNCE",
-        "OVER",
-        "RAISED",
-        "RATE",
-        "ROSE",
-        "RUSSIA",
-        "SAUDI",
-        "SILVER",
-        "TO",
-        "TRUMP",
-        "WHILE",
-        "WIDER"
-      ],
-      "at": "2026-10-12T01:31:11.687147+00:00"
-    },
     {
       "fp": [
         "consumer",
@@ -1005,10 +965,18 @@
         "south"
       ],
       "at": "2026-10-13T03:53:12.680725+00:00"
+    },
+    {
+      "fp": [
+        "$83,000",
+        "bitcoin",
+        "korean",
+        "nasdaq"
+      ],
+      "at": "2026-10-13T04:23:03.637119+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 TOM LEE SAYS ETH WILL SURPASS $5,000 BY YEAR END. Ethereum\u2019s price could jump from $3,200 today to over $5k in 12 months, a 56% upside. If true, the rally could boost the entire crypto market and shift institutional flows. Will the hype turn into reality? #ethancole #ethereum #crypto #marketnews #investing",
     "JUST IN: \ud83d\udea9 ONE prompt word turns Opus 5.5s into the world\u2019s cheapest cutting\u2011edge model! 99% of Claude users burn $20 in hours\u2014now that\u2019s a MASSIVE COST cut. The trick stops code, asks up to 7 precise questions, digs hidden architecture flaws, then applies tiny diffs and logs",
     "BREAKING: \ud83d\udea9 OIL PRICES CLUSTERING AT $100 AS WAR ON OIL CONTINUES. JUST IN: Market odds still high, no ceasefire to break the cycle. 1\ufe0f\u20e3 $100 per barrel, 2\ufe0f\u20e3 war\u2011driven supply shock. Why it matters: investors face a stubborn $100 floor. Will the next geopolitical shift lift the ceiling? #ethancole #oil #finance #marketnews #investing",
     "JUST IN: \ud83d\udea9 Bitcoin stays above $84,000 despite recent ETF outflows. Oil prices dip today, adding to risk\u2011on vibes. BTC up 0.2% amid volatility. Why it matters: Energy\u2011price drop fuels bullish sentiment, keeping crypto in the spotlight. #ethancole #bitcoin #crypto #marketnews #investing #breakingnews",
@@ -1022,6 +990,7 @@
     "BREAKING: \ud83d\udee2\ufe0f OIL prices SURGE past $107/barrel.",
     "BREAKING: \ud83d\udcc9 Asian Tech STOCKS PLUNGE following Wall Street chip sell-off.",
     "BREAKING: Global physical gold\u2011backed ETFs pulled in +$30.7\u202fB in Q3\u202f2026, the biggest quarterly inflow ever. September alone saw +$10\u202fB, the 3rd\u2011largest month\u2011wide intake of 2026, after +$17.9\u202fB in August. Gold ETF holdings climbed +67\u202ft to a record 4,256\u202ft.",
-    "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES 6% in a single session, rattling investors worldwide."
+    "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES 6% in a single session, rattling investors worldwide.",
+    "\ud83d\udea8 JUST IN: Bitcoin ($BTC) REBOUNDS above $83,000."
   ]
 }
