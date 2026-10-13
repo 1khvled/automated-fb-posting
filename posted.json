@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "4c37a6b98f96b103",
-    "fb_id": "1264009986803820_122123635293472689",
-    "title": "\u26a1\ufe0f NEW: Elon Musk\u2019s SpaceXSI has merged Grok, Cursor, and X Premium into a single \u201cX Subscription\u201d with five tiers ranging from free to $200 a month.",
-    "link": "https://x.com/Cointelegraph/status/2109818908521693554",
-    "mode": "serious",
-    "at": "2026-10-13T01:32:43.951938+00:00"
+    "hash": "2a6f98175be395ca",
+    "fb_id": "1264009986803820_122123642421472689",
+    "title": "BREAKING: Brent crude oil prices surge above $107/barrel after Ukraine's President Zelensky accuses Russia of striking 6 Ukranian energy facilities today. Iran also said a third crude oil supertank...",
+    "link": "https://x.com/KobeissiLetter/status/2109644876551758084",
+    "mode": "viral",
+    "at": "2026-10-13T02:03:03.029819+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -45,6 +45,7 @@
     "2839c0e8680cd401",
     "29c4d0c4decaa67c",
     "29ec1e6d5581205f",
+    "2a6f98175be395ca",
     "2bbf1d770e89e3e5",
     "2d63a9f4c47e07bc",
     "2f82b7d57908eb27",
@@ -186,10 +187,9 @@
   "day_counts": {
     "2026-10-11": 15,
     "2026-10-12": 15,
-    "2026-10-13": 4
+    "2026-10-13": 5
   },
   "recent_titles": [
-    "BREAKING: 84% of S&P 500 stocks are now trading at least -10% below their all-time highs. Real Estate leads the drawdown, with 97% of stocks down at least -10%, followed by Materials at 96%, Utilit...",
     "\ud83d\udea8Tibo 28\u5929\u519b\u4ee4\u72b6 Day7 \u66f4\u65b0\u5df2\u5151\u73b0\uff01\u4eca\u5929\u6ca1\u6709 Reset\uff0c\u800c\u662f\u771f\u6539\u8fdb\uff01 \ud83d\udd39GPT-6.1 Sol \u5728 Codex & Work \u9ed8\u8ba4\u4e0a\u4e0b\u6587\u4ece 272k \u98d9\u5347\u81f3 500k\uff08+80%\uff09 \ud83d\udd39\u5927\u5e45\u51cf\u5c11\u4e0a\u4e0b\u6587\u538b\u7f29\uff0c\u957f\u4efb\u52a1\u66f4\u7a33 \ud83d\udd39\u9002\u5408\u9700\u8981\u957f\u671f\u4fdd\u6301\u7ec6\u8282\u4e0e\u4e0a\u4e0b\u6587\u7684\u590d\u6742\u5de5\u4f5c \ud83d\udd39\u5df2\u6d4b\u8bd5\u9a8c\u8bc1\uff0c\u65b0\u751c\u871c\u70b9\uff0c\u53ef\u624b\u52a8\u8c03\u6574\uff08\u6700\u9ad8\u4ecd 1M\uff09 \ud83d\udd39\u989d\u5916\u5927\u798f\u5229\uff1a\u8ba2\u9605\u989d\u5ea6\u4f7f\u7528\u65f6\u4e0d\u518d\u6536\u957f\u4e0a\u4e0b\u6587\u8d39\u7528\uff01 \u793e\u533a\u5f88\u591a\u4eba\u60f3\u8981 Res...",
     "GOLD TRADES ABOVE $4,200 AMID STRONG ETF INFLOWS AHEAD OF KEY US INFLATION FIGURES",
     "JUST IN: Tom Lee predicts Ethereum $ETH will surpass $5,000 by the end of this year.",
@@ -203,18 +203,10 @@
     "Meta has released Muse Wonder and Muse Wonder Full, achieving Artificial Analysis Intelligence Index v4.3 scores of 52 and 56 at max reasoning effort - each a material gain over Muse Spark 1.3 (max...",
     "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Iran has released footage of targeting another oil tanker early this morning",
     "INVESTORS AWAIT US EARNINGS AND WEDNESDAY\u2019S CPI REPORT, WITH S&P 500 THIRD-QUARTER PROFITS EXPECTED TO RISE 25% YEAR OVER YEAR. BRENT CRUDE FELL 0.8% TO $105.80/BARREL, GOLD SLIPPED 0.2% TO $4,164....",
-    "\u26a1\ufe0f NEW: Elon Musk\u2019s SpaceXSI has merged Grok, Cursor, and X Premium into a single \u201cX Subscription\u201d with five tiers ranging from free to $200 a month."
+    "\u26a1\ufe0f NEW: Elon Musk\u2019s SpaceXSI has merged Grok, Cursor, and X Premium into a single \u201cX Subscription\u201d with five tiers ranging from free to $200 a month.",
+    "BREAKING: Brent crude oil prices surge above $107/barrel after Ukraine's President Zelensky accuses Russia of striking 6 Ukranian energy facilities today. Iran also said a third crude oil supertank..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122121873861472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-09T07:02:36.738117+00:00"
-    },
     {
       "fb_id": "28826504170310245",
       "topics": [
@@ -675,6 +667,16 @@
       "mode": "serious",
       "photo": "split:face+logo",
       "at": "2026-10-13T01:32:43.951938+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123642421472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-13T02:03:03.029819+00:00"
     }
   ],
   "tuner": {
@@ -696,13 +698,6 @@
   },
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "putin",
-        "trump"
-      ],
-      "at": "2026-10-11T07:11:53.895030+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -993,10 +988,24 @@
         "subscription"
       ],
       "at": "2026-10-13T01:32:43.951922+00:00"
+    },
+    {
+      "fp": [
+        "$107",
+        "brent",
+        "hormuz",
+        "iran",
+        "president",
+        "russia",
+        "strait",
+        "ukraine",
+        "ukranian",
+        "zelensky"
+      ],
+      "at": "2026-10-13T02:03:03.029807+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udea8 GOLD hits $4,206.86/ounce on TRUMP's Russia-Ukraine ceasefire claim.",
     "BREAKING: \ud83d\udcc9 84% of S&P 500 stocks are now -10% BELOW all-time highs.",
     "\ud83d\udea8 JUST IN: GPT-6.1 Sol CONTEXT LENGTH JUMPS 80% to 500k.",
     "JUST IN: GOLD SURGES ABOVE $4,200 as ETF inflows surge ahead of key US inflation data \ud83d\udcc8",
@@ -1010,6 +1019,7 @@
     "\ud83d\udea8 AI's biggest truth: a \"consensus gap\" is creating a SPECIES DIVIDE.",
     "JUST IN: Meta ($META) ($META) drops Muse Wonder & Muse Wonder Full, smashing AI Index v4.3 scores of 52 & 56\u2014material gain over Muse Spark 1.3\u2019s 48. Only 6\u2011week gap. Muse Wonder hits Meta\u2019s first\u2011party API; Full locked to Muse Code users. Market buzz: will AI race accelerate? #ethancole #ai #technews #finance #marketnews",
     "\ud83d\udea8 INVESTORS AWAIT EARNINGS & CPI. S&P 500 Q3 PROFITS EXPECTED TO RISE 25%.",
-    "\u26a1\ufe0f JUST IN: SpaceXSI MERGES Grok, Cursor, X Premium into one \"X Subscription.\""
+    "\u26a1\ufe0f JUST IN: SpaceXSI MERGES Grok, Cursor, X Premium into one \"X Subscription.\"",
+    "BREAKING: \ud83d\udee2\ufe0f OIL prices SURGE past $107/barrel."
   ]
 }
