@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "077fd34454c06618",
-    "fb_id": "1264009986803820_122123654361472689",
-    "title": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
-    "link": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
-    "mode": "serious",
-    "at": "2026-10-13T02:32:43.736735+00:00"
+    "hash": "c623f18fc00030b7",
+    "fb_id": "1264009986803820_122123662023472689",
+    "title": "BREAKING: Global physical gold-backed ETFs attracted +$30.7 billion in inflows in Q3 2026, their largest quarterly intake on record. In September, inflows totaled +$10 billion, the 3rd-largest mont...",
+    "link": "https://x.com/KobeissiLetter/status/2109665195249328159",
+    "mode": "viral",
+    "at": "2026-10-13T03:04:42.076723+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -150,6 +150,7 @@
     "bbec67196eba705d",
     "beda8733ff194127",
     "c251468873bbe41c",
+    "c623f18fc00030b7",
     "d1ada08f4696f8f6",
     "d248d07438581e6c",
     "d26034239bd1c674",
@@ -188,10 +189,9 @@
   "day_counts": {
     "2026-10-11": 15,
     "2026-10-12": 15,
-    "2026-10-13": 6
+    "2026-10-13": 7
   },
   "recent_titles": [
-    "GOLD TRADES ABOVE $4,200 AMID STRONG ETF INFLOWS AHEAD OF KEY US INFLATION FIGURES",
     "JUST IN: Tom Lee predicts Ethereum $ETH will surpass $5,000 by the end of this year.",
     "\ud83d\udd25\u7801\u4f4f\uff01\u53ea\u9700\u4e00\u4e2a\u63d0\u793a\u8bcd\uff0c\u8ba9Opus 5.5\u79d2\u53d8\u5168\u7403\u6700\u4fbf\u5b9c\u524d\u6cbf\u6a21\u578b\uff01 99% \u7684\u4eba\u5728 Claude Code \u91cc\u51e0\u5c0f\u65f6\u70e7\u6389 $20\uff0c\u5168\u662f\u778e\u8fed\u4ee3\u3002 \u8fd9\u4e2a\u63d0\u793a\u8bcd\u76f4\u63a5\u7981\u6b62\u6a21\u578b\u5199\u4ee3\u7801\uff0c\u76f4\u5230\u5b83\u95ee\u5b8c\u6700\u591a 7 \u4e2a\u7cbe\u51c6\u95ee\u9898\u3001\u6316\u51fa\u6240\u6709\u9690\u5f62\u67b6\u6784\u5751\uff0c\u518d\u4e00\u6b65\u4e00\u6b65\u5c0f diff \u63a8\u8fdb\uff0c\u5e76\u5f3a\u5236\u7ef4\u62a4 DECISIONS.md\uff08\u4f60\u80fd\u770b\u5230\u5b83\u62d2\u7edd\u4e86\u54ea\u4e9b\u201c\u6b63\u786e\u60f3\u6cd5\u201d\u4ee5\u53ca\u4e3a\u4ec0\u4e48\uff09\u3002 1 \u5206\u949f\u590d\u5236\u7c98\u8d34\u8fdb Claude\uff0c\u6210\u672c\u76f4\u63a5\u8170\u65a9\u3002 \u6838...",
     "oil falling on an energy cease fire. We have seen these again and again and we are fooled again and again. As long as there is a war on oil will stay clustered around $100",
@@ -205,19 +205,10 @@
     "INVESTORS AWAIT US EARNINGS AND WEDNESDAY\u2019S CPI REPORT, WITH S&P 500 THIRD-QUARTER PROFITS EXPECTED TO RISE 25% YEAR OVER YEAR. BRENT CRUDE FELL 0.8% TO $105.80/BARREL, GOLD SLIPPED 0.2% TO $4,164....",
     "\u26a1\ufe0f NEW: Elon Musk\u2019s SpaceXSI has merged Grok, Cursor, and X Premium into a single \u201cX Subscription\u201d with five tiers ranging from free to $200 a month.",
     "BREAKING: Brent crude oil prices surge above $107/barrel after Ukraine's President Zelensky accuses Russia of striking 6 Ukranian energy facilities today. Iran also said a third crude oil supertank...",
-    "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off"
+    "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
+    "BREAKING: Global physical gold-backed ETFs attracted +$30.7 billion in inflows in Q3 2026, their largest quarterly intake on record. In September, inflows totaled +$10 billion, the 3rd-largest mont..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122272231472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "split:face+face",
-      "at": "2026-10-10T00:33:42.280987+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122282317472689",
       "topics": [
@@ -679,6 +670,16 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-13T02:32:43.736735+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123662023472689",
+      "topics": [
+        "crypto",
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-13T03:04:42.076723+00:00"
     }
   ],
   "tuner": {
@@ -700,16 +701,6 @@
   },
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "democrats",
-        "fed",
-        "inflation",
-        "republicans",
-        "trump"
-      ],
-      "at": "2026-10-12T00:31:53.939019+00:00"
-    },
     {
       "fp": [
         "FT",
@@ -1004,10 +995,22 @@
         "wall"
       ],
       "at": "2026-10-13T02:32:43.736720+00:00"
+    },
+    {
+      "fp": [
+        "$10",
+        "$17.9",
+        "$30.7",
+        "ETF",
+        "august",
+        "global",
+        "september",
+        "this"
+      ],
+      "at": "2026-10-13T03:04:42.076708+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 JUST IN: GPT-6.1 Sol CONTEXT LENGTH JUMPS 80% to 500k.",
     "JUST IN: GOLD SURGES ABOVE $4,200 as ETF inflows surge ahead of key US inflation data \ud83d\udcc8",
     "JUST IN: \ud83d\udea9 TOM LEE SAYS ETH WILL SURPASS $5,000 BY YEAR END. Ethereum\u2019s price could jump from $3,200 today to over $5k in 12 months, a 56% upside. If true, the rally could boost the entire crypto market and shift institutional flows. Will the hype turn into reality? #ethancole #ethereum #crypto #marketnews #investing",
     "JUST IN: \ud83d\udea9 ONE prompt word turns Opus 5.5s into the world\u2019s cheapest cutting\u2011edge model! 99% of Claude users burn $20 in hours\u2014now that\u2019s a MASSIVE COST cut. The trick stops code, asks up to 7 precise questions, digs hidden architecture flaws, then applies tiny diffs and logs",
@@ -1021,6 +1024,7 @@
     "\ud83d\udea8 INVESTORS AWAIT EARNINGS & CPI. S&P 500 Q3 PROFITS EXPECTED TO RISE 25%.",
     "\u26a1\ufe0f JUST IN: SpaceXSI MERGES Grok, Cursor, X Premium into one \"X Subscription.\"",
     "BREAKING: \ud83d\udee2\ufe0f OIL prices SURGE past $107/barrel.",
-    "BREAKING: \ud83d\udcc9 Asian Tech STOCKS PLUNGE following Wall Street chip sell-off."
+    "BREAKING: \ud83d\udcc9 Asian Tech STOCKS PLUNGE following Wall Street chip sell-off.",
+    "BREAKING: Global physical gold\u2011backed ETFs pulled in +$30.7\u202fB in Q3\u202f2026, the biggest quarterly inflow ever. September alone saw +$10\u202fB, the 3rd\u2011largest month\u2011wide intake of 2026, after +$17.9\u202fB in August. Gold ETF holdings climbed +67\u202ft to a record 4,256\u202ft."
   ]
 }
