@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "90475a1c74fc1067",
-    "fb_id": "1264009986803820_122123677335472689",
-    "title": "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
-    "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-rebounds-above-usd83-000-as-it-decouples-from-tumbling-korean-stocks-and-nasdaq-futures",
+    "hash": "3e2710928bf1c3a0",
+    "fb_id": "1264009986803820_122123685573472689",
+    "title": "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
+    "link": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
     "mode": "serious",
-    "at": "2026-10-13T04:23:03.637130+00:00"
+    "at": "2026-10-13T04:52:30.054162+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -61,6 +61,7 @@
     "3b4aa213b4a64a56",
     "3c7e63595369afd6",
     "3ccaf6ca07aa5503",
+    "3e2710928bf1c3a0",
     "3eb4a262e3a6a366",
     "4987c4f1f6f22605",
     "49e7734863e36891",
@@ -191,10 +192,9 @@
   "day_counts": {
     "2026-10-11": 15,
     "2026-10-12": 15,
-    "2026-10-13": 9
+    "2026-10-13": 10
   },
   "recent_titles": [
-    "oil falling on an energy cease fire. We have seen these again and again and we are fooled again and again. As long as there is a war on oil will stay clustered around $100",
     "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
     "Key Events This Week: 1. OPEC Monthly Report - Tuesday 2. September Existing Home Sales data - Tuesday 3. September CPI Inflation data - Wednesday 4. September PPI Inflation data - Thursday 5. Fed ...",
     "IMF'S GEORGIEVA: REDUCING NON-TARIFF BARRIERS AND DEEPENING REGIONAL TRADE TIES COULD RAISE ASIA'S GDP BY AROUND 1.8% OVER TIME",
@@ -208,18 +208,10 @@
     "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
     "BREAKING: Global physical gold-backed ETFs attracted +$30.7 billion in inflows in Q3 2026, their largest quarterly intake on record. In September, inflows totaled +$10 billion, the 3rd-largest mont...",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes 6%.",
-    "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures"
+    "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
+    "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122301217472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-10T02:30:34.670199+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122311801472689",
       "topics": [
@@ -681,6 +673,15 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-13T04:23:03.637130+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123685573472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-13T04:52:30.054162+00:00"
     }
   ],
   "tuner": {
@@ -702,21 +703,6 @@
   },
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "consumer",
-        "discretionary",
-        "energy",
-        "estate",
-        "healthcare",
-        "informa",
-        "materials",
-        "real",
-        "utilit",
-        "utilities"
-      ],
-      "at": "2026-10-12T02:01:50.057092+00:00"
-    },
     {
       "fp": [
         "GPT",
@@ -974,10 +960,18 @@
         "nasdaq"
       ],
       "at": "2026-10-13T04:23:03.637119+00:00"
+    },
+    {
+      "fp": [
+        "NFT",
+        "blur",
+        "ethereum",
+        "once"
+      ],
+      "at": "2026-10-13T04:52:30.054152+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 ONE prompt word turns Opus 5.5s into the world\u2019s cheapest cutting\u2011edge model! 99% of Claude users burn $20 in hours\u2014now that\u2019s a MASSIVE COST cut. The trick stops code, asks up to 7 precise questions, digs hidden architecture flaws, then applies tiny diffs and logs",
     "BREAKING: \ud83d\udea9 OIL PRICES CLUSTERING AT $100 AS WAR ON OIL CONTINUES. JUST IN: Market odds still high, no ceasefire to break the cycle. 1\ufe0f\u20e3 $100 per barrel, 2\ufe0f\u20e3 war\u2011driven supply shock. Why it matters: investors face a stubborn $100 floor. Will the next geopolitical shift lift the ceiling? #ethancole #oil #finance #marketnews #investing",
     "JUST IN: \ud83d\udea9 Bitcoin stays above $84,000 despite recent ETF outflows. Oil prices dip today, adding to risk\u2011on vibes. BTC up 0.2% amid volatility. Why it matters: Energy\u2011price drop fuels bullish sentiment, keeping crypto in the spotlight. #ethancole #bitcoin #crypto #marketnews #investing #breakingnews",
     "JUST IN: This week\u2019s economic calendar is packed\u2014OPEC report, home sales, CPI, PPI, Fed Chair Warsh, and Q3\u202f2026 earnings season kicks off. Markets are watching the data spikes and policy cues. What will the numbers say about the next move? #ethancole #finance #marketnews #inflation #fed #earnings",
@@ -991,6 +985,7 @@
     "BREAKING: \ud83d\udcc9 Asian Tech STOCKS PLUNGE following Wall Street chip sell-off.",
     "BREAKING: Global physical gold\u2011backed ETFs pulled in +$30.7\u202fB in Q3\u202f2026, the biggest quarterly inflow ever. September alone saw +$10\u202fB, the 3rd\u2011largest month\u2011wide intake of 2026, after +$17.9\u202fB in August. Gold ETF holdings climbed +67\u202ft to a record 4,256\u202ft.",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES 6% in a single session, rattling investors worldwide.",
-    "\ud83d\udea8 JUST IN: Bitcoin ($BTC) REBOUNDS above $83,000."
+    "\ud83d\udea8 JUST IN: Bitcoin ($BTC) REBOUNDS above $83,000.",
+    "BREAKING: \ud83d\udea9 ETH NFT MARKETPLACE BLUR SHUTTING DOWN AFTER 99% VOLUME CRASH"
   ]
 }
