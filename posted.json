@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "3e2710928bf1c3a0",
-    "fb_id": "1264009986803820_122123685573472689",
-    "title": "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
-    "link": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99",
-    "mode": "serious",
-    "at": "2026-10-13T04:52:30.054162+00:00"
+    "hash": "0b0d21f90fa17116",
+    "fb_id": "1264009986803820_122123693385472689",
+    "title": "The US stock market has never been this fragmented: The 52-week correlation between the equal-weighted S&P 500 and the S&P 500 index is down to 0.67, its lowest level on record. This measures how c...",
+    "link": "https://x.com/KobeissiLetter/status/2109750805926424637",
+    "mode": "viral",
+    "at": "2026-10-13T05:24:41.361007+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -22,6 +22,7 @@
     "0a36c68d9af0b560",
     "0a5853d8bb9ad922",
     "0afa79877035161a",
+    "0b0d21f90fa17116",
     "0e590aebd2b44c59",
     "0f167e673f05e771",
     "100a2e3d51fa9091",
@@ -192,10 +193,9 @@
   "day_counts": {
     "2026-10-11": 15,
     "2026-10-12": 15,
-    "2026-10-13": 10
+    "2026-10-13": 11
   },
   "recent_titles": [
-    "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
     "Key Events This Week: 1. OPEC Monthly Report - Tuesday 2. September Existing Home Sales data - Tuesday 3. September CPI Inflation data - Wednesday 4. September PPI Inflation data - Thursday 5. Fed ...",
     "IMF'S GEORGIEVA: REDUCING NON-TARIFF BARRIERS AND DEEPENING REGIONAL TRADE TIES COULD RAISE ASIA'S GDP BY AROUND 1.8% OVER TIME",
     "JUST IN: Michael Saylor hints at another Bitcoin announcement tomorrow \ud83d\udc40 \"There's always room for more orange.\"",
@@ -209,18 +209,10 @@
     "BREAKING: Global physical gold-backed ETFs attracted +$30.7 billion in inflows in Q3 2026, their largest quarterly intake on record. In September, inflows totaled +$10 billion, the 3rd-largest mont...",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes 6%.",
     "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
-    "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%"
+    "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
+    "The US stock market has never been this fragmented: The 52-week correlation between the equal-weighted S&P 500 and the S&P 500 index is down to 0.67, its lowest level on record. This measures how c..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122311801472689",
-      "topics": [
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "split:face+inst",
-      "at": "2026-10-10T03:03:17.105512+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122332057472689",
       "topics": [
@@ -682,6 +674,15 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-13T04:52:30.054162+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123693385472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-13T05:24:41.361007+00:00"
     }
   ],
   "tuner": {
@@ -703,18 +704,6 @@
   },
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "GPT",
-        "codex",
-        "res",
-        "reset",
-        "sol",
-        "tibo",
-        "work"
-      ],
-      "at": "2026-10-12T02:32:46.697296+00:00"
-    },
     {
       "fp": [
         "$4,200",
@@ -969,10 +958,16 @@
         "once"
       ],
       "at": "2026-10-13T04:52:30.054152+00:00"
+    },
+    {
+      "fp": [
+        "US",
+        "this"
+      ],
+      "at": "2026-10-13T05:24:41.360993+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udea9 OIL PRICES CLUSTERING AT $100 AS WAR ON OIL CONTINUES. JUST IN: Market odds still high, no ceasefire to break the cycle. 1\ufe0f\u20e3 $100 per barrel, 2\ufe0f\u20e3 war\u2011driven supply shock. Why it matters: investors face a stubborn $100 floor. Will the next geopolitical shift lift the ceiling? #ethancole #oil #finance #marketnews #investing",
     "JUST IN: \ud83d\udea9 Bitcoin stays above $84,000 despite recent ETF outflows. Oil prices dip today, adding to risk\u2011on vibes. BTC up 0.2% amid volatility. Why it matters: Energy\u2011price drop fuels bullish sentiment, keeping crypto in the spotlight. #ethancole #bitcoin #crypto #marketnews #investing #breakingnews",
     "JUST IN: This week\u2019s economic calendar is packed\u2014OPEC report, home sales, CPI, PPI, Fed Chair Warsh, and Q3\u202f2026 earnings season kicks off. Markets are watching the data spikes and policy cues. What will the numbers say about the next move? #ethancole #finance #marketnews #inflation #fed #earnings",
     "JUST IN: \ud83d\udea9 IMF says cutting non\u2011tariff barriers could raise Asia's GDP by 1.8% over time. If the projections hold, regional trade deepening becomes a new growth engine. A 1.8% lift equals trillions in added trade, spiking Asian equity markets. #ethancole #finance #marketnews #economy #asia #trade",
@@ -986,6 +981,7 @@
     "BREAKING: Global physical gold\u2011backed ETFs pulled in +$30.7\u202fB in Q3\u202f2026, the biggest quarterly inflow ever. September alone saw +$10\u202fB, the 3rd\u2011largest month\u2011wide intake of 2026, after +$17.9\u202fB in August. Gold ETF holdings climbed +67\u202ft to a record 4,256\u202ft.",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES 6% in a single session, rattling investors worldwide.",
     "\ud83d\udea8 JUST IN: Bitcoin ($BTC) REBOUNDS above $83,000.",
-    "BREAKING: \ud83d\udea9 ETH NFT MARKETPLACE BLUR SHUTTING DOWN AFTER 99% VOLUME CRASH"
+    "BREAKING: \ud83d\udea9 ETH NFT MARKETPLACE BLUR SHUTTING DOWN AFTER 99% VOLUME CRASH",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 US market fragmentation hits record low. 52\u2011week correlation between equal\u2011weighted S&P 500 and cap\u2011weighted S&P 500 is 0.67, lowest ever. Mega\u2011cap stocks are pulling away from the broader index. Will the market converge again or stay split? #ethancole #finance #stockmarket #investing #marketnews"
   ]
 }
