@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "0b0d21f90fa17116",
-    "fb_id": "1264009986803820_122123693385472689",
-    "title": "The US stock market has never been this fragmented: The 52-week correlation between the equal-weighted S&P 500 and the S&P 500 index is down to 0.67, its lowest level on record. This measures how c...",
-    "link": "https://x.com/KobeissiLetter/status/2109750805926424637",
-    "mode": "viral",
-    "at": "2026-10-13T05:24:41.361007+00:00"
+    "hash": "9d2492b01de969ed",
+    "fb_id": "1264009986803820_122123700423472689",
+    "title": "Bitcoin whale that sat through the March 2020 crash moves $378 million",
+    "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-whale-that-sat-through-the-march-2020-crash-moves-usd378-million",
+    "mode": "serious",
+    "at": "2026-10-13T05:54:03.983887+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -127,6 +127,7 @@
     "99c9f9218a07a71a",
     "9bc995ae7806e12d",
     "9bf4038f6b73620f",
+    "9d2492b01de969ed",
     "9d586d423b6a80d7",
     "9e0be7e5de8268d0",
     "9e821647d63289bd",
@@ -193,10 +194,9 @@
   "day_counts": {
     "2026-10-11": 15,
     "2026-10-12": 15,
-    "2026-10-13": 11
+    "2026-10-13": 12
   },
   "recent_titles": [
-    "Key Events This Week: 1. OPEC Monthly Report - Tuesday 2. September Existing Home Sales data - Tuesday 3. September CPI Inflation data - Wednesday 4. September PPI Inflation data - Thursday 5. Fed ...",
     "IMF'S GEORGIEVA: REDUCING NON-TARIFF BARRIERS AND DEEPENING REGIONAL TRADE TIES COULD RAISE ASIA'S GDP BY AROUND 1.8% OVER TIME",
     "JUST IN: Michael Saylor hints at another Bitcoin announcement tomorrow \ud83d\udc40 \"There's always room for more orange.\"",
     "Karpathy \u5927\u795e\u4eca\u5929\u90a3\u53e5\u8bdd\u70b9\u7834\u4e86\u4eca\u5e74\u6700\u5927\u7684\u884c\u4e1a\u771f\u76f8\uff1a \u201c\u5927\u4f17\u5bf9\u5927\u6a21\u578b\u80fd\u529b\u7684\u5171\u8bc6\u9e3f\u6c9f\uff0c\u6b63\u5728\u6495\u88c2\u6210\u65e0\u6cd5\u903e\u8d8a\u7684\u7269\u79cd\u9694\u79bb\u3002\u201d \u5f88\u591a\u4eba\u89c9\u5f97AI \u5439\u8fc7\u5934\u4e86\uff0c\u662f\u56e0\u4e3a\u4f60\u8fd8\u505c\u7559\u5728\u5de6\u8fb9\uff1a\u628a\u5b83\u5f53\u6210\u4e00\u4e2a\u7ecf\u5e38\u80e1\u8bf4\u516b\u9053\u3001\u9700\u8981\u597d\u58f0\u597d\u6c14\u4f3a\u5019\u7684\u7f51\u9875 Chatbot\u3002 \u4f46\u771f\u6b63\u7684\u751f\u4ea7\u529b\u91cd\u5851\u53d1\u751f\u5728\u53f3\u8fb9\uff1a\u628a\u7ec8\u7aef\u6743\u9650\u4ea4\u7ed9\u81ea\u4e3b Agent\uff08Claude Code / Codex\uff09\uff0c\u4e00\u4eba\u5e26\u4e00\u652f\u5175\u56e2\uff0c\u51e0\u5206\u949f\u5185\u81ea\u4e3b\u541e\u6389 80 \u4e2a\u6587\u4ef6\u3001\u81ea...",
@@ -210,18 +210,10 @@
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes 6%.",
     "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
     "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
-    "The US stock market has never been this fragmented: The 52-week correlation between the equal-weighted S&P 500 and the S&P 500 index is down to 0.67, its lowest level on record. This measures how c..."
+    "The US stock market has never been this fragmented: The 52-week correlation between the equal-weighted S&P 500 and the S&P 500 index is down to 0.67, its lowest level on record. This measures how c...",
+    "Bitcoin whale that sat through the March 2020 crash moves $378 million"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122332057472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-10T03:44:00.598412+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122337943472689",
       "topics": [
@@ -683,6 +675,15 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-13T05:24:41.361007+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123700423472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-13T05:54:03.983887+00:00"
     }
   ],
   "tuner": {
@@ -704,22 +705,6 @@
   },
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "$4,200",
-        "ABOVE",
-        "AHEAD",
-        "AMID",
-        "ETF",
-        "GOLD",
-        "KEY",
-        "OF",
-        "STRONG",
-        "TRADE",
-        "US"
-      ],
-      "at": "2026-10-12T03:02:32.447218+00:00"
-    },
     {
       "fp": [
         "$5,000",
@@ -965,10 +950,17 @@
         "this"
       ],
       "at": "2026-10-13T05:24:41.360993+00:00"
+    },
+    {
+      "fp": [
+        "$378",
+        "bitcoin",
+        "march"
+      ],
+      "at": "2026-10-13T05:54:03.983874+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 Bitcoin stays above $84,000 despite recent ETF outflows. Oil prices dip today, adding to risk\u2011on vibes. BTC up 0.2% amid volatility. Why it matters: Energy\u2011price drop fuels bullish sentiment, keeping crypto in the spotlight. #ethancole #bitcoin #crypto #marketnews #investing #breakingnews",
     "JUST IN: This week\u2019s economic calendar is packed\u2014OPEC report, home sales, CPI, PPI, Fed Chair Warsh, and Q3\u202f2026 earnings season kicks off. Markets are watching the data spikes and policy cues. What will the numbers say about the next move? #ethancole #finance #marketnews #inflation #fed #earnings",
     "JUST IN: \ud83d\udea9 IMF says cutting non\u2011tariff barriers could raise Asia's GDP by 1.8% over time. If the projections hold, regional trade deepening becomes a new growth engine. A 1.8% lift equals trillions in added trade, spiking Asian equity markets. #ethancole #finance #marketnews #economy #asia #trade",
     "JUST IN: \ud83d\udea9 Michael Saylor hints at another Bitcoin announcement tomorrow \ud83d\udc40",
@@ -982,6 +974,7 @@
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES 6% in a single session, rattling investors worldwide.",
     "\ud83d\udea8 JUST IN: Bitcoin ($BTC) REBOUNDS above $83,000.",
     "BREAKING: \ud83d\udea9 ETH NFT MARKETPLACE BLUR SHUTTING DOWN AFTER 99% VOLUME CRASH",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 US market fragmentation hits record low. 52\u2011week correlation between equal\u2011weighted S&P 500 and cap\u2011weighted S&P 500 is 0.67, lowest ever. Mega\u2011cap stocks are pulling away from the broader index. Will the market converge again or stay split? #ethancole #finance #stockmarket #investing #marketnews"
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 US market fragmentation hits record low. 52\u2011week correlation between equal\u2011weighted S&P 500 and cap\u2011weighted S&P 500 is 0.67, lowest ever. Mega\u2011cap stocks are pulling away from the broader index. Will the market converge again or stay split? #ethancole #finance #stockmarket #investing #marketnews",
+    "JUST IN: \ud83d\udea9 $378M Bitcoin whale moves big."
   ]
 }
