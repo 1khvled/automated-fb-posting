@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "9d2492b01de969ed",
-    "fb_id": "1264009986803820_122123700423472689",
-    "title": "Bitcoin whale that sat through the March 2020 crash moves $378 million",
-    "link": "https://www.coindesk.com/markets/2026/10/13/bitcoin-whale-that-sat-through-the-march-2020-crash-moves-usd378-million",
-    "mode": "serious",
-    "at": "2026-10-13T05:54:03.983887+00:00"
+    "hash": "071514e07cc28227",
+    "fb_id": "1264009986803820_122123705235472689",
+    "title": "BREAKING: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Zelenskyy indicated that Ukraine would attack Russian ships carrying diesel to the US. Zelenskyy indicated that Trump needs to strike a deal with him if he wants Ukraine to refrain...",
+    "link": "https://x.com/Megatron_ron/status/2109608755830956285",
+    "mode": "viral",
+    "at": "2026-10-13T06:23:54.323687+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -15,6 +15,7 @@
     "0645eb4c06eed671",
     "06e66bab9ed6a263",
     "0709e3e2addffc4e",
+    "071514e07cc28227",
     "077fd34454c06618",
     "08ac912336069268",
     "08f210dc7becee93",
@@ -194,10 +195,9 @@
   "day_counts": {
     "2026-10-11": 15,
     "2026-10-12": 15,
-    "2026-10-13": 12
+    "2026-10-13": 13
   },
   "recent_titles": [
-    "IMF'S GEORGIEVA: REDUCING NON-TARIFF BARRIERS AND DEEPENING REGIONAL TRADE TIES COULD RAISE ASIA'S GDP BY AROUND 1.8% OVER TIME",
     "JUST IN: Michael Saylor hints at another Bitcoin announcement tomorrow \ud83d\udc40 \"There's always room for more orange.\"",
     "Karpathy \u5927\u795e\u4eca\u5929\u90a3\u53e5\u8bdd\u70b9\u7834\u4e86\u4eca\u5e74\u6700\u5927\u7684\u884c\u4e1a\u771f\u76f8\uff1a \u201c\u5927\u4f17\u5bf9\u5927\u6a21\u578b\u80fd\u529b\u7684\u5171\u8bc6\u9e3f\u6c9f\uff0c\u6b63\u5728\u6495\u88c2\u6210\u65e0\u6cd5\u903e\u8d8a\u7684\u7269\u79cd\u9694\u79bb\u3002\u201d \u5f88\u591a\u4eba\u89c9\u5f97AI \u5439\u8fc7\u5934\u4e86\uff0c\u662f\u56e0\u4e3a\u4f60\u8fd8\u505c\u7559\u5728\u5de6\u8fb9\uff1a\u628a\u5b83\u5f53\u6210\u4e00\u4e2a\u7ecf\u5e38\u80e1\u8bf4\u516b\u9053\u3001\u9700\u8981\u597d\u58f0\u597d\u6c14\u4f3a\u5019\u7684\u7f51\u9875 Chatbot\u3002 \u4f46\u771f\u6b63\u7684\u751f\u4ea7\u529b\u91cd\u5851\u53d1\u751f\u5728\u53f3\u8fb9\uff1a\u628a\u7ec8\u7aef\u6743\u9650\u4ea4\u7ed9\u81ea\u4e3b Agent\uff08Claude Code / Codex\uff09\uff0c\u4e00\u4eba\u5e26\u4e00\u652f\u5175\u56e2\uff0c\u51e0\u5206\u949f\u5185\u81ea\u4e3b\u541e\u6389 80 \u4e2a\u6587\u4ef6\u3001\u81ea...",
     "Meta has released Muse Wonder and Muse Wonder Full, achieving Artificial Analysis Intelligence Index v4.3 scores of 52 and 56 at max reasoning effort - each a material gain over Muse Spark 1.3 (max...",
@@ -211,18 +211,10 @@
     "Bitcoin rebounds above $83,000 as it decouples from tumbling Korean stocks and Nasdaq futures",
     "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
     "The US stock market has never been this fragmented: The 52-week correlation between the equal-weighted S&P 500 and the S&P 500 index is down to 0.67, its lowest level on record. This measures how c...",
-    "Bitcoin whale that sat through the March 2020 crash moves $378 million"
+    "Bitcoin whale that sat through the March 2020 crash moves $378 million",
+    "BREAKING: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Zelenskyy indicated that Ukraine would attack Russian ships carrying diesel to the US. Zelenskyy indicated that Trump needs to strike a deal with him if he wants Ukraine to refrain..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122337943472689",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-10T04:12:05.940971+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122349577472689",
       "topics": [
@@ -684,6 +676,16 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-13T05:54:03.983887+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123705235472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "split:face+face",
+      "at": "2026-10-13T06:23:54.323687+00:00"
     }
   ],
   "tuner": {
@@ -705,18 +707,6 @@
   },
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "$5,000",
-        "ETH",
-        "IN",
-        "JUST",
-        "ethereum",
-        "lee",
-        "tom"
-      ],
-      "at": "2026-10-12T03:32:07.990605+00:00"
-    },
     {
       "fp": [
         "$20",
@@ -958,10 +948,19 @@
         "march"
       ],
       "at": "2026-10-13T05:54:03.983874+00:00"
+    },
+    {
+      "fp": [
+        "US",
+        "russian",
+        "trump",
+        "ukraine",
+        "zelenskyy"
+      ],
+      "at": "2026-10-13T06:23:54.323676+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: This week\u2019s economic calendar is packed\u2014OPEC report, home sales, CPI, PPI, Fed Chair Warsh, and Q3\u202f2026 earnings season kicks off. Markets are watching the data spikes and policy cues. What will the numbers say about the next move? #ethancole #finance #marketnews #inflation #fed #earnings",
     "JUST IN: \ud83d\udea9 IMF says cutting non\u2011tariff barriers could raise Asia's GDP by 1.8% over time. If the projections hold, regional trade deepening becomes a new growth engine. A 1.8% lift equals trillions in added trade, spiking Asian equity markets. #ethancole #finance #marketnews #economy #asia #trade",
     "JUST IN: \ud83d\udea9 Michael Saylor hints at another Bitcoin announcement tomorrow \ud83d\udc40",
     "\ud83d\udea8 AI's biggest truth: a \"consensus gap\" is creating a SPECIES DIVIDE.",
@@ -975,6 +974,7 @@
     "\ud83d\udea8 JUST IN: Bitcoin ($BTC) REBOUNDS above $83,000.",
     "BREAKING: \ud83d\udea9 ETH NFT MARKETPLACE BLUR SHUTTING DOWN AFTER 99% VOLUME CRASH",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 US market fragmentation hits record low. 52\u2011week correlation between equal\u2011weighted S&P 500 and cap\u2011weighted S&P 500 is 0.67, lowest ever. Mega\u2011cap stocks are pulling away from the broader index. Will the market converge again or stay split? #ethancole #finance #stockmarket #investing #marketnews",
-    "JUST IN: \ud83d\udea9 $378M Bitcoin whale moves big."
+    "JUST IN: \ud83d\udea9 $378M Bitcoin whale moves big.",
+    "BREAKING: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Zelenskyy says Ukraine will hit Russian diesel ships bound for the US unless Trump strikes a deal. Trump must act or face tankers turning into war zones. Why it matters: US oil supply could be rattled. Will Trump negotiate or ignore? #ethancole #ai #technews #finance #breakingnews #marketnews"
   ]
 }
