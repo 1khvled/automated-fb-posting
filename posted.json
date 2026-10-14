@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "b3f62cf2da797db6",
-    "fb_id": "1264009986803820_122124092859472689",
-    "title": "NEW: Britain ran a Falklands recapture exercise as Argentina ramps up pressure over the islands. About 150 paratroopers from 2 PARA and 100 local reservists spent six days rehearsing the 1982 war p...",
-    "link": "https://x.com/clashreport/status/2110280061634920870",
+    "hash": "acb0acd96b4822ea",
+    "fb_id": "1264009986803820_122124102723472689",
+    "title": "Credit \u00c1gricole: FX Risk - FJElite",
+    "link": "https://www.financialjuice.com/News/9804852/Credit-%c3%81gricole-FX-Risk---FJElite.aspx?xy=rss",
     "mode": "serious",
-    "at": "2026-10-14T08:32:17.297512+00:00"
+    "at": "2026-10-14T09:02:41.576469+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -149,6 +149,7 @@
     "a61476413f0f9565",
     "a9eab993ee21cbc4",
     "aa4543247334ecdc",
+    "acb0acd96b4822ea",
     "ad0a8f54278a0bf0",
     "ad6b0fb14d2073e5",
     "adefb15cd7173c79",
@@ -211,10 +212,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 14
+    "2026-10-14": 15
   },
   "recent_titles": [
-    "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows on Oct. 12. BTC: - $65.4M ETH: - $85.4M SOL: - $699.83K",
     "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
     "NEW ETF ALERT My sponsors over at Corgi Invest recently launched their new MANGOS ETF which trades under the ticker $MN The ETF holds just 6 names: M is for Meta Platforms $META A is for Anthropic ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor...",
@@ -228,18 +228,10 @@
     "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\"",
     "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and...",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Public company Strive purchases 3,311 Bitcoin worth $275 million! \ud83d\udc40 This brings their total to 32,773 BTC \ud83d\ude80",
-    "NEW: Britain ran a Falklands recapture exercise as Argentina ramps up pressure over the islands. About 150 paratroopers from 2 PARA and 100 local reservists spent six days rehearsing the 1982 war p..."
+    "NEW: Britain ran a Falklands recapture exercise as Argentina ramps up pressure over the islands. About 150 paratroopers from 2 PARA and 100 local reservists spent six days rehearsing the 1982 war p...",
+    "Credit \u00c1gricole: FX Risk - FJElite"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122818405472689",
-      "topics": [
-        "inflation"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-11T04:41:47.454150+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122826313472689",
       "topics": [
@@ -709,6 +701,17 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-14T08:32:17.297512+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124102723472689",
+      "topics": [
+        "gold_oil",
+        "power",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "split:face",
+      "at": "2026-10-14T09:02:41.576469+00:00"
     }
   ],
   "tuner": {
@@ -730,15 +733,6 @@
   },
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "NFT",
-        "blur",
-        "ethereum",
-        "once"
-      ],
-      "at": "2026-10-13T04:52:30.054152+00:00"
-    },
     {
       "fp": [
         "US",
@@ -1002,10 +996,26 @@
         "typhoon"
       ],
       "at": "2026-10-14T08:32:17.297491+00:00"
+    },
+    {
+      "fp": [
+        "FX",
+        "IMF",
+        "US",
+        "credit",
+        "despite",
+        "east",
+        "iran",
+        "markets",
+        "middle",
+        "president",
+        "risk",
+        "trump"
+      ],
+      "at": "2026-10-14T09:02:41.576452+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\udde6\ud83c\uddea Kraken to LAUNCH in UAE after securing full regulatory approval.",
     "\ud83d\udea8 JUST IN: Crypto ETFs see massive OUTFLOWS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Bank of America ($BAC) fined $1.2\u202fB for money\u2011laundering violations, echoing Senator Elizabeth Warren\u2019s crypto\u2011sanction warnings. The penalty hits the bank\u2019s compliance budget hard, showing regulators tightening the net",
     "JUST IN: \ud83d\udea9 Corgi Invest launches MANGOS ETF $MN, holding 6 tech titans: Meta $Meta ($META), Anthropic, Nvidia $Nvidia ($NVDA), Google $Google ($GOOGL), OpenAI, SpaceX $SPCX. Market watchers: a concentrated 6\u2011stock play could spike volatility",
@@ -1019,6 +1029,7 @@
     "BREAKING: Michael\u202fSaylor declares Bitcoin at the \u201cbeginning of a bull market.\u201d Saylor, MicroStrategy\u202f($MSTR) co\u2011founder, signals institutional optimism. Bitcoin\u2019s rally could accelerate as corporate backing grows. Why now? Stay tuned. 1 #ethancole #ai #technews #finance #marketnews",
     "\ud83d\udea8 BREAKING: Russia launches LARGEST combined missile/drone ATTACK on Ukraine.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Strive, Inc., Inc., Inc., Inc. just bought $275 MILLION in Bitcoin! \ud83d\ude80",
-    "\ud83d\udea8 BREAKING: UK stages Falklands WAR GAME as Argentina PRESSURE builds."
+    "\ud83d\udea8 BREAKING: UK stages Falklands WAR GAME as Argentina PRESSURE builds.",
+    "JUST IN: \ud83d\udea9 Oil prices up, IMF warns bond yields, but markets stay calm. Investors shrug at higher oil and bond yields; risk appetite holds. Markets assume no major Middle East flare before the US midterm elections, backed by President Trump\u2019s reassurance that strikes on Iran will not resume"
   ]
 }
