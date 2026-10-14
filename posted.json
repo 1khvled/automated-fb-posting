@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "c0ca1e4fb69f6ec7",
-    "fb_id": "1264009986803820_122123989629472689",
-    "title": "NEW ETF ALERT My sponsors over at Corgi Invest recently launched their new MANGOS ETF which trades under the ticker $MN The ETF holds just 6 names: M is for Meta Platforms $META A is for Anthropic ...",
-    "link": "https://x.com/StockMKTNewz/status/2110162497982316731",
-    "mode": "serious",
-    "at": "2026-10-14T00:33:56.698960+00:00"
+    "hash": "73f99a65bb9da86d",
+    "fb_id": "1264009986803820_122123994363472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor...",
+    "link": "https://x.com/WatcherGuru/status/2110041320358097071",
+    "mode": "viral",
+    "at": "2026-10-14T01:07:35.879716+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -100,6 +100,7 @@
     "73449aac208c1916",
     "736434c78c60fd62",
     "73f5d773b930a5df",
+    "73f99a65bb9da86d",
     "749f44d93c1f420c",
     "7509d90fd4de9e6c",
     "77abba66d602fa6d",
@@ -199,10 +200,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 2
+    "2026-10-14": 3
   },
   "recent_titles": [
-    "INVESTORS AWAIT US EARNINGS AND WEDNESDAY\u2019S CPI REPORT, WITH S&P 500 THIRD-QUARTER PROFITS EXPECTED TO RISE 25% YEAR OVER YEAR. BRENT CRUDE FELL 0.8% TO $105.80/BARREL, GOLD SLIPPED 0.2% TO $4,164....",
     "\u26a1\ufe0f NEW: Elon Musk\u2019s SpaceXSI has merged Grok, Cursor, and X Premium into a single \u201cX Subscription\u201d with five tiers ranging from free to $200 a month.",
     "BREAKING: Brent crude oil prices surge above $107/barrel after Ukraine's President Zelensky accuses Russia of striking 6 Ukranian energy facilities today. Iran also said a third crude oil supertank...",
     "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
@@ -216,18 +216,10 @@
     "JUST IN: \ud83c\udde6\ud83c\uddea Crypto exchange Kraken to launch in the UAE after securing full regulatory approval.",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows on Oct. 12. BTC: - $65.4M ETH: - $85.4M SOL: - $699.83K",
     "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
-    "NEW ETF ALERT My sponsors over at Corgi Invest recently launched their new MANGOS ETF which trades under the ticker $MN The ETF holds just 6 names: M is for Meta Platforms $META A is for Anthropic ..."
+    "NEW ETF ALERT My sponsors over at Corgi Invest recently launched their new MANGOS ETF which trades under the ticker $MN The ETF holds just 6 names: M is for Meta Platforms $META A is for Anthropic ...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122380645472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-10T07:11:21.196367+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122399281472689",
       "topics": [
@@ -691,6 +683,17 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-14T00:33:56.698960+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123994363472689",
+      "topics": [
+        "gold_oil",
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-14T01:07:35.879716+00:00"
     }
   ],
   "tuner": {
@@ -712,25 +715,6 @@
   },
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "AND",
-        "AROUND",
-        "ASIA",
-        "BY",
-        "COULD",
-        "GDP",
-        "IMF",
-        "NON",
-        "OVER",
-        "RAISE",
-        "TARIFF",
-        "TIE",
-        "TIME",
-        "TRADE"
-      ],
-      "at": "2026-10-12T06:12:28.597385+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -970,10 +954,23 @@
         "platforms"
       ],
       "at": "2026-10-14T00:33:56.698950+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "bloomberg",
+        "iran",
+        "march",
+        "president",
+        "social",
+        "trump",
+        "truth"
+      ],
+      "at": "2026-10-14T01:07:35.879701+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 INVESTORS AWAIT EARNINGS & CPI. S&P 500 Q3 PROFITS EXPECTED TO RISE 25%.",
     "\u26a1\ufe0f JUST IN: SpaceXSI MERGES Grok, Cursor, X Premium into one \"X Subscription.\"",
     "BREAKING: \ud83d\udee2\ufe0f OIL prices SURGE past $107/barrel.",
     "BREAKING: \ud83d\udcc9 Asian Tech STOCKS PLUNGE following Wall Street chip sell-off.",
@@ -987,6 +984,7 @@
     "JUST IN: \ud83c\udde6\ud83c\uddea Kraken to LAUNCH in UAE after securing full regulatory approval.",
     "\ud83d\udea8 JUST IN: Crypto ETFs see massive OUTFLOWS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Bank of America ($BAC) fined $1.2\u202fB for money\u2011laundering violations, echoing Senator Elizabeth Warren\u2019s crypto\u2011sanction warnings. The penalty hits the bank\u2019s compliance budget hard, showing regulators tightening the net",
-    "JUST IN: \ud83d\udea9 Corgi Invest launches MANGOS ETF $MN, holding 6 tech titans: Meta $Meta ($META), Anthropic, Nvidia $Nvidia ($NVDA), Google $Google ($GOOGL), OpenAI, SpaceX $SPCX. Market watchers: a concentrated 6\u2011stock play could spike volatility"
+    "JUST IN: \ud83d\udea9 Corgi Invest launches MANGOS ETF $MN, holding 6 tech titans: Meta $Meta ($META), Anthropic, Nvidia $Nvidia ($NVDA), Google $Google ($GOOGL), OpenAI, SpaceX $SPCX. Market watchers: a concentrated 6\u2011stock play could spike volatility",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump admin orders regulators to withdraw $BILLION insider\u2011trading referral before Iran policy shift. On March\u202f23 traders bet billions that oil would tumble and stocks soar, 15\u202fmin before Trump said he\u2019d halt the Iran deal"
   ]
 }
