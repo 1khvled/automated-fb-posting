@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "b9f09c1b08ea1fb9",
-    "fb_id": "1264009986803820_122124067797472689",
-    "title": "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\"",
-    "link": "https://x.com/WatcherGuru/status/2110092405949218919",
-    "mode": "viral",
-    "at": "2026-10-14T07:03:37.573400+00:00"
+    "hash": "f423d63bf056a5f2",
+    "fb_id": "1264009986803820_122124073551472689",
+    "title": "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and...",
+    "link": "https://x.com/clashreport/status/2110266102978682899",
+    "mode": "serious",
+    "at": "2026-10-14T07:32:53.920907+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -193,6 +193,7 @@
     "ef9e9adaee7d4177",
     "efb052f68304f89a",
     "f041ccdd0f70088f",
+    "f423d63bf056a5f2",
     "f5c9f3c52bf9d8cb",
     "f5ed833925730a57",
     "f657b460fe198b75",
@@ -208,10 +209,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 11
+    "2026-10-14": 12
   },
   "recent_titles": [
-    "Bitcoin whale that sat through the March 2020 crash moves $378 million",
     "BREAKING: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Zelenskyy indicated that Ukraine would attack Russian ships carrying diesel to the US. Zelenskyy indicated that Trump needs to strike a deal with him if he wants Ukraine to refrain...",
     "JUST IN: \ud83c\udde6\ud83c\uddea Crypto exchange Kraken to launch in the UAE after securing full regulatory approval.",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows on Oct. 12. BTC: - $65.4M ETH: - $85.4M SOL: - $699.83K",
@@ -225,18 +225,10 @@
     "Absolutely incredible. Just 10 stocks have driven 70% of the S&P 500\u2019s gain since March 30th. These stocks have added +16 percentage points to the index\u2019s +23% gain over this period. Nvidia, $NVDA,...",
     "Iran has adopted new tactics to intensify attacks on commercial shipping in and beyond the Strait of Hormuz, aiming to keep oil prices high ahead of the November U.S. midterm elections, according t...",
     "JUST IN: Google $GOOGL launches its most powerful AI model 'Gemini 4 Argon'",
-    "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\""
+    "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\"",
+    "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122790979472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-11T03:02:30.771073+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122800213472689",
       "topics": [
@@ -705,6 +697,16 @@
       "mode": "viral",
       "photo": "split:face+logo",
       "at": "2026-10-14T07:03:37.573400+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124073551472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-14T07:32:53.920907+00:00"
     }
   ],
   "tuner": {
@@ -726,19 +728,6 @@
   },
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "$10",
-        "$17.9",
-        "$30.7",
-        "ETF",
-        "august",
-        "global",
-        "september",
-        "this"
-      ],
-      "at": "2026-10-13T03:04:42.076708+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -989,10 +978,21 @@
         "saylor"
       ],
       "at": "2026-10-14T07:03:37.573386+00:00"
+    },
+    {
+      "fp": [
+        "CHP",
+        "ballistic",
+        "darnytska",
+        "kharkiv",
+        "kyiv",
+        "russia",
+        "ukraine"
+      ],
+      "at": "2026-10-14T07:32:53.920891+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 US market fragmentation hits record low. 52\u2011week correlation between equal\u2011weighted S&P 500 and cap\u2011weighted S&P 500 is 0.67, lowest ever. Mega\u2011cap stocks are pulling away from the broader index. Will the market converge again or stay split? #ethancole #finance #stockmarket #investing #marketnews",
     "JUST IN: \ud83d\udea9 $378M Bitcoin whale moves big.",
     "BREAKING: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Zelenskyy says Ukraine will hit Russian diesel ships bound for the US unless Trump strikes a deal. Trump must act or face tankers turning into war zones. Why it matters: US oil supply could be rattled. Will Trump negotiate or ignore? #ethancole #ai #technews #finance #breakingnews #marketnews",
     "JUST IN: \ud83c\udde6\ud83c\uddea Kraken to LAUNCH in UAE after securing full regulatory approval.",
@@ -1006,6 +1006,7 @@
     "JUST IN: \ud83d\udea9 10 stocks have powered 70% of the S&P 500\u2019s +23% rise since March 30th, adding +16 points to the index. Nvidia ($NVDA) accounts for 13% of the gain, +3 points. Micron ($MU), Apple ($AAPL), Microsoft ($MSFT) add 9%",
     "BREAKING: IRAN ADOPTS NEW TACTICS TO KEEP OIL PRICES HIGH \ud83d\udea9",
     "BREAKING \ud83d\udea9: GOOGLE ($GOOGL) rolls out Gemini 4 Argon, its most powerful AI model yet. Market buzz: odds of a major AI shift just spiked. Gemini 4 Argon promises 4x faster inference, 80% higher accuracy. Why it matters: investors eye AI dominance. Will this shift the tech race? #ethancole #ai #technews #finance #marketnews",
-    "BREAKING: Michael\u202fSaylor declares Bitcoin at the \u201cbeginning of a bull market.\u201d Saylor, MicroStrategy\u202f($MSTR) co\u2011founder, signals institutional optimism. Bitcoin\u2019s rally could accelerate as corporate backing grows. Why now? Stay tuned. 1 #ethancole #ai #technews #finance #marketnews"
+    "BREAKING: Michael\u202fSaylor declares Bitcoin at the \u201cbeginning of a bull market.\u201d Saylor, MicroStrategy\u202f($MSTR) co\u2011founder, signals institutional optimism. Bitcoin\u2019s rally could accelerate as corporate backing grows. Why now? Stay tuned. 1 #ethancole #ai #technews #finance #marketnews",
+    "\ud83d\udea8 BREAKING: Russia launches LARGEST combined missile/drone ATTACK on Ukraine."
   ]
 }
