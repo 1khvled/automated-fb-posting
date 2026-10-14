@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "a26723d092184d6c",
-    "fb_id": "1264009986803820_122124008301472689",
-    "title": "The future of Bitcoin is the future of finance. This morning at the World Bank, I joined Chris Brummer, Founder & CEO of The Fintech Foundation, for a 25-minute fireside chat at DC Fintech Week. @f...",
-    "link": "https://x.com/saylor/status/2110021321975308351",
-    "mode": "viral",
-    "at": "2026-10-14T02:34:49.625148+00:00"
+    "hash": "9c292a359755e081",
+    "fb_id": "1264009986803820_122124012879472689",
+    "title": "\ud83d\udea8\u9884\u8b66\uff01Claude Fable 5.5 \u5df2\u51fa\u73b0\u5728 Azure East US 2 \u76ee\u5f55\u4e2d\u4ee5\u300cGenerallyAvailable\u300d\u72b6\u6001\u51fa\u73b0\uff01 LiteLLM \u914d\u7f6e\u5df2\u540c\u6b65\uff1a1M \u4e0a\u4e0b\u6587 / 128K \u8f93\u51fa / $10/$50 \u5b9a\u4ef7\uff0c\u80fd\u529b\u5c06\u53cd\u8d85\u5f53\u524d\u6700\u5f3a Opus 5.5\u3002 \u5982\u679c\u4eca\u5929\u5c31\u653e\u51fa\u6765\uff0c\u591a\u4e2a\u9886\u57df\u76f4\u63a5\u65b0 SOTA\uff1f #Claude #Anthropic #Fable55 #AI #Azure...",
+    "link": "https://x.com/NFT_Chen/status/2110202655939477649",
+    "mode": "serious",
+    "at": "2026-10-14T03:06:00.744644+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -132,6 +132,7 @@
     "99c9f9218a07a71a",
     "9bc995ae7806e12d",
     "9bf4038f6b73620f",
+    "9c292a359755e081",
     "9d2492b01de969ed",
     "9d586d423b6a80d7",
     "9e0be7e5de8268d0",
@@ -201,10 +202,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 4
+    "2026-10-14": 5
   },
   "recent_titles": [
-    "BREAKING: Brent crude oil prices surge above $107/barrel after Ukraine's President Zelensky accuses Russia of striking 6 Ukranian energy facilities today. Iran also said a third crude oil supertank...",
     "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
     "BREAKING: Global physical gold-backed ETFs attracted +$30.7 billion in inflows in Q3 2026, their largest quarterly intake on record. In September, inflows totaled +$10 billion, the 3rd-largest mont...",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes 6%.",
@@ -218,18 +218,10 @@
     "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
     "NEW ETF ALERT My sponsors over at Corgi Invest recently launched their new MANGOS ETF which trades under the ticker $MN The ETF holds just 6 names: M is for Meta Platforms $META A is for Anthropic ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor...",
-    "The future of Bitcoin is the future of finance. This morning at the World Bank, I joined Chris Brummer, Founder & CEO of The Fintech Foundation, for a 25-minute fireside chat at DC Fintech Week. @f..."
+    "The future of Bitcoin is the future of finance. This morning at the World Bank, I joined Chris Brummer, Founder & CEO of The Fintech Foundation, for a 25-minute fireside chat at DC Fintech Week. @f...",
+    "\ud83d\udea8\u9884\u8b66\uff01Claude Fable 5.5 \u5df2\u51fa\u73b0\u5728 Azure East US 2 \u76ee\u5f55\u4e2d\u4ee5\u300cGenerallyAvailable\u300d\u72b6\u6001\u51fa\u73b0\uff01 LiteLLM \u914d\u7f6e\u5df2\u540c\u6b65\uff1a1M \u4e0a\u4e0b\u6587 / 128K \u8f93\u51fa / $10/$50 \u5b9a\u4ef7\uff0c\u80fd\u529b\u5c06\u53cd\u8d85\u5f53\u524d\u6700\u5f3a Opus 5.5\u3002 \u5982\u679c\u4eca\u5929\u5c31\u653e\u51fa\u6765\uff0c\u591a\u4e2a\u9886\u57df\u76f4\u63a5\u65b0 SOTA\uff1f #Claude #Anthropic #Fable55 #AI #Azure..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122410291472689",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-10T08:12:24.382975+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122744839472689",
       "topics": [
@@ -696,6 +688,15 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-14T02:34:49.625148+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124012879472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "split:logo+logo",
+      "at": "2026-10-14T03:06:00.744644+00:00"
     }
   ],
   "tuner": {
@@ -717,18 +718,6 @@
   },
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "agent",
-        "chatbot",
-        "claude",
-        "code",
-        "codex",
-        "karpathy"
-      ],
-      "at": "2026-10-12T07:12:09.774774+00:00"
-    },
     {
       "fp": [
         "API",
@@ -982,10 +971,27 @@
         "world"
       ],
       "at": "2026-10-14T02:34:49.625133+00:00"
+    },
+    {
+      "fp": [
+        "$10",
+        "$50",
+        "AI",
+        "LLM",
+        "SOTA",
+        "US",
+        "anthropic",
+        "azure",
+        "claude",
+        "dario",
+        "east",
+        "fable",
+        "opus"
+      ],
+      "at": "2026-10-14T03:06:00.744625+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udee2\ufe0f OIL prices SURGE past $107/barrel.",
     "BREAKING: \ud83d\udcc9 Asian Tech STOCKS PLUNGE following Wall Street chip sell-off.",
     "BREAKING: Global physical gold\u2011backed ETFs pulled in +$30.7\u202fB in Q3\u202f2026, the biggest quarterly inflow ever. September alone saw +$10\u202fB, the 3rd\u2011largest month\u2011wide intake of 2026, after +$17.9\u202fB in August. Gold ETF holdings climbed +67\u202ft to a record 4,256\u202ft.",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES 6% in a single session, rattling investors worldwide.",
@@ -999,6 +1005,7 @@
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Bank of America ($BAC) fined $1.2\u202fB for money\u2011laundering violations, echoing Senator Elizabeth Warren\u2019s crypto\u2011sanction warnings. The penalty hits the bank\u2019s compliance budget hard, showing regulators tightening the net",
     "JUST IN: \ud83d\udea9 Corgi Invest launches MANGOS ETF $MN, holding 6 tech titans: Meta $Meta ($META), Anthropic, Nvidia $Nvidia ($NVDA), Google $Google ($GOOGL), OpenAI, SpaceX $SPCX. Market watchers: a concentrated 6\u2011stock play could spike volatility",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump admin orders regulators to withdraw $BILLION insider\u2011trading referral before Iran policy shift. On March\u202f23 traders bet billions that oil would tumble and stocks soar, 15\u202fmin before Trump said he\u2019d halt the Iran deal",
-    "JUST IN: Saylor declares BITCOIN the future of finance at the World Bank."
+    "JUST IN: Saylor declares BITCOIN the future of finance at the World Bank.",
+    "JUST IN: \ud83d\udea8 Claude Fable 5.5 now GenerallyAvailable on Azure East US 2! LiteLLM config synced: 1M context / 128K output / $10/$50 pricing. This could catapult multiple domains to new SOTA today. Watch the market shift. #ethancole #ai #artificialintelligence #technews #finance"
   ]
 }
