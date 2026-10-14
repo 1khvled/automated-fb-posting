@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "73f99a65bb9da86d",
-    "fb_id": "1264009986803820_122123994363472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor...",
-    "link": "https://x.com/WatcherGuru/status/2110041320358097071",
+    "hash": "a26723d092184d6c",
+    "fb_id": "1264009986803820_122124008301472689",
+    "title": "The future of Bitcoin is the future of finance. This morning at the World Bank, I joined Chris Brummer, Founder & CEO of The Fintech Foundation, for a 25-minute fireside chat at DC Fintech Week. @f...",
+    "link": "https://x.com/saylor/status/2110021321975308351",
     "mode": "viral",
-    "at": "2026-10-14T01:07:35.879716+00:00"
+    "at": "2026-10-14T02:34:49.625148+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -138,6 +138,7 @@
     "9e821647d63289bd",
     "9f162789c72b6097",
     "a1cc606c7a126979",
+    "a26723d092184d6c",
     "a2909c1a00c4321d",
     "a2e71eefd32ea0f0",
     "a3a826e937ac0d6c",
@@ -200,10 +201,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 3
+    "2026-10-14": 4
   },
   "recent_titles": [
-    "\u26a1\ufe0f NEW: Elon Musk\u2019s SpaceXSI has merged Grok, Cursor, and X Premium into a single \u201cX Subscription\u201d with five tiers ranging from free to $200 a month.",
     "BREAKING: Brent crude oil prices surge above $107/barrel after Ukraine's President Zelensky accuses Russia of striking 6 Ukranian energy facilities today. Iran also said a third crude oil supertank...",
     "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
     "BREAKING: Global physical gold-backed ETFs attracted +$30.7 billion in inflows in Q3 2026, their largest quarterly intake on record. In September, inflows totaled +$10 billion, the 3rd-largest mont...",
@@ -217,18 +217,10 @@
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows on Oct. 12. BTC: - $65.4M ETH: - $85.4M SOL: - $699.83K",
     "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
     "NEW ETF ALERT My sponsors over at Corgi Invest recently launched their new MANGOS ETF which trades under the ticker $MN The ETF holds just 6 names: M is for Meta Platforms $META A is for Anthropic ...",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor..."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor...",
+    "The future of Bitcoin is the future of finance. This morning at the World Bank, I joined Chris Brummer, Founder & CEO of The Fintech Foundation, for a 25-minute fireside chat at DC Fintech Week. @f..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122399281472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-10T07:41:19.064650+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122410291472689",
       "topics": [
@@ -694,6 +686,16 @@
       "mode": "viral",
       "photo": "face",
       "at": "2026-10-14T01:07:35.879716+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124008301472689",
+      "topics": [
+        "crypto",
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-14T02:34:49.625148+00:00"
     }
   ],
   "tuner": {
@@ -715,17 +717,6 @@
   },
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "bitcoin",
-        "michael",
-        "saylor",
-        "there"
-      ],
-      "at": "2026-10-12T06:41:18.444923+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -968,10 +959,32 @@
         "truth"
       ],
       "at": "2026-10-14T01:07:35.879701+00:00"
+    },
+    {
+      "fp": [
+        "CEO",
+        "DC",
+        "bank",
+        "bitcoin",
+        "brummer",
+        "capital",
+        "chris",
+        "credit",
+        "digital",
+        "equity",
+        "fintech",
+        "foundation",
+        "founder",
+        "gold",
+        "strategy",
+        "this",
+        "week",
+        "world"
+      ],
+      "at": "2026-10-14T02:34:49.625133+00:00"
     }
   ],
   "recent_hooks": [
-    "\u26a1\ufe0f JUST IN: SpaceXSI MERGES Grok, Cursor, X Premium into one \"X Subscription.\"",
     "BREAKING: \ud83d\udee2\ufe0f OIL prices SURGE past $107/barrel.",
     "BREAKING: \ud83d\udcc9 Asian Tech STOCKS PLUNGE following Wall Street chip sell-off.",
     "BREAKING: Global physical gold\u2011backed ETFs pulled in +$30.7\u202fB in Q3\u202f2026, the biggest quarterly inflow ever. September alone saw +$10\u202fB, the 3rd\u2011largest month\u2011wide intake of 2026, after +$17.9\u202fB in August. Gold ETF holdings climbed +67\u202ft to a record 4,256\u202ft.",
@@ -985,6 +998,7 @@
     "\ud83d\udea8 JUST IN: Crypto ETFs see massive OUTFLOWS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Bank of America ($BAC) fined $1.2\u202fB for money\u2011laundering violations, echoing Senator Elizabeth Warren\u2019s crypto\u2011sanction warnings. The penalty hits the bank\u2019s compliance budget hard, showing regulators tightening the net",
     "JUST IN: \ud83d\udea9 Corgi Invest launches MANGOS ETF $MN, holding 6 tech titans: Meta $Meta ($META), Anthropic, Nvidia $Nvidia ($NVDA), Google $Google ($GOOGL), OpenAI, SpaceX $SPCX. Market watchers: a concentrated 6\u2011stock play could spike volatility",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump admin orders regulators to withdraw $BILLION insider\u2011trading referral before Iran policy shift. On March\u202f23 traders bet billions that oil would tumble and stocks soar, 15\u202fmin before Trump said he\u2019d halt the Iran deal"
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump admin orders regulators to withdraw $BILLION insider\u2011trading referral before Iran policy shift. On March\u202f23 traders bet billions that oil would tumble and stocks soar, 15\u202fmin before Trump said he\u2019d halt the Iran deal",
+    "JUST IN: Saylor declares BITCOIN the future of finance at the World Bank."
   ]
 }
