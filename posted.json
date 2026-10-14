@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "f423d63bf056a5f2",
-    "fb_id": "1264009986803820_122124073551472689",
-    "title": "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and...",
-    "link": "https://x.com/clashreport/status/2110266102978682899",
-    "mode": "serious",
-    "at": "2026-10-14T07:32:53.920907+00:00"
+    "hash": "c390bcfc7b12ee30",
+    "fb_id": "1264009986803820_122124078441472689",
+    "title": "BREAKING: \ud83c\uddfa\ud83c\uddf8 Public company Strive purchases 3,311 Bitcoin worth $275 million! \ud83d\udc40 This brings their total to 32,773 BTC \ud83d\ude80",
+    "link": "https://x.com/BitcoinMagazine/status/2109981516360974565",
+    "mode": "viral",
+    "at": "2026-10-14T08:01:21.354981+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -168,6 +168,7 @@
     "beda8733ff194127",
     "c0ca1e4fb69f6ec7",
     "c251468873bbe41c",
+    "c390bcfc7b12ee30",
     "c623f18fc00030b7",
     "d1ada08f4696f8f6",
     "d248d07438581e6c",
@@ -209,10 +210,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 12
+    "2026-10-14": 13
   },
   "recent_titles": [
-    "BREAKING: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Zelenskyy indicated that Ukraine would attack Russian ships carrying diesel to the US. Zelenskyy indicated that Trump needs to strike a deal with him if he wants Ukraine to refrain...",
     "JUST IN: \ud83c\udde6\ud83c\uddea Crypto exchange Kraken to launch in the UAE after securing full regulatory approval.",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows on Oct. 12. BTC: - $65.4M ETH: - $85.4M SOL: - $699.83K",
     "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
@@ -226,19 +226,10 @@
     "Iran has adopted new tactics to intensify attacks on commercial shipping in and beyond the Strait of Hormuz, aiming to keep oil prices high ahead of the November U.S. midterm elections, according t...",
     "JUST IN: Google $GOOGL launches its most powerful AI model 'Gemini 4 Argon'",
     "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\"",
-    "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and..."
+    "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and...",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Public company Strive purchases 3,311 Bitcoin worth $275 million! \ud83d\udc40 This brings their total to 32,773 BTC \ud83d\ude80"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122800213472689",
-      "topics": [
-        "power",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "split:face+face",
-      "at": "2026-10-11T03:31:49.086317+00:00"
-    },
     {
       "fb_id": "1628800025583056",
       "topics": [
@@ -707,6 +698,15 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-14T07:32:53.920907+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124078441472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "split:face+logo",
+      "at": "2026-10-14T08:01:21.354981+00:00"
     }
   ],
   "tuner": {
@@ -728,16 +728,6 @@
   },
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "KOSPI",
-        "korea",
-        "south"
-      ],
-      "at": "2026-10-13T03:53:12.680725+00:00"
-    },
     {
       "fp": [
         "$83,000",
@@ -990,10 +980,20 @@
         "ukraine"
       ],
       "at": "2026-10-14T07:32:53.920891+00:00"
+    },
+    {
+      "fp": [
+        "$275",
+        "BTC",
+        "bitcoin",
+        "public",
+        "strive",
+        "this"
+      ],
+      "at": "2026-10-14T08:01:21.354968+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 $378M Bitcoin whale moves big.",
     "BREAKING: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Zelenskyy says Ukraine will hit Russian diesel ships bound for the US unless Trump strikes a deal. Trump must act or face tankers turning into war zones. Why it matters: US oil supply could be rattled. Will Trump negotiate or ignore? #ethancole #ai #technews #finance #breakingnews #marketnews",
     "JUST IN: \ud83c\udde6\ud83c\uddea Kraken to LAUNCH in UAE after securing full regulatory approval.",
     "\ud83d\udea8 JUST IN: Crypto ETFs see massive OUTFLOWS.",
@@ -1007,6 +1007,7 @@
     "BREAKING: IRAN ADOPTS NEW TACTICS TO KEEP OIL PRICES HIGH \ud83d\udea9",
     "BREAKING \ud83d\udea9: GOOGLE ($GOOGL) rolls out Gemini 4 Argon, its most powerful AI model yet. Market buzz: odds of a major AI shift just spiked. Gemini 4 Argon promises 4x faster inference, 80% higher accuracy. Why it matters: investors eye AI dominance. Will this shift the tech race? #ethancole #ai #technews #finance #marketnews",
     "BREAKING: Michael\u202fSaylor declares Bitcoin at the \u201cbeginning of a bull market.\u201d Saylor, MicroStrategy\u202f($MSTR) co\u2011founder, signals institutional optimism. Bitcoin\u2019s rally could accelerate as corporate backing grows. Why now? Stay tuned. 1 #ethancole #ai #technews #finance #marketnews",
-    "\ud83d\udea8 BREAKING: Russia launches LARGEST combined missile/drone ATTACK on Ukraine."
+    "\ud83d\udea8 BREAKING: Russia launches LARGEST combined missile/drone ATTACK on Ukraine.",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Strive, Inc., Inc., Inc., Inc. just bought $275 MILLION in Bitcoin! \ud83d\ude80"
   ]
 }
