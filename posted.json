@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "8465540a6146924a",
-    "fb_id": "1264009986803820_122123984943472689",
-    "title": "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
-    "link": "https://x.com/WatcherGuru/status/2110150272467284132",
-    "mode": "viral",
-    "at": "2026-10-14T00:08:46.551820+00:00"
+    "hash": "c0ca1e4fb69f6ec7",
+    "fb_id": "1264009986803820_122123989629472689",
+    "title": "NEW ETF ALERT My sponsors over at Corgi Invest recently launched their new MANGOS ETF which trades under the ticker $MN The ETF holds just 6 names: M is for Meta Platforms $META A is for Anthropic ...",
+    "link": "https://x.com/StockMKTNewz/status/2110162497982316731",
+    "mode": "serious",
+    "at": "2026-10-14T00:33:56.698960+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -158,6 +158,7 @@
     "bbe5f378455409e5",
     "bbec67196eba705d",
     "beda8733ff194127",
+    "c0ca1e4fb69f6ec7",
     "c251468873bbe41c",
     "c623f18fc00030b7",
     "d1ada08f4696f8f6",
@@ -198,10 +199,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 1
+    "2026-10-14": 2
   },
   "recent_titles": [
-    "\ud83c\uddee\ud83c\uddf7\ud83c\uddfa\ud83c\uddf8 Iran has released footage of targeting another oil tanker early this morning",
     "INVESTORS AWAIT US EARNINGS AND WEDNESDAY\u2019S CPI REPORT, WITH S&P 500 THIRD-QUARTER PROFITS EXPECTED TO RISE 25% YEAR OVER YEAR. BRENT CRUDE FELL 0.8% TO $105.80/BARREL, GOLD SLIPPED 0.2% TO $4,164....",
     "\u26a1\ufe0f NEW: Elon Musk\u2019s SpaceXSI has merged Grok, Cursor, and X Premium into a single \u201cX Subscription\u201d with five tiers ranging from free to $200 a month.",
     "BREAKING: Brent crude oil prices surge above $107/barrel after Ukraine's President Zelensky accuses Russia of striking 6 Ukranian energy facilities today. Iran also said a third crude oil supertank...",
@@ -215,18 +215,10 @@
     "BREAKING: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Zelenskyy indicated that Ukraine would attack Russian ships carrying diesel to the US. Zelenskyy indicated that Trump needs to strike a deal with him if he wants Ukraine to refrain...",
     "JUST IN: \ud83c\udde6\ud83c\uddea Crypto exchange Kraken to launch in the UAE after securing full regulatory approval.",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows on Oct. 12. BTC: - $65.4M ETH: - $85.4M SOL: - $699.83K",
-    "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ..."
+    "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
+    "NEW ETF ALERT My sponsors over at Corgi Invest recently launched their new MANGOS ETF which trades under the ticker $MN The ETF holds just 6 names: M is for Meta Platforms $META A is for Anthropic ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122371369472689",
-      "topics": [
-        "inflation"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-10T06:32:10.010041+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122380645472689",
       "topics": [
@@ -689,6 +681,16 @@
       "mode": "viral",
       "photo": "split:face+inst",
       "at": "2026-10-14T00:08:46.551820+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122123989629472689",
+      "topics": [
+        "ai",
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-14T00:33:56.698960+00:00"
     }
   ],
   "tuner": {
@@ -710,34 +712,6 @@
   },
   "last_video_post": "2026-10-13",
   "recent_fps": [
-    {
-      "fp": [
-        "CPI",
-        "OPEC",
-        "PPI",
-        "begins",
-        "chair",
-        "earnings",
-        "events",
-        "existing",
-        "fed",
-        "home",
-        "inflation",
-        "key",
-        "monthly",
-        "sales",
-        "season",
-        "september",
-        "speaks",
-        "this",
-        "thursday",
-        "tuesday",
-        "warsh",
-        "wednesday",
-        "week"
-      ],
-      "at": "2026-10-12T05:31:48.223588+00:00"
-    },
     {
       "fp": [
         "AND",
@@ -974,10 +948,31 @@
         "warren"
       ],
       "at": "2026-10-14T00:08:46.551811+00:00"
+    },
+    {
+      "fp": [
+        "ALERT",
+        "ETF",
+        "GOOGL",
+        "MANGO",
+        "META",
+        "MN",
+        "NEW",
+        "NVDA",
+        "SPCX",
+        "anthropic",
+        "corgi",
+        "google",
+        "here",
+        "invest",
+        "meta",
+        "nvidia",
+        "platforms"
+      ],
+      "at": "2026-10-14T00:33:56.698950+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: Meta ($META) ($META) drops Muse Wonder & Muse Wonder Full, smashing AI Index v4.3 scores of 52 & 56\u2014material gain over Muse Spark 1.3\u2019s 48. Only 6\u2011week gap. Muse Wonder hits Meta\u2019s first\u2011party API; Full locked to Muse Code users. Market buzz: will AI race accelerate? #ethancole #ai #technews #finance #marketnews",
     "\ud83d\udea8 INVESTORS AWAIT EARNINGS & CPI. S&P 500 Q3 PROFITS EXPECTED TO RISE 25%.",
     "\u26a1\ufe0f JUST IN: SpaceXSI MERGES Grok, Cursor, X Premium into one \"X Subscription.\"",
     "BREAKING: \ud83d\udee2\ufe0f OIL prices SURGE past $107/barrel.",
@@ -991,6 +986,7 @@
     "BREAKING: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Zelenskyy says Ukraine will hit Russian diesel ships bound for the US unless Trump strikes a deal. Trump must act or face tankers turning into war zones. Why it matters: US oil supply could be rattled. Will Trump negotiate or ignore? #ethancole #ai #technews #finance #breakingnews #marketnews",
     "JUST IN: \ud83c\udde6\ud83c\uddea Kraken to LAUNCH in UAE after securing full regulatory approval.",
     "\ud83d\udea8 JUST IN: Crypto ETFs see massive OUTFLOWS.",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Bank of America ($BAC) fined $1.2\u202fB for money\u2011laundering violations, echoing Senator Elizabeth Warren\u2019s crypto\u2011sanction warnings. The penalty hits the bank\u2019s compliance budget hard, showing regulators tightening the net"
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Bank of America ($BAC) fined $1.2\u202fB for money\u2011laundering violations, echoing Senator Elizabeth Warren\u2019s crypto\u2011sanction warnings. The penalty hits the bank\u2019s compliance budget hard, showing regulators tightening the net",
+    "JUST IN: \ud83d\udea9 Corgi Invest launches MANGOS ETF $MN, holding 6 tech titans: Meta $Meta ($META), Anthropic, Nvidia $Nvidia ($NVDA), Google $Google ($GOOGL), OpenAI, SpaceX $SPCX. Market watchers: a concentrated 6\u2011stock play could spike volatility"
   ]
 }
