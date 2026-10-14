@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "c390bcfc7b12ee30",
-    "fb_id": "1264009986803820_122124078441472689",
-    "title": "BREAKING: \ud83c\uddfa\ud83c\uddf8 Public company Strive purchases 3,311 Bitcoin worth $275 million! \ud83d\udc40 This brings their total to 32,773 BTC \ud83d\ude80",
-    "link": "https://x.com/BitcoinMagazine/status/2109981516360974565",
-    "mode": "viral",
-    "at": "2026-10-14T08:01:21.354981+00:00"
+    "hash": "b3f62cf2da797db6",
+    "fb_id": "1264009986803820_122124092859472689",
+    "title": "NEW: Britain ran a Falklands recapture exercise as Argentina ramps up pressure over the islands. About 150 paratroopers from 2 PARA and 100 local reservists spent six days rehearsing the 1982 war p...",
+    "link": "https://x.com/clashreport/status/2110280061634920870",
+    "mode": "serious",
+    "at": "2026-10-14T08:32:17.297512+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -155,6 +155,7 @@
     "b259bbd0146ca3d9",
     "b2c26501e86f55be",
     "b36ff231b46d1643",
+    "b3f62cf2da797db6",
     "b4df5090744d57db",
     "b5332e905fcd45e4",
     "b79341c94e166719",
@@ -210,10 +211,9 @@
   "day_counts": {
     "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 13
+    "2026-10-14": 14
   },
   "recent_titles": [
-    "JUST IN: \ud83c\udde6\ud83c\uddea Crypto exchange Kraken to launch in the UAE after securing full regulatory approval.",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH and SOL spot ETFs saw net outflows on Oct. 12. BTC: - $65.4M ETH: - $85.4M SOL: - $699.83K",
     "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
     "NEW ETF ALERT My sponsors over at Corgi Invest recently launched their new MANGOS ETF which trades under the ticker $MN The ETF holds just 6 names: M is for Meta Platforms $META A is for Anthropic ...",
@@ -227,17 +227,10 @@
     "JUST IN: Google $GOOGL launches its most powerful AI model 'Gemini 4 Argon'",
     "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\"",
     "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and...",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Public company Strive purchases 3,311 Bitcoin worth $275 million! \ud83d\udc40 This brings their total to 32,773 BTC \ud83d\ude80"
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Public company Strive purchases 3,311 Bitcoin worth $275 million! \ud83d\udc40 This brings their total to 32,773 BTC \ud83d\ude80",
+    "NEW: Britain ran a Falklands recapture exercise as Argentina ramps up pressure over the islands. About 150 paratroopers from 2 PARA and 100 local reservists spent six days rehearsing the 1982 war p..."
   ],
   "history": [
-    {
-      "fb_id": "1628800025583056",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "at": "2026-10-11T04:11:31.919246+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122818405472689",
       "topics": [
@@ -707,6 +700,15 @@
       "mode": "viral",
       "photo": "split:face+logo",
       "at": "2026-10-14T08:01:21.354981+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124092859472689",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-14T08:32:17.297512+00:00"
     }
   ],
   "tuner": {
@@ -728,15 +730,6 @@
   },
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "$83,000",
-        "bitcoin",
-        "korean",
-        "nasdaq"
-      ],
-      "at": "2026-10-13T04:23:03.637119+00:00"
-    },
     {
       "fp": [
         "NFT",
@@ -991,10 +984,27 @@
         "this"
       ],
       "at": "2026-10-14T08:01:21.354968+00:00"
+    },
+    {
+      "fp": [
+        "NEW",
+        "PARA",
+        "about",
+        "argentina",
+        "britain",
+        "carlos",
+        "falklands",
+        "goose",
+        "green",
+        "one",
+        "san",
+        "they",
+        "typhoon"
+      ],
+      "at": "2026-10-14T08:32:17.297491+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\uddf7\ud83c\uddfa\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\udde6 Zelenskyy says Ukraine will hit Russian diesel ships bound for the US unless Trump strikes a deal. Trump must act or face tankers turning into war zones. Why it matters: US oil supply could be rattled. Will Trump negotiate or ignore? #ethancole #ai #technews #finance #breakingnews #marketnews",
     "JUST IN: \ud83c\udde6\ud83c\uddea Kraken to LAUNCH in UAE after securing full regulatory approval.",
     "\ud83d\udea8 JUST IN: Crypto ETFs see massive OUTFLOWS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Bank of America ($BAC) fined $1.2\u202fB for money\u2011laundering violations, echoing Senator Elizabeth Warren\u2019s crypto\u2011sanction warnings. The penalty hits the bank\u2019s compliance budget hard, showing regulators tightening the net",
@@ -1008,6 +1018,7 @@
     "BREAKING \ud83d\udea9: GOOGLE ($GOOGL) rolls out Gemini 4 Argon, its most powerful AI model yet. Market buzz: odds of a major AI shift just spiked. Gemini 4 Argon promises 4x faster inference, 80% higher accuracy. Why it matters: investors eye AI dominance. Will this shift the tech race? #ethancole #ai #technews #finance #marketnews",
     "BREAKING: Michael\u202fSaylor declares Bitcoin at the \u201cbeginning of a bull market.\u201d Saylor, MicroStrategy\u202f($MSTR) co\u2011founder, signals institutional optimism. Bitcoin\u2019s rally could accelerate as corporate backing grows. Why now? Stay tuned. 1 #ethancole #ai #technews #finance #marketnews",
     "\ud83d\udea8 BREAKING: Russia launches LARGEST combined missile/drone ATTACK on Ukraine.",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Strive, Inc., Inc., Inc., Inc. just bought $275 MILLION in Bitcoin! \ud83d\ude80"
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Strive, Inc., Inc., Inc., Inc. just bought $275 MILLION in Bitcoin! \ud83d\ude80",
+    "\ud83d\udea8 BREAKING: UK stages Falklands WAR GAME as Argentina PRESSURE builds."
   ]
 }
