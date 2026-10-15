@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "6d938cdfc0ac455c",
-    "fb_id": "1264009986803820_122124438165472689",
-    "title": "JAPAN\u2019S NIKKEI PLUNGES 3.5% AS FED RATE HIKE FEARS GROW Japanese stocks tumbled after hotter-than-expected U.S. inflation fueled expectations of higher interest rates. The Nikkei fell 3.5%, led by ...",
-    "link": "https://x.com/DeItaone/status/2110533086437835000",
+    "hash": "5d11339eb33829c3",
+    "fb_id": "1264009986803820_122124445335472689",
+    "title": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes another 7% today.",
+    "link": "https://x.com/WatcherGuru/status/2110539421993123864",
     "mode": "viral",
-    "at": "2026-10-15T03:22:23.553666+00:00"
+    "at": "2026-10-15T03:51:52.408825+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -83,6 +83,7 @@
     "56194c1a1cfdf52c",
     "58cfd490098879f3",
     "5b08901b0be5a112",
+    "5d11339eb33829c3",
     "5f21b28daec622b3",
     "601a84aa97a5995b",
     "626c970a426ee62c",
@@ -219,10 +220,9 @@
   "day_counts": {
     "2026-10-13": 15,
     "2026-10-14": 15,
-    "2026-10-15": 7
+    "2026-10-15": 8
   },
   "recent_titles": [
-    "Absolutely incredible. Just 10 stocks have driven 70% of the S&P 500\u2019s gain since March 30th. These stocks have added +16 percentage points to the index\u2019s +23% gain over this period. Nvidia, $NVDA,...",
     "Iran has adopted new tactics to intensify attacks on commercial shipping in and beyond the Strait of Hormuz, aiming to keep oil prices high ahead of the November U.S. midterm elections, according t...",
     "JUST IN: Google $GOOGL launches its most powerful AI model 'Gemini 4 Argon'",
     "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\"",
@@ -236,19 +236,10 @@
     "BREAKING: The S&P 500 officially posts its worst day since July 29th, erasing -$800 billion of market cap. Inflation is rising again in the US, now nearly double the Fed's long-term target.",
     "ECB's Santos Pereira: If inflation widens, central banks will be compelled to respond",
     "\ud83d\udea8 JUST IN: Over $485M in crypto positions were liquidated in the past hour, nearly $465M of them longs, as bitcoin:native fell briefly below $81K.",
-    "JAPAN\u2019S NIKKEI PLUNGES 3.5% AS FED RATE HIKE FEARS GROW Japanese stocks tumbled after hotter-than-expected U.S. inflation fueled expectations of higher interest rates. The Nikkei fell 3.5%, led by ..."
+    "JAPAN\u2019S NIKKEI PLUNGES 3.5% AS FED RATE HIKE FEARS GROW Japanese stocks tumbled after hotter-than-expected U.S. inflation fueled expectations of higher interest rates. The Nikkei fell 3.5%, led by ...",
+    "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes another 7% today."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123175351472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "split:face+face",
-      "at": "2026-10-12T01:03:06.669625+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123183151472689",
       "topics": [
@@ -723,6 +714,15 @@
       "mode": "viral",
       "photo": "split:face+inst",
       "at": "2026-10-15T03:22:23.553666+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124445335472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-15T03:51:52.408825+00:00"
     }
   ],
   "tuner": {
@@ -744,20 +744,6 @@
   },
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "bloomberg",
-        "iran",
-        "march",
-        "president",
-        "social",
-        "trump",
-        "truth"
-      ],
-      "at": "2026-10-14T01:07:35.879701+00:00"
-    },
     {
       "fp": [
         "CEO",
@@ -1020,10 +1006,19 @@
         "tokyo"
       ],
       "at": "2026-10-15T03:22:23.553655+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "KOSPI",
+        "korea",
+        "south"
+      ],
+      "at": "2026-10-15T03:51:52.408808+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 10 stocks have powered 70% of the S&P 500\u2019s +23% rise since March 30th, adding +16 points to the index. Nvidia ($NVDA) accounts for 13% of the gain, +3 points. Micron ($MU), Apple ($AAPL), Microsoft ($MSFT) add 9%",
     "BREAKING: IRAN ADOPTS NEW TACTICS TO KEEP OIL PRICES HIGH \ud83d\udea9",
     "BREAKING \ud83d\udea9: GOOGLE ($GOOGL) rolls out Gemini 4 Argon, its most powerful AI model yet. Market buzz: odds of a major AI shift just spiked. Gemini 4 Argon promises 4x faster inference, 80% higher accuracy. Why it matters: investors eye AI dominance. Will this shift the tech race? #ethancole #ai #technews #finance #marketnews",
     "BREAKING: Michael\u202fSaylor declares Bitcoin at the \u201cbeginning of a bull market.\u201d Saylor, MicroStrategy\u202f($MSTR) co\u2011founder, signals institutional optimism. Bitcoin\u2019s rally could accelerate as corporate backing grows. Why now? Stay tuned. 1 #ethancole #ai #technews #finance #marketnews",
@@ -1037,6 +1032,7 @@
     "\ud83d\udea8 BREAKING: S&P 500 sees WORST day since July 29th, -$800 BILLION wiped.",
     "BREAKING: \ud83d\udea9 ECB warns inflation widening forces central banks to act",
     "JUST IN: \ud83c\udfc1 Over $485M in crypto positions liquidated in the past hour, nearly $465M of them longs, as bitcoin:native slipped below $81K. Market volatility spikes, risking leveraged traders. Watch the odds shift. #ethancole #crypto #bitcoin #marketnews #investing #finance",
-    "BREAKING: NIKKEI CRASHES 3.5% AS FED RATE HIKES FEAR GROWS \ud83d\udea9"
+    "BREAKING: NIKKEI CRASHES 3.5% AS FED RATE HIKES FEAR GROWS \ud83d\udea9",
+    "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES ANOTHER 7% TODAY"
   ]
 }
