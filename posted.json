@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "081ce91eabd57f6d",
-    "fb_id": "1264009986803820_122124402399472689",
-    "title": "BREAKING: Anthropic posted Q3 2026 revenue of $16.8 billion, up nearly +50% from the $11.5 billion recorded in prior quarter, per FT. Anthropic also told investors that it posted a profit for the q...",
-    "link": "https://x.com/KobeissiLetter/status/2110497672381780034",
-    "mode": "viral",
-    "at": "2026-10-15T00:31:19.011698+00:00"
+    "hash": "e9e2a2671f5985e3",
+    "fb_id": "1264009986803820_122124407997472689",
+    "title": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
+    "link": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+    "mode": "serious",
+    "at": "2026-10-15T01:02:27.662038+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -191,6 +191,7 @@
     "e4ddbb5bfc5310e3",
     "e8db4b728ba26ead",
     "e9339d6ea619a42d",
+    "e9e2a2671f5985e3",
     "eacc6893c16ea1dc",
     "ebb9dfc4c90a11b6",
     "eca4f5a6aeff6619",
@@ -214,10 +215,9 @@
   "day_counts": {
     "2026-10-13": 15,
     "2026-10-14": 15,
-    "2026-10-15": 2
+    "2026-10-15": 3
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor...",
     "The future of Bitcoin is the future of finance. This morning at the World Bank, I joined Chris Brummer, Founder & CEO of The Fintech Foundation, for a 25-minute fireside chat at DC Fintech Week. @f...",
     "\ud83d\udea8\u9884\u8b66\uff01Claude Fable 5.5 \u5df2\u51fa\u73b0\u5728 Azure East US 2 \u76ee\u5f55\u4e2d\u4ee5\u300cGenerallyAvailable\u300d\u72b6\u6001\u51fa\u73b0\uff01 LiteLLM \u914d\u7f6e\u5df2\u540c\u6b65\uff1a1M \u4e0a\u4e0b\u6587 / 128K \u8f93\u51fa / $10/$50 \u5b9a\u4ef7\uff0c\u80fd\u529b\u5c06\u53cd\u8d85\u5f53\u524d\u6700\u5f3a Opus 5.5\u3002 \u5982\u679c\u4eca\u5929\u5c31\u653e\u51fa\u6765\uff0c\u591a\u4e2a\u9886\u57df\u76f4\u63a5\u65b0 SOTA\uff1f #Claude #Anthropic #Fable55 #AI #Azure...",
     ".@RoKhanna You say billionaires are buying democracy. Apparently, your outrage depends on which billionaires are spending the money. I traced four funding routes involving the Soros network, Tides,...",
@@ -231,18 +231,10 @@
     "NEW: Britain ran a Falklands recapture exercise as Argentina ramps up pressure over the islands. About 150 paratroopers from 2 PARA and 100 local reservists spent six days rehearsing the 1982 war p...",
     "Credit \u00c1gricole: FX Risk - FJElite",
     "BREAKING: The Nasdaq 100 extends losses to -1.6% on the day as US oil prices top $96/barrel and Treasury Yields rise on hot inflation data.",
-    "BREAKING: Anthropic posted Q3 2026 revenue of $16.8 billion, up nearly +50% from the $11.5 billion recorded in prior quarter, per FT. Anthropic also told investors that it posted a profit for the q..."
+    "BREAKING: Anthropic posted Q3 2026 revenue of $16.8 billion, up nearly +50% from the $11.5 billion recorded in prior quarter, per FT. Anthropic also told investors that it posted a profit for the q...",
+    "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122848063472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-11T06:11:21.353343+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122854921472689",
       "topics": [
@@ -715,6 +707,16 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-15T00:31:19.011698+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124407997472689",
+      "topics": [
+        "ai",
+        "fed"
+      ],
+      "mode": "serious",
+      "photo": "split:face+inst",
+      "at": "2026-10-15T01:02:27.662038+00:00"
     }
   ],
   "tuner": {
@@ -736,16 +738,6 @@
   },
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "US",
-        "russian",
-        "trump",
-        "ukraine",
-        "zelenskyy"
-      ],
-      "at": "2026-10-13T06:23:54.323676+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1022,10 +1014,20 @@
         "anthropic"
       ],
       "at": "2026-10-15T00:31:19.011683+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "SK",
+        "asia",
+        "fed",
+        "hynix",
+        "thursday"
+      ],
+      "at": "2026-10-15T01:02:27.662029+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 Corgi Invest launches MANGOS ETF $MN, holding 6 tech titans: Meta $Meta ($META), Anthropic, Nvidia $Nvidia ($NVDA), Google $Google ($GOOGL), OpenAI, SpaceX $SPCX. Market watchers: a concentrated 6\u2011stock play could spike volatility",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump admin orders regulators to withdraw $BILLION insider\u2011trading referral before Iran policy shift. On March\u202f23 traders bet billions that oil would tumble and stocks soar, 15\u202fmin before Trump said he\u2019d halt the Iran deal",
     "JUST IN: Saylor declares BITCOIN the future of finance at the World Bank.",
     "JUST IN: \ud83d\udea8 Claude Fable 5.5 now GenerallyAvailable on Azure East US 2! LiteLLM config synced: 1M context / 128K output / $10/$50 pricing. This could catapult multiple domains to new SOTA today. Watch the market shift. #ethancole #ai #artificialintelligence #technews #finance",
@@ -1039,6 +1041,7 @@
     "\ud83d\udea8 BREAKING: UK stages Falklands WAR GAME as Argentina PRESSURE builds.",
     "JUST IN: \ud83d\udea9 Oil prices up, IMF warns bond yields, but markets stay calm. Investors shrug at higher oil and bond yields; risk appetite holds. Markets assume no major Middle East flare before the US midterm elections, backed by President Trump\u2019s reassurance that strikes on Iran will not resume",
     "BREAKING: \ud83d\udea9 Nasdaq 100 slides -1.6% as oil tops $96/barrel and Treasury yields rise on hot inflation data.",
-    "BREAKING: \ud83d\udea8 Anthropic Q3 2026 REVENUE hits $16.8 BILLION, up nearly +50%."
+    "BREAKING: \ud83d\udea8 Anthropic Q3 2026 REVENUE hits $16.8 BILLION, up nearly +50%.",
+    "BREAKING: \ud83d\udea8 SK Hynix shares PLUNGE 10%."
   ]
 }
