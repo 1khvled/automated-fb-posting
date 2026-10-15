@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "5d11339eb33829c3",
-    "fb_id": "1264009986803820_122124445335472689",
-    "title": "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes another 7% today.",
-    "link": "https://x.com/WatcherGuru/status/2110539421993123864",
-    "mode": "viral",
-    "at": "2026-10-15T03:51:52.408825+00:00"
+    "hash": "08987638d1cc767e",
+    "fb_id": "1264009986803820_122124453909472689",
+    "title": "Bitcoin is back below $81,000 as Fed rate uncertainty weighs. Kospi plunges 8%",
+    "link": "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs",
+    "mode": "serious",
+    "at": "2026-10-15T04:22:27.993823+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -18,6 +18,7 @@
     "071514e07cc28227",
     "077fd34454c06618",
     "081ce91eabd57f6d",
+    "08987638d1cc767e",
     "08ac912336069268",
     "08f210dc7becee93",
     "090f78c3b2e3ecf1",
@@ -220,10 +221,9 @@
   "day_counts": {
     "2026-10-13": 15,
     "2026-10-14": 15,
-    "2026-10-15": 8
+    "2026-10-15": 9
   },
   "recent_titles": [
-    "Iran has adopted new tactics to intensify attacks on commercial shipping in and beyond the Strait of Hormuz, aiming to keep oil prices high ahead of the November U.S. midterm elections, according t...",
     "JUST IN: Google $GOOGL launches its most powerful AI model 'Gemini 4 Argon'",
     "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\"",
     "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and...",
@@ -237,21 +237,10 @@
     "ECB's Santos Pereira: If inflation widens, central banks will be compelled to respond",
     "\ud83d\udea8 JUST IN: Over $485M in crypto positions were liquidated in the past hour, nearly $465M of them longs, as bitcoin:native fell briefly below $81K.",
     "JAPAN\u2019S NIKKEI PLUNGES 3.5% AS FED RATE HIKE FEARS GROW Japanese stocks tumbled after hotter-than-expected U.S. inflation fueled expectations of higher interest rates. The Nikkei fell 3.5%, led by ...",
-    "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes another 7% today."
+    "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes another 7% today.",
+    "Bitcoin is back below $81,000 as Fed rate uncertainty weighs. Kospi plunges 8%"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123183151472689",
-      "topics": [
-        "fed",
-        "gold_oil",
-        "inflation",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "face",
-      "at": "2026-10-12T01:31:11.687164+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123190759472689",
       "topics": [
@@ -723,6 +712,16 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-15T03:51:52.408825+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124453909472689",
+      "topics": [
+        "crypto",
+        "fed"
+      ],
+      "mode": "serious",
+      "photo": "split:face+inst",
+      "at": "2026-10-15T04:22:27.993823+00:00"
     }
   ],
   "tuner": {
@@ -744,29 +743,6 @@
   },
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "CEO",
-        "DC",
-        "bank",
-        "bitcoin",
-        "brummer",
-        "capital",
-        "chris",
-        "credit",
-        "digital",
-        "equity",
-        "fintech",
-        "foundation",
-        "founder",
-        "gold",
-        "strategy",
-        "this",
-        "week",
-        "world"
-      ],
-      "at": "2026-10-14T02:34:49.625133+00:00"
-    },
     {
       "fp": [
         "$10",
@@ -1016,10 +992,18 @@
         "south"
       ],
       "at": "2026-10-15T03:51:52.408808+00:00"
+    },
+    {
+      "fp": [
+        "$81,000",
+        "bitcoin",
+        "fed",
+        "kospi"
+      ],
+      "at": "2026-10-15T04:22:27.993813+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: IRAN ADOPTS NEW TACTICS TO KEEP OIL PRICES HIGH \ud83d\udea9",
     "BREAKING \ud83d\udea9: GOOGLE ($GOOGL) rolls out Gemini 4 Argon, its most powerful AI model yet. Market buzz: odds of a major AI shift just spiked. Gemini 4 Argon promises 4x faster inference, 80% higher accuracy. Why it matters: investors eye AI dominance. Will this shift the tech race? #ethancole #ai #technews #finance #marketnews",
     "BREAKING: Michael\u202fSaylor declares Bitcoin at the \u201cbeginning of a bull market.\u201d Saylor, MicroStrategy\u202f($MSTR) co\u2011founder, signals institutional optimism. Bitcoin\u2019s rally could accelerate as corporate backing grows. Why now? Stay tuned. 1 #ethancole #ai #technews #finance #marketnews",
     "\ud83d\udea8 BREAKING: Russia launches LARGEST combined missile/drone ATTACK on Ukraine.",
@@ -1033,6 +1017,7 @@
     "BREAKING: \ud83d\udea9 ECB warns inflation widening forces central banks to act",
     "JUST IN: \ud83c\udfc1 Over $485M in crypto positions liquidated in the past hour, nearly $465M of them longs, as bitcoin:native slipped below $81K. Market volatility spikes, risking leveraged traders. Watch the odds shift. #ethancole #crypto #bitcoin #marketnews #investing #finance",
     "BREAKING: NIKKEI CRASHES 3.5% AS FED RATE HIKES FEAR GROWS \ud83d\udea9",
-    "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES ANOTHER 7% TODAY"
+    "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES ANOTHER 7% TODAY",
+    "\ud83d\udea8 JUST IN: BITCOIN PLUNGES below $81,000."
   ]
 }
