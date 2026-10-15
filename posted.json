@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "ce5020520f39e42f",
-    "fb_id": "1264009986803820_122124490137472689",
-    "title": "DAILY AI BRIEF \ud83d\uddde \u2014 Oct 15 SPACEXSI \ud83d\udd25: - SpaceXSI launched Grok Voice 3.0, a speech-to-speech model built for customer calls that it says responds in under a second with 40% lower latency. - The Gro...",
-    "link": "https://x.com/testingcatalog/status/2110613310403936714",
-    "mode": "serious",
-    "at": "2026-10-15T06:22:04.627165+00:00"
+    "hash": "68ec3bc290ac8562",
+    "fb_id": "1264009986803820_122124499773472689",
+    "title": "BREAKING: Bank of America stock, $BAC, falls over -8% after the bank was fined $1.2 billion over money laundering violations and US CPI inflation pushes rate hike expectations higher. The stock has...",
+    "link": "https://x.com/KobeissiLetter/status/2110367801068101996",
+    "mode": "viral",
+    "at": "2026-10-15T07:11:47.739096+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -99,6 +99,7 @@
     "66f515d28624ba5d",
     "67b3dc14d2c60b7e",
     "67e09beef0706ac3",
+    "68ec3bc290ac8562",
     "699c6c3d56200756",
     "6a4263d89d1d1a9e",
     "6ca4a493922b82af",
@@ -225,10 +226,9 @@
   "day_counts": {
     "2026-10-13": 15,
     "2026-10-14": 15,
-    "2026-10-15": 13
+    "2026-10-15": 14
   },
   "recent_titles": [
-    "NEW: Britain ran a Falklands recapture exercise as Argentina ramps up pressure over the islands. About 150 paratroopers from 2 PARA and 100 local reservists spent six days rehearsing the 1982 war p...",
     "Credit \u00c1gricole: FX Risk - FJElite",
     "BREAKING: The Nasdaq 100 extends losses to -1.6% on the day as US oil prices top $96/barrel and Treasury Yields rise on hot inflation data.",
     "BREAKING: Anthropic posted Q3 2026 revenue of $16.8 billion, up nearly +50% from the $11.5 billion recorded in prior quarter, per FT. Anthropic also told investors that it posted a profit for the q...",
@@ -242,18 +242,10 @@
     "Digital Credit, powered by Bitcoin. Our most senior preferred stock, $STRF (\u201cStrife\u201d), explained in three minutes.",
     "The Trump administration is considering easing sanctions on shadow fleet tankers previously used to transport Russian, Iranian and Venezuelan oil to reduce record-high shipping costs. The proposal ...",
     "BIG: Zelensky says Kyiv will resume strikes on Russian oil refineries after Moscow continued attacking Ukrainian energy infrastructure despite Trump's announced energy ceasefire. Source: FT",
-    "DAILY AI BRIEF \ud83d\uddde \u2014 Oct 15 SPACEXSI \ud83d\udd25: - SpaceXSI launched Grok Voice 3.0, a speech-to-speech model built for customer calls that it says responds in under a second with 40% lower latency. - The Gro..."
+    "DAILY AI BRIEF \ud83d\uddde \u2014 Oct 15 SPACEXSI \ud83d\udd25: - SpaceXSI launched Grok Voice 3.0, a speech-to-speech model built for customer calls that it says responds in under a second with 40% lower latency. - The Gro...",
+    "BREAKING: Bank of America stock, $BAC, falls over -8% after the bank was fined $1.2 billion over money laundering violations and US CPI inflation pushes rate hike expectations higher. The stock has..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123224545472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-12T04:03:11.346526+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123233677472689",
       "topics": [
@@ -726,6 +718,16 @@
       "mode": "serious",
       "photo": "split:logo",
       "at": "2026-10-15T06:22:04.627165+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124499773472689",
+      "topics": [
+        "fed",
+        "inflation"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-15T07:11:47.739096+00:00"
     }
   ],
   "tuner": {
@@ -747,20 +749,6 @@
   },
   "last_video_post": "2026-10-15",
   "recent_fps": [
-    {
-      "fp": [
-        "UAE",
-        "gulf",
-        "hormuz",
-        "iran",
-        "iranian",
-        "november",
-        "oman",
-        "qatar",
-        "strait"
-      ],
-      "at": "2026-10-14T05:52:14.166371+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -993,10 +981,21 @@
         "voice"
       ],
       "at": "2026-10-15T06:22:04.627148+00:00"
+    },
+    {
+      "fp": [
+        "$1.2",
+        "$30",
+        "BAC",
+        "CPI",
+        "US",
+        "america",
+        "bank"
+      ],
+      "at": "2026-10-15T07:11:47.739081+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Strive, Inc., Inc., Inc., Inc. just bought $275 MILLION in Bitcoin! \ud83d\ude80",
     "\ud83d\udea8 BREAKING: UK stages Falklands WAR GAME as Argentina PRESSURE builds.",
     "JUST IN: \ud83d\udea9 Oil prices up, IMF warns bond yields, but markets stay calm. Investors shrug at higher oil and bond yields; risk appetite holds. Markets assume no major Middle East flare before the US midterm elections, backed by President Trump\u2019s reassurance that strikes on Iran will not resume",
     "BREAKING: \ud83d\udea9 Nasdaq 100 slides -1.6% as oil tops $96/barrel and Treasury yields rise on hot inflation data.",
@@ -1010,6 +1009,7 @@
     "\ud83d\udea8 JUST IN: BITCOIN PLUNGES below $81,000.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Trump eyes easing sanctions on shadow fleet tankers to cut record\u2011high shipping costs. The plan would let sanctioned vessels carry non\u2011sanctioned oil with Treasury approval, but officials say it won\u2019t boost Russian exports. 2024",
     "BREAKING: \ud83c\uddfa\ud83c\udde6 Zelensky says Kyiv will resume strikes on Russian oil refineries after Moscow keeps hitting Ukrainian energy infrastructure, even as President Trump announced an energy ceasefire. 1 strike could shift the war\u2019s energy balance. #ethancole #ai #technews #finance #marketnews",
-    "JUST IN: \ud83d\ude80 SpaceXSI launches Grok Voice 3.0, a speech\u2011to\u2011speech model for calls that responds in under a second, 40% lower latency."
+    "JUST IN: \ud83d\ude80 SpaceXSI launches Grok Voice 3.0, a speech\u2011to\u2011speech model for calls that responds in under a second, 40% lower latency.",
+    "\ud83d\udea8 BREAKING: Bank of America ($BAC) stock PLUNGES -8% after $1.2 BILLION fine."
   ]
 }
