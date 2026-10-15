@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "a7782c3d8ef265c3",
-    "fb_id": "1264009986803820_122124475479472689",
-    "title": "The Trump administration is considering easing sanctions on shadow fleet tankers previously used to transport Russian, Iranian and Venezuelan oil to reduce record-high shipping costs. The proposal ...",
-    "link": "https://x.com/clashreport/status/2110599931165609987",
+    "hash": "600b7a3d6c0b67e5",
+    "fb_id": "1264009986803820_122124482595472689",
+    "title": "BIG: Zelensky says Kyiv will resume strikes on Russian oil refineries after Moscow continued attacking Ukrainian energy infrastructure despite Trump's announced energy ceasefire. Source: FT",
+    "link": "https://x.com/clashreport/status/2110602466282590260",
     "mode": "serious",
-    "at": "2026-10-15T05:22:26.201176+00:00"
+    "at": "2026-10-15T05:52:13.743401+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -87,6 +87,7 @@
     "5b08901b0be5a112",
     "5d11339eb33829c3",
     "5f21b28daec622b3",
+    "600b7a3d6c0b67e5",
     "601a84aa97a5995b",
     "626c970a426ee62c",
     "63036692c3b611ed",
@@ -223,10 +224,9 @@
   "day_counts": {
     "2026-10-13": 15,
     "2026-10-14": 15,
-    "2026-10-15": 11
+    "2026-10-15": 12
   },
   "recent_titles": [
-    "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and...",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Public company Strive purchases 3,311 Bitcoin worth $275 million! \ud83d\udc40 This brings their total to 32,773 BTC \ud83d\ude80",
     "NEW: Britain ran a Falklands recapture exercise as Argentina ramps up pressure over the islands. About 150 paratroopers from 2 PARA and 100 local reservists spent six days rehearsing the 1982 war p...",
     "Credit \u00c1gricole: FX Risk - FJElite",
@@ -240,20 +240,10 @@
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes another 7% today.",
     "Bitcoin is back below $81,000 as Fed rate uncertainty weighs. Kospi plunges 8%",
     "Digital Credit, powered by Bitcoin. Our most senior preferred stock, $STRF (\u201cStrife\u201d), explained in three minutes.",
-    "The Trump administration is considering easing sanctions on shadow fleet tankers previously used to transport Russian, Iranian and Venezuelan oil to reduce record-high shipping costs. The proposal ..."
+    "The Trump administration is considering easing sanctions on shadow fleet tankers previously used to transport Russian, Iranian and Venezuelan oil to reduce record-high shipping costs. The proposal ...",
+    "BIG: Zelensky says Kyiv will resume strikes on Russian oil refineries after Moscow continued attacking Ukrainian energy infrastructure despite Trump's announced energy ceasefire. Source: FT"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123209863472689",
-      "topics": [
-        "crypto",
-        "gold_oil",
-        "inflation"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-12T03:02:32.447231+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123217219472689",
       "topics": [
@@ -725,6 +715,16 @@
       "mode": "serious",
       "photo": "face",
       "at": "2026-10-15T05:22:26.201176+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124482595472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:face+face",
+      "at": "2026-10-15T05:52:13.743401+00:00"
     }
   ],
   "tuner": {
@@ -746,21 +746,6 @@
   },
   "last_video_post": "2026-10-15",
   "recent_fps": [
-    {
-      "fp": [
-        "VRP",
-        "alpha",
-        "argon",
-        "chartography",
-        "finance",
-        "gemini",
-        "shader",
-        "system",
-        "vals",
-        "vision"
-      ],
-      "at": "2026-10-14T04:12:58.709825+00:00"
-    },
     {
       "fp": [
         "AAPL",
@@ -993,10 +978,23 @@
         "venezuelan"
       ],
       "at": "2026-10-15T05:22:26.201163+00:00"
+    },
+    {
+      "fp": [
+        "BIG",
+        "FT",
+        "kyiv",
+        "moscow",
+        "russian",
+        "source",
+        "trump",
+        "ukrainian",
+        "zelensky"
+      ],
+      "at": "2026-10-15T05:52:13.743388+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: Michael\u202fSaylor declares Bitcoin at the \u201cbeginning of a bull market.\u201d Saylor, MicroStrategy\u202f($MSTR) co\u2011founder, signals institutional optimism. Bitcoin\u2019s rally could accelerate as corporate backing grows. Why now? Stay tuned. 1 #ethancole #ai #technews #finance #marketnews",
     "\ud83d\udea8 BREAKING: Russia launches LARGEST combined missile/drone ATTACK on Ukraine.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Strive, Inc., Inc., Inc., Inc. just bought $275 MILLION in Bitcoin! \ud83d\ude80",
     "\ud83d\udea8 BREAKING: UK stages Falklands WAR GAME as Argentina PRESSURE builds.",
@@ -1010,6 +1008,7 @@
     "BREAKING: NIKKEI CRASHES 3.5% AS FED RATE HIKES FEAR GROWS \ud83d\udea9",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES ANOTHER 7% TODAY",
     "\ud83d\udea8 JUST IN: BITCOIN PLUNGES below $81,000.",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Trump eyes easing sanctions on shadow fleet tankers to cut record\u2011high shipping costs. The plan would let sanctioned vessels carry non\u2011sanctioned oil with Treasury approval, but officials say it won\u2019t boost Russian exports. 2024"
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Trump eyes easing sanctions on shadow fleet tankers to cut record\u2011high shipping costs. The plan would let sanctioned vessels carry non\u2011sanctioned oil with Treasury approval, but officials say it won\u2019t boost Russian exports. 2024",
+    "BREAKING: \ud83c\uddfa\ud83c\udde6 Zelensky says Kyiv will resume strikes on Russian oil refineries after Moscow keeps hitting Ukrainian energy infrastructure, even as President Trump announced an energy ceasefire. 1 strike could shift the war\u2019s energy balance. #ethancole #ai #technews #finance #marketnews"
   ]
 }
