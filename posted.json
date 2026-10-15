@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "09b8e198bd583b70",
-    "fb_id": "1651585563296087",
-    "title": "Digital Credit, powered by Bitcoin. Our most senior preferred stock, $STRF (\u201cStrife\u201d), explained in three minutes.",
-    "link": "https://x.com/saylor/status/2110460760531021924",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-15T04:52:27.416136+00:00"
+    "hash": "a7782c3d8ef265c3",
+    "fb_id": "1264009986803820_122124475479472689",
+    "title": "The Trump administration is considering easing sanctions on shadow fleet tankers previously used to transport Russian, Iranian and Venezuelan oil to reduce record-high shipping costs. The proposal ...",
+    "link": "https://x.com/clashreport/status/2110599931165609987",
+    "mode": "serious",
+    "at": "2026-10-15T05:22:26.201176+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -157,6 +156,7 @@
     "a2e71eefd32ea0f0",
     "a3a826e937ac0d6c",
     "a61476413f0f9565",
+    "a7782c3d8ef265c3",
     "a9eab993ee21cbc4",
     "aa4543247334ecdc",
     "acb0acd96b4822ea",
@@ -223,10 +223,9 @@
   "day_counts": {
     "2026-10-13": 15,
     "2026-10-14": 15,
-    "2026-10-15": 10
+    "2026-10-15": 11
   },
   "recent_titles": [
-    "JUST IN: Michael Saylor say Bitcoin is at the \"beginning of a bull market.\"",
     "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and...",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Public company Strive purchases 3,311 Bitcoin worth $275 million! \ud83d\udc40 This brings their total to 32,773 BTC \ud83d\ude80",
     "NEW: Britain ran a Falklands recapture exercise as Argentina ramps up pressure over the islands. About 150 paratroopers from 2 PARA and 100 local reservists spent six days rehearsing the 1982 war p...",
@@ -240,18 +239,10 @@
     "JAPAN\u2019S NIKKEI PLUNGES 3.5% AS FED RATE HIKE FEARS GROW Japanese stocks tumbled after hotter-than-expected U.S. inflation fueled expectations of higher interest rates. The Nikkei fell 3.5%, led by ...",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes another 7% today.",
     "Bitcoin is back below $81,000 as Fed rate uncertainty weighs. Kospi plunges 8%",
-    "Digital Credit, powered by Bitcoin. Our most senior preferred stock, $STRF (\u201cStrife\u201d), explained in three minutes."
+    "Digital Credit, powered by Bitcoin. Our most senior preferred stock, $STRF (\u201cStrife\u201d), explained in three minutes.",
+    "The Trump administration is considering easing sanctions on shadow fleet tankers previously used to transport Russian, Iranian and Venezuelan oil to reduce record-high shipping costs. The proposal ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123198685472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-12T02:32:46.697315+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123209863472689",
       "topics": [
@@ -723,6 +714,17 @@
       ],
       "mode": "viral",
       "at": "2026-10-15T04:52:27.416136+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124475479472689",
+      "topics": [
+        "gold_oil",
+        "power",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "face",
+      "at": "2026-10-15T05:22:26.201176+00:00"
     }
   ],
   "tuner": {
@@ -744,22 +746,6 @@
   },
   "last_video_post": "2026-10-15",
   "recent_fps": [
-    {
-      "fp": [
-        "$453.7",
-        "apparently",
-        "arabella",
-        "communi",
-        "fund",
-        "sixteen",
-        "soros",
-        "thirty",
-        "tides",
-        "you",
-        "your"
-      ],
-      "at": "2026-10-14T03:45:19.705444+00:00"
-    },
     {
       "fp": [
         "VRP",
@@ -995,10 +981,21 @@
         "strife"
       ],
       "at": "2026-10-15T04:52:27.416126+00:00"
+    },
+    {
+      "fp": [
+        "iranian",
+        "reuters",
+        "russian",
+        "source",
+        "treasury",
+        "trump",
+        "venezuelan"
+      ],
+      "at": "2026-10-15T05:22:26.201163+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING \ud83d\udea9: GOOGLE ($GOOGL) rolls out Gemini 4 Argon, its most powerful AI model yet. Market buzz: odds of a major AI shift just spiked. Gemini 4 Argon promises 4x faster inference, 80% higher accuracy. Why it matters: investors eye AI dominance. Will this shift the tech race? #ethancole #ai #technews #finance #marketnews",
     "BREAKING: Michael\u202fSaylor declares Bitcoin at the \u201cbeginning of a bull market.\u201d Saylor, MicroStrategy\u202f($MSTR) co\u2011founder, signals institutional optimism. Bitcoin\u2019s rally could accelerate as corporate backing grows. Why now? Stay tuned. 1 #ethancole #ai #technews #finance #marketnews",
     "\ud83d\udea8 BREAKING: Russia launches LARGEST combined missile/drone ATTACK on Ukraine.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Strive, Inc., Inc., Inc., Inc. just bought $275 MILLION in Bitcoin! \ud83d\ude80",
@@ -1012,6 +1009,7 @@
     "JUST IN: \ud83c\udfc1 Over $485M in crypto positions liquidated in the past hour, nearly $465M of them longs, as bitcoin:native slipped below $81K. Market volatility spikes, risking leveraged traders. Watch the odds shift. #ethancole #crypto #bitcoin #marketnews #investing #finance",
     "BREAKING: NIKKEI CRASHES 3.5% AS FED RATE HIKES FEAR GROWS \ud83d\udea9",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES ANOTHER 7% TODAY",
-    "\ud83d\udea8 JUST IN: BITCOIN PLUNGES below $81,000."
+    "\ud83d\udea8 JUST IN: BITCOIN PLUNGES below $81,000.",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 Trump eyes easing sanctions on shadow fleet tankers to cut record\u2011high shipping costs. The plan would let sanctioned vessels carry non\u2011sanctioned oil with Treasury approval, but officials say it won\u2019t boost Russian exports. 2024"
   ]
 }
