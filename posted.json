@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "68ec3bc290ac8562",
-    "fb_id": "1264009986803820_122124499773472689",
-    "title": "BREAKING: Bank of America stock, $BAC, falls over -8% after the bank was fined $1.2 billion over money laundering violations and US CPI inflation pushes rate hike expectations higher. The stock has...",
-    "link": "https://x.com/KobeissiLetter/status/2110367801068101996",
-    "mode": "viral",
-    "at": "2026-10-15T07:11:47.739096+00:00"
+    "hash": "3d1734b53ce94a08",
+    "fb_id": "1264009986803820_122124505923472689",
+    "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
+    "link": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+    "mode": "serious",
+    "at": "2026-10-15T07:41:28.149118+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -70,6 +70,7 @@
     "3b4aa213b4a64a56",
     "3c7e63595369afd6",
     "3ccaf6ca07aa5503",
+    "3d1734b53ce94a08",
     "3e2710928bf1c3a0",
     "3eb4a262e3a6a366",
     "4987c4f1f6f22605",
@@ -226,10 +227,9 @@
   "day_counts": {
     "2026-10-13": 15,
     "2026-10-14": 15,
-    "2026-10-15": 14
+    "2026-10-15": 15
   },
   "recent_titles": [
-    "Credit \u00c1gricole: FX Risk - FJElite",
     "BREAKING: The Nasdaq 100 extends losses to -1.6% on the day as US oil prices top $96/barrel and Treasury Yields rise on hot inflation data.",
     "BREAKING: Anthropic posted Q3 2026 revenue of $16.8 billion, up nearly +50% from the $11.5 billion recorded in prior quarter, per FT. Anthropic also told investors that it posted a profit for the q...",
     "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
@@ -243,18 +243,10 @@
     "The Trump administration is considering easing sanctions on shadow fleet tankers previously used to transport Russian, Iranian and Venezuelan oil to reduce record-high shipping costs. The proposal ...",
     "BIG: Zelensky says Kyiv will resume strikes on Russian oil refineries after Moscow continued attacking Ukrainian energy infrastructure despite Trump's announced energy ceasefire. Source: FT",
     "DAILY AI BRIEF \ud83d\uddde \u2014 Oct 15 SPACEXSI \ud83d\udd25: - SpaceXSI launched Grok Voice 3.0, a speech-to-speech model built for customer calls that it says responds in under a second with 40% lower latency. - The Gro...",
-    "BREAKING: Bank of America stock, $BAC, falls over -8% after the bank was fined $1.2 billion over money laundering violations and US CPI inflation pushes rate hike expectations higher. The stock has..."
+    "BREAKING: Bank of America stock, $BAC, falls over -8% after the bank was fined $1.2 billion over money laundering violations and US CPI inflation pushes rate hike expectations higher. The stock has...",
+    "Anthropic flags revenue surge to investors ahead of stock market debut"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123233677472689",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-12T04:33:00.269200+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123241423472689",
       "topics": [
@@ -728,6 +720,16 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-15T07:11:47.739096+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124505923472689",
+      "topics": [
+        "ai",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-15T07:41:28.149118+00:00"
     }
   ],
   "tuner": {
@@ -749,18 +751,6 @@
   },
   "last_video_post": "2026-10-15",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "GOOGL",
-        "IN",
-        "JUST",
-        "argon",
-        "gemini",
-        "google"
-      ],
-      "at": "2026-10-14T06:22:16.236370+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -993,10 +983,16 @@
         "bank"
       ],
       "at": "2026-10-15T07:11:47.739081+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "anthropic"
+      ],
+      "at": "2026-10-15T07:41:28.149108+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 BREAKING: UK stages Falklands WAR GAME as Argentina PRESSURE builds.",
     "JUST IN: \ud83d\udea9 Oil prices up, IMF warns bond yields, but markets stay calm. Investors shrug at higher oil and bond yields; risk appetite holds. Markets assume no major Middle East flare before the US midterm elections, backed by President Trump\u2019s reassurance that strikes on Iran will not resume",
     "BREAKING: \ud83d\udea9 Nasdaq 100 slides -1.6% as oil tops $96/barrel and Treasury yields rise on hot inflation data.",
     "BREAKING: \ud83d\udea8 Anthropic Q3 2026 REVENUE hits $16.8 BILLION, up nearly +50%.",
@@ -1010,6 +1006,7 @@
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Trump eyes easing sanctions on shadow fleet tankers to cut record\u2011high shipping costs. The plan would let sanctioned vessels carry non\u2011sanctioned oil with Treasury approval, but officials say it won\u2019t boost Russian exports. 2024",
     "BREAKING: \ud83c\uddfa\ud83c\udde6 Zelensky says Kyiv will resume strikes on Russian oil refineries after Moscow keeps hitting Ukrainian energy infrastructure, even as President Trump announced an energy ceasefire. 1 strike could shift the war\u2019s energy balance. #ethancole #ai #technews #finance #marketnews",
     "JUST IN: \ud83d\ude80 SpaceXSI launches Grok Voice 3.0, a speech\u2011to\u2011speech model for calls that responds in under a second, 40% lower latency.",
-    "\ud83d\udea8 BREAKING: Bank of America ($BAC) stock PLUNGES -8% after $1.2 BILLION fine."
+    "\ud83d\udea8 BREAKING: Bank of America ($BAC) stock PLUNGES -8% after $1.2 BILLION fine.",
+    "JUST IN: \ud83d\udcc8 Anthropic flags REVENUE SURGE to investors."
   ]
 }
