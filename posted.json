@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "acb0acd96b4822ea",
-    "fb_id": "1264009986803820_122124102723472689",
-    "title": "Credit \u00c1gricole: FX Risk - FJElite",
-    "link": "https://www.financialjuice.com/News/9804852/Credit-%c3%81gricole-FX-Risk---FJElite.aspx?xy=rss",
-    "mode": "serious",
-    "at": "2026-10-14T09:02:41.576469+00:00"
+    "hash": "6f632453df63c6f0",
+    "fb_id": "1264009986803820_122124394695472689",
+    "title": "BREAKING: The Nasdaq 100 extends losses to -1.6% on the day as US oil prices top $96/barrel and Treasury Yields rise on hot inflation data.",
+    "link": "https://x.com/KobeissiLetter/status/2110406023832015324",
+    "mode": "viral",
+    "at": "2026-10-15T00:03:44.811696+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -97,6 +97,7 @@
     "6a4263d89d1d1a9e",
     "6ca4a493922b82af",
     "6dfde226099b02e8",
+    "6f632453df63c6f0",
     "70921c7e7f00e526",
     "720cc98216e4fbd4",
     "7287ed7fa4d9ebb6",
@@ -210,12 +211,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-12": 15,
     "2026-10-13": 15,
-    "2026-10-14": 15
+    "2026-10-14": 15,
+    "2026-10-15": 1
   },
   "recent_titles": [
-    "\ud83c\uddfa\ud83c\uddf8 Senator Elizabeth Warren has repeatedly stated that cryptocurrency is used for money laundering and to avoid sanctions. Today, the US government fined Bank of America $1.2 billion for violating ...",
     "NEW ETF ALERT My sponsors over at Corgi Invest recently launched their new MANGOS ETF which trades under the ticker $MN The ETF holds just 6 names: M is for Meta Platforms $META A is for Anthropic ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump administration official ordered regulators to withdraw insider trading referral involving billions in suspicious trades before President Trump's Iran announcement, Bloomberg repor...",
     "The future of Bitcoin is the future of finance. This morning at the World Bank, I joined Chris Brummer, Founder & CEO of The Fintech Foundation, for a 25-minute fireside chat at DC Fintech Week. @f...",
@@ -229,19 +229,10 @@
     "Russia launched its largest combined missile-and-drone attack on Ukraine overnight, firing 167 weapons \u2014 39 ballistic missiles and 128 drones \u2014 primarily targeting energy infrastructure in Kyiv and...",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Public company Strive purchases 3,311 Bitcoin worth $275 million! \ud83d\udc40 This brings their total to 32,773 BTC \ud83d\ude80",
     "NEW: Britain ran a Falklands recapture exercise as Argentina ramps up pressure over the islands. About 150 paratroopers from 2 PARA and 100 local reservists spent six days rehearsing the 1982 war p...",
-    "Credit \u00c1gricole: FX Risk - FJElite"
+    "Credit \u00c1gricole: FX Risk - FJElite",
+    "BREAKING: The Nasdaq 100 extends losses to -1.6% on the day as US oil prices top $96/barrel and Treasury Yields rise on hot inflation data."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122122826313472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "face",
-      "at": "2026-10-11T05:11:29.609830+00:00"
-    },
     {
       "fb_id": "1264009986803820_122122841901472689",
       "topics": [
@@ -712,12 +703,23 @@
       "mode": "serious",
       "photo": "split:face",
       "at": "2026-10-14T09:02:41.576469+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124394695472689",
+      "topics": [
+        "gold_oil",
+        "inflation",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-15T00:03:44.811696+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-14"
+    "updated": "2026-10-15"
   },
   "comment_review": {
     "posts": 8,
@@ -729,17 +731,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-14"
+    "updated": "2026-10-15"
   },
   "last_video_post": "2026-10-14",
   "recent_fps": [
-    {
-      "fp": [
-        "US",
-        "this"
-      ],
-      "at": "2026-10-13T05:24:41.360993+00:00"
-    },
     {
       "fp": [
         "$378",
@@ -1013,10 +1008,19 @@
         "trump"
       ],
       "at": "2026-10-14T09:02:41.576452+00:00"
+    },
+    {
+      "fp": [
+        "$96",
+        "US",
+        "nasdaq",
+        "treasury",
+        "yields"
+      ],
+      "at": "2026-10-15T00:03:44.811680+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 JUST IN: Crypto ETFs see massive OUTFLOWS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Bank of America ($BAC) fined $1.2\u202fB for money\u2011laundering violations, echoing Senator Elizabeth Warren\u2019s crypto\u2011sanction warnings. The penalty hits the bank\u2019s compliance budget hard, showing regulators tightening the net",
     "JUST IN: \ud83d\udea9 Corgi Invest launches MANGOS ETF $MN, holding 6 tech titans: Meta $Meta ($META), Anthropic, Nvidia $Nvidia ($NVDA), Google $Google ($GOOGL), OpenAI, SpaceX $SPCX. Market watchers: a concentrated 6\u2011stock play could spike volatility",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Trump admin orders regulators to withdraw $BILLION insider\u2011trading referral before Iran policy shift. On March\u202f23 traders bet billions that oil would tumble and stocks soar, 15\u202fmin before Trump said he\u2019d halt the Iran deal",
@@ -1030,6 +1034,7 @@
     "\ud83d\udea8 BREAKING: Russia launches LARGEST combined missile/drone ATTACK on Ukraine.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Strive, Inc., Inc., Inc., Inc. just bought $275 MILLION in Bitcoin! \ud83d\ude80",
     "\ud83d\udea8 BREAKING: UK stages Falklands WAR GAME as Argentina PRESSURE builds.",
-    "JUST IN: \ud83d\udea9 Oil prices up, IMF warns bond yields, but markets stay calm. Investors shrug at higher oil and bond yields; risk appetite holds. Markets assume no major Middle East flare before the US midterm elections, backed by President Trump\u2019s reassurance that strikes on Iran will not resume"
+    "JUST IN: \ud83d\udea9 Oil prices up, IMF warns bond yields, but markets stay calm. Investors shrug at higher oil and bond yields; risk appetite holds. Markets assume no major Middle East flare before the US midterm elections, backed by President Trump\u2019s reassurance that strikes on Iran will not resume",
+    "BREAKING: \ud83d\udea9 Nasdaq 100 slides -1.6% as oil tops $96/barrel and Treasury yields rise on hot inflation data."
   ]
 }
