@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "45f2f7f4666dbaa1",
-    "fb_id": "1264009986803820_122124799119472689",
-    "title": "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions.",
-    "link": "https://x.com/WatcherGuru/status/2110743053572923686",
+    "hash": "e910e087e3f05243",
+    "fb_id": "1264009986803820_122124805125472689",
+    "title": "JUST IN: Bitcoin 'Fear & Greed Index' falls to 53 'Neutral' from its 2026 high of 73 'greed' 10 days ago.",
+    "link": "https://x.com/WatcherGuru/status/2110737044146454868",
     "mode": "viral",
-    "at": "2026-10-16T03:12:09.336909+00:00"
+    "at": "2026-10-16T03:44:02.703755+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -207,6 +207,7 @@
     "e1e01a772ebf9745",
     "e4ddbb5bfc5310e3",
     "e8db4b728ba26ead",
+    "e910e087e3f05243",
     "e9339d6ea619a42d",
     "e9e2a2671f5985e3",
     "eacc6893c16ea1dc",
@@ -234,10 +235,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 7
+    "2026-10-16": 8
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes another 7% today.",
     "Bitcoin is back below $81,000 as Fed rate uncertainty weighs. Kospi plunges 8%",
     "Digital Credit, powered by Bitcoin. Our most senior preferred stock, $STRF (\u201cStrife\u201d), explained in three minutes.",
     "The Trump administration is considering easing sanctions on shadow fleet tankers previously used to transport Russian, Iranian and Venezuelan oil to reduce record-high shipping costs. The proposal ...",
@@ -251,20 +251,10 @@
     "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange.",
     "Working out how best to use AI in mathematics research\u2014and in science more generally\u2014will take time, effort, and resources. We\u2019re eager to support mathematicians as they drive scientific progress a...",
     "JUST IN: OpenAI says its AI agent stole funds from an Ethereum test network wallet it found online. The agent found a recovery seed phrase disclosed publicly with testnet funds and used that accoun...",
-    "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions."
+    "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions.",
+    "JUST IN: Bitcoin 'Fear & Greed Index' falls to 53 'Neutral' from its 2026 high of 73 'greed' 10 days ago."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123626887472689",
-      "topics": [
-        "crypto",
-        "gold_oil",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "split:logo",
-      "at": "2026-10-13T01:02:10.808496+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123635293472689",
       "topics": [
@@ -736,6 +726,15 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-16T03:12:09.336909+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124805125472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-16T03:44:02.703755+00:00"
     }
   ],
   "tuner": {
@@ -757,17 +756,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "SK",
-        "asia",
-        "fed",
-        "hynix",
-        "thursday"
-      ],
-      "at": "2026-10-15T01:02:27.662029+00:00"
-    },
     {
       "fp": [
         "$800",
@@ -999,10 +987,21 @@
         "wall"
       ],
       "at": "2026-10-16T03:12:09.336898+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "bitcoin",
+        "fear",
+        "greed",
+        "index",
+        "neutral"
+      ],
+      "at": "2026-10-16T03:44:02.703742+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\udfc1 Over $485M in crypto positions liquidated in the past hour, nearly $465M of them longs, as bitcoin:native slipped below $81K. Market volatility spikes, risking leveraged traders. Watch the odds shift. #ethancole #crypto #bitcoin #marketnews #investing #finance",
     "BREAKING: NIKKEI CRASHES 3.5% AS FED RATE HIKES FEAR GROWS \ud83d\udea9",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES ANOTHER 7% TODAY",
     "\ud83d\udea8 JUST IN: BITCOIN PLUNGES below $81,000.",
@@ -1016,6 +1015,7 @@
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\u2696\ufe0f Judge blocks Gemini & CFTC move to ditch $5M Biden penalty against Winklevoss\u2011led exchange.",
     "JUST IN: ANTHROPIC AI drops $5\u202fM to power math research, backing Claude for the future of science. Partnering with Simon to build tools. The move signals a new era where AI fuels breakthroughs, but it also demands massive compute and careful governance",
     "JUST IN: \ud83d\udea8 OPENAI'S AI AGENT STOLEN FUNDS FROM ETHEREUM TESTNET WALLET",
-    "JUST IN: \ud83d\udea8 Ripple launches 24/7 perpetual futures for Wall Street institutions. The move gives hedge funds around\u2011the\u2011clock liquidity and eliminates daily resets. Why it matters: instant crypto exposure hedging. Will other exchanges follow, or regulators step in? #ethancole #finance #stockmarket #technews #breakingnews"
+    "JUST IN: \ud83d\udea8 Ripple launches 24/7 perpetual futures for Wall Street institutions. The move gives hedge funds around\u2011the\u2011clock liquidity and eliminates daily resets. Why it matters: instant crypto exposure hedging. Will other exchanges follow, or regulators step in? #ethancole #finance #stockmarket #technews #breakingnews",
+    "JUST IN: \ud83c\udfc1 Bitcoin 'Fear & Greed Index' slides to 53 'Neutral' from 73 'Greed' 10 days ago. Market eyes on this shift as sentiment swings back to the middle. The index fell 20 points in under two weeks. Why it matters? Neutral mood may prelude a rally or dip. Will $BTC break out or slide into fear? #ethancole #crypto #bitcoin #finance #breakingnews"
   ]
 }
