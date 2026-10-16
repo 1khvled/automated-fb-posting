@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "d08268db4f781648",
-    "fb_id": "1264009986803820_122124848757472689",
-    "title": "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge",
-    "link": "https://www.cnbc.com/2026/10/16/marco-rubio-reliance-jamnagar-refinery.html",
+    "hash": "2555437bc3e1be4d",
+    "fb_id": "1264009986803820_122124863487472689",
+    "title": "\ud83d\udea8 LATEST: A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges. All the...",
+    "link": "https://x.com/Cointelegraph/status/2110989182508183916",
     "mode": "serious",
-    "at": "2026-10-16T06:52:16.459789+00:00"
+    "at": "2026-10-16T07:21:37.254311+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -52,6 +52,7 @@
     "240f0d6f2dd1ec84",
     "24629a86488d45a0",
     "2512ce2309eb0afd",
+    "2555437bc3e1be4d",
     "25d3e965ce6b33b2",
     "26bf9ea4ca410e54",
     "2839c0e8680cd401",
@@ -241,10 +242,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 14
+    "2026-10-16": 15
   },
   "recent_titles": [
-    "Anthropic flags revenue surge to investors ahead of stock market debut",
     "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Jap...",
     "BREAKING: Semiconductor stocks have now erased over -$2 trillion in market cap since October 6th. If the Semiconductor ETF, $SOXX, closes red today, it will mark the sector's 8th-straight daily los...",
     "Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model Muse Spark Open (xhig...",
@@ -258,18 +258,10 @@
     "Inflation update: 1. US CPI Inflation: Up to 3.7%, nearly 2x Fed's target 2. US PPI Inflation: Up to 6.3%, over 3x Fed's target 3. US Core PPI Inflation: Up to 5.0%, 2.5x Fed's target 4. US PCE Inf...",
     "Ship attack reports near Hormuz reach record high as oil exports slow",
     "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity.",
-    "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge"
+    "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge",
+    "\ud83d\udea8 LATEST: A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges. All the..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123685573472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-13T04:52:30.054162+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123693385472689",
       "topics": [
@@ -740,6 +732,15 @@
       "mode": "serious",
       "photo": "split:flag+face",
       "at": "2026-10-16T06:52:16.459789+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124863487472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-16T07:21:37.254311+00:00"
     }
   ],
   "tuner": {
@@ -761,17 +762,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "STRF",
-        "bitcoin",
-        "credit",
-        "digital",
-        "our",
-        "strife"
-      ],
-      "at": "2026-10-15T04:52:27.416126+00:00"
-    },
     {
       "fp": [
         "iranian",
@@ -1007,10 +997,26 @@
         "venezuelan"
       ],
       "at": "2026-10-16T06:52:16.459775+00:00"
+    },
+    {
+      "fp": [
+        "$4.8",
+        "ETF",
+        "LATEST",
+        "all",
+        "asia",
+        "bitcoin",
+        "ether",
+        "express",
+        "korea",
+        "ledgers",
+        "south",
+        "thailand"
+      ],
+      "at": "2026-10-16T07:21:37.254300+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 BREAKING: Bank of America ($BAC) stock PLUNGES -8% after $1.2 BILLION fine.",
     "JUST IN: \ud83d\udcc8 Anthropic flags REVENUE SURGE to investors.",
     "BREAKING: \ud83d\udea9 Semiconductor stocks have erased over $2 trillion in market cap since Oct\u202f6.",
     "JUST IN: \ud83d\udea9 Meta drops Muse Spark Open, an 816B (42B active) open\u2011weights model that scores 39 on the AI Index, topping the US open\u2011weights leaderboard. It outpaces Nvidia's Nemotron 3.5 Super VL (26) and Meta's own 30B Glimmer (17)",
@@ -1024,6 +1030,7 @@
     "JUST IN: \ud83d\udea9 INFLATION OUTRUNS FED'S TARGET, OIL SKYROCKETS",
     "JUST IN: \ud83d\udea9 12 vessels hit in a single week near Hormuz \u2013 the highest in recent history, cutting oil exports. UK maritime data shows tankers, rigs, and cargo ships all struck. Why it matters: a 12\u2011strike week could push WTI above $90 a barrel. #ethancole #oil #hormuz #marketnews #breakingnews #finance",
     "\ud83d\udea8 JUST IN: Ledger launches $899 crypto SECURITY device.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Marco Rubio lands in Gujarat to tour Ambani's diesel powerhouse as U.S. diesel prices surge. Reliance\u2019s U.S. refinery investment and Venezuelan oil buys keep Jamnagar buzzing. On Oct\u202f16,\u202f2026 Rubio\u2019s visit highlights cross\u2011border fuel ties. Why it matters: fuels market volatility. #ethancole #ai #technews #finance #marketnews"
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Marco Rubio lands in Gujarat to tour Ambani's diesel powerhouse as U.S. diesel prices surge. Reliance\u2019s U.S. refinery investment and Venezuelan oil buys keep Jamnagar buzzing. On Oct\u202f16,\u202f2026 Rubio\u2019s visit highlights cross\u2011border fuel ties. Why it matters: fuels market volatility. #ethancole #ai #technews #finance #marketnews",
+    "\ud83d\udea8 JUST IN: Scammer LOST $4.8M of stolen crypto."
   ]
 }
