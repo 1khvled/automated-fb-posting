@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "34b84d553010afb2",
-    "fb_id": "1264009986803820_122124780519472689",
-    "title": "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange.",
-    "link": "https://x.com/Cointelegraph/status/2110891060570320917",
-    "mode": "serious",
-    "at": "2026-10-16T01:42:08.123619+00:00"
+    "hash": "2b76f5d27278ae96",
+    "fb_id": "1264009986803820_122124787029472689",
+    "title": "Working out how best to use AI in mathematics research\u2014and in science more generally\u2014will take time, effort, and resources. We\u2019re eager to support mathematicians as they drive scientific progress a...",
+    "link": "https://x.com/AnthropicAI/status/2110846112152105136",
+    "mode": "viral",
+    "at": "2026-10-16T02:13:20.893030+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -57,6 +57,7 @@
     "29c4d0c4decaa67c",
     "29ec1e6d5581205f",
     "2a6f98175be395ca",
+    "2b76f5d27278ae96",
     "2bbf1d770e89e3e5",
     "2d63a9f4c47e07bc",
     "2f82b7d57908eb27",
@@ -231,10 +232,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 4
+    "2026-10-16": 5
   },
   "recent_titles": [
-    "ECB's Santos Pereira: If inflation widens, central banks will be compelled to respond",
     "\ud83d\udea8 JUST IN: Over $485M in crypto positions were liquidated in the past hour, nearly $465M of them longs, as bitcoin:native fell briefly below $81K.",
     "JAPAN\u2019S NIKKEI PLUNGES 3.5% AS FED RATE HIKE FEARS GROW Japanese stocks tumbled after hotter-than-expected U.S. inflation fueled expectations of higher interest rates. The Nikkei fell 3.5%, led by ...",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes another 7% today.",
@@ -248,18 +248,10 @@
     "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Jap...",
     "BREAKING: Semiconductor stocks have now erased over -$2 trillion in market cap since October 6th. If the Semiconductor ETF, $SOXX, closes red today, it will mark the sector's 8th-straight daily los...",
     "Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model Muse Spark Open (xhig...",
-    "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange."
+    "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange.",
+    "Working out how best to use AI in mathematics research\u2014and in science more generally\u2014will take time, effort, and resources. We\u2019re eager to support mathematicians as they drive scientific progress a..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123273445472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-12T07:12:09.774797+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123611359472689",
       "topics": [
@@ -732,6 +724,15 @@
       "mode": "serious",
       "photo": "split:face+inst",
       "at": "2026-10-16T01:42:08.123619+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124787029472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "photo": "split:logo",
+      "at": "2026-10-16T02:13:20.893030+00:00"
     }
   ],
   "tuner": {
@@ -753,23 +754,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "FX",
-        "IMF",
-        "US",
-        "credit",
-        "despite",
-        "east",
-        "iran",
-        "markets",
-        "middle",
-        "president",
-        "risk",
-        "trump"
-      ],
-      "at": "2026-10-14T09:02:41.576452+00:00"
-    },
     {
       "fp": [
         "$96",
@@ -1002,10 +986,19 @@
         "winklevoss"
       ],
       "at": "2026-10-16T01:42:08.123604+00:00"
+    },
+    {
+      "fp": [
+        "$5",
+        "AI",
+        "claude",
+        "simon",
+        "working"
+      ],
+      "at": "2026-10-16T02:13:20.893022+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udea8 SK Hynix shares PLUNGE 10%.",
     "\ud83d\udea8 BREAKING: S&P 500 sees WORST day since July 29th, -$800 BILLION wiped.",
     "BREAKING: \ud83d\udea9 ECB warns inflation widening forces central banks to act",
     "JUST IN: \ud83c\udfc1 Over $485M in crypto positions liquidated in the past hour, nearly $465M of them longs, as bitcoin:native slipped below $81K. Market volatility spikes, risking leveraged traders. Watch the odds shift. #ethancole #crypto #bitcoin #marketnews #investing #finance",
@@ -1019,6 +1012,7 @@
     "JUST IN: \ud83d\udcc8 Anthropic flags REVENUE SURGE to investors.",
     "BREAKING: \ud83d\udea9 Semiconductor stocks have erased over $2 trillion in market cap since Oct\u202f6.",
     "JUST IN: \ud83d\udea9 Meta drops Muse Spark Open, an 816B (42B active) open\u2011weights model that scores 39 on the AI Index, topping the US open\u2011weights leaderboard. It outpaces Nvidia's Nemotron 3.5 Super VL (26) and Meta's own 30B Glimmer (17)",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8\u2696\ufe0f Judge blocks Gemini & CFTC move to ditch $5M Biden penalty against Winklevoss\u2011led exchange."
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8\u2696\ufe0f Judge blocks Gemini & CFTC move to ditch $5M Biden penalty against Winklevoss\u2011led exchange.",
+    "JUST IN: ANTHROPIC AI drops $5\u202fM to power math research, backing Claude for the future of science. Partnering with Simon to build tools. The move signals a new era where AI fuels breakthroughs, but it also demands massive compute and careful governance"
   ]
 }
