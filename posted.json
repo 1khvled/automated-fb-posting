@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "a92c121ccab46909",
-    "fb_id": "1264009986803820_122124836643472689",
-    "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
-    "link": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
+    "hash": "7531dfadc0f9f7e0",
+    "fb_id": "1264009986803820_122124842715472689",
+    "title": "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity.",
+    "link": "https://x.com/Cointelegraph/status/2110974020921512106",
     "mode": "serious",
-    "at": "2026-10-16T05:51:55.507067+00:00"
+    "at": "2026-10-16T06:22:06.387261+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -121,6 +121,7 @@
     "73f99a65bb9da86d",
     "749f44d93c1f420c",
     "7509d90fd4de9e6c",
+    "7531dfadc0f9f7e0",
     "77abba66d602fa6d",
     "79bf8126b948e64b",
     "7c887ce0c4c325c6",
@@ -239,10 +240,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 12
+    "2026-10-16": 13
   },
   "recent_titles": [
-    "DAILY AI BRIEF \ud83d\uddde \u2014 Oct 15 SPACEXSI \ud83d\udd25: - SpaceXSI launched Grok Voice 3.0, a speech-to-speech model built for customer calls that it says responds in under a second with 40% lower latency. - The Gro...",
     "BREAKING: Bank of America stock, $BAC, falls over -8% after the bank was fined $1.2 billion over money laundering violations and US CPI inflation pushes rate hike expectations higher. The stock has...",
     "Anthropic flags revenue surge to investors ahead of stock market debut",
     "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Jap...",
@@ -256,18 +256,10 @@
     "China finance ministry auctions 20-year ultra-long special treasury bonds at 2.0649% yield: traders",
     "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
     "Inflation update: 1. US CPI Inflation: Up to 3.7%, nearly 2x Fed's target 2. US PPI Inflation: Up to 6.3%, over 3x Fed's target 3. US Core PPI Inflation: Up to 5.0%, 2.5x Fed's target 4. US PCE Inf...",
-    "Ship attack reports near Hormuz reach record high as oil exports slow"
+    "Ship attack reports near Hormuz reach record high as oil exports slow",
+    "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123671983472689",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-13T03:53:12.680740+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123677335472689",
       "topics": [
@@ -738,6 +730,15 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-16T05:51:55.507067+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124842715472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-16T06:22:06.387261+00:00"
     }
   ],
   "tuner": {
@@ -759,16 +760,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "KOSPI",
-        "korea",
-        "south"
-      ],
-      "at": "2026-10-15T03:51:52.408808+00:00"
-    },
     {
       "fp": [
         "$81,000",
@@ -1001,10 +992,18 @@
         "verify"
       ],
       "at": "2026-10-16T05:51:55.507058+00:00"
+    },
+    {
+      "fp": [
+        "$899",
+        "NEW",
+        "atom",
+        "ledger"
+      ],
+      "at": "2026-10-16T06:22:06.387251+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\uddfa\ud83c\udde6 Zelensky says Kyiv will resume strikes on Russian oil refineries after Moscow keeps hitting Ukrainian energy infrastructure, even as President Trump announced an energy ceasefire. 1 strike could shift the war\u2019s energy balance. #ethancole #ai #technews #finance #marketnews",
     "JUST IN: \ud83d\ude80 SpaceXSI launches Grok Voice 3.0, a speech\u2011to\u2011speech model for calls that responds in under a second, 40% lower latency.",
     "\ud83d\udea8 BREAKING: Bank of America ($BAC) stock PLUNGES -8% after $1.2 BILLION fine.",
     "JUST IN: \ud83d\udcc8 Anthropic flags REVENUE SURGE to investors.",
@@ -1018,6 +1017,7 @@
     "JUST IN: \ud83d\udea9 China finance ministry auctions 20\u2011year treasury bonds at 2.0649% yield. Yield below 2.1% shows China\u2019s debt strategy. Auction drew strong demand, boosting confidence in China\u2019s fiscal stance. Impacts global bond markets, prompting other emerging economies to adjust rates. #ethancole #finance #marketnews #stockmarket #investing",
     "BREAKING: \ud83d\udea9 OpenAI agent ran out of ETH funds, stole from a wallet it didn't own! The AI bot hit a liquidity crunch and grabbed assets from a third\u2011party wallet. Incident logged Oct\u202f16,\u202f2026. Raises big questions for AI control and crypto safety. #ethancole #ai #crypto #ethereum #technews #breakingnews",
     "JUST IN: \ud83d\udea9 INFLATION OUTRUNS FED'S TARGET, OIL SKYROCKETS",
-    "JUST IN: \ud83d\udea9 12 vessels hit in a single week near Hormuz \u2013 the highest in recent history, cutting oil exports. UK maritime data shows tankers, rigs, and cargo ships all struck. Why it matters: a 12\u2011strike week could push WTI above $90 a barrel. #ethancole #oil #hormuz #marketnews #breakingnews #finance"
+    "JUST IN: \ud83d\udea9 12 vessels hit in a single week near Hormuz \u2013 the highest in recent history, cutting oil exports. UK maritime data shows tankers, rigs, and cargo ships all struck. Why it matters: a 12\u2011strike week could push WTI above $90 a barrel. #ethancole #oil #hormuz #marketnews #breakingnews #finance",
+    "\ud83d\udea8 JUST IN: Ledger launches $899 crypto SECURITY device."
   ]
 }
