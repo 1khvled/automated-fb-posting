@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "e910e087e3f05243",
-    "fb_id": "1264009986803820_122124805125472689",
-    "title": "JUST IN: Bitcoin 'Fear & Greed Index' falls to 53 'Neutral' from its 2026 high of 73 'greed' 10 days ago.",
-    "link": "https://x.com/WatcherGuru/status/2110737044146454868",
-    "mode": "viral",
-    "at": "2026-10-16T03:44:02.703755+00:00"
+    "hash": "a9d96bf57d206353",
+    "fb_id": "1264009986803820_122124811125472689",
+    "title": "China finance ministry auctions 20-year ultra-long special treasury bonds at 2.0649% yield: traders",
+    "link": "https://www.financialjuice.com/News/9808112/China-finance-ministry-auctions-20-year-ultra-long-special-treasury-bonds-at-20649-yield-traders.aspx?xy=rss",
+    "mode": "serious",
+    "at": "2026-10-16T04:13:47.931049+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -164,6 +164,7 @@
     "a3a826e937ac0d6c",
     "a61476413f0f9565",
     "a7782c3d8ef265c3",
+    "a9d96bf57d206353",
     "a9eab993ee21cbc4",
     "aa4543247334ecdc",
     "acb0acd96b4822ea",
@@ -235,10 +236,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 8
+    "2026-10-16": 9
   },
   "recent_titles": [
-    "Bitcoin is back below $81,000 as Fed rate uncertainty weighs. Kospi plunges 8%",
     "Digital Credit, powered by Bitcoin. Our most senior preferred stock, $STRF (\u201cStrife\u201d), explained in three minutes.",
     "The Trump administration is considering easing sanctions on shadow fleet tankers previously used to transport Russian, Iranian and Venezuelan oil to reduce record-high shipping costs. The proposal ...",
     "BIG: Zelensky says Kyiv will resume strikes on Russian oil refineries after Moscow continued attacking Ukrainian energy infrastructure despite Trump's announced energy ceasefire. Source: FT",
@@ -252,18 +252,10 @@
     "Working out how best to use AI in mathematics research\u2014and in science more generally\u2014will take time, effort, and resources. We\u2019re eager to support mathematicians as they drive scientific progress a...",
     "JUST IN: OpenAI says its AI agent stole funds from an Ethereum test network wallet it found online. The agent found a recovery seed phrase disclosed publicly with testnet funds and used that accoun...",
     "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions.",
-    "JUST IN: Bitcoin 'Fear & Greed Index' falls to 53 'Neutral' from its 2026 high of 73 'greed' 10 days ago."
+    "JUST IN: Bitcoin 'Fear & Greed Index' falls to 53 'Neutral' from its 2026 high of 73 'greed' 10 days ago.",
+    "China finance ministry auctions 20-year ultra-long special treasury bonds at 2.0649% yield: traders"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123635293472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "split:face+logo",
-      "at": "2026-10-13T01:32:43.951938+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123642421472689",
       "topics": [
@@ -735,6 +727,15 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-16T03:44:02.703755+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124811125472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-16T04:13:47.931049+00:00"
     }
   ],
   "tuner": {
@@ -756,16 +757,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "$800",
-        "US",
-        "fed",
-        "inflation",
-        "july"
-      ],
-      "at": "2026-10-15T01:31:56.835217+00:00"
-    },
     {
       "fp": [
         "ECB",
@@ -999,10 +990,15 @@
         "neutral"
       ],
       "at": "2026-10-16T03:44:02.703742+00:00"
+    },
+    {
+      "fp": [
+        "china"
+      ],
+      "at": "2026-10-16T04:13:47.931040+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: NIKKEI CRASHES 3.5% AS FED RATE HIKES FEAR GROWS \ud83d\udea9",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES ANOTHER 7% TODAY",
     "\ud83d\udea8 JUST IN: BITCOIN PLUNGES below $81,000.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 Trump eyes easing sanctions on shadow fleet tankers to cut record\u2011high shipping costs. The plan would let sanctioned vessels carry non\u2011sanctioned oil with Treasury approval, but officials say it won\u2019t boost Russian exports. 2024",
@@ -1016,6 +1012,7 @@
     "JUST IN: ANTHROPIC AI drops $5\u202fM to power math research, backing Claude for the future of science. Partnering with Simon to build tools. The move signals a new era where AI fuels breakthroughs, but it also demands massive compute and careful governance",
     "JUST IN: \ud83d\udea8 OPENAI'S AI AGENT STOLEN FUNDS FROM ETHEREUM TESTNET WALLET",
     "JUST IN: \ud83d\udea8 Ripple launches 24/7 perpetual futures for Wall Street institutions. The move gives hedge funds around\u2011the\u2011clock liquidity and eliminates daily resets. Why it matters: instant crypto exposure hedging. Will other exchanges follow, or regulators step in? #ethancole #finance #stockmarket #technews #breakingnews",
-    "JUST IN: \ud83c\udfc1 Bitcoin 'Fear & Greed Index' slides to 53 'Neutral' from 73 'Greed' 10 days ago. Market eyes on this shift as sentiment swings back to the middle. The index fell 20 points in under two weeks. Why it matters? Neutral mood may prelude a rally or dip. Will $BTC break out or slide into fear? #ethancole #crypto #bitcoin #finance #breakingnews"
+    "JUST IN: \ud83c\udfc1 Bitcoin 'Fear & Greed Index' slides to 53 'Neutral' from 73 'Greed' 10 days ago. Market eyes on this shift as sentiment swings back to the middle. The index fell 20 points in under two weeks. Why it matters? Neutral mood may prelude a rally or dip. Will $BTC break out or slide into fear? #ethancole #crypto #bitcoin #finance #breakingnews",
+    "JUST IN: \ud83d\udea9 China finance ministry auctions 20\u2011year treasury bonds at 2.0649% yield. Yield below 2.1% shows China\u2019s debt strategy. Auction drew strong demand, boosting confidence in China\u2019s fiscal stance. Impacts global bond markets, prompting other emerging economies to adjust rates. #ethancole #finance #marketnews #stockmarket #investing"
   ]
 }
