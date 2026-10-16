@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "f34ea8d2b87d4290",
-    "fb_id": "1264009986803820_122124773985472689",
-    "title": "Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model Muse Spark Open (xhig...",
-    "link": "https://x.com/ArtificialAnlys/status/2110893784422908225",
+    "hash": "34b84d553010afb2",
+    "fb_id": "1264009986803820_122124780519472689",
+    "title": "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange.",
+    "link": "https://x.com/Cointelegraph/status/2110891060570320917",
     "mode": "serious",
-    "at": "2026-10-16T01:11:43.896947+00:00"
+    "at": "2026-10-16T01:42:08.123619+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -65,6 +65,7 @@
     "321b0f3bbbfcc499",
     "334c8b5f3a1b20db",
     "33cee8ad7b0e1683",
+    "34b84d553010afb2",
     "352579361ebc4eef",
     "3798774b8ed68fb4",
     "391341aa32b1abfc",
@@ -230,10 +231,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 3
+    "2026-10-16": 4
   },
   "recent_titles": [
-    "BREAKING: The S&P 500 officially posts its worst day since July 29th, erasing -$800 billion of market cap. Inflation is rising again in the US, now nearly double the Fed's long-term target.",
     "ECB's Santos Pereira: If inflation widens, central banks will be compelled to respond",
     "\ud83d\udea8 JUST IN: Over $485M in crypto positions were liquidated in the past hour, nearly $465M of them longs, as bitcoin:native fell briefly below $81K.",
     "JAPAN\u2019S NIKKEI PLUNGES 3.5% AS FED RATE HIKE FEARS GROW Japanese stocks tumbled after hotter-than-expected U.S. inflation fueled expectations of higher interest rates. The Nikkei fell 3.5%, led by ...",
@@ -247,18 +247,10 @@
     "Anthropic flags revenue surge to investors ahead of stock market debut",
     "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Jap...",
     "BREAKING: Semiconductor stocks have now erased over -$2 trillion in market cap since October 6th. If the Semiconductor ETF, $SOXX, closes red today, it will mark the sector's 8th-straight daily los...",
-    "Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model Muse Spark Open (xhig..."
+    "Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model Muse Spark Open (xhig...",
+    "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123264559472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "split:face+logo",
-      "at": "2026-10-12T06:41:18.444941+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123273445472689",
       "topics": [
@@ -729,6 +721,17 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-16T01:11:43.896947+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124780519472689",
+      "topics": [
+        "ai",
+        "crypto",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:face+inst",
+      "at": "2026-10-16T01:42:08.123619+00:00"
     }
   ],
   "tuner": {
@@ -750,24 +753,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "NEW",
-        "PARA",
-        "about",
-        "argentina",
-        "britain",
-        "carlos",
-        "falklands",
-        "goose",
-        "green",
-        "one",
-        "san",
-        "they",
-        "typhoon"
-      ],
-      "at": "2026-10-14T08:32:17.297491+00:00"
-    },
     {
       "fp": [
         "FX",
@@ -1006,10 +991,20 @@
         "super"
       ],
       "at": "2026-10-16T01:11:43.896932+00:00"
+    },
+    {
+      "fp": [
+        "$5",
+        "CFTC",
+        "LATEST",
+        "biden",
+        "gemini",
+        "winklevoss"
+      ],
+      "at": "2026-10-16T01:42:08.123604+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udea8 Anthropic Q3 2026 REVENUE hits $16.8 BILLION, up nearly +50%.",
     "BREAKING: \ud83d\udea8 SK Hynix shares PLUNGE 10%.",
     "\ud83d\udea8 BREAKING: S&P 500 sees WORST day since July 29th, -$800 BILLION wiped.",
     "BREAKING: \ud83d\udea9 ECB warns inflation widening forces central banks to act",
@@ -1023,6 +1018,7 @@
     "\ud83d\udea8 BREAKING: Bank of America ($BAC) stock PLUNGES -8% after $1.2 BILLION fine.",
     "JUST IN: \ud83d\udcc8 Anthropic flags REVENUE SURGE to investors.",
     "BREAKING: \ud83d\udea9 Semiconductor stocks have erased over $2 trillion in market cap since Oct\u202f6.",
-    "JUST IN: \ud83d\udea9 Meta drops Muse Spark Open, an 816B (42B active) open\u2011weights model that scores 39 on the AI Index, topping the US open\u2011weights leaderboard. It outpaces Nvidia's Nemotron 3.5 Super VL (26) and Meta's own 30B Glimmer (17)"
+    "JUST IN: \ud83d\udea9 Meta drops Muse Spark Open, an 816B (42B active) open\u2011weights model that scores 39 on the AI Index, topping the US open\u2011weights leaderboard. It outpaces Nvidia's Nemotron 3.5 Super VL (26) and Meta's own 30B Glimmer (17)",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8\u2696\ufe0f Judge blocks Gemini & CFTC move to ditch $5M Biden penalty against Winklevoss\u2011led exchange."
   ]
 }
