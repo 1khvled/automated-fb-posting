@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "f7d8a64c969260f9",
-    "fb_id": "1400227558813089",
-    "title": "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Jap...",
-    "link": "https://x.com/OpenAI/status/2110797830361436604",
+    "hash": "240f0d6f2dd1ec84",
+    "fb_id": "1264009986803820_122124770289472689",
+    "title": "BREAKING: Semiconductor stocks have now erased over -$2 trillion in market cap since October 6th. If the Semiconductor ETF, $SOXX, closes red today, it will mark the sector's 8th-straight daily los...",
+    "link": "https://x.com/KobeissiLetter/status/2110793326190600267",
     "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-16T00:02:48.427245+00:00"
+    "at": "2026-10-16T00:43:23.553298+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -49,6 +48,7 @@
     "22d5c45b7327d829",
     "23b87ba2a601b4f6",
     "240cca53e4daffc5",
+    "240f0d6f2dd1ec84",
     "24629a86488d45a0",
     "2512ce2309eb0afd",
     "25d3e965ce6b33b2",
@@ -229,10 +229,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 1
+    "2026-10-16": 2
   },
   "recent_titles": [
-    "BREAKING: Anthropic posted Q3 2026 revenue of $16.8 billion, up nearly +50% from the $11.5 billion recorded in prior quarter, per FT. Anthropic also told investors that it posted a profit for the q...",
     "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
     "BREAKING: The S&P 500 officially posts its worst day since July 29th, erasing -$800 billion of market cap. Inflation is rising again in the US, now nearly double the Fed's long-term target.",
     "ECB's Santos Pereira: If inflation widens, central banks will be compelled to respond",
@@ -246,20 +245,10 @@
     "DAILY AI BRIEF \ud83d\uddde \u2014 Oct 15 SPACEXSI \ud83d\udd25: - SpaceXSI launched Grok Voice 3.0, a speech-to-speech model built for customer calls that it says responds in under a second with 40% lower latency. - The Gro...",
     "BREAKING: Bank of America stock, $BAC, falls over -8% after the bank was fined $1.2 billion over money laundering violations and US CPI inflation pushes rate hike expectations higher. The stock has...",
     "Anthropic flags revenue surge to investors ahead of stock market debut",
-    "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Jap..."
+    "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Jap...",
+    "BREAKING: Semiconductor stocks have now erased over -$2 trillion in market cap since October 6th. If the Semiconductor ETF, $SOXX, closes red today, it will mark the sector's 8th-straight daily los..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123248293472689",
-      "topics": [
-        "fed",
-        "gold_oil",
-        "inflation"
-      ],
-      "mode": "viral",
-      "photo": "split:face+inst",
-      "at": "2026-10-12T05:31:48.223597+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123259087472689",
       "topics": [
@@ -730,6 +719,17 @@
       ],
       "mode": "viral",
       "at": "2026-10-16T00:02:48.427245+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124770289472689",
+      "topics": [
+        "ai",
+        "crypto",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-16T00:43:23.553298+00:00"
     }
   ],
   "tuner": {
@@ -751,18 +751,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "CHP",
-        "ballistic",
-        "darnytska",
-        "kharkiv",
-        "kyiv",
-        "russia",
-        "ukraine"
-      ],
-      "at": "2026-10-14T07:32:53.920891+00:00"
-    },
     {
       "fp": [
         "$275",
@@ -1000,10 +988,19 @@
         "voice"
       ],
       "at": "2026-10-16T00:02:48.427234+00:00"
+    },
+    {
+      "fp": [
+        "$2",
+        "ETF",
+        "SOXX",
+        "october",
+        "semiconductor"
+      ],
+      "at": "2026-10-16T00:43:23.553277+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 Oil prices up, IMF warns bond yields, but markets stay calm. Investors shrug at higher oil and bond yields; risk appetite holds. Markets assume no major Middle East flare before the US midterm elections, backed by President Trump\u2019s reassurance that strikes on Iran will not resume",
     "BREAKING: \ud83d\udea9 Nasdaq 100 slides -1.6% as oil tops $96/barrel and Treasury yields rise on hot inflation data.",
     "BREAKING: \ud83d\udea8 Anthropic Q3 2026 REVENUE hits $16.8 BILLION, up nearly +50%.",
     "BREAKING: \ud83d\udea8 SK Hynix shares PLUNGE 10%.",
@@ -1017,6 +1014,7 @@
     "BREAKING: \ud83c\uddfa\ud83c\udde6 Zelensky says Kyiv will resume strikes on Russian oil refineries after Moscow keeps hitting Ukrainian energy infrastructure, even as President Trump announced an energy ceasefire. 1 strike could shift the war\u2019s energy balance. #ethancole #ai #technews #finance #marketnews",
     "JUST IN: \ud83d\ude80 SpaceXSI launches Grok Voice 3.0, a speech\u2011to\u2011speech model for calls that responds in under a second, 40% lower latency.",
     "\ud83d\udea8 BREAKING: Bank of America ($BAC) stock PLUNGES -8% after $1.2 BILLION fine.",
-    "JUST IN: \ud83d\udcc8 Anthropic flags REVENUE SURGE to investors."
+    "JUST IN: \ud83d\udcc8 Anthropic flags REVENUE SURGE to investors.",
+    "BREAKING: \ud83d\udea9 Semiconductor stocks have erased over $2 trillion in market cap since Oct\u202f6."
   ]
 }
