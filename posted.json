@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "3d1734b53ce94a08",
-    "fb_id": "1264009986803820_122124505923472689",
-    "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
-    "link": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
-    "mode": "serious",
-    "at": "2026-10-15T07:41:28.149118+00:00"
+    "hash": "f7d8a64c969260f9",
+    "fb_id": "1400227558813089",
+    "title": "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Jap...",
+    "link": "https://x.com/OpenAI/status/2110797830361436604",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-10-16T00:02:48.427245+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -217,6 +218,7 @@
     "f657b460fe198b75",
     "f6ab0f1cbf1e0293",
     "f6d6a3d5a0a3a147",
+    "f7d8a64c969260f9",
     "f99897bde7abfc3a",
     "fa152430a72a73ba",
     "faa585879730d067",
@@ -225,12 +227,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-13": 15,
     "2026-10-14": 15,
-    "2026-10-15": 15
+    "2026-10-15": 15,
+    "2026-10-16": 1
   },
   "recent_titles": [
-    "BREAKING: The Nasdaq 100 extends losses to -1.6% on the day as US oil prices top $96/barrel and Treasury Yields rise on hot inflation data.",
     "BREAKING: Anthropic posted Q3 2026 revenue of $16.8 billion, up nearly +50% from the $11.5 billion recorded in prior quarter, per FT. Anthropic also told investors that it posted a profit for the q...",
     "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
     "BREAKING: The S&P 500 officially posts its worst day since July 29th, erasing -$800 billion of market cap. Inflation is rising again in the US, now nearly double the Fed's long-term target.",
@@ -244,19 +245,10 @@
     "BIG: Zelensky says Kyiv will resume strikes on Russian oil refineries after Moscow continued attacking Ukrainian energy infrastructure despite Trump's announced energy ceasefire. Source: FT",
     "DAILY AI BRIEF \ud83d\uddde \u2014 Oct 15 SPACEXSI \ud83d\udd25: - SpaceXSI launched Grok Voice 3.0, a speech-to-speech model built for customer calls that it says responds in under a second with 40% lower latency. - The Gro...",
     "BREAKING: Bank of America stock, $BAC, falls over -8% after the bank was fined $1.2 billion over money laundering violations and US CPI inflation pushes rate hike expectations higher. The stock has...",
-    "Anthropic flags revenue surge to investors ahead of stock market debut"
+    "Anthropic flags revenue surge to investors ahead of stock market debut",
+    "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Jap..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123241423472689",
-      "topics": [
-        "crypto",
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-12T05:01:48.510665+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123248293472689",
       "topics": [
@@ -730,12 +722,20 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-15T07:41:28.149118+00:00"
+    },
+    {
+      "fb_id": "1400227558813089",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-10-16T00:02:48.427245+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-15"
+    "updated": "2026-10-16"
   },
   "comment_review": {
     "posts": 8,
@@ -747,20 +747,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-15"
+    "updated": "2026-10-16"
   },
-  "last_video_post": "2026-10-15",
+  "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "bitcoin",
-        "michael",
-        "saylor"
-      ],
-      "at": "2026-10-14T07:03:37.573386+00:00"
-    },
     {
       "fp": [
         "CHP",
@@ -990,6 +980,26 @@
         "anthropic"
       ],
       "at": "2026-10-15T07:41:28.149108+00:00"
+    },
+    {
+      "fp": [
+        "API",
+        "GPT",
+        "better",
+        "codex",
+        "coming",
+        "french",
+        "german",
+        "hindi",
+        "jap",
+        "japanese",
+        "korean",
+        "mexican",
+        "rolling",
+        "spanish",
+        "voice"
+      ],
+      "at": "2026-10-16T00:02:48.427234+00:00"
     }
   ],
   "recent_hooks": [
