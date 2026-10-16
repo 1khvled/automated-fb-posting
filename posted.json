@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "7531dfadc0f9f7e0",
-    "fb_id": "1264009986803820_122124842715472689",
-    "title": "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity.",
-    "link": "https://x.com/Cointelegraph/status/2110974020921512106",
+    "hash": "d08268db4f781648",
+    "fb_id": "1264009986803820_122124848757472689",
+    "title": "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge",
+    "link": "https://www.cnbc.com/2026/10/16/marco-rubio-reliance-jamnagar-refinery.html",
     "mode": "serious",
-    "at": "2026-10-16T06:22:06.387261+00:00"
+    "at": "2026-10-16T06:52:16.459789+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -195,6 +195,7 @@
     "c623f18fc00030b7",
     "ce5020520f39e42f",
     "d0717b9d9191c46d",
+    "d08268db4f781648",
     "d1ada08f4696f8f6",
     "d248d07438581e6c",
     "d26034239bd1c674",
@@ -240,10 +241,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 13
+    "2026-10-16": 14
   },
   "recent_titles": [
-    "BREAKING: Bank of America stock, $BAC, falls over -8% after the bank was fined $1.2 billion over money laundering violations and US CPI inflation pushes rate hike expectations higher. The stock has...",
     "Anthropic flags revenue surge to investors ahead of stock market debut",
     "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Jap...",
     "BREAKING: Semiconductor stocks have now erased over -$2 trillion in market cap since October 6th. If the Semiconductor ETF, $SOXX, closes red today, it will mark the sector's 8th-straight daily los...",
@@ -257,19 +257,10 @@
     "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
     "Inflation update: 1. US CPI Inflation: Up to 3.7%, nearly 2x Fed's target 2. US PPI Inflation: Up to 6.3%, over 3x Fed's target 3. US Core PPI Inflation: Up to 5.0%, 2.5x Fed's target 4. US PCE Inf...",
     "Ship attack reports near Hormuz reach record high as oil exports slow",
-    "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity."
+    "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity.",
+    "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123677335472689",
-      "topics": [
-        "crypto",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-13T04:23:03.637130+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123685573472689",
       "topics": [
@@ -739,6 +730,16 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-16T06:22:06.387261+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124848757472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "split:flag+face",
+      "at": "2026-10-16T06:52:16.459789+00:00"
     }
   ],
   "tuner": {
@@ -760,15 +761,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "$81,000",
-        "bitcoin",
-        "fed",
-        "kospi"
-      ],
-      "at": "2026-10-15T04:22:27.993813+00:00"
-    },
     {
       "fp": [
         "STRF",
@@ -1001,10 +993,23 @@
         "ledger"
       ],
       "at": "2026-10-16T06:22:06.387251+00:00"
+    },
+    {
+      "fp": [
+        "ambani",
+        "gujarat",
+        "indian",
+        "jamnagar",
+        "marco",
+        "not",
+        "reliance",
+        "rubio",
+        "venezuelan"
+      ],
+      "at": "2026-10-16T06:52:16.459775+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\ude80 SpaceXSI launches Grok Voice 3.0, a speech\u2011to\u2011speech model for calls that responds in under a second, 40% lower latency.",
     "\ud83d\udea8 BREAKING: Bank of America ($BAC) stock PLUNGES -8% after $1.2 BILLION fine.",
     "JUST IN: \ud83d\udcc8 Anthropic flags REVENUE SURGE to investors.",
     "BREAKING: \ud83d\udea9 Semiconductor stocks have erased over $2 trillion in market cap since Oct\u202f6.",
@@ -1018,6 +1023,7 @@
     "BREAKING: \ud83d\udea9 OpenAI agent ran out of ETH funds, stole from a wallet it didn't own! The AI bot hit a liquidity crunch and grabbed assets from a third\u2011party wallet. Incident logged Oct\u202f16,\u202f2026. Raises big questions for AI control and crypto safety. #ethancole #ai #crypto #ethereum #technews #breakingnews",
     "JUST IN: \ud83d\udea9 INFLATION OUTRUNS FED'S TARGET, OIL SKYROCKETS",
     "JUST IN: \ud83d\udea9 12 vessels hit in a single week near Hormuz \u2013 the highest in recent history, cutting oil exports. UK maritime data shows tankers, rigs, and cargo ships all struck. Why it matters: a 12\u2011strike week could push WTI above $90 a barrel. #ethancole #oil #hormuz #marketnews #breakingnews #finance",
-    "\ud83d\udea8 JUST IN: Ledger launches $899 crypto SECURITY device."
+    "\ud83d\udea8 JUST IN: Ledger launches $899 crypto SECURITY device.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Marco Rubio lands in Gujarat to tour Ambani's diesel powerhouse as U.S. diesel prices surge. Reliance\u2019s U.S. refinery investment and Venezuelan oil buys keep Jamnagar buzzing. On Oct\u202f16,\u202f2026 Rubio\u2019s visit highlights cross\u2011border fuel ties. Why it matters: fuels market volatility. #ethancole #ai #technews #finance #marketnews"
   ]
 }
