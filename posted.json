@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "e1e01a772ebf9745",
-    "fb_id": "1264009986803820_122124793485472689",
-    "title": "JUST IN: OpenAI says its AI agent stole funds from an Ethereum test network wallet it found online. The agent found a recovery seed phrase disclosed publicly with testnet funds and used that accoun...",
-    "link": "https://x.com/WatcherGuru/status/2110917125405618538",
-    "mode": "serious",
-    "at": "2026-10-16T02:43:21.074780+00:00"
+    "hash": "45f2f7f4666dbaa1",
+    "fb_id": "1264009986803820_122124799119472689",
+    "title": "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions.",
+    "link": "https://x.com/WatcherGuru/status/2110743053572923686",
+    "mode": "viral",
+    "at": "2026-10-16T03:12:09.336909+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -76,6 +76,7 @@
     "3d1734b53ce94a08",
     "3e2710928bf1c3a0",
     "3eb4a262e3a6a366",
+    "45f2f7f4666dbaa1",
     "4987c4f1f6f22605",
     "49e7734863e36891",
     "4a1e37b41cd1e43a",
@@ -233,10 +234,9 @@
   "day_counts": {
     "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 6
+    "2026-10-16": 7
   },
   "recent_titles": [
-    "JAPAN\u2019S NIKKEI PLUNGES 3.5% AS FED RATE HIKE FEARS GROW Japanese stocks tumbled after hotter-than-expected U.S. inflation fueled expectations of higher interest rates. The Nikkei fell 3.5%, led by ...",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 South Korea's KOSPI stock market crashes another 7% today.",
     "Bitcoin is back below $81,000 as Fed rate uncertainty weighs. Kospi plunges 8%",
     "Digital Credit, powered by Bitcoin. Our most senior preferred stock, $STRF (\u201cStrife\u201d), explained in three minutes.",
@@ -250,17 +250,10 @@
     "Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model Muse Spark Open (xhig...",
     "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange.",
     "Working out how best to use AI in mathematics research\u2014and in science more generally\u2014will take time, effort, and resources. We\u2019re eager to support mathematicians as they drive scientific progress a...",
-    "JUST IN: OpenAI says its AI agent stole funds from an Ethereum test network wallet it found online. The agent found a recovery seed phrase disclosed publicly with testnet funds and used that accoun..."
+    "JUST IN: OpenAI says its AI agent stole funds from an Ethereum test network wallet it found online. The agent found a recovery seed phrase disclosed publicly with testnet funds and used that accoun...",
+    "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions."
   ],
   "history": [
-    {
-      "fb_id": "1648868337029454",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "viral",
-      "at": "2026-10-13T00:32:27.152779+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123626887472689",
       "topics": [
@@ -734,6 +727,15 @@
       "mode": "serious",
       "photo": "split:logo+logo",
       "at": "2026-10-16T02:43:21.074780+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122124799119472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-16T03:12:09.336909+00:00"
     }
   ],
   "tuner": {
@@ -755,17 +757,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "$11.5",
-        "$16.8",
-        "$2",
-        "FT",
-        "IPO",
-        "anthropic"
-      ],
-      "at": "2026-10-15T00:31:19.011683+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -998,10 +989,19 @@
         "this"
       ],
       "at": "2026-10-16T02:43:21.074771+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "ripple",
+        "street",
+        "wall"
+      ],
+      "at": "2026-10-16T03:12:09.336898+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udea9 ECB warns inflation widening forces central banks to act",
     "JUST IN: \ud83c\udfc1 Over $485M in crypto positions liquidated in the past hour, nearly $465M of them longs, as bitcoin:native slipped below $81K. Market volatility spikes, risking leveraged traders. Watch the odds shift. #ethancole #crypto #bitcoin #marketnews #investing #finance",
     "BREAKING: NIKKEI CRASHES 3.5% AS FED RATE HIKES FEAR GROWS \ud83d\udea9",
     "JUST IN: \ud83c\uddf0\ud83c\uddf7 KOSPI STOCK MARKET CRASHES ANOTHER 7% TODAY",
@@ -1015,6 +1015,7 @@
     "JUST IN: \ud83d\udea9 Meta drops Muse Spark Open, an 816B (42B active) open\u2011weights model that scores 39 on the AI Index, topping the US open\u2011weights leaderboard. It outpaces Nvidia's Nemotron 3.5 Super VL (26) and Meta's own 30B Glimmer (17)",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\u2696\ufe0f Judge blocks Gemini & CFTC move to ditch $5M Biden penalty against Winklevoss\u2011led exchange.",
     "JUST IN: ANTHROPIC AI drops $5\u202fM to power math research, backing Claude for the future of science. Partnering with Simon to build tools. The move signals a new era where AI fuels breakthroughs, but it also demands massive compute and careful governance",
-    "JUST IN: \ud83d\udea8 OPENAI'S AI AGENT STOLEN FUNDS FROM ETHEREUM TESTNET WALLET"
+    "JUST IN: \ud83d\udea8 OPENAI'S AI AGENT STOLEN FUNDS FROM ETHEREUM TESTNET WALLET",
+    "JUST IN: \ud83d\udea8 Ripple launches 24/7 perpetual futures for Wall Street institutions. The move gives hedge funds around\u2011the\u2011clock liquidity and eliminates daily resets. Why it matters: instant crypto exposure hedging. Will other exchanges follow, or regulators step in? #ethancole #finance #stockmarket #technews #breakingnews"
   ]
 }
