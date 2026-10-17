@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "ccbe6f2f8f52fbb8",
-    "fb_id": "1264009986803820_122125188501472689",
-    "title": "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each...",
-    "link": "https://x.com/OpenAI/status/2111192259073094035",
-    "mode": "viral",
-    "at": "2026-10-17T02:31:29.724311+00:00"
+    "hash": "fedd312ac1d31a6d",
+    "fb_id": "1264009986803820_122125193865472689",
+    "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
+    "link": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+    "mode": "serious",
+    "at": "2026-10-17T03:02:00.863624+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -243,15 +243,15 @@
     "faa585879730d067",
     "fd91eb7bedaa641e",
     "febbc2efe8a87926",
+    "fedd312ac1d31a6d",
     "ffb7fa8b43514930"
   ],
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 6
+    "2026-10-17": 7
   },
   "recent_titles": [
-    "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions.",
     "JUST IN: Bitcoin 'Fear & Greed Index' falls to 53 'Neutral' from its 2026 high of 73 'greed' 10 days ago.",
     "China finance ministry auctions 20-year ultra-long special treasury bonds at 2.0649% yield: traders",
     "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
@@ -265,19 +265,10 @@
     "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
     "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago.",
     "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
-    "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each..."
+    "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each...",
+    "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123989629472689",
-      "topics": [
-        "ai",
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-14T00:33:56.698960+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123994363472689",
       "topics": [
@@ -749,6 +740,15 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-17T02:31:29.724311+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125193865472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "split:logo",
+      "at": "2026-10-17T03:02:00.863624+00:00"
     }
   ],
   "tuner": {
@@ -770,16 +770,6 @@
   },
   "last_video_post": "2026-10-17",
   "recent_fps": [
-    {
-      "fp": [
-        "$2",
-        "ETF",
-        "SOXX",
-        "october",
-        "semiconductor"
-      ],
-      "at": "2026-10-16T00:43:23.553277+00:00"
-    },
     {
       "fp": [
         "NVIDIA",
@@ -1022,10 +1012,17 @@
         "you"
       ],
       "at": "2026-10-17T02:31:29.724298+00:00"
+    },
+    {
+      "fp": [
+        "google",
+        "satoshi",
+        "willow"
+      ],
+      "at": "2026-10-17T03:02:00.863613+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 OPENAI'S AI AGENT STOLEN FUNDS FROM ETHEREUM TESTNET WALLET",
     "JUST IN: \ud83d\udea8 Ripple launches 24/7 perpetual futures for Wall Street institutions. The move gives hedge funds around\u2011the\u2011clock liquidity and eliminates daily resets. Why it matters: instant crypto exposure hedging. Will other exchanges follow, or regulators step in? #ethancole #finance #stockmarket #technews #breakingnews",
     "JUST IN: \ud83c\udfc1 Bitcoin 'Fear & Greed Index' slides to 53 'Neutral' from 73 'Greed' 10 days ago. Market eyes on this shift as sentiment swings back to the middle. The index fell 20 points in under two weeks. Why it matters? Neutral mood may prelude a rally or dip. Will $BTC break out or slide into fear? #ethancole #crypto #bitcoin #finance #breakingnews",
     "JUST IN: \ud83d\udea9 China finance ministry auctions 20\u2011year treasury bonds at 2.0649% yield. Yield below 2.1% shows China\u2019s debt strategy. Auction drew strong demand, boosting confidence in China\u2019s fiscal stance. Impacts global bond markets, prompting other emerging economies to adjust rates. #ethancole #finance #marketnews #stockmarket #investing",
@@ -1039,6 +1036,7 @@
     "JUST IN: \ud83d\udcb0 Democrats' stance on BILLIONAIRE political influence SHIFTS.",
     "BREAKING: \ud83d\udea8 BILL ACKMAN calls out \"miscarriage of JUSTICE\" in MIT scientist case.",
     "\ud83d\udea8 BREAKING: Nasdaq 100 PLUNGES over -2% today as oil hits $100/barrel.",
-    "\ud83d\udea8 JUST IN: ChatGPT's GPT-6 Astra Pro just got a MAJOR UPGRADE."
+    "\ud83d\udea8 JUST IN: ChatGPT's GPT-6 Astra Pro just got a MAJOR UPGRADE.",
+    "\ud83d\udea8 QUANTUM THREAT to early BITCOIN just got BIGGER."
   ]
 }
