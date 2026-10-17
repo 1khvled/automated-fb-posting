@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "e72a683e3c7b9b38",
-    "fb_id": "1264009986803820_122125160319472689",
-    "title": "The last 48 hours have been very telling. After US CPI inflation rose to 3.7% on Wednesday, the 10Y Note Yield surged to 5.33%. ~24 hours later, it was -30 basis points lower as the S&P 500 and tec...",
-    "link": "https://x.com/KobeissiLetter/status/2111089825495351492",
+    "hash": "54257df43b169e47",
+    "fb_id": "1264009986803820_122125165539472689",
+    "title": "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p...",
+    "link": "https://x.com/brivael/status/2111189127873892718",
     "mode": "viral",
-    "at": "2026-10-17T00:01:56.832820+00:00"
+    "at": "2026-10-17T00:32:02.271445+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -87,6 +87,7 @@
     "502825213b373f41",
     "53384af31d4e0217",
     "53fc57ae28b68910",
+    "54257df43b169e47",
     "54acd696bcc021cc",
     "55c2087412b8909b",
     "56194c1a1cfdf52c",
@@ -243,10 +244,9 @@
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 1
+    "2026-10-17": 2
   },
   "recent_titles": [
-    "BREAKING: Semiconductor stocks have now erased over -$2 trillion in market cap since October 6th. If the Semiconductor ETF, $SOXX, closes red today, it will mark the sector's 8th-straight daily los...",
     "Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model Muse Spark Open (xhig...",
     "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange.",
     "Working out how best to use AI in mathematics research\u2014and in science more generally\u2014will take time, effort, and resources. We\u2019re eager to support mathematicians as they drive scientific progress a...",
@@ -260,18 +260,10 @@
     "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity.",
     "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge",
     "\ud83d\udea8 LATEST: A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges. All the...",
-    "The last 48 hours have been very telling. After US CPI inflation rose to 3.7% on Wednesday, the 10Y Note Yield surged to 5.33%. ~24 hours later, it was -30 basis points lower as the S&P 500 and tec..."
+    "The last 48 hours have been very telling. After US CPI inflation rose to 3.7% on Wednesday, the 10Y Note Yield surged to 5.33%. ~24 hours later, it was -30 basis points lower as the S&P 500 and tec...",
+    "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123700423472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-13T05:54:03.983887+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123705235472689",
       "topics": [
@@ -744,6 +736,16 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-17T00:01:56.832820+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125165539472689",
+      "topics": [
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "split:flag+face",
+      "at": "2026-10-17T00:32:02.271445+00:00"
     }
   ],
   "tuner": {
@@ -765,20 +767,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "BIG",
-        "FT",
-        "kyiv",
-        "moscow",
-        "russian",
-        "source",
-        "trump",
-        "ukrainian",
-        "zelensky"
-      ],
-      "at": "2026-10-15T05:52:13.743388+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1017,10 +1005,27 @@
         "yield"
       ],
       "at": "2026-10-17T00:01:56.832811+00:00"
+    },
+    {
+      "fp": [
+        "$1",
+        "$100",
+        "$125",
+        "PAC",
+        "biden",
+        "bloomberg",
+        "democratic",
+        "democrats",
+        "florida",
+        "george",
+        "michael",
+        "soros",
+        "when"
+      ],
+      "at": "2026-10-17T00:32:02.271437+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udea9 Semiconductor stocks have erased over $2 trillion in market cap since Oct\u202f6.",
     "JUST IN: \ud83d\udea9 Meta drops Muse Spark Open, an 816B (42B active) open\u2011weights model that scores 39 on the AI Index, topping the US open\u2011weights leaderboard. It outpaces Nvidia's Nemotron 3.5 Super VL (26) and Meta's own 30B Glimmer (17)",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\u2696\ufe0f Judge blocks Gemini & CFTC move to ditch $5M Biden penalty against Winklevoss\u2011led exchange.",
     "JUST IN: ANTHROPIC AI drops $5\u202fM to power math research, backing Claude for the future of science. Partnering with Simon to build tools. The move signals a new era where AI fuels breakthroughs, but it also demands massive compute and careful governance",
@@ -1034,6 +1039,7 @@
     "\ud83d\udea8 JUST IN: Ledger launches $899 crypto SECURITY device.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Marco Rubio lands in Gujarat to tour Ambani's diesel powerhouse as U.S. diesel prices surge. Reliance\u2019s U.S. refinery investment and Venezuelan oil buys keep Jamnagar buzzing. On Oct\u202f16,\u202f2026 Rubio\u2019s visit highlights cross\u2011border fuel ties. Why it matters: fuels market volatility. #ethancole #ai #technews #finance #marketnews",
     "\ud83d\udea8 JUST IN: Scammer LOST $4.8M of stolen crypto.",
-    "\ud83d\udea8 JUST IN: INFLATION FEARS DRIVE MARKET VOLATILITY."
+    "\ud83d\udea8 JUST IN: INFLATION FEARS DRIVE MARKET VOLATILITY.",
+    "JUST IN: \ud83d\udcb0 Democrats' stance on BILLIONAIRE political influence SHIFTS."
   ]
 }
