@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "de36c9b6900c733a",
-    "fb_id": "1264009986803820_122125178499472689",
-    "title": "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago.",
-    "link": "https://x.com/KobeissiLetter/status/2111144677445447974",
-    "mode": "viral",
-    "at": "2026-10-17T01:32:24.125317+00:00"
+    "hash": "ed6a34587915a3d4",
+    "fb_id": "2378742332873418",
+    "title": "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
+    "link": "https://x.com/WOLF_Financial/status/2111263519606018535",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-17T02:02:35.837930+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -223,6 +224,7 @@
     "eacc6893c16ea1dc",
     "ebb9dfc4c90a11b6",
     "eca4f5a6aeff6619",
+    "ed6a34587915a3d4",
     "eec6a6d1910591bf",
     "ef9e9adaee7d4177",
     "efb052f68304f89a",
@@ -246,10 +248,9 @@
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 4
+    "2026-10-17": 5
   },
   "recent_titles": [
-    "Working out how best to use AI in mathematics research\u2014and in science more generally\u2014will take time, effort, and resources. We\u2019re eager to support mathematicians as they drive scientific progress a...",
     "JUST IN: OpenAI says its AI agent stole funds from an Ethereum test network wallet it found online. The agent found a recovery seed phrase disclosed publicly with testnet funds and used that accoun...",
     "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions.",
     "JUST IN: Bitcoin 'Fear & Greed Index' falls to 53 'Neutral' from its 2026 high of 73 'greed' 10 days ago.",
@@ -263,18 +264,10 @@
     "The last 48 hours have been very telling. After US CPI inflation rose to 3.7% on Wednesday, the 10Y Note Yield surged to 5.33%. ~24 hours later, it was -30 basis points lower as the S&P 500 and tec...",
     "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p...",
     "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
-    "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago."
+    "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago.",
+    "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123718759472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-13T07:22:51.774673+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123984943472689",
       "topics": [
@@ -749,6 +742,14 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-17T01:32:24.125317+00:00"
+    },
+    {
+      "fb_id": "2378742332873418",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "serious",
+      "at": "2026-10-17T02:02:35.837930+00:00"
     }
   ],
   "tuner": {
@@ -768,15 +769,8 @@
     "sample_questions": [],
     "updated": "2026-10-17"
   },
-  "last_video_post": "2026-10-16",
+  "last_video_post": "2026-10-17",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "anthropic"
-      ],
-      "at": "2026-10-15T07:41:28.149108+00:00"
-    },
     {
       "fp": [
         "API",
@@ -1024,6 +1018,20 @@
         "nasdaq"
       ],
       "at": "2026-10-17T01:32:24.125298+00:00"
+    },
+    {
+      "fp": [
+        "AREN",
+        "DAY",
+        "ON",
+        "ONE",
+        "WARREN",
+        "WHY",
+        "buffett",
+        "his",
+        "people"
+      ],
+      "at": "2026-10-17T02:02:35.837918+00:00"
     }
   ],
   "recent_hooks": [
