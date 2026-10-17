@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "54257df43b169e47",
-    "fb_id": "1264009986803820_122125165539472689",
-    "title": "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p...",
-    "link": "https://x.com/brivael/status/2111189127873892718",
+    "hash": "f8ca9752326577ba",
+    "fb_id": "1264009986803820_122125172283472689",
+    "title": "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
+    "link": "https://x.com/BillAckman/status/2111246367750283532",
     "mode": "viral",
-    "at": "2026-10-17T00:32:02.271445+00:00"
+    "at": "2026-10-17T01:01:59.239311+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -234,6 +234,7 @@
     "f6ab0f1cbf1e0293",
     "f6d6a3d5a0a3a147",
     "f7d8a64c969260f9",
+    "f8ca9752326577ba",
     "f99897bde7abfc3a",
     "fa152430a72a73ba",
     "faa585879730d067",
@@ -244,10 +245,9 @@
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 2
+    "2026-10-17": 3
   },
   "recent_titles": [
-    "Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model Muse Spark Open (xhig...",
     "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange.",
     "Working out how best to use AI in mathematics research\u2014and in science more generally\u2014will take time, effort, and resources. We\u2019re eager to support mathematicians as they drive scientific progress a...",
     "JUST IN: OpenAI says its AI agent stole funds from an Ethereum test network wallet it found online. The agent found a recovery seed phrase disclosed publicly with testnet funds and used that accoun...",
@@ -261,19 +261,10 @@
     "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge",
     "\ud83d\udea8 LATEST: A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges. All the...",
     "The last 48 hours have been very telling. After US CPI inflation rose to 3.7% on Wednesday, the 10Y Note Yield surged to 5.33%. ~24 hours later, it was -30 basis points lower as the S&P 500 and tec...",
-    "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p..."
+    "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p...",
+    "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123705235472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "split:face+face",
-      "at": "2026-10-13T06:23:54.323687+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123712393472689",
       "topics": [
@@ -746,6 +737,15 @@
       "mode": "viral",
       "photo": "split:flag+face",
       "at": "2026-10-17T00:32:02.271445+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125172283472689",
+      "topics": [
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-17T01:01:59.239311+00:00"
     }
   ],
   "tuner": {
@@ -767,23 +767,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "BRIEF",
-        "DAILY",
-        "MCP",
-        "bot",
-        "claude",
-        "code",
-        "desktop",
-        "gro",
-        "grok",
-        "oct",
-        "voice"
-      ],
-      "at": "2026-10-15T06:22:04.627148+00:00"
-    },
     {
       "fp": [
         "$1.2",
@@ -1023,10 +1006,28 @@
         "when"
       ],
       "at": "2026-10-17T00:32:02.271437+00:00"
+    },
+    {
+      "fp": [
+        "HHMI",
+        "MIT",
+        "april",
+        "david",
+        "five",
+        "howard",
+        "hughes",
+        "institute",
+        "january",
+        "knouse",
+        "kristin",
+        "medical",
+        "sabatini",
+        "whitehead"
+      ],
+      "at": "2026-10-17T01:01:59.239294+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 Meta drops Muse Spark Open, an 816B (42B active) open\u2011weights model that scores 39 on the AI Index, topping the US open\u2011weights leaderboard. It outpaces Nvidia's Nemotron 3.5 Super VL (26) and Meta's own 30B Glimmer (17)",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\u2696\ufe0f Judge blocks Gemini & CFTC move to ditch $5M Biden penalty against Winklevoss\u2011led exchange.",
     "JUST IN: ANTHROPIC AI drops $5\u202fM to power math research, backing Claude for the future of science. Partnering with Simon to build tools. The move signals a new era where AI fuels breakthroughs, but it also demands massive compute and careful governance",
     "JUST IN: \ud83d\udea8 OPENAI'S AI AGENT STOLEN FUNDS FROM ETHEREUM TESTNET WALLET",
@@ -1040,6 +1041,7 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Marco Rubio lands in Gujarat to tour Ambani's diesel powerhouse as U.S. diesel prices surge. Reliance\u2019s U.S. refinery investment and Venezuelan oil buys keep Jamnagar buzzing. On Oct\u202f16,\u202f2026 Rubio\u2019s visit highlights cross\u2011border fuel ties. Why it matters: fuels market volatility. #ethancole #ai #technews #finance #marketnews",
     "\ud83d\udea8 JUST IN: Scammer LOST $4.8M of stolen crypto.",
     "\ud83d\udea8 JUST IN: INFLATION FEARS DRIVE MARKET VOLATILITY.",
-    "JUST IN: \ud83d\udcb0 Democrats' stance on BILLIONAIRE political influence SHIFTS."
+    "JUST IN: \ud83d\udcb0 Democrats' stance on BILLIONAIRE political influence SHIFTS.",
+    "BREAKING: \ud83d\udea8 BILL ACKMAN calls out \"miscarriage of JUSTICE\" in MIT scientist case."
   ]
 }
