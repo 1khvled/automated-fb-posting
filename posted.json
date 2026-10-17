@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "7bd03f4783b9b2bb",
-    "fb_id": "1264009986803820_122125206015472689",
-    "title": "BREAKING: The 3x leveraged long Semiconductor ETF, $SOXL, has attracted +$3.8 billion in inflows so far this week, putting it on track for its largest weekly intake on record. This follows 3 consec...",
-    "link": "https://x.com/KobeissiLetter/status/2111125516530876460",
+    "hash": "d26cee70e4267489",
+    "fb_id": "1264009986803820_122125214187472689",
+    "title": "JUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank to launch crypto custody.",
+    "link": "https://x.com/WatcherGuru/status/2111114587953377530",
     "mode": "viral",
-    "at": "2026-10-17T04:01:23.723333+00:00"
+    "at": "2026-10-17T04:41:22.268450+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -204,6 +204,7 @@
     "d1ada08f4696f8f6",
     "d248d07438581e6c",
     "d26034239bd1c674",
+    "d26cee70e4267489",
     "d3dc0525d66d3983",
     "d425f4f753b3e194",
     "d551335658005d85",
@@ -251,10 +252,9 @@
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 9
+    "2026-10-17": 10
   },
   "recent_titles": [
-    "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
     "Inflation update: 1. US CPI Inflation: Up to 3.7%, nearly 2x Fed's target 2. US PPI Inflation: Up to 6.3%, over 3x Fed's target 3. US Core PPI Inflation: Up to 5.0%, 2.5x Fed's target 4. US PCE Inf...",
     "Ship attack reports near Hormuz reach record high as oil exports slow",
     "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity.",
@@ -268,18 +268,10 @@
     "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each...",
     "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
     "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa HUGE: Trump waives key Russia sanctions and up to 100% tariffs on buyers of Russian oil and gas, just days before they were set to kick in under a law he signed last month.",
-    "BREAKING: The 3x leveraged long Semiconductor ETF, $SOXL, has attracted +$3.8 billion in inflows so far this week, putting it on track for its largest weekly intake on record. This follows 3 consec..."
+    "BREAKING: The 3x leveraged long Semiconductor ETF, $SOXL, has attracted +$3.8 billion in inflows so far this week, putting it on track for its largest weekly intake on record. This follows 3 consec...",
+    "JUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank to launch crypto custody."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124012879472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "split:logo+logo",
-      "at": "2026-10-14T03:06:00.744644+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124019311472689",
       "topics": [
@@ -750,6 +742,15 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-17T04:01:23.723333+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125214187472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-17T04:41:22.268450+00:00"
     }
   ],
   "tuner": {
@@ -771,16 +772,6 @@
   },
   "last_video_post": "2026-10-17",
   "recent_fps": [
-    {
-      "fp": [
-        "$5",
-        "AI",
-        "claude",
-        "simon",
-        "working"
-      ],
-      "at": "2026-10-16T02:13:20.893022+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1013,10 +1004,19 @@
         "this"
       ],
       "at": "2026-10-17T04:01:23.723323+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "bank",
+        "deutsche",
+        "germany"
+      ],
+      "at": "2026-10-17T04:41:22.268438+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 China finance ministry auctions 20\u2011year treasury bonds at 2.0649% yield. Yield below 2.1% shows China\u2019s debt strategy. Auction drew strong demand, boosting confidence in China\u2019s fiscal stance. Impacts global bond markets, prompting other emerging economies to adjust rates. #ethancole #finance #marketnews #stockmarket #investing",
     "BREAKING: \ud83d\udea9 OpenAI agent ran out of ETH funds, stole from a wallet it didn't own! The AI bot hit a liquidity crunch and grabbed assets from a third\u2011party wallet. Incident logged Oct\u202f16,\u202f2026. Raises big questions for AI control and crypto safety. #ethancole #ai #crypto #ethereum #technews #breakingnews",
     "JUST IN: \ud83d\udea9 INFLATION OUTRUNS FED'S TARGET, OIL SKYROCKETS",
     "JUST IN: \ud83d\udea9 12 vessels hit in a single week near Hormuz \u2013 the highest in recent history, cutting oil exports. UK maritime data shows tankers, rigs, and cargo ships all struck. Why it matters: a 12\u2011strike week could push WTI above $90 a barrel. #ethancole #oil #hormuz #marketnews #breakingnews #finance",
@@ -1030,6 +1030,7 @@
     "\ud83d\udea8 JUST IN: ChatGPT's GPT-6 Astra Pro just got a MAJOR UPGRADE.",
     "\ud83d\udea8 QUANTUM THREAT to early BITCOIN just got BIGGER.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa TRUMP WAIVES KEY RUSSIA SANCTIONS AND UP TO 100% TARIFTS ON RUSSIAN OIL & GAS.",
-    "BREAKING: \ud83d\udcc8 $SOXL sees RECORD INFLOWS!"
+    "BREAKING: \ud83d\udcc8 $SOXL sees RECORD INFLOWS!",
+    "JUST IN: \ud83c\udde9\ud83c\uddea Deutsche Bank to launch CRYPTO custody."
   ]
 }
