@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "ed6a34587915a3d4",
-    "fb_id": "2378742332873418",
-    "title": "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
-    "link": "https://x.com/WOLF_Financial/status/2111263519606018535",
-    "mode": "serious",
-    "kind": "video",
-    "at": "2026-10-17T02:02:35.837930+00:00"
+    "hash": "ccbe6f2f8f52fbb8",
+    "fb_id": "1264009986803820_122125188501472689",
+    "title": "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each...",
+    "link": "https://x.com/OpenAI/status/2111192259073094035",
+    "mode": "viral",
+    "at": "2026-10-17T02:31:29.724311+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -196,6 +195,7 @@
     "c251468873bbe41c",
     "c390bcfc7b12ee30",
     "c623f18fc00030b7",
+    "ccbe6f2f8f52fbb8",
     "ce5020520f39e42f",
     "d0717b9d9191c46d",
     "d08268db4f781648",
@@ -248,10 +248,9 @@
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 5
+    "2026-10-17": 6
   },
   "recent_titles": [
-    "JUST IN: OpenAI says its AI agent stole funds from an Ethereum test network wallet it found online. The agent found a recovery seed phrase disclosed publicly with testnet funds and used that accoun...",
     "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions.",
     "JUST IN: Bitcoin 'Fear & Greed Index' falls to 53 'Neutral' from its 2026 high of 73 'greed' 10 days ago.",
     "China finance ministry auctions 20-year ultra-long special treasury bonds at 2.0649% yield: traders",
@@ -265,19 +264,10 @@
     "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p...",
     "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
     "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago.",
-    "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw..."
+    "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
+    "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123984943472689",
-      "topics": [
-        "crypto",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "split:face+inst",
-      "at": "2026-10-14T00:08:46.551820+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123989629472689",
       "topics": [
@@ -750,6 +740,15 @@
       ],
       "mode": "serious",
       "at": "2026-10-17T02:02:35.837930+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125188501472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-17T02:31:29.724311+00:00"
     }
   ],
   "tuner": {
@@ -771,26 +770,6 @@
   },
   "last_video_post": "2026-10-17",
   "recent_fps": [
-    {
-      "fp": [
-        "API",
-        "GPT",
-        "better",
-        "codex",
-        "coming",
-        "french",
-        "german",
-        "hindi",
-        "jap",
-        "japanese",
-        "korean",
-        "mexican",
-        "rolling",
-        "spanish",
-        "voice"
-      ],
-      "at": "2026-10-16T00:02:48.427234+00:00"
-    },
     {
       "fp": [
         "$2",
@@ -1032,10 +1011,20 @@
         "people"
       ],
       "at": "2026-10-17T02:02:35.837918+00:00"
+    },
+    {
+      "fp": [
+        "GPT",
+        "astra",
+        "chat",
+        "now",
+        "pro",
+        "you"
+      ],
+      "at": "2026-10-17T02:31:29.724298+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: ANTHROPIC AI drops $5\u202fM to power math research, backing Claude for the future of science. Partnering with Simon to build tools. The move signals a new era where AI fuels breakthroughs, but it also demands massive compute and careful governance",
     "JUST IN: \ud83d\udea8 OPENAI'S AI AGENT STOLEN FUNDS FROM ETHEREUM TESTNET WALLET",
     "JUST IN: \ud83d\udea8 Ripple launches 24/7 perpetual futures for Wall Street institutions. The move gives hedge funds around\u2011the\u2011clock liquidity and eliminates daily resets. Why it matters: instant crypto exposure hedging. Will other exchanges follow, or regulators step in? #ethancole #finance #stockmarket #technews #breakingnews",
     "JUST IN: \ud83c\udfc1 Bitcoin 'Fear & Greed Index' slides to 53 'Neutral' from 73 'Greed' 10 days ago. Market eyes on this shift as sentiment swings back to the middle. The index fell 20 points in under two weeks. Why it matters? Neutral mood may prelude a rally or dip. Will $BTC break out or slide into fear? #ethancole #crypto #bitcoin #finance #breakingnews",
@@ -1049,6 +1038,7 @@
     "\ud83d\udea8 JUST IN: INFLATION FEARS DRIVE MARKET VOLATILITY.",
     "JUST IN: \ud83d\udcb0 Democrats' stance on BILLIONAIRE political influence SHIFTS.",
     "BREAKING: \ud83d\udea8 BILL ACKMAN calls out \"miscarriage of JUSTICE\" in MIT scientist case.",
-    "\ud83d\udea8 BREAKING: Nasdaq 100 PLUNGES over -2% today as oil hits $100/barrel."
+    "\ud83d\udea8 BREAKING: Nasdaq 100 PLUNGES over -2% today as oil hits $100/barrel.",
+    "\ud83d\udea8 JUST IN: ChatGPT's GPT-6 Astra Pro just got a MAJOR UPGRADE."
   ]
 }
