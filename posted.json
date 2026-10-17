@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "f8ca9752326577ba",
-    "fb_id": "1264009986803820_122125172283472689",
-    "title": "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
-    "link": "https://x.com/BillAckman/status/2111246367750283532",
+    "hash": "de36c9b6900c733a",
+    "fb_id": "1264009986803820_122125178499472689",
+    "title": "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago.",
+    "link": "https://x.com/KobeissiLetter/status/2111144677445447974",
     "mode": "viral",
-    "at": "2026-10-17T01:01:59.239311+00:00"
+    "at": "2026-10-17T01:32:24.125317+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -209,6 +209,7 @@
     "d9e68d9471ca15df",
     "dd3b30e96ab2a14d",
     "dde661577906eb9a",
+    "de36c9b6900c733a",
     "de5489e354d6c29c",
     "dfe42122b9580316",
     "e18b53d68b9a46a2",
@@ -245,10 +246,9 @@
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 3
+    "2026-10-17": 4
   },
   "recent_titles": [
-    "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange.",
     "Working out how best to use AI in mathematics research\u2014and in science more generally\u2014will take time, effort, and resources. We\u2019re eager to support mathematicians as they drive scientific progress a...",
     "JUST IN: OpenAI says its AI agent stole funds from an Ethereum test network wallet it found online. The agent found a recovery seed phrase disclosed publicly with testnet funds and used that accoun...",
     "JUST IN: Ripple launches 24/7 perpetual futures trading for Wall Street institutions.",
@@ -262,18 +262,10 @@
     "\ud83d\udea8 LATEST: A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges. All the...",
     "The last 48 hours have been very telling. After US CPI inflation rose to 3.7% on Wednesday, the 10Y Note Yield surged to 5.33%. ~24 hours later, it was -30 basis points lower as the S&P 500 and tec...",
     "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p...",
-    "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an..."
+    "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
+    "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123712393472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-13T06:52:39.833905+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123718759472689",
       "topics": [
@@ -746,6 +738,17 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-17T01:01:59.239311+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125178499472689",
+      "topics": [
+        "gold_oil",
+        "inflation",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-17T01:32:24.125317+00:00"
     }
   ],
   "tuner": {
@@ -767,18 +770,6 @@
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "$1.2",
-        "$30",
-        "BAC",
-        "CPI",
-        "US",
-        "america",
-        "bank"
-      ],
-      "at": "2026-10-15T07:11:47.739081+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1025,10 +1016,17 @@
         "whitehead"
       ],
       "at": "2026-10-17T01:01:59.239294+00:00"
+    },
+    {
+      "fp": [
+        "$100",
+        "US",
+        "nasdaq"
+      ],
+      "at": "2026-10-17T01:32:24.125298+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8\u2696\ufe0f Judge blocks Gemini & CFTC move to ditch $5M Biden penalty against Winklevoss\u2011led exchange.",
     "JUST IN: ANTHROPIC AI drops $5\u202fM to power math research, backing Claude for the future of science. Partnering with Simon to build tools. The move signals a new era where AI fuels breakthroughs, but it also demands massive compute and careful governance",
     "JUST IN: \ud83d\udea8 OPENAI'S AI AGENT STOLEN FUNDS FROM ETHEREUM TESTNET WALLET",
     "JUST IN: \ud83d\udea8 Ripple launches 24/7 perpetual futures for Wall Street institutions. The move gives hedge funds around\u2011the\u2011clock liquidity and eliminates daily resets. Why it matters: instant crypto exposure hedging. Will other exchanges follow, or regulators step in? #ethancole #finance #stockmarket #technews #breakingnews",
@@ -1042,6 +1040,7 @@
     "\ud83d\udea8 JUST IN: Scammer LOST $4.8M of stolen crypto.",
     "\ud83d\udea8 JUST IN: INFLATION FEARS DRIVE MARKET VOLATILITY.",
     "JUST IN: \ud83d\udcb0 Democrats' stance on BILLIONAIRE political influence SHIFTS.",
-    "BREAKING: \ud83d\udea8 BILL ACKMAN calls out \"miscarriage of JUSTICE\" in MIT scientist case."
+    "BREAKING: \ud83d\udea8 BILL ACKMAN calls out \"miscarriage of JUSTICE\" in MIT scientist case.",
+    "\ud83d\udea8 BREAKING: Nasdaq 100 PLUNGES over -2% today as oil hits $100/barrel."
   ]
 }
