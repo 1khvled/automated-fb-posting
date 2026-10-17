@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "d26cee70e4267489",
-    "fb_id": "1264009986803820_122125214187472689",
-    "title": "JUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank to launch crypto custody.",
-    "link": "https://x.com/WatcherGuru/status/2111114587953377530",
-    "mode": "viral",
-    "at": "2026-10-17T04:41:22.268450+00:00"
+    "hash": "c93215bad5ea439f",
+    "fb_id": "1264009986803820_122125220445472689",
+    "title": "\ud83d\udca5Dario\u9065\u9065\u9886\u5148\uff01Anthropic\u5c06\u7387\u5148\u5b9e\u73b0AI\u6a21\u578bRSI\uff0c\u5e76\u6bd4OpenAI\u63d0\u524d\u8fd1\u4e00\u5e74\uff01 Vals RSI Index\uff0810/15\u66f4\u65b0\uff09\u663e\u793a\uff0cAnthropic\u5355\u65b9\u9762\u628aRSI\u65f6\u95f4\u7ebf\u538b\u7f29\u4e86\u7ea6\u4e00\u5e74\uff1a \ud83d\udd39Anthropic\uff1aOpus 5.5\u4ee537%\u767b\u9876\uff0c\u8d8b\u52bf\u6700\u9661\uff0c\u9884\u8ba12027\u5e743\u6708\u8fbe50%\u30017\u6708\u8fbe60% \ud83d\udd39OpenAI\uff1a\u7ea628%\uff0c\u9884\u8ba12028\u5e741\u6708\u8fbe50%\u30018\u6708\u8fbe60% \ud83d\udd39\u4e2d\u56fd\u4e3b\u529b\uff1aMoon...",
+    "link": "https://x.com/NFT_Chen/status/2111310718759022855",
+    "mode": "serious",
+    "at": "2026-10-17T05:06:33.305534+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -197,6 +197,7 @@
     "c251468873bbe41c",
     "c390bcfc7b12ee30",
     "c623f18fc00030b7",
+    "c93215bad5ea439f",
     "ccbe6f2f8f52fbb8",
     "ce5020520f39e42f",
     "d0717b9d9191c46d",
@@ -252,10 +253,9 @@
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 10
+    "2026-10-17": 11
   },
   "recent_titles": [
-    "Inflation update: 1. US CPI Inflation: Up to 3.7%, nearly 2x Fed's target 2. US PPI Inflation: Up to 6.3%, over 3x Fed's target 3. US Core PPI Inflation: Up to 5.0%, 2.5x Fed's target 4. US PCE Inf...",
     "Ship attack reports near Hormuz reach record high as oil exports slow",
     "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity.",
     "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge",
@@ -269,18 +269,10 @@
     "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
     "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa HUGE: Trump waives key Russia sanctions and up to 100% tariffs on buyers of Russian oil and gas, just days before they were set to kick in under a law he signed last month.",
     "BREAKING: The 3x leveraged long Semiconductor ETF, $SOXL, has attracted +$3.8 billion in inflows so far this week, putting it on track for its largest weekly intake on record. This follows 3 consec...",
-    "JUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank to launch crypto custody."
+    "JUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank to launch crypto custody.",
+    "\ud83d\udca5Dario\u9065\u9065\u9886\u5148\uff01Anthropic\u5c06\u7387\u5148\u5b9e\u73b0AI\u6a21\u578bRSI\uff0c\u5e76\u6bd4OpenAI\u63d0\u524d\u8fd1\u4e00\u5e74\uff01 Vals RSI Index\uff0810/15\u66f4\u65b0\uff09\u663e\u793a\uff0cAnthropic\u5355\u65b9\u9762\u628aRSI\u65f6\u95f4\u7ebf\u538b\u7f29\u4e86\u7ea6\u4e00\u5e74\uff1a \ud83d\udd39Anthropic\uff1aOpus 5.5\u4ee537%\u767b\u9876\uff0c\u8d8b\u52bf\u6700\u9661\uff0c\u9884\u8ba12027\u5e743\u6708\u8fbe50%\u30017\u6708\u8fbe60% \ud83d\udd39OpenAI\uff1a\u7ea628%\uff0c\u9884\u8ba12028\u5e741\u6708\u8fbe50%\u30018\u6708\u8fbe60% \ud83d\udd39\u4e2d\u56fd\u4e3b\u529b\uff1aMoon..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124019311472689",
-      "topics": [
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-14T03:45:19.705456+00:00"
-    },
     {
       "fb_id": "940233338800104",
       "topics": [
@@ -751,6 +743,15 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-17T04:41:22.268450+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125220445472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "split:logo+logo",
+      "at": "2026-10-17T05:06:33.305534+00:00"
     }
   ],
   "tuner": {
@@ -772,17 +773,6 @@
   },
   "last_video_post": "2026-10-17",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "IN",
-        "JUST",
-        "ethereum",
-        "sepolia",
-        "this"
-      ],
-      "at": "2026-10-16T02:43:21.074771+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1014,10 +1004,24 @@
         "germany"
       ],
       "at": "2026-10-17T04:41:22.268438+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "RSI",
+        "anthropic",
+        "claude",
+        "index",
+        "kimi",
+        "moon",
+        "moonshot",
+        "opus",
+        "vals"
+      ],
+      "at": "2026-10-17T05:06:33.305523+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udea9 OpenAI agent ran out of ETH funds, stole from a wallet it didn't own! The AI bot hit a liquidity crunch and grabbed assets from a third\u2011party wallet. Incident logged Oct\u202f16,\u202f2026. Raises big questions for AI control and crypto safety. #ethancole #ai #crypto #ethereum #technews #breakingnews",
     "JUST IN: \ud83d\udea9 INFLATION OUTRUNS FED'S TARGET, OIL SKYROCKETS",
     "JUST IN: \ud83d\udea9 12 vessels hit in a single week near Hormuz \u2013 the highest in recent history, cutting oil exports. UK maritime data shows tankers, rigs, and cargo ships all struck. Why it matters: a 12\u2011strike week could push WTI above $90 a barrel. #ethancole #oil #hormuz #marketnews #breakingnews #finance",
     "\ud83d\udea8 JUST IN: Ledger launches $899 crypto SECURITY device.",
@@ -1031,6 +1035,7 @@
     "\ud83d\udea8 QUANTUM THREAT to early BITCOIN just got BIGGER.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa TRUMP WAIVES KEY RUSSIA SANCTIONS AND UP TO 100% TARIFTS ON RUSSIAN OIL & GAS.",
     "BREAKING: \ud83d\udcc8 $SOXL sees RECORD INFLOWS!",
-    "JUST IN: \ud83c\udde9\ud83c\uddea Deutsche Bank to launch CRYPTO custody."
+    "JUST IN: \ud83c\udde9\ud83c\uddea Deutsche Bank to launch CRYPTO custody.",
+    "BREAKING: Anthropic\u2019s Opus 5.5 rockets ahead of OpenAI, slashing RSI timeline by ~1 year. 37% now, 50% by Mar\u20112027, 60% by Jul\u20112027 vs OpenAI\u2019s 28% now, 50% Jan\u20112028, 60% Aug\u20112028. China lags at 21\u201123%. Market: AI race speeds, valuations could jump. #ethancole #ai #technews #investing #marketnews"
   ]
 }
