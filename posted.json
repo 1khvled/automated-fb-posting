@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "b5882075649e5905",
-    "fb_id": "1264009986803820_122125200063472689",
-    "title": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa HUGE: Trump waives key Russia sanctions and up to 100% tariffs on buyers of Russian oil and gas, just days before they were set to kick in under a law he signed last month.",
-    "link": "https://x.com/Cointelegraph/status/2111295978619781463",
-    "mode": "serious",
-    "at": "2026-10-17T03:33:05.605112+00:00"
+    "hash": "7bd03f4783b9b2bb",
+    "fb_id": "1264009986803820_122125206015472689",
+    "title": "BREAKING: The 3x leveraged long Semiconductor ETF, $SOXL, has attracted +$3.8 billion in inflows so far this week, putting it on track for its largest weekly intake on record. This follows 3 consec...",
+    "link": "https://x.com/KobeissiLetter/status/2111125516530876460",
+    "mode": "viral",
+    "at": "2026-10-17T04:01:23.723333+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -126,6 +126,7 @@
     "7531dfadc0f9f7e0",
     "77abba66d602fa6d",
     "79bf8126b948e64b",
+    "7bd03f4783b9b2bb",
     "7c887ce0c4c325c6",
     "7dd4c394ede9d017",
     "7e0de86880325769",
@@ -250,10 +251,9 @@
   "day_counts": {
     "2026-10-15": 15,
     "2026-10-16": 15,
-    "2026-10-17": 8
+    "2026-10-17": 9
   },
   "recent_titles": [
-    "China finance ministry auctions 20-year ultra-long special treasury bonds at 2.0649% yield: traders",
     "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
     "Inflation update: 1. US CPI Inflation: Up to 3.7%, nearly 2x Fed's target 2. US PPI Inflation: Up to 6.3%, over 3x Fed's target 3. US Core PPI Inflation: Up to 5.0%, 2.5x Fed's target 4. US PCE Inf...",
     "Ship attack reports near Hormuz reach record high as oil exports slow",
@@ -267,19 +267,10 @@
     "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
     "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each...",
     "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
-    "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa HUGE: Trump waives key Russia sanctions and up to 100% tariffs on buyers of Russian oil and gas, just days before they were set to kick in under a law he signed last month."
+    "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa HUGE: Trump waives key Russia sanctions and up to 100% tariffs on buyers of Russian oil and gas, just days before they were set to kick in under a law he signed last month.",
+    "BREAKING: The 3x leveraged long Semiconductor ETF, $SOXL, has attracted +$3.8 billion in inflows so far this week, putting it on track for its largest weekly intake on record. This follows 3 consec..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124008301472689",
-      "topics": [
-        "crypto",
-        "gold_oil"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-14T02:34:49.625148+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124012879472689",
       "topics": [
@@ -749,6 +740,16 @@
       "mode": "serious",
       "photo": "split:face",
       "at": "2026-10-17T03:33:05.605112+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125206015472689",
+      "topics": [
+        "ai",
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-17T04:01:23.723333+00:00"
     }
   ],
   "tuner": {
@@ -770,17 +771,6 @@
   },
   "last_video_post": "2026-10-17",
   "recent_fps": [
-    {
-      "fp": [
-        "$5",
-        "CFTC",
-        "LATEST",
-        "biden",
-        "gemini",
-        "winklevoss"
-      ],
-      "at": "2026-10-16T01:42:08.123604+00:00"
-    },
     {
       "fp": [
         "$5",
@@ -1009,10 +999,23 @@
         "trump"
       ],
       "at": "2026-10-17T03:33:05.605097+00:00"
+    },
+    {
+      "fp": [
+        "$3.1",
+        "$3.8",
+        "3x",
+        "ETF",
+        "SOXL",
+        "june",
+        "may",
+        "semiconductor",
+        "this"
+      ],
+      "at": "2026-10-17T04:01:23.723323+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\udfc1 Bitcoin 'Fear & Greed Index' slides to 53 'Neutral' from 73 'Greed' 10 days ago. Market eyes on this shift as sentiment swings back to the middle. The index fell 20 points in under two weeks. Why it matters? Neutral mood may prelude a rally or dip. Will $BTC break out or slide into fear? #ethancole #crypto #bitcoin #finance #breakingnews",
     "JUST IN: \ud83d\udea9 China finance ministry auctions 20\u2011year treasury bonds at 2.0649% yield. Yield below 2.1% shows China\u2019s debt strategy. Auction drew strong demand, boosting confidence in China\u2019s fiscal stance. Impacts global bond markets, prompting other emerging economies to adjust rates. #ethancole #finance #marketnews #stockmarket #investing",
     "BREAKING: \ud83d\udea9 OpenAI agent ran out of ETH funds, stole from a wallet it didn't own! The AI bot hit a liquidity crunch and grabbed assets from a third\u2011party wallet. Incident logged Oct\u202f16,\u202f2026. Raises big questions for AI control and crypto safety. #ethancole #ai #crypto #ethereum #technews #breakingnews",
     "JUST IN: \ud83d\udea9 INFLATION OUTRUNS FED'S TARGET, OIL SKYROCKETS",
@@ -1026,6 +1029,7 @@
     "\ud83d\udea8 BREAKING: Nasdaq 100 PLUNGES over -2% today as oil hits $100/barrel.",
     "\ud83d\udea8 JUST IN: ChatGPT's GPT-6 Astra Pro just got a MAJOR UPGRADE.",
     "\ud83d\udea8 QUANTUM THREAT to early BITCOIN just got BIGGER.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa TRUMP WAIVES KEY RUSSIA SANCTIONS AND UP TO 100% TARIFTS ON RUSSIAN OIL & GAS."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa TRUMP WAIVES KEY RUSSIA SANCTIONS AND UP TO 100% TARIFTS ON RUSSIAN OIL & GAS.",
+    "BREAKING: \ud83d\udcc8 $SOXL sees RECORD INFLOWS!"
   ]
 }
