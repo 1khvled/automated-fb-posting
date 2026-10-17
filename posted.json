@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "2555437bc3e1be4d",
-    "fb_id": "1264009986803820_122124863487472689",
-    "title": "\ud83d\udea8 LATEST: A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges. All the...",
-    "link": "https://x.com/Cointelegraph/status/2110989182508183916",
-    "mode": "serious",
-    "at": "2026-10-16T07:21:37.254311+00:00"
+    "hash": "e72a683e3c7b9b38",
+    "fb_id": "1264009986803820_122125160319472689",
+    "title": "The last 48 hours have been very telling. After US CPI inflation rose to 3.7% on Wednesday, the 10Y Note Yield surged to 5.33%. ~24 hours later, it was -30 basis points lower as the S&P 500 and tec...",
+    "link": "https://x.com/KobeissiLetter/status/2111089825495351492",
+    "mode": "viral",
+    "at": "2026-10-17T00:01:56.832820+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -213,6 +213,7 @@
     "e18b53d68b9a46a2",
     "e1e01a772ebf9745",
     "e4ddbb5bfc5310e3",
+    "e72a683e3c7b9b38",
     "e8db4b728ba26ead",
     "e910e087e3f05243",
     "e9339d6ea619a42d",
@@ -240,12 +241,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-14": 15,
     "2026-10-15": 15,
-    "2026-10-16": 15
+    "2026-10-16": 15,
+    "2026-10-17": 1
   },
   "recent_titles": [
-    "New voices. Better accents. And less \"checking...\" GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Jap...",
     "BREAKING: Semiconductor stocks have now erased over -$2 trillion in market cap since October 6th. If the Semiconductor ETF, $SOXX, closes red today, it will mark the sector's 8th-straight daily los...",
     "Meta has released Muse Spark Open, an 816B (42B active) open-weights model that scores 39 on the Artificial Analysis Intelligence Index, making it the #1 US open-weights model Muse Spark Open (xhig...",
     "\ud83c\uddfa\ud83c\uddf8 LATEST: A federal judge has denied a joint push by Gemini and the CFTC to scrap the Biden-era $5 million penalty against the Winklevoss-led crypto exchange.",
@@ -259,18 +259,10 @@
     "Ship attack reports near Hormuz reach record high as oil exports slow",
     "\u26a1\ufe0f NEW: Ledger launches the Ledger Atom, an $899 smartphone-like device built to secure crypto transactions and sensitive activity.",
     "Marco Rubio to visit Indian billionaire Ambani's refinery in Gujarat as U.S. diesel prices surge",
-    "\ud83d\udea8 LATEST: A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges. All the..."
+    "\ud83d\udea8 LATEST: A scammer reportedly lost $4.8M of stolen money after storing the funds on tampered Ledgers. Bitcoin and Ether ETFs launch trading in Thailand and South Korea blocks 27 exchanges. All the...",
+    "The last 48 hours have been very telling. After US CPI inflation rose to 3.7% on Wednesday, the 10Y Note Yield surged to 5.33%. ~24 hours later, it was -30 basis points lower as the S&P 500 and tec..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122123693385472689",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-13T05:24:41.361007+00:00"
-    },
     {
       "fb_id": "1264009986803820_122123700423472689",
       "topics": [
@@ -741,12 +733,23 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-16T07:21:37.254311+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125160319472689",
+      "topics": [
+        "inflation",
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-17T00:01:56.832820+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-16"
+    "updated": "2026-10-17"
   },
   "comment_review": {
     "posts": 8,
@@ -758,22 +761,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-16"
+    "updated": "2026-10-17"
   },
   "last_video_post": "2026-10-16",
   "recent_fps": [
-    {
-      "fp": [
-        "iranian",
-        "reuters",
-        "russian",
-        "source",
-        "treasury",
-        "trump",
-        "venezuelan"
-      ],
-      "at": "2026-10-15T05:22:26.201163+00:00"
-    },
     {
       "fp": [
         "BIG",
@@ -1014,10 +1005,21 @@
         "thailand"
       ],
       "at": "2026-10-16T07:21:37.254300+00:00"
+    },
+    {
+      "fp": [
+        "CPI",
+        "ONLY",
+        "US",
+        "note",
+        "today",
+        "wednesday",
+        "yield"
+      ],
+      "at": "2026-10-17T00:01:56.832811+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udcc8 Anthropic flags REVENUE SURGE to investors.",
     "BREAKING: \ud83d\udea9 Semiconductor stocks have erased over $2 trillion in market cap since Oct\u202f6.",
     "JUST IN: \ud83d\udea9 Meta drops Muse Spark Open, an 816B (42B active) open\u2011weights model that scores 39 on the AI Index, topping the US open\u2011weights leaderboard. It outpaces Nvidia's Nemotron 3.5 Super VL (26) and Meta's own 30B Glimmer (17)",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\u2696\ufe0f Judge blocks Gemini & CFTC move to ditch $5M Biden penalty against Winklevoss\u2011led exchange.",
@@ -1031,6 +1033,7 @@
     "JUST IN: \ud83d\udea9 12 vessels hit in a single week near Hormuz \u2013 the highest in recent history, cutting oil exports. UK maritime data shows tankers, rigs, and cargo ships all struck. Why it matters: a 12\u2011strike week could push WTI above $90 a barrel. #ethancole #oil #hormuz #marketnews #breakingnews #finance",
     "\ud83d\udea8 JUST IN: Ledger launches $899 crypto SECURITY device.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Marco Rubio lands in Gujarat to tour Ambani's diesel powerhouse as U.S. diesel prices surge. Reliance\u2019s U.S. refinery investment and Venezuelan oil buys keep Jamnagar buzzing. On Oct\u202f16,\u202f2026 Rubio\u2019s visit highlights cross\u2011border fuel ties. Why it matters: fuels market volatility. #ethancole #ai #technews #finance #marketnews",
-    "\ud83d\udea8 JUST IN: Scammer LOST $4.8M of stolen crypto."
+    "\ud83d\udea8 JUST IN: Scammer LOST $4.8M of stolen crypto.",
+    "\ud83d\udea8 JUST IN: INFLATION FEARS DRIVE MARKET VOLATILITY."
   ]
 }
