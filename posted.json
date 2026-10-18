@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "328dc2f45f9f3746",
-    "fb_id": "1264009986803820_122125530141472689",
-    "title": "JUST IN: The Bitcoin Fear & Greed Index is holding at 55, \"Greed\" \ud83d\udc40 Bullish \ud83d\ude80",
-    "link": "https://x.com/BitcoinMagazine/status/2111448022915731581",
-    "mode": "viral",
-    "at": "2026-10-18T04:01:47.209413+00:00"
+    "hash": "9d0494faf9f30a9e",
+    "fb_id": "1264009986803820_122125536381472689",
+    "title": "Ukrainian drones launched a massive overnight attack on St. Petersburg on October 18, reportedly striking an oil terminal, a VKontakte data center, a power substation and a bridge. Fires, power out...",
+    "link": "https://x.com/clashreport/status/2111672879008055615",
+    "mode": "serious",
+    "at": "2026-10-18T04:32:11.016829+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -161,6 +161,7 @@
     "9bf4038f6b73620f",
     "9c292a359755e081",
     "9ccc778a53c83331",
+    "9d0494faf9f30a9e",
     "9d2492b01de969ed",
     "9d586d423b6a80d7",
     "9e0be7e5de8268d0",
@@ -266,10 +267,9 @@
   "day_counts": {
     "2026-10-16": 15,
     "2026-10-17": 15,
-    "2026-10-18": 9
+    "2026-10-18": 10
   },
   "recent_titles": [
-    "JUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank to launch crypto custody.",
     "\ud83d\udca5Dario\u9065\u9065\u9886\u5148\uff01Anthropic\u5c06\u7387\u5148\u5b9e\u73b0AI\u6a21\u578bRSI\uff0c\u5e76\u6bd4OpenAI\u63d0\u524d\u8fd1\u4e00\u5e74\uff01 Vals RSI Index\uff0810/15\u66f4\u65b0\uff09\u663e\u793a\uff0cAnthropic\u5355\u65b9\u9762\u628aRSI\u65f6\u95f4\u7ebf\u538b\u7f29\u4e86\u7ea6\u4e00\u5e74\uff1a \ud83d\udd39Anthropic\uff1aOpus 5.5\u4ee537%\u767b\u9876\uff0c\u8d8b\u52bf\u6700\u9661\uff0c\u9884\u8ba12027\u5e743\u6708\u8fbe50%\u30017\u6708\u8fbe60% \ud83d\udd39OpenAI\uff1a\u7ea628%\uff0c\u9884\u8ba12028\u5e741\u6708\u8fbe50%\u30018\u6708\u8fbe60% \ud83d\udd39\u4e2d\u56fd\u4e3b\u529b\uff1aMoon...",
     "JUST IN: $13 trillion Charles Schwab fully launches Bitcoin & Ethereum trading to its 40 million eligible retail clients.",
     "Iran's IRGC Navy says a supertanker carrying more than 2 million barrels of crude oil struck a naval mine in the Strait of Hormuz, causing a massive explosion and fire.",
@@ -283,19 +283,10 @@
     "\ud83d\udd25\ud83c\udde7\ud83c\uddec BIG: Bulgaria's fourth-largest bank, Postbank, will let customers buy crypto, stocks and gold right inside its banking app from early 2027, making it the second Bulgarian bank to jump in this m...",
     "\ud83d\udd25 BIG: Banks swore crypto was a fad, now Coinbase has $2.3B in crypto-backed loans out and 17 banks are building their own tokenized deposits.",
     "Saudi-led coalition: ah-61 helicopter crashes in Najran region due to technical failure, killing two crew members",
-    "JUST IN: The Bitcoin Fear & Greed Index is holding at 55, \"Greed\" \ud83d\udc40 Bullish \ud83d\ude80"
+    "JUST IN: The Bitcoin Fear & Greed Index is holding at 55, \"Greed\" \ud83d\udc40 Bullish \ud83d\ude80",
+    "Ukrainian drones launched a massive overnight attack on St. Petersburg on October 18, reportedly striking an oil terminal, a VKontakte data center, a power substation and a bridge. Fires, power out..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124424665472689",
-      "topics": [
-        "inflation",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "inst:ecb",
-      "at": "2026-10-15T02:22:48.096915+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124432645472689",
       "topics": [
@@ -755,6 +746,15 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-18T04:01:47.209413+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125536381472689",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-18T04:32:11.016829+00:00"
     }
   ],
   "tuner": {
@@ -776,20 +776,6 @@
   },
   "last_video_post": "2026-10-18",
   "recent_fps": [
-    {
-      "fp": [
-        "AREN",
-        "DAY",
-        "ON",
-        "ONE",
-        "WARREN",
-        "WHY",
-        "buffett",
-        "his",
-        "people"
-      ],
-      "at": "2026-10-17T02:02:35.837918+00:00"
-    },
     {
       "fp": [
         "GPT",
@@ -1008,10 +994,18 @@
         "index"
       ],
       "at": "2026-10-18T04:01:47.209397+00:00"
+    },
+    {
+      "fp": [
+        "fires",
+        "october",
+        "petersburg",
+        "ukrainian"
+      ],
+      "at": "2026-10-18T04:32:11.016815+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udcc8 $SOXL sees RECORD INFLOWS!",
     "JUST IN: \ud83c\udde9\ud83c\uddea Deutsche Bank to launch CRYPTO custody.",
     "BREAKING: Anthropic\u2019s Opus 5.5 rockets ahead of OpenAI, slashing RSI timeline by ~1 year. 37% now, 50% by Mar\u20112027, 60% by Jul\u20112027 vs OpenAI\u2019s 28% now, 50% Jan\u20112028, 60% Aug\u20112028. China lags at 21\u201123%. Market: AI race speeds, valuations could jump. #ethancole #ai #technews #investing #marketnews",
     "JUST IN: $13 TRILLION Charles Schwab fully launches Bitcoin & Ethereum trading to 40M eligible retail clients. \ud83d\udcc8 40M new crypto wallets in one go. This could shift market liquidity and push adoption higher. Why it matters: Schwab\u2019s scale widens access. Will this spark a crypto boom? #ethancole #bitcoin #ethereum #finance #stockmarket #breakingnews",
@@ -1025,6 +1019,7 @@
     "BREAKING: \ud83c\udde7\ud83c\uddec Postbank, Bulgaria's 4th\u2011largest bank, will let customers buy CRYPTO, STOCKS and GOLD inside its app from early 2027. This move positions Postbank ahead of regional peers, boosting crypto adoption.",
     "\ud83d\udd25 JUST IN: Banks are now ALL-IN on crypto after calling it a fad.",
     "BREAKING: \ud83d\udca5 AH-61 HELICOPTER CRASH kills two crew members.",
-    "JUST IN: \ud83d\udcc8 Bitcoin Fear & Greed Index holds at 55, signaling GREED."
+    "JUST IN: \ud83d\udcc8 Bitcoin Fear & Greed Index holds at 55, signaling GREED.",
+    "BREAKING: \ud83d\udea8 Ukrainian drones launched a massive overnight attack on St. Petersburg on Oct\u202f18, hitting an oil terminal, a VKontakte data center, a power substation and a bridge. Fires, power outages and water supply disruptions reported"
   ]
 }
