@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "9e7a35d8c4d94bb6",
-    "fb_id": "1264009986803820_122125519005472689",
-    "title": "\ud83d\udd25 BIG: Banks swore crypto was a fad, now Coinbase has $2.3B in crypto-backed loans out and 17 banks are building their own tokenized deposits.",
-    "link": "https://x.com/Cointelegraph/status/2111389321504711110",
-    "mode": "viral",
-    "at": "2026-10-18T03:01:46.711333+00:00"
+    "hash": "bd9cd56d67ce51f1",
+    "fb_id": "1264009986803820_122125524183472689",
+    "title": "Saudi-led coalition: ah-61 helicopter crashes in Najran region due to technical failure, killing two crew members",
+    "link": "https://www.financialjuice.com/News/9810139/Saudi-led-coalition-ah-61-helicopter-crashes-in-Najran-region-due-to-technical-failure-killing-two-crew-members.aspx?xy=rss",
+    "mode": "serious",
+    "at": "2026-10-18T03:31:42.926556+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -197,6 +197,7 @@
     "baa35c16631d5782",
     "bbe5f378455409e5",
     "bbec67196eba705d",
+    "bd9cd56d67ce51f1",
     "beda8733ff194127",
     "c0ca1e4fb69f6ec7",
     "c251468873bbe41c",
@@ -264,10 +265,9 @@
   "day_counts": {
     "2026-10-16": 15,
     "2026-10-17": 15,
-    "2026-10-18": 7
+    "2026-10-18": 8
   },
   "recent_titles": [
-    "\ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa HUGE: Trump waives key Russia sanctions and up to 100% tariffs on buyers of Russian oil and gas, just days before they were set to kick in under a law he signed last month.",
     "BREAKING: The 3x leveraged long Semiconductor ETF, $SOXL, has attracted +$3.8 billion in inflows so far this week, putting it on track for its largest weekly intake on record. This follows 3 consec...",
     "JUST IN: \ud83c\udde9\ud83c\uddea Germany's largest bank Deutsche Bank to launch crypto custody.",
     "\ud83d\udca5Dario\u9065\u9065\u9886\u5148\uff01Anthropic\u5c06\u7387\u5148\u5b9e\u73b0AI\u6a21\u578bRSI\uff0c\u5e76\u6bd4OpenAI\u63d0\u524d\u8fd1\u4e00\u5e74\uff01 Vals RSI Index\uff0810/15\u66f4\u65b0\uff09\u663e\u793a\uff0cAnthropic\u5355\u65b9\u9762\u628aRSI\u65f6\u95f4\u7ebf\u538b\u7f29\u4e86\u7ea6\u4e00\u5e74\uff1a \ud83d\udd39Anthropic\uff1aOpus 5.5\u4ee537%\u767b\u9876\uff0c\u8d8b\u52bf\u6700\u9661\uff0c\u9884\u8ba12027\u5e743\u6708\u8fbe50%\u30017\u6708\u8fbe60% \ud83d\udd39OpenAI\uff1a\u7ea628%\uff0c\u9884\u8ba12028\u5e741\u6708\u8fbe50%\u30018\u6708\u8fbe60% \ud83d\udd39\u4e2d\u56fd\u4e3b\u529b\uff1aMoon...",
@@ -281,19 +281,10 @@
     "\ud83d\udea8 BIG: Mt. Gox's Mark Karpel\u00e8s says Ledger knew about advanced spy implants back in March and slams its response to what he calls \"a five-alarm fire in the making.\"",
     "Q: On the sanctions waivers on Russia, Senator Ted Cruz today called it a big mistake that only serves to benefit Putin. I'm wondering what your response is to that. Rubio: The problem is these san...",
     "\ud83d\udd25\ud83c\udde7\ud83c\uddec BIG: Bulgaria's fourth-largest bank, Postbank, will let customers buy crypto, stocks and gold right inside its banking app from early 2027, making it the second Bulgarian bank to jump in this m...",
-    "\ud83d\udd25 BIG: Banks swore crypto was a fad, now Coinbase has $2.3B in crypto-backed loans out and 17 banks are building their own tokenized deposits."
+    "\ud83d\udd25 BIG: Banks swore crypto was a fad, now Coinbase has $2.3B in crypto-backed loans out and 17 banks are building their own tokenized deposits.",
+    "Saudi-led coalition: ah-61 helicopter crashes in Najran region due to technical failure, killing two crew members"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124407997472689",
-      "topics": [
-        "ai",
-        "fed"
-      ],
-      "mode": "serious",
-      "photo": "split:face+inst",
-      "at": "2026-10-15T01:02:27.662038+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124413433472689",
       "topics": [
@@ -758,6 +749,13 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-18T03:01:46.711333+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125524183472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "text-only",
+      "at": "2026-10-18T03:31:42.926556+00:00"
     }
   ],
   "tuner": {
@@ -779,25 +777,6 @@
   },
   "last_video_post": "2026-10-18",
   "recent_fps": [
-    {
-      "fp": [
-        "HHMI",
-        "MIT",
-        "april",
-        "david",
-        "five",
-        "howard",
-        "hughes",
-        "institute",
-        "january",
-        "knouse",
-        "kristin",
-        "medical",
-        "sabatini",
-        "whitehead"
-      ],
-      "at": "2026-10-17T01:01:59.239294+00:00"
-    },
     {
       "fp": [
         "$100",
@@ -1019,10 +998,16 @@
         "coinbase"
       ],
       "at": "2026-10-18T03:01:46.711322+00:00"
+    },
+    {
+      "fp": [
+        "najran",
+        "saudi"
+      ],
+      "at": "2026-10-18T03:31:42.926539+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 QUANTUM THREAT to early BITCOIN just got BIGGER.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf7\ud83c\uddfa TRUMP WAIVES KEY RUSSIA SANCTIONS AND UP TO 100% TARIFTS ON RUSSIAN OIL & GAS.",
     "BREAKING: \ud83d\udcc8 $SOXL sees RECORD INFLOWS!",
     "JUST IN: \ud83c\udde9\ud83c\uddea Deutsche Bank to launch CRYPTO custody.",
@@ -1036,6 +1021,7 @@
     "\ud83d\udea8 JUST IN: Ledger KNEW about spy implants in March.",
     "JUST IN: \ud83d\udea9 Senator Ted Cruz calls Russia sanctions waivers a mistake that only helps Putin. Rubio counters: the waivers hit not just Russia but India & others, adding TARIFFS. President wants 60\u2011day window to sort it out. Why it matters: global markets feel the ripple. #ethancole #finance #marketnews #politics #tariffs",
     "BREAKING: \ud83c\udde7\ud83c\uddec Postbank, Bulgaria's 4th\u2011largest bank, will let customers buy CRYPTO, STOCKS and GOLD inside its app from early 2027. This move positions Postbank ahead of regional peers, boosting crypto adoption.",
-    "\ud83d\udd25 JUST IN: Banks are now ALL-IN on crypto after calling it a fad."
+    "\ud83d\udd25 JUST IN: Banks are now ALL-IN on crypto after calling it a fad.",
+    "BREAKING: \ud83d\udca5 AH-61 HELICOPTER CRASH kills two crew members."
   ]
 }
