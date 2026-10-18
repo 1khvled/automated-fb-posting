@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "6cd48926a0ca24f4",
-    "fb_id": "1169165442343173",
-    "title": "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is.",
-    "link": "https://x.com/clashreport/status/2111612443453714519",
-    "mode": "serious",
-    "kind": "video",
-    "at": "2026-10-18T00:31:00.606218+00:00"
+    "hash": "dde12a97e4ef93ba",
+    "fb_id": "1264009986803820_122125494915472689",
+    "title": "FUN FACT: Less than 10% of the global population is invested in cryptocurrency.",
+    "link": "https://x.com/WatcherGuru/status/2111453854118424834",
+    "mode": "viral",
+    "at": "2026-10-18T01:01:49.259282+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -218,6 +217,7 @@
     "d861583e99fec9ab",
     "d9e68d9471ca15df",
     "dd3b30e96ab2a14d",
+    "dde12a97e4ef93ba",
     "dde661577906eb9a",
     "de36c9b6900c733a",
     "de5489e354d6c29c",
@@ -260,10 +260,9 @@
   "day_counts": {
     "2026-10-16": 15,
     "2026-10-17": 15,
-    "2026-10-18": 2
+    "2026-10-18": 3
   },
   "recent_titles": [
-    "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
     "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago.",
     "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
     "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each...",
@@ -277,18 +276,10 @@
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: Spot crypto ETFs recorded net outflows across all four major assets on October 16th. BTC: -$82.39M ETH: -$69.68M XRP: -$2.47M SOL: -$12.67M",
     "Nvidia $NVDA CEO Jensen Huang just said this about the recent moves in the stock market \u201cALL OF THIS IS GOING TO PASS\u201d",
     "ANTHROPIC: AI COULD PUSH U.S. GDP TO $44 TRILLION BY 2030 Anthropic co-founder Jack Clark says an internal model projects AI could boost U.S. GDP from $30 trillion to $44 trillion by 2030. Clark cr...",
-    "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is."
+    "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is.",
+    "FUN FACT: Less than 10% of the global population is invested in cryptocurrency."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124078441472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "split:face+logo",
-      "at": "2026-10-14T08:01:21.354981+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124092859472689",
       "topics": [
@@ -757,6 +748,15 @@
       ],
       "mode": "serious",
       "at": "2026-10-18T00:31:00.606218+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125494915472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-18T01:01:49.259282+00:00"
     }
   ],
   "tuner": {
@@ -778,15 +778,6 @@
   },
   "last_video_post": "2026-10-18",
   "recent_fps": [
-    {
-      "fp": [
-        "$899",
-        "NEW",
-        "atom",
-        "ledger"
-      ],
-      "at": "2026-10-16T06:22:06.387251+00:00"
-    },
     {
       "fp": [
         "ambani",
@@ -1039,10 +1030,17 @@
         "trump"
       ],
       "at": "2026-10-18T00:31:00.606204+00:00"
+    },
+    {
+      "fp": [
+        "FACT",
+        "FUN",
+        "less"
+      ],
+      "at": "2026-10-18T01:01:49.259267+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 JUST IN: INFLATION FEARS DRIVE MARKET VOLATILITY.",
     "JUST IN: \ud83d\udcb0 Democrats' stance on BILLIONAIRE political influence SHIFTS.",
     "BREAKING: \ud83d\udea8 BILL ACKMAN calls out \"miscarriage of JUSTICE\" in MIT scientist case.",
     "\ud83d\udea8 BREAKING: Nasdaq 100 PLUNGES over -2% today as oil hits $100/barrel.",
@@ -1056,6 +1054,7 @@
     "\ud83d\udea8 BREAKING: Supertanker carrying 2 MILLION barrels of crude OIL struck a naval mine.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 ETF FLOWS: Spot crypto ETFs recorded net outflows across all four major assets on Oct\u202f16. BTC\u202f-\u202f$82.39\u202fM, ETH\u202f-\u202f$69.68\u202fM, XRP\u202f-\u202f$2.47\u202fM, SOL\u202f-\u202f$12.67\u202fM. Market odds on crypto sentiment dip, could pressure prices and shift fund flows. #ethancole #crypto #finance #stockmarket #marketnews",
     "BREAKING: \ud83d\udea8 Nvidia ($NVDA) CEO Jensen Huang says market volatility WILL PASS.",
-    "JUST IN: AI could catapult U.S. GDP to $44T by 2030 \ud83d\udca5"
+    "JUST IN: AI could catapult U.S. GDP to $44T by 2030 \ud83d\udca5",
+    "JUST IN: \ud83c\udf0d LESS THAN 10% of the world is in CRYPTO."
   ]
 }
