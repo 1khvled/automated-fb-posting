@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "f62ac207f6cb98a6",
-    "fb_id": "1264009986803820_122125485153472689",
-    "title": "ANTHROPIC: AI COULD PUSH U.S. GDP TO $44 TRILLION BY 2030 Anthropic co-founder Jack Clark says an internal model projects AI could boost U.S. GDP from $30 trillion to $44 trillion by 2030. Clark cr...",
-    "link": "https://x.com/DeItaone/status/2111392687601385604",
-    "mode": "viral",
-    "at": "2026-10-18T00:02:07.256262+00:00"
+    "hash": "6cd48926a0ca24f4",
+    "fb_id": "1169165442343173",
+    "title": "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is.",
+    "link": "https://x.com/clashreport/status/2111612443453714519",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-18T00:31:00.606218+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -112,6 +113,7 @@
     "699c6c3d56200756",
     "6a4263d89d1d1a9e",
     "6ca4a493922b82af",
+    "6cd48926a0ca24f4",
     "6d938cdfc0ac455c",
     "6dfde226099b02e8",
     "6f632453df63c6f0",
@@ -258,10 +260,9 @@
   "day_counts": {
     "2026-10-16": 15,
     "2026-10-17": 15,
-    "2026-10-18": 1
+    "2026-10-18": 2
   },
   "recent_titles": [
-    "Democrats discovered billionaires in politics were a threat to democracy the exact day one stopped writing them checks. When Michael Bloomberg spent around $1 billion of his own money in the 2020 p...",
     "Five years ago, an important miscarriage of justice occurred. The story began in April 2018 when David Sabatini, an MIT, Howard Hughes Medical Institute (HHMI), and Whitehead Institute scientist an...",
     "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago.",
     "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
@@ -275,19 +276,10 @@
     "Iran's IRGC Navy says a supertanker carrying more than 2 million barrels of crude oil struck a naval mine in the Strait of Hormuz, causing a massive explosion and fire.",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: Spot crypto ETFs recorded net outflows across all four major assets on October 16th. BTC: -$82.39M ETH: -$69.68M XRP: -$2.47M SOL: -$12.67M",
     "Nvidia $NVDA CEO Jensen Huang just said this about the recent moves in the stock market \u201cALL OF THIS IS GOING TO PASS\u201d",
-    "ANTHROPIC: AI COULD PUSH U.S. GDP TO $44 TRILLION BY 2030 Anthropic co-founder Jack Clark says an internal model projects AI could boost U.S. GDP from $30 trillion to $44 trillion by 2030. Clark cr..."
+    "ANTHROPIC: AI COULD PUSH U.S. GDP TO $44 TRILLION BY 2030 Anthropic co-founder Jack Clark says an internal model projects AI could boost U.S. GDP from $30 trillion to $44 trillion by 2030. Clark cr...",
+    "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124073551472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-14T07:32:53.920907+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124078441472689",
       "topics": [
@@ -757,6 +749,14 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-18T00:02:07.256262+00:00"
+    },
+    {
+      "fb_id": "1169165442343173",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-18T00:31:00.606218+00:00"
     }
   ],
   "tuner": {
@@ -776,18 +776,8 @@
     "sample_questions": [],
     "updated": "2026-10-18"
   },
-  "last_video_post": "2026-10-17",
+  "last_video_post": "2026-10-18",
   "recent_fps": [
-    {
-      "fp": [
-        "BBC",
-        "UK",
-        "hormuz",
-        "ship",
-        "verify"
-      ],
-      "at": "2026-10-16T05:51:55.507058+00:00"
-    },
     {
       "fp": [
         "$899",
@@ -1037,6 +1027,18 @@
         "jack"
       ],
       "at": "2026-10-18T00:02:07.256246+00:00"
+    },
+    {
+      "fp": [
+        "$5,600",
+        "abdul",
+        "carney",
+        "donald",
+        "mark",
+        "sayed",
+        "trump"
+      ],
+      "at": "2026-10-18T00:31:00.606204+00:00"
     }
   ],
   "recent_hooks": [
