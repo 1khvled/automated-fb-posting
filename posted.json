@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "dde12a97e4ef93ba",
-    "fb_id": "1264009986803820_122125494915472689",
-    "title": "FUN FACT: Less than 10% of the global population is invested in cryptocurrency.",
-    "link": "https://x.com/WatcherGuru/status/2111453854118424834",
-    "mode": "viral",
-    "at": "2026-10-18T01:01:49.259282+00:00"
+    "hash": "674b05779bb42d21",
+    "fb_id": "1264009986803820_122125500153472689",
+    "title": "\ud83d\udea8 BIG: Mt. Gox's Mark Karpel\u00e8s says Ledger knew about advanced spy implants back in March and slams its response to what he calls \"a five-alarm fire in the making.\"",
+    "link": "https://x.com/Cointelegraph/status/2111630921002537095",
+    "mode": "serious",
+    "at": "2026-10-18T01:31:12.828465+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -106,6 +106,7 @@
     "64962f2dd92c7de5",
     "65239bf3a2c20e14",
     "66f515d28624ba5d",
+    "674b05779bb42d21",
     "67b3dc14d2c60b7e",
     "67e09beef0706ac3",
     "68ec3bc290ac8562",
@@ -260,10 +261,9 @@
   "day_counts": {
     "2026-10-16": 15,
     "2026-10-17": 15,
-    "2026-10-18": 3
+    "2026-10-18": 4
   },
   "recent_titles": [
-    "BREAKING: The Nasdaq 100 extends losses to over -2% on the day as US oil prices surge above $100/barrel and inflation worries mount. The Nasdaq 100 is now down -7% from its high seen 10 days ago.",
     "WARREN BUFFETT ON WHY ONE-DAY OPTIONS AREN'T INVESTING His take on the casino side of the stock market Buffett has compared the stock market to a church with a casino attached. People can move betw...",
     "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. You can follow each...",
     "Satoshi-era bitcoin faces a bigger quantum threat after Google\u2019s new Willow breakthrough",
@@ -277,18 +277,10 @@
     "Nvidia $NVDA CEO Jensen Huang just said this about the recent moves in the stock market \u201cALL OF THIS IS GOING TO PASS\u201d",
     "ANTHROPIC: AI COULD PUSH U.S. GDP TO $44 TRILLION BY 2030 Anthropic co-founder Jack Clark says an internal model projects AI could boost U.S. GDP from $30 trillion to $44 trillion by 2030. Clark cr...",
     "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is.",
-    "FUN FACT: Less than 10% of the global population is invested in cryptocurrency."
+    "FUN FACT: Less than 10% of the global population is invested in cryptocurrency.",
+    "\ud83d\udea8 BIG: Mt. Gox's Mark Karpel\u00e8s says Ledger knew about advanced spy implants back in March and slams its response to what he calls \"a five-alarm fire in the making.\""
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124092859472689",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-14T08:32:17.297512+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124102723472689",
       "topics": [
@@ -757,6 +749,15 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-18T01:01:49.259282+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125500153472689",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "face",
+      "at": "2026-10-18T01:31:12.828465+00:00"
     }
   ],
   "tuner": {
@@ -778,20 +779,6 @@
   },
   "last_video_post": "2026-10-18",
   "recent_fps": [
-    {
-      "fp": [
-        "ambani",
-        "gujarat",
-        "indian",
-        "jamnagar",
-        "marco",
-        "not",
-        "reliance",
-        "rubio",
-        "venezuelan"
-      ],
-      "at": "2026-10-16T06:52:16.459775+00:00"
-    },
     {
       "fp": [
         "$4.8",
@@ -1038,10 +1025,19 @@
         "less"
       ],
       "at": "2026-10-18T01:01:49.259267+00:00"
+    },
+    {
+      "fp": [
+        "BIG",
+        "gox",
+        "ledger",
+        "march",
+        "mark"
+      ],
+      "at": "2026-10-18T01:31:12.828454+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udcb0 Democrats' stance on BILLIONAIRE political influence SHIFTS.",
     "BREAKING: \ud83d\udea8 BILL ACKMAN calls out \"miscarriage of JUSTICE\" in MIT scientist case.",
     "\ud83d\udea8 BREAKING: Nasdaq 100 PLUNGES over -2% today as oil hits $100/barrel.",
     "\ud83d\udea8 JUST IN: ChatGPT's GPT-6 Astra Pro just got a MAJOR UPGRADE.",
@@ -1055,6 +1051,7 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 ETF FLOWS: Spot crypto ETFs recorded net outflows across all four major assets on Oct\u202f16. BTC\u202f-\u202f$82.39\u202fM, ETH\u202f-\u202f$69.68\u202fM, XRP\u202f-\u202f$2.47\u202fM, SOL\u202f-\u202f$12.67\u202fM. Market odds on crypto sentiment dip, could pressure prices and shift fund flows. #ethancole #crypto #finance #stockmarket #marketnews",
     "BREAKING: \ud83d\udea8 Nvidia ($NVDA) CEO Jensen Huang says market volatility WILL PASS.",
     "JUST IN: AI could catapult U.S. GDP to $44T by 2030 \ud83d\udca5",
-    "JUST IN: \ud83c\udf0d LESS THAN 10% of the world is in CRYPTO."
+    "JUST IN: \ud83c\udf0d LESS THAN 10% of the world is in CRYPTO.",
+    "\ud83d\udea8 JUST IN: Ledger KNEW about spy implants in March."
   ]
 }
