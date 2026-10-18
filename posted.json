@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "b4bab29b04f9d0cc",
-    "fb_id": "1264009986803820_122125570281472689",
-    "title": "\ud83c\uddeb\ud83c\uddf7 REGULATION: French MPs voted 38 to 37 to tax crypto-to-stablecoin swaps at 31.4% from 2027, with only 100 of 577 lawmakers bothering to show up.",
-    "link": "https://x.com/Cointelegraph/status/2111691321190588840",
-    "mode": "serious",
-    "at": "2026-10-18T06:32:08.670936+00:00"
+    "hash": "676d291d52901fab",
+    "fb_id": "1264009986803820_122125584021472689",
+    "title": "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
+    "link": "https://x.com/KobeissiLetter/status/2111504585260982410",
+    "mode": "viral",
+    "at": "2026-10-18T07:01:47.731611+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -109,6 +109,7 @@
     "65239bf3a2c20e14",
     "66f515d28624ba5d",
     "674b05779bb42d21",
+    "676d291d52901fab",
     "67b3dc14d2c60b7e",
     "67e09beef0706ac3",
     "68ec3bc290ac8562",
@@ -271,10 +272,9 @@
   "day_counts": {
     "2026-10-16": 15,
     "2026-10-17": 15,
-    "2026-10-18": 14
+    "2026-10-18": 15
   },
   "recent_titles": [
-    "Nvidia $NVDA CEO Jensen Huang just said this about the recent moves in the stock market \u201cALL OF THIS IS GOING TO PASS\u201d",
     "ANTHROPIC: AI COULD PUSH U.S. GDP TO $44 TRILLION BY 2030 Anthropic co-founder Jack Clark says an internal model projects AI could boost U.S. GDP from $30 trillion to $44 trillion by 2030. Clark cr...",
     "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is.",
     "FUN FACT: Less than 10% of the global population is invested in cryptocurrency.",
@@ -288,17 +288,10 @@
     "\u73cd\u60dc\u5427\u5b69\u5b50\uff01\u8fd9\u5c06\u662f\u4f60\u7528\u5230\u7684\u6700\u6709\u6027\u4ef7\u6bd4\u7684GPT-6 Astra\uff01 DeepSeek-V4.1-Flash-1017 \u4f7f\u7528\u4f53\u611f\uff1a\u4e2d\u6587\u5199\u4f5c\u548c3D\u80fd\u529b\u786e\u5b9e\u8fdb\u6b65\uff0c\u4f46\u70df\u6d4b+\u95e8\u7981\u5473\u9053\u51b2\u5230\u7206\uff0c\u6307\u7eb9\u5f52\u56e084.66%\u6307\u5411gpt-6-astra\uff01 1\ufe0f\u20e3\u56de\u590d\u91cc\u5927\u91cf\u201c\u70df\u6d4b\u201d\u201c\u95e8\u7981\u201d\u8bdd\u672f\uff0c\u7eaf\u5965\u7279\u66fc\u5bb6\u5b89\u5168\u98ce\u683c\uff0c\u61c2\u7684\u90fd\u61c2\u3002\u7528\u4e2d\u8f6c\u7ad9\u6839\u672c\u5206\u4e0d\u6e05\u6709\u6ca1\u6709\u6df7\u5176\u4ed6\u4e1c\u897f\uff0c\u66f4\u5927\u6982\u7387\u4f1a\u88ab\u5f53\u6210GPT\u964d\u667a\u3002 2\ufe0f\u20e3\u4e2d\u6587\u5199\u4f5c\u6c34\u5e73\u8089\u773c\u53ef\u89c1\u63d0\u5347\uff0c\u66f4...",
     "Calls for a \"Black Monday\" are spreading rapidly across social media right now. If history is any guide, this means the S&P 500 should hit 8,000 soon. Ignore the noise. Read our analysis below.",
     "Billionaire investor Paul Tudor Jones says 2027 could be a really challenging year for the stock market. Ray Dalio recently called AI a \u201cclassic bubble.\" Yardeni Research cut its year-end S&P 500 t...",
-    "\ud83c\uddeb\ud83c\uddf7 REGULATION: French MPs voted 38 to 37 to tax crypto-to-stablecoin swaps at 31.4% from 2027, with only 100 of 577 lawmakers bothering to show up."
+    "\ud83c\uddeb\ud83c\uddf7 REGULATION: French MPs voted 38 to 37 to tax crypto-to-stablecoin swaps at 31.4% from 2027, with only 100 of 577 lawmakers bothering to show up.",
+    "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ..."
   ],
   "history": [
-    {
-      "fb_id": "1651585563296087",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "at": "2026-10-15T04:52:27.416136+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124475479472689",
       "topics": [
@@ -757,6 +750,15 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-18T06:32:08.670936+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125584021472689",
+      "topics": [
+        "fed"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-18T07:01:47.731611+00:00"
     }
   ],
   "tuner": {
@@ -778,16 +780,6 @@
   },
   "last_video_post": "2026-10-18",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "bank",
-        "deutsche",
-        "germany"
-      ],
-      "at": "2026-10-17T04:41:22.268438+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1002,10 +994,30 @@
         "french"
       ],
       "at": "2026-10-18T06:32:08.670923+00:00"
+    },
+    {
+      "fp": [
+        "BAC",
+        "C",
+        "KBW",
+        "STT",
+        "US",
+        "america",
+        "bank",
+        "citigroup",
+        "crisis",
+        "financial",
+        "index",
+        "june",
+        "large",
+        "state",
+        "street",
+        "this"
+      ],
+      "at": "2026-10-18T07:01:47.731598+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 ETF FLOWS: Spot crypto ETFs recorded net outflows across all four major assets on Oct\u202f16. BTC\u202f-\u202f$82.39\u202fM, ETH\u202f-\u202f$69.68\u202fM, XRP\u202f-\u202f$2.47\u202fM, SOL\u202f-\u202f$12.67\u202fM. Market odds on crypto sentiment dip, could pressure prices and shift fund flows. #ethancole #crypto #finance #stockmarket #marketnews",
     "BREAKING: \ud83d\udea8 Nvidia ($NVDA) CEO Jensen Huang says market volatility WILL PASS.",
     "JUST IN: AI could catapult U.S. GDP to $44T by 2030 \ud83d\udca5",
     "JUST IN: \ud83c\udf0d LESS THAN 10% of the world is in CRYPTO.",
@@ -1019,6 +1031,7 @@
     "JUST IN: DeepSeek V4.1-Flash-1017 feels like GPT-6 Astra! 84.66% fingerprint points to GPT-6 Astra, GPT family 90.71% vs Claude 9.29%. Chinese writing and 3D scene build leap forward, but \u201csmoke test\u201d and \u201csecurity gate\u201d chatter still high. Worth the price? #ethancole #ai #technews #breakingnews #crypto #economy",
     "BREAKING: \ud83d\udcc9 \"Black Monday\" calls are spreading, but the S&P 500 is set to HIT 8,000.",
     "JUST IN: \ud83d\udea8 Billionaire Paul Tudor Jones warns 2027 could be a CHALLENGING year for stocks.",
-    "JUST IN: \ud83c\uddeb\ud83c\uddf7 French MPs vote 38\u201137 to tax crypto\u2011to\u2011stablecoin swaps at 31.4% from 2027, but only 100 of 577 lawmakers showed up. \ud83d\udcca 31.4% tax will apply to swaps, effective 2027. Low turnout (17%) hints at political friction. Investors may face higher conversion costs. #ethancole #crypto #finance #marketnews #breakingnews"
+    "JUST IN: \ud83c\uddeb\ud83c\uddf7 French MPs vote 38\u201137 to tax crypto\u2011to\u2011stablecoin swaps at 31.4% from 2027, but only 100 of 577 lawmakers showed up. \ud83d\udcca 31.4% tax will apply to swaps, effective 2027. Low turnout (17%) hints at political friction. Investors may face higher conversion costs. #ethancole #crypto #finance #marketnews #breakingnews",
+    "BREAKING: \u26a0\ufe0f US bank stocks hit 6\u2011week slide, longest since 2008."
   ]
 }
