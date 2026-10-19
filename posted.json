@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "676d291d52901fab",
-    "fb_id": "1264009986803820_122125584021472689",
-    "title": "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
-    "link": "https://x.com/KobeissiLetter/status/2111504585260982410",
+    "hash": "ef5cd9fc53be1c66",
+    "fb_id": "1730703811353785",
+    "title": "JUST IN: \ud83c\uddeb\ud83c\uddf7\ud83c\uddee\ud83c\uddf7French President Emmanuel Macron says people are protesting because of Trump\u2019s war on Iran and heigh oil prices",
+    "link": "https://x.com/Megatron_ron/status/2111894455544676354",
     "mode": "viral",
-    "at": "2026-10-18T07:01:47.731611+00:00"
+    "kind": "video",
+    "at": "2026-10-19T00:03:01.884136+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -246,6 +247,7 @@
     "eca4f5a6aeff6619",
     "ed6a34587915a3d4",
     "eec6a6d1910591bf",
+    "ef5cd9fc53be1c66",
     "ef9e9adaee7d4177",
     "efb052f68304f89a",
     "f041ccdd0f70088f",
@@ -270,12 +272,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-16": 15,
     "2026-10-17": 15,
-    "2026-10-18": 15
+    "2026-10-18": 15,
+    "2026-10-19": 1
   },
   "recent_titles": [
-    "ANTHROPIC: AI COULD PUSH U.S. GDP TO $44 TRILLION BY 2030 Anthropic co-founder Jack Clark says an internal model projects AI could boost U.S. GDP from $30 trillion to $44 trillion by 2030. Clark cr...",
     "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is.",
     "FUN FACT: Less than 10% of the global population is invested in cryptocurrency.",
     "\ud83d\udea8 BIG: Mt. Gox's Mark Karpel\u00e8s says Ledger knew about advanced spy implants back in March and slams its response to what he calls \"a five-alarm fire in the making.\"",
@@ -289,20 +290,10 @@
     "Calls for a \"Black Monday\" are spreading rapidly across social media right now. If history is any guide, this means the S&P 500 should hit 8,000 soon. Ignore the noise. Read our analysis below.",
     "Billionaire investor Paul Tudor Jones says 2027 could be a really challenging year for the stock market. Ray Dalio recently called AI a \u201cclassic bubble.\" Yardeni Research cut its year-end S&P 500 t...",
     "\ud83c\uddeb\ud83c\uddf7 REGULATION: French MPs voted 38 to 37 to tax crypto-to-stablecoin swaps at 31.4% from 2027, with only 100 of 577 lawmakers bothering to show up.",
-    "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ..."
+    "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
+    "JUST IN: \ud83c\uddeb\ud83c\uddf7\ud83c\uddee\ud83c\uddf7French President Emmanuel Macron says people are protesting because of Trump\u2019s war on Iran and heigh oil prices"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124475479472689",
-      "topics": [
-        "gold_oil",
-        "power",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "face",
-      "at": "2026-10-15T05:22:26.201176+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124482595472689",
       "topics": [
@@ -759,12 +750,21 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-18T07:01:47.731611+00:00"
+    },
+    {
+      "fb_id": "1730703811353785",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "at": "2026-10-19T00:03:01.884136+00:00"
     }
   ],
   "tuner": {
     "topics": {},
     "mult": {},
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   "comment_review": {
     "posts": 8,
@@ -776,25 +776,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
-  "last_video_post": "2026-10-18",
+  "last_video_post": "2026-10-19",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "RSI",
-        "anthropic",
-        "claude",
-        "index",
-        "kimi",
-        "moon",
-        "moonshot",
-        "opus",
-        "vals"
-      ],
-      "at": "2026-10-17T05:06:33.305523+00:00"
-    },
     {
       "fp": [
         "$13",
@@ -1015,6 +1000,19 @@
         "this"
       ],
       "at": "2026-10-18T07:01:47.731598+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "emmanuel",
+        "french",
+        "iran",
+        "macron",
+        "president",
+        "trump"
+      ],
+      "at": "2026-10-19T00:03:01.884120+00:00"
     }
   ],
   "recent_hooks": [
