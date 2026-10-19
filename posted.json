@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "352d927675da4e41",
-    "fb_id": "1264009986803820_122125870203472689",
-    "title": "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
-    "link": "https://www.coindesk.com/business/2026/10/18/deutsche-bank-targets-asia-crypto-custody-expansion-in-2027-as-german-launch-nears",
-    "mode": "serious",
-    "at": "2026-10-19T02:32:05.836284+00:00"
+    "hash": "534724b3044ec482",
+    "fb_id": "1264009986803820_122125874103472689",
+    "title": "Key Events This Week: 1. September Pending Home Sales data - Tuesday 2. SpaceX, $SPCX, Reports Earnings - Tuesday 3. Tesla, $TSLA, and Meta, $META, Report Earnings - Wednesday 4. Initial Jobless Cl...",
+    "link": "https://x.com/KobeissiLetter/status/2111821067874365507",
+    "mode": "viral",
+    "at": "2026-10-19T03:02:36.818336+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -90,6 +90,7 @@
     "4d61c8b851c9cafd",
     "502825213b373f41",
     "53384af31d4e0217",
+    "534724b3044ec482",
     "53fc57ae28b68910",
     "54257df43b169e47",
     "54acd696bcc021cc",
@@ -278,10 +279,9 @@
   "day_counts": {
     "2026-10-17": 15,
     "2026-10-18": 15,
-    "2026-10-19": 6
+    "2026-10-19": 7
   },
   "recent_titles": [
-    "\ud83d\udd25 BIG: Banks swore crypto was a fad, now Coinbase has $2.3B in crypto-backed loans out and 17 banks are building their own tokenized deposits.",
     "Saudi-led coalition: ah-61 helicopter crashes in Najran region due to technical failure, killing two crew members",
     "JUST IN: The Bitcoin Fear & Greed Index is holding at 55, \"Greed\" \ud83d\udc40 Bullish \ud83d\ude80",
     "Ukrainian drones launched a massive overnight attack on St. Petersburg on October 18, reportedly striking an oil terminal, a VKontakte data center, a power substation and a bridge. Fires, power out...",
@@ -295,20 +295,10 @@
     "MARKETS AWAIT EARNINGS FROM MORE THAN 70 S&P 500 COMPANIES, INCLUDING TESLA AND META, AMID CONCERNS OVER AI SPENDING RETURNS AND PERSISTENT INFLATION. US 10-YEAR TREASURY YIELDS HELD AT 5.06%, WHIL...",
     "BREAKING: Ukraine has launched a \"massive aerial attack,\" consisting of over 1,000 drones, striking a major oil terminal in Russia. The attack comes exactly 7 days after President Trump said Ukrain...",
     "China sept survey-based unemployment rate in 31 major cities at 5.2%",
-    "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears"
+    "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
+    "Key Events This Week: 1. September Pending Home Sales data - Tuesday 2. SpaceX, $SPCX, Reports Earnings - Tuesday 3. Tesla, $TSLA, and Meta, $META, Report Earnings - Wednesday 4. Initial Jobless Cl..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124770289472689",
-      "topics": [
-        "ai",
-        "crypto",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-16T00:43:23.553298+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124773985472689",
       "topics": [
@@ -766,6 +756,16 @@
       "mode": "serious",
       "photo": "text-only",
       "at": "2026-10-19T02:32:05.836284+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125874103472689",
+      "topics": [
+        "inflation",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-19T03:02:36.818336+00:00"
     }
   ],
   "tuner": {
@@ -787,18 +787,6 @@
   },
   "last_video_post": "2026-10-19",
   "recent_fps": [
-    {
-      "fp": [
-        "$5,600",
-        "abdul",
-        "carney",
-        "donald",
-        "mark",
-        "sayed",
-        "trump"
-      ],
-      "at": "2026-10-18T00:31:00.606204+00:00"
-    },
     {
       "fp": [
         "FACT",
@@ -1028,10 +1016,41 @@
         "german"
       ],
       "at": "2026-10-19T02:32:05.836269+00:00"
+    },
+    {
+      "fp": [
+        "META",
+        "MI",
+        "SPCX",
+        "TSLA",
+        "claims",
+        "consumer",
+        "earnings",
+        "events",
+        "expectations",
+        "friday",
+        "home",
+        "inflation",
+        "initial",
+        "jobless",
+        "key",
+        "meta",
+        "october",
+        "pending",
+        "sales",
+        "sentiment",
+        "september",
+        "tesla",
+        "this",
+        "thursday",
+        "tuesday",
+        "wednesday",
+        "week"
+      ],
+      "at": "2026-10-19T03:02:36.818327+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\udde7\ud83c\uddec Postbank, Bulgaria's 4th\u2011largest bank, will let customers buy CRYPTO, STOCKS and GOLD inside its app from early 2027. This move positions Postbank ahead of regional peers, boosting crypto adoption.",
     "\ud83d\udd25 JUST IN: Banks are now ALL-IN on crypto after calling it a fad.",
     "BREAKING: \ud83d\udca5 AH-61 HELICOPTER CRASH kills two crew members.",
     "JUST IN: \ud83d\udcc8 Bitcoin Fear & Greed Index holds at 55, signaling GREED.",
@@ -1045,6 +1064,7 @@
     "\ud83d\udea8 JUST IN: MARKETS AWAIT EARNINGS FROM OVER 70 S&P 500 COMPANIES.",
     "\ud83d\udea8 BREAKING: Ukraine launches MASSIVE drone attack on Russian oil terminal.",
     "JUST IN: \ud83c\udde8\ud83c\uddf3 China\u2019s 31 major cities report a 5.2% unemployment rate for September, a spike that could shake the region\u2019s economic outlook. \ud83d\udcc8 The figure suggests a tightening labor market amid slower growth. Why it matters? Investors eye China\u2019s fiscal policy and global supply chains. #ethancole #finance #marketnews #economy #technews",
-    "BREAKING: \ud83c\udfe6 Deutsche Bank ($DB) eyes Asia crypto custody boom by 2027 as German launch nears. The bank plans to tap the region\u2019s growing demand for secure digital asset storage. Why it matters: Asia\u2019s market could drive a surge in institutional crypto flows, boosting DeFi capital. #ethancole #crypto #finance #marketnews #technews #investing"
+    "BREAKING: \ud83c\udfe6 Deutsche Bank ($DB) eyes Asia crypto custody boom by 2027 as German launch nears. The bank plans to tap the region\u2019s growing demand for secure digital asset storage. Why it matters: Asia\u2019s market could drive a surge in institutional crypto flows, boosting DeFi capital. #ethancole #crypto #finance #marketnews #technews #investing",
+    "BREAKING: 15% of S&P 500 companies report EARNINGS this week. SpaceX ($SPCX), Tesla ($TSLA) and Meta ($META) hit the earnings bell on Tuesday and Wednesday, while pending home sales and jobless claims data drop Tuesday and Thursday. Watch the market shift"
   ]
 }
