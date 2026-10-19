@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "ef5cd9fc53be1c66",
-    "fb_id": "1730703811353785",
-    "title": "JUST IN: \ud83c\uddeb\ud83c\uddf7\ud83c\uddee\ud83c\uddf7French President Emmanuel Macron says people are protesting because of Trump\u2019s war on Iran and heigh oil prices",
-    "link": "https://x.com/Megatron_ron/status/2111894455544676354",
+    "hash": "b3030ad2cc77be03",
+    "fb_id": "1264009986803820_122125845387472689",
+    "title": "BREAKING: US stock market futures open higher despite calls for a \"Black Monday\" market crash. 1. S&P 500: +0.2% 2. Nasdaq 100: +0.2% 3. Dow Jones: +0.1% 4. WTI Crude: -0.6% 5. Brent: -0.5% 6. Natu...",
+    "link": "https://x.com/KobeissiLetter/status/2111942078930235684",
     "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-19T00:03:01.884136+00:00"
+    "at": "2026-10-19T00:31:53.990555+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -190,6 +189,7 @@
     "adefb15cd7173c79",
     "b259bbd0146ca3d9",
     "b2c26501e86f55be",
+    "b3030ad2cc77be03",
     "b36ff231b46d1643",
     "b3f62cf2da797db6",
     "b4bab29b04f9d0cc",
@@ -274,10 +274,9 @@
   "day_counts": {
     "2026-10-17": 15,
     "2026-10-18": 15,
-    "2026-10-19": 1
+    "2026-10-19": 2
   },
   "recent_titles": [
-    "Abdul El-Sayed: We're paying $5,600 on average for a vanity tariff project that Donald Trump decided he wanted because Mark Carney is cooler than he is.",
     "FUN FACT: Less than 10% of the global population is invested in cryptocurrency.",
     "\ud83d\udea8 BIG: Mt. Gox's Mark Karpel\u00e8s says Ledger knew about advanced spy implants back in March and slams its response to what he calls \"a five-alarm fire in the making.\"",
     "Q: On the sanctions waivers on Russia, Senator Ted Cruz today called it a big mistake that only serves to benefit Putin. I'm wondering what your response is to that. Rubio: The problem is these san...",
@@ -291,19 +290,10 @@
     "Billionaire investor Paul Tudor Jones says 2027 could be a really challenging year for the stock market. Ray Dalio recently called AI a \u201cclassic bubble.\" Yardeni Research cut its year-end S&P 500 t...",
     "\ud83c\uddeb\ud83c\uddf7 REGULATION: French MPs voted 38 to 37 to tax crypto-to-stablecoin swaps at 31.4% from 2027, with only 100 of 577 lawmakers bothering to show up.",
     "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
-    "JUST IN: \ud83c\uddeb\ud83c\uddf7\ud83c\uddee\ud83c\uddf7French President Emmanuel Macron says people are protesting because of Trump\u2019s war on Iran and heigh oil prices"
+    "JUST IN: \ud83c\uddeb\ud83c\uddf7\ud83c\uddee\ud83c\uddf7French President Emmanuel Macron says people are protesting because of Trump\u2019s war on Iran and heigh oil prices",
+    "BREAKING: US stock market futures open higher despite calls for a \"Black Monday\" market crash. 1. S&P 500: +0.2% 2. Nasdaq 100: +0.2% 3. Dow Jones: +0.1% 4. WTI Crude: -0.6% 5. Brent: -0.5% 6. Natu..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124482595472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "split:face+face",
-      "at": "2026-10-15T05:52:13.743401+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124490137472689",
       "topics": [
@@ -759,6 +749,16 @@
       ],
       "mode": "viral",
       "at": "2026-10-19T00:03:01.884136+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125845387472689",
+      "topics": [
+        "gold_oil",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-19T00:31:53.990555+00:00"
     }
   ],
   "tuner": {
@@ -780,18 +780,6 @@
   },
   "last_video_post": "2026-10-19",
   "recent_fps": [
-    {
-      "fp": [
-        "$13",
-        "IN",
-        "JUST",
-        "bitcoin",
-        "charles",
-        "ethereum",
-        "schwab"
-      ],
-      "at": "2026-10-17T05:32:58.945894+00:00"
-    },
     {
       "fp": [
         "IRGC",
@@ -1013,10 +1001,26 @@
         "trump"
       ],
       "at": "2026-10-19T00:03:01.884120+00:00"
+    },
+    {
+      "fp": [
+        "US",
+        "WTI",
+        "black",
+        "brent",
+        "crude",
+        "dow",
+        "gas",
+        "jones",
+        "monday",
+        "nasdaq",
+        "natu",
+        "natural"
+      ],
+      "at": "2026-10-19T00:31:53.990542+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udea8 Nvidia ($NVDA) CEO Jensen Huang says market volatility WILL PASS.",
     "JUST IN: AI could catapult U.S. GDP to $44T by 2030 \ud83d\udca5",
     "JUST IN: \ud83c\udf0d LESS THAN 10% of the world is in CRYPTO.",
     "\ud83d\udea8 JUST IN: Ledger KNEW about spy implants in March.",
@@ -1030,6 +1034,7 @@
     "BREAKING: \ud83d\udcc9 \"Black Monday\" calls are spreading, but the S&P 500 is set to HIT 8,000.",
     "JUST IN: \ud83d\udea8 Billionaire Paul Tudor Jones warns 2027 could be a CHALLENGING year for stocks.",
     "JUST IN: \ud83c\uddeb\ud83c\uddf7 French MPs vote 38\u201137 to tax crypto\u2011to\u2011stablecoin swaps at 31.4% from 2027, but only 100 of 577 lawmakers showed up. \ud83d\udcca 31.4% tax will apply to swaps, effective 2027. Low turnout (17%) hints at political friction. Investors may face higher conversion costs. #ethancole #crypto #finance #marketnews #breakingnews",
-    "BREAKING: \u26a0\ufe0f US bank stocks hit 6\u2011week slide, longest since 2008."
+    "BREAKING: \u26a0\ufe0f US bank stocks hit 6\u2011week slide, longest since 2008.",
+    "BREAKING: \ud83d\udcc8 US stock market futures open HIGHER, defying \"Black Monday\" CRASH calls."
   ]
 }
