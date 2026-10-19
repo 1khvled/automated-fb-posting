@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "5edb3c9ee6bfc99e",
-    "fb_id": "1264009986803820_122125909131472689",
-    "title": "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH, SOL and XRP spot ETFs saw net outflows last week. BTC: - $228.58M ETH: - $319.97M SOL: - $25.52M XRP: - $1.84M",
-    "link": "https://x.com/Cointelegraph/status/2112053718241665388",
-    "mode": "serious",
-    "at": "2026-10-19T05:32:32.116007+00:00"
+    "hash": "c41331f6e32a833f",
+    "fb_id": "1264009986803820_122125916415472689",
+    "title": "America appears in a homebuyer recession. Mortgage purchase applications are down 60% from their pandemic peak, per Redfin. Demand is now back near 1995 levels, lower than at any point during the 2...",
+    "link": "https://x.com/unusual_whales/status/2111925536893042755",
+    "mode": "viral",
+    "at": "2026-10-19T06:01:34.148528+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -215,6 +215,7 @@
     "c0ca1e4fb69f6ec7",
     "c251468873bbe41c",
     "c390bcfc7b12ee30",
+    "c41331f6e32a833f",
     "c623f18fc00030b7",
     "c6f3775320d53040",
     "c8831ff911363d0b",
@@ -284,10 +285,9 @@
   "day_counts": {
     "2026-10-17": 15,
     "2026-10-18": 15,
-    "2026-10-19": 12
+    "2026-10-19": 13
   },
   "recent_titles": [
-    "Billionaire investor Paul Tudor Jones says 2027 could be a really challenging year for the stock market. Ray Dalio recently called AI a \u201cclassic bubble.\" Yardeni Research cut its year-end S&P 500 t...",
     "\ud83c\uddeb\ud83c\uddf7 REGULATION: French MPs voted 38 to 37 to tax crypto-to-stablecoin swaps at 31.4% from 2027, with only 100 of 577 lawmakers bothering to show up.",
     "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
     "JUST IN: \ud83c\uddeb\ud83c\uddf7\ud83c\uddee\ud83c\uddf7French President Emmanuel Macron says people are protesting because of Trump\u2019s war on Iran and heigh oil prices",
@@ -301,18 +301,10 @@
     "Bitcoin, Korea\u2019s Kospi and Nasdaq futures rally as China GDP beats estimates",
     "BREAKING: Another oil tanker in flames in the Strait of Hormuz after striking a naval mine",
     "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
-    "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH, SOL and XRP spot ETFs saw net outflows last week. BTC: - $228.58M ETH: - $319.97M SOL: - $25.52M XRP: - $1.84M"
+    "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH, SOL and XRP spot ETFs saw net outflows last week. BTC: - $228.58M ETH: - $319.97M SOL: - $25.52M XRP: - $1.84M",
+    "America appears in a homebuyer recession. Mortgage purchase applications are down 60% from their pandemic peak, per Redfin. Demand is now back near 1995 levels, lower than at any point during the 2..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124805125472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-16T03:44:02.703755+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124811125472689",
       "topics": [
@@ -772,6 +764,15 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-19T05:32:32.116007+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125916415472689",
+      "topics": [
+        "inflation"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-19T06:01:34.148528+00:00"
     }
   ],
   "tuner": {
@@ -793,13 +794,6 @@
   },
   "last_video_post": "2026-10-19",
   "recent_fps": [
-    {
-      "fp": [
-        "najran",
-        "saudi"
-      ],
-      "at": "2026-10-18T03:31:42.926539+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1054,10 +1048,19 @@
         "XRP"
       ],
       "at": "2026-10-19T05:32:32.115994+00:00"
+    },
+    {
+      "fp": [
+        "america",
+        "demand",
+        "mortgage",
+        "redfin",
+        "september"
+      ],
+      "at": "2026-10-19T06:01:34.148512+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udcc9 \"Black Monday\" calls are spreading, but the S&P 500 is set to HIT 8,000.",
     "JUST IN: \ud83d\udea8 Billionaire Paul Tudor Jones warns 2027 could be a CHALLENGING year for stocks.",
     "JUST IN: \ud83c\uddeb\ud83c\uddf7 French MPs vote 38\u201137 to tax crypto\u2011to\u2011stablecoin swaps at 31.4% from 2027, but only 100 of 577 lawmakers showed up. \ud83d\udcca 31.4% tax will apply to swaps, effective 2027. Low turnout (17%) hints at political friction. Investors may face higher conversion costs. #ethancole #crypto #finance #marketnews #breakingnews",
     "BREAKING: \u26a0\ufe0f US bank stocks hit 6\u2011week slide, longest since 2008.",
@@ -1071,6 +1074,7 @@
     "BREAKING: \ud83c\udde8\ud83c\uddf3 China GDP beats estimates, sending Bitcoin, KOSPI, Nasdaq futures on a rally.",
     "BREAKING: OIL TANKER IN FLAMES IN THE STRAIT OF HORMUZ after striking a naval mine. \u26a0\ufe0f One cargo vessel lost 20% of its fuel load. The incident spikes regional risk, could push crude up 2\u20113% in next 24\u202fhrs. Why it matters? Market volatility could hit global supply chains. #ethancole #technews #finance #marketnews #breakingnews",
     "JUST IN: \ud83d\udea8 Anthropic commits 5% of its SHARES to public benefit.",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 ETF FLOWS SLUMP \u2013 BTC, ETH, SOL, XRP spot ETFs see massive net OUTFLOWS."
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 ETF FLOWS SLUMP \u2013 BTC, ETH, SOL, XRP spot ETFs see massive net OUTFLOWS.",
+    "JUST IN: HOME BUYER RECESSION SPARKS 60% DROP IN MORTGAGE APPS"
   ]
 }
