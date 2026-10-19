@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "c41331f6e32a833f",
-    "fb_id": "1264009986803820_122125916415472689",
-    "title": "America appears in a homebuyer recession. Mortgage purchase applications are down 60% from their pandemic peak, per Redfin. Demand is now back near 1995 levels, lower than at any point during the 2...",
-    "link": "https://x.com/unusual_whales/status/2111925536893042755",
-    "mode": "viral",
-    "at": "2026-10-19T06:01:34.148528+00:00"
+    "hash": "706911cc390e5e03",
+    "fb_id": "1264009986803820_122125922529472689",
+    "title": "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal",
+    "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
+    "mode": "serious",
+    "at": "2026-10-19T06:32:25.646997+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -124,6 +124,7 @@
     "6d938cdfc0ac455c",
     "6dfde226099b02e8",
     "6f632453df63c6f0",
+    "706911cc390e5e03",
     "70921c7e7f00e526",
     "720cc98216e4fbd4",
     "7287ed7fa4d9ebb6",
@@ -285,10 +286,9 @@
   "day_counts": {
     "2026-10-17": 15,
     "2026-10-18": 15,
-    "2026-10-19": 13
+    "2026-10-19": 14
   },
   "recent_titles": [
-    "\ud83c\uddeb\ud83c\uddf7 REGULATION: French MPs voted 38 to 37 to tax crypto-to-stablecoin swaps at 31.4% from 2027, with only 100 of 577 lawmakers bothering to show up.",
     "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
     "JUST IN: \ud83c\uddeb\ud83c\uddf7\ud83c\uddee\ud83c\uddf7French President Emmanuel Macron says people are protesting because of Trump\u2019s war on Iran and heigh oil prices",
     "BREAKING: US stock market futures open higher despite calls for a \"Black Monday\" market crash. 1. S&P 500: +0.2% 2. Nasdaq 100: +0.2% 3. Dow Jones: +0.1% 4. WTI Crude: -0.6% 5. Brent: -0.5% 6. Natu...",
@@ -302,18 +302,10 @@
     "BREAKING: Another oil tanker in flames in the Strait of Hormuz after striking a naval mine",
     "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH, SOL and XRP spot ETFs saw net outflows last week. BTC: - $228.58M ETH: - $319.97M SOL: - $25.52M XRP: - $1.84M",
-    "America appears in a homebuyer recession. Mortgage purchase applications are down 60% from their pandemic peak, per Redfin. Demand is now back near 1995 levels, lower than at any point during the 2..."
+    "America appears in a homebuyer recession. Mortgage purchase applications are down 60% from their pandemic peak, per Redfin. Demand is now back near 1995 levels, lower than at any point during the 2...",
+    "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124811125472689",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-16T04:13:47.931049+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124820011472689",
       "topics": [
@@ -773,6 +765,15 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-19T06:01:34.148528+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125922529472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "split:face+inst",
+      "at": "2026-10-19T06:32:25.646997+00:00"
     }
   ],
   "tuner": {
@@ -794,18 +795,6 @@
   },
   "last_video_post": "2026-10-19",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "bitcoin",
-        "bullish",
-        "fear",
-        "greed",
-        "index"
-      ],
-      "at": "2026-10-18T04:01:47.209397+00:00"
-    },
     {
       "fp": [
         "fires",
@@ -1058,10 +1047,19 @@
         "september"
       ],
       "at": "2026-10-19T06:01:34.148512+00:00"
+    },
+    {
+      "fp": [
+        "abdulrahman",
+        "alfozan",
+        "francisco",
+        "san",
+        "saudi"
+      ],
+      "at": "2026-10-19T06:32:25.646981+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 Billionaire Paul Tudor Jones warns 2027 could be a CHALLENGING year for stocks.",
     "JUST IN: \ud83c\uddeb\ud83c\uddf7 French MPs vote 38\u201137 to tax crypto\u2011to\u2011stablecoin swaps at 31.4% from 2027, but only 100 of 577 lawmakers showed up. \ud83d\udcca 31.4% tax will apply to swaps, effective 2027. Low turnout (17%) hints at political friction. Investors may face higher conversion costs. #ethancole #crypto #finance #marketnews #breakingnews",
     "BREAKING: \u26a0\ufe0f US bank stocks hit 6\u2011week slide, longest since 2008.",
     "BREAKING: \ud83d\udcc8 US stock market futures open HIGHER, defying \"Black Monday\" CRASH calls.",
@@ -1075,6 +1073,7 @@
     "BREAKING: OIL TANKER IN FLAMES IN THE STRAIT OF HORMUZ after striking a naval mine. \u26a0\ufe0f One cargo vessel lost 20% of its fuel load. The incident spikes regional risk, could push crude up 2\u20113% in next 24\u202fhrs. Why it matters? Market volatility could hit global supply chains. #ethancole #technews #finance #marketnews #breakingnews",
     "JUST IN: \ud83d\udea8 Anthropic commits 5% of its SHARES to public benefit.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 ETF FLOWS SLUMP \u2013 BTC, ETH, SOL, XRP spot ETFs see massive net OUTFLOWS.",
-    "JUST IN: HOME BUYER RECESSION SPARKS 60% DROP IN MORTGAGE APPS"
+    "JUST IN: HOME BUYER RECESSION SPARKS 60% DROP IN MORTGAGE APPS",
+    "\ud83d\udea8 JUST IN: OpenAI BUGGING SUSPECT WhatsApp'ed Saudi royal days before arrest."
   ]
 }
