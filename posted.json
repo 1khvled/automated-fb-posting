@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "c8831ff911363d0b",
-    "fb_id": "1264009986803820_122125898433472689",
-    "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
-    "link": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+    "hash": "5edb3c9ee6bfc99e",
+    "fb_id": "1264009986803820_122125909131472689",
+    "title": "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH, SOL and XRP spot ETFs saw net outflows last week. BTC: - $228.58M ETH: - $319.97M SOL: - $25.52M XRP: - $1.84M",
+    "link": "https://x.com/Cointelegraph/status/2112053718241665388",
     "mode": "serious",
-    "at": "2026-10-19T05:01:25.751599+00:00"
+    "at": "2026-10-19T05:32:32.116007+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -100,6 +100,7 @@
     "58cfd490098879f3",
     "5b08901b0be5a112",
     "5d11339eb33829c3",
+    "5edb3c9ee6bfc99e",
     "5f21b28daec622b3",
     "600b7a3d6c0b67e5",
     "601a84aa97a5995b",
@@ -283,10 +284,9 @@
   "day_counts": {
     "2026-10-17": 15,
     "2026-10-18": 15,
-    "2026-10-19": 11
+    "2026-10-19": 12
   },
   "recent_titles": [
-    "Calls for a \"Black Monday\" are spreading rapidly across social media right now. If history is any guide, this means the S&P 500 should hit 8,000 soon. Ignore the noise. Read our analysis below.",
     "Billionaire investor Paul Tudor Jones says 2027 could be a really challenging year for the stock market. Ray Dalio recently called AI a \u201cclassic bubble.\" Yardeni Research cut its year-end S&P 500 t...",
     "\ud83c\uddeb\ud83c\uddf7 REGULATION: French MPs voted 38 to 37 to tax crypto-to-stablecoin swaps at 31.4% from 2027, with only 100 of 577 lawmakers bothering to show up.",
     "Large US bank stocks are under historic pressure: The KBW Bank Index has dropped for 6 consecutive weeks, its longest streak since the 2008 Financial Crisis. This also marks its 3rd-longest streak ...",
@@ -300,18 +300,10 @@
     "JPMorgan warns that rising 30-year Treasury yields are becoming a growing threat to small- and mid-cap stocks. The driver: deteriorating government finances around the world. About 60% of global GD...",
     "Bitcoin, Korea\u2019s Kospi and Nasdaq futures rally as China GDP beats estimates",
     "BREAKING: Another oil tanker in flames in the Strait of Hormuz after striking a naval mine",
-    "Anthropic says it will commit 5% of its shares to 'public benefit fund'"
+    "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
+    "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH, SOL and XRP spot ETFs saw net outflows last week. BTC: - $228.58M ETH: - $319.97M SOL: - $25.52M XRP: - $1.84M"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124799119472689",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-16T03:12:09.336909+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124805125472689",
       "topics": [
@@ -771,6 +763,15 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-19T05:01:25.751599+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122125909131472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-19T05:32:32.116007+00:00"
     }
   ],
   "tuner": {
@@ -792,15 +793,6 @@
   },
   "last_video_post": "2026-10-19",
   "recent_fps": [
-    {
-      "fp": [
-        "$2.3",
-        "BIG",
-        "banks",
-        "coinbase"
-      ],
-      "at": "2026-10-18T03:01:46.711322+00:00"
-    },
     {
       "fp": [
         "najran",
@@ -1047,10 +1039,24 @@
         "anthropic"
       ],
       "at": "2026-10-19T05:01:25.751578+00:00"
+    },
+    {
+      "fp": [
+        "$1.84",
+        "$228.58",
+        "$25.52",
+        "$319.97",
+        "BTC",
+        "ETF",
+        "ETH",
+        "FLOW",
+        "SOL",
+        "XRP"
+      ],
+      "at": "2026-10-19T05:32:32.115994+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: DeepSeek V4.1-Flash-1017 feels like GPT-6 Astra! 84.66% fingerprint points to GPT-6 Astra, GPT family 90.71% vs Claude 9.29%. Chinese writing and 3D scene build leap forward, but \u201csmoke test\u201d and \u201csecurity gate\u201d chatter still high. Worth the price? #ethancole #ai #technews #breakingnews #crypto #economy",
     "BREAKING: \ud83d\udcc9 \"Black Monday\" calls are spreading, but the S&P 500 is set to HIT 8,000.",
     "JUST IN: \ud83d\udea8 Billionaire Paul Tudor Jones warns 2027 could be a CHALLENGING year for stocks.",
     "JUST IN: \ud83c\uddeb\ud83c\uddf7 French MPs vote 38\u201137 to tax crypto\u2011to\u2011stablecoin swaps at 31.4% from 2027, but only 100 of 577 lawmakers showed up. \ud83d\udcca 31.4% tax will apply to swaps, effective 2027. Low turnout (17%) hints at political friction. Investors may face higher conversion costs. #ethancole #crypto #finance #marketnews #breakingnews",
@@ -1064,6 +1070,7 @@
     "BREAKING: JPMorgan Chase & Co. ($JPM) warns 30\u2011year Treasury yields are a growing threat to small\u2011 and mid\u2011cap stocks. 60% of global GDP comes from countries with debt >100% of GDP and ongoing deficits\u2014unprecedented. Higher yields squeeze equity liquidity, pushing valuations lower. #ethancole #finance #stockmarket #marketnews #economy",
     "BREAKING: \ud83c\udde8\ud83c\uddf3 China GDP beats estimates, sending Bitcoin, KOSPI, Nasdaq futures on a rally.",
     "BREAKING: OIL TANKER IN FLAMES IN THE STRAIT OF HORMUZ after striking a naval mine. \u26a0\ufe0f One cargo vessel lost 20% of its fuel load. The incident spikes regional risk, could push crude up 2\u20113% in next 24\u202fhrs. Why it matters? Market volatility could hit global supply chains. #ethancole #technews #finance #marketnews #breakingnews",
-    "JUST IN: \ud83d\udea8 Anthropic commits 5% of its SHARES to public benefit."
+    "JUST IN: \ud83d\udea8 Anthropic commits 5% of its SHARES to public benefit.",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 ETF FLOWS SLUMP \u2013 BTC, ETH, SOL, XRP spot ETFs see massive net OUTFLOWS."
   ]
 }
