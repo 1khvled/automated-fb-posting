@@ -68,6 +68,11 @@ def build(link):
         else:
             break
     streak += 1  # include this run
+    # the alert gate already counted the failures before this run - stay
+    # in sync with it so the message matches what Telegram reported
+    env_streak = os.environ.get("STREAK", "").strip()
+    if env_streak.isdigit():
+        streak = int(env_streak) + 1
 
     # 2. failed steps
     jobs = api(f"repos/{REPO}/actions/runs/{RUN_ID}/jobs?per_page=5")

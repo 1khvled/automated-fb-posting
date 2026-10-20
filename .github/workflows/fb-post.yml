@@ -20,11 +20,35 @@ on:
 permissions:
   contents: write   # needed to commit posted.json state back
   issues: write     # needed to open/resolve bot-alert issues
+  actions: write    # needed to dispatch the token self-heal workflow
 
 jobs:
   autopost:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+      FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+      DRY_RUN: ${{ inputs.dry_run || '0' }}
+      FORCE_POST: ${{ inputs.force || '0' }}
+      POST_STORIES: "1"
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GROUP_SHARE_TARGETS: ${{ secrets.GROUP_SHARE_TARGETS }}
+      MAX_AGE_MINUTES: "1440"
+      # Volume + freshness. gap must be <= cron or runs are wasted:
+      # 10-min polling with a 20-min gap posts within ~20 min of a story
+      # qualifying, versus ~40 min at the old 20/30 pairing.
+      MIN_POST_GAP_MINUTES: "20"
+      MIN_POSTS_PER_DAY: "14"
+      MIN_VIDEO_SCORE: "4"
+      VIDEO_DEADLINE_HOUR: "20"
+      VIDEO_DEADLINE_SCORE: "1"
+      STATE_FILE: posted.json
     steps:
       - uses: actions/checkout@v4
 
@@ -45,30 +69,39 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run bot
+        id: bot
+        continue-on-error: true   # we inspect the exit code ourselves
+        run: |
+          set +e
+          python post_bot.py
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit $code
+
+      # Exit code 5 = the Facebook token is dead. The token self-heal can
+      # re-mint it, so trigger it and try once more instead of dying
+      # silently until someone notices (Oct 2026: 212 dead runs, 2 days
+      # dark, because nothing tried to repair the credential).
+      - name: Auto-heal dead FB token
+        if: steps.bot.outputs.exit_code == '5'
         env:
-          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
-          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
-          DRY_RUN: ${{ inputs.dry_run || '0' }}
-          FORCE_POST: ${{ inputs.force || '0' }}
-          POST_STORIES: "1"
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          GROUP_SHARE_TARGETS: ${{ secrets.GROUP_SHARE_TARGETS }}
-          MAX_AGE_MINUTES: "1440"
-          # Volume + freshness. gap must be <= cron or runs get wasted:
-          # 10-min polling with a 20-min gap posts within ~20 min of a story
-          # qualifying, versus ~40 min at the old 20/30 pairing.
-          MIN_POST_GAP_MINUTES: "20"
-          MIN_POSTS_PER_DAY: "14"
-          MIN_VIDEO_SCORE: "4"
-          VIDEO_DEADLINE_HOUR: "20"
-          VIDEO_DEADLINE_SCORE: "1"
-          STATE_FILE: posted.json
-        run: python post_bot.py
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "FB token reported dead (exit 5) - dispatching token self-heal."
+          gh api -X POST repos/${{ github.repository }}/actions/workflows/refresh-token.yml/dispatches -f ref=master || \
+            echo "self-heal dispatch failed (ignored)"
+          sleep 90
+
+      - name: Retry bot after self-heal
+        id: retry
+        if: steps.bot.outputs.exit_code == '5'
+        continue-on-error: true
+        run: |
+          set +e
+          python post_bot.py
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit $code
 
       - name: Save state (dedup)
         if: always()
@@ -84,29 +117,40 @@ jobs:
           git push || true
 
       - name: Alert on failure
-        if: failure()
+        if: always() && (steps.bot.outcome == 'failure' || steps.retry.outcome == 'failure')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ALERT_WORKFLOW: fb-post.yml
         run: |
-          # Alert ONLY on consecutive failures: isolated blips self-heal
-          # next slot and must stay silent, or alerts become spam.
-          PREV=$(gh api repos/${{ github.repository }}/actions/workflows/fb-post.yml/runs?per_page=5 --jq '[.workflow_runs[] | select(.id != ${{ github.run_id }} and .status == "completed")][0].conclusion')
-          if [ "$PREV" != "failure" ]; then
-            echo "First consecutive failure (prev=$PREV) — staying silent, next run decides."
-            exit 0
+          # Alert gate: once at the start of an outage, then daily. The old
+          # "previous run also failed" gate fired on EVERY failing run.
+          GATE=$(python scripts/alert_gate.py || echo "QUIET streak=0")
+          echo "gate: $GATE"
+          if [[ "$GATE" == ALERT* ]]; then
+            STREAK=$(echo "$GATE" | sed -n 's/.*streak=\([0-9]*\).*/\1/p')
+            OPEN=$(gh issue list --repo ${{ github.repository }} --state open --json title --jq '[.[] | select(.title | startswith("[bot-alert]"))] | length')
+            if [ "$OPEN" = "0" ]; then
+              gh issue create --repo ${{ github.repository }} --title "[bot-alert] FB bot run failed" --body "Run ${{ github.run_id }} failed (publish error, dead token, or QC loop). Consecutive failures: $STREAK. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            fi
+            RUN_ID=${{ github.run_id }} STREAK=$STREAK python scripts/alert_failure.py || python scripts/notify_telegram.py "🚨 Ethan Cole bot run FAILED (run ${{ github.run_id }}, $STREAK consecutive failures). Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
+          else
+            echo "Quiet (gate=$GATE) - outage already reported, no repeat alert."
           fi
-          echo "Consecutive failure (prev=$PREV) — alerting."
-          OPEN=$(gh issue list --repo ${{ github.repository }} --search "[bot-alert] in:title state:open" --json number --jq length)
-          if [ "$OPEN" = "0" ]; then
-            gh issue create --repo ${{ github.repository }} --title "[bot-alert] FB bot run failed" --body "Run ${{ github.run_id }} failed (publish error, dead token, or QC loop). Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          fi
-          RUN_ID=${{ github.run_id }} python scripts/alert_failure.py || python scripts/notify_telegram.py "🚨 Ethan Cole bot run FAILED (run ${{ github.run_id }}). Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
 
       - name: Resolve alert
-        if: success()
+        if: always() && (steps.bot.outcome == 'success' || steps.retry.outcome == 'success')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh issue list --repo ${{ github.repository }} --search "[bot-alert] in:title state:open" --json number --jq '.[].number' | xargs -r -n1 gh issue close --repo ${{ github.repository }} --comment "Recovered on run ${{ github.run_id }}." 2>/dev/null || true
+          gh issue list --repo ${{ github.repository }} --state open --json number,title --jq '.[] | select(.title | startswith("[bot-alert]")) | .number' | xargs -r -n1 gh issue close --repo ${{ github.repository }} --comment "Recovered on run ${{ github.run_id }}." 2>/dev/null || true
+
+      # The bot steps are continue-on-error so we can inspect the exit code
+      # and try to heal it - but the RUN must still show red when posting
+      # failed, otherwise a dead page looks healthy in the Actions tab.
+      - name: Fail the run if posting failed
+        if: always() && steps.bot.outcome == 'failure' && steps.retry.outcome != 'success'
+        run: |
+          echo "Posting failed (bot exit ${{ steps.bot.outputs.exit_code }}, retry ${{ steps.retry.outputs.exit_code }})."
+          exit 1
