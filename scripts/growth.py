@@ -273,7 +273,10 @@ def after_publish(post_id: str, post_text: str, title: str, topics: list,
     """Run right after a post goes live: start the thread, hand over the
     share kit. Everything here is best-effort - it must never fail a post."""
     out = {"seed_comment_id": "", "share_sent": False}
-    pid = (post_id or "").split("_")[-1] if post_id else ""
+    # A photo post's node id is "pageid_photoid"; a video post's is a bare
+    # id. The COMMENT endpoint needs the full node id, not the last segment.
+    node = (post_id or "").strip()
+    pid = node.split("_")[-1] if node else ""
 
     # 1. a genuine question as the first comment (starts the thread)
     question = ""
@@ -288,8 +291,9 @@ def after_publish(post_id: str, post_text: str, title: str, topics: list,
     if not question:
         question = ("What does this mean for your portfolio?"
                     if lang == "en" else "شنو يعني هذا لمحفظتك؟")
-    if pid:
-        out["seed_comment_id"] = post_seed_comment(pid, question)
+    if node:
+        out["seed_comment_id"] = post_seed_comment(node, question) or \
+            post_seed_comment(pid, question)
 
     # 2. the share kit
     try:
@@ -297,7 +301,9 @@ def after_publish(post_id: str, post_text: str, title: str, topics: list,
                if lang == "en" else "التحليل الكامل في الصفحة - الرابط تحت.")
         variants = share_variants(title or (post_text or "")[:80], post_text,
                                   topics, cta, lang)
-        url = f"https://www.facebook.com/{_page_id()}/posts/{pid}" if pid else ""
+        page = _page_id()
+        url = (f"https://www.facebook.com/{page}/posts/{pid}" if page and pid
+               else "")
         out["share_sent"] = _telegram(format_share_kit(title, url, variants, lang))
     except Exception:
         pass
