@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "b8d3b174a890c701",
-    "fb_id": "1264009986803820_122126702091472689",
-    "title": "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
-    "link": "https://x.com/Megatron_ron/status/2112886853007552695",
+    "hash": "9a4af24b838f2bf0",
+    "fb_id": "1264009986803820_122126706237472689",
+    "title": "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
+    "link": "https://x.com/WatcherGuru/status/2112912971915510070",
     "mode": "viral",
-    "at": "2026-10-21T15:47:50.914640+00:00"
+    "at": "2026-10-21T16:06:54.099913+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -167,6 +167,7 @@
     "96d536b14c03c692",
     "97eaf41a60bc6480",
     "99c9f9218a07a71a",
+    "9a4af24b838f2bf0",
     "9bc995ae7806e12d",
     "9bf4038f6b73620f",
     "9c292a359755e081",
@@ -288,10 +289,9 @@
   ],
   "day_counts": {
     "2026-10-19": 15,
-    "2026-10-21": 2
+    "2026-10-21": 3
   },
   "recent_titles": [
-    "MARKETS AWAIT EARNINGS FROM MORE THAN 70 S&P 500 COMPANIES, INCLUDING TESLA AND META, AMID CONCERNS OVER AI SPENDING RETURNS AND PERSISTENT INFLATION. US 10-YEAR TREASURY YIELDS HELD AT 5.06%, WHIL...",
     "BREAKING: Ukraine has launched a \"massive aerial attack,\" consisting of over 1,000 drones, striking a major oil terminal in Russia. The attack comes exactly 7 days after President Trump said Ukrain...",
     "China sept survey-based unemployment rate in 31 major cities at 5.2%",
     "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
@@ -305,18 +305,10 @@
     "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal",
     "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
     "Nvidia $NVDA posted this today: \u201cNVIDIA announces new Isaac tools for agents as Agile Robots unveils Agile ONE SN, a reference humanoid for robotics research.\u201c",
-    "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th..."
+    "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
+    "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124842715472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-16T06:22:06.387261+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124848757472689",
       "topics": [
@@ -775,6 +767,15 @@
       "mode": "viral",
       "photo": "split:face",
       "at": "2026-10-21T15:47:50.914640+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126706237472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "text-only",
+      "at": "2026-10-21T16:06:54.099913+00:00"
     }
   ],
   "tuner": {
@@ -796,20 +797,6 @@
   },
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "billionaire",
-        "dalio",
-        "jones",
-        "paul",
-        "ray",
-        "research",
-        "tudor",
-        "yardeni"
-      ],
-      "at": "2026-10-18T06:01:28.849097+00:00"
-    },
     {
       "fp": [
         "MPS",
@@ -1066,10 +1053,19 @@
         "united"
       ],
       "at": "2026-10-21T15:47:50.914628+00:00"
+    },
+    {
+      "fp": [
+        "$240",
+        "$500.",
+        "IN",
+        "JUST",
+        "SPCX"
+      ],
+      "at": "2026-10-21T16:06:54.099903+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udcc8 US stock market futures open HIGHER, defying \"Black Monday\" CRASH calls.",
     "\ud83d\udea8 JUST IN: MARKETS AWAIT EARNINGS FROM OVER 70 S&P 500 COMPANIES.",
     "\ud83d\udea8 BREAKING: Ukraine launches MASSIVE drone attack on Russian oil terminal.",
     "JUST IN: \ud83c\udde8\ud83c\uddf3 China\u2019s 31 major cities report a 5.2% unemployment rate for September, a spike that could shake the region\u2019s economic outlook. \ud83d\udcc8 The figure suggests a tightening labor market amid slower growth. Why it matters? Investors eye China\u2019s fiscal policy and global supply chains. #ethancole #finance #marketnews #economy #technews",
@@ -1083,6 +1079,7 @@
     "JUST IN: HOME BUYER RECESSION SPARKS 60% DROP IN MORTGAGE APPS",
     "\ud83d\udea8 JUST IN: OpenAI BUGGING SUSPECT WhatsApp'ed Saudi royal days before arrest.",
     "\ud83d\udea8 JUST IN: Bitcoin ($BTC) whale MOVES $34 MILLION.",
-    "\ud83d\udea8 BREAKING: U.S. and Israel to ATTACK Iran's OIL infrastructure."
+    "\ud83d\udea8 BREAKING: U.S. and Israel to ATTACK Iran's OIL infrastructure.",
+    "JUST IN: \ud83d\ude80 JPMorgan more than DOUBLES its SpaceX ($SPCX) price target to $500!"
   ]
 }
