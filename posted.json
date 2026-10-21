@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "2f44d6251f2dd01c",
-    "fb_id": "1264009986803820_122126736339472689",
-    "title": "Anthropic is a Public Benefit Corporation. Today, we\u2019re publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we\u2019re taking to advance them....",
-    "link": "https://x.com/AnthropicAI/status/2112966949273801086",
-    "mode": "serious",
-    "at": "2026-10-21T18:24:49.634207+00:00"
+    "hash": "21c7dbcb4d52ef5f",
+    "fb_id": "1861527251695284",
+    "title": "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
+    "link": "https://x.com/BitcoinMagazine/status/2112652180159127683",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-10-21T18:32:07.422648+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -48,6 +49,7 @@
     "1d0fcda880497169",
     "1ee80daa10c57716",
     "211b9ab059517bbb",
+    "21c7dbcb4d52ef5f",
     "21ef9201893a99f1",
     "22d5c45b7327d829",
     "23b87ba2a601b4f6",
@@ -292,10 +294,9 @@
   ],
   "day_counts": {
     "2026-10-19": 15,
-    "2026-10-21": 6
+    "2026-10-21": 7
   },
   "recent_titles": [
-    "Key Events This Week: 1. September Pending Home Sales data - Tuesday 2. SpaceX, $SPCX, Reports Earnings - Tuesday 3. Tesla, $TSLA, and Meta, $META, Report Earnings - Wednesday 4. Initial Jobless Cl...",
     "JPMorgan warns that rising 30-year Treasury yields are becoming a growing threat to small- and mid-cap stocks. The driver: deteriorating government finances around the world. About 60% of global GD...",
     "Bitcoin, Korea\u2019s Kospi and Nasdaq futures rally as China GDP beats estimates",
     "BREAKING: Another oil tanker in flames in the Strait of Hormuz after striking a naval mine",
@@ -309,19 +310,10 @@
     "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
     "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
     "Trump to throw spotlight on overseas crypto abuses at White House event",
-    "Anthropic is a Public Benefit Corporation. Today, we\u2019re publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we\u2019re taking to advance them...."
+    "Anthropic is a Public Benefit Corporation. Today, we\u2019re publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we\u2019re taking to advance them....",
+    "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125165539472689",
-      "topics": [
-        "power",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "split:flag+face",
-      "at": "2026-10-17T00:32:02.271445+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125172283472689",
       "topics": [
@@ -778,6 +770,14 @@
       "mode": "serious",
       "photo": "card",
       "at": "2026-10-21T18:24:49.634207+00:00"
+    },
+    {
+      "fb_id": "1861527251695284",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-10-21T18:32:07.422648+00:00"
     }
   ],
   "tuner": {
@@ -797,25 +797,8 @@
     "sample_questions": [],
     "updated": "2026-10-21"
   },
-  "last_video_post": null,
+  "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "US",
-        "WTI",
-        "black",
-        "brent",
-        "crude",
-        "dow",
-        "gas",
-        "jones",
-        "monday",
-        "nasdaq",
-        "natu",
-        "natural"
-      ],
-      "at": "2026-10-19T00:31:53.990542+00:00"
-    },
     {
       "fp": [
         "$4,175",
@@ -1053,6 +1036,18 @@
         "today"
       ],
       "at": "2026-10-21T18:24:49.634194+00:00"
+    },
+    {
+      "fp": [
+        "$20,000",
+        "NEW",
+        "bitcoin",
+        "charles",
+        "michael",
+        "saylor",
+        "schwab"
+      ],
+      "at": "2026-10-21T18:32:07.422643+00:00"
     }
   ],
   "recent_hooks": [
@@ -1074,6 +1069,7 @@
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
-    "122126712807472689_1399748545474111"
+    "122126712807472689_1399748545474111",
+    "122126736339472689_1620200422934833"
   ]
 }
