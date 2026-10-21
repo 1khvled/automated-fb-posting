@@ -36,17 +36,21 @@ from email.utils import parsedate_to_datetime
 import feedparser
 import requests
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                   "scripts"))
 try:
     import no_llm
-except Exception:
+except Exception as _nerr:  # the safety net must be visible if it is missing
     no_llm = None
+    print(f"WARNING: no_llm safety net not loaded: {_nerr}", flush=True)
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                   "scripts"))
 try:
     import growth
-except Exception:  # growth engine is optional - never fail a post for it
+except Exception as _gerr:  # optional, but never fail silently
     growth = None
+    print(f"WARNING: growth engine not loaded: {_gerr}", flush=True)
 
 try:
     from dotenv import load_dotenv

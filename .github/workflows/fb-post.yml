@@ -23,6 +23,15 @@ permissions:
   issues: write     # needed to open/resolve bot-alert issues
   actions: write    # needed to dispatch the token self-heal workflow
 
+
+# Only one posting run at a time. Two overlapping runs read the same
+# dedup state before either had committed it, and posted the SAME story
+# 40 seconds apart. The group serialises the runs; the second one
+# waits for the first to finish and then finds the story already done.
+concurrency:
+  group: fb-post
+  cancel-in-progress: false
+
 jobs:
   autopost:
     runs-on: ubuntu-latest
