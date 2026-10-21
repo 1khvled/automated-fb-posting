@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "dc7e9c4855bef73b",
-    "fb_id": "1264009986803820_122126770125472689",
-    "title": "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026.",
-    "link": "https://x.com/WatcherGuru/status/2112999915962146924",
-    "mode": "viral",
-    "at": "2026-10-21T20:52:24.097200+00:00"
+    "hash": "185efa1dab127fb0",
+    "fb_id": "1264009986803820_122126791677472689",
+    "title": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
+    "link": "https://x.com/Cointelegraph/status/2113025196269384006",
+    "mode": "serious",
+    "at": "2026-10-21T22:43:45.304338+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -42,6 +42,7 @@
     "126ff52b33bd93a7",
     "144c14d5e1cf0024",
     "163b472205423d09",
+    "185efa1dab127fb0",
     "191614348896e501",
     "1957b710635e93a0",
     "1962708cba969b70",
@@ -298,10 +299,9 @@
   ],
   "day_counts": {
     "2026-10-19": 15,
-    "2026-10-21": 12
+    "2026-10-21": 13
   },
   "recent_titles": [
-    "America appears in a homebuyer recession. Mortgage purchase applications are down 60% from their pandemic peak, per Redfin. Demand is now back near 1995 levels, lower than at any point during the 2...",
     "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal",
     "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
     "Nvidia $NVDA posted this today: \u201cNVIDIA announces new Isaac tools for agents as Agile Robots unveils Agile ONE SN, a reference humanoid for robotics research.\u201c",
@@ -315,19 +315,10 @@
     "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
     "457% - FIG",
-    "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026."
+    "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026.",
+    "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125200063472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "split:face",
-      "at": "2026-10-17T03:33:05.605112+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125206015472689",
       "topics": [
@@ -781,6 +772,15 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-21T20:52:24.097200+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126791677472689",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "source",
+      "at": "2026-10-21T22:43:45.304338+00:00"
     }
   ],
   "tuner": {
@@ -802,15 +802,6 @@
   },
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "GD",
-        "GDP",
-        "about",
-        "treasury"
-      ],
-      "at": "2026-10-19T03:32:13.829744+00:00"
-    },
     {
       "fp": [
         "GDP",
@@ -1022,10 +1013,20 @@
         "tesla"
       ],
       "at": "2026-10-21T20:52:24.097188+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "democrats",
+        "polymarket",
+        "republicans",
+        "senate"
+      ],
+      "at": "2026-10-21T22:43:45.304320+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 Anthropic commits 5% of its SHARES to public benefit.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 ETF FLOWS SLUMP \u2013 BTC, ETH, SOL, XRP spot ETFs see massive net OUTFLOWS.",
     "JUST IN: HOME BUYER RECESSION SPARKS 60% DROP IN MORTGAGE APPS",
     "\ud83d\udea8 JUST IN: OpenAI BUGGING SUSPECT WhatsApp'ed Saudi royal days before arrest.",
@@ -1039,7 +1040,8 @@
     "BREAKING: S&P 500 CONCENTRATION just hit a record high.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
     "The model values FIG at $128 against a $23 price - 457% cheap.",
-    "JUST IN: Tesla ($TSLA) reveals $0 of its $972,000,000 Bitcoin stack was sold in Q3 2026."
+    "JUST IN: Tesla ($TSLA) reveals $0 of its $972,000,000 Bitcoin stack was sold in Q3 2026.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Prediction markets put DEMOCRATS at a 67% chance to win the Senate in 2026."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1049,7 +1051,8 @@
     "122126747361472689_1145997474778493",
     "122126749359472689_1058788083442168",
     "122126762343472689_1146154667746082",
-    "122126763369472689_1520938729840519"
+    "122126763369472689_1520938729840519",
+    "122126770125472689_1154472217262973"
   ],
   "product_posts_used": [
     "sig-FIG-20261021"
