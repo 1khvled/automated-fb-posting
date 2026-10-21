@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "88ef3697fea063b2",
-    "fb_id": "2900029193699565",
-    "title": "Nvidia $NVDA posted this today: \u201cNVIDIA announces new Isaac tools for agents as Agile Robots unveils Agile ONE SN, a reference humanoid for robotics research.\u201c",
-    "link": "https://x.com/StockMKTNewz/status/2112919705551798300",
-    "mode": "serious",
-    "kind": "video",
-    "at": "2026-10-21T15:31:39.278256+00:00"
+    "hash": "b8d3b174a890c701",
+    "fb_id": "1264009986803820_122126702091472689",
+    "title": "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
+    "link": "https://x.com/Megatron_ron/status/2112886853007552695",
+    "mode": "viral",
+    "at": "2026-10-21T15:47:50.914640+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -207,6 +206,7 @@
     "b5332e905fcd45e4",
     "b5882075649e5905",
     "b79341c94e166719",
+    "b8d3b174a890c701",
     "b9f09c1b08ea1fb9",
     "ba0962c96cf784fa",
     "ba533a34928a8dc1",
@@ -288,10 +288,9 @@
   ],
   "day_counts": {
     "2026-10-19": 15,
-    "2026-10-21": 1
+    "2026-10-21": 2
   },
   "recent_titles": [
-    "BREAKING: US stock market futures open higher despite calls for a \"Black Monday\" market crash. 1. S&P 500: +0.2% 2. Nasdaq 100: +0.2% 3. Dow Jones: +0.1% 4. WTI Crude: -0.6% 5. Brent: -0.5% 6. Natu...",
     "MARKETS AWAIT EARNINGS FROM MORE THAN 70 S&P 500 COMPANIES, INCLUDING TESLA AND META, AMID CONCERNS OVER AI SPENDING RETURNS AND PERSISTENT INFLATION. US 10-YEAR TREASURY YIELDS HELD AT 5.06%, WHIL...",
     "BREAKING: Ukraine has launched a \"massive aerial attack,\" consisting of over 1,000 drones, striking a major oil terminal in Russia. The attack comes exactly 7 days after President Trump said Ukrain...",
     "China sept survey-based unemployment rate in 31 major cities at 5.2%",
@@ -305,18 +304,10 @@
     "America appears in a homebuyer recession. Mortgage purchase applications are down 60% from their pandemic peak, per Redfin. Demand is now back near 1995 levels, lower than at any point during the 2...",
     "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal",
     "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
-    "Nvidia $NVDA posted this today: \u201cNVIDIA announces new Isaac tools for agents as Agile Robots unveils Agile ONE SN, a reference humanoid for robotics research.\u201c"
+    "Nvidia $NVDA posted this today: \u201cNVIDIA announces new Isaac tools for agents as Agile Robots unveils Agile ONE SN, a reference humanoid for robotics research.\u201c",
+    "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124836643472689",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-16T05:51:55.507067+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124842715472689",
       "topics": [
@@ -773,6 +764,17 @@
       ],
       "mode": "serious",
       "at": "2026-10-21T15:31:39.278256+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126702091472689",
+      "topics": [
+        "gold_oil",
+        "inflation",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "split:face",
+      "at": "2026-10-21T15:47:50.914640+00:00"
     }
   ],
   "tuner": {
@@ -794,16 +796,6 @@
   },
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "black",
-        "calls",
-        "ignore",
-        "monday",
-        "read"
-      ],
-      "at": "2026-10-18T05:32:20.245475+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1061,10 +1053,22 @@
         "robots"
       ],
       "at": "2026-10-21T15:31:39.278246+00:00"
+    },
+    {
+      "fp": [
+        "iran",
+        "israel",
+        "netanyahu",
+        "states",
+        "this",
+        "through",
+        "trump",
+        "united"
+      ],
+      "at": "2026-10-21T15:47:50.914628+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \u26a0\ufe0f US bank stocks hit 6\u2011week slide, longest since 2008.",
     "BREAKING: \ud83d\udcc8 US stock market futures open HIGHER, defying \"Black Monday\" CRASH calls.",
     "\ud83d\udea8 JUST IN: MARKETS AWAIT EARNINGS FROM OVER 70 S&P 500 COMPANIES.",
     "\ud83d\udea8 BREAKING: Ukraine launches MASSIVE drone attack on Russian oil terminal.",
@@ -1078,6 +1082,7 @@
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 ETF FLOWS SLUMP \u2013 BTC, ETH, SOL, XRP spot ETFs see massive net OUTFLOWS.",
     "JUST IN: HOME BUYER RECESSION SPARKS 60% DROP IN MORTGAGE APPS",
     "\ud83d\udea8 JUST IN: OpenAI BUGGING SUSPECT WhatsApp'ed Saudi royal days before arrest.",
-    "\ud83d\udea8 JUST IN: Bitcoin ($BTC) whale MOVES $34 MILLION."
+    "\ud83d\udea8 JUST IN: Bitcoin ($BTC) whale MOVES $34 MILLION.",
+    "\ud83d\udea8 BREAKING: U.S. and Israel to ATTACK Iran's OIL infrastructure."
   ]
 }
