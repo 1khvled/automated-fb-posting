@@ -3625,6 +3625,14 @@ def main() -> int:
         log(f"Dropping {dropped} unverified candidates.")
         fresh = [c for c in fresh if c.get("verified")]
     log(f"{len(fresh)} fresh (not yet posted)")
+    # Prefer a story that CARRIES A REAL PHOTO. 18 of 44 candidates have
+    # one - the chart or screenshot the source published with - and a post
+    # with the story's own picture is the post that works. The boost is
+    # deliberately small: a much better story still wins.
+    for _c in fresh:
+        if _c.get("photo_url"):
+            _c["score"] = round(_c.get("score", 0) + 2.5, 1)
+    fresh.sort(key=lambda c: c["score"], reverse=True)
 
     if not fresh:
         log("Nothing new that fits criteria. Skipping.")
