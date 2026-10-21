@@ -3464,16 +3464,37 @@ def floor_plan(posts_today: int, hour: int):
 
 
 def fb_token_ok() -> bool:
-    """Fail fast if the Page token is dead (saves LLM quota and log spam)."""
+    """Fail fast if the Page token is dead (saves LLM quota and log spam).
+
+    It also PROVES the token belongs to the page. The owner's personal
+    Facebook account ("Khaled Abdelli") is off limits - it must never post,
+    browse, or be kept as a session. A user token can read
+    /{page-id}/accounts in some configurations, so a 200 alone is not proof
+    of identity; this asks the Graph API who the token belongs to and
+    refuses anything that is not the page itself.
+    """
     page_id = os.getenv("FB_PAGE_ID", "").strip()
     token = os.getenv("FB_PAGE_ACCESS_TOKEN", "").strip()
     if not page_id or not token:
         return False
     try:
+        # /me with a PAGE token returns the PAGE itself. With a user token it
+        # returns the personal account - the one identity that must never
+        # publish. Asking for /{page-id} instead would not discriminate: one
+        # page token can read both pages, because the same app manages both.
         r = requests.get(
-            f"https://graph.facebook.com/{FB_API_VERSION}/{page_id}",
-            params={"fields": "id", "access_token": token}, timeout=15)
-        return r.status_code == 200
+            f"https://graph.facebook.com/{FB_API_VERSION}/me",
+            params={"fields": "id,name", "access_token": token}, timeout=15)
+        if r.status_code != 200:
+            return False
+        who = r.json() or {}
+        got = str(who.get("id", ""))
+        if got != str(page_id):
+            log(f"TOKEN IS NOT THE PAGE: /me returns {got} "
+                f"({who.get('name')!r}), expected {page_id}. Refusing to run "
+                f"as anything but the page.")
+            return False
+        return True
     except Exception:
         return False
 
