@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "86638b51356ef1f9",
-    "fb_id": "1264009986803820_122126747361472689",
-    "title": "Recursive has released Flint, its first open-weight coding model under the Apache 2.0 license, which is 2x faster than comparable alternatives. > Flint is a 40B parameter mixture-of-experts model f...",
-    "link": "https://x.com/testingcatalog/status/2112983874309628360",
-    "mode": "serious",
-    "at": "2026-10-21T19:10:49.907682+00:00"
+    "hash": "e56a10738c3298e8",
+    "fb_id": "1264009986803820_122126749359472689",
+    "title": "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
+    "link": "https://x.com/KobeissiLetter/status/2112729083876405561",
+    "mode": "viral",
+    "at": "2026-10-21T19:19:35.844171+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -255,6 +255,7 @@
     "e18b53d68b9a46a2",
     "e1e01a772ebf9745",
     "e4ddbb5bfc5310e3",
+    "e56a10738c3298e8",
     "e72a683e3c7b9b38",
     "e8db4b728ba26ead",
     "e910e087e3f05243",
@@ -294,10 +295,9 @@
   ],
   "day_counts": {
     "2026-10-19": 15,
-    "2026-10-21": 8
+    "2026-10-21": 9
   },
   "recent_titles": [
-    "Bitcoin, Korea\u2019s Kospi and Nasdaq futures rally as China GDP beats estimates",
     "BREAKING: Another oil tanker in flames in the Strait of Hormuz after striking a naval mine",
     "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH, SOL and XRP spot ETFs saw net outflows last week. BTC: - $228.58M ETH: - $319.97M SOL: - $25.52M XRP: - $1.84M",
@@ -311,20 +311,10 @@
     "Trump to throw spotlight on overseas crypto abuses at White House event",
     "Anthropic is a Public Benefit Corporation. Today, we\u2019re publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we\u2019re taking to advance them....",
     "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
-    "Recursive has released Flint, its first open-weight coding model under the Apache 2.0 license, which is 2x faster than comparable alternatives. > Flint is a 40B parameter mixture-of-experts model f..."
+    "Recursive has released Flint, its first open-weight coding model under the Apache 2.0 license, which is 2x faster than comparable alternatives. > Flint is a 40B parameter mixture-of-experts model f...",
+    "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125178499472689",
-      "topics": [
-        "gold_oil",
-        "inflation",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-17T01:32:24.125317+00:00"
-    },
     {
       "fb_id": "2378742332873418",
       "topics": [
@@ -778,6 +768,16 @@
       "mode": "serious",
       "photo": "split:scene",
       "at": "2026-10-21T19:10:49.907682+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126749359472689",
+      "topics": [
+        "ai",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-21T19:19:35.844171+00:00"
     }
   ],
   "tuner": {
@@ -799,19 +799,6 @@
   },
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "following",
-        "president",
-        "russia",
-        "this",
-        "trump",
-        "ukrain",
-        "ukraine",
-        "zelensky"
-      ],
-      "at": "2026-10-19T01:32:06.201085+00:00"
-    },
     {
       "fp": [
         "china"
@@ -1028,10 +1015,26 @@
         "spark"
       ],
       "at": "2026-10-21T19:10:49.907668+00:00"
+    },
+    {
+      "fp": [
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "NVDA",
+        "alphabet",
+        "apple",
+        "bubble",
+        "com",
+        "dot",
+        "microsoft",
+        "nvidia",
+        "this"
+      ],
+      "at": "2026-10-21T19:19:35.844158+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: 15% of S&P 500 companies report EARNINGS this week. SpaceX ($SPCX), Tesla ($TSLA) and Meta ($META) hit the earnings bell on Tuesday and Wednesday, while pending home sales and jobless claims data drop Tuesday and Thursday. Watch the market shift",
     "BREAKING: JPMorgan Chase & Co. ($JPM) warns 30\u2011year Treasury yields are a growing threat to small\u2011 and mid\u2011cap stocks. 60% of global GDP comes from countries with debt >100% of GDP and ongoing deficits\u2014unprecedented. Higher yields squeeze equity liquidity, pushing valuations lower. #ethancole #finance #stockmarket #marketnews #economy",
     "BREAKING: \ud83c\udde8\ud83c\uddf3 China GDP beats estimates, sending Bitcoin, KOSPI, Nasdaq futures on a rally.",
     "BREAKING: OIL TANKER IN FLAMES IN THE STRAIT OF HORMUZ after striking a naval mine. \u26a0\ufe0f One cargo vessel lost 20% of its fuel load. The incident spikes regional risk, could push crude up 2\u20113% in next 24\u202fhrs. Why it matters? Market volatility could hit global supply chains. #ethancole #technews #finance #marketnews #breakingnews",
@@ -1045,12 +1048,14 @@
     "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
     "BREAKING: President Trump is set to highlight overseas CRYPTO abuses at an upcoming White House event.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Anthropic declares itself a Public Benefit Corporation and drops its annual Public Benefit Report today, spotlighting 5 pillars and concrete actions. Why it matters: AI ethics & safety now officially part of corporate mandate. #ethancole #ai #technews #finance #investing",
-    "JUST IN: \ud83d\udea8 AI startup Recursive has released Flint, an OPEN-WEIGHT coding model that runs 2x faster than alternatives."
+    "JUST IN: \ud83d\udea8 AI startup Recursive has released Flint, an OPEN-WEIGHT coding model that runs 2x faster than alternatives.",
+    "BREAKING: S&P 500 CONCENTRATION just hit a record high."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
     "122126712807472689_1399748545474111",
     "122126736339472689_1620200422934833",
-    "122126739171472689_2127957457805710"
+    "122126739171472689_2127957457805710",
+    "122126747361472689_1145997474778493"
   ]
 }
