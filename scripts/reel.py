@@ -155,9 +155,32 @@ def voiceover_script(post_text: str, lang: str = "en", llm=None) -> str:
 
 
 # ---------------------------------------------------------------- scenes
-def _scene_brand(brand: str, topic: str, tag: str) -> Image.Image:
+def _photo_bg(base: Image.Image, photo: bytes) -> Image.Image:
+    """The story's own photo as the background, darkened so the type reads."""
+    try:
+        from PIL import ImageFilter
+        im = Image.open(io.BytesIO(photo)).convert("RGB")
+        scale = max(VW / im.width, VH / im.height)
+        im = im.resize((int(im.width * scale) + 1, int(im.height * scale) + 1),
+                       Image.LANCZOS)
+        x = (im.width - VW) // 2
+        y = (im.height - VH) // 2
+        im = im.crop((x, y, x + VW, y + VH))
+        im = im.filter(ImageFilter.GaussianBlur(3))
+        # darken so the white type always reads
+        base = Image.blend(base, im, 0.55)
+        return Image.blend(base, Image.new("RGB", (VW, VH), (0, 0, 0)), 0.42)
+    except Exception:
+        return base
+
+
+
+def _scene_brand(brand: str, topic: str, tag: str,
+                 photo: bytes | None = None) -> Image.Image:
     b = cd.BRANDS.get(brand, cd.BRANDS["ethan"])
     img = cd._gradient((VW, VH), b["bg_top"], b["bg_bot"])
+    if photo:
+        img = _photo_bg(img, photo)
     d = ImageDraw.Draw(img)
     glow = Image.new("RGB", (VW, VH), b["bg_bot"])
     gd = ImageDraw.Draw(glow)
@@ -188,9 +211,11 @@ def _scene_brand(brand: str, topic: str, tag: str) -> Image.Image:
 
 
 def _scene_number(brand: str, num: str, direction: int, headline: str,
-                   lang: str) -> Image.Image:
+                   lang: str, photo: bytes | None = None) -> Image.Image:
     b = cd.BRANDS.get(brand, cd.BRANDS["ethan"])
     img = cd._gradient((VW, VH), b["bg_top"], b["bg_bot"])
+    if photo:
+        img = _photo_bg(img, photo)
     d = ImageDraw.Draw(img)
     d.rectangle((0, 0, VW, 10), fill=b["accent"])
     ar_page = cd.is_arabic(headline)
@@ -215,9 +240,12 @@ def _scene_number(brand: str, num: str, direction: int, headline: str,
     return img
 
 
-def _scene_end(brand: str, cta: str, strip: str, lang: str) -> Image.Image:
+def _scene_end(brand: str, cta: str, strip: str, lang: str,
+               photo: bytes | None = None) -> Image.Image:
     b = cd.BRANDS.get(brand, cd.BRANDS["ethan"])
     img = cd._gradient((VW, VH), b["bg_top"], b["bg_bot"])
+    if photo:
+        img = _photo_bg(img, photo)
     d = ImageDraw.Draw(img)
     d.rectangle((0, 0, VW, 10), fill=b["accent"])
     f = cd._font(58, bold=True)
@@ -233,7 +261,8 @@ def _scene_end(brand: str, cta: str, strip: str, lang: str) -> Image.Image:
 
 # ---------------------------------------------------------------- build
 def build_reel(post_text: str, topics=None, outlet: str = "", brand: str = "ethan",
-               lang: str = "en", llm=None, workdir: Path | None = None) -> bytes:
+               lang: str = "en", llm=None, workdir: Path | None = None,
+               photo: bytes | None = None) -> bytes:
     """Return mp4 bytes. Empty bytes on failure."""
     if cd is None:
         return b""
@@ -256,9 +285,9 @@ def build_reel(post_text: str, topics=None, outlet: str = "", brand: str = "etha
            else "التفاصيل الكاملة في الصفحة")
 
     scenes = [
-        (_scene_brand(brand, tag, tag), 3.0),
-        (_scene_number(brand, num, direction, hook, lang), 6.0),
-        (_scene_end(brand, cta, "  ·  ".join(b["strip"]), lang), 3.5),
+        (_scene_brand(brand, tag, tag, photo), 3.0),
+        (_scene_number(brand, num, direction, hook, lang, photo), 6.0),
+        (_scene_end(brand, cta, "  ·  ".join(b["strip"]), lang, photo), 3.5),
     ]
 
     paths = []

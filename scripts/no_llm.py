@@ -80,10 +80,28 @@ def _question(topics) -> tuple[str, str]:
     return QUESTIONS["default"]
 
 
+def _is_target_lang(text: str, lang: str) -> bool:
+    """Can this text be published on this page as-is?
+
+    The no-LLM builder cannot translate. If the source is not already in the
+    page's language, the post is refused rather than shown in the wrong
+    language - an English post on an Arabic page pushes the audience away
+    and teaches the algorithm the page is for someone else."""
+    if not text:
+        return False
+    if lang == "ar":
+        arabic = sum(1 for c in text if "\u0600" <= c <= "\u06ff")
+        return arabic >= max(8, len(text) * 0.15)
+    latin = sum(1 for c in text if c.isascii() and (c.isalpha() or c.isspace()))
+    return latin >= len(text) * 0.5
+
+
 def build_post(candidate: dict, lang: str = "en") -> str:
     """A complete, truthful post with no model involved."""
     title = _clean(candidate.get("title", ""))
     summary = candidate.get("summary", "") or ""
+    if not _is_target_lang(title + " " + summary, lang):
+        return ""
     topics = candidate.get("keywords", []) or []
     q_en, q_ar = _question(topics)
 
@@ -115,6 +133,8 @@ def build_post(candidate: dict, lang: str = "en") -> str:
 
 def build_video_post(candidate: dict, lang: str = "en") -> str:
     title = _clean(candidate.get("title", ""))
+    if not _is_target_lang(title, lang):
+        return ""
     q_en, q_ar = _question(candidate.get("keywords", []) or [])
     if lang == "ar":
         return f"{title}\n\n{q_ar}"

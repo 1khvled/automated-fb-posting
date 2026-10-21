@@ -371,7 +371,6 @@ X_HANDLES = [
     # AI model leakers (unreleased LLMs — writer frames as RUMOR)
     "shengtang135754",  # Gemini/GPT leaks (CN/EN), often first
     "testingcatalog",   # unreleased AI models/features tracker
-    "ChatGPTapp",       # ChatGPT updates + rollouts watcher
     "Priyannkaaaa",     # Priya — DeepSeek/AI leaks, often first
     # Famous investors (faces + posts; Burry rarely tweets himself)
     "BurryTracker",     # Michael Burry tracker (13F, quotes, deletes)
@@ -381,16 +380,11 @@ X_HANDLES = [
     "RayDalio",         # Ray Dalio — principles + macro
     "CathieDWood",      # Cathie Wood / ARK — innovation calls
     # Politician trade trackers (visual: politician + stock they bought)
-    "PelosiTracker_",   # Nancy Pelosi stock tracker — rare gold, boosted
     "congresstrading",  # congressional trades across both parties
     # Bank analyst actions (price targets, upgrades — Stockstoearn style)
-    "StockMKTNewz",     # analyst PT changes all day
-    "unusual_whales",   # flow + analyst ratings, noisy -> strict gate
     # Faster crypto breaking than WatcherGuru (all verified live Oct 2026:
     # real handles, follower counts + bios checked via FxEmbed author block)
     "Cointelegraph",    # 2.9M — fastest detailed crypto breaking
-    "BitcoinMagazine",  # 4.5M — trusted BTC voice
-    "DegenerateNews",   # 426K — raw degen wire, strict min_score gate
     "Newsquawk",        # 138K — pro squawk desk
 ]
 
@@ -961,6 +955,49 @@ def gen_gemini(model: str, system: str, user: str) -> str:
     raise RuntimeError(f"Gemini {model} failed on all {len(keys)} keys: {last_err}")
 
 
+def gen_groq(model: str, system: str, user: str) -> str:
+    """Groq free tier. The gpt-oss models are REASONING models: they spend
+    the token budget thinking before they emit the post, so the budget has
+    to be big (4000) and an answer truncated with an empty body is retried
+    with a much bigger one (12000). Without this the model looked broken
+    when it was only truncated."""
+    import json as _json
+    key = os.getenv("GROQ_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError("No GROQ_API_KEY set")
+
+    def call(mx):
+        return requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={"Authorization": f"Bearer {key}",
+                     "Content-Type": "application/json"},
+            json={"model": model, "max_tokens": mx, "temperature": 0.5,
+                  "messages": [{"role": "system", "content": system},
+                               {"role": "user", "content": user}]},
+            timeout=120).json()
+
+    d = call(4000)
+    if d.get("error"):
+        raise RuntimeError(f"Groq {model} HTTP error: {_json.dumps(d)[:200]}")
+    try:
+        text = (d["choices"][0]["message"].get("content") or "").strip()
+    except Exception:
+        text = ""
+    if text:
+        return text
+    if d["choices"][0].get("finish_reason") == "length":
+        d2 = call(12000)
+        try:
+            text = (d2["choices"][0]["message"].get("content") or "").strip()
+        except Exception:
+            text = ""
+        if text:
+            return text
+    raise RuntimeError(
+        f"Groq {model} returned no text "
+        f"(finish_reason={d['choices'][0].get('finish_reason')})")
+
+
 def gen_openrouter(model: str, system: str, user: str) -> str:
     import json as _json
     key = os.getenv("OPENROUTER_API_KEY", "").strip()
@@ -971,7 +1008,7 @@ def gen_openrouter(model: str, system: str, user: str) -> str:
                  "HTTP-Referer": "https://github.com/ethan-cole-fb-bot",
                  "X-Title": "ethan-cole-fb-bot",
                  "Content-Type": "application/json"},
-        json={"model": model, "max_tokens": 500, "temperature": 0.5,
+        json={"model": model, "max_tokens": 3000, "temperature": 0.5,
               "reasoning": {"exclude": True},
               "messages": [{"role": "system", "content": system},
                            {"role": "user", "content": user}]},
@@ -2846,6 +2883,37 @@ def select_visuals(candidate: dict):
     return None, None, None
 
 
+def _looks_like_photo(data: bytes) -> bool:
+    """Is this a real photograph, or a logo / tracker pixel / flat graphic?
+
+    The bad images on the page were never the article's own photo - they
+    were what a generic image SEARCH turned up. But the article's photo
+    is not always a photo either: plenty of sites use a logo card or a
+    1200x1200 banner as their og:image. So the gate is:
+      - big enough to be a real editorial image
+      - enough colour variety to be a photograph (a flat graphic has a
+        few dozen distinct colours, a photo has thousands)
+      - not a tiny file
+    """
+    try:
+        from PIL import Image
+        import io as _io
+        im = Image.open(_io.BytesIO(data)).convert("RGB")
+    except Exception:
+        return False
+    w, h = im.size
+    if w < 800 or h < 450:
+        return False
+    if len(data) < 25000:
+        return False
+    try:
+        small = im.resize((80, 80), Image.BILINEAR).quantize(colors=48)
+        colours = len(set(small.getdata()))
+    except Exception:
+        return False
+    return colours >= 10
+
+
 def find_photo(candidate: dict):
     """(bytes, ext, src). SUBJECT-FIRST: curated relevance beats source art.
     Oct 2026 incident: a bitcoin ETF story shipped the article's generic
@@ -2853,24 +2921,11 @@ def find_photo(candidate: dict):
     always wins now; source/og art is fallback; scraped web photos last
     resort before neutral. X attachments stay deprioritized: X media is
     unvetted (memes, screenshots, pricing cards)."""
-    # 1. subject visuals: person/face, entity logo, topic scenes
-    vimg, vext, vsrc = select_visuals(candidate)
-    if vimg:
-        return vimg, vext, vsrc
-    simg, sext, ssrc = split_card(candidate)
-    if simg:
-        return simg, sext, ssrc
-    face = people_photo(candidate)
-    if face[0]:
-        return face[0], face[1], "face"
-    card = entity_logo(candidate)
-    if card[0]:
-        return card[0], card[1], "entity-logo"
-    timg, text_, tsrc = topic_photo(candidate)
-    if timg:
-        return timg, text_, tsrc
-    # 2. source art fallback (demoted from first: editorial hero images are
-    # generic as often as apt)
+    # THE STORY'S OWN PHOTO, FIRST. This is the actual story, shot by an
+    # actual photographer. It used to be demoted behind curated subject
+    # visuals and two image searches - and a generic image search is
+    # where the bad images came from. The gate rejects logo cards, tracker
+    # pixels and flat graphics.
     raw = None  # (data, src)
     if candidate.get("photo_url"):
         key = "src-" + hashlib.sha256(
@@ -2903,13 +2958,40 @@ def find_photo(candidate: dict):
     if raw and not _big_enough(raw[0]):
         log("Source/og photo too small, falling through to curated photos")
         raw = None
+    if raw and _looks_like_photo(raw[0]):
+        log(f"Using the story's own photo ({raw[1]})")
+        return raw[0], "jpeg", raw[1]
+    if raw:
+        log("Story photo is not a real photo (logo/graphic/small) - "
+            "using the curated subject visual instead")
+        raw = None
+
+    # 1. subject visuals: person/face, entity logo, topic scenes
+    vimg, vext, vsrc = select_visuals(candidate)
+    if vimg:
+        return vimg, vext, vsrc
+    simg, sext, ssrc = split_card(candidate)
+    if simg:
+        return simg, sext, ssrc
+    face = people_photo(candidate)
+    if face[0]:
+        return face[0], face[1], "face"
+    card = entity_logo(candidate)
+    if card[0]:
+        return card[0], card[1], "entity-logo"
+    timg, text_, tsrc = topic_photo(candidate)
+    if timg:
+        return timg, text_, tsrc
     if not raw:
         gdata, _gext = _google_photo(
             " ".join((candidate.get("keywords") or [])[:3])
             or candidate.get("title", "")[:80])
         if gdata:
             raw = (gdata, "google")
-    if not raw:
+    if not raw and os.getenv("OPENVERSE", "0") == "1":
+        # Openverse is the last-resort image source and it is currently
+        # timing out at 20s a call - three of them cost a minute of every
+        # run for an image nobody wants. Opt-in.
         odata, _oext, _ocreator = _openverse_photo(
             " ".join((candidate.get("keywords") or [])[:3])
             or candidate.get("title", "")[:80])
@@ -3588,7 +3670,10 @@ def main() -> int:
                 log(f"Video rewrite failed: {ex} - using the no-LLM builder")
                 try:
                     vpost = sanitize(no_llm.build_video_post(vpick, LANG))
-                    vprobs = []
+                    vprobs = ([] if vpost else
+                              ["no-LLM builder cannot write in the target "
+                               "language - skipping rather than posting the "
+                               "wrong language"])
                 except Exception as ex2:
                     vpost, vprobs = None, [f"{ex} | {ex2}"[:160]]
             if vpost and not vprobs:
@@ -3596,24 +3681,31 @@ def main() -> int:
                 vpost = add_source(vpost, outlet_for(vpick["feed"]))
                 print("--- VIDEO POST ---\n" + vpost + "\n------------")
                 vh = item_hash(vpick["link"], vpick["title"])
+                # A REAL reel: the actual video the source posted. The
+                # generated reel is opt-in (REELS=1) - a generated one
+                # is AI slop, and the page is judged on whether the
+                # content is real.
                 vid = None
-                try:
-                    if reel is None:
-                        raise RuntimeError("reel module not available")
-                    vid = reel.build_reel(
-                        vpost, vpick.get("keywords", []),
-                        outlet_for(vpick["feed"]),
-                        os.getenv("CARD_BRAND", "ethan"),
-                        LANG,
-                        llm=lambda s, u: gen_gemini("gemini-3.5-flash", s, u))
-                    if vid:
-                        log("Generated reel built (original content)")
-                except Exception as _rex:
-                    log(f"reel build failed: {_rex}")
+                if os.getenv("REELS", "0") == "1":
+                    try:
+                        if reel is None:
+                            raise RuntimeError("reel module not available")
+                        _photo = find_photo(vpick)
+                        vid = reel.build_reel(
+                            vpost, vpick.get("keywords", []),
+                            outlet_for(vpick["feed"]),
+                            os.getenv("CARD_BRAND", "ethan"),
+                            LANG,
+                            llm=lambda s, u: gen_gemini("gemini-3.5-flash", s, u),
+                            photo=(_photo[0] if _photo and _photo[0] else None))
+                        if vid:
+                            log("Generated reel built (REELS=1)")
+                    except Exception as _rex:
+                        log(f"reel build failed: {_rex}")
                 if not vid:
                     vid = _download_video(vpick["video_url"])
                     if vid:
-                        log("Falling back to the downloaded footage")
+                        log("Posted the real video from the source")
                 if dry_run:
                     log(f"DRY_RUN=1, video not publishing. "
                         f"({len(vid or b'')} bytes)")
@@ -3701,6 +3793,13 @@ def main() -> int:
         log(f"Rewrite failed: {ex} - using the no-LLM builder")
         try:
             post = no_llm.build_post(pick, LANG)
+            if not post.strip():
+                # The no-LLM builder cannot write Arabic without a model.
+                # Publishing the English source on the Arabic page is worse
+                # than publishing nothing, so skip the run instead.
+                log("no-LLM builder cannot write in the target language - "
+                    "skipping this run rather than post the wrong language")
+                return 2
             fallback = True
         except Exception as ex2:
             log(f"no-LLM builder failed too: {ex2}")
@@ -3725,24 +3824,19 @@ def main() -> int:
         return 0
 
     h = item_hash(pick["link"], pick["title"])
-    # DESIGNED CARD, not a stock photo. Oct 2026: the pages were posting
-    # stock imagery (a building, gold bars, a flag) and getting zero
-    # engagement and near-zero views - a generic image carries no
-    # information, so nobody stops for it. The cover art of these pages is
-    # a designed composite; the posts now match it.
+    # THE REAL PHOTO. The source account's own image (a chart, a screenshot,
+    # a photo) or the article's editorial image. The curated composites and
+    # the generic image searches are what made the feed look like clip art;
+    # they are the fallback now, and the generated card is gone from this
+    # path entirely. If there is no real photo, the post goes text-only -
+    # a text post beats a fake one.
     post = add_source(post, outlet_for(pick["feed"]))
-    img, ext, src = None, None, "text-only"
-    try:
-        if card_design is None:
-            raise RuntimeError("card_design not available")
-        img = card_design.design_card(
-            post, pick.get("keywords", []), outlet_for(pick["feed"]),
-            os.getenv("CARD_BRAND", "ethan"))
-        ext = "jpeg"
-        src = "card"
-        log("Designed card rendered")
-    except Exception as _cex:
-        log(f"Card design failed ({_cex}) - falling back to text-only")
+    img, ext, src = find_photo(pick)
+    if img:
+        log(f"Photo: {src}")
+    else:
+        log("No real photo for this story - posting text-only")
+        img, ext, src = None, None, "text-only"
     post = add_credit(post, credit_for(pick["feed"], src))
     log(f"Visual: {src} | credit added")
     if dry_run:
