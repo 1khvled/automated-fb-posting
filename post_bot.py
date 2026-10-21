@@ -899,6 +899,8 @@ House style mined from the page's own 80 posts (top performers weighted):
 Output plain copy-paste text only, no commentary."""
 
 USER_TEMPLATE = """Source: {feed}
+Source account: {handle}
+If you name the author, use exactly that name (transliterated into the page language). Never guess it.
 Headline: {title}
 Summary: {summary}
 Article URL (for your context only, do NOT include in post): {link}
@@ -1274,8 +1276,21 @@ def _openrouter_models() -> list:
             if m.strip()]
 
 
+def _feed_handle(feed: str) -> str:
+    """The source account's handle, e.g. "X @BillAckman" -> "@BillAckman".
+
+    A post that names the author must name them correctly. The writer was
+    transliterating "Ackman" and guessing the first name (it wrote Michael
+    for Bill) because the handle was buried in the source line.
+    """
+    m = re.search(r"@([A-Za-z0-9_]{2,})", feed or "")
+    return f"@{m.group(1)}" if m else ""
+
+
 def rewrite_with_llm(candidate: dict) -> str:
-    user_msg = USER_TEMPLATE.format(**candidate)
+    _cand = dict(candidate)
+    _cand["handle"] = _feed_handle(candidate.get("feed", ""))
+    user_msg = USER_TEMPLATE.format(**_cand)
     system = (SYSTEM_PROMPT_VIRAL if candidate.get("mode") == "viral"
               else SYSTEM_PROMPT)
     chain: list[tuple[str, str]] = []
