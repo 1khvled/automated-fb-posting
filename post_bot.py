@@ -1405,6 +1405,12 @@ def quality_check(post: str, source_title: str) -> list[str]:
         problems.append("copies headline verbatim")
     if re.search(r"\b\[.*\]|\(insert|TODO", post, re.I):
         problems.append("contains placeholder text")
+    # Ethan Cole is an English-only page. A draft that comes back in Arabic
+    # is a writer failure, not a style choice - and the QC sits inside the
+    # writer chain, so rejecting it here means the next model is tried
+    # instead of the run being wasted.
+    if _has_arabic(post):
+        problems.append("draft is in Arabic (this page is English only)")
     return problems
 
 
