@@ -46,6 +46,7 @@ jobs:
       DRY_RUN: ${{ inputs.dry_run || '0' }}
       FORCE_POST: ${{ inputs.force || '0' }}
       POST_STORIES: "1"
+      CARD_BRAND: "ethan"
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       GROUP_SHARE_TARGETS: ${{ secrets.GROUP_SHARE_TARGETS }}

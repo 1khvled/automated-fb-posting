@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Ethan Cole Finance + AI — Facebook auto-poster
 Runs every 20 min via GitHub Actions. Fetches RSS, filters by criteria,
@@ -46,6 +46,11 @@ except Exception as _nerr:  # the safety net must be visible if it is missing
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                    "scripts"))
+try:
+    import card_design
+except Exception as _cerr:
+    card_design = None
+    print(f"WARNING: card_design not loaded: {_cerr}", flush=True)
 try:
     import growth
 except Exception as _gerr:  # optional, but never fail silently
@@ -3690,14 +3695,26 @@ def main() -> int:
         return 0
 
     h = item_hash(pick["link"], pick["title"])
-    img, ext, src = find_photo(pick)
-    if os.getenv("PHOTO_SELECTIVE", "1") == "1" \
-            and not photo_worth_posting(src):
-        log(f"Photo {src} not worth posting, going text-only.")
-        img, src = None, "text-only"
-    post = add_credit(post, credit_for(pick["feed"], src))
+    # DESIGNED CARD, not a stock photo. Oct 2026: the pages were posting
+    # stock imagery (a building, gold bars, a flag) and getting zero
+    # engagement and near-zero views - a generic image carries no
+    # information, so nobody stops for it. The cover art of these pages is
+    # a designed composite; the posts now match it.
     post = add_source(post, outlet_for(pick["feed"]))
-    log(f"Photo: {src or 'none'} | credit added")
+    img, ext, src = None, None, "text-only"
+    try:
+        if card_design is None:
+            raise RuntimeError("card_design not available")
+        img = card_design.design_card(
+            post, pick.get("keywords", []), outlet_for(pick["feed"]),
+            os.getenv("CARD_BRAND", "ethan"))
+        ext = "jpeg"
+        src = "card"
+        log("Designed card rendered")
+    except Exception as _cex:
+        log(f"Card design failed ({_cex}) - falling back to text-only")
+    post = add_credit(post, credit_for(pick["feed"], src))
+    log(f"Visual: {src} | credit added")
     if dry_run:
         log("DRY_RUN=1, not publishing.")
         return 0
