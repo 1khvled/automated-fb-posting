@@ -181,38 +181,47 @@ NUM_RE = re.compile(r"([+\-−]?)\s*([$€£]?)\s*(\d[\d.,]*)\s*(%|B\b|K\b|M\b|T
 
 def find_number(text: str):
     """The most prominent figure in the text: the big number a card should
-    lead with. Returns (string, direction) where direction is +1/-1/0."""
+    lead with. Returns (string, direction) where direction is +1/-1/0.
+
+    If there is only ONE candidate it is always used (a lone "14
+    vulnerabilities" is a headline, not an id). With several, the biggest /
+    most newsworthy wins."""
     if not text:
         return "", 0
     cands = NUM_RE.findall(text)
     if not cands:
         return "", 0
-    best, best_score = "", -1
+    parsed = []
     for sign, cur, num, suf in cands:
         try:
             v = float(re.sub(r"[^0-9.]", "", num) or 0)
         except ValueError:
-            v = 0
+            continue
         if v == 0:
             continue
-        # prefer big round numbers and percentages over years and ids
-        score = min(v, 100000)
-        if suf == "%":
-            score += 5000
-        if cur:
-            score += 2000
-        if sign in "+-−":
-            score += 1000
-        if 1900 < v < 2100:
-            score -= 8000          # a year is not a headline
-        if len(num) <= 2 and not suf:
-            score -= 3000
-        if score > best_score:
-            best_score, best = score, f"{sign}{cur}{num}{suf or ''}".strip()
-    if not best:
+        parsed.append((sign, cur, num, suf or "", v))
+    if not parsed:
         return "", 0
-    d = 1 if best.startswith("+") else (-1 if best.startswith("-") else 0)
-    return best, d
+    if len(parsed) == 1:
+        sign, cur, num, suf, v = parsed[0]
+    else:
+        best, best_score = None, -1e9
+        for sign, cur, num, suf, v in parsed:
+            score = min(v, 100000)
+            if suf == "%":
+                score += 5000
+            if cur:
+                score += 2000
+            if sign in "+-−":
+                score += 1000
+            if 1900 < v < 2100:
+                score -= 6000          # a year is not a headline
+            if score > best_score:
+                best_score, best = score, (sign, cur, num, suf, v)
+        sign, cur, num, suf, v = best
+    out = f"{sign}{cur}{num}{suf}".strip()
+    d = 1 if out.startswith("+") else (-1 if out.startswith("-") else 0)
+    return out, d
 
 
 def clean_hook(post_text: str, max_words: int = 16) -> str:
@@ -290,16 +299,40 @@ def design_card(post_text: str, topics=None, outlet: str = "",
     # headline never disagree
     hook = clean_hook(post_text)
     body_lines = [ln.strip() for ln in (post_text or "").split("\n") if ln.strip()]
-    context = body_lines[1] if len(body_lines) > 1 else ""
+    hook_clean = re.sub(r"^(JUST IN|BREAKING|NEW|🚨|📈|📉)\s*:?\s*", "", hook,
+                        flags=re.I).strip()
 
-    num, direction = find_number(hook)
+    num, direction = find_number(hook_clean)
+    hero_in_hook = bool(num)
     if not num:
         num, direction = find_number(post_text)
-    rest = hook
-    if num and num in rest:
-        rest = rest.replace(num, "", 1)
-    rest = re.sub(r"\s{2,}", " ", rest).strip(" -—:،,")
-    rest = re.sub(r"^(JUST IN|BREAKING|NEW|📈|📉)\s*:?\s*", "", rest, flags=re.I)
+
+    if hero_in_hook:
+        # the number IS in the headline: strip it, headline keeps the rest
+        rest = hook_clean.replace(num, "", 1)
+        rest = re.sub(r"\s{2,}", " ", rest).strip(" -—:،,")
+        # context = the first body line that is not the headline
+        context = ""
+        for ln in body_lines[1:]:
+            c = re.sub(r"[*_`#~]+", "", ln)
+            c = re.sub(r"\s+", " ", c).strip()
+            if c and c != hook and num not in c:
+                context = c
+                break
+    else:
+        # the number is in the body: the headline IS the hook, so do not
+        # repeat it as the context line
+        rest = hook_clean
+        context = ""
+        for ln in body_lines[1:]:
+            c = re.sub(r"[*_`#~]+", "", ln)
+            c = re.sub(r"\s+", " ", c).strip()
+            if c and c != hook and num and num in c:
+                context = c
+                break
+            if c and c != hook and not num:
+                context = c
+                break
 
     # ---- vertical rhythm: number, headline, context
     y = 132
@@ -314,22 +347,22 @@ def design_card(post_text: str, topics=None, outlet: str = "",
         else:
             d.text((58, y), num, font=f_num, fill=b["accent"])
         y += 152
+        if rest:
+            f_h = _fit(d, rest if not ar_page else ar(rest), W - 116, 40,
+                       bold=False, arabic=ar_page, min_size=24)
+            for ln in _wrap(d, rest if not ar_page else ar(rest), f_h,
+                            W - 116)[:3]:
+                d.text((58, y), ln, font=f_h, fill=b["text"])
+                y += 48
+            y += 10
     else:
-        f_hook = _fit(d, hook if not ar_page else ar(hook), W - 116, 60,
-                      bold=True, arabic=ar_page, min_size=32)
-        for ln in _wrap(d, hook if not ar_page else ar(hook), f_hook,
-                        W - 116)[:3]:
+        # no number: the headline IS the hero, drawn big. Never draw it twice.
+        f_hook = _fit(d, rest if not ar_page else ar(rest), W - 116, 58,
+                      bold=True, arabic=ar_page, min_size=30)
+        for ln in _wrap(d, rest if not ar_page else ar(rest), f_hook,
+                        W - 116)[:4]:
             d.text((58, y), ln, font=f_hook, fill=b["text"])
-            y += 76
-        y += 10
-
-    if rest:
-        f_h = _fit(d, rest if not ar_page else ar(rest), W - 116, 40,
-                   bold=False, arabic=ar_page, min_size=24)
-        for ln in _wrap(d, rest if not ar_page else ar(rest), f_h,
-                        W - 116)[:3]:
-            d.text((58, y), ln, font=f_h, fill=b["text"])
-            y += 48
+            y += 74
         y += 12
 
     if context:
