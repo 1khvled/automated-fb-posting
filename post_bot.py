@@ -47,6 +47,11 @@ except Exception as _nerr:  # the safety net must be visible if it is missing
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                    "scripts"))
 try:
+    import reel
+except Exception as _rerr:
+    reel = None
+    print(f"WARNING: reel not loaded: {_rerr}", flush=True)
+try:
     import card_design
 except Exception as _cerr:
     card_design = None
@@ -3583,7 +3588,24 @@ def main() -> int:
                 vpost = add_source(vpost, outlet_for(vpick["feed"]))
                 print("--- VIDEO POST ---\n" + vpost + "\n------------")
                 vh = item_hash(vpick["link"], vpick["title"])
-                vid = _download_video(vpick["video_url"])
+                vid = None
+                try:
+                    if reel is None:
+                        raise RuntimeError("reel module not available")
+                    vid = reel.build_reel(
+                        vpost, vpick.get("keywords", []),
+                        outlet_for(vpick["feed"]),
+                        os.getenv("CARD_BRAND", "ethan"),
+                        LANG,
+                        llm=lambda s, u: gen_gemini("gemini-3.5-flash", s, u))
+                    if vid:
+                        log("Generated reel built (original content)")
+                except Exception as _rex:
+                    log(f"reel build failed: {_rex}")
+                if not vid:
+                    vid = _download_video(vpick["video_url"])
+                    if vid:
+                        log("Falling back to the downloaded footage")
                 if dry_run:
                     log(f"DRY_RUN=1, video not publishing. "
                         f"({len(vid or b'')} bytes)")
