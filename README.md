@@ -5,25 +5,44 @@ finance/AI news passes the filter. Dedup via `posted.json`.
 
 ## October 2026 incident (read this before changing anything)
 
-Two separate problems, both fixed or diagnosed below.
+Three separate problems, two fixed and one that needs one click from a human.
 
-**1. The Page token is dead, and it cannot be fixed from the server.**
+**1. The Page was deleted, and it cannot be brought back by re-minting.**
 The self-heal log says it exactly:
 
 ```
 refresh: page_not_managed - the Facebook account behind FB_USER_TOKEN
-manages 1 other page (some id) but not our page
+manages 1 other page but not our page
 ```
 
-A Page token inherits the life of the user token that minted it. The profile
-behind `FB_USER_TOKEN` no longer administers the Ethan Cole Page, so every
-publish returns error 190 (*"This Page access token belongs to a Page that is
-not accessible"*) and re-minting from the same user token just reproduces the
-same dead token. **The fix is one interactive login on the Facebook profile
-that actually owns the Page.** `scripts/reseed_token.py` makes that a
-two-minute job: it exchanges the token, lists the Pages it can manage, mints
-and stores the Page token, re-enables this workflow, and tells you plainly
-which profile to log into when the Page is missing.
+A Page token inherits the life of the user token that minted it, so when the
+Page is gone every publish returns error 190 (*"This Page access token belongs
+to a Page that is not accessible"*). Proved it three ways: the Graph API
+returns *"Object does not exist"* for the old page id with the raw token, with
+the long-lived token and with the app token; the public page URL 404s while a
+control page loads fine; and `/me/accounts` lists no unpublished page hiding
+behind it.
+
+**The Page has to be created once, by hand, in the Facebook UI** — the API
+cannot do it from this app: `POST /me/accounts` fails with *"(#100) Can only
+call this method on valid test users for your app"*, and every category value
+returns a misleading *"(#152) Invalid Page Category"* (even `"Other"`, the
+universal fallback — so #152 is a mask, not a category problem).
+
+**Then the bot is back with one command:**
+
+```
+python scripts/provision_page.py --watch
+```
+
+It polls for the new Page (your existing token already has `pages_show_list`,
+so there is no re-login and no id to hand over), sets the about text, website
+and category, uploads the profile picture and cover from `assets/`, mints the
+Page token, stores both GitHub secrets, resets the engagement history while
+keeping the posted-hash dedup, enables this workflow and fires a test run.
+
+If the Page is ever moved to another Facebook profile later, the one-login
+repair is `scripts/reseed_token.py` instead.
 
 **2. The page was posting 15 times a day into 8 followers and getting zero
 engagement.** `MIN_POSTS_PER_DAY` was 14. It is not a floor, it is a *target*:
@@ -38,7 +57,7 @@ Raise both only when the audience does.
 **3. The tuner was blind.** `tune_from_engagement` had never learned anything
 because there was never any engagement to learn from, and `metrics.jsonl` had
 been returning `null` for impressions/engagement because the token was dead
-too. Both resolve once the token is re-seeded.
+too. Both resolve once the page is back.
 
 **4. `GROUP_SHARE_TARGETS` is not set.** It is referenced by this workflow and
 by `notify_post_live`, but the secret does not exist, so the group-share
