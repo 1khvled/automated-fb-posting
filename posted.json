@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "e56a10738c3298e8",
-    "fb_id": "1264009986803820_122126749359472689",
-    "title": "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
-    "link": "https://x.com/KobeissiLetter/status/2112729083876405561",
+    "hash": "062fda6f9816fe79",
+    "fb_id": "1264009986803820_122126762343472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
+    "link": "https://x.com/WatcherGuru/status/2112851070846218736",
     "mode": "viral",
-    "at": "2026-10-21T19:19:35.844171+00:00"
+    "at": "2026-10-21T20:09:40.624399+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -14,6 +14,7 @@
     "03e22223f98f7cc0",
     "03f8676804501e85",
     "05599de5325fd149",
+    "062fda6f9816fe79",
     "0645eb4c06eed671",
     "06e66bab9ed6a263",
     "0709e3e2addffc4e",
@@ -295,10 +296,9 @@
   ],
   "day_counts": {
     "2026-10-19": 15,
-    "2026-10-21": 9
+    "2026-10-21": 10
   },
   "recent_titles": [
-    "BREAKING: Another oil tanker in flames in the Strait of Hormuz after striking a naval mine",
     "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
     "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH, SOL and XRP spot ETFs saw net outflows last week. BTC: - $228.58M ETH: - $319.97M SOL: - $25.52M XRP: - $1.84M",
     "America appears in a homebuyer recession. Mortgage purchase applications are down 60% from their pandemic peak, per Redfin. Demand is now back near 1995 levels, lower than at any point during the 2...",
@@ -312,17 +312,10 @@
     "Anthropic is a Public Benefit Corporation. Today, we\u2019re publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we\u2019re taking to advance them....",
     "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
     "Recursive has released Flint, its first open-weight coding model under the Apache 2.0 license, which is 2x faster than comparable alternatives. > Flint is a 40B parameter mixture-of-experts model f...",
-    "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S..."
+    "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans."
   ],
   "history": [
-    {
-      "fb_id": "2378742332873418",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "serious",
-      "at": "2026-10-17T02:02:35.837930+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125188501472689",
       "topics": [
@@ -778,6 +771,16 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-21T19:19:35.844171+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126762343472689",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-21T20:09:40.624399+00:00"
     }
   ],
   "tuner": {
@@ -799,12 +802,6 @@
   },
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "china"
-      ],
-      "at": "2026-10-19T02:02:43.284188+00:00"
-    },
     {
       "fp": [
         "asia",
@@ -1032,10 +1029,19 @@
         "this"
       ],
       "at": "2026-10-21T19:19:35.844158+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "americans",
+        "president",
+        "trump"
+      ],
+      "at": "2026-10-21T20:09:40.624388+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: JPMorgan Chase & Co. ($JPM) warns 30\u2011year Treasury yields are a growing threat to small\u2011 and mid\u2011cap stocks. 60% of global GDP comes from countries with debt >100% of GDP and ongoing deficits\u2014unprecedented. Higher yields squeeze equity liquidity, pushing valuations lower. #ethancole #finance #stockmarket #marketnews #economy",
     "BREAKING: \ud83c\udde8\ud83c\uddf3 China GDP beats estimates, sending Bitcoin, KOSPI, Nasdaq futures on a rally.",
     "BREAKING: OIL TANKER IN FLAMES IN THE STRAIT OF HORMUZ after striking a naval mine. \u26a0\ufe0f One cargo vessel lost 20% of its fuel load. The incident spikes regional risk, could push crude up 2\u20113% in next 24\u202fhrs. Why it matters? Market volatility could hit global supply chains. #ethancole #technews #finance #marketnews #breakingnews",
     "JUST IN: \ud83d\udea8 Anthropic commits 5% of its SHARES to public benefit.",
@@ -1049,7 +1055,8 @@
     "BREAKING: President Trump is set to highlight overseas CRYPTO abuses at an upcoming White House event.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Anthropic declares itself a Public Benefit Corporation and drops its annual Public Benefit Report today, spotlighting 5 pillars and concrete actions. Why it matters: AI ethics & safety now officially part of corporate mandate. #ethancole #ai #technews #finance #investing",
     "JUST IN: \ud83d\udea8 AI startup Recursive has released Flint, an OPEN-WEIGHT coding model that runs 2x faster than alternatives.",
-    "BREAKING: S&P 500 CONCENTRATION just hit a record high."
+    "BREAKING: S&P 500 CONCENTRATION just hit a record high.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
