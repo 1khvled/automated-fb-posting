@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "9a4af24b838f2bf0",
-    "fb_id": "1264009986803820_122126706237472689",
-    "title": "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
-    "link": "https://x.com/WatcherGuru/status/2112912971915510070",
+    "hash": "ac31897cc44f6788",
+    "fb_id": "1264009986803820_122126708889472689",
+    "title": "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
+    "link": "https://x.com/OpenAI/status/2112907856018309586",
     "mode": "viral",
-    "at": "2026-10-21T16:06:54.099913+00:00"
+    "at": "2026-10-21T16:18:44.737183+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -191,6 +191,7 @@
     "a9d96bf57d206353",
     "a9eab993ee21cbc4",
     "aa4543247334ecdc",
+    "ac31897cc44f6788",
     "acb0acd96b4822ea",
     "ad0a8f54278a0bf0",
     "ad6b0fb14d2073e5",
@@ -289,10 +290,9 @@
   ],
   "day_counts": {
     "2026-10-19": 15,
-    "2026-10-21": 3
+    "2026-10-21": 4
   },
   "recent_titles": [
-    "BREAKING: Ukraine has launched a \"massive aerial attack,\" consisting of over 1,000 drones, striking a major oil terminal in Russia. The attack comes exactly 7 days after President Trump said Ukrain...",
     "China sept survey-based unemployment rate in 31 major cities at 5.2%",
     "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
     "Key Events This Week: 1. September Pending Home Sales data - Tuesday 2. SpaceX, $SPCX, Reports Earnings - Tuesday 3. Tesla, $TSLA, and Meta, $META, Report Earnings - Wednesday 4. Initial Jobless Cl...",
@@ -306,19 +306,10 @@
     "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
     "Nvidia $NVDA posted this today: \u201cNVIDIA announces new Isaac tools for agents as Agile Robots unveils Agile ONE SN, a reference humanoid for robotics research.\u201c",
     "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
-    "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500."
+    "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
+    "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124848757472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "split:flag+face",
-      "at": "2026-10-16T06:52:16.459789+00:00"
-    },
     {
       "fb_id": "1264009986803820_122124863487472689",
       "topics": [
@@ -776,6 +767,15 @@
       "mode": "viral",
       "photo": "text-only",
       "at": "2026-10-21T16:06:54.099913+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126708889472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-21T16:18:44.737183+00:00"
     }
   ],
   "tuner": {
@@ -797,13 +797,6 @@
   },
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "MPS",
-        "french"
-      ],
-      "at": "2026-10-18T06:32:08.670923+00:00"
-    },
     {
       "fp": [
         "BAC",
@@ -1063,10 +1056,18 @@
         "SPCX"
       ],
       "at": "2026-10-21T16:06:54.099903+00:00"
+    },
+    {
+      "fp": [
+        "PHP",
+        "patch",
+        "planet",
+        "this"
+      ],
+      "at": "2026-10-21T16:18:44.737169+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 JUST IN: MARKETS AWAIT EARNINGS FROM OVER 70 S&P 500 COMPANIES.",
     "\ud83d\udea8 BREAKING: Ukraine launches MASSIVE drone attack on Russian oil terminal.",
     "JUST IN: \ud83c\udde8\ud83c\uddf3 China\u2019s 31 major cities report a 5.2% unemployment rate for September, a spike that could shake the region\u2019s economic outlook. \ud83d\udcc8 The figure suggests a tightening labor market amid slower growth. Why it matters? Investors eye China\u2019s fiscal policy and global supply chains. #ethancole #finance #marketnews #economy #technews",
     "BREAKING: \ud83c\udfe6 Deutsche Bank ($DB) eyes Asia crypto custody boom by 2027 as German launch nears. The bank plans to tap the region\u2019s growing demand for secure digital asset storage. Why it matters: Asia\u2019s market could drive a surge in institutional crypto flows, boosting DeFi capital. #ethancole #crypto #finance #marketnews #technews #investing",
@@ -1080,6 +1081,7 @@
     "\ud83d\udea8 JUST IN: OpenAI BUGGING SUSPECT WhatsApp'ed Saudi royal days before arrest.",
     "\ud83d\udea8 JUST IN: Bitcoin ($BTC) whale MOVES $34 MILLION.",
     "\ud83d\udea8 BREAKING: U.S. and Israel to ATTACK Iran's OIL infrastructure.",
-    "JUST IN: \ud83d\ude80 JPMorgan more than DOUBLES its SpaceX ($SPCX) price target to $500!"
+    "JUST IN: \ud83d\ude80 JPMorgan more than DOUBLES its SpaceX ($SPCX) price target to $500!",
+    "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we..."
   ]
 }
