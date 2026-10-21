@@ -3410,12 +3410,12 @@ def main() -> int:
     review_comments(state)
     save_state(state_file, state)
 
-    # DAILY FLOOR: at least MIN_POSTS_PER_DAY (default 10) every day, always.
+    # DAILY FLOOR: at least MIN_POSTS_PER_DAY (default 4) every day, always.
     # Behind pace -> publish bar drops; late-day + unmet -> catchup burst.
     today = now.date().isoformat()
     day_counts = state.get("day_counts", {})
     posts_today = day_counts.get(today, 0)
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "14"))
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "4"))
     discount, catchup = floor_plan(posts_today, now.hour)
     eff_gap = 20 if catchup else int(os.getenv("MIN_POST_GAP_MINUTES", "20"))
     eff_bar = max(int(os.getenv("FLOOR_MIN_SCORE", "2")),
