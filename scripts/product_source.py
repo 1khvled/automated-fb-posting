@@ -25,33 +25,38 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 CONTENT = HERE.parent / "content"
-POSTS_FILE = CONTENT / "product_posts.json"
+# the hand-written product posts, and the auto-generated daily signals
+POST_FILES = [CONTENT / "product_posts.json", CONTENT / "signal_posts.json"]
 
 
 def load_posts(path: Path | None = None) -> list:
-    p = path or POSTS_FILE
-    if not p.exists():
-        return []
-    try:
-        data = json.loads(p.read_text(encoding="utf-8"))
-    except Exception:
-        return []
-    if isinstance(data, dict):
-        data = data.get("posts", [])
+    """All post configs. The signal posts are regenerated every morning by
+    ops/make_signals.py + ops/signal_card.py, so they are always freshest."""
+    files = [path] if path else POST_FILES
     out = []
-    for e in data:
-        if not isinstance(e, dict):
+    for p in files:
+        if not p.exists():
             continue
-        if not e.get("title") or not e.get("body"):
+        try:
+            data = json.loads(p.read_text(encoding="utf-8"))
+        except Exception:
             continue
-        img = e.get("image", "")
-        if img and not os.path.isabs(img):
-            img = str((p.parent / img).resolve())
-        if img and not os.path.exists(img):
-            continue                      # never post a post whose image is missing
-        e = dict(e)
-        e["image"] = img
-        out.append(e)
+        if isinstance(data, dict):
+            data = data.get("posts", [])
+        for e in data:
+            if not isinstance(e, dict):
+                continue
+            if not e.get("title") or not e.get("body"):
+                continue
+            img = e.get("image", "")
+            if img and not os.path.isabs(img):
+                img = str((p.parent / img).resolve())
+            if img and not os.path.exists(img):
+                continue                  # never post a post whose image is missing
+            e = dict(e)
+            e["image"] = img
+            e["_src"] = p.name
+            out.append(e)
     return out
 
 
