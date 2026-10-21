@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "ac31897cc44f6788",
-    "fb_id": "1264009986803820_122126708889472689",
-    "title": "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
-    "link": "https://x.com/OpenAI/status/2112907856018309586",
-    "mode": "viral",
-    "at": "2026-10-21T16:18:44.737183+00:00"
+    "hash": "1098ec9725488722",
+    "fb_id": "1264009986803820_122126712807472689",
+    "title": "Trump to throw spotlight on overseas crypto abuses at White House event",
+    "link": "https://www.coindesk.com/policy/2026/10/21/trump-to-throw-spotlight-on-overseas-crypto-abuses-in-white-house-event",
+    "mode": "serious",
+    "at": "2026-10-21T16:38:57.033830+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -35,6 +35,7 @@
     "0e590aebd2b44c59",
     "0f167e673f05e771",
     "100a2e3d51fa9091",
+    "1098ec9725488722",
     "109a368c58a2c37c",
     "11e9a2979f0b49a2",
     "126ff52b33bd93a7",
@@ -290,10 +291,9 @@
   ],
   "day_counts": {
     "2026-10-19": 15,
-    "2026-10-21": 4
+    "2026-10-21": 5
   },
   "recent_titles": [
-    "China sept survey-based unemployment rate in 31 major cities at 5.2%",
     "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
     "Key Events This Week: 1. September Pending Home Sales data - Tuesday 2. SpaceX, $SPCX, Reports Earnings - Tuesday 3. Tesla, $TSLA, and Meta, $META, Report Earnings - Wednesday 4. Initial Jobless Cl...",
     "JPMorgan warns that rising 30-year Treasury yields are becoming a growing threat to small- and mid-cap stocks. The driver: deteriorating government finances around the world. About 60% of global GD...",
@@ -307,18 +307,10 @@
     "Nvidia $NVDA posted this today: \u201cNVIDIA announces new Isaac tools for agents as Agile Robots unveils Agile ONE SN, a reference humanoid for robotics research.\u201c",
     "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
     "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
-    "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we..."
+    "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
+    "Trump to throw spotlight on overseas crypto abuses at White House event"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122124863487472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-16T07:21:37.254311+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125160319472689",
       "topics": [
@@ -776,6 +768,16 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-21T16:18:44.737183+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126712807472689",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "card",
+      "at": "2026-10-21T16:38:57.033830+00:00"
     }
   ],
   "tuner": {
@@ -797,27 +799,6 @@
   },
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "BAC",
-        "C",
-        "KBW",
-        "STT",
-        "US",
-        "america",
-        "bank",
-        "citigroup",
-        "crisis",
-        "financial",
-        "index",
-        "june",
-        "large",
-        "state",
-        "street",
-        "this"
-      ],
-      "at": "2026-10-18T07:01:47.731598+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1065,10 +1046,17 @@
         "this"
       ],
       "at": "2026-10-21T16:18:44.737169+00:00"
+    },
+    {
+      "fp": [
+        "house",
+        "trump",
+        "white"
+      ],
+      "at": "2026-10-21T16:38:57.033814+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 BREAKING: Ukraine launches MASSIVE drone attack on Russian oil terminal.",
     "JUST IN: \ud83c\udde8\ud83c\uddf3 China\u2019s 31 major cities report a 5.2% unemployment rate for September, a spike that could shake the region\u2019s economic outlook. \ud83d\udcc8 The figure suggests a tightening labor market amid slower growth. Why it matters? Investors eye China\u2019s fiscal policy and global supply chains. #ethancole #finance #marketnews #economy #technews",
     "BREAKING: \ud83c\udfe6 Deutsche Bank ($DB) eyes Asia crypto custody boom by 2027 as German launch nears. The bank plans to tap the region\u2019s growing demand for secure digital asset storage. Why it matters: Asia\u2019s market could drive a surge in institutional crypto flows, boosting DeFi capital. #ethancole #crypto #finance #marketnews #technews #investing",
     "BREAKING: 15% of S&P 500 companies report EARNINGS this week. SpaceX ($SPCX), Tesla ($TSLA) and Meta ($META) hit the earnings bell on Tuesday and Wednesday, while pending home sales and jobless claims data drop Tuesday and Thursday. Watch the market shift",
@@ -1082,6 +1070,10 @@
     "\ud83d\udea8 JUST IN: Bitcoin ($BTC) whale MOVES $34 MILLION.",
     "\ud83d\udea8 BREAKING: U.S. and Israel to ATTACK Iran's OIL infrastructure.",
     "JUST IN: \ud83d\ude80 JPMorgan more than DOUBLES its SpaceX ($SPCX) price target to $500!",
-    "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we..."
+    "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
+    "BREAKING: President Trump is set to highlight overseas CRYPTO abuses at an upcoming White House event."
+  ],
+  "replied_comments": [
+    "122126708889472689_1811546663506391"
   ]
 }
