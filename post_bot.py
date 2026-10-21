@@ -57,6 +57,10 @@ except Exception as _cerr:
     card_design = None
     print(f"WARNING: card_design not loaded: {_cerr}", flush=True)
 try:
+    import product_source
+except Exception:
+    product_source = None
+try:
     import growth
 except Exception as _gerr:  # optional, but never fail silently
     growth = None
@@ -3593,7 +3597,8 @@ def main() -> int:
         return any(difflib.SequenceMatcher(None, tl, r.lower()).ratio() > 0.75
                    for r in recent)
 
-    fresh = [c for c in fresh if not _too_similar(c["title"])]
+    fresh = [c for c in fresh
+             if c.get("is_product") or not _too_similar(c["title"])]
     # EVENT guard: same news, different wording. Fingerprints compare WHAT
     # the story is about (entities + numbers), not how it's phrased.
     fps = state.get("recent_fps", [])
@@ -3625,6 +3630,32 @@ def main() -> int:
         log(f"Dropping {dropped} unverified candidates.")
         fresh = [c for c in fresh if c.get("verified")]
     log(f"{len(fresh)} fresh (not yet posted)")
+    # PRODUCT ROTATION. The pages are the top of the funnel for a paid
+    # membership, so the product goes out on a schedule - at most
+    # PRODUCT_PER_DAY a day, inside PRODUCT_WINDOW_UTC, and never more than
+    # one in a row, so the page stays a page and not an ad feed.
+    try:
+        import product_source as _ps
+        _per_day = int(os.getenv("PRODUCT_PER_DAY", "1"))
+        _win = os.getenv("PRODUCT_WINDOW_UTC", "9-21")
+        _lo, _hi = (int(x) for x in _win.split("-"))
+        _now_h = datetime.now(timezone.utc).hour
+        _count = _ps.daily_count(state)
+        _last_was_product = bool(state.get("history") and
+                                 state["history"][-1].get("is_product"))
+        if (_lo <= _now_h < _hi and _count < _per_day and not _last_was_product
+                and _ps.load_posts()):
+            _pcands = _ps.candidates(state)
+            if _pcands:
+                fresh.insert(0, _pcands[0])
+                log(f"PRODUCT ROTATION: injecting '{_pcands[0].get('product_id')}' "
+                    f"({_count}/{_per_day} today, hour {_now_h} in {_win} UTC)")
+        else:
+            log(f"product rotation skipped: {_count}/{_per_day} today, "
+                f"hour {_now_h} not in {_win} UTC, "
+                f"last was product={_last_was_product}")
+    except Exception as _pe:
+        log(f"product rotation unavailable: {_pe}")
     # Prefer a story that CARRIES A REAL PHOTO. 18 of 44 candidates have
     # one - the chart or screenshot the source published with - and a post
     # with the story's own picture is the post that works. The boost is
@@ -3792,26 +3823,38 @@ def main() -> int:
     log(f"Picked [{pick['feed']}] score={pick['score']}: {pick['title'][:120]}")
 
     fallback = False
-    try:
-        post = rewrite_with_llm(pick)
-    except Exception as ex:
-        # Every writer is down. A page that stops posting loses its streak,
-        # so fall back to a post built from the source facts only. No model,
-        # no invention, lower polish - but the page stays alive.
-        log(f"Rewrite failed: {ex} - using the no-LLM builder")
+    if pick.get("is_product"):
+        # A hand-written product post: already in the house voice, already
+        # fact-checked, already has its image. The LLM must not touch it and
+        # the QC (which checks the copy against a source headline) must not
+        # run on it either.
+        post = (pick.get("summary") or "").rstrip()
+        _tags = " ".join(pick.get("keywords") or [])
+        if _tags and _tags not in post:
+            post = f"{post}\n\n{_tags}"
+        fallback = True
+        log(f"PRODUCT POST: {pick.get('product_id')}")
+    else:
         try:
-            post = no_llm.build_post(pick, LANG)
-            if not post.strip():
-                # The no-LLM builder cannot write Arabic without a model.
-                # Publishing the English source on the Arabic page is worse
-                # than publishing nothing, so skip the run instead.
-                log("no-LLM builder cannot write in the target language - "
-                    "skipping this run rather than post the wrong language")
+            post = rewrite_with_llm(pick)
+        except Exception as ex:
+                # Every writer is down. A page that stops posting loses its streak,
+            # so fall back to a post built from the source facts only. No model,
+            # no invention, lower polish - but the page stays alive.
+            log(f"Rewrite failed: {ex} - using the no-LLM builder")
+            try:
+                post = no_llm.build_post(pick, LANG)
+                if not post.strip():
+                    # The no-LLM builder cannot write Arabic without a model.
+                    # Publishing the English source on the Arabic page is worse
+                    # than publishing nothing, so skip the run instead.
+                    log("no-LLM builder cannot write in the target language - "
+                        "skipping this run rather than post the wrong language")
+                    return 2
+                fallback = True
+            except Exception as ex2:
+                log(f"no-LLM builder failed too: {ex2}")
                 return 2
-            fallback = True
-        except Exception as ex2:
-            log(f"no-LLM builder failed too: {ex2}")
-            return 2
 
     post = sanitize(post)  # FB has no markdown: **bold** -> CAPS etc.
     problems = [] if fallback else quality_check(post, pick["title"])
@@ -3838,14 +3881,29 @@ def main() -> int:
     # they are the fallback now, and the generated card is gone from this
     # path entirely. If there is no real photo, the post goes text-only -
     # a text post beats a fake one.
-    post = add_source(post, outlet_for(pick["feed"]))
-    img, ext, src = find_photo(pick)
+    if pick.get("is_product"):
+        img = ext = src = None
+        _lp = pick.get("local_photo") or ""
+        if _lp and os.path.exists(_lp):
+            try:
+                with open(_lp, "rb") as _f:
+                    img = _f.read()
+                ext, src = "jpeg", "product"
+            except Exception:
+                img = None
+        if not img:
+            log("product post image missing - skipping this candidate")
+            return 0
+    else:
+        post = add_source(post, outlet_for(pick["feed"]))
+        img, ext, src = find_photo(pick)
     if img:
         log(f"Photo: {src}")
     else:
         log("No real photo for this story - posting text-only")
         img, ext, src = None, None, "text-only"
-    post = add_credit(post, credit_for(pick["feed"], src))
+    if not pick.get("is_product"):
+        post = add_credit(post, credit_for(pick["feed"], src))
     log(f"Visual: {src} | credit added")
     if dry_run:
         log("DRY_RUN=1, not publishing.")
@@ -3907,6 +3965,12 @@ def main() -> int:
         "at": state["last_post"]["at"],
     })
     state["history"] = hist[-50:]
+    try:
+        import product_source as _ps2
+        if pick.get("is_product"):
+            _ps2.mark_used(state, pick.get("product_id", ""))
+    except Exception:
+        pass
     save_state(state_file, state)
     return 0
 
