@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "740d6cff7ab3cb2e",
-    "fb_id": "1264009986803820_122126763369472689",
-    "title": "457% - FIG",
-    "link": "",
-    "mode": "serious",
-    "at": "2026-10-21T20:15:55.373449+00:00"
+    "hash": "dc7e9c4855bef73b",
+    "fb_id": "1264009986803820_122126770125472689",
+    "title": "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026.",
+    "link": "https://x.com/WatcherGuru/status/2112999915962146924",
+    "mode": "viral",
+    "at": "2026-10-21T20:52:24.097200+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -247,6 +247,7 @@
     "d83a3d5c86146f73",
     "d861583e99fec9ab",
     "d9e68d9471ca15df",
+    "dc7e9c4855bef73b",
     "dd3b30e96ab2a14d",
     "dde12a97e4ef93ba",
     "dde661577906eb9a",
@@ -297,10 +298,9 @@
   ],
   "day_counts": {
     "2026-10-19": 15,
-    "2026-10-21": 11
+    "2026-10-21": 12
   },
   "recent_titles": [
-    "\ud83c\uddfa\ud83c\uddf8 ETF FLOWS: BTC, ETH, SOL and XRP spot ETFs saw net outflows last week. BTC: - $228.58M ETH: - $319.97M SOL: - $25.52M XRP: - $1.84M",
     "America appears in a homebuyer recession. Mortgage purchase applications are down 60% from their pandemic peak, per Redfin. Demand is now back near 1995 levels, lower than at any point during the 2...",
     "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal",
     "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
@@ -314,18 +314,10 @@
     "Recursive has released Flint, its first open-weight coding model under the Apache 2.0 license, which is 2x faster than comparable alternatives. > Flint is a 40B parameter mixture-of-experts model f...",
     "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
-    "457% - FIG"
+    "457% - FIG",
+    "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125193865472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "split:logo",
-      "at": "2026-10-17T03:02:00.863624+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125200063472689",
       "topics": [
@@ -780,6 +772,15 @@
       "mode": "serious",
       "photo": "product",
       "at": "2026-10-21T20:15:55.373449+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126770125472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-21T20:52:24.097200+00:00"
     }
   ],
   "tuner": {
@@ -801,38 +802,6 @@
   },
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "META",
-        "MI",
-        "SPCX",
-        "TSLA",
-        "claims",
-        "consumer",
-        "earnings",
-        "events",
-        "expectations",
-        "friday",
-        "home",
-        "inflation",
-        "initial",
-        "jobless",
-        "key",
-        "meta",
-        "october",
-        "pending",
-        "sales",
-        "sentiment",
-        "september",
-        "tesla",
-        "this",
-        "thursday",
-        "tuesday",
-        "wednesday",
-        "week"
-      ],
-      "at": "2026-10-19T03:02:36.818327+00:00"
-    },
     {
       "fp": [
         "GD",
@@ -1042,10 +1011,20 @@
         "recalculation"
       ],
       "at": "2026-10-21T20:15:55.373434+00:00"
+    },
+    {
+      "fp": [
+        "$972,000,000",
+        "IN",
+        "JUST",
+        "TSLA",
+        "bitcoin",
+        "tesla"
+      ],
+      "at": "2026-10-21T20:52:24.097188+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: OIL TANKER IN FLAMES IN THE STRAIT OF HORMUZ after striking a naval mine. \u26a0\ufe0f One cargo vessel lost 20% of its fuel load. The incident spikes regional risk, could push crude up 2\u20113% in next 24\u202fhrs. Why it matters? Market volatility could hit global supply chains. #ethancole #technews #finance #marketnews #breakingnews",
     "JUST IN: \ud83d\udea8 Anthropic commits 5% of its SHARES to public benefit.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 ETF FLOWS SLUMP \u2013 BTC, ETH, SOL, XRP spot ETFs see massive net OUTFLOWS.",
     "JUST IN: HOME BUYER RECESSION SPARKS 60% DROP IN MORTGAGE APPS",
@@ -1059,7 +1038,8 @@
     "JUST IN: \ud83d\udea8 AI startup Recursive has released Flint, an OPEN-WEIGHT coding model that runs 2x faster than alternatives.",
     "BREAKING: S&P 500 CONCENTRATION just hit a record high.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
-    "The model values FIG at $128 against a $23 price - 457% cheap."
+    "The model values FIG at $128 against a $23 price - 457% cheap.",
+    "JUST IN: Tesla ($TSLA) reveals $0 of its $972,000,000 Bitcoin stack was sold in Q3 2026."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1068,7 +1048,8 @@
     "122126739171472689_2127957457805710",
     "122126747361472689_1145997474778493",
     "122126749359472689_1058788083442168",
-    "122126762343472689_1146154667746082"
+    "122126762343472689_1146154667746082",
+    "122126763369472689_1520938729840519"
   ],
   "product_posts_used": [
     "sig-FIG-20261021"
