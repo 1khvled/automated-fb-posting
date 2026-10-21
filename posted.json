@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "185efa1dab127fb0",
-    "fb_id": "1264009986803820_122126791677472689",
-    "title": "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
-    "link": "https://x.com/Cointelegraph/status/2113025196269384006",
+    "hash": "92fee29909312f3a",
+    "fb_id": "1264009986803820_122126803905472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\"",
+    "link": "https://x.com/WatcherGuru/status/2113049825872654413",
     "mode": "serious",
-    "at": "2026-10-21T22:43:45.304338+00:00"
+    "at": "2026-10-21T23:40:41.278913+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -169,6 +169,7 @@
     "90475a1c74fc1067",
     "90fe6b0d6b5f46fb",
     "921b6370813ac363",
+    "92fee29909312f3a",
     "959bd28d9c00ec90",
     "968e8a3c14a86d3b",
     "96d536b14c03c692",
@@ -299,10 +300,9 @@
   ],
   "day_counts": {
     "2026-10-19": 15,
-    "2026-10-21": 13
+    "2026-10-21": 14
   },
   "recent_titles": [
-    "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal",
     "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
     "Nvidia $NVDA posted this today: \u201cNVIDIA announces new Isaac tools for agents as Agile Robots unveils Agile ONE SN, a reference humanoid for robotics research.\u201c",
     "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
@@ -316,19 +316,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
     "457% - FIG",
     "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026.",
-    "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans."
+    "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\""
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125206015472689",
-      "topics": [
-        "ai",
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-17T04:01:23.723333+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125214187472689",
       "topics": [
@@ -781,6 +772,16 @@
       "mode": "serious",
       "photo": "source",
       "at": "2026-10-21T22:43:45.304338+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126803905472689",
+      "topics": [
+        "crypto",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "split:scene",
+      "at": "2026-10-21T23:40:41.278913+00:00"
     }
   ],
   "tuner": {
@@ -802,17 +803,6 @@
   },
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "GDP",
-        "bitcoin",
-        "china",
-        "korea",
-        "kospi",
-        "nasdaq"
-      ],
-      "at": "2026-10-19T04:01:58.517534+00:00"
-    },
     {
       "fp": [
         "another",
@@ -1024,10 +1014,21 @@
         "senate"
       ],
       "at": "2026-10-21T22:43:45.304320+00:00"
+    },
+    {
+      "fp": [
+        "GENIU",
+        "IN",
+        "JUST",
+        "US",
+        "act",
+        "american",
+        "treasury"
+      ],
+      "at": "2026-10-21T23:40:41.278901+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 ETF FLOWS SLUMP \u2013 BTC, ETH, SOL, XRP spot ETFs see massive net OUTFLOWS.",
     "JUST IN: HOME BUYER RECESSION SPARKS 60% DROP IN MORTGAGE APPS",
     "\ud83d\udea8 JUST IN: OpenAI BUGGING SUSPECT WhatsApp'ed Saudi royal days before arrest.",
     "\ud83d\udea8 JUST IN: Bitcoin ($BTC) whale MOVES $34 MILLION.",
@@ -1041,7 +1042,8 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
     "The model values FIG at $128 against a $23 price - 457% cheap.",
     "JUST IN: Tesla ($TSLA) reveals $0 of its $972,000,000 Bitcoin stack was sold in Q3 2026.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Prediction markets put DEMOCRATS at a 67% chance to win the Senate in 2026."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Prediction markets put DEMOCRATS at a 67% chance to win the Senate in 2026.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says finalized crypto stablecoin rules under the GENIUS Act cement AMERICAN dominance in digital assets."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1052,7 +1054,8 @@
     "122126749359472689_1058788083442168",
     "122126762343472689_1146154667746082",
     "122126763369472689_1520938729840519",
-    "122126770125472689_1154472217262973"
+    "122126770125472689_1154472217262973",
+    "122126791677472689_1645687053604835"
   ],
   "product_posts_used": [
     "sig-FIG-20261021"
