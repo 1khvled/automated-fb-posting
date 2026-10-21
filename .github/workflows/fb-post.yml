@@ -126,10 +126,12 @@ jobs:
           git config user.email "fb-bot@users.noreply.github.com"
           # pull FIRST: manual fixes and sibling runs commit state all day;
           # committing before pulling loses the race and blinds dedup.
-          git pull --rebase || true
-          git add posted.json || true
-          git diff --staged --quiet || git commit -m "bot: update posted state [skip ci]" || true
-          git pull --rebase || true
+          # Commit FIRST, then pull. The old order pulled with --rebase
+          # before committing, which fails on a dirty tree and can lose the
+          # dedup state - and a lost dedup state means reposted stories.
+          git add -A || true
+          git diff --staged --quiet || git commit -q -m "bot: update posted state [skip ci]" || true
+          git pull --rebase --autostash || true
           git push || true
 
       - name: Alert on failure

@@ -3569,6 +3569,14 @@ def main() -> int:
             min_video_score = min(
                 min_video_score, int(os.getenv("VIDEO_DEADLINE_SCORE", "1")))
             log(f"Video deadline hour reached, bar lowered to {min_video_score}")
+        # A reel is GENERATED - it does not need footage. So if no video
+        # candidate clears the bar, the best text candidate becomes a reel
+        # instead of a static card. That is what makes "one reel a day"
+        # actually happen instead of depending on the luck of the feed.
+        if not (vids and vids[0]["score"] >= min_video_score) and fresh:
+            vids = [fresh[0]]
+            log(f"REEL from the best story (no footage needed) "
+                f"[{vids[0]['feed']}] score={vids[0]['score']}")
         if vids and vids[0]["score"] >= min_video_score:
             vpick = vids[0]
             log(f"VIDEO pick [{vpick['feed']}] score={vpick['score']}: "
