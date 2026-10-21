@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "21c7dbcb4d52ef5f",
-    "fb_id": "1861527251695284",
-    "title": "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
-    "link": "https://x.com/BitcoinMagazine/status/2112652180159127683",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-21T18:32:07.422648+00:00"
+    "hash": "86638b51356ef1f9",
+    "fb_id": "1264009986803820_122126747361472689",
+    "title": "Recursive has released Flint, its first open-weight coding model under the Apache 2.0 license, which is 2x faster than comparable alternatives. > Flint is a 40B parameter mixture-of-experts model f...",
+    "link": "https://x.com/testingcatalog/status/2112983874309628360",
+    "mode": "serious",
+    "at": "2026-10-21T19:10:49.907682+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -156,6 +155,7 @@
     "83ca0e3307091887",
     "8465540a6146924a",
     "85c5bffa38b6f61d",
+    "86638b51356ef1f9",
     "867b20d0da8e6817",
     "88ef3697fea063b2",
     "89ac828e8f5cead9",
@@ -294,10 +294,9 @@
   ],
   "day_counts": {
     "2026-10-19": 15,
-    "2026-10-21": 7
+    "2026-10-21": 8
   },
   "recent_titles": [
-    "JPMorgan warns that rising 30-year Treasury yields are becoming a growing threat to small- and mid-cap stocks. The driver: deteriorating government finances around the world. About 60% of global GD...",
     "Bitcoin, Korea\u2019s Kospi and Nasdaq futures rally as China GDP beats estimates",
     "BREAKING: Another oil tanker in flames in the Strait of Hormuz after striking a naval mine",
     "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
@@ -311,18 +310,10 @@
     "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
     "Trump to throw spotlight on overseas crypto abuses at White House event",
     "Anthropic is a Public Benefit Corporation. Today, we\u2019re publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we\u2019re taking to advance them....",
-    "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi..."
+    "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
+    "Recursive has released Flint, its first open-weight coding model under the Apache 2.0 license, which is 2x faster than comparable alternatives. > Flint is a 40B parameter mixture-of-experts model f..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125172283472689",
-      "topics": [
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-17T01:01:59.239311+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125178499472689",
       "topics": [
@@ -778,6 +769,15 @@
       ],
       "mode": "viral",
       "at": "2026-10-21T18:32:07.422648+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126747361472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "split:scene",
+      "at": "2026-10-21T19:10:49.907682+00:00"
     }
   ],
   "tuner": {
@@ -799,41 +799,6 @@
   },
   "last_video_post": "2026-10-21",
   "recent_fps": [
-    {
-      "fp": [
-        "$4,175",
-        "AI",
-        "AMID",
-        "AN",
-        "AND",
-        "AROUND",
-        "AS",
-        "AT",
-        "AWAIT",
-        "EASED",
-        "FED",
-        "FOR",
-        "FROM",
-        "GOLD",
-        "HELD",
-        "HIKE",
-        "META",
-        "MORE",
-        "OUNCE",
-        "OVER",
-        "RATE",
-        "ROSE",
-        "TESLA",
-        "THAN",
-        "TO",
-        "US",
-        "WHIL",
-        "WHILE",
-        "YEAR",
-        "YIELD"
-      ],
-      "at": "2026-10-19T01:01:30.694548+00:00"
-    },
     {
       "fp": [
         "following",
@@ -1048,10 +1013,24 @@
         "schwab"
       ],
       "at": "2026-10-21T18:32:07.422643+00:00"
+    },
+    {
+      "fp": [
+        "2x",
+        "AI",
+        "GPU",
+        "RTX",
+        "apache",
+        "eureka",
+        "flint",
+        "machine",
+        "recursive",
+        "spark"
+      ],
+      "at": "2026-10-21T19:10:49.907668+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\udfe6 Deutsche Bank ($DB) eyes Asia crypto custody boom by 2027 as German launch nears. The bank plans to tap the region\u2019s growing demand for secure digital asset storage. Why it matters: Asia\u2019s market could drive a surge in institutional crypto flows, boosting DeFi capital. #ethancole #crypto #finance #marketnews #technews #investing",
     "BREAKING: 15% of S&P 500 companies report EARNINGS this week. SpaceX ($SPCX), Tesla ($TSLA) and Meta ($META) hit the earnings bell on Tuesday and Wednesday, while pending home sales and jobless claims data drop Tuesday and Thursday. Watch the market shift",
     "BREAKING: JPMorgan Chase & Co. ($JPM) warns 30\u2011year Treasury yields are a growing threat to small\u2011 and mid\u2011cap stocks. 60% of global GDP comes from countries with debt >100% of GDP and ongoing deficits\u2014unprecedented. Higher yields squeeze equity liquidity, pushing valuations lower. #ethancole #finance #stockmarket #marketnews #economy",
     "BREAKING: \ud83c\udde8\ud83c\uddf3 China GDP beats estimates, sending Bitcoin, KOSPI, Nasdaq futures on a rally.",
@@ -1065,11 +1044,13 @@
     "JUST IN: \ud83d\ude80 JPMorgan more than DOUBLES its SpaceX ($SPCX) price target to $500!",
     "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
     "BREAKING: President Trump is set to highlight overseas CRYPTO abuses at an upcoming White House event.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Anthropic declares itself a Public Benefit Corporation and drops its annual Public Benefit Report today, spotlighting 5 pillars and concrete actions. Why it matters: AI ethics & safety now officially part of corporate mandate. #ethancole #ai #technews #finance #investing"
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Anthropic declares itself a Public Benefit Corporation and drops its annual Public Benefit Report today, spotlighting 5 pillars and concrete actions. Why it matters: AI ethics & safety now officially part of corporate mandate. #ethancole #ai #technews #finance #investing",
+    "JUST IN: \ud83d\udea8 AI startup Recursive has released Flint, an OPEN-WEIGHT coding model that runs 2x faster than alternatives."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
     "122126712807472689_1399748545474111",
-    "122126736339472689_1620200422934833"
+    "122126736339472689_1620200422934833",
+    "122126739171472689_2127957457805710"
   ]
 }
