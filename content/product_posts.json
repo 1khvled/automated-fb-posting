@@ -1,275 +1,275 @@
 [
-  {
-    "id": "en-01-cot-index-extremes",
-    "lang": "en",
-    "title": "📊 THE COT INDEX IS ONE OSCILLATOR FROM 0-100% — AND 80% IS WHERE TOPS START",
-    "body": "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
-    "hashtags": [
-      "#ethancole",
-      "#stockmarket",
-      "#investing",
-      "#finance",
-      "#trading"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-01-cot-index-extremes.jpg",
-    "image_rel": "img/en-01-cot-index-extremes.jpg",
-    "questions": [
-      "What COT Index reading would make you stop adding to a position?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #2 COT Index: an oscillator bounded between 0% and 100%. High Values above 80% indicate potential market tops when reading Large Specs or bottoms when reading Commercials. Low Values below 20% suggest potential market bottoms when reading Large Specs or tops when reading Commercials. Divergence Marker, an Orange Triangle, marks when Commercials and Large Specs are maximally opposed. Info Label shows the exact percentages for all 3 groups on the last bar. EdgeTrading Pro membership.",
-    "image_headline": "COT INDEX: 0-100% — READ THE EXTREMES"
-  },
-  {
-    "id": "en-02-smart-money-vs-retail",
-    "lang": "en",
-    "title": "💰 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT",
-    "body": "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short.",
-    "hashtags": [
-      "#ethancole",
-      "#stockmarket",
-      "#investing",
-      "#finance",
-      "#trading"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-02-smart-money-vs-retail.jpg",
-    "image_rel": "img/en-02-smart-money-vs-retail.jpg",
-    "questions": [
-      "Do you follow commercial positioning or retail positioning first?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #1 COT Report: shows what the smart money (Commercials) and dumb money (Retail) are doing. Net Normalization shows net positions as a percentage of Open Interest to compare across markets. Dynamic Fills highlight net positions above and below the zero line. Alerts notify when a group (Commercials or Large Specs) flips from net long to net short or vice versa. 3 groups are plotted on 1 chart: Commercials, Large Specs and Retail. EdgeTrading Pro membership.",
-    "image_headline": "SMART MONEY vs RETAIL — WHO IS LONG?"
-  },
-  {
-    "id": "en-03-seasonality-year-average",
-    "lang": "en",
-    "title": "📅 1 OF 4 TOOLS: SEASONALITY AVERAGES THE YEARS AND DASHES THE PROJECTION",
-    "body": "Seasonality_OTC prints how many years it averaged. A dashed line projects where the calendar has historically leaned, so you filter the bias first.",
-    "hashtags": [
-      "#ethancole",
-      "#stockmarket",
-      "#investing",
-      "#finance",
-      "#economy"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-03-seasonality-year-average.jpg",
-    "image_rel": "img/en-03-seasonality-year-average.jpg",
-    "questions": [
-      "Does seasonality ever change which side of a trade you take?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #3 Seasonality_OTC: the suite ships 4 indicators and Seasonality_OTC is 1 of them. It reveals recurring market patterns that occur at specific times of the year. Future Projection visually distinguishes the projected future seasonality using a dashed line. Year Count Label shows how many years of history are averaged for the current projection. The manual says to use Seasonality as a macro-filter before looking at Valuation or COT data. EdgeTrading Pro membership.",
-    "image_headline": "SEASONALITY — THE DASHED PROJECTION"
-  },
-  {
-    "id": "en-04-valuation-composite-score",
-    "lang": "en",
-    "title": "📈 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS — RICH ABOVE 75",
-    "body": "The Valuation Tool compares an asset's momentum against the dollar, gold, bonds and the index by default. The active symbols average into one Composite Score line.",
-    "hashtags": [
-      "#ethancole",
-      "#investing",
-      "#finance",
-      "#marketnews",
-      "#trading"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-04-valuation-composite-score.jpg",
-    "image_rel": "img/en-04-valuation-composite-score.jpg",
-    "questions": [
-      "Which asset do you most want priced against the dollar?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #4 Valuation Tool: identifies overvalued and undervalued market conditions by comparing the asset's momentum to benchmark symbols. Composite Score automatically averages the active symbols into a single line. Dynamic Symbols allow toggling up to 4 comparison symbols, defaults DXY, GC1!, ZB1!, SPX. Danger Zones highlight Overvalued above 75 and Undervalued below minus 75. EdgeTrading Pro membership.",
-    "image_headline": "VALUATION — BTC vs GOLD vs BONDS"
-  },
-  {
-    "id": "en-05-four-confirmation-setup",
-    "lang": "en",
-    "title": "✅ 4 CONFIRMATIONS BEFORE A LONG: SEASONALITY, COT INDEX, COT REPORT, VALUATION",
-    "body": "The manual lines all 4 up: seasonality pointing up, Commercials above 80% with Large Specs below 20%. Then Commercials net long, and a Composite Score curling up from under minus 75.",
-    "hashtags": [
-      "#ethancole",
-      "#stockmarket",
-      "#investing",
-      "#finance",
-      "#trading"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-05-four-confirmation-setup.jpg",
-    "image_rel": "img/en-05-four-confirmation-setup.jpg",
-    "questions": [
-      "How many of your entries actually need every check to line up?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Example Trade Setup, the 4-Confirmation Long Setup: 1. Seasonality, the seasonal projection pointing upwards. 2. COT Index, Commercials in the Upper Extreme above 80% and Large Specs in the Lower Extreme below 20%, ideally triggering a Divergence marker. 3. COT Report, Commercials net long. 4. Valuation, the Composite Score dipping into the Undervalued zone below minus 75 and curling upwards. EdgeTrading Pro membership.",
-    "image_headline": "4 CONFIRMATIONS BEFORE A LONG"
-  },
-  {
-    "id": "en-06-local-bloomberg-terminal",
-    "lang": "en",
-    "title": "🖥️ 69 ROUTES, 1 LOCAL TERMINAL — NO LOGIN, NO SUBSCRIPTION, NO CLOUD",
-    "body": "StockerAI runs on your own machine: DCF and WACC, Monte Carlo, Altman Z, Piotroski, Beneish, DuPont. Add the scenario lab, committee and red flags, and quotes polling every 30 seconds.",
-    "hashtags": [
-      "#ethancole",
-      "#ai",
-      "#artificialintelligence",
-      "#finance",
-      "#technews"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-06-local-bloomberg-terminal.jpg",
-    "image_rel": "img/en-06-local-bloomberg-terminal.jpg",
-    "questions": [
-      "What do you actually pay for a research terminal today?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "StockerAI README: a personal Bloomberg-grade terminal, single-user, local-only, running as 1 local process with 69 routes, no auth, no billing, no premium gates. The screener carries 21 TradingView filters, live quotes poll every 30 seconds and the ticker tape is cached every 5 minutes. Analysis pipeline: DCF and WACC registry, Monte Carlo, CCA and DDM, Altman Z, Piotroski F, Beneish M, DuPont. Pages include watchlist, reports, market-feed, news-impact, filings, scenario-lab, committee, red-flags and portfolio. EdgeTrading Pro membership.",
-    "image_headline": "A QUANT TERMINAL — LOCAL, OFFLINE"
-  },
-  {
-    "id": "en-07-nvda-model-fair-value",
-    "lang": "en",
-    "title": "📉 Nvidia ($NVDA) AT $224.41 — THE MODEL'S FAIR VALUE IS $266.71",
-    "body": "Its DCF puts intrinsic value at $258.07 on a 15.0% WACC and 2.5% terminal growth. A 1,000-trial Monte Carlo P50 lands on $258.07, while 57 analysts carry a $325.98 consensus.",
-    "hashtags": [
-      "#ethancole",
-      "#nvidia",
-      "#stockmarket",
-      "#investing",
-      "#finance"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-07-nvda-model-fair-value.jpg",
-    "image_rel": "img/en-07-nvda-model-fair-value.jpg",
-    "questions": [
-      "Which input would you change first in a 15% WACC model?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "StockerAI terminal run for NVDA, data refreshed 2026-09-03, price date 2026-09-02: live price $224.41, consensus target $325.98 from 57 analysts, BUY with 85% confidence, economic moat WIDE, quality 9/10, valuation assessment UNDERVALUED. DCF intrinsic value $258.07 on WACC 15.0% and terminal growth 2.5%; precalculated fair value midpoint $266.71 with a range of $226.71 to $306.72; Monte Carlo 1,000 trials with P50 $258.07; Bear $180.0, Fair $266.71, Bull $515.0; gross margin 74.67%, operating margin 66.24%, net margin 63.66%; ROE 117.21% with equity multiplier 16.97x; forward P/E 14.57x and PEG 0.56; total revenue $302.97B; operating cash flow $134.36B; beta 2.215; institutions 71.5%; short float 1.23%; next earnings 2026-11-17 with consensus EPS $2.47; Altman Z-Score and Piotroski F-Score unavailable. EdgeTrading Pro membership.",
-    "image_headline": "NVIDIA ($NVDA) — FAIR VALUE $266.71"
-  },
-  {
-    "id": "en-08-screener-21-filters",
-    "lang": "en",
-    "title": "🔎 21 SCREENER FILTERS, OR JUST ASK IN PLAIN ENGLISH",
-    "body": "Set P/E, forward P/E, PEG, P/S, P/B, EV/EBITDA, ROE, D/E, F-Score, beta, payout and short interest. Or type the screen in words and let the AI build it.",
-    "hashtags": [
-      "#ethancole",
-      "#ai",
-      "#stockmarket",
-      "#investing",
-      "#finance"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-08-screener-21-filters.jpg",
-    "image_rel": "img/en-08-screener-21-filters.jpg",
-    "questions": [
-      "What is the one filter that makes you skip a name instantly?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "StockerAI Stock Screener: filter the coverage universe or ask in plain English, with a natural-language Ask AI box and 21 filters: Max P/E, Min upside, Any rating, Min ROE, Max D/E, Min ROA, Min revenue growth, Min operating margin, Min current ratio, Min F-Score, Max forward P/E, Max PEG, Max P/S, Max P/B, Max EV/EBITDA, Min dividend yield, Max beta, Max payout, Max short percentage, Min EPS, plus industry. The screener runs on the local coverage universe with no paywall. EdgeTrading Pro membership.",
-    "image_headline": "21 SCREENER FILTERS, OR JUST ASK"
-  },
-  {
-    "id": "en-09-quant-reference-guide",
-    "lang": "en",
-    "title": "📚 7 FORMULA CHAPTERS: CAPM, DCF, DUPONT, ALTMAN Z, PIOTROSKI F, BENEISH M",
-    "body": "The built-in reference guide walks the whole model framework. 7 formula chapters carry every variable, threshold and diagnostic, with a quick-reference appendix.",
-    "hashtags": [
-      "#ethancole",
-      "#ai",
-      "#finance",
-      "#investing",
-      "#technews"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-09-quant-reference-guide.jpg",
-    "image_rel": "img/en-09-quant-reference-guide.jpg",
-    "questions": [
-      "Which formula do you want written out step by step?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "StockerAI Institutional Quantitative Reference Guide: 7 numbered formula chapters — CAPM and WACC Solver, Multi-Stage Discounted Cash Flow (DCF) Model, 3-Stage DuPont ROE Decomposition, Altman Z-Score, Piotroski F-Score, Beneish M-Score, 5-Year Log-Linear Historical Regression Trend — plus an Appendix with a quick reference of all thresholds. Each section follows the same architecture: Theory, Formula, Variables, Thresholds, Case Diagnostic. EdgeTrading Pro membership.",
-    "image_headline": "7 FORMULA CHAPTERS — CAPM TO BENEISH M"
-  },
-  {
-    "id": "en-10-premium-toolkit-free",
-    "lang": "en",
-    "title": "🧰 6 ANALYTICAL TOOLS, ALL UNLOCKED: SCREENER, LAB, RED FLAGS, COMMITTEE",
-    "body": "Scenario lab for bear, base and bull cases. A red-flags desk runs Beneish, Altman and DuPont, with a multi-agent investment committee and a head-to-head compare view.",
-    "hashtags": [
-      "#ethancole",
-      "#ai",
-      "#artificialintelligence",
-      "#stockmarket",
-      "#finance"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-10-premium-toolkit-free.jpg",
-    "image_rel": "img/en-10-premium-toolkit-free.jpg",
-    "questions": [
-      "Which module would you open first on a new name?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "StockerAI hub: Every premium terminal feature, $0 forever, with 6 free modules. DCF valuation, Monte Carlo, analyst-grade AI research, red-team risk, screeners, portfolio lab. The Premium toolkit is free and lists Screener with AI natural language, Scenario lab with bear base and bull models, Red flags running Beneish Altman and DuPont, Investment committee as a multi-agent debate, Earnings calendar across coverage, and Compare for head-to-head tickers. EdgeTrading Pro membership.",
-    "image_headline": "6 ANALYTICAL TOOLS. NO PAYWALL."
-  },
-  {
-    "id": "en-11-valuation-settings",
-    "lang": "en",
-    "title": "⚙️ 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL",
-    "body": "Toggle up to 4 comparison symbols and tune the lookback and rescale lengths. Then read the Composite Score against the shaded overvalued and undervalued zones.",
-    "hashtags": [
-      "#ethancole",
-      "#investing",
-      "#finance",
-      "#marketnews",
-      "#trading"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-11-valuation-settings.jpg",
-    "image_rel": "img/en-11-valuation-settings.jpg",
-    "questions": [
-      "How many assets do you actually need for a relative-value read?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "EdgeTrading 4-in-1 Pro Valuation Tool settings screen: Symbol 1, Symbol 2 and Symbol 3 inputs, Period Length 10, Rescale Length 100, inputs in status line. Dynamic Symbols allow toggling up to 4 comparison symbols without breaking the script, and a Composite Score averages the active symbols. Overvalued above 75 and Undervalued below minus 75 are filled as danger zones. EdgeTrading Pro membership.",
-    "image_headline": "THE VALUATION TOOL — 4 SYMBOLS"
-  },
-  {
-    "id": "en-12-cot-report-open-interest",
-    "lang": "en",
-    "title": "📊 NET POSITIONS AS A % OF OPEN INTEREST — 3 GROUPS ON ONE SCALE",
-    "body": "Commercials, Large Specs and Retail share 1 axis, with fills split above and below zero. A thin market and a giant one finally read side by side.",
-    "hashtags": [
-      "#ethancole",
-      "#stockmarket",
-      "#investing",
-      "#finance",
-      "#trading"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-12-cot-report-open-interest.jpg",
-    "image_rel": "img/en-12-cot-report-open-interest.jpg",
-    "questions": [
-      "Do you normalize positioning by open interest before you trust it?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "EdgeTrading 4-in-1 Pro Indicator Suite, Indicator #1 COT Report: net positions normalized as a percentage of Open Interest to easily compare across different markets, with dynamic fills above and below the zero line. 3 groups share 1 axis: Commercials, Large Specs and Retail. The live chart in the suite brochure plots those groups against the U.S. Dollar Index futures. EdgeTrading Pro membership.",
-    "image_headline": "COT REPORT — NET % OF OPEN INTEREST"
-  },
-  {
-    "id": "en-13-founding-member",
-    "lang": "en",
-    "title": "🎟️ FOUNDING MEMBER SPOTS: 4 PINE INDICATORS PLUS A LOCAL QUANT TERMINAL",
-    "body": "The 4-in-1 Pine Script suite ships as open .txt source with a PDF manual. It works on a free account and installs in under 5 minutes, and the membership adds the terminal.",
-    "hashtags": [
-      "#ethancole",
-      "#ai",
-      "#technews",
-      "#investing",
-      "#finance"
-    ],
-    "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-13-founding-member.jpg",
-    "image_rel": "img/en-13-founding-member.jpg",
-    "questions": [
-      "What would you automate first, the screen or the valuation?"
-    ],
-    "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
-    "source": "EdgeTrading 4-in-1 Pro Indicator Suite: a premium set of 4 tools for TradingView, inspired by the strategies of a funded swing trader. Delivery is a ZIP of raw Pine Script .txt files (COTIndex, COTReport, Seasonality, Valuation and the Edge Trading Oscillator) plus a PDF installation manual. The free TradingView plan works because the code is pasted in by the user, installation takes under 5 minutes, and lifetime updates are included. Disclaimer: educational purposes only, not financial advice. EdgeTrading Pro membership.",
-    "image_headline": "FOUNDING MEMBER SPOTS — EDGETRADING PRO"
-  }
+ {
+  "id": "en-01-cot-index-extremes",
+  "lang": "en",
+  "title": "📊 THE COT INDEX IS ONE OSCILLATOR FROM 0-100% — AND 80% IS WHERE TOPS START",
+  "body": "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
+  "hashtags": [
+   "#ethancole",
+   "#stockmarket",
+   "#investing",
+   "#finance",
+   "#trading"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-01-cot-index-extremes.jpg",
+  "image_rel": "img/en-01-cot-index-extremes.jpg",
+  "questions": [
+   "What COT Index reading would make you stop adding to a position?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #2 COT Index: an oscillator bounded between 0% and 100%. High Values above 80% indicate potential market tops when reading Large Specs or bottoms when reading Commercials. Low Values below 20% suggest potential market bottoms when reading Large Specs or tops when reading Commercials. Divergence Marker, an Orange Triangle, marks when Commercials and Large Specs are maximally opposed. Info Label shows the exact percentages for all 3 groups on the last bar. EdgeTrading Pro membership.",
+  "image_headline": "COT INDEX: 0-100% — READ THE EXTREMES"
+ },
+ {
+  "id": "en-02-smart-money-vs-retail",
+  "lang": "en",
+  "title": "💰 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT",
+  "body": "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short.",
+  "hashtags": [
+   "#ethancole",
+   "#stockmarket",
+   "#investing",
+   "#finance",
+   "#trading"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-02-smart-money-vs-retail.jpg",
+  "image_rel": "img/en-02-smart-money-vs-retail.jpg",
+  "questions": [
+   "Do you follow commercial positioning or retail positioning first?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #1 COT Report: shows what the smart money (Commercials) and dumb money (Retail) are doing. Net Normalization shows net positions as a percentage of Open Interest to compare across markets. Dynamic Fills highlight net positions above and below the zero line. Alerts notify when a group (Commercials or Large Specs) flips from net long to net short or vice versa. 3 groups are plotted on 1 chart: Commercials, Large Specs and Retail. EdgeTrading Pro membership.",
+  "image_headline": "SMART MONEY vs RETAIL — WHO IS LONG?"
+ },
+ {
+  "id": "en-03-seasonality-year-average",
+  "lang": "en",
+  "title": "📅 1 OF 4 TOOLS: SEASONALITY AVERAGES THE YEARS AND DASHES THE PROJECTION",
+  "body": "Seasonality_OTC prints how many years it averaged. A dashed line projects where the calendar has historically leaned, so you filter the bias first.",
+  "hashtags": [
+   "#ethancole",
+   "#stockmarket",
+   "#investing",
+   "#finance",
+   "#economy"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-03-seasonality-year-average.jpg",
+  "image_rel": "img/en-03-seasonality-year-average.jpg",
+  "questions": [
+   "Does seasonality ever change which side of a trade you take?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #3 Seasonality_OTC: the suite ships 4 indicators and Seasonality_OTC is 1 of them. It reveals recurring market patterns that occur at specific times of the year. Future Projection visually distinguishes the projected future seasonality using a dashed line. Year Count Label shows how many years of history are averaged for the current projection. The manual says to use Seasonality as a macro-filter before looking at Valuation or COT data. EdgeTrading Pro membership.",
+  "image_headline": "SEASONALITY — THE DASHED PROJECTION"
+ },
+ {
+  "id": "en-04-valuation-composite-score",
+  "lang": "en",
+  "title": "📈 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS — RICH ABOVE 75",
+  "body": "The Valuation Tool compares an asset's momentum against the dollar, gold, bonds and the index by default. The active symbols average into one Composite Score line.",
+  "hashtags": [
+   "#ethancole",
+   "#investing",
+   "#finance",
+   "#marketnews",
+   "#trading"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-04-valuation-composite-score.jpg",
+  "image_rel": "img/en-04-valuation-composite-score.jpg",
+  "questions": [
+   "Which asset do you most want priced against the dollar?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Indicator #4 Valuation Tool: identifies overvalued and undervalued market conditions by comparing the asset's momentum to benchmark symbols. Composite Score automatically averages the active symbols into a single line. Dynamic Symbols allow toggling up to 4 comparison symbols, defaults DXY, GC1!, ZB1!, SPX. Danger Zones highlight Overvalued above 75 and Undervalued below minus 75. EdgeTrading Pro membership.",
+  "image_headline": "VALUATION — BTC vs GOLD vs BONDS"
+ },
+ {
+  "id": "en-05-four-confirmation-setup",
+  "lang": "en",
+  "title": "✅ 4 CONFIRMATIONS BEFORE A LONG: SEASONALITY, COT INDEX, COT REPORT, VALUATION",
+  "body": "The manual lines all 4 up: seasonality pointing up, Commercials above 80% with Large Specs below 20%. Then Commercials net long, and a Composite Score curling up from under minus 75.",
+  "hashtags": [
+   "#ethancole",
+   "#stockmarket",
+   "#investing",
+   "#finance",
+   "#trading"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-05-four-confirmation-setup.jpg",
+  "image_rel": "img/en-05-four-confirmation-setup.jpg",
+  "questions": [
+   "How many of your entries actually need every check to line up?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "EdgeTrading 4-in-1 Pro Indicator Suite manual, Example Trade Setup, the 4-Confirmation Long Setup: 1. Seasonality, the seasonal projection pointing upwards. 2. COT Index, Commercials in the Upper Extreme above 80% and Large Specs in the Lower Extreme below 20%, ideally triggering a Divergence marker. 3. COT Report, Commercials net long. 4. Valuation, the Composite Score dipping into the Undervalued zone below minus 75 and curling upwards. EdgeTrading Pro membership.",
+  "image_headline": "4 CONFIRMATIONS BEFORE A LONG"
+ },
+ {
+  "id": "en-06-local-bloomberg-terminal",
+  "lang": "en",
+  "title": "🖥️ 69 ROUTES, 1 LOCAL TERMINAL — NO LOGIN, NO SUBSCRIPTION, NO CLOUD",
+  "body": "StockerAI runs on your own machine: DCF and WACC, Monte Carlo, Altman Z, Piotroski, Beneish, DuPont. Add the scenario lab, committee and red flags, and quotes polling every 30 seconds.",
+  "hashtags": [
+   "#ethancole",
+   "#ai",
+   "#artificialintelligence",
+   "#finance",
+   "#technews"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-06-local-bloomberg-terminal.jpg",
+  "image_rel": "img/en-06-local-bloomberg-terminal.jpg",
+  "questions": [
+   "What do you actually pay for a research terminal today?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "StockerAI README: a personal Bloomberg-grade terminal, single-user, local-only, running as 1 local process with 69 routes, no auth, no billing, no premium gates. The screener carries 21 TradingView filters, live quotes poll every 30 seconds and the ticker tape is cached every 5 minutes. Analysis pipeline: DCF and WACC registry, Monte Carlo, CCA and DDM, Altman Z, Piotroski F, Beneish M, DuPont. Pages include watchlist, reports, market-feed, news-impact, filings, scenario-lab, committee, red-flags and portfolio. EdgeTrading Pro membership.",
+  "image_headline": "A QUANT TERMINAL — LOCAL, OFFLINE"
+ },
+ {
+  "id": "en-07-nvda-model-fair-value",
+  "lang": "en",
+  "title": "📉 Nvidia ($NVDA) AT $224.41 — THE MODEL'S FAIR VALUE IS $266.71",
+  "body": "Its DCF puts intrinsic value at $258.07 on a 15.0% WACC and 2.5% terminal growth. A 1,000-trial Monte Carlo P50 lands on $258.07, while 57 analysts carry a $325.98 consensus.",
+  "hashtags": [
+   "#ethancole",
+   "#nvidia",
+   "#stockmarket",
+   "#investing",
+   "#finance"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-07-nvda-model-fair-value.jpg",
+  "image_rel": "img/en-07-nvda-model-fair-value.jpg",
+  "questions": [
+   "Which input would you change first in a 15% WACC model?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "StockerAI terminal run for NVDA, data refreshed 2026-09-03, price date 2026-09-02: live price $224.41, consensus target $325.98 from 57 analysts, BUY with 85% confidence, economic moat WIDE, quality 9/10, valuation assessment UNDERVALUED. DCF intrinsic value $258.07 on WACC 15.0% and terminal growth 2.5%; precalculated fair value midpoint $266.71 with a range of $226.71 to $306.72; Monte Carlo 1,000 trials with P50 $258.07; Bear $180.0, Fair $266.71, Bull $515.0; gross margin 74.67%, operating margin 66.24%, net margin 63.66%; ROE 117.21% with equity multiplier 16.97x; forward P/E 14.57x and PEG 0.56; total revenue $302.97B; operating cash flow $134.36B; beta 2.215; institutions 71.5%; short float 1.23%; next earnings 2026-11-17 with consensus EPS $2.47; Altman Z-Score and Piotroski F-Score unavailable. EdgeTrading Pro membership.",
+  "image_headline": "NVIDIA ($NVDA) — FAIR VALUE $266.71"
+ },
+ {
+  "id": "en-08-screener-21-filters",
+  "lang": "en",
+  "title": "🔎 21 SCREENER FILTERS, OR JUST ASK IN PLAIN ENGLISH",
+  "body": "Set P/E, forward P/E, PEG, P/S, P/B, EV/EBITDA, ROE, D/E, F-Score, beta, payout and short interest. Or type the screen in words and let the AI build it.",
+  "hashtags": [
+   "#ethancole",
+   "#ai",
+   "#stockmarket",
+   "#investing",
+   "#finance"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-08-screener-21-filters.jpg",
+  "image_rel": "img/en-08-screener-21-filters.jpg",
+  "questions": [
+   "What is the one filter that makes you skip a name instantly?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "StockerAI Stock Screener: filter the coverage universe or ask in plain English, with a natural-language Ask AI box and 21 filters: Max P/E, Min upside, Any rating, Min ROE, Max D/E, Min ROA, Min revenue growth, Min operating margin, Min current ratio, Min F-Score, Max forward P/E, Max PEG, Max P/S, Max P/B, Max EV/EBITDA, Min dividend yield, Max beta, Max payout, Max short percentage, Min EPS, plus industry. The screener runs on the local coverage universe with no paywall. EdgeTrading Pro membership.",
+  "image_headline": "21 SCREENER FILTERS, OR JUST ASK"
+ },
+ {
+  "id": "en-09-quant-reference-guide",
+  "lang": "en",
+  "title": "📚 7 FORMULA CHAPTERS: CAPM, DCF, DUPONT, ALTMAN Z, PIOTROSKI F, BENEISH M",
+  "body": "The built-in reference guide walks the whole model framework. 7 formula chapters carry every variable, threshold and diagnostic, with a quick-reference appendix.",
+  "hashtags": [
+   "#ethancole",
+   "#ai",
+   "#finance",
+   "#investing",
+   "#technews"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-09-quant-reference-guide.jpg",
+  "image_rel": "img/en-09-quant-reference-guide.jpg",
+  "questions": [
+   "Which formula do you want written out step by step?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "StockerAI Institutional Quantitative Reference Guide: 7 numbered formula chapters — CAPM and WACC Solver, Multi-Stage Discounted Cash Flow (DCF) Model, 3-Stage DuPont ROE Decomposition, Altman Z-Score, Piotroski F-Score, Beneish M-Score, 5-Year Log-Linear Historical Regression Trend — plus an Appendix with a quick reference of all thresholds. Each section follows the same architecture: Theory, Formula, Variables, Thresholds, Case Diagnostic. EdgeTrading Pro membership.",
+  "image_headline": "7 FORMULA CHAPTERS — CAPM TO BENEISH M"
+ },
+ {
+  "id": "en-10-premium-toolkit-free",
+  "lang": "en",
+  "title": "🧰 6 ANALYTICAL TOOLS, ALL UNLOCKED: SCREENER, LAB, RED FLAGS, COMMITTEE",
+  "body": "Scenario lab for bear, base and bull cases. A red-flags desk runs Beneish, Altman and DuPont, with a multi-agent investment committee and a head-to-head compare view.",
+  "hashtags": [
+   "#ethancole",
+   "#ai",
+   "#artificialintelligence",
+   "#stockmarket",
+   "#finance"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-10-premium-toolkit-free.jpg",
+  "image_rel": "img/en-10-premium-toolkit-free.jpg",
+  "questions": [
+   "Which module would you open first on a new name?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "StockerAI hub: Every premium terminal feature, $0 forever, with 6 free modules. DCF valuation, Monte Carlo, analyst-grade AI research, red-team risk, screeners, portfolio lab. The Premium toolkit is free and lists Screener with AI natural language, Scenario lab with bear base and bull models, Red flags running Beneish Altman and DuPont, Investment committee as a multi-agent debate, Earnings calendar across coverage, and Compare for head-to-head tickers. EdgeTrading Pro membership.",
+  "image_headline": "6 ANALYTICAL TOOLS. NO PAYWALL."
+ },
+ {
+  "id": "en-11-valuation-settings",
+  "lang": "en",
+  "title": "⚙️ 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL",
+  "body": "Toggle up to 4 comparison symbols and tune the lookback and rescale lengths. Then read the Composite Score against the shaded overvalued and undervalued zones.",
+  "hashtags": [
+   "#ethancole",
+   "#investing",
+   "#finance",
+   "#marketnews",
+   "#trading"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-11-valuation-settings.jpg",
+  "image_rel": "img/en-11-valuation-settings.jpg",
+  "questions": [
+   "How many assets do you actually need for a relative-value read?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "EdgeTrading 4-in-1 Pro Valuation Tool settings screen: Symbol 1, Symbol 2 and Symbol 3 inputs, Period Length 10, Rescale Length 100, inputs in status line. Dynamic Symbols allow toggling up to 4 comparison symbols without breaking the script, and a Composite Score averages the active symbols. Overvalued above 75 and Undervalued below minus 75 are filled as danger zones. EdgeTrading Pro membership.",
+  "image_headline": "THE VALUATION TOOL — 4 SYMBOLS"
+ },
+ {
+  "id": "en-12-cot-report-open-interest",
+  "lang": "en",
+  "title": "📊 NET POSITIONS AS A % OF OPEN INTEREST — 3 GROUPS ON ONE SCALE",
+  "body": "Commercials, Large Specs and Retail share 1 axis, with fills split above and below zero. A thin market and a giant one finally read side by side.",
+  "hashtags": [
+   "#ethancole",
+   "#stockmarket",
+   "#investing",
+   "#finance",
+   "#trading"
+  ],
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-12-cot-report-open-interest.jpg",
+  "image_rel": "img/en-12-cot-report-open-interest.jpg",
+  "questions": [
+   "Do you normalize positioning by open interest before you trust it?"
+  ],
+  "cta": "EdgeTrading Pro founding spots are open — DM me and I'll send the suite details.",
+  "source": "EdgeTrading 4-in-1 Pro Indicator Suite, Indicator #1 COT Report: net positions normalized as a percentage of Open Interest to easily compare across different markets, with dynamic fills above and below the zero line. 3 groups share 1 axis: Commercials, Large Specs and Retail. The live chart in the suite brochure plots those groups against the U.S. Dollar Index futures. EdgeTrading Pro membership.",
+  "image_headline": "COT REPORT — NET % OF OPEN INTEREST"
+ },
+ {
+  "id": "en-13-founding-member",
+  "lang": "en",
+  "title": "🎟️ FOUNDING MEMBERS: $19/MO FOR THE DAILY FEED",
+  "body": "$19/mo runs the daily signal feed on your watchlist, $39/mo adds the 4-in-1 Pine suite and alerts, $99/mo adds the local quant terminal\nUSD pricing, US readers only, founding member spots open\nValuations and scores, not investment advice",
+  "hashtags": [
+   "#ethancole",
+   "#stockmarket",
+   "#investing",
+   "#finance",
+   "#tradingview"
+  ],
+  "cta": "DM me for the US pricing.",
+  "questions": [
+   "Which tier would you start on?"
+  ],
+  "source": "EdgeTrading Pro membership tiers, priced in USD for US customers only. Tier 1 Signal: $19 per month, $149 per year - the daily signal feed for the subscriber's own watchlist, with the model value against the market price, Altman Z, Piotroski F, Beneish M, ROE and leverage, the seasonal overlay and the red-flag scan. Tier 2 Signal Pro: $39 per month, $349 per year - everything in Signal plus the EdgeTrading 4-in-1 Pine Script suite (COTIndex, COTReport, Seasonality, Valuation and the Edge Trading Oscillator, delivered as open .txt source with a PDF manual), instant threshold alerts and the weekly letter. Tier 3 Terminal: $99 per month, $899 per year - everything in Signal Pro plus the StockerAI desktop terminal running on the subscriber's own Windows machine, with 9 valuation engines, the 21-filter screener, the AI red team, the investment committee, the scenario lab, the headless terminal API and Excel model export. Three tiers in total. US sales tax is calculated at checkout by the merchant of record. The output is valuation and credit analysis, not buy or sell recommendations, and not investment advice. Founding member spots are open.",
+  "image_headline": "FOUNDING MEMBERS - EDGETRADING PRO",
+  "image": "C:\\Users\\Abdelli\\Documents\\ethan-cole-fb-bot\\content\\img\\en-13-founding-member.jpg",
+  "image_rel": "img/en-13-founding-member.jpg"
+ }
 ]

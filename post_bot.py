@@ -2458,6 +2458,19 @@ def add_credit(post: str, credit: str) -> str:
     return post
 
 
+# Ethan Cole is an English-only page selling to US readers. Arabic in a post
+# is a bug, not a style choice - the Arabic page has its own bot and its own
+# audience. These are the Unicode blocks that carry Arabic script.
+_ARABIC_RE = re.compile(
+    "[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]"
+)
+
+
+def _has_arabic(text: str) -> bool:
+    """True if the text carries Arabic script. One character is enough."""
+    return bool(_ARABIC_RE.search(text or ""))
+
+
 def add_source(post: str, outlet: str) -> str:
     """Disabled per owner request: posts go out with no source line."""
     return post
@@ -3906,6 +3919,13 @@ def main() -> int:
     if not pick.get("is_product"):
         post = add_credit(post, credit_for(pick["feed"], src))
     log(f"Visual: {src} | credit added")
+    # Ethan Cole is an English-only page selling to US readers. Arabic in a
+    # post is a bug, not a style choice - the Arabic page has its own bot and
+    # its own audience. Refuse to publish rather than post the wrong language.
+    if _has_arabic(post):
+        log("Arabic detected in the draft - refusing to publish on Ethan Cole")
+        print("--- DRAFT (rejected: arabic) ---\n" + post[:400])
+        return 0
     if dry_run:
         log("DRY_RUN=1, not publishing.")
         return 0
