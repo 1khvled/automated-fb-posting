@@ -29,10 +29,10 @@ REPO = os.path.dirname(HERE)
 CONTENT = os.path.join(REPO, "content")
 IMG_DIR = os.path.join(CONTENT, "img")
 
-# Where the real product assets live. Override with --assets if the
-# machine layout differs.
-DEFAULT_ASSETS = os.path.join(
-    os.environ.get("TEMP", "/tmp"), "opencode", "etdocs")
+# Where the real product assets live. The canonical copy ships in
+# content/src/ next to this script; override with --assets if the machine
+# layout differs.
+DEFAULT_ASSETS = os.path.join(HERE, "src")
 
 # ---------------------------------------------------------------- brand
 # Terminal dark system (app/static/css/theme.css + the dashboard's own
@@ -86,17 +86,30 @@ def _font(path, size):
 
 
 def shape_ar(text):
-    """Arabic shaping + bidi so PIL (no raqm) renders it correctly."""
+    """Arabic shaping + bidi so PIL (no raqm) renders it correctly.
+
+    Uses the modern python-bidi UAX#9 implementation: the legacy
+    bidi.algorithm.get_display mis-places brackets and currency signs in
+    mixed Arabic/Latin runs (it dropped the closing paren of
+    "Nvidia ($NVDA)" and moved the $ of "$266.71" to the wrong end)."""
     try:
         import arabic_reshaper
-        from bidi.algorithm import get_display
-        r = arabic_reshaper.reshape(text)
-        try:
-            return get_display(r, base_dir="R")
-        except TypeError:
-            return get_display(r)
     except Exception:
         return text
+    reshaped = arabic_reshaper.reshape(text)
+    try:
+        from bidi import get_display          # python-bidi >= 0.5 (UAX#9)
+        return get_display(reshaped, base_dir="R")
+    except Exception:
+        pass
+    try:
+        from bidi.algorithm import get_display  # legacy fallback
+        try:
+            return get_display(reshaped, base_dir="R")
+        except TypeError:
+            return get_display(reshaped)
+    except Exception:
+        return reshaped
 
 
 def fit_cover(im, size, box=None):
@@ -162,7 +175,7 @@ def main():
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
 
-    spec_path = args.spec or os.path.join(args.assets, f"posts_{args.lang}.json")
+    spec_path = args.spec or os.path.join(CONTENT, "image_spec.json")
     out_dir = args.out or IMG_DIR
     os.makedirs(out_dir, exist_ok=True)
 
@@ -194,17 +207,29 @@ def main():
             size -= 2
             font = _font(fpath, size)
             lines = wrap(d, text, font, max_w)
-        y = 392
-        # vertical accent bar framing the headline
-        d.rectangle([pad - 16, y, pad - 11, y + int(size * 1.22 * len(lines))],
-                    fill=accent)
-        for ln in lines:
-            d.text((pad, y), ln, font=font, fill=INK["text"],
-                   stroke_width=3, stroke_fill=(0, 0, 0))
-            y += int(size * 1.22)
 
-        bf = _font(FONT_MONO, 19)
-        btxt = brand
+        block_h = int(size * 1.22 * len(lines))
+        if arabic:
+            # RTL: the block is anchored on the right, accent bar on the right
+            y = 392
+            for ln in lines:
+                tw = d.textlength(ln, font=font)
+                d.text((W - pad - tw, y), ln, font=font, fill=INK["text"],
+                       stroke_width=3, stroke_fill=(0, 0, 0))
+                y += int(size * 1.22)
+            d.rectangle([W - pad + 8, 392, W - pad + 13, 392 + block_h],
+                        fill=accent)
+        else:
+            y = 392
+            for ln in lines:
+                d.text((pad, y), ln, font=font, fill=INK["text"],
+                       stroke_width=3, stroke_fill=(0, 0, 0))
+                y += int(size * 1.22)
+            # vertical accent bar framing the headline
+            d.rectangle([pad - 16, 392, pad - 11, 392 + block_h], fill=accent)
+
+        bf = _font(FONT_AR if arabic else FONT_MONO, 19)
+        btxt = shape_ar(brand) if arabic else brand
         tw = d.textlength(btxt, font=bf)
         d.text((W - pad - tw, H - 52), btxt, font=bf, fill=(210, 214, 222),
                stroke_width=2, stroke_fill=(0, 0, 0))
@@ -219,6 +244,7 @@ def main():
             "body": p["body"],
             "hashtags": p["hashtags"],
             "image": os.path.abspath(out_path),
+            "image_rel": "img/" + p["id"] + ".jpg",
             "questions": p["questions"],
             "cta": p["cta"],
             "source": p["source"],

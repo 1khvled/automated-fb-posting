@@ -48,7 +48,7 @@ def load_posts(path: Path | None = None) -> list:
                 continue
             if not e.get("title") or not e.get("body"):
                 continue
-            img = e.get("image", "")
+            img = e.get("image_rel") or e.get("image", "")
             if img and not os.path.isabs(img):
                 img = str((p.parent / img).resolve())
             if img and not os.path.exists(img):
@@ -153,7 +153,7 @@ def mark_used(state: dict, product_id: str) -> None:
 
 if __name__ == "__main__":
     posts = load_posts()
-    print(f"{len(posts)} product posts in {POSTS_FILE}")
+    print(f"{len(posts)} product posts in {POST_FILES}")
     bad = 0
     for e in posts:
         p = check_post(e)
