@@ -6,7 +6,7 @@ THE PROBLEM (Oct 2026)
 The posting bot and its self-heal both failed with:
 
     refresh: page_not_managed - the Facebook account behind FB_USER_TOKEN
-    manages 1 other page(s) (816138634925735) but not our page
+    manages 1 other page but not our page
 
 A Page token inherits the life of the user token that minted it. When the
 Facebook profile that owned the Page lost admin rights (or the Page moved to
@@ -161,8 +161,8 @@ def main() -> int:
         print("     repeat this script.")
         if len(pages) == 1:
             print(f"\n(For reference, the only page this token can see is "
-                  f"{pages[0].get('name')} - {pages[0].get('id')}. That is the")
-            print(" AZTech Store page, not the Ethan Cole page.)")
+                  f"{pages[0].get('name')} - {pages[0].get('id')}. That is a")
+            print(" different page from the one this repo posts to.)")
         return 4
 
     page_token = target.get("access_token")

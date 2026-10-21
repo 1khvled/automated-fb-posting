@@ -12,7 +12,7 @@ The self-heal log says it exactly:
 
 ```
 refresh: page_not_managed - the Facebook account behind FB_USER_TOKEN
-manages 1 other page(s) (816138634925735) but not our page
+manages 1 other page (some id) but not our page
 ```
 
 A Page token inherits the life of the user token that minted it. The profile
