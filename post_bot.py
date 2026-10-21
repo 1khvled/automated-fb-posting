@@ -3652,8 +3652,9 @@ def main() -> int:
                     f"({_count}/{_per_day} today, hour {_now_h} in {_win} UTC)")
         else:
             log(f"product rotation skipped: {_count}/{_per_day} today, "
-                f"hour {_now_h} not in {_win} UTC, "
-                f"last was product={_last_was_product}")
+                f"hour {_now_h} in {_win} UTC, "
+                f"last was product={_last_was_product}, "
+                f"posts available={len(_ps.load_posts())}")
     except Exception as _pe:
         log(f"product rotation unavailable: {_pe}")
     # Prefer a story that CARRIES A REAL PHOTO. 18 of 44 candidates have
