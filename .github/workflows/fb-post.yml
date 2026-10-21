@@ -2,10 +2,11 @@ name: FB auto-post (every 10 min)
 
 on:
   schedule:
-    # Poll every 10 min. Previously 20 min while the cooldown was 30, so the
-    # t+20 run was ALWAYS skipped and posts landed every ~40 min. For a news
-    # page that staleness is the whole game: a 40-min-old story is dead.
-    - cron: "*/10 * * * *"
+    # Poll every 20 min. Oct 2026: this was every 10 min, which meant 144
+    # runs a day to produce 15 posts -- most runs did nothing but burn a
+    # runner and re-read the feeds. 20 min is still well inside the 20-min
+    # post gap, so nothing is lost, and it halves the runs.
+    - cron: "*/20 * * * *"
   workflow_dispatch:          # manual "Run workflow" button
     inputs:
       dry_run:
@@ -41,10 +42,15 @@ jobs:
       GROUP_SHARE_TARGETS: ${{ secrets.GROUP_SHARE_TARGETS }}
       MAX_AGE_MINUTES: "1440"
       # Volume + freshness. gap must be <= cron or runs are wasted:
-      # 10-min polling with a 20-min gap posts within ~20 min of a story
+      # 20-min polling with a 20-min gap posts within ~20 min of a story
       # qualifying, versus ~40 min at the old 20/30 pairing.
+      # Oct 2026: the floor was 14, so the bot lowered its publish bar to
+      # chase a quota and shipped 15 mediocre posts/day into an 8-follower
+      # page with 0 engagements. Volume into a small audience suppresses
+      # the reach of every post on it. 4/day matches the README's own
+      # monetisation band. Raise it when the audience does.
       MIN_POST_GAP_MINUTES: "20"
-      MIN_POSTS_PER_DAY: "14"
+      MIN_POSTS_PER_DAY: "4"
       MIN_VIDEO_SCORE: "4"
       VIDEO_DEADLINE_HOUR: "20"
       VIDEO_DEADLINE_SCORE: "1"

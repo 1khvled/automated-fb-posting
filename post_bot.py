@@ -3284,13 +3284,23 @@ def review_comments(state: dict) -> dict:
 
 
 def floor_plan(posts_today: int, hour: int):
-    """Daily post floor (MIN_POSTS_PER_DAY, default 10).
+    """Daily post floor (MIN_POSTS_PER_DAY, default 4).
 
     Returns (score_discount, catchup). Behind pace -> discount lowers the
     publish bar toward FLOOR_MIN_SCORE (default 2); after
     FLOOR_DEADLINE_HOUR UTC (default 21) with the floor unmet, catchup
-    mode shrinks the cooldown so the day still hits its minimum."""
-    floor = int(os.getenv("MIN_POSTS_PER_DAY", "14"))
+    mode shrinks the cooldown so the day still hits its minimum.
+
+    Oct 2026: this was 14. The page had 8 followers and 0 engagements a
+    day, and the floor was the reason: 14 forced the bot to lower its
+    publish bar to chase a quota, so it shipped 15 mediocre posts a day
+    into a tiny audience. Volume into a small audience is not reach, it is
+    spam, and it suppresses the reach of every post on the page. The
+    README's own monetisation goal says 4-11 posts/day is the consistency
+    band, and 4 is the right floor for a page this size. Raise it only
+    when the audience does.
+    """
+    floor = int(os.getenv("MIN_POSTS_PER_DAY", "4"))
     if posts_today >= floor:
         return 0, False
     expected = (hour * floor) // 24
