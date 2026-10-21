@@ -3,6 +3,48 @@
 Runs every 20 min via GitHub Actions. 1 post max per run, only if fresh
 finance/AI news passes the filter. Dedup via `posted.json`.
 
+## October 2026 incident (read this before changing anything)
+
+Two separate problems, both fixed or diagnosed below.
+
+**1. The Page token is dead, and it cannot be fixed from the server.**
+The self-heal log says it exactly:
+
+```
+refresh: page_not_managed - the Facebook account behind FB_USER_TOKEN
+manages 1 other page(s) (816138634925735) but not our page
+```
+
+A Page token inherits the life of the user token that minted it. The profile
+behind `FB_USER_TOKEN` no longer administers the Ethan Cole Page, so every
+publish returns error 190 (*"This Page access token belongs to a Page that is
+not accessible"*) and re-minting from the same user token just reproduces the
+same dead token. **The fix is one interactive login on the Facebook profile
+that actually owns the Page.** `scripts/reseed_token.py` makes that a
+two-minute job: it exchanges the token, lists the Pages it can manage, mints
+and stores the Page token, re-enables this workflow, and tells you plainly
+which profile to log into when the Page is missing.
+
+**2. The page was posting 15 times a day into 8 followers and getting zero
+engagement.** `MIN_POSTS_PER_DAY` was 14. It is not a floor, it is a *target*:
+behind pace the bot lowers its publish bar, and after 21:00 UTC it shrinks the
+cooldown so the day hits its minimum. Result: 15 mediocre posts a day, every
+one of them diluting the reach of the others. The README's own monetisation
+goal says 4–11 posts/day is the consistency band, and the audience is 8
+people, so the floor is now **4**. The cron went from every 10 min to every
+20 min (144 runs/day to produce 15 posts was mostly wasted runner time).
+Raise both only when the audience does.
+
+**3. The tuner was blind.** `tune_from_engagement` had never learned anything
+because there was never any engagement to learn from, and `metrics.jsonl` had
+been returning `null` for impressions/engagement because the token was dead
+too. Both resolve once the token is re-seeded.
+
+**4. `GROUP_SHARE_TARGETS` is not set.** It is referenced by this workflow and
+by `notify_post_live`, but the secret does not exist, so the group-share
+distribution path has never run. For a page with a small audience this is the
+reach mechanism that matters. Set it to a comma-separated list of group ids.
+
 ## 1. Facebook token (you do this once, ~10 min)
 
 1. Go to https://developers.facebook.com → My Apps → Create App (type: Business, or Other → Business).

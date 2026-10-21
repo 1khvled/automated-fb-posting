@@ -1,4 +1,4 @@
-name: FB auto-post (every 10 min)
+name: FB auto-post (every 20 min)
 
 on:
   schedule:
