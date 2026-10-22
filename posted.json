@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "92fee29909312f3a",
-    "fb_id": "1264009986803820_122126803905472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\"",
-    "link": "https://x.com/WatcherGuru/status/2113049825872654413",
-    "mode": "serious",
-    "at": "2026-10-21T23:40:41.278913+00:00"
+    "hash": "c73548ce6a5da906",
+    "fb_id": "28978412978458608",
+    "title": "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy. Toggle different layers in motion, isolate muscles, or zoom inside a beating heart.",
+    "link": "https://x.com/GoogleDeepMind/status/2112974723659247896",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-10-22T01:06:23.943388+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -232,6 +233,7 @@
     "c41331f6e32a833f",
     "c623f18fc00030b7",
     "c6f3775320d53040",
+    "c73548ce6a5da906",
     "c8831ff911363d0b",
     "c93215bad5ea439f",
     "ccbe6f2f8f52fbb8",
@@ -299,11 +301,10 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-19": 15,
-    "2026-10-21": 14
+    "2026-10-21": 14,
+    "2026-10-22": 1
   },
   "recent_titles": [
-    "Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131",
     "Nvidia $NVDA posted this today: \u201cNVIDIA announces new Isaac tools for agents as Agile Robots unveils Agile ONE SN, a reference humanoid for robotics research.\u201c",
     "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
     "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
@@ -317,18 +318,10 @@
     "457% - FIG",
     "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026.",
     "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\""
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\"",
+    "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy. Toggle different layers in motion, isolate muscles, or zoom inside a beating heart."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125214187472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-17T04:41:22.268450+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125220445472689",
       "topics": [
@@ -782,35 +775,75 @@
       "mode": "serious",
       "photo": "split:scene",
       "at": "2026-10-21T23:40:41.278913+00:00"
+    },
+    {
+      "fb_id": "28978412978458608",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-10-22T01:06:23.943388+00:00"
     }
   ],
   "tuner": {
-    "topics": {},
-    "mult": {},
-    "updated": "2026-10-21"
+    "topics": {
+      "gold_oil": {
+        "n": 2,
+        "e": 0
+      },
+      "ai": {
+        "n": 6,
+        "e": 12
+      },
+      "stocks": {
+        "n": 4,
+        "e": 6
+      },
+      "crypto": {
+        "n": 7,
+        "e": 15
+      },
+      "inflation": {
+        "n": 2,
+        "e": 0
+      },
+      "power": {
+        "n": 5,
+        "e": 12
+      },
+      "unknown": {
+        "n": 1,
+        "e": 3
+      }
+    },
+    "mult": {
+      "gold_oil": 0.85,
+      "ai": 1.04,
+      "stocks": 0.95,
+      "crypto": 1.06,
+      "inflation": 0.85,
+      "power": 1.1
+    },
+    "updated": "2026-10-22"
   },
   "comment_review": {
-    "posts": 0,
-    "comments": 0,
+    "posts": 8,
+    "comments": 8,
     "likes": 0,
-    "questions": 0,
+    "questions": 8,
     "praise": 0,
-    "anger": 0,
+    "anger": 1,
     "fake_claims": 0,
     "by_topic": {},
-    "sample_questions": [],
-    "updated": "2026-10-21"
+    "sample_questions": [
+      "How does the 200-week moving average hold up as a reliable indicator for Bitcoin's long-term cycles?",
+      "How will the shift to cheaper open-weight models like Flint impact your hardware investments or tech portfolio?",
+      "How much exposure do you currently have to these top four stocks in your portfolio?"
+    ],
+    "updated": "2026-10-22"
   },
-  "last_video_post": "2026-10-21",
+  "last_video_post": "2026-10-22",
   "recent_fps": [
-    {
-      "fp": [
-        "another",
-        "hormuz",
-        "strait"
-      ],
-      "at": "2026-10-19T04:32:29.754147+00:00"
-    },
     {
       "fp": [
         "anthropic"
@@ -1026,6 +1059,14 @@
         "treasury"
       ],
       "at": "2026-10-21T23:40:41.278901+00:00"
+    },
+    {
+      "fp": [
+        "argon",
+        "gemini",
+        "toggle"
+      ],
+      "at": "2026-10-22T01:06:23.943382+00:00"
     }
   ],
   "recent_hooks": [
@@ -1055,7 +1096,8 @@
     "122126762343472689_1146154667746082",
     "122126763369472689_1520938729840519",
     "122126770125472689_1154472217262973",
-    "122126791677472689_1645687053604835"
+    "122126791677472689_1645687053604835",
+    "122126803905472689_1077785168639628"
   ],
   "product_posts_used": [
     "sig-FIG-20261021"
