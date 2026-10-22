@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "b71658e7a7284937",
-    "fb_id": "1264009986803820_122127065181472689",
-    "title": "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
-    "link": "https://www.cnbc.com/2026/10/22/trump-world-liberty-crypto-lawsuit-uae.html",
-    "mode": "serious",
-    "at": "2026-10-22T20:17:40.486848+00:00"
+    "hash": "50a5aaa741a64e4c",
+    "fb_id": "1264009986803820_122127100365472689",
+    "title": "A new book alleges that Dutch intelligence hacked Jared Kushner's phone and watched him access a Dubai bank account holding hundreds of millions of dollars that came from a bank in Azerbaijan. The ...",
+    "link": "https://x.com/clashreport/status/2113355010952065381",
+    "mode": "viral",
+    "at": "2026-10-22T23:28:51.913565+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -95,6 +95,7 @@
     "4c37a6b98f96b103",
     "4d61c8b851c9cafd",
     "502825213b373f41",
+    "50a5aaa741a64e4c",
     "53384af31d4e0217",
     "534724b3044ec482",
     "53fc57ae28b68910",
@@ -305,10 +306,9 @@
   ],
   "day_counts": {
     "2026-10-21": 14,
-    "2026-10-22": 5
+    "2026-10-22": 6
   },
   "recent_titles": [
-    "Trump to throw spotlight on overseas crypto abuses at White House event",
     "Anthropic is a Public Benefit Corporation. Today, we\u2019re publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we\u2019re taking to advance them....",
     "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
     "Recursive has released Flint, its first open-weight coding model under the Apache 2.0 license, which is 2x faster than comparable alternatives. > Flint is a 40B parameter mixture-of-experts model f...",
@@ -322,19 +322,10 @@
     "\ud83d\udea8 DAVID M. SABATINI \u2014 FROM A POTENTIAL NOBEL LAUREATE TO NEARLY SIX YEARS OF PROFESSIONAL DESTRUCTION AND PERSONAL SUFFERING $6 MILLION IN DAMAGES \u2014 BUT WHO CAN RESTORE NEARLY SIX LOST YEARS OF AN ...",
     "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
     "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood $HOOD officially receives approval from Dubai to launch crypto trading in the Middle East.",
-    "Lawsuit accuses Trump of illegally profiting off foreign crypto deals"
+    "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
+    "A new book alleges that Dutch intelligence hacked Jared Kushner's phone and watched him access a Dubai bank account holding hundreds of millions of dollars that came from a bank in Azerbaijan. The ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125247289472689",
-      "topics": [
-        "ai",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "split:face+logo",
-      "at": "2026-10-17T07:01:31.227040+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125485153472689",
       "topics": [
@@ -786,6 +777,15 @@
       "mode": "serious",
       "photo": "og:image",
       "at": "2026-10-22T20:17:40.486848+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127100365472689",
+      "topics": [
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-22T23:28:51.913565+00:00"
     }
   ],
   "tuner": {
@@ -847,15 +847,6 @@
   },
   "last_video_post": "2026-10-22",
   "recent_fps": [
-    {
-      "fp": [
-        "$131",
-        "$34",
-        "BTC",
-        "bitcoin"
-      ],
-      "at": "2026-10-19T06:56:00.318808+00:00"
-    },
     {
       "fp": [
         "NVDA",
@@ -1095,10 +1086,27 @@
         "trump"
       ],
       "at": "2026-10-22T20:17:40.486833+00:00"
+    },
+    {
+      "fp": [
+        "UAE",
+        "azerbaijan",
+        "cole",
+        "dubai",
+        "dutch",
+        "jared",
+        "kushner",
+        "matthew",
+        "mohamed",
+        "president",
+        "princes",
+        "thieves",
+        "zayed"
+      ],
+      "at": "2026-10-22T23:28:51.913553+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\ude80 JPMorgan more than DOUBLES its SpaceX ($SPCX) price target to $500!",
     "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
     "BREAKING: President Trump is set to highlight overseas CRYPTO abuses at an upcoming White House event.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Anthropic declares itself a Public Benefit Corporation and drops its annual Public Benefit Report today, spotlighting 5 pillars and concrete actions. Why it matters: AI ethics & safety now officially part of corporate mandate. #ethancole #ai #technews #finance #investing",
@@ -1112,7 +1120,8 @@
     "JUST IN: Scientist David M. Sabatini awarded $6 MILLION in damages after six years of professional destruction.",
     "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
     "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood ($HOOD) gets official APPROVAL in Dubai to launch crypto trading across the Middle East.",
-    "JUST IN: \ud83d\udea8 Donald Trump sued over LAWSUIT alleging illegal profits from foreign crypto deals."
+    "JUST IN: \ud83d\udea8 Donald Trump sued over LAWSUIT alleging illegal profits from foreign crypto deals.",
+    "JUST IN: \ud83d\udea9 Dutch intelligence hacked Jared Kushner's phone, watching him tap a Dubai bank account holding hundreds of millions of dollars from an Azerbaijan bank. Excerpt from Matthew\u202fCole's book Princes and Thieves links Kushner to UAE President Mohamed\u202fbin\u202fZayed."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1129,7 +1138,8 @@
     "122126821443472689_2590031954849360",
     "122126878449472689_1622856236521460",
     "122126957451472689_1620524776759376",
-    "122127022239472689_2066082134112722"
+    "122127022239472689_2066082134112722",
+    "122127065181472689_1802920670710787"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
