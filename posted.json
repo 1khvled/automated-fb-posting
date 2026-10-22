@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "c73548ce6a5da906",
-    "fb_id": "28978412978458608",
-    "title": "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy. Toggle different layers in motion, isolate muscles, or zoom inside a beating heart.",
-    "link": "https://x.com/GoogleDeepMind/status/2112974723659247896",
+    "hash": "c6114be8a9c92b65",
+    "fb_id": "1264009986803820_122126878449472689",
+    "title": "\ud83d\udea8 DAVID M. SABATINI \u2014 FROM A POTENTIAL NOBEL LAUREATE TO NEARLY SIX YEARS OF PROFESSIONAL DESTRUCTION AND PERSONAL SUFFERING $6 MILLION IN DAMAGES \u2014 BUT WHO CAN RESTORE NEARLY SIX LOST YEARS OF AN ...",
+    "link": "https://x.com/SciGuardians/status/2112937181350105532",
     "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-22T01:06:23.943388+00:00"
+    "at": "2026-10-22T06:09:14.403043+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -231,6 +230,7 @@
     "c251468873bbe41c",
     "c390bcfc7b12ee30",
     "c41331f6e32a833f",
+    "c6114be8a9c92b65",
     "c623f18fc00030b7",
     "c6f3775320d53040",
     "c73548ce6a5da906",
@@ -302,10 +302,9 @@
   ],
   "day_counts": {
     "2026-10-21": 14,
-    "2026-10-22": 1
+    "2026-10-22": 2
   },
   "recent_titles": [
-    "Nvidia $NVDA posted this today: \u201cNVIDIA announces new Isaac tools for agents as Agile Robots unveils Agile ONE SN, a reference humanoid for robotics research.\u201c",
     "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
     "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
     "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
@@ -319,18 +318,10 @@
     "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026.",
     "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\"",
-    "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy. Toggle different layers in motion, isolate muscles, or zoom inside a beating heart."
+    "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy. Toggle different layers in motion, isolate muscles, or zoom inside a beating heart.",
+    "\ud83d\udea8 DAVID M. SABATINI \u2014 FROM A POTENTIAL NOBEL LAUREATE TO NEARLY SIX YEARS OF PROFESSIONAL DESTRUCTION AND PERSONAL SUFFERING $6 MILLION IN DAMAGES \u2014 BUT WHO CAN RESTORE NEARLY SIX LOST YEARS OF AN ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125220445472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "split:logo+logo",
-      "at": "2026-10-17T05:06:33.305534+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125225641472689",
       "topics": [
@@ -783,6 +774,16 @@
       ],
       "mode": "viral",
       "at": "2026-10-22T01:06:23.943388+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126878449472689",
+      "topics": [
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "split:scene",
+      "at": "2026-10-22T06:09:14.403043+00:00"
     }
   ],
   "tuner": {
@@ -844,12 +845,6 @@
   },
   "last_video_post": "2026-10-22",
   "recent_fps": [
-    {
-      "fp": [
-        "anthropic"
-      ],
-      "at": "2026-10-19T05:01:25.751578+00:00"
-    },
     {
       "fp": [
         "$1.84",
@@ -1067,10 +1062,32 @@
         "toggle"
       ],
       "at": "2026-10-22T01:06:23.943382+00:00"
+    },
+    {
+      "fp": [
+        "$6",
+        "AN",
+        "AND",
+        "BUT",
+        "CAN",
+        "DAVID",
+        "FROM",
+        "IN",
+        "LIFE",
+        "LOST",
+        "NEARLY",
+        "NOBEL",
+        "OF",
+        "SIX",
+        "TO",
+        "WHO",
+        "YEAR",
+        "his"
+      ],
+      "at": "2026-10-22T06:09:14.403028+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: HOME BUYER RECESSION SPARKS 60% DROP IN MORTGAGE APPS",
     "\ud83d\udea8 JUST IN: OpenAI BUGGING SUSPECT WhatsApp'ed Saudi royal days before arrest.",
     "\ud83d\udea8 JUST IN: Bitcoin ($BTC) whale MOVES $34 MILLION.",
     "\ud83d\udea8 BREAKING: U.S. and Israel to ATTACK Iran's OIL infrastructure.",
@@ -1084,7 +1101,8 @@
     "The model values FIG at $128 against a $23 price - 457% cheap.",
     "JUST IN: Tesla ($TSLA) reveals $0 of its $972,000,000 Bitcoin stack was sold in Q3 2026.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Prediction markets put DEMOCRATS at a 67% chance to win the Senate in 2026.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says finalized crypto stablecoin rules under the GENIUS Act cement AMERICAN dominance in digital assets."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says finalized crypto stablecoin rules under the GENIUS Act cement AMERICAN dominance in digital assets.",
+    "JUST IN: Scientist David M. Sabatini awarded $6 MILLION in damages after six years of professional destruction."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1097,7 +1115,8 @@
     "122126763369472689_1520938729840519",
     "122126770125472689_1154472217262973",
     "122126791677472689_1645687053604835",
-    "122126803905472689_1077785168639628"
+    "122126803905472689_1077785168639628",
+    "122126821443472689_2590031954849360"
   ],
   "product_posts_used": [
     "sig-FIG-20261021"
