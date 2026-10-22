@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "c6114be8a9c92b65",
-    "fb_id": "1264009986803820_122126878449472689",
-    "title": "\ud83d\udea8 DAVID M. SABATINI \u2014 FROM A POTENTIAL NOBEL LAUREATE TO NEARLY SIX YEARS OF PROFESSIONAL DESTRUCTION AND PERSONAL SUFFERING $6 MILLION IN DAMAGES \u2014 BUT WHO CAN RESTORE NEARLY SIX LOST YEARS OF AN ...",
-    "link": "https://x.com/SciGuardians/status/2112937181350105532",
-    "mode": "viral",
-    "at": "2026-10-22T06:09:14.403043+00:00"
+    "hash": "66a30b55a7e85885",
+    "fb_id": "1264009986803820_122126957451472689",
+    "title": "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
+    "link": "",
+    "mode": "serious",
+    "at": "2026-10-22T11:57:41.882347+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -116,6 +116,7 @@
     "6470eb4210e740d8",
     "64962f2dd92c7de5",
     "65239bf3a2c20e14",
+    "66a30b55a7e85885",
     "66f515d28624ba5d",
     "674b05779bb42d21",
     "676d291d52901fab",
@@ -302,10 +303,9 @@
   ],
   "day_counts": {
     "2026-10-21": 14,
-    "2026-10-22": 2
+    "2026-10-22": 3
   },
   "recent_titles": [
-    "Israel and the United States will almost certainly attack Iran once again. This will mark the final chapter of this war. Through this attack, Trump and Netanyahu will fully carry out the threats th...",
     "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
     "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
     "Trump to throw spotlight on overseas crypto abuses at White House event",
@@ -319,18 +319,10 @@
     "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\"",
     "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy. Toggle different layers in motion, isolate muscles, or zoom inside a beating heart.",
-    "\ud83d\udea8 DAVID M. SABATINI \u2014 FROM A POTENTIAL NOBEL LAUREATE TO NEARLY SIX YEARS OF PROFESSIONAL DESTRUCTION AND PERSONAL SUFFERING $6 MILLION IN DAMAGES \u2014 BUT WHO CAN RESTORE NEARLY SIX LOST YEARS OF AN ..."
+    "\ud83d\udea8 DAVID M. SABATINI \u2014 FROM A POTENTIAL NOBEL LAUREATE TO NEARLY SIX YEARS OF PROFESSIONAL DESTRUCTION AND PERSONAL SUFFERING $6 MILLION IN DAMAGES \u2014 BUT WHO CAN RESTORE NEARLY SIX LOST YEARS OF AN ...",
+    "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125225641472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "split:logo+logo",
-      "at": "2026-10-17T05:32:58.945902+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125236657472689",
       "topics": [
@@ -784,6 +776,13 @@
       "mode": "viral",
       "photo": "split:scene",
       "at": "2026-10-22T06:09:14.403043+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122126957451472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "product",
+      "at": "2026-10-22T11:57:41.882347+00:00"
     }
   ],
   "tuner": {
@@ -845,21 +844,6 @@
   },
   "last_video_post": "2026-10-22",
   "recent_fps": [
-    {
-      "fp": [
-        "$1.84",
-        "$228.58",
-        "$25.52",
-        "$319.97",
-        "BTC",
-        "ETF",
-        "ETH",
-        "FLOW",
-        "SOL",
-        "XRP"
-      ],
-      "at": "2026-10-19T05:32:32.115994+00:00"
-    },
     {
       "fp": [
         "america",
@@ -1085,10 +1069,28 @@
         "his"
       ],
       "at": "2026-10-22T06:09:14.403028+00:00"
+    },
+    {
+      "fp": [
+        "AND",
+        "COT",
+        "FROM",
+        "INDEX",
+        "IS",
+        "ONE",
+        "START",
+        "THE",
+        "TOP",
+        "WHERE",
+        "above",
+        "commercials",
+        "large",
+        "specs"
+      ],
+      "at": "2026-10-22T11:57:41.882337+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 JUST IN: OpenAI BUGGING SUSPECT WhatsApp'ed Saudi royal days before arrest.",
     "\ud83d\udea8 JUST IN: Bitcoin ($BTC) whale MOVES $34 MILLION.",
     "\ud83d\udea8 BREAKING: U.S. and Israel to ATTACK Iran's OIL infrastructure.",
     "JUST IN: \ud83d\ude80 JPMorgan more than DOUBLES its SpaceX ($SPCX) price target to $500!",
@@ -1102,7 +1104,8 @@
     "JUST IN: Tesla ($TSLA) reveals $0 of its $972,000,000 Bitcoin stack was sold in Q3 2026.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Prediction markets put DEMOCRATS at a 67% chance to win the Senate in 2026.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says finalized crypto stablecoin rules under the GENIUS Act cement AMERICAN dominance in digital assets.",
-    "JUST IN: Scientist David M. Sabatini awarded $6 MILLION in damages after six years of professional destruction."
+    "JUST IN: Scientist David M. Sabatini awarded $6 MILLION in damages after six years of professional destruction.",
+    "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1116,12 +1119,14 @@
     "122126770125472689_1154472217262973",
     "122126791677472689_1645687053604835",
     "122126803905472689_1077785168639628",
-    "122126821443472689_2590031954849360"
+    "122126821443472689_2590031954849360",
+    "122126878449472689_1622856236521460"
   ],
   "product_posts_used": [
-    "sig-FIG-20261021"
+    "sig-FIG-20261021",
+    "en-01-cot-index-extremes"
   ],
   "product_posts_day": {
-    "2026-10-21": 1
+    "2026-10-22": 1
   }
 }
