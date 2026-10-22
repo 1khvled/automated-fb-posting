@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "66a30b55a7e85885",
-    "fb_id": "1264009986803820_122126957451472689",
-    "title": "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
-    "link": "",
-    "mode": "serious",
-    "at": "2026-10-22T11:57:41.882347+00:00"
+    "hash": "d570ddbf2c7fbd4e",
+    "fb_id": "1264009986803820_122127022239472689",
+    "title": "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood $HOOD officially receives approval from Dubai to launch crypto trading in the Middle East.",
+    "link": "https://x.com/WatcherGuru/status/2113273803837190179",
+    "mode": "viral",
+    "at": "2026-10-22T16:24:23.654921+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -249,6 +249,7 @@
     "d3dc0525d66d3983",
     "d425f4f753b3e194",
     "d551335658005d85",
+    "d570ddbf2c7fbd4e",
     "d83a3d5c86146f73",
     "d861583e99fec9ab",
     "d9e68d9471ca15df",
@@ -303,10 +304,9 @@
   ],
   "day_counts": {
     "2026-10-21": 14,
-    "2026-10-22": 3
+    "2026-10-22": 4
   },
   "recent_titles": [
-    "JUST IN: JPMorgan more than doubles its SpaceX $SPCX price target from $240 to $500.",
     "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
     "Trump to throw spotlight on overseas crypto abuses at White House event",
     "Anthropic is a Public Benefit Corporation. Today, we\u2019re publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we\u2019re taking to advance them....",
@@ -320,18 +320,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\"",
     "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy. Toggle different layers in motion, isolate muscles, or zoom inside a beating heart.",
     "\ud83d\udea8 DAVID M. SABATINI \u2014 FROM A POTENTIAL NOBEL LAUREATE TO NEARLY SIX YEARS OF PROFESSIONAL DESTRUCTION AND PERSONAL SUFFERING $6 MILLION IN DAMAGES \u2014 BUT WHO CAN RESTORE NEARLY SIX LOST YEARS OF AN ...",
-    "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START"
+    "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
+    "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood $HOOD officially receives approval from Dubai to launch crypto trading in the Middle East."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125236657472689",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-17T06:01:52.272423+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125242735472689",
       "topics": [
@@ -783,6 +775,15 @@
       "mode": "serious",
       "photo": "product",
       "at": "2026-10-22T11:57:41.882347+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127022239472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "split:scene",
+      "at": "2026-10-22T16:24:23.654921+00:00"
     }
   ],
   "tuner": {
@@ -844,16 +845,6 @@
   },
   "last_video_post": "2026-10-22",
   "recent_fps": [
-    {
-      "fp": [
-        "america",
-        "demand",
-        "mortgage",
-        "redfin",
-        "september"
-      ],
-      "at": "2026-10-19T06:01:34.148512+00:00"
-    },
     {
       "fp": [
         "abdulrahman",
@@ -1088,10 +1079,21 @@
         "specs"
       ],
       "at": "2026-10-22T11:57:41.882337+00:00"
+    },
+    {
+      "fp": [
+        "HOOD",
+        "IN",
+        "JUST",
+        "dubai",
+        "east",
+        "middle",
+        "robinhood"
+      ],
+      "at": "2026-10-22T16:24:23.654906+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 JUST IN: Bitcoin ($BTC) whale MOVES $34 MILLION.",
     "\ud83d\udea8 BREAKING: U.S. and Israel to ATTACK Iran's OIL infrastructure.",
     "JUST IN: \ud83d\ude80 JPMorgan more than DOUBLES its SpaceX ($SPCX) price target to $500!",
     "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
@@ -1105,7 +1107,8 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Prediction markets put DEMOCRATS at a 67% chance to win the Senate in 2026.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says finalized crypto stablecoin rules under the GENIUS Act cement AMERICAN dominance in digital assets.",
     "JUST IN: Scientist David M. Sabatini awarded $6 MILLION in damages after six years of professional destruction.",
-    "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed."
+    "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
+    "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood ($HOOD) gets official APPROVAL in Dubai to launch crypto trading across the Middle East."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1120,7 +1123,8 @@
     "122126791677472689_1645687053604835",
     "122126803905472689_1077785168639628",
     "122126821443472689_2590031954849360",
-    "122126878449472689_1622856236521460"
+    "122126878449472689_1622856236521460",
+    "122126957451472689_1620524776759376"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
