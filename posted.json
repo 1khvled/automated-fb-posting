@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "34dde419ee054c75",
-    "fb_id": "4688406038048185",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 MeidasTouch and VALOR Media Network have published previously unseen footage and firsthand accounts from U.S. service members, contractors and military families describing extensive d...",
-    "link": "https://x.com/Megatron_ron/status/2113339612857053280",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-23T01:53:28.908291+00:00"
+    "hash": "79da5906ca42200c",
+    "fb_id": "1264009986803820_122127180699472689",
+    "title": "\u26a1 LATEST: DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe's only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech. This week i...",
+    "link": "https://x.com/Cointelegraph/status/2113518444297478488",
+    "mode": "serious",
+    "at": "2026-10-23T06:44:04.496699+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -147,6 +146,7 @@
     "7531dfadc0f9f7e0",
     "77abba66d602fa6d",
     "79bf8126b948e64b",
+    "79da5906ca42200c",
     "7bd03f4783b9b2bb",
     "7c887ce0c4c325c6",
     "7dd4c394ede9d017",
@@ -309,10 +309,9 @@
   "day_counts": {
     "2026-10-21": 14,
     "2026-10-22": 6,
-    "2026-10-23": 1
+    "2026-10-23": 2
   },
   "recent_titles": [
-    "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
     "Recursive has released Flint, its first open-weight coding model under the Apache 2.0 license, which is 2x faster than comparable alternatives. > Flint is a 40B parameter mixture-of-experts model f...",
     "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
@@ -326,17 +325,10 @@
     "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood $HOOD officially receives approval from Dubai to launch crypto trading in the Middle East.",
     "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
     "A new book alleges that Dutch intelligence hacked Jared Kushner's phone and watched him access a Dubai bank account holding hundreds of millions of dollars that came from a bank in Azerbaijan. The ...",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 MeidasTouch and VALOR Media Network have published previously unseen footage and firsthand accounts from U.S. service members, contractors and military families describing extensive d..."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 MeidasTouch and VALOR Media Network have published previously unseen footage and firsthand accounts from U.S. service members, contractors and military families describing extensive d...",
+    "\u26a1 LATEST: DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe's only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech. This week i..."
   ],
   "history": [
-    {
-      "fb_id": "1169165442343173",
-      "topics": [
-        "power"
-      ],
-      "mode": "serious",
-      "at": "2026-10-18T00:31:00.606218+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125494915472689",
       "topics": [
@@ -787,6 +779,16 @@
       ],
       "mode": "viral",
       "at": "2026-10-23T01:53:28.908291+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127180699472689",
+      "topics": [
+        "ai",
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "split:face+inst",
+      "at": "2026-10-23T06:44:04.496699+00:00"
     }
   ],
   "tuner": {
@@ -848,19 +850,6 @@
   },
   "last_video_post": "2026-10-23",
   "recent_fps": [
-    {
-      "fp": [
-        "iran",
-        "israel",
-        "netanyahu",
-        "states",
-        "this",
-        "through",
-        "trump",
-        "united"
-      ],
-      "at": "2026-10-21T15:47:50.914628+00:00"
-    },
     {
       "fp": [
         "$240",
@@ -1114,10 +1103,25 @@
         "sultan"
       ],
       "at": "2026-10-23T01:53:28.908280+00:00"
+    },
+    {
+      "fp": [
+        "ETF",
+        "LATEST",
+        "US",
+        "asia",
+        "bitcoin",
+        "europe",
+        "express",
+        "singapore",
+        "switzerland",
+        "this",
+        "vietnam"
+      ],
+      "at": "2026-10-23T06:44:04.496689+00:00"
     }
   ],
   "recent_hooks": [
-    "OpenAI models helped researchers\u2014operating as part of our Patch the Planet initiative\u2014discover critical security flaws in PHP, an open-source programming language used to run an estimated 70% of we...",
     "BREAKING: President Trump is set to highlight overseas CRYPTO abuses at an upcoming White House event.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Anthropic declares itself a Public Benefit Corporation and drops its annual Public Benefit Report today, spotlighting 5 pillars and concrete actions. Why it matters: AI ethics & safety now officially part of corporate mandate. #ethancole #ai #technews #finance #investing",
     "JUST IN: \ud83d\udea8 AI startup Recursive has released Flint, an OPEN-WEIGHT coding model that runs 2x faster than alternatives.",
@@ -1131,7 +1135,8 @@
     "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
     "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood ($HOOD) gets official APPROVAL in Dubai to launch crypto trading across the Middle East.",
     "JUST IN: \ud83d\udea8 Donald Trump sued over LAWSUIT alleging illegal profits from foreign crypto deals.",
-    "JUST IN: \ud83d\udea9 Dutch intelligence hacked Jared Kushner's phone, watching him tap a Dubai bank account holding hundreds of millions of dollars from an Azerbaijan bank. Excerpt from Matthew\u202fCole's book Princes and Thieves links Kushner to UAE President Mohamed\u202fbin\u202fZayed."
+    "JUST IN: \ud83d\udea9 Dutch intelligence hacked Jared Kushner's phone, watching him tap a Dubai bank account holding hundreds of millions of dollars from an Azerbaijan bank. Excerpt from Matthew\u202fCole's book Princes and Thieves links Kushner to UAE President Mohamed\u202fbin\u202fZayed.",
+    "JUST IN: DeepSeek BANNED from US federal civilian agencies over national security and spying fears."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1150,7 +1155,8 @@
     "122126957451472689_1620524776759376",
     "122127022239472689_2066082134112722",
     "122127065181472689_1802920670710787",
-    "122127100365472689_1420583070192239"
+    "122127100365472689_1420583070192239",
+    "122127125121472689_1125545766916659"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
