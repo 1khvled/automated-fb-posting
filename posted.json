@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "f36a9072ea0136d2",
-    "fb_id": "1264009986803820_122127357939472689",
-    "title": "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
-    "link": "https://x.com/WatcherGuru/status/2113671451903414292",
-    "mode": "viral",
-    "at": "2026-10-23T17:14:59.931515+00:00"
+    "hash": "c406892822f13149",
+    "fb_id": "1264009986803820_122127402351472689",
+    "title": "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
+    "link": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+    "mode": "serious",
+    "at": "2026-10-23T20:30:47.327626+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -234,6 +234,7 @@
     "c0ca1e4fb69f6ec7",
     "c251468873bbe41c",
     "c390bcfc7b12ee30",
+    "c406892822f13149",
     "c41331f6e32a833f",
     "c6114be8a9c92b65",
     "c623f18fc00030b7",
@@ -311,10 +312,9 @@
   "day_counts": {
     "2026-10-21": 14,
     "2026-10-22": 6,
-    "2026-10-23": 4
+    "2026-10-23": 5
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
     "457% - FIG",
     "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026.",
     "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
@@ -328,18 +328,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 MeidasTouch and VALOR Media Network have published previously unseen footage and firsthand accounts from U.S. service members, contractors and military families describing extensive d...",
     "\u26a1 LATEST: DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe's only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech. This week i...",
     "\ud83d\udcb0 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT",
-    "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions."
+    "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
+    "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125507707472689",
-      "topics": [
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "split:face+face",
-      "at": "2026-10-18T02:02:33.526618+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125513029472689",
       "topics": [
@@ -790,6 +782,16 @@
       "mode": "viral",
       "photo": "face",
       "at": "2026-10-23T17:14:59.931515+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127402351472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "og:image",
+      "at": "2026-10-23T20:30:47.327626+00:00"
     }
   ],
   "tuner": {
@@ -851,14 +853,6 @@
   },
   "last_video_post": "2026-10-23",
   "recent_fps": [
-    {
-      "fp": [
-        "house",
-        "trump",
-        "white"
-      ],
-      "at": "2026-10-21T16:38:57.033814+00:00"
-    },
     {
       "fp": [
         "anthropic",
@@ -1134,10 +1128,23 @@
         "prime"
       ],
       "at": "2026-10-23T17:14:59.931503+00:00"
+    },
+    {
+      "fp": [
+        "$116,",
+        "brent",
+        "donald",
+        "east",
+        "iran",
+        "middle",
+        "president",
+        "thursday",
+        "trump"
+      ],
+      "at": "2026-10-23T20:30:47.327595+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 AI startup Recursive has released Flint, an OPEN-WEIGHT coding model that runs 2x faster than alternatives.",
     "BREAKING: S&P 500 CONCENTRATION just hit a record high.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
     "The model values FIG at $128 against a $23 price - 457% cheap.",
@@ -1151,7 +1158,8 @@
     "JUST IN: \ud83d\udea9 Dutch intelligence hacked Jared Kushner's phone, watching him tap a Dubai bank account holding hundreds of millions of dollars from an Azerbaijan bank. Excerpt from Matthew\u202fCole's book Princes and Thieves links Kushner to UAE President Mohamed\u202fbin\u202fZayed.",
     "JUST IN: DeepSeek BANNED from US federal civilian agencies over national security and spying fears.",
     "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short.",
-    "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu orders plan to adopt CRYPTO and blockchain to neutralize state financial sanctions."
+    "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu orders plan to adopt CRYPTO and blockchain to neutralize state financial sanctions.",
+    "JUST IN: \ud83d\udee2\ufe0f Brent crude oil topped $116 per barrel to hit a six-month high as Middle East tensions swell."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1173,7 +1181,8 @@
     "122127100365472689_1420583070192239",
     "122127125121472689_1125545766916659",
     "122127180699472689_1097137416443802",
-    "122127278085472689_1101836202828247"
+    "122127278085472689_1101836202828247",
+    "122127357939472689_1802506387614617"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
