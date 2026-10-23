@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "79da5906ca42200c",
-    "fb_id": "1264009986803820_122127180699472689",
-    "title": "\u26a1 LATEST: DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe's only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech. This week i...",
-    "link": "https://x.com/Cointelegraph/status/2113518444297478488",
+    "hash": "d4f0b2e5fc3af8b4",
+    "fb_id": "1264009986803820_122127278085472689",
+    "title": "\ud83d\udcb0 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT",
+    "link": "",
     "mode": "serious",
-    "at": "2026-10-23T06:44:04.496699+00:00"
+    "at": "2026-10-23T12:17:46.072945+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -252,6 +252,7 @@
     "d26cee70e4267489",
     "d3dc0525d66d3983",
     "d425f4f753b3e194",
+    "d4f0b2e5fc3af8b4",
     "d551335658005d85",
     "d570ddbf2c7fbd4e",
     "d83a3d5c86146f73",
@@ -309,10 +310,9 @@
   "day_counts": {
     "2026-10-21": 14,
     "2026-10-22": 6,
-    "2026-10-23": 2
+    "2026-10-23": 3
   },
   "recent_titles": [
-    "Recursive has released Flint, its first open-weight coding model under the Apache 2.0 license, which is 2x faster than comparable alternatives. > Flint is a 40B parameter mixture-of-experts model f...",
     "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
     "457% - FIG",
@@ -326,18 +326,10 @@
     "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
     "A new book alleges that Dutch intelligence hacked Jared Kushner's phone and watched him access a Dubai bank account holding hundreds of millions of dollars that came from a bank in Azerbaijan. The ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 MeidasTouch and VALOR Media Network have published previously unseen footage and firsthand accounts from U.S. service members, contractors and military families describing extensive d...",
-    "\u26a1 LATEST: DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe's only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech. This week i..."
+    "\u26a1 LATEST: DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe's only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech. This week i...",
+    "\ud83d\udcb0 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125494915472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-18T01:01:49.259282+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125500153472689",
       "topics": [
@@ -789,6 +781,13 @@
       "mode": "serious",
       "photo": "split:face+inst",
       "at": "2026-10-23T06:44:04.496699+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127278085472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "product",
+      "at": "2026-10-23T12:17:46.072945+00:00"
     }
   ],
   "tuner": {
@@ -850,16 +849,6 @@
   },
   "last_video_post": "2026-10-23",
   "recent_fps": [
-    {
-      "fp": [
-        "$240",
-        "$500.",
-        "IN",
-        "JUST",
-        "SPCX"
-      ],
-      "at": "2026-10-21T16:06:54.099903+00:00"
-    },
     {
       "fp": [
         "PHP",
@@ -1119,10 +1108,31 @@
         "vietnam"
       ],
       "at": "2026-10-23T06:44:04.496689+00:00"
+    },
+    {
+      "fp": [
+        "CHART",
+        "COT",
+        "CROWD",
+        "IN",
+        "IS",
+        "LONG",
+        "NET",
+        "REPORT",
+        "THE",
+        "WHO",
+        "commercials",
+        "interest",
+        "large",
+        "net",
+        "open",
+        "retail",
+        "specs"
+      ],
+      "at": "2026-10-23T12:17:46.072902+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: President Trump is set to highlight overseas CRYPTO abuses at an upcoming White House event.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Anthropic declares itself a Public Benefit Corporation and drops its annual Public Benefit Report today, spotlighting 5 pillars and concrete actions. Why it matters: AI ethics & safety now officially part of corporate mandate. #ethancole #ai #technews #finance #investing",
     "JUST IN: \ud83d\udea8 AI startup Recursive has released Flint, an OPEN-WEIGHT coding model that runs 2x faster than alternatives.",
     "BREAKING: S&P 500 CONCENTRATION just hit a record high.",
@@ -1136,7 +1146,8 @@
     "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood ($HOOD) gets official APPROVAL in Dubai to launch crypto trading across the Middle East.",
     "JUST IN: \ud83d\udea8 Donald Trump sued over LAWSUIT alleging illegal profits from foreign crypto deals.",
     "JUST IN: \ud83d\udea9 Dutch intelligence hacked Jared Kushner's phone, watching him tap a Dubai bank account holding hundreds of millions of dollars from an Azerbaijan bank. Excerpt from Matthew\u202fCole's book Princes and Thieves links Kushner to UAE President Mohamed\u202fbin\u202fZayed.",
-    "JUST IN: DeepSeek BANNED from US federal civilian agencies over national security and spying fears."
+    "JUST IN: DeepSeek BANNED from US federal civilian agencies over national security and spying fears.",
+    "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1156,13 +1167,15 @@
     "122127022239472689_2066082134112722",
     "122127065181472689_1802920670710787",
     "122127100365472689_1420583070192239",
-    "122127125121472689_1125545766916659"
+    "122127125121472689_1125545766916659",
+    "122127180699472689_1097137416443802"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
-    "en-01-cot-index-extremes"
+    "en-01-cot-index-extremes",
+    "en-02-smart-money-vs-retail"
   ],
   "product_posts_day": {
-    "2026-10-22": 1
+    "2026-10-23": 1
   }
 }
