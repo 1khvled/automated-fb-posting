@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "50a5aaa741a64e4c",
-    "fb_id": "1264009986803820_122127100365472689",
-    "title": "A new book alleges that Dutch intelligence hacked Jared Kushner's phone and watched him access a Dubai bank account holding hundreds of millions of dollars that came from a bank in Azerbaijan. The ...",
-    "link": "https://x.com/clashreport/status/2113355010952065381",
+    "hash": "34dde419ee054c75",
+    "fb_id": "4688406038048185",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 MeidasTouch and VALOR Media Network have published previously unseen footage and firsthand accounts from U.S. service members, contractors and military families describing extensive d...",
+    "link": "https://x.com/Megatron_ron/status/2113339612857053280",
     "mode": "viral",
-    "at": "2026-10-22T23:28:51.913565+00:00"
+    "kind": "video",
+    "at": "2026-10-23T01:53:28.908291+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -77,6 +78,7 @@
     "334c8b5f3a1b20db",
     "33cee8ad7b0e1683",
     "34b84d553010afb2",
+    "34dde419ee054c75",
     "352579361ebc4eef",
     "352d927675da4e41",
     "3798774b8ed68fb4",
@@ -306,10 +308,10 @@
   ],
   "day_counts": {
     "2026-10-21": 14,
-    "2026-10-22": 6
+    "2026-10-22": 6,
+    "2026-10-23": 1
   },
   "recent_titles": [
-    "Anthropic is a Public Benefit Corporation. Today, we\u2019re publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we\u2019re taking to advance them....",
     "NEW: Michael Saylor tells Charles Schwab the Bitcoin bull market has started \ud83d\udc40 \"It bounced off the week 200 week moving average...we rallied about $20,000 beyond that, so we think we're at the begi...",
     "Recursive has released Flint, its first open-weight coding model under the Apache 2.0 license, which is 2x faster than comparable alternatives. > Flint is a 40B parameter mixture-of-experts model f...",
     "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
@@ -323,19 +325,10 @@
     "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
     "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood $HOOD officially receives approval from Dubai to launch crypto trading in the Middle East.",
     "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
-    "A new book alleges that Dutch intelligence hacked Jared Kushner's phone and watched him access a Dubai bank account holding hundreds of millions of dollars that came from a bank in Azerbaijan. The ..."
+    "A new book alleges that Dutch intelligence hacked Jared Kushner's phone and watched him access a Dubai bank account holding hundreds of millions of dollars that came from a bank in Azerbaijan. The ...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 MeidasTouch and VALOR Media Network have published previously unseen footage and firsthand accounts from U.S. service members, contractors and military families describing extensive d..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125485153472689",
-      "topics": [
-        "ai",
-        "inflation"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-18T00:02:07.256262+00:00"
-    },
     {
       "fb_id": "1169165442343173",
       "topics": [
@@ -786,48 +779,56 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-22T23:28:51.913565+00:00"
+    },
+    {
+      "fb_id": "4688406038048185",
+      "topics": [
+        "power"
+      ],
+      "mode": "viral",
+      "at": "2026-10-23T01:53:28.908291+00:00"
     }
   ],
   "tuner": {
     "topics": {
       "gold_oil": {
-        "n": 2,
+        "n": 1,
         "e": 0
       },
-      "ai": {
-        "n": 6,
-        "e": 12
-      },
-      "stocks": {
-        "n": 4,
-        "e": 6
-      },
-      "crypto": {
-        "n": 7,
-        "e": 15
-      },
       "inflation": {
-        "n": 2,
+        "n": 1,
         "e": 0
       },
       "power": {
+        "n": 8,
+        "e": 21
+      },
+      "stocks": {
+        "n": 4,
+        "e": 9
+      },
+      "ai": {
         "n": 5,
-        "e": 12
+        "e": 15
+      },
+      "crypto": {
+        "n": 7,
+        "e": 21
       },
       "unknown": {
-        "n": 1,
-        "e": 3
+        "n": 2,
+        "e": 6
       }
     },
     "mult": {
       "gold_oil": 0.85,
-      "ai": 1.04,
-      "stocks": 0.95,
-      "crypto": 1.06,
+      "ai": 1.08,
+      "stocks": 0.93,
+      "crypto": 1.09,
       "inflation": 0.85,
-      "power": 1.1
+      "power": 1.08
     },
-    "updated": "2026-10-22"
+    "updated": "2026-10-23"
   },
   "comment_review": {
     "posts": 8,
@@ -835,31 +836,18 @@
     "likes": 0,
     "questions": 8,
     "praise": 0,
-    "anger": 1,
+    "anger": 2,
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "How does the 200-week moving average hold up as a reliable indicator for Bitcoin's long-term cycles?",
-      "How will the shift to cheaper open-weight models like Flint impact your hardware investments or tech portfolio?",
-      "How much exposure do you currently have to these top four stocks in your portfolio?"
+      "Are you adjusting your long-term portfolio based on these midterm predictions, or holding steady?",
+      "Will these new regulations make it safer for me to hold stablecoins in my personal portfolio?",
+      "Does this kind of medical AI advance make you more or less likely to invest in traditional healthcare tech stocks right now?"
     ],
-    "updated": "2026-10-22"
+    "updated": "2026-10-23"
   },
-  "last_video_post": "2026-10-22",
+  "last_video_post": "2026-10-23",
   "recent_fps": [
-    {
-      "fp": [
-        "NVDA",
-        "NVIDIA",
-        "ONE",
-        "SN",
-        "agile",
-        "isaac",
-        "nvidia",
-        "robots"
-      ],
-      "at": "2026-10-21T15:31:39.278246+00:00"
-    },
     {
       "fp": [
         "iran",
@@ -1104,6 +1092,28 @@
         "zayed"
       ],
       "at": "2026-10-22T23:28:51.913553+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "UAE",
+        "VALOR",
+        "air",
+        "american",
+        "arabia",
+        "bahrain",
+        "base",
+        "iran",
+        "jordan",
+        "kuwait",
+        "media",
+        "network",
+        "prince",
+        "saudi",
+        "sultan"
+      ],
+      "at": "2026-10-23T01:53:28.908280+00:00"
     }
   ],
   "recent_hooks": [
@@ -1139,7 +1149,8 @@
     "122126878449472689_1622856236521460",
     "122126957451472689_1620524776759376",
     "122127022239472689_2066082134112722",
-    "122127065181472689_1802920670710787"
+    "122127065181472689_1802920670710787",
+    "122127100365472689_1420583070192239"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
