@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "d4f0b2e5fc3af8b4",
-    "fb_id": "1264009986803820_122127278085472689",
-    "title": "\ud83d\udcb0 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT",
-    "link": "",
-    "mode": "serious",
-    "at": "2026-10-23T12:17:46.072945+00:00"
+    "hash": "f36a9072ea0136d2",
+    "fb_id": "1264009986803820_122127357939472689",
+    "title": "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
+    "link": "https://x.com/WatcherGuru/status/2113671451903414292",
+    "mode": "viral",
+    "at": "2026-10-23T17:14:59.931515+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -286,6 +286,7 @@
     "f041ccdd0f70088f",
     "f33418d042ff8358",
     "f34ea8d2b87d4290",
+    "f36a9072ea0136d2",
     "f423d63bf056a5f2",
     "f5c9f3c52bf9d8cb",
     "f5ed833925730a57",
@@ -310,10 +311,9 @@
   "day_counts": {
     "2026-10-21": 14,
     "2026-10-22": 6,
-    "2026-10-23": 3
+    "2026-10-23": 4
   },
   "recent_titles": [
-    "BREAKING: The 15 largest S&P 500 stocks now account for a record 46.7% of the index\u2019s market value. By comparison, during the 2000 Dot-Com Bubble, the 15 largest stocks accounted for 27.2% of the S...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
     "457% - FIG",
     "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026.",
@@ -327,18 +327,10 @@
     "A new book alleges that Dutch intelligence hacked Jared Kushner's phone and watched him access a Dubai bank account holding hundreds of millions of dollars that came from a bank in Azerbaijan. The ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 MeidasTouch and VALOR Media Network have published previously unseen footage and firsthand accounts from U.S. service members, contractors and military families describing extensive d...",
     "\u26a1 LATEST: DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe's only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech. This week i...",
-    "\ud83d\udcb0 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT"
+    "\ud83d\udcb0 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT",
+    "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125500153472689",
-      "topics": [
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "face",
-      "at": "2026-10-18T01:31:12.828465+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125507707472689",
       "topics": [
@@ -788,6 +780,16 @@
       "mode": "serious",
       "photo": "product",
       "at": "2026-10-23T12:17:46.072945+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127357939472689",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-23T17:14:59.931515+00:00"
     }
   ],
   "tuner": {
@@ -849,15 +851,6 @@
   },
   "last_video_post": "2026-10-23",
   "recent_fps": [
-    {
-      "fp": [
-        "PHP",
-        "patch",
-        "planet",
-        "this"
-      ],
-      "at": "2026-10-21T16:18:44.737169+00:00"
-    },
     {
       "fp": [
         "house",
@@ -1130,10 +1123,20 @@
         "specs"
       ],
       "at": "2026-10-23T12:17:46.072902+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "israeli",
+        "minister",
+        "netanyahu",
+        "prime"
+      ],
+      "at": "2026-10-23T17:14:59.931503+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Anthropic declares itself a Public Benefit Corporation and drops its annual Public Benefit Report today, spotlighting 5 pillars and concrete actions. Why it matters: AI ethics & safety now officially part of corporate mandate. #ethancole #ai #technews #finance #investing",
     "JUST IN: \ud83d\udea8 AI startup Recursive has released Flint, an OPEN-WEIGHT coding model that runs 2x faster than alternatives.",
     "BREAKING: S&P 500 CONCENTRATION just hit a record high.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
@@ -1147,7 +1150,8 @@
     "JUST IN: \ud83d\udea8 Donald Trump sued over LAWSUIT alleging illegal profits from foreign crypto deals.",
     "JUST IN: \ud83d\udea9 Dutch intelligence hacked Jared Kushner's phone, watching him tap a Dubai bank account holding hundreds of millions of dollars from an Azerbaijan bank. Excerpt from Matthew\u202fCole's book Princes and Thieves links Kushner to UAE President Mohamed\u202fbin\u202fZayed.",
     "JUST IN: DeepSeek BANNED from US federal civilian agencies over national security and spying fears.",
-    "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short."
+    "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short.",
+    "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu orders plan to adopt CRYPTO and blockchain to neutralize state financial sanctions."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1168,7 +1172,8 @@
     "122127065181472689_1802920670710787",
     "122127100365472689_1420583070192239",
     "122127125121472689_1125545766916659",
-    "122127180699472689_1097137416443802"
+    "122127180699472689_1097137416443802",
+    "122127278085472689_1101836202828247"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
