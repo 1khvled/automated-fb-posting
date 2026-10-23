@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "c406892822f13149",
-    "fb_id": "1264009986803820_122127402351472689",
-    "title": "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
-    "link": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
-    "mode": "serious",
-    "at": "2026-10-23T20:30:47.327626+00:00"
+    "hash": "e612910fc99c475f",
+    "fb_id": "1264009986803820_122127438249472689",
+    "title": "BREAKING: Brent crude oil prices surge above $117/barrel for the first time since March 19th amid fears that the US will renew strikes on Iran. Brent crude oil is now $2 away from breaking above it...",
+    "link": "https://x.com/KobeissiLetter/status/2113658171315126666",
+    "mode": "viral",
+    "at": "2026-10-23T23:28:45.692777+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -271,6 +271,7 @@
     "e1e01a772ebf9745",
     "e4ddbb5bfc5310e3",
     "e56a10738c3298e8",
+    "e612910fc99c475f",
     "e72a683e3c7b9b38",
     "e8db4b728ba26ead",
     "e910e087e3f05243",
@@ -312,10 +313,9 @@
   "day_counts": {
     "2026-10-21": 14,
     "2026-10-22": 6,
-    "2026-10-23": 5
+    "2026-10-23": 6
   },
   "recent_titles": [
-    "457% - FIG",
     "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026.",
     "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\"",
@@ -329,19 +329,10 @@
     "\u26a1 LATEST: DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe's only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech. This week i...",
     "\ud83d\udcb0 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT",
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
-    "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East"
+    "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
+    "BREAKING: Brent crude oil prices surge above $117/barrel for the first time since March 19th amid fears that the US will renew strikes on Iran. Brent crude oil is now $2 away from breaking above it..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125513029472689",
-      "topics": [
-        "crypto",
-        "gold_oil"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-18T02:33:53.369711+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125519005472689",
       "topics": [
@@ -792,6 +783,16 @@
       "mode": "serious",
       "photo": "og:image",
       "at": "2026-10-23T20:30:47.327626+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127438249472689",
+      "topics": [
+        "gold_oil",
+        "inflation"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-23T23:28:45.692777+00:00"
     }
   ],
   "tuner": {
@@ -853,18 +854,6 @@
   },
   "last_video_post": "2026-10-23",
   "recent_fps": [
-    {
-      "fp": [
-        "anthropic",
-        "benefit",
-        "corporation",
-        "public",
-        "read",
-        "this",
-        "today"
-      ],
-      "at": "2026-10-21T18:24:49.634194+00:00"
-    },
     {
       "fp": [
         "$20,000",
@@ -1142,10 +1131,21 @@
         "trump"
       ],
       "at": "2026-10-23T20:30:47.327595+00:00"
+    },
+    {
+      "fp": [
+        "$117",
+        "$2",
+        "US",
+        "brent",
+        "inflation",
+        "iran",
+        "march"
+      ],
+      "at": "2026-10-23T23:28:45.692764+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: S&P 500 CONCENTRATION just hit a record high.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
     "The model values FIG at $128 against a $23 price - 457% cheap.",
     "JUST IN: Tesla ($TSLA) reveals $0 of its $972,000,000 Bitcoin stack was sold in Q3 2026.",
@@ -1159,7 +1159,8 @@
     "JUST IN: DeepSeek BANNED from US federal civilian agencies over national security and spying fears.",
     "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short.",
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu orders plan to adopt CRYPTO and blockchain to neutralize state financial sanctions.",
-    "JUST IN: \ud83d\udee2\ufe0f Brent crude oil topped $116 per barrel to hit a six-month high as Middle East tensions swell."
+    "JUST IN: \ud83d\udee2\ufe0f Brent crude oil topped $116 per barrel to hit a six-month high as Middle East tensions swell.",
+    "BREAKING: \ud83d\udee2\ufe0f Brent crude oil SURGES above $117/barrel for the first time since March 19th."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1182,7 +1183,8 @@
     "122127125121472689_1125545766916659",
     "122127180699472689_1097137416443802",
     "122127278085472689_1101836202828247",
-    "122127357939472689_1802506387614617"
+    "122127357939472689_1802506387614617",
+    "122127402351472689_1733907454375203"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
