@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "944111dc08b1e6b8",
-    "fb_id": "955080280594451",
-    "title": "Just resolving a few Bitcoin matters behind closed doors.",
-    "link": "https://x.com/saylor/status/2113676245745696934",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-24T01:57:10.277027+00:00"
+    "hash": "fa384e06dfce10ce",
+    "fb_id": "1264009986803820_122127526059472689",
+    "title": "ECB releases media interview with Milano Finanza",
+    "link": "https://www.financialjuice.com/News/9819760/ECB-releases-media-interview-with-Milano-Finanza.aspx?xy=rss",
+    "mode": "serious",
+    "at": "2026-10-24T06:42:39.882662+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -304,6 +303,7 @@
     "f8ca9752326577ba",
     "f99897bde7abfc3a",
     "fa152430a72a73ba",
+    "fa384e06dfce10ce",
     "faa585879730d067",
     "fd7bbc659b22c741",
     "fd91eb7bedaa641e",
@@ -315,10 +315,9 @@
   "day_counts": {
     "2026-10-22": 6,
     "2026-10-23": 6,
-    "2026-10-24": 1
+    "2026-10-24": 2
   },
   "recent_titles": [
-    "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\"",
     "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy. Toggle different layers in motion, isolate muscles, or zoom inside a beating heart.",
     "\ud83d\udea8 DAVID M. SABATINI \u2014 FROM A POTENTIAL NOBEL LAUREATE TO NEARLY SIX YEARS OF PROFESSIONAL DESTRUCTION AND PERSONAL SUFFERING $6 MILLION IN DAMAGES \u2014 BUT WHO CAN RESTORE NEARLY SIX LOST YEARS OF AN ...",
@@ -332,16 +331,10 @@
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
     "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
     "BREAKING: Brent crude oil prices surge above $117/barrel for the first time since March 19th amid fears that the US will renew strikes on Iran. Brent crude oil is now $2 away from breaking above it...",
-    "Just resolving a few Bitcoin matters behind closed doors."
+    "Just resolving a few Bitcoin matters behind closed doors.",
+    "ECB releases media interview with Milano Finanza"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125524183472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-18T03:31:42.926556+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125530141472689",
       "topics": [
@@ -794,6 +787,15 @@
       ],
       "mode": "viral",
       "at": "2026-10-24T01:57:10.277027+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127526059472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "inst:ecb",
+      "at": "2026-10-24T06:42:39.882662+00:00"
     }
   ],
   "tuner": {
@@ -855,21 +857,6 @@
   },
   "last_video_post": "2026-10-24",
   "recent_fps": [
-    {
-      "fp": [
-        "2x",
-        "AI",
-        "GPU",
-        "RTX",
-        "apache",
-        "eureka",
-        "flint",
-        "machine",
-        "recursive",
-        "spark"
-      ],
-      "at": "2026-10-21T19:10:49.907668+00:00"
-    },
     {
       "fp": [
         "AAPL",
@@ -1138,10 +1125,17 @@
         "bitcoin"
       ],
       "at": "2026-10-24T01:57:10.277022+00:00"
+    },
+    {
+      "fp": [
+        "ECB",
+        "finanza",
+        "milano"
+      ],
+      "at": "2026-10-24T06:42:39.882645+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump to announce crackdown on crypto scams targeting Americans.",
     "The model values FIG at $128 against a $23 price - 457% cheap.",
     "JUST IN: Tesla ($TSLA) reveals $0 of its $972,000,000 Bitcoin stack was sold in Q3 2026.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Prediction markets put DEMOCRATS at a 67% chance to win the Senate in 2026.",
@@ -1155,7 +1149,8 @@
     "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short.",
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu orders plan to adopt CRYPTO and blockchain to neutralize state financial sanctions.",
     "JUST IN: \ud83d\udee2\ufe0f Brent crude oil topped $116 per barrel to hit a six-month high as Middle East tensions swell.",
-    "BREAKING: \ud83d\udee2\ufe0f Brent crude oil SURGES above $117/barrel for the first time since March 19th."
+    "BREAKING: \ud83d\udee2\ufe0f Brent crude oil SURGES above $117/barrel for the first time since March 19th.",
+    "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank releases NEW media interview with Milano Finanza."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1180,7 +1175,8 @@
     "122127278085472689_1101836202828247",
     "122127357939472689_1802506387614617",
     "122127402351472689_1733907454375203",
-    "122127438249472689_1796437461633176"
+    "122127438249472689_1796437461633176",
+    "122127464835472689_1495036042441593"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
