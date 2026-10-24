@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "ba9c14edd6e30078",
-    "fb_id": "1264009986803820_122127679605472689",
-    "title": "BREAKING: The average cost of a family\u2019s annual health insurance premium in the US is up +$1,303 YoY, or +5%, to a record $28,303. This marks the 4th consecutive annual increase of at least +$1,300...",
-    "link": "https://x.com/KobeissiLetter/status/2114023645118951820",
+    "hash": "71920c49671c5890",
+    "fb_id": "1264009986803820_122127703731472689",
+    "title": "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.",
+    "link": "https://x.com/WatcherGuru/status/2113736243599024444",
     "mode": "viral",
-    "at": "2026-10-24T17:43:57.546947+00:00"
+    "at": "2026-10-24T20:00:02.936129+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -134,6 +134,7 @@
     "6f632453df63c6f0",
     "706911cc390e5e03",
     "70921c7e7f00e526",
+    "71920c49671c5890",
     "720cc98216e4fbd4",
     "7287ed7fa4d9ebb6",
     "73449aac208c1916",
@@ -318,10 +319,9 @@
   "day_counts": {
     "2026-10-22": 6,
     "2026-10-23": 6,
-    "2026-10-24": 5
+    "2026-10-24": 6
   },
   "recent_titles": [
-    "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
     "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood $HOOD officially receives approval from Dubai to launch crypto trading in the Middle East.",
     "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
     "A new book alleges that Dutch intelligence hacked Jared Kushner's phone and watched him access a Dubai bank account holding hundreds of millions of dollars that came from a bank in Azerbaijan. The ...",
@@ -335,18 +335,10 @@
     "ECB releases media interview with Milano Finanza",
     "\ud83d\udcc5 1 OF 4 TOOLS: SEASONALITY AVERAGES THE YEARS AND DASHES THE PROJECTION",
     "BREAKING: Bitcoin and ETH fall sharply as $200 million worth of levered positions are liquidated in under 60 minutes. Bitcoin is back below $80,000.",
-    "BREAKING: The average cost of a family\u2019s annual health insurance premium in the US is up +$1,303 YoY, or +5%, to a record $28,303. This marks the 4th consecutive annual increase of at least +$1,300..."
+    "BREAKING: The average cost of a family\u2019s annual health insurance premium in the US is up +$1,303 YoY, or +5%, to a record $28,303. This marks the 4th consecutive annual increase of at least +$1,300...",
+    "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125547949472689",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-18T05:32:20.245486+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125553547472689",
       "topics": [
@@ -797,6 +789,15 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-24T17:43:57.546947+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127703731472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-24T20:00:02.936129+00:00"
     }
   ],
   "tuner": {
@@ -858,17 +859,6 @@
   },
   "last_video_post": "2026-10-24",
   "recent_fps": [
-    {
-      "fp": [
-        "$972,000,000",
-        "IN",
-        "JUST",
-        "TSLA",
-        "bitcoin",
-        "tesla"
-      ],
-      "at": "2026-10-21T20:52:24.097188+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1128,10 +1118,21 @@
         "this"
       ],
       "at": "2026-10-24T17:43:57.546935+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "LIBRA",
+        "argentina",
+        "javier",
+        "milei",
+        "president"
+      ],
+      "at": "2026-10-24T20:00:02.936114+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says finalized crypto stablecoin rules under the GENIUS Act cement AMERICAN dominance in digital assets.",
     "JUST IN: Scientist David M. Sabatini awarded $6 MILLION in damages after six years of professional destruction.",
     "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
     "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood ($HOOD) gets official APPROVAL in Dubai to launch crypto trading across the Middle East.",
@@ -1145,7 +1146,8 @@
     "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank releases NEW media interview with Milano Finanza.",
     "Seasonality_OTC prints how many years it averaged. A dashed line projects where the calendar has historically leaned, so you filter the bias first.",
     "BREAKING: Bitcoin ($BTC) and Ethereum ($ETH) CRASH as $200 million in leveraged positions get wiped out in under 60 minutes.",
-    "BREAKING: US family health insurance premiums just hit a RECORD $28,303."
+    "BREAKING: US family health insurance premiums just hit a RECORD $28,303.",
+    "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina officially DROPS criminal investigation into President Javier Milei over the $LIBRA memecoin scandal."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1174,7 +1176,8 @@
     "122127464835472689_1495036042441593",
     "122127526059472689_1416482453469128",
     "122127594405472689_1784697265913772",
-    "122127639639472689_964155266288816"
+    "122127639639472689_964155266288816",
+    "122127679605472689_3516558455179926"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
