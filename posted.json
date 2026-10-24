@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "fa384e06dfce10ce",
-    "fb_id": "1264009986803820_122127526059472689",
-    "title": "ECB releases media interview with Milano Finanza",
-    "link": "https://www.financialjuice.com/News/9819760/ECB-releases-media-interview-with-Milano-Finanza.aspx?xy=rss",
+    "hash": "caaa474efee786f4",
+    "fb_id": "1264009986803820_122127594405472689",
+    "title": "\ud83d\udcc5 1 OF 4 TOOLS: SEASONALITY AVERAGES THE YEARS AND DASHES THE PROJECTION",
+    "link": "",
     "mode": "serious",
-    "at": "2026-10-24T06:42:39.882662+00:00"
+    "at": "2026-10-24T11:39:31.231551+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -243,6 +243,7 @@
     "c73548ce6a5da906",
     "c8831ff911363d0b",
     "c93215bad5ea439f",
+    "caaa474efee786f4",
     "ccbe6f2f8f52fbb8",
     "cd8dbbef025b5098",
     "ce5020520f39e42f",
@@ -315,10 +316,9 @@
   "day_counts": {
     "2026-10-22": 6,
     "2026-10-23": 6,
-    "2026-10-24": 2
+    "2026-10-24": 3
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\"",
     "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy. Toggle different layers in motion, isolate muscles, or zoom inside a beating heart.",
     "\ud83d\udea8 DAVID M. SABATINI \u2014 FROM A POTENTIAL NOBEL LAUREATE TO NEARLY SIX YEARS OF PROFESSIONAL DESTRUCTION AND PERSONAL SUFFERING $6 MILLION IN DAMAGES \u2014 BUT WHO CAN RESTORE NEARLY SIX LOST YEARS OF AN ...",
     "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
@@ -332,18 +332,10 @@
     "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
     "BREAKING: Brent crude oil prices surge above $117/barrel for the first time since March 19th amid fears that the US will renew strikes on Iran. Brent crude oil is now $2 away from breaking above it...",
     "Just resolving a few Bitcoin matters behind closed doors.",
-    "ECB releases media interview with Milano Finanza"
+    "ECB releases media interview with Milano Finanza",
+    "\ud83d\udcc5 1 OF 4 TOOLS: SEASONALITY AVERAGES THE YEARS AND DASHES THE PROJECTION"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125530141472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-18T04:01:47.209413+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125536381472689",
       "topics": [
@@ -796,6 +788,13 @@
       "mode": "serious",
       "photo": "inst:ecb",
       "at": "2026-10-24T06:42:39.882662+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127594405472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "product",
+      "at": "2026-10-24T11:39:31.231551+00:00"
     }
   ],
   "tuner": {
@@ -857,23 +856,6 @@
   },
   "last_video_post": "2026-10-24",
   "recent_fps": [
-    {
-      "fp": [
-        "AAPL",
-        "GOOGL",
-        "MSFT",
-        "NVDA",
-        "alphabet",
-        "apple",
-        "bubble",
-        "com",
-        "dot",
-        "microsoft",
-        "nvidia",
-        "this"
-      ],
-      "at": "2026-10-21T19:19:35.844158+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1133,10 +1115,20 @@
         "milano"
       ],
       "at": "2026-10-24T06:42:39.882645+00:00"
+    },
+    {
+      "fp": [
+        "AND",
+        "DASHE",
+        "OF",
+        "THE",
+        "TOOL",
+        "YEAR"
+      ],
+      "at": "2026-10-24T11:39:31.231536+00:00"
     }
   ],
   "recent_hooks": [
-    "The model values FIG at $128 against a $23 price - 457% cheap.",
     "JUST IN: Tesla ($TSLA) reveals $0 of its $972,000,000 Bitcoin stack was sold in Q3 2026.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Prediction markets put DEMOCRATS at a 67% chance to win the Senate in 2026.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says finalized crypto stablecoin rules under the GENIUS Act cement AMERICAN dominance in digital assets.",
@@ -1150,7 +1142,8 @@
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu orders plan to adopt CRYPTO and blockchain to neutralize state financial sanctions.",
     "JUST IN: \ud83d\udee2\ufe0f Brent crude oil topped $116 per barrel to hit a six-month high as Middle East tensions swell.",
     "BREAKING: \ud83d\udee2\ufe0f Brent crude oil SURGES above $117/barrel for the first time since March 19th.",
-    "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank releases NEW media interview with Milano Finanza."
+    "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank releases NEW media interview with Milano Finanza.",
+    "Seasonality_OTC prints how many years it averaged. A dashed line projects where the calendar has historically leaned, so you filter the bias first."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1176,14 +1169,16 @@
     "122127357939472689_1802506387614617",
     "122127402351472689_1733907454375203",
     "122127438249472689_1796437461633176",
-    "122127464835472689_1495036042441593"
+    "122127464835472689_1495036042441593",
+    "122127526059472689_1416482453469128"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
     "en-01-cot-index-extremes",
-    "en-02-smart-money-vs-retail"
+    "en-02-smart-money-vs-retail",
+    "en-03-seasonality-year-average"
   ],
   "product_posts_day": {
-    "2026-10-23": 1
+    "2026-10-24": 1
   }
 }
