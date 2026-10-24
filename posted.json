@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "e612910fc99c475f",
-    "fb_id": "1264009986803820_122127438249472689",
-    "title": "BREAKING: Brent crude oil prices surge above $117/barrel for the first time since March 19th amid fears that the US will renew strikes on Iran. Brent crude oil is now $2 away from breaking above it...",
-    "link": "https://x.com/KobeissiLetter/status/2113658171315126666",
+    "hash": "944111dc08b1e6b8",
+    "fb_id": "955080280594451",
+    "title": "Just resolving a few Bitcoin matters behind closed doors.",
+    "link": "https://x.com/saylor/status/2113676245745696934",
     "mode": "viral",
-    "at": "2026-10-23T23:28:45.692777+00:00"
+    "kind": "video",
+    "at": "2026-10-24T01:57:10.277027+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -174,6 +175,7 @@
     "90fe6b0d6b5f46fb",
     "921b6370813ac363",
     "92fee29909312f3a",
+    "944111dc08b1e6b8",
     "959bd28d9c00ec90",
     "968e8a3c14a86d3b",
     "96d536b14c03c692",
@@ -311,12 +313,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-21": 14,
     "2026-10-22": 6,
-    "2026-10-23": 6
+    "2026-10-23": 6,
+    "2026-10-24": 1
   },
   "recent_titles": [
-    "JUST IN: Tesla $TSLA reveals none of its $972,000,000 Bitcoin was sold in Q3 2026.",
     "\ud83c\uddfa\ud83c\uddf8 JUST IN: Polymarket traders put Democrats\u2019 chances of winning the Senate in 2026 at 67%, versus 34% for Republicans.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US Treasury says new finalized crypto stablecoin rules under the GENIUS Act \"cements American dominance in digital assets.\"",
     "Gemini 4 Argon combined three open-source datasets to build an interactive 3D visualization of human anatomy. Toggle different layers in motion, isolate muscles, or zoom inside a beating heart.",
@@ -330,18 +331,10 @@
     "\ud83d\udcb0 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT",
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
     "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
-    "BREAKING: Brent crude oil prices surge above $117/barrel for the first time since March 19th amid fears that the US will renew strikes on Iran. Brent crude oil is now $2 away from breaking above it..."
+    "BREAKING: Brent crude oil prices surge above $117/barrel for the first time since March 19th amid fears that the US will renew strikes on Iran. Brent crude oil is now $2 away from breaking above it...",
+    "Just resolving a few Bitcoin matters behind closed doors."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125519005472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-18T03:01:46.711333+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125524183472689",
       "topics": [],
@@ -793,48 +786,56 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-23T23:28:45.692777+00:00"
+    },
+    {
+      "fb_id": "955080280594451",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-10-24T01:57:10.277027+00:00"
     }
   ],
   "tuner": {
     "topics": {
-      "gold_oil": {
-        "n": 1,
-        "e": 0
+      "crypto": {
+        "n": 8,
+        "e": 24
       },
-      "inflation": {
-        "n": 1,
-        "e": 0
+      "ai": {
+        "n": 4,
+        "e": 12
+      },
+      "stocks": {
+        "n": 3,
+        "e": 9
       },
       "power": {
         "n": 8,
-        "e": 21
-      },
-      "stocks": {
-        "n": 4,
-        "e": 9
-      },
-      "ai": {
-        "n": 5,
-        "e": 15
-      },
-      "crypto": {
-        "n": 7,
-        "e": 21
+        "e": 24
       },
       "unknown": {
+        "n": 3,
+        "e": 9
+      },
+      "gold_oil": {
         "n": 2,
         "e": 6
+      },
+      "inflation": {
+        "n": 1,
+        "e": 3
       }
     },
     "mult": {
-      "gold_oil": 0.85,
-      "ai": 1.08,
-      "stocks": 0.93,
-      "crypto": 1.09,
+      "gold_oil": 0.9,
+      "ai": 1.06,
+      "stocks": 0.95,
+      "crypto": 1.06,
       "inflation": 0.85,
-      "power": 1.08
+      "power": 1.06
     },
-    "updated": "2026-10-23"
+    "updated": "2026-10-24"
   },
   "comment_review": {
     "posts": 8,
@@ -842,30 +843,18 @@
     "likes": 0,
     "questions": 8,
     "praise": 0,
-    "anger": 2,
+    "anger": 3,
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "Are you adjusting your long-term portfolio based on these midterm predictions, or holding steady?",
-      "Will these new regulations make it safer for me to hold stablecoins in my personal portfolio?",
-      "Does this kind of medical AI advance make you more or less likely to invest in traditional healthcare tech stocks right now?"
+      "How will this lawsuit impact the value of my crypto holdings?",
+      "Does news like this make you reconsider holding international or emerging market banking assets in your portfolio?",
+      "How could an escalation in the Middle East impact my investment portfolio and energy costs?"
     ],
-    "updated": "2026-10-23"
+    "updated": "2026-10-24"
   },
-  "last_video_post": "2026-10-23",
+  "last_video_post": "2026-10-24",
   "recent_fps": [
-    {
-      "fp": [
-        "$20,000",
-        "NEW",
-        "bitcoin",
-        "charles",
-        "michael",
-        "saylor",
-        "schwab"
-      ],
-      "at": "2026-10-21T18:32:07.422643+00:00"
-    },
     {
       "fp": [
         "2x",
@@ -1143,6 +1132,12 @@
         "march"
       ],
       "at": "2026-10-23T23:28:45.692764+00:00"
+    },
+    {
+      "fp": [
+        "bitcoin"
+      ],
+      "at": "2026-10-24T01:57:10.277022+00:00"
     }
   ],
   "recent_hooks": [
@@ -1184,7 +1179,8 @@
     "122127180699472689_1097137416443802",
     "122127278085472689_1101836202828247",
     "122127357939472689_1802506387614617",
-    "122127402351472689_1733907454375203"
+    "122127402351472689_1733907454375203",
+    "122127438249472689_1796437461633176"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
