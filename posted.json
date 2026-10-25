@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "f7ffd76d635a268c",
-    "fb_id": "1264009986803820_122127725913472689",
-    "title": "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\"",
-    "link": "https://x.com/WatcherGuru/status/2114076494570127537",
-    "mode": "viral",
-    "at": "2026-10-24T22:15:23.479537+00:00"
+    "hash": "d2018c285e3aa1c8",
+    "fb_id": "1450104950555778",
+    "title": "\ud83d\udd25 INSIGHT: Crypto now has more upside than the AI compute trade. Speaking with @itsciaranlyons, @jvisserlabs said he still sees three to five more years in the agentic compute story, but crypto off...",
+    "link": "https://x.com/Cointelegraph/status/2114137644930138398",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-25T00:23:32.755779+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -252,6 +253,7 @@
     "d0717b9d9191c46d",
     "d08268db4f781648",
     "d1ada08f4696f8f6",
+    "d2018c285e3aa1c8",
     "d248d07438581e6c",
     "d26034239bd1c674",
     "d26cee70e4267489",
@@ -318,12 +320,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-22": 6,
     "2026-10-23": 6,
-    "2026-10-24": 7
+    "2026-10-24": 7,
+    "2026-10-25": 1
   },
   "recent_titles": [
-    "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
     "A new book alleges that Dutch intelligence hacked Jared Kushner's phone and watched him access a Dubai bank account holding hundreds of millions of dollars that came from a bank in Azerbaijan. The ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 MeidasTouch and VALOR Media Network have published previously unseen footage and firsthand accounts from U.S. service members, contractors and military families describing extensive d...",
     "\u26a1 LATEST: DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe's only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech. This week i...",
@@ -337,18 +338,10 @@
     "BREAKING: Bitcoin and ETH fall sharply as $200 million worth of levered positions are liquidated in under 60 minutes. Bitcoin is back below $80,000.",
     "BREAKING: The average cost of a family\u2019s annual health insurance premium in the US is up +$1,303 YoY, or +5%, to a record $28,303. This marks the 4th consecutive annual increase of at least +$1,300...",
     "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.",
-    "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\""
+    "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\"",
+    "\ud83d\udd25 INSIGHT: Crypto now has more upside than the AI compute trade. Speaking with @itsciaranlyons, @jvisserlabs said he still sees three to five more years in the agentic compute story, but crypto off..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125570281472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-18T06:32:08.670936+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125584021472689",
       "topics": [
@@ -799,25 +792,33 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-24T22:15:23.479537+00:00"
+    },
+    {
+      "fb_id": "1450104950555778",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "at": "2026-10-25T00:23:32.755779+00:00"
     }
   ],
   "tuner": {
     "topics": {
       "crypto": {
-        "n": 8,
-        "e": 24
-      },
-      "ai": {
-        "n": 4,
-        "e": 12
+        "n": 9,
+        "e": 77
       },
       "stocks": {
         "n": 3,
         "e": 9
       },
+      "ai": {
+        "n": 2,
+        "e": 6
+      },
       "power": {
-        "n": 8,
-        "e": 24
+        "n": 6,
+        "e": 18
       },
       "unknown": {
         "n": 3,
@@ -825,53 +826,41 @@
       },
       "gold_oil": {
         "n": 2,
-        "e": 6
+        "e": 56
       },
       "inflation": {
-        "n": 1,
-        "e": 3
+        "n": 2,
+        "e": 56
       }
     },
     "mult": {
-      "gold_oil": 0.9,
-      "ai": 1.06,
-      "stocks": 0.95,
-      "crypto": 1.06,
-      "inflation": 0.85,
-      "power": 1.06
+      "gold_oil": 1.23,
+      "ai": 0.89,
+      "stocks": 0.81,
+      "crypto": 1.04,
+      "inflation": 1.19,
+      "power": 0.89
     },
-    "updated": "2026-10-24"
+    "updated": "2026-10-25"
   },
   "comment_review": {
     "posts": 8,
     "comments": 8,
     "likes": 0,
-    "questions": 8,
+    "questions": 7,
     "praise": 0,
-    "anger": 3,
+    "anger": 1,
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "How will this lawsuit impact the value of my crypto holdings?",
-      "Does news like this make you reconsider holding international or emerging market banking assets in your portfolio?",
-      "How could an escalation in the Middle East impact my investment portfolio and energy costs?"
+      "How will this sudden spike in oil prices impact my everyday living costs and investments over the next few months?",
+      "Is $MSTR still a good buy at today's price, or should I just buy Bitcoin directly?",
+      "How do you expect the ECB's latest policy signals to impact your European investments or borrowing costs?"
     ],
-    "updated": "2026-10-24"
+    "updated": "2026-10-25"
   },
-  "last_video_post": "2026-10-24",
+  "last_video_post": "2026-10-25",
   "recent_fps": [
-    {
-      "fp": [
-        "GENIU",
-        "IN",
-        "JUST",
-        "US",
-        "act",
-        "american",
-        "treasury"
-      ],
-      "at": "2026-10-21T23:40:41.278901+00:00"
-    },
     {
       "fp": [
         "argon",
@@ -1132,6 +1121,15 @@
         "schiff"
       ],
       "at": "2026-10-24T22:15:23.479520+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "crypto",
+        "micron",
+        "speaking"
+      ],
+      "at": "2026-10-25T00:23:32.755767+00:00"
     }
   ],
   "recent_hooks": [
@@ -1180,7 +1178,8 @@
     "122127594405472689_1784697265913772",
     "122127639639472689_964155266288816",
     "122127679605472689_3516558455179926",
-    "122127703731472689_989460613500147"
+    "122127703731472689_989460613500147",
+    "122127725913472689_1677685897035355"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
