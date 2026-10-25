@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "401104f0174f507a",
-    "fb_id": "1264009986803820_122127929403472689",
-    "title": "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe...",
-    "link": "https://x.com/KobeissiLetter/status/2114344429557305453",
-    "mode": "serious",
-    "at": "2026-10-25T14:02:47.388730+00:00"
+    "hash": "9b88917b25f1b4df",
+    "fb_id": "1264009986803820_122127986229472689",
+    "title": "POV: You invested just $10 a month into Bitcoin since it launched.",
+    "link": "https://x.com/WatcherGuru/status/2114363891425948077",
+    "mode": "viral",
+    "at": "2026-10-25T17:41:34.673589+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -184,6 +184,7 @@
     "97eaf41a60bc6480",
     "99c9f9218a07a71a",
     "9a4af24b838f2bf0",
+    "9b88917b25f1b4df",
     "9bc995ae7806e12d",
     "9bf4038f6b73620f",
     "9c292a359755e081",
@@ -324,10 +325,9 @@
   "day_counts": {
     "2026-10-23": 6,
     "2026-10-24": 7,
-    "2026-10-25": 4
+    "2026-10-25": 5
   },
   "recent_titles": [
-    "\ud83d\udcb0 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT",
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
     "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
     "BREAKING: Brent crude oil prices surge above $117/barrel for the first time since March 19th amid fears that the US will renew strikes on Iran. Brent crude oil is now $2 away from breaking above it...",
@@ -341,21 +341,10 @@
     "\ud83d\udd25 INSIGHT: Crypto now has more upside than the AI compute trade. Speaking with @itsciaranlyons, @jvisserlabs said he still sees three to five more years in the agentic compute story, but crypto off...",
     "Semiconductor prices are skyrocketing in the US: Producer prices for semiconductor and other electronic component manufacturing surged +26% YoY in September, their 4th-largest increase on record. T...",
     "\ud83d\udcc8 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS \u2014 RICH ABOVE 75",
-    "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe..."
+    "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe...",
+    "POV: You invested just $10 a month into Bitcoin since it launched."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125850745472689",
-      "topics": [
-        "fed",
-        "gold_oil",
-        "inflation",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-19T01:01:30.694572+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125856289472689",
       "topics": [
@@ -802,6 +791,15 @@
       "mode": "serious",
       "photo": "split:face+inst",
       "at": "2026-10-25T14:02:47.388730+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127986229472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-10-25T17:41:34.673589+00:00"
     }
   ],
   "tuner": {
@@ -863,18 +861,6 @@
   },
   "last_video_post": "2026-10-25",
   "recent_fps": [
-    {
-      "fp": [
-        "HOOD",
-        "IN",
-        "JUST",
-        "dubai",
-        "east",
-        "middle",
-        "robinhood"
-      ],
-      "at": "2026-10-22T16:24:23.654906+00:00"
-    },
     {
       "fp": [
         "CNBC",
@@ -1150,10 +1136,18 @@
         "week"
       ],
       "at": "2026-10-25T14:02:47.388714+00:00"
+    },
+    {
+      "fp": [
+        "$10",
+        "POV",
+        "bitcoin",
+        "you"
+      ],
+      "at": "2026-10-25T17:41:34.673579+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea9 Dutch intelligence hacked Jared Kushner's phone, watching him tap a Dubai bank account holding hundreds of millions of dollars from an Azerbaijan bank. Excerpt from Matthew\u202fCole's book Princes and Thieves links Kushner to UAE President Mohamed\u202fbin\u202fZayed.",
     "JUST IN: DeepSeek BANNED from US federal civilian agencies over national security and spying fears.",
     "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short.",
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu orders plan to adopt CRYPTO and blockchain to neutralize state financial sanctions.",
@@ -1167,7 +1161,8 @@
     "\ud83d\udea8 BREAKING: Peter Schiff says Bitcoin is going to CRASH to $75,000.",
     "BREAKING: US semiconductor producer prices SURGED +26% YoY in September, marking the 4th-largest increase on record.",
     "The Valuation Tool compares an asset's momentum against the dollar, gold, bonds and the index by default. The active symbols average into one Composite Score line.",
-    "JUST IN: \ud83d\udea8 20% of S&P 500 companies report EARNINGS this week alongside massive economic data releases."
+    "JUST IN: \ud83d\udea8 20% of S&P 500 companies report EARNINGS this week alongside massive economic data releases.",
+    "JUST IN: Investing just $10 a month into Bitcoin ($BTC) since launch yields a MASSIVE portfolio today."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1202,7 +1197,8 @@
     "122127725913472689_1677685897035355",
     "122127748305472689_2291385751656868",
     "122127806337472689_28670591609309999",
-    "122127856125472689_1787796105821908"
+    "122127856125472689_1787796105821908",
+    "122127929403472689_1659803435691147"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
