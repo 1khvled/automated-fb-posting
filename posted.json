@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "4a4a758e9aa87979",
-    "fb_id": "1264009986803820_122127856125472689",
-    "title": "\ud83d\udcc8 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS \u2014 RICH ABOVE 75",
-    "link": "",
+    "hash": "401104f0174f507a",
+    "fb_id": "1264009986803820_122127929403472689",
+    "title": "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe...",
+    "link": "https://x.com/KobeissiLetter/status/2114344429557305453",
     "mode": "serious",
-    "at": "2026-10-25T09:51:07.641906+00:00"
+    "at": "2026-10-25T14:02:47.388730+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -88,6 +88,7 @@
     "3d1734b53ce94a08",
     "3e2710928bf1c3a0",
     "3eb4a262e3a6a366",
+    "401104f0174f507a",
     "45f2f7f4666dbaa1",
     "4987c4f1f6f22605",
     "49a324739eb6e6c5",
@@ -323,10 +324,9 @@
   "day_counts": {
     "2026-10-23": 6,
     "2026-10-24": 7,
-    "2026-10-25": 3
+    "2026-10-25": 4
   },
   "recent_titles": [
-    "\u26a1 LATEST: DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe's only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech. This week i...",
     "\ud83d\udcb0 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT",
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
     "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
@@ -340,19 +340,10 @@
     "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\"",
     "\ud83d\udd25 INSIGHT: Crypto now has more upside than the AI compute trade. Speaking with @itsciaranlyons, @jvisserlabs said he still sees three to five more years in the agentic compute story, but crypto off...",
     "Semiconductor prices are skyrocketing in the US: Producer prices for semiconductor and other electronic component manufacturing surged +26% YoY in September, their 4th-largest increase on record. T...",
-    "\ud83d\udcc8 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS \u2014 RICH ABOVE 75"
+    "\ud83d\udcc8 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS \u2014 RICH ABOVE 75",
+    "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125845387472689",
-      "topics": [
-        "gold_oil",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-19T00:31:53.990555+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125850745472689",
       "topics": [
@@ -800,6 +791,17 @@
       "mode": "serious",
       "photo": "product",
       "at": "2026-10-25T09:51:07.641906+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127929403472689",
+      "topics": [
+        "fed",
+        "inflation",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "split:face+inst",
+      "at": "2026-10-25T14:02:47.388730+00:00"
     }
   ],
   "tuner": {
@@ -861,25 +863,6 @@
   },
   "last_video_post": "2026-10-25",
   "recent_fps": [
-    {
-      "fp": [
-        "AND",
-        "COT",
-        "FROM",
-        "INDEX",
-        "IS",
-        "ONE",
-        "START",
-        "THE",
-        "TOP",
-        "WHERE",
-        "above",
-        "commercials",
-        "large",
-        "specs"
-      ],
-      "at": "2026-10-22T11:57:41.882337+00:00"
-    },
     {
       "fp": [
         "HOOD",
@@ -1130,10 +1113,46 @@
         "valuation"
       ],
       "at": "2026-10-25T09:51:07.641891+00:00"
+    },
+    {
+      "fp": [
+        "AMZN",
+        "GDP",
+        "GOOGL",
+        "INTC",
+        "MSFT",
+        "PCE",
+        "US",
+        "alphabet",
+        "amazon",
+        "buckle",
+        "companies",
+        "data",
+        "decision",
+        "earnings",
+        "events",
+        "fed",
+        "home",
+        "inflation",
+        "intel",
+        "key",
+        "meeting",
+        "microsoft",
+        "october",
+        "rate",
+        "sales",
+        "septe",
+        "september",
+        "this",
+        "thursday",
+        "tuesday",
+        "wednesday",
+        "week"
+      ],
+      "at": "2026-10-25T14:02:47.388714+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 Donald Trump sued over LAWSUIT alleging illegal profits from foreign crypto deals.",
     "JUST IN: \ud83d\udea9 Dutch intelligence hacked Jared Kushner's phone, watching him tap a Dubai bank account holding hundreds of millions of dollars from an Azerbaijan bank. Excerpt from Matthew\u202fCole's book Princes and Thieves links Kushner to UAE President Mohamed\u202fbin\u202fZayed.",
     "JUST IN: DeepSeek BANNED from US federal civilian agencies over national security and spying fears.",
     "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short.",
@@ -1147,7 +1166,8 @@
     "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina officially DROPS criminal investigation into President Javier Milei over the $LIBRA memecoin scandal.",
     "\ud83d\udea8 BREAKING: Peter Schiff says Bitcoin is going to CRASH to $75,000.",
     "BREAKING: US semiconductor producer prices SURGED +26% YoY in September, marking the 4th-largest increase on record.",
-    "The Valuation Tool compares an asset's momentum against the dollar, gold, bonds and the index by default. The active symbols average into one Composite Score line."
+    "The Valuation Tool compares an asset's momentum against the dollar, gold, bonds and the index by default. The active symbols average into one Composite Score line.",
+    "JUST IN: \ud83d\udea8 20% of S&P 500 companies report EARNINGS this week alongside massive economic data releases."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1181,7 +1201,8 @@
     "122127703731472689_989460613500147",
     "122127725913472689_1677685897035355",
     "122127748305472689_2291385751656868",
-    "122127806337472689_28670591609309999"
+    "122127806337472689_28670591609309999",
+    "122127856125472689_1787796105821908"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
