@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "d2018c285e3aa1c8",
-    "fb_id": "1450104950555778",
-    "title": "\ud83d\udd25 INSIGHT: Crypto now has more upside than the AI compute trade. Speaking with @itsciaranlyons, @jvisserlabs said he still sees three to five more years in the agentic compute story, but crypto off...",
-    "link": "https://x.com/Cointelegraph/status/2114137644930138398",
-    "mode": "serious",
-    "kind": "video",
-    "at": "2026-10-25T00:23:32.755779+00:00"
+    "hash": "cd89168481181c91",
+    "fb_id": "1264009986803820_122127806337472689",
+    "title": "Semiconductor prices are skyrocketing in the US: Producer prices for semiconductor and other electronic component manufacturing surged +26% YoY in September, their 4th-largest increase on record. T...",
+    "link": "https://x.com/KobeissiLetter/status/2113999526142915022",
+    "mode": "viral",
+    "at": "2026-10-25T05:14:29.494086+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -248,6 +247,7 @@
     "c93215bad5ea439f",
     "caaa474efee786f4",
     "ccbe6f2f8f52fbb8",
+    "cd89168481181c91",
     "cd8dbbef025b5098",
     "ce5020520f39e42f",
     "d0717b9d9191c46d",
@@ -322,10 +322,9 @@
   "day_counts": {
     "2026-10-23": 6,
     "2026-10-24": 7,
-    "2026-10-25": 1
+    "2026-10-25": 2
   },
   "recent_titles": [
-    "A new book alleges that Dutch intelligence hacked Jared Kushner's phone and watched him access a Dubai bank account holding hundreds of millions of dollars that came from a bank in Azerbaijan. The ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 MeidasTouch and VALOR Media Network have published previously unseen footage and firsthand accounts from U.S. service members, contractors and military families describing extensive d...",
     "\u26a1 LATEST: DeepSeek banned from US federal civilian agencies over spying fears. Singapore firm behind Europe's only spot Bitcoin ETF, as Switzerland partners with Vietnam on crypto tech. This week i...",
     "\ud83d\udcb0 3 CROWDS, 1 CHART: WHO IS NET LONG IN THE COT REPORT",
@@ -339,18 +338,10 @@
     "BREAKING: The average cost of a family\u2019s annual health insurance premium in the US is up +$1,303 YoY, or +5%, to a record $28,303. This marks the 4th consecutive annual increase of at least +$1,300...",
     "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.",
     "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\"",
-    "\ud83d\udd25 INSIGHT: Crypto now has more upside than the AI compute trade. Speaking with @itsciaranlyons, @jvisserlabs said he still sees three to five more years in the agentic compute story, but crypto off..."
+    "\ud83d\udd25 INSIGHT: Crypto now has more upside than the AI compute trade. Speaking with @itsciaranlyons, @jvisserlabs said he still sees three to five more years in the agentic compute story, but crypto off...",
+    "Semiconductor prices are skyrocketing in the US: Producer prices for semiconductor and other electronic component manufacturing surged +26% YoY in September, their 4th-largest increase on record. T..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125584021472689",
-      "topics": [
-        "fed"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-18T07:01:47.731611+00:00"
-    },
     {
       "fb_id": "1730703811353785",
       "topics": [
@@ -800,6 +791,16 @@
       ],
       "mode": "serious",
       "at": "2026-10-25T00:23:32.755779+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122127806337472689",
+      "topics": [
+        "ai",
+        "inflation"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-25T05:14:29.494086+00:00"
     }
   ],
   "tuner": {
@@ -861,14 +862,6 @@
   },
   "last_video_post": "2026-10-25",
   "recent_fps": [
-    {
-      "fp": [
-        "argon",
-        "gemini",
-        "toggle"
-      ],
-      "at": "2026-10-22T01:06:23.943382+00:00"
-    },
     {
       "fp": [
         "$6",
@@ -1130,10 +1123,23 @@
         "speaking"
       ],
       "at": "2026-10-25T00:23:32.755767+00:00"
+    },
+    {
+      "fp": [
+        "US",
+        "index",
+        "july",
+        "price",
+        "producer",
+        "semiconductor",
+        "september",
+        "since",
+        "this"
+      ],
+      "at": "2026-10-25T05:14:29.494074+00:00"
     }
   ],
   "recent_hooks": [
-    "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
     "JUST IN: \ud83c\udde6\ud83c\uddea Robinhood ($HOOD) gets official APPROVAL in Dubai to launch crypto trading across the Middle East.",
     "JUST IN: \ud83d\udea8 Donald Trump sued over LAWSUIT alleging illegal profits from foreign crypto deals.",
     "JUST IN: \ud83d\udea9 Dutch intelligence hacked Jared Kushner's phone, watching him tap a Dubai bank account holding hundreds of millions of dollars from an Azerbaijan bank. Excerpt from Matthew\u202fCole's book Princes and Thieves links Kushner to UAE President Mohamed\u202fbin\u202fZayed.",
@@ -1147,7 +1153,8 @@
     "BREAKING: Bitcoin ($BTC) and Ethereum ($ETH) CRASH as $200 million in leveraged positions get wiped out in under 60 minutes.",
     "BREAKING: US family health insurance premiums just hit a RECORD $28,303.",
     "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina officially DROPS criminal investigation into President Javier Milei over the $LIBRA memecoin scandal.",
-    "\ud83d\udea8 BREAKING: Peter Schiff says Bitcoin is going to CRASH to $75,000."
+    "\ud83d\udea8 BREAKING: Peter Schiff says Bitcoin is going to CRASH to $75,000.",
+    "BREAKING: US semiconductor producer prices SURGED +26% YoY in September, marking the 4th-largest increase on record."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1179,7 +1186,8 @@
     "122127639639472689_964155266288816",
     "122127679605472689_3516558455179926",
     "122127703731472689_989460613500147",
-    "122127725913472689_1677685897035355"
+    "122127725913472689_1677685897035355",
+    "122127748305472689_2291385751656868"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
