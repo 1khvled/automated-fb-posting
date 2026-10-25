@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "9b88917b25f1b4df",
-    "fb_id": "1264009986803820_122127986229472689",
-    "title": "POV: You invested just $10 a month into Bitcoin since it launched.",
-    "link": "https://x.com/WatcherGuru/status/2114363891425948077",
+    "hash": "5097bb6c23068f1e",
+    "fb_id": "1264009986803820_122128049865472689",
+    "title": "Gold stocks have rarely been this oversold. ~92% of stocks in the gold miners ETF, $GDX, are now trading below their 50-day moving average, the highest proportion since late July. This figure has r...",
+    "link": "https://x.com/KobeissiLetter/status/2114379215583826308",
     "mode": "viral",
-    "at": "2026-10-25T17:41:34.673589+00:00"
+    "at": "2026-10-25T19:58:34.710219+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -98,6 +98,7 @@
     "4c37a6b98f96b103",
     "4d61c8b851c9cafd",
     "502825213b373f41",
+    "5097bb6c23068f1e",
     "50a5aaa741a64e4c",
     "53384af31d4e0217",
     "534724b3044ec482",
@@ -325,10 +326,9 @@
   "day_counts": {
     "2026-10-23": 6,
     "2026-10-24": 7,
-    "2026-10-25": 5
+    "2026-10-25": 6
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu calls for plan to use crypto and blockchain technology to counter potential financial sanctions.",
     "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
     "BREAKING: Brent crude oil prices surge above $117/barrel for the first time since March 19th amid fears that the US will renew strikes on Iran. Brent crude oil is now $2 away from breaking above it...",
     "Just resolving a few Bitcoin matters behind closed doors.",
@@ -342,19 +342,10 @@
     "Semiconductor prices are skyrocketing in the US: Producer prices for semiconductor and other electronic component manufacturing surged +26% YoY in September, their 4th-largest increase on record. T...",
     "\ud83d\udcc8 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS \u2014 RICH ABOVE 75",
     "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe...",
-    "POV: You invested just $10 a month into Bitcoin since it launched."
+    "POV: You invested just $10 a month into Bitcoin since it launched.",
+    "Gold stocks have rarely been this oversold. ~92% of stocks in the gold miners ETF, $GDX, are now trading below their 50-day moving average, the highest proportion since late July. This figure has r..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125856289472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "face",
-      "at": "2026-10-19T01:32:06.201100+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125863957472689",
       "topics": [
@@ -800,6 +791,16 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-25T17:41:34.673589+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128049865472689",
+      "topics": [
+        "crypto",
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-25T19:58:34.710219+00:00"
     }
   ],
   "tuner": {
@@ -861,18 +862,6 @@
   },
   "last_video_post": "2026-10-25",
   "recent_fps": [
-    {
-      "fp": [
-        "CNBC",
-        "american",
-        "lawsuit",
-        "matt",
-        "pelikan",
-        "president",
-        "trump"
-      ],
-      "at": "2026-10-22T20:17:40.486833+00:00"
-    },
     {
       "fp": [
         "UAE",
@@ -1145,10 +1134,22 @@
         "you"
       ],
       "at": "2026-10-25T17:41:34.673579+00:00"
+    },
+    {
+      "fp": [
+        "ETF",
+        "GDX",
+        "furthermore",
+        "gold",
+        "july",
+        "march",
+        "similar",
+        "this"
+      ],
+      "at": "2026-10-25T19:58:34.710211+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: DeepSeek BANNED from US federal civilian agencies over national security and spying fears.",
     "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short.",
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu orders plan to adopt CRYPTO and blockchain to neutralize state financial sanctions.",
     "JUST IN: \ud83d\udee2\ufe0f Brent crude oil topped $116 per barrel to hit a six-month high as Middle East tensions swell.",
@@ -1162,7 +1163,8 @@
     "BREAKING: US semiconductor producer prices SURGED +26% YoY in September, marking the 4th-largest increase on record.",
     "The Valuation Tool compares an asset's momentum against the dollar, gold, bonds and the index by default. The active symbols average into one Composite Score line.",
     "JUST IN: \ud83d\udea8 20% of S&P 500 companies report EARNINGS this week alongside massive economic data releases.",
-    "JUST IN: Investing just $10 a month into Bitcoin ($BTC) since launch yields a MASSIVE portfolio today."
+    "JUST IN: Investing just $10 a month into Bitcoin ($BTC) since launch yields a MASSIVE portfolio today.",
+    "JUST IN: Gold stocks face a massive SELLOFF as 92% of gold miners ETF ($GDX) holdings crash below their 50-day moving average."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1198,7 +1200,8 @@
     "122127748305472689_2291385751656868",
     "122127806337472689_28670591609309999",
     "122127856125472689_1787796105821908",
-    "122127929403472689_1659803435691147"
+    "122127929403472689_1659803435691147",
+    "122127986229472689_2160549144591762"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
