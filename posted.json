@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "5097bb6c23068f1e",
-    "fb_id": "1264009986803820_122128049865472689",
-    "title": "Gold stocks have rarely been this oversold. ~92% of stocks in the gold miners ETF, $GDX, are now trading below their 50-day moving average, the highest proportion since late July. This figure has r...",
-    "link": "https://x.com/KobeissiLetter/status/2114379215583826308",
-    "mode": "viral",
-    "at": "2026-10-25T19:58:34.710219+00:00"
+    "hash": "f5faea64824cd5fc",
+    "fb_id": "1264009986803820_122128108773472689",
+    "title": "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019",
+    "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+    "mode": "serious",
+    "at": "2026-10-25T22:13:48.319411+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -303,6 +303,7 @@
     "f423d63bf056a5f2",
     "f5c9f3c52bf9d8cb",
     "f5ed833925730a57",
+    "f5faea64824cd5fc",
     "f62ac207f6cb98a6",
     "f657b460fe198b75",
     "f6ab0f1cbf1e0293",
@@ -326,10 +327,9 @@
   "day_counts": {
     "2026-10-23": 6,
     "2026-10-24": 7,
-    "2026-10-25": 6
+    "2026-10-25": 7
   },
   "recent_titles": [
-    "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East",
     "BREAKING: Brent crude oil prices surge above $117/barrel for the first time since March 19th amid fears that the US will renew strikes on Iran. Brent crude oil is now $2 away from breaking above it...",
     "Just resolving a few Bitcoin matters behind closed doors.",
     "ECB releases media interview with Milano Finanza",
@@ -343,18 +343,10 @@
     "\ud83d\udcc8 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS \u2014 RICH ABOVE 75",
     "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe...",
     "POV: You invested just $10 a month into Bitcoin since it launched.",
-    "Gold stocks have rarely been this oversold. ~92% of stocks in the gold miners ETF, $GDX, are now trading below their 50-day moving average, the highest proportion since late July. This figure has r..."
+    "Gold stocks have rarely been this oversold. ~92% of stocks in the gold miners ETF, $GDX, are now trading below their 50-day moving average, the highest proportion since late July. This figure has r...",
+    "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125863957472689",
-      "topics": [
-        "inflation"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-19T02:02:43.284198+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125870203472689",
       "topics": [
@@ -801,6 +793,15 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-25T19:58:34.710219+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128108773472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "photo": "split:scene",
+      "at": "2026-10-25T22:13:48.319411+00:00"
     }
   ],
   "tuner": {
@@ -862,24 +863,6 @@
   },
   "last_video_post": "2026-10-25",
   "recent_fps": [
-    {
-      "fp": [
-        "UAE",
-        "azerbaijan",
-        "cole",
-        "dubai",
-        "dutch",
-        "jared",
-        "kushner",
-        "matthew",
-        "mohamed",
-        "president",
-        "princes",
-        "thieves",
-        "zayed"
-      ],
-      "at": "2026-10-22T23:28:51.913553+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1147,10 +1130,17 @@
         "this"
       ],
       "at": "2026-10-25T19:58:34.710211+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "grok",
+        "odyssey"
+      ],
+      "at": "2026-10-25T22:13:48.319396+00:00"
     }
   ],
   "recent_hooks": [
-    "Commercials, Large Specs and Retail sit on one axis. Net positions are normalized as a percentage of Open Interest, with alerts when a group flips long to short.",
     "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu orders plan to adopt CRYPTO and blockchain to neutralize state financial sanctions.",
     "JUST IN: \ud83d\udee2\ufe0f Brent crude oil topped $116 per barrel to hit a six-month high as Middle East tensions swell.",
     "BREAKING: \ud83d\udee2\ufe0f Brent crude oil SURGES above $117/barrel for the first time since March 19th.",
@@ -1164,7 +1154,8 @@
     "The Valuation Tool compares an asset's momentum against the dollar, gold, bonds and the index by default. The active symbols average into one Composite Score line.",
     "JUST IN: \ud83d\udea8 20% of S&P 500 companies report EARNINGS this week alongside massive economic data releases.",
     "JUST IN: Investing just $10 a month into Bitcoin ($BTC) since launch yields a MASSIVE portfolio today.",
-    "JUST IN: Gold stocks face a massive SELLOFF as 92% of gold miners ETF ($GDX) holdings crash below their 50-day moving average."
+    "JUST IN: Gold stocks face a massive SELLOFF as 92% of gold miners ETF ($GDX) holdings crash below their 50-day moving average.",
+    "JUST IN: Grok drops the first 7 MINUTES of its AI-generated video project Odyssey."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1201,7 +1192,8 @@
     "122127806337472689_28670591609309999",
     "122127856125472689_1787796105821908",
     "122127929403472689_1659803435691147",
-    "122127986229472689_2160549144591762"
+    "122127986229472689_2160549144591762",
+    "122128049865472689_1643215047595691"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
