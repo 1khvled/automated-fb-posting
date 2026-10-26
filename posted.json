@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "2d3d5b5f61623900",
-    "fb_id": "1264009986803820_122128352031472689",
-    "title": "\u2705 4 CONFIRMATIONS BEFORE A LONG: SEASONALITY, COT INDEX, COT REPORT, VALUATION",
-    "link": "",
+    "hash": "e1673bb7075c60d6",
+    "fb_id": "1264009986803820_122128401321472689",
+    "title": "Investor appetite for leverage is through the roof: 10 largest US leveraged equity ETFs have attracted +$12 billion in inflows over the last month. This is despite the market cap of these funds fal...",
+    "link": "https://x.com/KobeissiLetter/status/2114827351850639388",
     "mode": "serious",
-    "at": "2026-10-26T17:25:13.486115+00:00"
+    "at": "2026-10-26T21:51:22.907639+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -281,6 +281,7 @@
     "de5489e354d6c29c",
     "debc28604fd070bb",
     "dfe42122b9580316",
+    "e1673bb7075c60d6",
     "e18b53d68b9a46a2",
     "e1e01a772ebf9745",
     "e4ddbb5bfc5310e3",
@@ -331,10 +332,9 @@
   "day_counts": {
     "2026-10-24": 7,
     "2026-10-25": 7,
-    "2026-10-26": 4
+    "2026-10-26": 5
   },
   "recent_titles": [
-    "BREAKING: Bitcoin and ETH fall sharply as $200 million worth of levered positions are liquidated in under 60 minutes. Bitcoin is back below $80,000.",
     "BREAKING: The average cost of a family\u2019s annual health insurance premium in the US is up +$1,303 YoY, or +5%, to a record $28,303. This marks the 4th consecutive annual increase of at least +$1,300...",
     "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.",
     "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\"",
@@ -348,18 +348,10 @@
     "BREAKING: US stock market futures rise at the open after President Trump announces that he will not be attacking Iran today: 1. S&P 500: +0.5% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.4% 4. WTI Crude:...",
     "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest oil company Petrobras $PBR crashes over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
     "Zelensky: I do not currently see any demand from the major European economies to lift sanctions or restore energy alliances with the Russian Federation. I don't see that, because we would react. I ...",
-    "\u2705 4 CONFIRMATIONS BEFORE A LONG: SEASONALITY, COT INDEX, COT REPORT, VALUATION"
+    "\u2705 4 CONFIRMATIONS BEFORE A LONG: SEASONALITY, COT INDEX, COT REPORT, VALUATION",
+    "Investor appetite for leverage is through the roof: 10 largest US leveraged equity ETFs have attracted +$12 billion in inflows over the last month. This is despite the market cap of these funds fal..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125890573472689",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-19T04:32:29.754156+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125898433472689",
       "topics": [
@@ -802,6 +794,17 @@
       "mode": "serious",
       "photo": "product",
       "at": "2026-10-26T17:25:13.486115+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128401321472689",
+      "topics": [
+        "ai",
+        "crypto",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "split:scene",
+      "at": "2026-10-26T21:51:22.907639+00:00"
     }
   ],
   "tuner": {
@@ -867,20 +870,6 @@
   },
   "last_video_post": "2026-10-26",
   "recent_fps": [
-    {
-      "fp": [
-        "$116,",
-        "brent",
-        "donald",
-        "east",
-        "iran",
-        "middle",
-        "president",
-        "thursday",
-        "trump"
-      ],
-      "at": "2026-10-23T20:30:47.327595+00:00"
-    },
     {
       "fp": [
         "$117",
@@ -1126,10 +1115,25 @@
         "then"
       ],
       "at": "2026-10-26T17:25:13.486100+00:00"
+    },
+    {
+      "fp": [
+        "$12",
+        "$20",
+        "$9",
+        "3x",
+        "ETF",
+        "SOXL",
+        "US",
+        "investor",
+        "recent",
+        "semiconductor",
+        "this"
+      ],
+      "at": "2026-10-26T21:51:22.907628+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank releases NEW media interview with Milano Finanza.",
     "Seasonality_OTC prints how many years it averaged. A dashed line projects where the calendar has historically leaned, so you filter the bias first.",
     "BREAKING: Bitcoin ($BTC) and Ethereum ($ETH) CRASH as $200 million in leveraged positions get wiped out in under 60 minutes.",
     "BREAKING: US family health insurance premiums just hit a RECORD $28,303.",
@@ -1143,7 +1147,8 @@
     "JUST IN: Grok drops the first 7 MINUTES of its AI-generated video project Odyssey.",
     "BREAKING: \ud83d\udea8 US futures RALLY after President Trump confirms no military strike on Iran today.",
     "JUST IN: \ud83c\udde7\ud83c\uddf7 Petrobras ($PBR) CRASHES over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
-    "The manual lines all 4 up: seasonality pointing up, Commercials above 80% with Large Specs below 20%. Then Commercials net long, and a Composite Score curling up from under minus 75."
+    "The manual lines all 4 up: seasonality pointing up, Commercials above 80% with Large Specs below 20%. Then Commercials net long, and a Composite Score curling up from under minus 75.",
+    "JUST IN: \ud83d\udea8 Investor demand for LEVERAGE is surging as the 10 largest US leveraged equity ETFs pulled in +$12 billion over the last month."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1185,7 +1190,8 @@
     "122128108773472689_4635686820018560",
     "122128132455472689_29396725663273355",
     "122128189269472689_1093815016827358",
-    "122128265631472689_1359435720593326"
+    "122128265631472689_1359435720593326",
+    "122128352031472689_1117431727807878"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
