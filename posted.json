@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "f77390e054e07483",
-    "fb_id": "1264009986803820_122128189269472689",
-    "title": "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest oil company Petrobras $PBR crashes over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
-    "link": "https://x.com/WatcherGuru/status/2114519700591747169",
-    "mode": "viral",
-    "at": "2026-10-26T05:15:43.394303+00:00"
+    "hash": "9269b97c2207fd55",
+    "fb_id": "2920988421604121",
+    "title": "Zelensky: I do not currently see any demand from the major European economies to lift sanctions or restore energy alliances with the Russian Federation. I don't see that, because we would react. I ...",
+    "link": "https://x.com/clashreport/status/2114671556043620698",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-26T11:11:21.701350+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -178,6 +179,7 @@
     "90475a1c74fc1067",
     "90fe6b0d6b5f46fb",
     "921b6370813ac363",
+    "9269b97c2207fd55",
     "92fee29909312f3a",
     "944111dc08b1e6b8",
     "959bd28d9c00ec90",
@@ -329,10 +331,9 @@
   "day_counts": {
     "2026-10-24": 7,
     "2026-10-25": 7,
-    "2026-10-26": 2
+    "2026-10-26": 3
   },
   "recent_titles": [
-    "ECB releases media interview with Milano Finanza",
     "\ud83d\udcc5 1 OF 4 TOOLS: SEASONALITY AVERAGES THE YEARS AND DASHES THE PROJECTION",
     "BREAKING: Bitcoin and ETH fall sharply as $200 million worth of levered positions are liquidated in under 60 minutes. Bitcoin is back below $80,000.",
     "BREAKING: The average cost of a family\u2019s annual health insurance premium in the US is up +$1,303 YoY, or +5%, to a record $28,303. This marks the 4th consecutive annual increase of at least +$1,300...",
@@ -346,19 +347,10 @@
     "Gold stocks have rarely been this oversold. ~92% of stocks in the gold miners ETF, $GDX, are now trading below their 50-day moving average, the highest proportion since late July. This figure has r...",
     "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019",
     "BREAKING: US stock market futures rise at the open after President Trump announces that he will not be attacking Iran today: 1. S&P 500: +0.5% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.4% 4. WTI Crude:...",
-    "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest oil company Petrobras $PBR crashes over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro."
+    "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest oil company Petrobras $PBR crashes over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
+    "Zelensky: I do not currently see any demand from the major European economies to lift sanctions or restore energy alliances with the Russian Federation. I don't see that, because we would react. I ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125879431472689",
-      "topics": [
-        "inflation",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-19T03:32:13.829753+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125884687472689",
       "topics": [
@@ -806,6 +798,14 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-26T05:15:43.394303+00:00"
+    },
+    {
+      "fb_id": "2920988421604121",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-26T11:11:21.701350+00:00"
     }
   ],
   "tuner": {
@@ -869,30 +869,8 @@
     ],
     "updated": "2026-10-26"
   },
-  "last_video_post": "2026-10-25",
+  "last_video_post": "2026-10-26",
   "recent_fps": [
-    {
-      "fp": [
-        "CHART",
-        "COT",
-        "CROWD",
-        "IN",
-        "IS",
-        "LONG",
-        "NET",
-        "REPORT",
-        "THE",
-        "WHO",
-        "commercials",
-        "interest",
-        "large",
-        "net",
-        "open",
-        "retail",
-        "specs"
-      ],
-      "at": "2026-10-23T12:17:46.072902+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1138,6 +1116,15 @@
         "silva"
       ],
       "at": "2026-10-26T05:15:43.394290+00:00"
+    },
+    {
+      "fp": [
+        "european",
+        "federation",
+        "russian",
+        "zelensky"
+      ],
+      "at": "2026-10-26T11:11:21.701343+00:00"
     }
   ],
   "recent_hooks": [
@@ -1195,7 +1182,8 @@
     "122127986229472689_2160549144591762",
     "122128049865472689_1643215047595691",
     "122128108773472689_4635686820018560",
-    "122128132455472689_29396725663273355"
+    "122128132455472689_29396725663273355",
+    "122128189269472689_1093815016827358"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
