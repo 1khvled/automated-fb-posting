@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "1ad60877ddd954f3",
-    "fb_id": "1264009986803820_122128132455472689",
-    "title": "BREAKING: US stock market futures rise at the open after President Trump announces that he will not be attacking Iran today: 1. S&P 500: +0.5% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.4% 4. WTI Crude:...",
-    "link": "https://x.com/KobeissiLetter/status/2114490147773235247",
+    "hash": "f77390e054e07483",
+    "fb_id": "1264009986803820_122128189269472689",
+    "title": "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest oil company Petrobras $PBR crashes over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
+    "link": "https://x.com/WatcherGuru/status/2114519700591747169",
     "mode": "viral",
-    "at": "2026-10-26T00:26:16.012585+00:00"
+    "at": "2026-10-26T05:15:43.394303+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -309,6 +309,7 @@
     "f657b460fe198b75",
     "f6ab0f1cbf1e0293",
     "f6d6a3d5a0a3a147",
+    "f77390e054e07483",
     "f797780ed87c1d4c",
     "f7bf2d0c5bf249ea",
     "f7d8a64c969260f9",
@@ -328,10 +329,9 @@
   "day_counts": {
     "2026-10-24": 7,
     "2026-10-25": 7,
-    "2026-10-26": 1
+    "2026-10-26": 2
   },
   "recent_titles": [
-    "Just resolving a few Bitcoin matters behind closed doors.",
     "ECB releases media interview with Milano Finanza",
     "\ud83d\udcc5 1 OF 4 TOOLS: SEASONALITY AVERAGES THE YEARS AND DASHES THE PROJECTION",
     "BREAKING: Bitcoin and ETH fall sharply as $200 million worth of levered positions are liquidated in under 60 minutes. Bitcoin is back below $80,000.",
@@ -345,19 +345,10 @@
     "POV: You invested just $10 a month into Bitcoin since it launched.",
     "Gold stocks have rarely been this oversold. ~92% of stocks in the gold miners ETF, $GDX, are now trading below their 50-day moving average, the highest proportion since late July. This figure has r...",
     "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019",
-    "BREAKING: US stock market futures rise at the open after President Trump announces that he will not be attacking Iran today: 1. S&P 500: +0.5% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.4% 4. WTI Crude:..."
+    "BREAKING: US stock market futures rise at the open after President Trump announces that he will not be attacking Iran today: 1. S&P 500: +0.5% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.4% 4. WTI Crude:...",
+    "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest oil company Petrobras $PBR crashes over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125874103472689",
-      "topics": [
-        "inflation",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-19T03:02:36.818336+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125879431472689",
       "topics": [
@@ -805,6 +796,16 @@
       "mode": "viral",
       "photo": "face",
       "at": "2026-10-26T00:26:16.012585+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128189269472689",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-26T05:15:43.394303+00:00"
     }
   ],
   "tuner": {
@@ -870,22 +871,6 @@
   },
   "last_video_post": "2026-10-25",
   "recent_fps": [
-    {
-      "fp": [
-        "ETF",
-        "LATEST",
-        "US",
-        "asia",
-        "bitcoin",
-        "europe",
-        "express",
-        "singapore",
-        "switzerland",
-        "this",
-        "vietnam"
-      ],
-      "at": "2026-10-23T06:44:04.496689+00:00"
-    },
     {
       "fp": [
         "CHART",
@@ -1140,10 +1125,22 @@
         "trump"
       ],
       "at": "2026-10-26T00:26:16.012568+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "PBR",
+        "bolsonaro",
+        "brazil",
+        "lula",
+        "petrobras",
+        "silva"
+      ],
+      "at": "2026-10-26T05:15:43.394290+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udee2\ufe0f Brent crude oil topped $116 per barrel to hit a six-month high as Middle East tensions swell.",
     "BREAKING: \ud83d\udee2\ufe0f Brent crude oil SURGES above $117/barrel for the first time since March 19th.",
     "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank releases NEW media interview with Milano Finanza.",
     "Seasonality_OTC prints how many years it averaged. A dashed line projects where the calendar has historically leaned, so you filter the bias first.",
@@ -1157,7 +1154,8 @@
     "JUST IN: Investing just $10 a month into Bitcoin ($BTC) since launch yields a MASSIVE portfolio today.",
     "JUST IN: Gold stocks face a massive SELLOFF as 92% of gold miners ETF ($GDX) holdings crash below their 50-day moving average.",
     "JUST IN: Grok drops the first 7 MINUTES of its AI-generated video project Odyssey.",
-    "BREAKING: \ud83d\udea8 US futures RALLY after President Trump confirms no military strike on Iran today."
+    "BREAKING: \ud83d\udea8 US futures RALLY after President Trump confirms no military strike on Iran today.",
+    "JUST IN: \ud83c\udde7\ud83c\uddf7 Petrobras ($PBR) CRASHES over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1196,7 +1194,8 @@
     "122127929403472689_1659803435691147",
     "122127986229472689_2160549144591762",
     "122128049865472689_1643215047595691",
-    "122128108773472689_4635686820018560"
+    "122128108773472689_4635686820018560",
+    "122128132455472689_29396725663273355"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
