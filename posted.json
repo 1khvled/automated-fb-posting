@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "9269b97c2207fd55",
-    "fb_id": "2920988421604121",
-    "title": "Zelensky: I do not currently see any demand from the major European economies to lift sanctions or restore energy alliances with the Russian Federation. I don't see that, because we would react. I ...",
-    "link": "https://x.com/clashreport/status/2114671556043620698",
+    "hash": "2d3d5b5f61623900",
+    "fb_id": "1264009986803820_122128352031472689",
+    "title": "\u2705 4 CONFIRMATIONS BEFORE A LONG: SEASONALITY, COT INDEX, COT REPORT, VALUATION",
+    "link": "",
     "mode": "serious",
-    "kind": "video",
-    "at": "2026-10-26T11:11:21.701350+00:00"
+    "at": "2026-10-26T17:25:13.486115+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -69,6 +68,7 @@
     "2a6f98175be395ca",
     "2b76f5d27278ae96",
     "2bbf1d770e89e3e5",
+    "2d3d5b5f61623900",
     "2d63a9f4c47e07bc",
     "2f44d6251f2dd01c",
     "2f82b7d57908eb27",
@@ -331,10 +331,9 @@
   "day_counts": {
     "2026-10-24": 7,
     "2026-10-25": 7,
-    "2026-10-26": 3
+    "2026-10-26": 4
   },
   "recent_titles": [
-    "\ud83d\udcc5 1 OF 4 TOOLS: SEASONALITY AVERAGES THE YEARS AND DASHES THE PROJECTION",
     "BREAKING: Bitcoin and ETH fall sharply as $200 million worth of levered positions are liquidated in under 60 minutes. Bitcoin is back below $80,000.",
     "BREAKING: The average cost of a family\u2019s annual health insurance premium in the US is up +$1,303 YoY, or +5%, to a record $28,303. This marks the 4th consecutive annual increase of at least +$1,300...",
     "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.",
@@ -348,20 +347,10 @@
     "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019",
     "BREAKING: US stock market futures rise at the open after President Trump announces that he will not be attacking Iran today: 1. S&P 500: +0.5% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.4% 4. WTI Crude:...",
     "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest oil company Petrobras $PBR crashes over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
-    "Zelensky: I do not currently see any demand from the major European economies to lift sanctions or restore energy alliances with the Russian Federation. I don't see that, because we would react. I ..."
+    "Zelensky: I do not currently see any demand from the major European economies to lift sanctions or restore energy alliances with the Russian Federation. I don't see that, because we would react. I ...",
+    "\u2705 4 CONFIRMATIONS BEFORE A LONG: SEASONALITY, COT INDEX, COT REPORT, VALUATION"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125884687472689",
-      "topics": [
-        "crypto",
-        "inflation",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-19T04:01:58.517549+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125890573472689",
       "topics": [
@@ -806,6 +795,13 @@
       ],
       "mode": "serious",
       "at": "2026-10-26T11:11:21.701350+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128352031472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "product",
+      "at": "2026-10-26T17:25:13.486115+00:00"
     }
   ],
   "tuner": {
@@ -871,17 +867,6 @@
   },
   "last_video_post": "2026-10-26",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "israeli",
-        "minister",
-        "netanyahu",
-        "prime"
-      ],
-      "at": "2026-10-23T17:14:59.931503+00:00"
-    },
     {
       "fp": [
         "$116,",
@@ -1125,10 +1110,25 @@
         "zelensky"
       ],
       "at": "2026-10-26T11:11:21.701343+00:00"
+    },
+    {
+      "fp": [
+        "BEFORE",
+        "COT",
+        "INDEX",
+        "LONG",
+        "REPORT",
+        "commercials",
+        "composite",
+        "large",
+        "score",
+        "specs",
+        "then"
+      ],
+      "at": "2026-10-26T17:25:13.486100+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udee2\ufe0f Brent crude oil SURGES above $117/barrel for the first time since March 19th.",
     "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank releases NEW media interview with Milano Finanza.",
     "Seasonality_OTC prints how many years it averaged. A dashed line projects where the calendar has historically leaned, so you filter the bias first.",
     "BREAKING: Bitcoin ($BTC) and Ethereum ($ETH) CRASH as $200 million in leveraged positions get wiped out in under 60 minutes.",
@@ -1142,7 +1142,8 @@
     "JUST IN: Gold stocks face a massive SELLOFF as 92% of gold miners ETF ($GDX) holdings crash below their 50-day moving average.",
     "JUST IN: Grok drops the first 7 MINUTES of its AI-generated video project Odyssey.",
     "BREAKING: \ud83d\udea8 US futures RALLY after President Trump confirms no military strike on Iran today.",
-    "JUST IN: \ud83c\udde7\ud83c\uddf7 Petrobras ($PBR) CRASHES over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro."
+    "JUST IN: \ud83c\udde7\ud83c\uddf7 Petrobras ($PBR) CRASHES over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
+    "The manual lines all 4 up: seasonality pointing up, Commercials above 80% with Large Specs below 20%. Then Commercials net long, and a Composite Score curling up from under minus 75."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1183,16 +1184,18 @@
     "122128049865472689_1643215047595691",
     "122128108773472689_4635686820018560",
     "122128132455472689_29396725663273355",
-    "122128189269472689_1093815016827358"
+    "122128189269472689_1093815016827358",
+    "122128265631472689_1359435720593326"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
     "en-01-cot-index-extremes",
     "en-02-smart-money-vs-retail",
     "en-03-seasonality-year-average",
-    "en-04-valuation-composite-score"
+    "en-04-valuation-composite-score",
+    "en-05-four-confirmation-setup"
   ],
   "product_posts_day": {
-    "2026-10-25": 1
+    "2026-10-26": 1
   }
 }
