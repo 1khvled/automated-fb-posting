@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "f5faea64824cd5fc",
-    "fb_id": "1264009986803820_122128108773472689",
-    "title": "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019",
-    "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-    "mode": "serious",
-    "at": "2026-10-25T22:13:48.319411+00:00"
+    "hash": "1ad60877ddd954f3",
+    "fb_id": "1264009986803820_122128132455472689",
+    "title": "BREAKING: US stock market futures rise at the open after President Trump announces that he will not be attacking Iran today: 1. S&P 500: +0.5% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.4% 4. WTI Crude:...",
+    "link": "https://x.com/KobeissiLetter/status/2114490147773235247",
+    "mode": "viral",
+    "at": "2026-10-26T00:26:16.012585+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -46,6 +46,7 @@
     "191614348896e501",
     "1957b710635e93a0",
     "1962708cba969b70",
+    "1ad60877ddd954f3",
     "1b28613e6ccbab62",
     "1d0fcda880497169",
     "1ee80daa10c57716",
@@ -325,12 +326,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-23": 6,
     "2026-10-24": 7,
-    "2026-10-25": 7
+    "2026-10-25": 7,
+    "2026-10-26": 1
   },
   "recent_titles": [
-    "BREAKING: Brent crude oil prices surge above $117/barrel for the first time since March 19th amid fears that the US will renew strikes on Iran. Brent crude oil is now $2 away from breaking above it...",
     "Just resolving a few Bitcoin matters behind closed doors.",
     "ECB releases media interview with Milano Finanza",
     "\ud83d\udcc5 1 OF 4 TOOLS: SEASONALITY AVERAGES THE YEARS AND DASHES THE PROJECTION",
@@ -344,18 +344,10 @@
     "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe...",
     "POV: You invested just $10 a month into Bitcoin since it launched.",
     "Gold stocks have rarely been this oversold. ~92% of stocks in the gold miners ETF, $GDX, are now trading below their 50-day moving average, the highest proportion since late July. This figure has r...",
-    "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019"
+    "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019",
+    "BREAKING: US stock market futures rise at the open after President Trump announces that he will not be attacking Iran today: 1. S&P 500: +0.5% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.4% 4. WTI Crude:..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125870203472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "text-only",
-      "at": "2026-10-19T02:32:05.836284+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125874103472689",
       "topics": [
@@ -802,89 +794,82 @@
       "mode": "serious",
       "photo": "split:scene",
       "at": "2026-10-25T22:13:48.319411+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128132455472689",
+      "topics": [
+        "gold_oil",
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "face",
+      "at": "2026-10-26T00:26:16.012585+00:00"
     }
   ],
   "tuner": {
     "topics": {
-      "crypto": {
-        "n": 9,
-        "e": 77
-      },
-      "stocks": {
+      "power": {
         "n": 3,
         "e": 9
       },
       "ai": {
-        "n": 2,
-        "e": 6
+        "n": 3,
+        "e": 9
       },
-      "power": {
-        "n": 6,
-        "e": 18
+      "crypto": {
+        "n": 9,
+        "e": 77
       },
       "unknown": {
         "n": 3,
         "e": 9
       },
       "gold_oil": {
-        "n": 2,
-        "e": 56
+        "n": 3,
+        "e": 59
       },
       "inflation": {
+        "n": 4,
+        "e": 62
+      },
+      "stocks": {
         "n": 2,
-        "e": 56
+        "e": 6
+      },
+      "fed": {
+        "n": 1,
+        "e": 3
       }
     },
     "mult": {
-      "gold_oil": 1.23,
-      "ai": 0.89,
-      "stocks": 0.81,
+      "gold_oil": 1.46,
+      "ai": 0.77,
+      "stocks": 0.72,
       "crypto": 1.04,
-      "inflation": 1.19,
-      "power": 0.89
+      "inflation": 1.39,
+      "power": 0.77
     },
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   "comment_review": {
     "posts": 8,
     "comments": 8,
     "likes": 0,
-    "questions": 7,
+    "questions": 8,
     "praise": 0,
-    "anger": 1,
+    "anger": 0,
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "How will this sudden spike in oil prices impact my everyday living costs and investments over the next few months?",
-      "Is $MSTR still a good buy at today's price, or should I just buy Bitcoin directly?",
-      "How do you expect the ECB's latest policy signals to impact your European investments or borrowing costs?"
+      "Are you holding your Bitcoin through this volatility or taking profits before the weekend?",
+      "Would you reallocate funds from AI stocks into crypto right now to chase these higher returns?",
+      "How will these rising component costs affect tech stock earnings and my portfolio this quarter?"
     ],
-    "updated": "2026-10-25"
+    "updated": "2026-10-26"
   },
   "last_video_post": "2026-10-25",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "UAE",
-        "VALOR",
-        "air",
-        "american",
-        "arabia",
-        "bahrain",
-        "base",
-        "iran",
-        "jordan",
-        "kuwait",
-        "media",
-        "network",
-        "prince",
-        "saudi",
-        "sultan"
-      ],
-      "at": "2026-10-23T01:53:28.908280+00:00"
-    },
     {
       "fp": [
         "ETF",
@@ -1138,10 +1123,26 @@
         "odyssey"
       ],
       "at": "2026-10-25T22:13:48.319396+00:00"
+    },
+    {
+      "fp": [
+        "US",
+        "WTI",
+        "brent",
+        "crude",
+        "dow",
+        "gas",
+        "iran",
+        "jones",
+        "nasdaq",
+        "natural",
+        "president",
+        "trump"
+      ],
+      "at": "2026-10-26T00:26:16.012568+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddee\ud83c\uddf1 Israeli Prime Minister Netanyahu orders plan to adopt CRYPTO and blockchain to neutralize state financial sanctions.",
     "JUST IN: \ud83d\udee2\ufe0f Brent crude oil topped $116 per barrel to hit a six-month high as Middle East tensions swell.",
     "BREAKING: \ud83d\udee2\ufe0f Brent crude oil SURGES above $117/barrel for the first time since March 19th.",
     "JUST IN: \ud83c\uddea\ud83c\uddfa European Central Bank releases NEW media interview with Milano Finanza.",
@@ -1155,7 +1156,8 @@
     "JUST IN: \ud83d\udea8 20% of S&P 500 companies report EARNINGS this week alongside massive economic data releases.",
     "JUST IN: Investing just $10 a month into Bitcoin ($BTC) since launch yields a MASSIVE portfolio today.",
     "JUST IN: Gold stocks face a massive SELLOFF as 92% of gold miners ETF ($GDX) holdings crash below their 50-day moving average.",
-    "JUST IN: Grok drops the first 7 MINUTES of its AI-generated video project Odyssey."
+    "JUST IN: Grok drops the first 7 MINUTES of its AI-generated video project Odyssey.",
+    "BREAKING: \ud83d\udea8 US futures RALLY after President Trump confirms no military strike on Iran today."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1193,7 +1195,8 @@
     "122127856125472689_1787796105821908",
     "122127929403472689_1659803435691147",
     "122127986229472689_2160549144591762",
-    "122128049865472689_1643215047595691"
+    "122128049865472689_1643215047595691",
+    "122128108773472689_4635686820018560"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
