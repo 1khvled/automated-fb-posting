@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "e1673bb7075c60d6",
-    "fb_id": "1264009986803820_122128401321472689",
-    "title": "Investor appetite for leverage is through the roof: 10 largest US leveraged equity ETFs have attracted +$12 billion in inflows over the last month. This is despite the market cap of these funds fal...",
-    "link": "https://x.com/KobeissiLetter/status/2114827351850639388",
+    "hash": "2d8bf0d617a8cbae",
+    "fb_id": "1999568264052997",
+    "title": "Trump: Tariffs don\u2019t cause inflation. They cause success, growth, and jobs. That\u2019s what they cause.",
+    "link": "https://x.com/clashreport/status/2114863685860774248",
     "mode": "serious",
-    "at": "2026-10-26T21:51:22.907639+00:00"
+    "kind": "video",
+    "at": "2026-10-27T01:03:23.271499+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -70,6 +71,7 @@
     "2bbf1d770e89e3e5",
     "2d3d5b5f61623900",
     "2d63a9f4c47e07bc",
+    "2d8bf0d617a8cbae",
     "2f44d6251f2dd01c",
     "2f82b7d57908eb27",
     "2fefdaf693a6683e",
@@ -330,12 +332,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-24": 7,
     "2026-10-25": 7,
-    "2026-10-26": 5
+    "2026-10-26": 5,
+    "2026-10-27": 1
   },
   "recent_titles": [
-    "BREAKING: The average cost of a family\u2019s annual health insurance premium in the US is up +$1,303 YoY, or +5%, to a record $28,303. This marks the 4th consecutive annual increase of at least +$1,300...",
     "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.",
     "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\"",
     "\ud83d\udd25 INSIGHT: Crypto now has more upside than the AI compute trade. Speaking with @itsciaranlyons, @jvisserlabs said he still sees three to five more years in the agentic compute story, but crypto off...",
@@ -349,19 +350,10 @@
     "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest oil company Petrobras $PBR crashes over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
     "Zelensky: I do not currently see any demand from the major European economies to lift sanctions or restore energy alliances with the Russian Federation. I don't see that, because we would react. I ...",
     "\u2705 4 CONFIRMATIONS BEFORE A LONG: SEASONALITY, COT INDEX, COT REPORT, VALUATION",
-    "Investor appetite for leverage is through the roof: 10 largest US leveraged equity ETFs have attracted +$12 billion in inflows over the last month. This is despite the market cap of these funds fal..."
+    "Investor appetite for leverage is through the roof: 10 largest US leveraged equity ETFs have attracted +$12 billion in inflows over the last month. This is despite the market cap of these funds fal...",
+    "Trump: Tariffs don\u2019t cause inflation. They cause success, growth, and jobs. That\u2019s what they cause."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125898433472689",
-      "topics": [
-        "ai",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-19T05:01:25.751599+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125909131472689",
       "topics": [
@@ -805,11 +797,36 @@
       "mode": "serious",
       "photo": "split:scene",
       "at": "2026-10-26T21:51:22.907639+00:00"
+    },
+    {
+      "fb_id": "1999568264052997",
+      "topics": [
+        "inflation",
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-27T01:03:23.271499+00:00"
     }
   ],
   "tuner": {
     "topics": {
-      "power": {
+      "gold_oil": {
+        "n": 4,
+        "e": 62
+      },
+      "inflation": {
+        "n": 4,
+        "e": 62
+      },
+      "crypto": {
+        "n": 8,
+        "e": 74
+      },
+      "stocks": {
+        "n": 4,
+        "e": 12
+      },
+      "unknown": {
         "n": 3,
         "e": 9
       },
@@ -817,40 +834,24 @@
         "n": 3,
         "e": 9
       },
-      "crypto": {
-        "n": 9,
-        "e": 77
-      },
-      "unknown": {
-        "n": 3,
-        "e": 9
-      },
-      "gold_oil": {
-        "n": 3,
-        "e": 59
-      },
-      "inflation": {
-        "n": 4,
-        "e": 62
-      },
-      "stocks": {
-        "n": 2,
-        "e": 6
-      },
       "fed": {
         "n": 1,
         "e": 3
+      },
+      "power": {
+        "n": 3,
+        "e": 9
       }
     },
     "mult": {
-      "gold_oil": 1.46,
-      "ai": 0.77,
-      "stocks": 0.72,
-      "crypto": 1.04,
-      "inflation": 1.39,
-      "power": 0.77
+      "gold_oil": 1.6,
+      "ai": 0.69,
+      "stocks": 0.65,
+      "crypto": 1.07,
+      "inflation": 1.55,
+      "power": 0.69
     },
-    "updated": "2026-10-26"
+    "updated": "2026-10-27"
   },
   "comment_review": {
     "posts": 8,
@@ -862,26 +863,14 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "Are you holding your Bitcoin through this volatility or taking profits before the weekend?",
-      "Would you reallocate funds from AI stocks into crypto right now to chase these higher returns?",
-      "How will these rising component costs affect tech stock earnings and my portfolio this quarter?"
+      "How much would a $10 monthly Bitcoin investment actually be worth today?",
+      "Is this extreme oversold level a buying opportunity for gold stocks or a sign to stay away?",
+      "Will AI-generated media like this create viable investment opportunities in the entertainment sector anytime soon?"
     ],
-    "updated": "2026-10-26"
+    "updated": "2026-10-27"
   },
-  "last_video_post": "2026-10-26",
+  "last_video_post": "2026-10-27",
   "recent_fps": [
-    {
-      "fp": [
-        "$117",
-        "$2",
-        "US",
-        "brent",
-        "inflation",
-        "iran",
-        "march"
-      ],
-      "at": "2026-10-23T23:28:45.692764+00:00"
-    },
     {
       "fp": [
         "bitcoin"
@@ -1131,6 +1120,15 @@
         "this"
       ],
       "at": "2026-10-26T21:51:22.907628+00:00"
+    },
+    {
+      "fp": [
+        "tariffs",
+        "that",
+        "they",
+        "trump"
+      ],
+      "at": "2026-10-27T01:03:23.271494+00:00"
     }
   ],
   "recent_hooks": [
@@ -1191,7 +1189,8 @@
     "122128132455472689_29396725663273355",
     "122128189269472689_1093815016827358",
     "122128265631472689_1359435720593326",
-    "122128352031472689_1117431727807878"
+    "122128352031472689_1117431727807878",
+    "122128401321472689_2674870822960430"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
