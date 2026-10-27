@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "1816f2bc765abc08",
-    "fb_id": "1264009986803820_122128640661472689",
-    "title": "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has now crashed 40% since June as bear market continues. Trillions of dollars have been wiped from China's stock markets in recent months. Yesterday, ...",
-    "link": "https://x.com/WatcherGuru/status/2115111083656548585",
+    "hash": "60cbbd6a62948e8f",
+    "fb_id": "1264009986803820_122128687497472689",
+    "title": "BREAKING: Brazil's -19.8% stock market crash on Monday was one of the rarest market events in the last two decades, according to our analysis. Brazil's EWZ ETF plunged -19.8% on October 26th, marki...",
+    "link": "https://x.com/KobeissiLetter/status/2115117452644221274",
     "mode": "viral",
-    "at": "2026-10-27T18:05:27.589448+00:00"
+    "at": "2026-10-27T22:16:51.688097+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -118,6 +118,7 @@
     "5f21b28daec622b3",
     "600b7a3d6c0b67e5",
     "601a84aa97a5995b",
+    "60cbbd6a62948e8f",
     "626c970a426ee62c",
     "63036692c3b611ed",
     "634ee2da4c909eab",
@@ -336,10 +337,9 @@
   "day_counts": {
     "2026-10-25": 7,
     "2026-10-26": 5,
-    "2026-10-27": 4
+    "2026-10-27": 5
   },
   "recent_titles": [
-    "Semiconductor prices are skyrocketing in the US: Producer prices for semiconductor and other electronic component manufacturing surged +26% YoY in September, their 4th-largest increase on record. T...",
     "\ud83d\udcc8 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS \u2014 RICH ABOVE 75",
     "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe...",
     "POV: You invested just $10 a month into Bitcoin since it launched.",
@@ -353,18 +353,10 @@
     "Trump: Tariffs don\u2019t cause inflation. They cause success, growth, and jobs. That\u2019s what they cause.",
     "\u26a1\ufe0f INSIGHT: Bitcoin remains the only major asset class held mostly by individuals, but ownership is expected to shift toward institutions as it matures, mirroring gold, per River. Do you think inst...",
     "\ud83d\udda5\ufe0f 69 ROUTES, 1 LOCAL TERMINAL \u2014 NO LOGIN, NO SUBSCRIPTION, NO CLOUD",
-    "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has now crashed 40% since June as bear market continues. Trillions of dollars have been wiped from China's stock markets in recent months. Yesterday, ..."
+    "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has now crashed 40% since June as bear market continues. Trillions of dollars have been wiped from China's stock markets in recent months. Yesterday, ...",
+    "BREAKING: Brazil's -19.8% stock market crash on Monday was one of the rarest market events in the last two decades, according to our analysis. Brazil's EWZ ETF plunged -19.8% on October 26th, marki..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125927509472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-19T06:56:00.318824+00:00"
-    },
     {
       "fb_id": "2900029193699565",
       "topics": [
@@ -807,6 +799,16 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-27T18:05:27.589448+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128687497472689",
+      "topics": [
+        "crypto",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "split:scene",
+      "at": "2026-10-27T22:16:51.688097+00:00"
     }
   ],
   "tuner": {
@@ -872,15 +874,6 @@
   },
   "last_video_post": "2026-10-27",
   "recent_fps": [
-    {
-      "fp": [
-        "$200",
-        "$80,000.",
-        "ETH",
-        "bitcoin"
-      ],
-      "at": "2026-10-24T14:53:27.834860+00:00"
-    },
     {
       "fp": [
         "$1,300.",
@@ -1147,10 +1140,20 @@
         "yesterday"
       ],
       "at": "2026-10-27T18:05:27.589436+00:00"
+    },
+    {
+      "fp": [
+        "ETF",
+        "EWZ",
+        "brazil",
+        "monday",
+        "october",
+        "under"
+      ],
+      "at": "2026-10-27T22:16:51.688084+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina officially DROPS criminal investigation into President Javier Milei over the $LIBRA memecoin scandal.",
     "\ud83d\udea8 BREAKING: Peter Schiff says Bitcoin is going to CRASH to $75,000.",
     "BREAKING: US semiconductor producer prices SURGED +26% YoY in September, marking the 4th-largest increase on record.",
     "The Valuation Tool compares an asset's momentum against the dollar, gold, bonds and the index by default. The active symbols average into one Composite Score line.",
@@ -1164,7 +1167,8 @@
     "JUST IN: \ud83d\udea8 Investor demand for LEVERAGE is surging as the 10 largest US leveraged equity ETFs pulled in +$12 billion over the last month.",
     "JUST IN: \ud83d\udea9 Bitcoin is the only major asset class still dominated by individuals, but that may change as it matures\u2014institutions could take the lead, mirroring gold. 1 major class, 1 shift. Why it matters: institutional flow could raise volatility and liquidity. #ethancole #bitcoin #finance #investing #marketnews",
     "StockerAI runs on your own machine: DCF and WACC, Monte Carlo, Altman Z, Piotroski, Beneish, DuPont. Add the scenario lab, committee and red flags, and quotes polling every 30 seconds.",
-    "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has CRASHED 40% since June as a brutal bear market deepens."
+    "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has CRASHED 40% since June as a brutal bear market deepens.",
+    "BREAKING: Brazil stock market suffers historic -19.8% CRASH in a single day."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1211,7 +1215,8 @@
     "122128401321472689_2674870822960430",
     "122128434789472689_1848223596521481",
     "122128485165472689_4611109529159656",
-    "122128565493472689_2080018959314685"
+    "122128565493472689_2080018959314685",
+    "122128640661472689_2997636547295987"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
