@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "2d8bf0d617a8cbae",
-    "fb_id": "1999568264052997",
-    "title": "Trump: Tariffs don\u2019t cause inflation. They cause success, growth, and jobs. That\u2019s what they cause.",
-    "link": "https://x.com/clashreport/status/2114863685860774248",
+    "hash": "94aaf39d1af68e38",
+    "fb_id": "1264009986803820_122128485165472689",
+    "title": "\u26a1\ufe0f INSIGHT: Bitcoin remains the only major asset class held mostly by individuals, but ownership is expected to shift toward institutions as it matures, mirroring gold, per River. Do you think inst...",
+    "link": "https://x.com/Cointelegraph/status/2114960500345679873",
     "mode": "serious",
-    "kind": "video",
-    "at": "2026-10-27T01:03:23.271499+00:00"
+    "at": "2026-10-27T06:06:08.357531+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -184,6 +183,7 @@
     "9269b97c2207fd55",
     "92fee29909312f3a",
     "944111dc08b1e6b8",
+    "94aaf39d1af68e38",
     "959bd28d9c00ec90",
     "968e8a3c14a86d3b",
     "96d536b14c03c692",
@@ -334,10 +334,9 @@
   "day_counts": {
     "2026-10-25": 7,
     "2026-10-26": 5,
-    "2026-10-27": 1
+    "2026-10-27": 2
   },
   "recent_titles": [
-    "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina drops criminal investigation into President Javier Milei over $LIBRA crypto memecoin scandal.",
     "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\"",
     "\ud83d\udd25 INSIGHT: Crypto now has more upside than the AI compute trade. Speaking with @itsciaranlyons, @jvisserlabs said he still sees three to five more years in the agentic compute story, but crypto off...",
     "Semiconductor prices are skyrocketing in the US: Producer prices for semiconductor and other electronic component manufacturing surged +26% YoY in September, their 4th-largest increase on record. T...",
@@ -351,18 +350,10 @@
     "Zelensky: I do not currently see any demand from the major European economies to lift sanctions or restore energy alliances with the Russian Federation. I don't see that, because we would react. I ...",
     "\u2705 4 CONFIRMATIONS BEFORE A LONG: SEASONALITY, COT INDEX, COT REPORT, VALUATION",
     "Investor appetite for leverage is through the roof: 10 largest US leveraged equity ETFs have attracted +$12 billion in inflows over the last month. This is despite the market cap of these funds fal...",
-    "Trump: Tariffs don\u2019t cause inflation. They cause success, growth, and jobs. That\u2019s what they cause."
+    "Trump: Tariffs don\u2019t cause inflation. They cause success, growth, and jobs. That\u2019s what they cause.",
+    "\u26a1\ufe0f INSIGHT: Bitcoin remains the only major asset class held mostly by individuals, but ownership is expected to shift toward institutions as it matures, mirroring gold, per River. Do you think inst..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125909131472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-19T05:32:32.116007+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125916415472689",
       "topics": [
@@ -806,6 +797,16 @@
       ],
       "mode": "serious",
       "at": "2026-10-27T01:03:23.271499+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128485165472689",
+      "topics": [
+        "crypto",
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "photo": "source",
+      "at": "2026-10-27T06:06:08.357531+00:00"
     }
   ],
   "tuner": {
@@ -871,12 +872,6 @@
   },
   "last_video_post": "2026-10-27",
   "recent_fps": [
-    {
-      "fp": [
-        "bitcoin"
-      ],
-      "at": "2026-10-24T01:57:10.277022+00:00"
-    },
     {
       "fp": [
         "ECB",
@@ -1129,10 +1124,16 @@
         "trump"
       ],
       "at": "2026-10-27T01:03:23.271494+00:00"
+    },
+    {
+      "fp": [
+        "bitcoin",
+        "river"
+      ],
+      "at": "2026-10-27T06:06:08.357518+00:00"
     }
   ],
   "recent_hooks": [
-    "Seasonality_OTC prints how many years it averaged. A dashed line projects where the calendar has historically leaned, so you filter the bias first.",
     "BREAKING: Bitcoin ($BTC) and Ethereum ($ETH) CRASH as $200 million in leveraged positions get wiped out in under 60 minutes.",
     "BREAKING: US family health insurance premiums just hit a RECORD $28,303.",
     "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina officially DROPS criminal investigation into President Javier Milei over the $LIBRA memecoin scandal.",
@@ -1146,7 +1147,8 @@
     "BREAKING: \ud83d\udea8 US futures RALLY after President Trump confirms no military strike on Iran today.",
     "JUST IN: \ud83c\udde7\ud83c\uddf7 Petrobras ($PBR) CRASHES over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
     "The manual lines all 4 up: seasonality pointing up, Commercials above 80% with Large Specs below 20%. Then Commercials net long, and a Composite Score curling up from under minus 75.",
-    "JUST IN: \ud83d\udea8 Investor demand for LEVERAGE is surging as the 10 largest US leveraged equity ETFs pulled in +$12 billion over the last month."
+    "JUST IN: \ud83d\udea8 Investor demand for LEVERAGE is surging as the 10 largest US leveraged equity ETFs pulled in +$12 billion over the last month.",
+    "JUST IN: \ud83d\udea9 Bitcoin is the only major asset class still dominated by individuals, but that may change as it matures\u2014institutions could take the lead, mirroring gold. 1 major class, 1 shift. Why it matters: institutional flow could raise volatility and liquidity. #ethancole #bitcoin #finance #investing #marketnews"
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1190,7 +1192,8 @@
     "122128189269472689_1093815016827358",
     "122128265631472689_1359435720593326",
     "122128352031472689_1117431727807878",
-    "122128401321472689_2674870822960430"
+    "122128401321472689_2674870822960430",
+    "122128434789472689_1848223596521481"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
