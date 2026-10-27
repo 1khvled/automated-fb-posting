@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "78c90b4fae8f8f85",
-    "fb_id": "1264009986803820_122128565493472689",
-    "title": "\ud83d\udda5\ufe0f 69 ROUTES, 1 LOCAL TERMINAL \u2014 NO LOGIN, NO SUBSCRIPTION, NO CLOUD",
-    "link": "",
-    "mode": "serious",
-    "at": "2026-10-27T12:17:05.065580+00:00"
+    "hash": "1816f2bc765abc08",
+    "fb_id": "1264009986803820_122128640661472689",
+    "title": "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has now crashed 40% since June as bear market continues. Trillions of dollars have been wiped from China's stock markets in recent months. Yesterday, ...",
+    "link": "https://x.com/WatcherGuru/status/2115111083656548585",
+    "mode": "viral",
+    "at": "2026-10-27T18:05:27.589448+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -42,6 +42,7 @@
     "126ff52b33bd93a7",
     "144c14d5e1cf0024",
     "163b472205423d09",
+    "1816f2bc765abc08",
     "185efa1dab127fb0",
     "191614348896e501",
     "1957b710635e93a0",
@@ -335,10 +336,9 @@
   "day_counts": {
     "2026-10-25": 7,
     "2026-10-26": 5,
-    "2026-10-27": 3
+    "2026-10-27": 4
   },
   "recent_titles": [
-    "\ud83d\udd25 INSIGHT: Crypto now has more upside than the AI compute trade. Speaking with @itsciaranlyons, @jvisserlabs said he still sees three to five more years in the agentic compute story, but crypto off...",
     "Semiconductor prices are skyrocketing in the US: Producer prices for semiconductor and other electronic component manufacturing surged +26% YoY in September, their 4th-largest increase on record. T...",
     "\ud83d\udcc8 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS \u2014 RICH ABOVE 75",
     "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe...",
@@ -352,18 +352,10 @@
     "Investor appetite for leverage is through the roof: 10 largest US leveraged equity ETFs have attracted +$12 billion in inflows over the last month. This is despite the market cap of these funds fal...",
     "Trump: Tariffs don\u2019t cause inflation. They cause success, growth, and jobs. That\u2019s what they cause.",
     "\u26a1\ufe0f INSIGHT: Bitcoin remains the only major asset class held mostly by individuals, but ownership is expected to shift toward institutions as it matures, mirroring gold, per River. Do you think inst...",
-    "\ud83d\udda5\ufe0f 69 ROUTES, 1 LOCAL TERMINAL \u2014 NO LOGIN, NO SUBSCRIPTION, NO CLOUD"
+    "\ud83d\udda5\ufe0f 69 ROUTES, 1 LOCAL TERMINAL \u2014 NO LOGIN, NO SUBSCRIPTION, NO CLOUD",
+    "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has now crashed 40% since June as bear market continues. Trillions of dollars have been wiped from China's stock markets in recent months. Yesterday, ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125922529472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "split:face+inst",
-      "at": "2026-10-19T06:32:25.646997+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125927509472689",
       "topics": [
@@ -806,6 +798,15 @@
       "mode": "serious",
       "photo": "product",
       "at": "2026-10-27T12:17:05.065580+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128640661472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-27T18:05:27.589448+00:00"
     }
   ],
   "tuner": {
@@ -871,17 +872,6 @@
   },
   "last_video_post": "2026-10-27",
   "recent_fps": [
-    {
-      "fp": [
-        "AND",
-        "DASHE",
-        "OF",
-        "THE",
-        "TOOL",
-        "YEAR"
-      ],
-      "at": "2026-10-24T11:39:31.231536+00:00"
-    },
     {
       "fp": [
         "$200",
@@ -1140,10 +1130,26 @@
         "piotroski"
       ],
       "at": "2026-10-27T12:17:05.065571+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "IN",
+        "JUST",
+        "STAR",
+        "china",
+        "chinese",
+        "june",
+        "morgan",
+        "reuters",
+        "stanley",
+        "trillions",
+        "yesterday"
+      ],
+      "at": "2026-10-27T18:05:27.589436+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: US family health insurance premiums just hit a RECORD $28,303.",
     "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina officially DROPS criminal investigation into President Javier Milei over the $LIBRA memecoin scandal.",
     "\ud83d\udea8 BREAKING: Peter Schiff says Bitcoin is going to CRASH to $75,000.",
     "BREAKING: US semiconductor producer prices SURGED +26% YoY in September, marking the 4th-largest increase on record.",
@@ -1157,7 +1163,8 @@
     "The manual lines all 4 up: seasonality pointing up, Commercials above 80% with Large Specs below 20%. Then Commercials net long, and a Composite Score curling up from under minus 75.",
     "JUST IN: \ud83d\udea8 Investor demand for LEVERAGE is surging as the 10 largest US leveraged equity ETFs pulled in +$12 billion over the last month.",
     "JUST IN: \ud83d\udea9 Bitcoin is the only major asset class still dominated by individuals, but that may change as it matures\u2014institutions could take the lead, mirroring gold. 1 major class, 1 shift. Why it matters: institutional flow could raise volatility and liquidity. #ethancole #bitcoin #finance #investing #marketnews",
-    "StockerAI runs on your own machine: DCF and WACC, Monte Carlo, Altman Z, Piotroski, Beneish, DuPont. Add the scenario lab, committee and red flags, and quotes polling every 30 seconds."
+    "StockerAI runs on your own machine: DCF and WACC, Monte Carlo, Altman Z, Piotroski, Beneish, DuPont. Add the scenario lab, committee and red flags, and quotes polling every 30 seconds.",
+    "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has CRASHED 40% since June as a brutal bear market deepens."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1203,7 +1210,8 @@
     "122128352031472689_1117431727807878",
     "122128401321472689_2674870822960430",
     "122128434789472689_1848223596521481",
-    "122128485165472689_4611109529159656"
+    "122128485165472689_4611109529159656",
+    "122128565493472689_2080018959314685"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
