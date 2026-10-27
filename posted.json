@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "94aaf39d1af68e38",
-    "fb_id": "1264009986803820_122128485165472689",
-    "title": "\u26a1\ufe0f INSIGHT: Bitcoin remains the only major asset class held mostly by individuals, but ownership is expected to shift toward institutions as it matures, mirroring gold, per River. Do you think inst...",
-    "link": "https://x.com/Cointelegraph/status/2114960500345679873",
+    "hash": "78c90b4fae8f8f85",
+    "fb_id": "1264009986803820_122128565493472689",
+    "title": "\ud83d\udda5\ufe0f 69 ROUTES, 1 LOCAL TERMINAL \u2014 NO LOGIN, NO SUBSCRIPTION, NO CLOUD",
+    "link": "",
     "mode": "serious",
-    "at": "2026-10-27T06:06:08.357531+00:00"
+    "at": "2026-10-27T12:17:05.065580+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -152,6 +152,7 @@
     "7509d90fd4de9e6c",
     "7531dfadc0f9f7e0",
     "77abba66d602fa6d",
+    "78c90b4fae8f8f85",
     "79bf8126b948e64b",
     "79da5906ca42200c",
     "7bd03f4783b9b2bb",
@@ -334,10 +335,9 @@
   "day_counts": {
     "2026-10-25": 7,
     "2026-10-26": 5,
-    "2026-10-27": 2
+    "2026-10-27": 3
   },
   "recent_titles": [
-    "JUST IN: Peter Schiff says Bitcoin is going to crash to $75,000. \"It's going to be a very long weekend for Bitcoiners.\"",
     "\ud83d\udd25 INSIGHT: Crypto now has more upside than the AI compute trade. Speaking with @itsciaranlyons, @jvisserlabs said he still sees three to five more years in the agentic compute story, but crypto off...",
     "Semiconductor prices are skyrocketing in the US: Producer prices for semiconductor and other electronic component manufacturing surged +26% YoY in September, their 4th-largest increase on record. T...",
     "\ud83d\udcc8 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS \u2014 RICH ABOVE 75",
@@ -351,18 +351,10 @@
     "\u2705 4 CONFIRMATIONS BEFORE A LONG: SEASONALITY, COT INDEX, COT REPORT, VALUATION",
     "Investor appetite for leverage is through the roof: 10 largest US leveraged equity ETFs have attracted +$12 billion in inflows over the last month. This is despite the market cap of these funds fal...",
     "Trump: Tariffs don\u2019t cause inflation. They cause success, growth, and jobs. That\u2019s what they cause.",
-    "\u26a1\ufe0f INSIGHT: Bitcoin remains the only major asset class held mostly by individuals, but ownership is expected to shift toward institutions as it matures, mirroring gold, per River. Do you think inst..."
+    "\u26a1\ufe0f INSIGHT: Bitcoin remains the only major asset class held mostly by individuals, but ownership is expected to shift toward institutions as it matures, mirroring gold, per River. Do you think inst...",
+    "\ud83d\udda5\ufe0f 69 ROUTES, 1 LOCAL TERMINAL \u2014 NO LOGIN, NO SUBSCRIPTION, NO CLOUD"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122125916415472689",
-      "topics": [
-        "inflation"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-19T06:01:34.148528+00:00"
-    },
     {
       "fb_id": "1264009986803820_122125922529472689",
       "topics": [
@@ -807,6 +799,13 @@
       "mode": "serious",
       "photo": "source",
       "at": "2026-10-27T06:06:08.357531+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128565493472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "product",
+      "at": "2026-10-27T12:17:05.065580+00:00"
     }
   ],
   "tuner": {
@@ -872,14 +871,6 @@
   },
   "last_video_post": "2026-10-27",
   "recent_fps": [
-    {
-      "fp": [
-        "ECB",
-        "finanza",
-        "milano"
-      ],
-      "at": "2026-10-24T06:42:39.882645+00:00"
-    },
     {
       "fp": [
         "AND",
@@ -1131,10 +1122,27 @@
         "river"
       ],
       "at": "2026-10-27T06:06:08.357518+00:00"
+    },
+    {
+      "fp": [
+        "CLOUD",
+        "DCF",
+        "LOCAL",
+        "LOGIN",
+        "NO",
+        "ROUTE",
+        "WACC",
+        "add",
+        "altman",
+        "beneish",
+        "carlo",
+        "monte",
+        "piotroski"
+      ],
+      "at": "2026-10-27T12:17:05.065571+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: Bitcoin ($BTC) and Ethereum ($ETH) CRASH as $200 million in leveraged positions get wiped out in under 60 minutes.",
     "BREAKING: US family health insurance premiums just hit a RECORD $28,303.",
     "JUST IN: \ud83c\udde6\ud83c\uddf7 Argentina officially DROPS criminal investigation into President Javier Milei over the $LIBRA memecoin scandal.",
     "\ud83d\udea8 BREAKING: Peter Schiff says Bitcoin is going to CRASH to $75,000.",
@@ -1148,7 +1156,8 @@
     "JUST IN: \ud83c\udde7\ud83c\uddf7 Petrobras ($PBR) CRASHES over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
     "The manual lines all 4 up: seasonality pointing up, Commercials above 80% with Large Specs below 20%. Then Commercials net long, and a Composite Score curling up from under minus 75.",
     "JUST IN: \ud83d\udea8 Investor demand for LEVERAGE is surging as the 10 largest US leveraged equity ETFs pulled in +$12 billion over the last month.",
-    "JUST IN: \ud83d\udea9 Bitcoin is the only major asset class still dominated by individuals, but that may change as it matures\u2014institutions could take the lead, mirroring gold. 1 major class, 1 shift. Why it matters: institutional flow could raise volatility and liquidity. #ethancole #bitcoin #finance #investing #marketnews"
+    "JUST IN: \ud83d\udea9 Bitcoin is the only major asset class still dominated by individuals, but that may change as it matures\u2014institutions could take the lead, mirroring gold. 1 major class, 1 shift. Why it matters: institutional flow could raise volatility and liquidity. #ethancole #bitcoin #finance #investing #marketnews",
+    "StockerAI runs on your own machine: DCF and WACC, Monte Carlo, Altman Z, Piotroski, Beneish, DuPont. Add the scenario lab, committee and red flags, and quotes polling every 30 seconds."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1193,7 +1202,8 @@
     "122128265631472689_1359435720593326",
     "122128352031472689_1117431727807878",
     "122128401321472689_2674870822960430",
-    "122128434789472689_1848223596521481"
+    "122128434789472689_1848223596521481",
+    "122128485165472689_4611109529159656"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
@@ -1201,9 +1211,10 @@
     "en-02-smart-money-vs-retail",
     "en-03-seasonality-year-average",
     "en-04-valuation-composite-score",
-    "en-05-four-confirmation-setup"
+    "en-05-four-confirmation-setup",
+    "en-06-local-bloomberg-terminal"
   ],
   "product_posts_day": {
-    "2026-10-26": 1
+    "2026-10-27": 1
   }
 }
