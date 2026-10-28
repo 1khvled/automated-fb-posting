@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "60cbbd6a62948e8f",
-    "fb_id": "1264009986803820_122128687497472689",
-    "title": "BREAKING: Brazil's -19.8% stock market crash on Monday was one of the rarest market events in the last two decades, according to our analysis. Brazil's EWZ ETF plunged -19.8% on October 26th, marki...",
-    "link": "https://x.com/KobeissiLetter/status/2115117452644221274",
+    "hash": "938c6403ca43d40e",
+    "fb_id": "1264009986803820_122128721967472689",
+    "title": "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
+    "link": "https://x.com/AnthropicAI/status/2115207004293853358",
     "mode": "viral",
-    "at": "2026-10-27T22:16:51.688097+00:00"
+    "at": "2026-10-28T01:31:00.820542+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -185,6 +185,7 @@
     "921b6370813ac363",
     "9269b97c2207fd55",
     "92fee29909312f3a",
+    "938c6403ca43d40e",
     "944111dc08b1e6b8",
     "94aaf39d1af68e38",
     "959bd28d9c00ec90",
@@ -335,12 +336,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-25": 7,
     "2026-10-26": 5,
-    "2026-10-27": 5
+    "2026-10-27": 5,
+    "2026-10-28": 1
   },
   "recent_titles": [
-    "\ud83d\udcc8 VALUATION RANKS ANY ASSET VS UP TO 4 BENCHMARKS \u2014 RICH ABOVE 75",
     "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe...",
     "POV: You invested just $10 a month into Bitcoin since it launched.",
     "Gold stocks have rarely been this oversold. ~92% of stocks in the gold miners ETF, $GDX, are now trading below their 50-day moving average, the highest proportion since late July. This figure has r...",
@@ -354,17 +354,10 @@
     "\u26a1\ufe0f INSIGHT: Bitcoin remains the only major asset class held mostly by individuals, but ownership is expected to shift toward institutions as it matures, mirroring gold, per River. Do you think inst...",
     "\ud83d\udda5\ufe0f 69 ROUTES, 1 LOCAL TERMINAL \u2014 NO LOGIN, NO SUBSCRIPTION, NO CLOUD",
     "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has now crashed 40% since June as bear market continues. Trillions of dollars have been wiped from China's stock markets in recent months. Yesterday, ...",
-    "BREAKING: Brazil's -19.8% stock market crash on Monday was one of the rarest market events in the last two decades, according to our analysis. Brazil's EWZ ETF plunged -19.8% on October 26th, marki..."
+    "BREAKING: Brazil's -19.8% stock market crash on Monday was one of the rarest market events in the last two decades, according to our analysis. Brazil's EWZ ETF plunged -19.8% on October 26th, marki...",
+    "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off."
   ],
   "history": [
-    {
-      "fb_id": "2900029193699565",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "at": "2026-10-21T15:31:39.278256+00:00"
-    },
     {
       "fb_id": "1264009986803820_122126702091472689",
       "topics": [
@@ -809,31 +802,32 @@
       "mode": "viral",
       "photo": "split:scene",
       "at": "2026-10-27T22:16:51.688097+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128721967472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "photo": "split:face+inst",
+      "at": "2026-10-28T01:31:00.820542+00:00"
     }
   ],
   "tuner": {
     "topics": {
-      "gold_oil": {
-        "n": 4,
-        "e": 62
-      },
       "inflation": {
-        "n": 4,
-        "e": 62
-      },
-      "crypto": {
-        "n": 8,
-        "e": 74
-      },
-      "stocks": {
         "n": 4,
         "e": 12
       },
-      "unknown": {
+      "crypto": {
+        "n": 8,
+        "e": 24
+      },
+      "ai": {
         "n": 3,
         "e": 9
       },
-      "ai": {
+      "unknown": {
         "n": 3,
         "e": 9
       },
@@ -841,20 +835,28 @@
         "n": 1,
         "e": 3
       },
+      "stocks": {
+        "n": 5,
+        "e": 15
+      },
+      "gold_oil": {
+        "n": 4,
+        "e": 12
+      },
       "power": {
-        "n": 3,
-        "e": 9
+        "n": 4,
+        "e": 12
       }
     },
     "mult": {
-      "gold_oil": 1.6,
-      "ai": 0.69,
-      "stocks": 0.65,
-      "crypto": 1.07,
-      "inflation": 1.55,
-      "power": 0.69
+      "gold_oil": 1.42,
+      "ai": 0.78,
+      "stocks": 0.75,
+      "crypto": 1.05,
+      "inflation": 1.39,
+      "power": 0.78
     },
-    "updated": "2026-10-27"
+    "updated": "2026-10-28"
   },
   "comment_review": {
     "posts": 8,
@@ -866,28 +868,14 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "How much would a $10 monthly Bitcoin investment actually be worth today?",
-      "Is this extreme oversold level a buying opportunity for gold stocks or a sign to stay away?",
-      "Will AI-generated media like this create viable investment opportunities in the entertainment sector anytime soon?"
+      "How will permanently higher European energy costs impact my international stock portfolio?",
+      "Given these technical indicators aligning, is now the right time to increase my long position, or should I wait for a price confirmation?",
+      "Are you currently using leveraged ETFs to amplify your market gains, or do you view them as too risky right now?"
     ],
-    "updated": "2026-10-27"
+    "updated": "2026-10-28"
   },
   "last_video_post": "2026-10-27",
   "recent_fps": [
-    {
-      "fp": [
-        "$1,300.",
-        "$1,300...",
-        "$1,303",
-        "$28,303.",
-        "$5,884,",
-        "CPI",
-        "US",
-        "since",
-        "this"
-      ],
-      "at": "2026-10-24T17:43:57.546935+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1151,10 +1139,17 @@
         "under"
       ],
       "at": "2026-10-27T22:16:51.688084+00:00"
+    },
+    {
+      "fp": [
+        "USGSA",
+        "claude",
+        "under"
+      ],
+      "at": "2026-10-28T01:31:00.820533+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 BREAKING: Peter Schiff says Bitcoin is going to CRASH to $75,000.",
     "BREAKING: US semiconductor producer prices SURGED +26% YoY in September, marking the 4th-largest increase on record.",
     "The Valuation Tool compares an asset's momentum against the dollar, gold, bonds and the index by default. The active symbols average into one Composite Score line.",
     "JUST IN: \ud83d\udea8 20% of S&P 500 companies report EARNINGS this week alongside massive economic data releases.",
@@ -1168,7 +1163,8 @@
     "JUST IN: \ud83d\udea9 Bitcoin is the only major asset class still dominated by individuals, but that may change as it matures\u2014institutions could take the lead, mirroring gold. 1 major class, 1 shift. Why it matters: institutional flow could raise volatility and liquidity. #ethancole #bitcoin #finance #investing #marketnews",
     "StockerAI runs on your own machine: DCF and WACC, Monte Carlo, Altman Z, Piotroski, Beneish, DuPont. Add the scenario lab, committee and red flags, and quotes polling every 30 seconds.",
     "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has CRASHED 40% since June as a brutal bear market deepens.",
-    "BREAKING: Brazil stock market suffers historic -19.8% CRASH in a single day."
+    "BREAKING: Brazil stock market suffers historic -19.8% CRASH in a single day.",
+    "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1216,7 +1212,8 @@
     "122128434789472689_1848223596521481",
     "122128485165472689_4611109529159656",
     "122128565493472689_2080018959314685",
-    "122128640661472689_2997636547295987"
+    "122128640661472689_2997636547295987",
+    "122128687497472689_2358254441593404"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
