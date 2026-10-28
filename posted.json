@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "69fb0fde179639e6",
-    "fb_id": "1264009986803820_122128925097472689",
-    "title": "Turkish President Erdogan held a phone call with Trump to discuss bilateral relations and regional and global developments. Erdogan stressed the importance of strengthening T\u00fcrkiye-U.S. ties, close...",
-    "link": "https://x.com/clashreport/status/2115516910523609188",
+    "hash": "f1b4ef6fd3918287",
+    "fb_id": "1264009986803820_122128964319472689",
+    "title": "\ud83d\udea8 LATEST: Public companies now hold 1.3 million $BTC, up 31% in 14 months, with Strategy accounting for 71% of that growth, according to CryptoQuant.",
+    "link": "https://x.com/Cointelegraph/status/2115579466646773841",
     "mode": "serious",
-    "at": "2026-10-28T19:36:56.379485+00:00"
+    "at": "2026-10-28T23:30:29.909551+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -310,6 +310,7 @@
     "ef9e9adaee7d4177",
     "efb052f68304f89a",
     "f041ccdd0f70088f",
+    "f1b4ef6fd3918287",
     "f33418d042ff8358",
     "f34ea8d2b87d4290",
     "f36a9072ea0136d2",
@@ -341,10 +342,9 @@
   "day_counts": {
     "2026-10-26": 5,
     "2026-10-27": 5,
-    "2026-10-28": 4
+    "2026-10-28": 5
   },
   "recent_titles": [
-    "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019",
     "BREAKING: US stock market futures rise at the open after President Trump announces that he will not be attacking Iran today: 1. S&P 500: +0.5% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.4% 4. WTI Crude:...",
     "JUST IN: \ud83c\udde7\ud83c\uddf7 Brazil's largest oil company Petrobras $PBR crashes over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
     "Zelensky: I do not currently see any demand from the major European economies to lift sanctions or restore energy alliances with the Russian Federation. I don't see that, because we would react. I ...",
@@ -358,19 +358,10 @@
     "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 5-minute BTC, ETH, SOL and XRP up/down markets on its US app.",
     "\ud83d\udcc9 Nvidia ($NVDA) AT $224.41 \u2014 THE MODEL'S FAIR VALUE IS $266.71",
-    "Turkish President Erdogan held a phone call with Trump to discuss bilateral relations and regional and global developments. Erdogan stressed the importance of strengthening T\u00fcrkiye-U.S. ties, close..."
+    "Turkish President Erdogan held a phone call with Trump to discuss bilateral relations and regional and global developments. Erdogan stressed the importance of strengthening T\u00fcrkiye-U.S. ties, close...",
+    "\ud83d\udea8 LATEST: Public companies now hold 1.3 million $BTC, up 31% in 14 months, with Strategy accounting for 71% of that growth, according to CryptoQuant."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122126712807472689",
-      "topics": [
-        "crypto",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "card",
-      "at": "2026-10-21T16:38:57.033830+00:00"
-    },
     {
       "fb_id": "1264009986803820_122126736339472689",
       "topics": [
@@ -810,6 +801,15 @@
       "mode": "serious",
       "photo": "source",
       "at": "2026-10-28T19:36:56.379485+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128964319472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "source",
+      "at": "2026-10-28T23:30:29.909551+00:00"
     }
   ],
   "tuner": {
@@ -875,20 +875,6 @@
   },
   "last_video_post": "2026-10-28",
   "recent_fps": [
-    {
-      "fp": [
-        "US",
-        "index",
-        "july",
-        "price",
-        "producer",
-        "semiconductor",
-        "september",
-        "since",
-        "this"
-      ],
-      "at": "2026-10-25T05:14:29.494074+00:00"
-    },
     {
       "fp": [
         "ABOVE",
@@ -1162,10 +1148,18 @@
         "yemen"
       ],
       "at": "2026-10-28T19:36:56.379472+00:00"
+    },
+    {
+      "fp": [
+        "BTC",
+        "LATEST",
+        "public",
+        "strategy"
+      ],
+      "at": "2026-10-28T23:30:29.909521+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 20% of S&P 500 companies report EARNINGS this week alongside massive economic data releases.",
     "JUST IN: Investing just $10 a month into Bitcoin ($BTC) since launch yields a MASSIVE portfolio today.",
     "JUST IN: Gold stocks face a massive SELLOFF as 92% of gold miners ETF ($GDX) holdings crash below their 50-day moving average.",
     "JUST IN: Grok drops the first 7 MINUTES of its AI-generated video project Odyssey.",
@@ -1179,7 +1173,8 @@
     "BREAKING: Brazil stock market suffers historic -19.8% CRASH in a single day.",
     "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
     "Its DCF puts intrinsic value at $258.07 on a 15.0% WACC and 2.5% terminal growth. A 1,000-trial Monte Carlo P50 lands on $258.07, while 57 analysts carry a $325.98 consensus.",
-    "JUST IN: \ud83c\uddf9\ud83c\uddf7 Turkish President Erdogan spoke directly with President Trump today in a major diplomatic move."
+    "JUST IN: \ud83c\uddf9\ud83c\uddf7 Turkish President Erdogan spoke directly with President Trump today in a major diplomatic move.",
+    "\ud83d\udea8 BREAKING: Public companies now hold 1.3M BITCOIN, jumping 31% over the last 14 months."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1231,7 +1226,8 @@
     "122128687497472689_2358254441593404",
     "122128721967472689_1102519572494760",
     "122128782441472689_1684687416610917",
-    "122128867173472689_1725195538577044"
+    "122128867173472689_1725195538577044",
+    "122128925097472689_1596338338402608"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
