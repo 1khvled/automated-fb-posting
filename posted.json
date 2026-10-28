@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "73924fe355d0f790",
-    "fb_id": "1759994198596339",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 5-minute BTC, ETH, SOL and XRP up/down markets on its US app.",
-    "link": "https://x.com/WatcherGuru/status/2115180688009785645",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-10-28T07:21:19.436300+00:00"
+    "hash": "3277f466d211d722",
+    "fb_id": "1264009986803820_122128867173472689",
+    "title": "\ud83d\udcc9 Nvidia ($NVDA) AT $224.41 \u2014 THE MODEL'S FAIR VALUE IS $266.71",
+    "link": "",
+    "mode": "serious",
+    "at": "2026-10-28T14:10:04.996478+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -78,6 +77,7 @@
     "2fefdaf693a6683e",
     "31edcb10d3042c04",
     "321b0f3bbbfcc499",
+    "3277f466d211d722",
     "328dc2f45f9f3746",
     "334c8b5f3a1b20db",
     "33cee8ad7b0e1683",
@@ -340,10 +340,9 @@
   "day_counts": {
     "2026-10-26": 5,
     "2026-10-27": 5,
-    "2026-10-28": 2
+    "2026-10-28": 3
   },
   "recent_titles": [
-    "POV: You invested just $10 a month into Bitcoin since it launched.",
     "Gold stocks have rarely been this oversold. ~92% of stocks in the gold miners ETF, $GDX, are now trading below their 50-day moving average, the highest proportion since late July. This figure has r...",
     "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019",
     "BREAKING: US stock market futures rise at the open after President Trump announces that he will not be attacking Iran today: 1. S&P 500: +0.5% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.4% 4. WTI Crude:...",
@@ -357,18 +356,10 @@
     "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has now crashed 40% since June as bear market continues. Trillions of dollars have been wiped from China's stock markets in recent months. Yesterday, ...",
     "BREAKING: Brazil's -19.8% stock market crash on Monday was one of the rarest market events in the last two decades, according to our analysis. Brazil's EWZ ETF plunged -19.8% on October 26th, marki...",
     "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 5-minute BTC, ETH, SOL and XRP up/down markets on its US app."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 5-minute BTC, ETH, SOL and XRP up/down markets on its US app.",
+    "\ud83d\udcc9 Nvidia ($NVDA) AT $224.41 \u2014 THE MODEL'S FAIR VALUE IS $266.71"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122126706237472689",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "text-only",
-      "at": "2026-10-21T16:06:54.099913+00:00"
-    },
     {
       "fb_id": "1264009986803820_122126708889472689",
       "topics": [
@@ -810,6 +801,13 @@
       ],
       "mode": "viral",
       "at": "2026-10-28T07:21:19.436300+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122128867173472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "product",
+      "at": "2026-10-28T14:10:04.996478+00:00"
     }
   ],
   "tuner": {
@@ -875,18 +873,6 @@
   },
   "last_video_post": "2026-10-28",
   "recent_fps": [
-    {
-      "fp": [
-        "$75,000.",
-        "IN",
-        "JUST",
-        "bitcoin",
-        "bitcoiners",
-        "peter",
-        "schiff"
-      ],
-      "at": "2026-10-24T22:15:23.479520+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1147,10 +1133,31 @@
         "polymarket"
       ],
       "at": "2026-10-28T07:21:19.436290+00:00"
+    },
+    {
+      "fp": [
+        "$224.41",
+        "$258.07",
+        "$258.07,",
+        "$266.71",
+        "$325.98",
+        "AT",
+        "DCF",
+        "FAIR",
+        "IS",
+        "MODEL",
+        "NVDA",
+        "THE",
+        "VALUE",
+        "WACC",
+        "carlo",
+        "monte",
+        "nvidia"
+      ],
+      "at": "2026-10-28T14:10:04.996464+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: US semiconductor producer prices SURGED +26% YoY in September, marking the 4th-largest increase on record.",
     "The Valuation Tool compares an asset's momentum against the dollar, gold, bonds and the index by default. The active symbols average into one Composite Score line.",
     "JUST IN: \ud83d\udea8 20% of S&P 500 companies report EARNINGS this week alongside massive economic data releases.",
     "JUST IN: Investing just $10 a month into Bitcoin ($BTC) since launch yields a MASSIVE portfolio today.",
@@ -1164,7 +1171,8 @@
     "StockerAI runs on your own machine: DCF and WACC, Monte Carlo, Altman Z, Piotroski, Beneish, DuPont. Add the scenario lab, committee and red flags, and quotes polling every 30 seconds.",
     "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has CRASHED 40% since June as a brutal bear market deepens.",
     "BREAKING: Brazil stock market suffers historic -19.8% CRASH in a single day.",
-    "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off."
+    "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
+    "Its DCF puts intrinsic value at $258.07 on a 15.0% WACC and 2.5% terminal growth. A 1,000-trial Monte Carlo P50 lands on $258.07, while 57 analysts carry a $325.98 consensus."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1214,7 +1222,8 @@
     "122128565493472689_2080018959314685",
     "122128640661472689_2997636547295987",
     "122128687497472689_2358254441593404",
-    "122128721967472689_1102519572494760"
+    "122128721967472689_1102519572494760",
+    "122128782441472689_1684687416610917"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
@@ -1223,9 +1232,10 @@
     "en-03-seasonality-year-average",
     "en-04-valuation-composite-score",
     "en-05-four-confirmation-setup",
-    "en-06-local-bloomberg-terminal"
+    "en-06-local-bloomberg-terminal",
+    "en-07-nvda-model-fair-value"
   ],
   "product_posts_day": {
-    "2026-10-27": 1
+    "2026-10-28": 1
   }
 }
