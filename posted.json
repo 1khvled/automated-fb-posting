@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "938c6403ca43d40e",
-    "fb_id": "1264009986803820_122128721967472689",
-    "title": "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
-    "link": "https://x.com/AnthropicAI/status/2115207004293853358",
+    "hash": "73924fe355d0f790",
+    "fb_id": "1759994198596339",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 5-minute BTC, ETH, SOL and XRP up/down markets on its US app.",
+    "link": "https://x.com/WatcherGuru/status/2115180688009785645",
     "mode": "viral",
-    "at": "2026-10-28T01:31:00.820542+00:00"
+    "kind": "video",
+    "at": "2026-10-28T07:21:19.436300+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -147,6 +148,7 @@
     "7287ed7fa4d9ebb6",
     "73449aac208c1916",
     "736434c78c60fd62",
+    "73924fe355d0f790",
     "73f5d773b930a5df",
     "73f99a65bb9da86d",
     "740d6cff7ab3cb2e",
@@ -338,10 +340,9 @@
   "day_counts": {
     "2026-10-26": 5,
     "2026-10-27": 5,
-    "2026-10-28": 1
+    "2026-10-28": 2
   },
   "recent_titles": [
-    "Key Events This Week: 1. September New Home Sales data - Tuesday 2. October Fed Meeting and Rate Decision - Wednesday 3. Microsoft, $MSFT, and Alphabet, $GOOGL, Report Earnings - Wednesday 4. Septe...",
     "POV: You invested just $10 a month into Bitcoin since it launched.",
     "Gold stocks have rarely been this oversold. ~92% of stocks in the gold miners ETF, $GDX, are now trading below their 50-day moving average, the highest proportion since late July. This figure has r...",
     "Grok releases the first seven minutes of its AI-generated \u2018Odyssey\u2019",
@@ -355,20 +356,10 @@
     "\ud83d\udda5\ufe0f 69 ROUTES, 1 LOCAL TERMINAL \u2014 NO LOGIN, NO SUBSCRIPTION, NO CLOUD",
     "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has now crashed 40% since June as bear market continues. Trillions of dollars have been wiped from China's stock markets in recent months. Yesterday, ...",
     "BREAKING: Brazil's -19.8% stock market crash on Monday was one of the rarest market events in the last two decades, according to our analysis. Brazil's EWZ ETF plunged -19.8% on October 26th, marki...",
-    "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off."
+    "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 5-minute BTC, ETH, SOL and XRP up/down markets on its US app."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122126702091472689",
-      "topics": [
-        "gold_oil",
-        "inflation",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "split:face",
-      "at": "2026-10-21T15:47:50.914640+00:00"
-    },
     {
       "fb_id": "1264009986803820_122126706237472689",
       "topics": [
@@ -811,6 +802,14 @@
       "mode": "viral",
       "photo": "split:face+inst",
       "at": "2026-10-28T01:31:00.820542+00:00"
+    },
+    {
+      "fb_id": "1759994198596339",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-10-28T07:21:19.436300+00:00"
     }
   ],
   "tuner": {
@@ -874,20 +873,8 @@
     ],
     "updated": "2026-10-28"
   },
-  "last_video_post": "2026-10-27",
+  "last_video_post": "2026-10-28",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "LIBRA",
-        "argentina",
-        "javier",
-        "milei",
-        "president"
-      ],
-      "at": "2026-10-24T20:00:02.936114+00:00"
-    },
     {
       "fp": [
         "$75,000.",
@@ -1147,6 +1134,19 @@
         "under"
       ],
       "at": "2026-10-28T01:31:00.820533+00:00"
+    },
+    {
+      "fp": [
+        "BTC",
+        "ETH",
+        "IN",
+        "JUST",
+        "SOL",
+        "US",
+        "XRP",
+        "polymarket"
+      ],
+      "at": "2026-10-28T07:21:19.436290+00:00"
     }
   ],
   "recent_hooks": [
@@ -1213,7 +1213,8 @@
     "122128485165472689_4611109529159656",
     "122128565493472689_2080018959314685",
     "122128640661472689_2997636547295987",
-    "122128687497472689_2358254441593404"
+    "122128687497472689_2358254441593404",
+    "122128721967472689_1102519572494760"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
