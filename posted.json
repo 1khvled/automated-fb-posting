@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "a213d2123000aa56",
-    "fb_id": "1264009986803820_122129203899472689",
-    "title": "Today, we\u2019re sharing a look at our expanded system for monitoring frontier models at OpenAI, which in September helped us catch a model\u2019s attempt to access the live internet during training. Since ...",
-    "link": "https://x.com/OpenAI/status/2115896329645723836",
-    "mode": "viral",
-    "at": "2026-10-29T21:11:03.253821+00:00"
+    "hash": "8b28fa11f665d360",
+    "fb_id": "1264009986803820_122129240355472689",
+    "title": "BREAKING: Bitcoin falls below $77,000 and ETH falls below $2,200 after Binance confirms that they have been hacked. This is looking like it will be the biggest hack in crypto history.",
+    "link": "https://x.com/KobeissiLetter/status/2115967060530594093",
+    "mode": "serious",
+    "at": "2026-10-30T01:03:58.123824+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -184,6 +184,7 @@
     "89ac828e8f5cead9",
     "89f910e39140c0f6",
     "8ad57dc874ac363d",
+    "8b28fa11f665d360",
     "8c979261e3d4a088",
     "8f009f9471b8fe50",
     "90475a1c74fc1067",
@@ -344,12 +345,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-27": 5,
     "2026-10-28": 5,
-    "2026-10-29": 4
+    "2026-10-29": 4,
+    "2026-10-30": 1
   },
   "recent_titles": [
-    "Investor appetite for leverage is through the roof: 10 largest US leveraged equity ETFs have attracted +$12 billion in inflows over the last month. This is despite the market cap of these funds fal...",
     "Trump: Tariffs don\u2019t cause inflation. They cause success, growth, and jobs. That\u2019s what they cause.",
     "\u26a1\ufe0f INSIGHT: Bitcoin remains the only major asset class held mostly by individuals, but ownership is expected to shift toward institutions as it matures, mirroring gold, per River. Do you think inst...",
     "\ud83d\udda5\ufe0f 69 ROUTES, 1 LOCAL TERMINAL \u2014 NO LOGIN, NO SUBSCRIPTION, NO CLOUD",
@@ -363,19 +363,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Fed Chair Kevin Warsh says \"inflation is too high.\"",
     "\ud83d\udd0e 21 SCREENER FILTERS, OR JUST ASK IN PLAIN ENGLISH",
     "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches $1.5 billion Bitcoin investment strategy.",
-    "Today, we\u2019re sharing a look at our expanded system for monitoring frontier models at OpenAI, which in September helped us catch a model\u2019s attempt to access the live internet during training. Since ..."
+    "Today, we\u2019re sharing a look at our expanded system for monitoring frontier models at OpenAI, which in September helped us catch a model\u2019s attempt to access the live internet during training. Since ...",
+    "BREAKING: Bitcoin falls below $77,000 and ETH falls below $2,200 after Binance confirms that they have been hacked. This is looking like it will be the biggest hack in crypto history."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122126762343472689",
-      "topics": [
-        "crypto",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "face",
-      "at": "2026-10-21T20:09:40.624399+00:00"
-    },
     {
       "fb_id": "1264009986803820_122126763369472689",
       "topics": [],
@@ -811,52 +802,61 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-10-29T21:11:03.253821+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122129240355472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-10-30T01:03:58.123824+00:00"
     }
   ],
   "tuner": {
     "topics": {
+      "ai": {
+        "n": 4,
+        "e": 12
+      },
+      "gold_oil": {
+        "n": 4,
+        "e": 12
+      },
+      "power": {
+        "n": 5,
+        "e": 15
+      },
+      "stocks": {
+        "n": 4,
+        "e": 12
+      },
       "unknown": {
         "n": 4,
         "e": 12
       },
-      "fed": {
-        "n": 1,
-        "e": 3
+      "crypto": {
+        "n": 6,
+        "e": 18
       },
       "inflation": {
         "n": 2,
         "e": 6
       },
-      "stocks": {
-        "n": 5,
-        "e": 15
-      },
-      "crypto": {
-        "n": 7,
-        "e": 21
-      },
-      "gold_oil": {
-        "n": 5,
-        "e": 15
-      },
-      "ai": {
-        "n": 3,
-        "e": 9
-      },
-      "power": {
-        "n": 5,
-        "e": 15
+      "fed": {
+        "n": 1,
+        "e": 3
       }
     },
     "mult": {
-      "gold_oil": 1.29,
-      "ai": 0.85,
-      "stocks": 0.82,
-      "crypto": 1.03,
-      "inflation": 1.27,
-      "power": 0.85
+      "gold_oil": 1.2,
+      "ai": 0.9,
+      "stocks": 0.87,
+      "crypto": 1.02,
+      "inflation": 1.19,
+      "power": 0.9
     },
-    "updated": "2026-10-29"
+    "updated": "2026-10-30"
   },
   "comment_review": {
     "posts": 8,
@@ -868,22 +868,14 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "Does running these heavy financial models locally require a high-end computer setup, or will a standard laptop handle it smoothly?",
-      "Is this steep drop in Chinese tech a warning sign to pull out of emerging market funds, or a rare buying opportunity?",
-      "Should I hold onto my EWZ shares and wait for a recovery, or cut my losses now?"
+      "Will you be using Polymarket's new 5-minute price swing markets to trade crypto volatility, or do you view ultra-short-term betting as too risky?",
+      "Given the gap between the DCF valuation and the analyst consensus, which target price aligns closer to your own valuation of Nvidia?",
+      "How will potential oil supply disruptions in the Strait of Hormuz impact my energy stocks and gas prices in the coming weeks?"
     ],
-    "updated": "2026-10-29"
+    "updated": "2026-10-30"
   },
   "last_video_post": "2026-10-29",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "grok",
-        "odyssey"
-      ],
-      "at": "2026-10-25T22:13:48.319396+00:00"
-    },
     {
       "fp": [
         "US",
@@ -1133,10 +1125,20 @@
         "today"
       ],
       "at": "2026-10-29T21:11:03.253809+00:00"
+    },
+    {
+      "fp": [
+        "$2,200",
+        "$77,000",
+        "ETH",
+        "binance",
+        "bitcoin",
+        "this"
+      ],
+      "at": "2026-10-30T01:03:58.123811+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83d\udea8 US futures RALLY after President Trump confirms no military strike on Iran today.",
     "JUST IN: \ud83c\udde7\ud83c\uddf7 Petrobras ($PBR) CRASHES over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
     "The manual lines all 4 up: seasonality pointing up, Commercials above 80% with Large Specs below 20%. Then Commercials net long, and a Composite Score curling up from under minus 75.",
     "JUST IN: \ud83d\udea8 Investor demand for LEVERAGE is surging as the 10 largest US leveraged equity ETFs pulled in +$12 billion over the last month.",
@@ -1150,7 +1152,8 @@
     "\ud83d\udea8 BREAKING: Public companies now hold 1.3M BITCOIN, jumping 31% over the last 14 months.",
     "Set P/E, forward P/E, PEG, P/S, P/B, EV/EBITDA, ROE, D/E, F-Score, beta, payout and short interest. Or type the screen in words and let the AI build it.",
     "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches a massive $1.5 BILLION Bitcoin strategy.",
-    "\ud83d\udea8 BREAKING: OpenAI ($OPENAI) catches a frontier AI model attempting an UNAPPROVED live internet escape during training."
+    "\ud83d\udea8 BREAKING: OpenAI ($OPENAI) catches a frontier AI model attempting an UNAPPROVED live internet escape during training.",
+    "\ud83d\udea8 BREAKING: Crypto CRASH as Binance confirms it was hacked, triggering a massive market selloff."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1207,7 +1210,8 @@
     "122128964319472689_1659071539354882",
     "122128994259472689_1122185650279126",
     "122129065395472689_1429612298724283",
-    "122129152023472689_3134873556844154"
+    "122129152023472689_3134873556844154",
+    "122129203899472689_1468446498711602"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
