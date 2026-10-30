@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "8b28fa11f665d360",
-    "fb_id": "1264009986803820_122129240355472689",
-    "title": "BREAKING: Bitcoin falls below $77,000 and ETH falls below $2,200 after Binance confirms that they have been hacked. This is looking like it will be the biggest hack in crypto history.",
-    "link": "https://x.com/KobeissiLetter/status/2115967060530594093",
+    "hash": "867ce1ba4a6f830b",
+    "fb_id": "1264009986803820_122129376177472689",
+    "title": "\ud83c\udf99\ufe0f Is BTC set to outperform ETH in the near term? Markus Thielen (@markus10x), founder of @10xresearch, tells @itsciaranlyons why he\u2019s not \u201csuper optimistic\u201d on Ethereum right now, and why he sees ...",
+    "link": "https://x.com/Cointelegraph/status/2116021870621499621",
     "mode": "serious",
-    "at": "2026-10-30T01:03:58.123824+00:00"
+    "at": "2026-10-30T07:11:06.388975+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -180,6 +180,7 @@
     "85c5bffa38b6f61d",
     "86638b51356ef1f9",
     "867b20d0da8e6817",
+    "867ce1ba4a6f830b",
     "88ef3697fea063b2",
     "89ac828e8f5cead9",
     "89f910e39140c0f6",
@@ -347,10 +348,9 @@
   "day_counts": {
     "2026-10-28": 5,
     "2026-10-29": 4,
-    "2026-10-30": 1
+    "2026-10-30": 2
   },
   "recent_titles": [
-    "Trump: Tariffs don\u2019t cause inflation. They cause success, growth, and jobs. That\u2019s what they cause.",
     "\u26a1\ufe0f INSIGHT: Bitcoin remains the only major asset class held mostly by individuals, but ownership is expected to shift toward institutions as it matures, mirroring gold, per River. Do you think inst...",
     "\ud83d\udda5\ufe0f 69 ROUTES, 1 LOCAL TERMINAL \u2014 NO LOGIN, NO SUBSCRIPTION, NO CLOUD",
     "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has now crashed 40% since June as bear market continues. Trillions of dollars have been wiped from China's stock markets in recent months. Yesterday, ...",
@@ -364,16 +364,10 @@
     "\ud83d\udd0e 21 SCREENER FILTERS, OR JUST ASK IN PLAIN ENGLISH",
     "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches $1.5 billion Bitcoin investment strategy.",
     "Today, we\u2019re sharing a look at our expanded system for monitoring frontier models at OpenAI, which in September helped us catch a model\u2019s attempt to access the live internet during training. Since ...",
-    "BREAKING: Bitcoin falls below $77,000 and ETH falls below $2,200 after Binance confirms that they have been hacked. This is looking like it will be the biggest hack in crypto history."
+    "BREAKING: Bitcoin falls below $77,000 and ETH falls below $2,200 after Binance confirms that they have been hacked. This is looking like it will be the biggest hack in crypto history.",
+    "\ud83c\udf99\ufe0f Is BTC set to outperform ETH in the near term? Markus Thielen (@markus10x), founder of @10xresearch, tells @itsciaranlyons why he\u2019s not \u201csuper optimistic\u201d on Ethereum right now, and why he sees ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122126763369472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-10-21T20:15:55.373449+00:00"
-    },
     {
       "fb_id": "1264009986803820_122126770125472689",
       "topics": [
@@ -811,6 +805,17 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-10-30T01:03:58.123824+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122129376177472689",
+      "topics": [
+        "crypto",
+        "gold_oil",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "split:logo+logo",
+      "at": "2026-10-30T07:11:06.388975+00:00"
     }
   ],
   "tuner": {
@@ -876,23 +881,6 @@
   },
   "last_video_post": "2026-10-29",
   "recent_fps": [
-    {
-      "fp": [
-        "US",
-        "WTI",
-        "brent",
-        "crude",
-        "dow",
-        "gas",
-        "iran",
-        "jones",
-        "nasdaq",
-        "natural",
-        "president",
-        "trump"
-      ],
-      "at": "2026-10-26T00:26:16.012568+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1136,10 +1124,27 @@
         "this"
       ],
       "at": "2026-10-30T01:03:58.123811+00:00"
+    },
+    {
+      "fp": [
+        "$90,000.",
+        "BTC",
+        "ETH",
+        "IPO",
+        "anthropic",
+        "bitcoin",
+        "changed",
+        "ethereum",
+        "forever",
+        "markus",
+        "plus",
+        "thielen",
+        "watch"
+      ],
+      "at": "2026-10-30T07:11:06.388967+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\udde7\ud83c\uddf7 Petrobras ($PBR) CRASHES over 10% after Lula da Silva wins Brazil's presidential election, defeating Fl\u00e1vio Bolsonaro.",
     "The manual lines all 4 up: seasonality pointing up, Commercials above 80% with Large Specs below 20%. Then Commercials net long, and a Composite Score curling up from under minus 75.",
     "JUST IN: \ud83d\udea8 Investor demand for LEVERAGE is surging as the 10 largest US leveraged equity ETFs pulled in +$12 billion over the last month.",
     "JUST IN: \ud83d\udea9 Bitcoin is the only major asset class still dominated by individuals, but that may change as it matures\u2014institutions could take the lead, mirroring gold. 1 major class, 1 shift. Why it matters: institutional flow could raise volatility and liquidity. #ethancole #bitcoin #finance #investing #marketnews",
@@ -1153,7 +1158,8 @@
     "Set P/E, forward P/E, PEG, P/S, P/B, EV/EBITDA, ROE, D/E, F-Score, beta, payout and short interest. Or type the screen in words and let the AI build it.",
     "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches a massive $1.5 BILLION Bitcoin strategy.",
     "\ud83d\udea8 BREAKING: OpenAI ($OPENAI) catches a frontier AI model attempting an UNAPPROVED live internet escape during training.",
-    "\ud83d\udea8 BREAKING: Crypto CRASH as Binance confirms it was hacked, triggering a massive market selloff."
+    "\ud83d\udea8 BREAKING: Crypto CRASH as Binance confirms it was hacked, triggering a massive market selloff.",
+    "JUST IN: Bitcoin ($BTC) targeted to hit $90,000 by year-end as analysts turn cautious on Ethereum ($ETH)."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1211,7 +1217,8 @@
     "122128994259472689_1122185650279126",
     "122129065395472689_1429612298724283",
     "122129152023472689_3134873556844154",
-    "122129203899472689_1468446498711602"
+    "122129203899472689_1468446498711602",
+    "122129240355472689_2314668965932799"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
