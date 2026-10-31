@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "a8a13158b3e1c008",
-    "fb_id": "1264009986803820_122129748513472689",
-    "title": "\ud83e\uddf0 6 ANALYTICAL TOOLS, ALL UNLOCKED: SCREENER, LAB, RED FLAGS, COMMITTEE",
-    "link": "",
-    "mode": "serious",
-    "at": "2026-10-31T14:55:01.702335+00:00"
+    "hash": "c21ee7f63450eaef",
+    "fb_id": "1264009986803820_122129787681472689",
+    "title": "Bitcoin Price on Halloween \ud83c\udf83 2010: $0.20 2011: $3.27 2012: $11 2013: $201 2014: $337 2015: $312 2016: $699 2017: $6,369 2018: $6,330 2019: $9,170 2020: $13,540 2021: $61,840 2022: $20,625 2023: $34...",
+    "link": "https://x.com/WatcherGuru/status/2116523058022502841",
+    "mode": "viral",
+    "at": "2026-10-31T18:55:28.623490+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -263,6 +263,7 @@
     "bd9cd56d67ce51f1",
     "beda8733ff194127",
     "c0ca1e4fb69f6ec7",
+    "c21ee7f63450eaef",
     "c251468873bbe41c",
     "c390bcfc7b12ee30",
     "c406892822f13149",
@@ -354,10 +355,9 @@
   "day_counts": {
     "2026-10-29": 4,
     "2026-10-30": 5,
-    "2026-10-31": 3
+    "2026-10-31": 4
   },
   "recent_titles": [
-    "\ud83d\udcc9 Nvidia ($NVDA) AT $224.41 \u2014 THE MODEL'S FAIR VALUE IS $266.71",
     "Turkish President Erdogan held a phone call with Trump to discuss bilateral relations and regional and global developments. Erdogan stressed the importance of strengthening T\u00fcrkiye-U.S. ties, close...",
     "\ud83d\udea8 LATEST: Public companies now hold 1.3 million $BTC, up 31% in 14 months, with Strategy accounting for 71% of that growth, according to CryptoQuant.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Fed Chair Kevin Warsh says \"inflation is too high.\"",
@@ -371,18 +371,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today. \u2022 Intel $INTC: -31% \u2022 Reddit $RDDT: -30% \u2022 Roblox $RBLX: -20% \u2022 Illumina $ILMN: -19% \u2022 SanDisk $SNDK: -15% \u2022 Arm $ARM: -12.7%...",
     "Canada's Carney: My message to Putin would be: We're going to tighten sanctions. Get out of Ukraine. Stop your war crimes.",
-    "\ud83e\uddf0 6 ANALYTICAL TOOLS, ALL UNLOCKED: SCREENER, LAB, RED FLAGS, COMMITTEE"
+    "\ud83e\uddf0 6 ANALYTICAL TOOLS, ALL UNLOCKED: SCREENER, LAB, RED FLAGS, COMMITTEE",
+    "Bitcoin Price on Halloween \ud83c\udf83 2010: $0.20 2011: $3.27 2012: $11 2013: $201 2014: $337 2015: $312 2016: $699 2017: $6,369 2018: $6,330 2019: $9,170 2020: $13,540 2021: $61,840 2022: $20,625 2023: $34..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127022239472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "split:scene",
-      "at": "2026-10-22T16:24:23.654921+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127065181472689",
       "topics": [
@@ -822,6 +814,15 @@
       "mode": "serious",
       "photo": "product",
       "at": "2026-10-31T14:55:01.702335+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122129787681472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-31T18:55:28.623490+00:00"
     }
   ],
   "tuner": {
@@ -887,24 +888,6 @@
   },
   "last_video_post": "2026-10-31",
   "recent_fps": [
-    {
-      "fp": [
-        "CLOUD",
-        "DCF",
-        "LOCAL",
-        "LOGIN",
-        "NO",
-        "ROUTE",
-        "WACC",
-        "add",
-        "altman",
-        "beneish",
-        "carlo",
-        "monte",
-        "piotroski"
-      ],
-      "at": "2026-10-27T12:17:05.065571+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1157,10 +1140,35 @@
         "scenario"
       ],
       "at": "2026-10-31T14:55:01.702328+00:00"
+    },
+    {
+      "fp": [
+        "$0.20",
+        "$11",
+        "$110,000",
+        "$13,540",
+        "$20,625",
+        "$201",
+        "$3.27",
+        "$312",
+        "$337",
+        "$34,495",
+        "$34...",
+        "$6,330",
+        "$6,369",
+        "$61,840",
+        "$699",
+        "$72,250",
+        "$77,400",
+        "$9,170",
+        "bitcoin",
+        "halloween",
+        "price"
+      ],
+      "at": "2026-10-31T18:55:28.623477+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: Brazil stock market suffers historic -19.8% CRASH in a single day.",
     "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
     "Its DCF puts intrinsic value at $258.07 on a 15.0% WACC and 2.5% terminal growth. A 1,000-trial Monte Carlo P50 lands on $258.07, while 57 analysts carry a $325.98 consensus.",
     "JUST IN: \ud83c\uddf9\ud83c\uddf7 Turkish President Erdogan spoke directly with President Trump today in a major diplomatic move.",
@@ -1174,7 +1182,8 @@
     "JUST IN: Bill Ackman SLAMS mainstream media outlets over coverage of his recent speech comments.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 US stock market gets CRASHED like a memecoin today.",
-    "Scenario lab for bear, base and bull cases. A red-flags desk runs Beneish, Altman and DuPont, with a multi-agent investment committee and a head-to-head compare view."
+    "Scenario lab for bear, base and bull cases. A red-flags desk runs Beneish, Altman and DuPont, with a multi-agent investment committee and a head-to-head compare view.",
+    "JUST IN: Bitcoin ($BTC) Halloween price history shows massive historic GAINS."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1239,7 +1248,8 @@
     "122129522775472689_1485180173483411",
     "122129561205472689_1771408097406404",
     "122129605179472689_1586987862754425",
-    "122129675337472689_1745962403133778"
+    "122129675337472689_1745962403133778",
+    "122129748513472689_2466145307210959"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
