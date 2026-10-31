@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "28bc3a9d4da6a862",
-    "fb_id": "1264009986803820_122129561205472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
-    "link": "https://x.com/WatcherGuru/status/2116259589197107512",
+    "hash": "688b1eac5d2706bd",
+    "fb_id": "1264009986803820_122129605179472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today. \u2022 Intel $INTC: -31% \u2022 Reddit $RDDT: -30% \u2022 Roblox $RBLX: -20% \u2022 Illumina $ILMN: -19% \u2022 SanDisk $SNDK: -15% \u2022 Arm $ARM: -12.7%...",
+    "link": "https://x.com/WatcherGuru/status/2116240553620783328",
     "mode": "viral",
-    "at": "2026-10-30T23:13:49.538072+00:00"
+    "at": "2026-10-31T02:28:44.030181+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -138,6 +138,7 @@
     "676d291d52901fab",
     "67b3dc14d2c60b7e",
     "67e09beef0706ac3",
+    "688b1eac5d2706bd",
     "68ec3bc290ac8562",
     "699c6c3d56200756",
     "69fb0fde179639e6",
@@ -349,12 +350,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-28": 5,
     "2026-10-29": 4,
-    "2026-10-30": 5
+    "2026-10-30": 5,
+    "2026-10-31": 1
   },
   "recent_titles": [
-    "BREAKING: Brazil's -19.8% stock market crash on Monday was one of the rarest market events in the last two decades, according to our analysis. Brazil's EWZ ETF plunged -19.8% on October 26th, marki...",
     "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 5-minute BTC, ETH, SOL and XRP up/down markets on its US app.",
     "\ud83d\udcc9 Nvidia ($NVDA) AT $224.41 \u2014 THE MODEL'S FAIR VALUE IS $266.71",
@@ -368,17 +368,10 @@
     "\ud83c\udf99\ufe0f Is BTC set to outperform ETH in the near term? Markus Thielen (@markus10x), founder of @10xresearch, tells @itsciaranlyons why he\u2019s not \u201csuper optimistic\u201d on Ethereum right now, and why he sees ...",
     "\ud83d\udcda 7 FORMULA CHAPTERS: CAPM, DCF, DUPONT, ALTMAN Z, PIOTROSKI F, BENEISH M",
     "Leftist mainstream media outlets piled on this week to express outrage at my observation, during a speech in Grand Rapids for Mike Rogers, about the troubling dearth of scientific output from the w...",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today. \u2022 Intel $INTC: -31% \u2022 Reddit $RDDT: -30% \u2022 Roblox $RBLX: -20% \u2022 Illumina $ILMN: -19% \u2022 SanDisk $SNDK: -15% \u2022 Arm $ARM: -12.7%..."
   ],
   "history": [
-    {
-      "fb_id": "28978412978458608",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "at": "2026-10-22T01:06:23.943388+00:00"
-    },
     {
       "fb_id": "1264009986803820_122126878449472689",
       "topics": [
@@ -819,6 +812,16 @@
       "mode": "viral",
       "photo": "face",
       "at": "2026-10-30T23:13:49.538072+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122129605179472689",
+      "topics": [
+        "crypto",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-10-31T02:28:44.030181+00:00"
     }
   ],
   "tuner": {
@@ -827,15 +830,23 @@
         "n": 4,
         "e": 12
       },
-      "gold_oil": {
+      "crypto": {
+        "n": 9,
+        "e": 27
+      },
+      "stocks": {
         "n": 4,
         "e": 12
       },
-      "power": {
-        "n": 5,
-        "e": 15
+      "inflation": {
+        "n": 2,
+        "e": 6
       },
-      "stocks": {
+      "power": {
+        "n": 4,
+        "e": 12
+      },
+      "gold_oil": {
         "n": 4,
         "e": 12
       },
@@ -843,28 +854,20 @@
         "n": 4,
         "e": 12
       },
-      "crypto": {
-        "n": 6,
-        "e": 18
-      },
-      "inflation": {
-        "n": 2,
-        "e": 6
-      },
       "fed": {
         "n": 1,
         "e": 3
       }
     },
     "mult": {
-      "gold_oil": 1.2,
-      "ai": 0.9,
-      "stocks": 0.87,
-      "crypto": 1.02,
-      "inflation": 1.19,
-      "power": 0.9
+      "gold_oil": 1.14,
+      "ai": 0.93,
+      "stocks": 0.91,
+      "crypto": 1.01,
+      "inflation": 1.13,
+      "power": 0.93
     },
-    "updated": "2026-10-30"
+    "updated": "2026-10-31"
   },
   "comment_review": {
     "posts": 8,
@@ -876,30 +879,14 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "Will you be using Polymarket's new 5-minute price swing markets to trade crypto volatility, or do you view ultra-short-term betting as too risky?",
-      "Given the gap between the DCF valuation and the analyst consensus, which target price aligns closer to your own valuation of Nvidia?",
-      "How will potential oil supply disruptions in the Strait of Hormuz impact my energy stocks and gas prices in the coming weeks?"
+      "Which of these metrics do you rely on most when screening stocks for your own portfolio?",
+      "Are you adjusting your portfolio to account for sovereign wealth funds buying up Bitcoin?",
+      "Should investors view this incident as a sign of superior safety protocols or a dangerous red flag for OpenAI's upcoming commercial rollout?"
     ],
-    "updated": "2026-10-30"
+    "updated": "2026-10-31"
   },
   "last_video_post": "2026-10-29",
   "recent_fps": [
-    {
-      "fp": [
-        "$12",
-        "$20",
-        "$9",
-        "3x",
-        "ETF",
-        "SOXL",
-        "US",
-        "investor",
-        "recent",
-        "semiconductor",
-        "this"
-      ],
-      "at": "2026-10-26T21:51:22.907628+00:00"
-    },
     {
       "fp": [
         "tariffs",
@@ -1141,10 +1128,30 @@
         "trump"
       ],
       "at": "2026-10-30T23:13:49.538061+00:00"
+    },
+    {
+      "fp": [
+        "ARM",
+        "DELL",
+        "ILMN",
+        "IN",
+        "INTC",
+        "JUST",
+        "RBLX",
+        "RDDT",
+        "SNDK",
+        "US",
+        "arm",
+        "dell",
+        "illumina",
+        "intel",
+        "reddit",
+        "roblox"
+      ],
+      "at": "2026-10-31T02:28:44.030171+00:00"
     }
   ],
   "recent_hooks": [
-    "StockerAI runs on your own machine: DCF and WACC, Monte Carlo, Altman Z, Piotroski, Beneish, DuPont. Add the scenario lab, committee and red flags, and quotes polling every 30 seconds.",
     "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has CRASHED 40% since June as a brutal bear market deepens.",
     "BREAKING: Brazil stock market suffers historic -19.8% CRASH in a single day.",
     "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
@@ -1158,7 +1165,8 @@
     "JUST IN: Bitcoin ($BTC) targeted to hit $90,000 by year-end as analysts turn cautious on Ethereum ($ETH).",
     "The built-in reference guide walks the whole model framework. 7 formula chapters carry every variable, threshold and diagnostic, with a quick-reference appendix.",
     "JUST IN: Bill Ackman SLAMS mainstream media outlets over coverage of his recent speech comments.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 US stock market gets CRASHED like a memecoin today."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1220,7 +1228,8 @@
     "122129240355472689_2314668965932799",
     "122129376177472689_1117776484301572",
     "122129462673472689_1433608748945131",
-    "122129522775472689_1485180173483411"
+    "122129522775472689_1485180173483411",
+    "122129561205472689_1771408097406404"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
