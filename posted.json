@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "688b1eac5d2706bd",
-    "fb_id": "1264009986803820_122129605179472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today. \u2022 Intel $INTC: -31% \u2022 Reddit $RDDT: -30% \u2022 Roblox $RBLX: -20% \u2022 Illumina $ILMN: -19% \u2022 SanDisk $SNDK: -15% \u2022 Arm $ARM: -12.7%...",
-    "link": "https://x.com/WatcherGuru/status/2116240553620783328",
-    "mode": "viral",
-    "at": "2026-10-31T02:28:44.030181+00:00"
+    "hash": "5b4b6123aa47e69f",
+    "fb_id": "1362054126998259",
+    "title": "Canada's Carney: My message to Putin would be: We're going to tighten sanctions. Get out of Ukraine. Stop your war crimes.",
+    "link": "https://x.com/clashreport/status/2116443432042594384",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-10-31T08:51:37.123378+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -118,6 +119,7 @@
     "56194c1a1cfdf52c",
     "58cfd490098879f3",
     "5b08901b0be5a112",
+    "5b4b6123aa47e69f",
     "5d11339eb33829c3",
     "5edb3c9ee6bfc99e",
     "5f21b28daec622b3",
@@ -352,10 +354,9 @@
   "day_counts": {
     "2026-10-29": 4,
     "2026-10-30": 5,
-    "2026-10-31": 1
+    "2026-10-31": 2
   },
   "recent_titles": [
-    "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 5-minute BTC, ETH, SOL and XRP up/down markets on its US app.",
     "\ud83d\udcc9 Nvidia ($NVDA) AT $224.41 \u2014 THE MODEL'S FAIR VALUE IS $266.71",
     "Turkish President Erdogan held a phone call with Trump to discuss bilateral relations and regional and global developments. Erdogan stressed the importance of strengthening T\u00fcrkiye-U.S. ties, close...",
@@ -369,19 +370,10 @@
     "\ud83d\udcda 7 FORMULA CHAPTERS: CAPM, DCF, DUPONT, ALTMAN Z, PIOTROSKI F, BENEISH M",
     "Leftist mainstream media outlets piled on this week to express outrage at my observation, during a speech in Grand Rapids for Mike Rogers, about the troubling dearth of scientific output from the w...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today. \u2022 Intel $INTC: -31% \u2022 Reddit $RDDT: -30% \u2022 Roblox $RBLX: -20% \u2022 Illumina $ILMN: -19% \u2022 SanDisk $SNDK: -15% \u2022 Arm $ARM: -12.7%..."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today. \u2022 Intel $INTC: -31% \u2022 Reddit $RDDT: -30% \u2022 Roblox $RBLX: -20% \u2022 Illumina $ILMN: -19% \u2022 SanDisk $SNDK: -15% \u2022 Arm $ARM: -12.7%...",
+    "Canada's Carney: My message to Putin would be: We're going to tighten sanctions. Get out of Ukraine. Stop your war crimes."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122126878449472689",
-      "topics": [
-        "power",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "split:scene",
-      "at": "2026-10-22T06:09:14.403043+00:00"
-    },
     {
       "fb_id": "1264009986803820_122126957451472689",
       "topics": [],
@@ -822,6 +814,14 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-31T02:28:44.030181+00:00"
+    },
+    {
+      "fb_id": "1362054126998259",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-10-31T08:51:37.123378+00:00"
     }
   ],
   "tuner": {
@@ -885,17 +885,8 @@
     ],
     "updated": "2026-10-31"
   },
-  "last_video_post": "2026-10-29",
+  "last_video_post": "2026-10-31",
   "recent_fps": [
-    {
-      "fp": [
-        "tariffs",
-        "that",
-        "they",
-        "trump"
-      ],
-      "at": "2026-10-27T01:03:23.271494+00:00"
-    },
     {
       "fp": [
         "bitcoin",
@@ -1149,6 +1140,17 @@
         "roblox"
       ],
       "at": "2026-10-31T02:28:44.030171+00:00"
+    },
+    {
+      "fp": [
+        "canada",
+        "carney",
+        "get",
+        "putin",
+        "stop",
+        "ukraine"
+      ],
+      "at": "2026-10-31T08:51:37.123369+00:00"
     }
   ],
   "recent_hooks": [
@@ -1229,7 +1231,8 @@
     "122129376177472689_1117776484301572",
     "122129462673472689_1433608748945131",
     "122129522775472689_1485180173483411",
-    "122129561205472689_1771408097406404"
+    "122129561205472689_1771408097406404",
+    "122129605179472689_1586987862754425"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
