@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "5b4b6123aa47e69f",
-    "fb_id": "1362054126998259",
-    "title": "Canada's Carney: My message to Putin would be: We're going to tighten sanctions. Get out of Ukraine. Stop your war crimes.",
-    "link": "https://x.com/clashreport/status/2116443432042594384",
+    "hash": "a8a13158b3e1c008",
+    "fb_id": "1264009986803820_122129748513472689",
+    "title": "\ud83e\uddf0 6 ANALYTICAL TOOLS, ALL UNLOCKED: SCREENER, LAB, RED FLAGS, COMMITTEE",
+    "link": "",
     "mode": "serious",
-    "kind": "video",
-    "at": "2026-10-31T08:51:37.123378+00:00"
+    "at": "2026-10-31T14:55:01.702335+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -229,6 +228,7 @@
     "a3a826e937ac0d6c",
     "a61476413f0f9565",
     "a7782c3d8ef265c3",
+    "a8a13158b3e1c008",
     "a92c121ccab46909",
     "a9d96bf57d206353",
     "a9eab993ee21cbc4",
@@ -354,10 +354,9 @@
   "day_counts": {
     "2026-10-29": 4,
     "2026-10-30": 5,
-    "2026-10-31": 2
+    "2026-10-31": 3
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Polymarket launches 5-minute BTC, ETH, SOL and XRP up/down markets on its US app.",
     "\ud83d\udcc9 Nvidia ($NVDA) AT $224.41 \u2014 THE MODEL'S FAIR VALUE IS $266.71",
     "Turkish President Erdogan held a phone call with Trump to discuss bilateral relations and regional and global developments. Erdogan stressed the importance of strengthening T\u00fcrkiye-U.S. ties, close...",
     "\ud83d\udea8 LATEST: Public companies now hold 1.3 million $BTC, up 31% in 14 months, with Strategy accounting for 71% of that growth, according to CryptoQuant.",
@@ -371,16 +370,10 @@
     "Leftist mainstream media outlets piled on this week to express outrage at my observation, during a speech in Grand Rapids for Mike Rogers, about the troubling dearth of scientific output from the w...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today. \u2022 Intel $INTC: -31% \u2022 Reddit $RDDT: -30% \u2022 Roblox $RBLX: -20% \u2022 Illumina $ILMN: -19% \u2022 SanDisk $SNDK: -15% \u2022 Arm $ARM: -12.7%...",
-    "Canada's Carney: My message to Putin would be: We're going to tighten sanctions. Get out of Ukraine. Stop your war crimes."
+    "Canada's Carney: My message to Putin would be: We're going to tighten sanctions. Get out of Ukraine. Stop your war crimes.",
+    "\ud83e\uddf0 6 ANALYTICAL TOOLS, ALL UNLOCKED: SCREENER, LAB, RED FLAGS, COMMITTEE"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122126957451472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-10-22T11:57:41.882347+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127022239472689",
       "topics": [
@@ -822,6 +815,13 @@
       ],
       "mode": "serious",
       "at": "2026-10-31T08:51:37.123378+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122129748513472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "product",
+      "at": "2026-10-31T14:55:01.702335+00:00"
     }
   ],
   "tuner": {
@@ -887,13 +887,6 @@
   },
   "last_video_post": "2026-10-31",
   "recent_fps": [
-    {
-      "fp": [
-        "bitcoin",
-        "river"
-      ],
-      "at": "2026-10-27T06:06:08.357518+00:00"
-    },
     {
       "fp": [
         "CLOUD",
@@ -1151,10 +1144,22 @@
         "ukraine"
       ],
       "at": "2026-10-31T08:51:37.123369+00:00"
+    },
+    {
+      "fp": [
+        "ALL",
+        "FLAG",
+        "LAB",
+        "RED",
+        "TOOL",
+        "altman",
+        "beneish",
+        "scenario"
+      ],
+      "at": "2026-10-31T14:55:01.702328+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\udde8\ud83c\uddf3 China's tech stock index \"STAR 50\" has CRASHED 40% since June as a brutal bear market deepens.",
     "BREAKING: Brazil stock market suffers historic -19.8% CRASH in a single day.",
     "We're expanding our partnership with @USGSA. Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off.",
     "Its DCF puts intrinsic value at $258.07 on a 15.0% WACC and 2.5% terminal growth. A 1,000-trial Monte Carlo P50 lands on $258.07, while 57 analysts carry a $325.98 consensus.",
@@ -1168,7 +1173,8 @@
     "The built-in reference guide walks the whole model framework. 7 formula chapters carry every variable, threshold and diagnostic, with a quick-reference appendix.",
     "JUST IN: Bill Ackman SLAMS mainstream media outlets over coverage of his recent speech comments.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 US stock market gets CRASHED like a memecoin today."
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 US stock market gets CRASHED like a memecoin today.",
+    "Scenario lab for bear, base and bull cases. A red-flags desk runs Beneish, Altman and DuPont, with a multi-agent investment committee and a head-to-head compare view."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1232,7 +1238,8 @@
     "122129462673472689_1433608748945131",
     "122129522775472689_1485180173483411",
     "122129561205472689_1771408097406404",
-    "122129605179472689_1586987862754425"
+    "122129605179472689_1586987862754425",
+    "122129675337472689_1745962403133778"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
@@ -1244,9 +1251,10 @@
     "en-06-local-bloomberg-terminal",
     "en-07-nvda-model-fair-value",
     "en-08-screener-21-filters",
-    "en-09-quant-reference-guide"
+    "en-09-quant-reference-guide",
+    "en-10-premium-toolkit-free"
   ],
   "product_posts_day": {
-    "2026-10-30": 1
+    "2026-10-31": 1
   }
 }
