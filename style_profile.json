@@ -2,93 +2,101 @@
   "accounts": {
     "WatcherGuru": {
       "n": 20,
-      "median_chars": 101,
-      "p90_chars": 243,
+      "median_chars": 121,
+      "p90_chars": 355,
       "opens_with_emoji": 0.0,
-      "has_emoji_anywhere": 0.0,
-      "breaking_leader": 0.95,
-      "any_leader": 0.95,
-      "has_dollar_or_pct": 0.4,
-      "has_number": 0.35,
+      "has_emoji_anywhere": 0.05,
+      "breaking_leader": 0.85,
+      "any_leader": 0.85,
+      "has_dollar_or_pct": 0.55,
+      "has_number": 0.75,
       "ends_with_question": 0.0,
       "has_hashtag": 0.0,
       "median_hashtags": 0,
       "top_openers": [
         [
           "JUST IN",
-          19
-        ]
-      ],
-      "median_caps_ratio_firstline": 0.16
-    },
-    "KobeissiLetter": {
-      "n": 20,
-      "median_chars": 645,
-      "p90_chars": 841,
-      "opens_with_emoji": 0.0,
-      "has_emoji_anywhere": 0.0,
-      "breaking_leader": 0.5,
-      "any_leader": 0.5,
-      "has_dollar_or_pct": 0.9,
-      "has_number": 0.95,
-      "ends_with_question": 0.05,
-      "has_hashtag": 0.0,
-      "median_hashtags": 0,
-      "top_openers": [
+          16
+        ],
         [
           "BREAKING",
-          10
+          1
         ]
       ],
       "median_caps_ratio_firstline": 0.15
     },
-    "unusual_whales": {
-      "n": 20,
-      "median_chars": 95,
-      "p90_chars": 197,
+    "KobeissiLetter": {
+      "n": 10,
+      "median_chars": 604,
+      "p90_chars": 855,
       "opens_with_emoji": 0.0,
       "has_emoji_anywhere": 0.0,
-      "breaking_leader": 0.15,
-      "any_leader": 0.15,
-      "has_dollar_or_pct": 0.25,
-      "has_number": 0.35,
+      "breaking_leader": 0.4,
+      "any_leader": 0.4,
+      "has_dollar_or_pct": 0.9,
+      "has_number": 1.0,
       "ends_with_question": 0.0,
       "has_hashtag": 0.0,
       "median_hashtags": 0,
       "top_openers": [
         [
           "BREAKING",
-          3
+          4
         ]
       ],
-      "median_caps_ratio_firstline": 0.05
+      "median_caps_ratio_firstline": 0.2
     },
-    "StockMKTNewz": {
-      "n": 19,
-      "median_chars": 126,
-      "p90_chars": 324,
+    "unusual_whales": {
+      "n": 20,
+      "median_chars": 159,
+      "p90_chars": 265,
       "opens_with_emoji": 0.0,
-      "has_emoji_anywhere": 0.11,
-      "breaking_leader": 0.0,
-      "any_leader": 0.0,
-      "has_dollar_or_pct": 0.79,
-      "has_number": 0.79,
+      "has_emoji_anywhere": 0.0,
+      "breaking_leader": 0.25,
+      "any_leader": 0.25,
+      "has_dollar_or_pct": 0.65,
+      "has_number": 0.7,
       "ends_with_question": 0.0,
       "has_hashtag": 0.0,
       "median_hashtags": 0,
+      "top_openers": [
+        [
+          "BREAKING",
+          4
+        ],
+        [
+          "JUST IN",
+          1
+        ]
+      ],
+      "median_caps_ratio_firstline": 0.08
+    },
+    "StockMKTNewz": {
+      "n": 19,
+      "median_chars": 120,
+      "p90_chars": 316,
+      "opens_with_emoji": 0.0,
+      "has_emoji_anywhere": 0.05,
+      "breaking_leader": 0.0,
+      "any_leader": 0.0,
+      "has_dollar_or_pct": 0.74,
+      "has_number": 0.58,
+      "ends_with_question": 0.05,
+      "has_hashtag": 0.0,
+      "median_hashtags": 0,
       "top_openers": [],
-      "median_caps_ratio_firstline": 0.09
+      "median_caps_ratio_firstline": 0.11
     },
     "DeItaone": {
-      "n": 19,
-      "median_chars": 151,
-      "p90_chars": 490,
+      "n": 20,
+      "median_chars": 113,
+      "p90_chars": 157,
       "opens_with_emoji": 0.0,
       "has_emoji_anywhere": 0.0,
       "breaking_leader": 0.0,
       "any_leader": 0.0,
-      "has_dollar_or_pct": 0.16,
-      "has_number": 0.53,
+      "has_dollar_or_pct": 0.1,
+      "has_number": 0.2,
       "ends_with_question": 0.0,
       "has_hashtag": 0.0,
       "median_hashtags": 0,
@@ -97,28 +105,28 @@
     }
   },
   "combined": {
-    "n": 98,
-    "median_chars": 131,
-    "p90_chars": 654,
+    "n": 89,
+    "median_chars": 128,
+    "p90_chars": 355,
     "opens_with_emoji": 0.0,
     "has_emoji_anywhere": 0.02,
-    "breaking_leader": 0.33,
-    "any_leader": 0.33,
-    "has_dollar_or_pct": 0.5,
-    "has_number": 0.59,
+    "breaking_leader": 0.29,
+    "any_leader": 0.29,
+    "has_dollar_or_pct": 0.55,
+    "has_number": 0.61,
     "ends_with_question": 0.01,
     "has_hashtag": 0.0,
     "median_hashtags": 0,
     "top_openers": [
       [
         "JUST IN",
-        19
+        17
       ],
       [
         "BREAKING",
-        13
+        9
       ]
     ],
-    "median_caps_ratio_firstline": 0.15
+    "median_caps_ratio_firstline": 0.17
   }
 }
