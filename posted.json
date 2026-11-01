@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "ec1881d2e76ab77c",
-    "fb_id": "1264009986803820_122130056529472689",
-    "title": "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si...",
-    "link": "https://x.com/KobeissiLetter/status/2116930768136245591",
+    "hash": "0c5cfe8788c68c45",
+    "fb_id": "1264009986803820_122130086703472689",
+    "title": "Everything changed for the oil, AI and bond trades over the past month",
+    "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
     "mode": "serious",
-    "at": "2026-11-01T19:11:31.059043+00:00"
+    "at": "2026-11-01T22:52:40.172586+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -33,6 +33,7 @@
     "0a5853d8bb9ad922",
     "0afa79877035161a",
     "0b0d21f90fa17116",
+    "0c5cfe8788c68c45",
     "0e3dfa7c1944490a",
     "0e590aebd2b44c59",
     "0f167e673f05e771",
@@ -360,10 +361,9 @@
   "day_counts": {
     "2026-10-30": 5,
     "2026-10-31": 5,
-    "2026-11-01": 4
+    "2026-11-01": 5
   },
   "recent_titles": [
-    "Today, we\u2019re sharing a look at our expanded system for monitoring frontier models at OpenAI, which in September helped us catch a model\u2019s attempt to access the live internet during training. Since ...",
     "BREAKING: Bitcoin falls below $77,000 and ETH falls below $2,200 after Binance confirms that they have been hacked. This is looking like it will be the biggest hack in crypto history.",
     "\ud83c\udf99\ufe0f Is BTC set to outperform ETH in the near term? Markus Thielen (@markus10x), founder of @10xresearch, tells @itsciaranlyons why he\u2019s not \u201csuper optimistic\u201d on Ethereum right now, and why he sees ...",
     "\ud83d\udcda 7 FORMULA CHAPTERS: CAPM, DCF, DUPONT, ALTMAN Z, PIOTROSKI F, BENEISH M",
@@ -377,19 +377,10 @@
     "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessi...",
     "MSTR Stock Is Down 44% in a Year, but Michael Saylor Says Strategy Doesn\u2019t Need Bitcoin Or Equity to Do the \u2018Heavy Lifting\u2019",
     "\u2699\ufe0f 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL",
-    "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si..."
+    "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si...",
+    "Everything changed for the oil, AI and bond trades over the past month"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127357939472689",
-      "topics": [
-        "crypto",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "face",
-      "at": "2026-10-23T17:14:59.931515+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127402351472689",
       "topics": [
@@ -827,6 +818,17 @@
       "mode": "serious",
       "photo": "source",
       "at": "2026-11-01T19:11:31.059043+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122130086703472689",
+      "topics": [
+        "gold_oil",
+        "inflation",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "og:image",
+      "at": "2026-11-01T22:52:40.172586+00:00"
     }
   ],
   "tuner": {
@@ -892,20 +894,6 @@
   },
   "last_video_post": "2026-11-01",
   "recent_fps": [
-    {
-      "fp": [
-        "erdogan",
-        "hormuz",
-        "president",
-        "russia",
-        "strait",
-        "trump",
-        "turkish",
-        "ukraine",
-        "yemen"
-      ],
-      "at": "2026-10-28T19:36:56.379472+00:00"
-    },
     {
       "fp": [
         "BTC",
@@ -1164,10 +1152,16 @@
         "year"
       ],
       "at": "2026-11-01T19:11:31.059036+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "everything"
+      ],
+      "at": "2026-11-01T22:52:40.172577+00:00"
     }
   ],
   "recent_hooks": [
-    "Set P/E, forward P/E, PEG, P/S, P/B, EV/EBITDA, ROE, D/E, F-Score, beta, payout and short interest. Or type the screen in words and let the AI build it.",
     "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches a massive $1.5 BILLION Bitcoin strategy.",
     "\ud83d\udea8 BREAKING: OpenAI ($OPENAI) catches a frontier AI model attempting an UNAPPROVED live internet escape during training.",
     "\ud83d\udea8 BREAKING: Crypto CRASH as Binance confirms it was hacked, triggering a massive market selloff.",
@@ -1181,7 +1175,8 @@
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the massive $6,300,000,000 Binance crypto HACK.",
     "JUST IN: Strategy ($MSTR) stock drops 44% over the past year.",
     "Toggle up to 4 comparison symbols and tune the lookback and rescale lengths. Then read the Composite Score against the shaded overvalued and undervalued zones.",
-    "JUST IN: Investors dumped $1.8 BILLION from SPDR Gold Shares ($GLD) in October, marking its biggest monthly withdrawal since June."
+    "JUST IN: Investors dumped $1.8 BILLION from SPDR Gold Shares ($GLD) in October, marking its biggest monthly withdrawal since June.",
+    "BREAKING: Traders brace for an AI CRASH as market signals flip in a single month."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1252,7 +1247,8 @@
     "122129816187472689_1905234003782833",
     "122129842905472689_2533836720459752",
     "122129913615472689_1813159356495581",
-    "122130004893472689_1118467140780695"
+    "122130004893472689_1118467140780695",
+    "122130056529472689_1108135652000574"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
