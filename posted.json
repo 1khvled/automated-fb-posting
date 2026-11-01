@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "9183b24a4bd57139",
-    "fb_id": "1264009986803820_122130004893472689",
-    "title": "\u2699\ufe0f 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL",
-    "link": "",
+    "hash": "ec1881d2e76ab77c",
+    "fb_id": "1264009986803820_122130056529472689",
+    "title": "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si...",
+    "link": "https://x.com/KobeissiLetter/status/2116930768136245591",
     "mode": "serious",
-    "at": "2026-11-01T14:30:00.567965+00:00"
+    "at": "2026-11-01T19:11:31.059043+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -320,6 +320,7 @@
     "e9e2a2671f5985e3",
     "eacc6893c16ea1dc",
     "ebb9dfc4c90a11b6",
+    "ec1881d2e76ab77c",
     "eca4f5a6aeff6619",
     "ed6a34587915a3d4",
     "eec6a6d1910591bf",
@@ -359,10 +360,9 @@
   "day_counts": {
     "2026-10-30": 5,
     "2026-10-31": 5,
-    "2026-11-01": 3
+    "2026-11-01": 4
   },
   "recent_titles": [
-    "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches $1.5 billion Bitcoin investment strategy.",
     "Today, we\u2019re sharing a look at our expanded system for monitoring frontier models at OpenAI, which in September helped us catch a model\u2019s attempt to access the live internet during training. Since ...",
     "BREAKING: Bitcoin falls below $77,000 and ETH falls below $2,200 after Binance confirms that they have been hacked. This is looking like it will be the biggest hack in crypto history.",
     "\ud83c\udf99\ufe0f Is BTC set to outperform ETH in the near term? Markus Thielen (@markus10x), founder of @10xresearch, tells @itsciaranlyons why he\u2019s not \u201csuper optimistic\u201d on Ethereum right now, and why he sees ...",
@@ -376,16 +376,10 @@
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the $6,300,000,000 Binance crypto hack.",
     "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessi...",
     "MSTR Stock Is Down 44% in a Year, but Michael Saylor Says Strategy Doesn\u2019t Need Bitcoin Or Equity to Do the \u2018Heavy Lifting\u2019",
-    "\u2699\ufe0f 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL"
+    "\u2699\ufe0f 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL",
+    "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127278085472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-10-23T12:17:46.072945+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127357939472689",
       "topics": [
@@ -823,6 +817,16 @@
       "mode": "serious",
       "photo": "product",
       "at": "2026-11-01T14:30:00.567965+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122130056529472689",
+      "topics": [
+        "crypto",
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "photo": "source",
+      "at": "2026-11-01T19:11:31.059043+00:00"
     }
   ],
   "tuner": {
@@ -888,28 +892,6 @@
   },
   "last_video_post": "2026-11-01",
   "recent_fps": [
-    {
-      "fp": [
-        "$224.41",
-        "$258.07",
-        "$258.07,",
-        "$266.71",
-        "$325.98",
-        "AT",
-        "DCF",
-        "FAIR",
-        "IS",
-        "MODEL",
-        "NVDA",
-        "THE",
-        "VALUE",
-        "WACC",
-        "carlo",
-        "monte",
-        "nvidia"
-      ],
-      "at": "2026-10-28T14:10:04.996464+00:00"
-    },
     {
       "fp": [
         "erdogan",
@@ -1166,10 +1148,25 @@
         "toggle"
       ],
       "at": "2026-11-01T14:30:00.567955+00:00"
+    },
+    {
+      "fp": [
+        "$1.8",
+        "$23.0",
+        "$3.8",
+        "ETF",
+        "GLD",
+        "US",
+        "february",
+        "june",
+        "october",
+        "this",
+        "year"
+      ],
+      "at": "2026-11-01T19:11:31.059036+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 BREAKING: Public companies now hold 1.3M BITCOIN, jumping 31% over the last 14 months.",
     "Set P/E, forward P/E, PEG, P/S, P/B, EV/EBITDA, ROE, D/E, F-Score, beta, payout and short interest. Or type the screen in words and let the AI build it.",
     "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches a massive $1.5 BILLION Bitcoin strategy.",
     "\ud83d\udea8 BREAKING: OpenAI ($OPENAI) catches a frontier AI model attempting an UNAPPROVED live internet escape during training.",
@@ -1183,7 +1180,8 @@
     "JUST IN: Bitcoin ($BTC) Halloween price history shows massive historic GAINS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the massive $6,300,000,000 Binance crypto HACK.",
     "JUST IN: Strategy ($MSTR) stock drops 44% over the past year.",
-    "Toggle up to 4 comparison symbols and tune the lookback and rescale lengths. Then read the Composite Score against the shaded overvalued and undervalued zones."
+    "Toggle up to 4 comparison symbols and tune the lookback and rescale lengths. Then read the Composite Score against the shaded overvalued and undervalued zones.",
+    "JUST IN: Investors dumped $1.8 BILLION from SPDR Gold Shares ($GLD) in October, marking its biggest monthly withdrawal since June."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1253,7 +1251,8 @@
     "122129787681472689_1653974679694446",
     "122129816187472689_1905234003782833",
     "122129842905472689_2533836720459752",
-    "122129913615472689_1813159356495581"
+    "122129913615472689_1813159356495581",
+    "122130004893472689_1118467140780695"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
