@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "0e3dfa7c1944490a",
-    "fb_id": "1264009986803820_122129816187472689",
-    "title": "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the $6,300,000,000 Binance crypto hack.",
-    "link": "https://x.com/WatcherGuru/status/2116644116872519909",
+    "hash": "606daac6a4e443b9",
+    "fb_id": "1120904477532461",
+    "title": "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessi...",
+    "link": "https://x.com/GoogleDeepMind/status/2116524000977285321",
     "mode": "viral",
-    "at": "2026-10-31T22:03:43.337354+00:00"
+    "kind": "video",
+    "at": "2026-11-01T01:13:43.787903+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -125,6 +126,7 @@
     "5f21b28daec622b3",
     "600b7a3d6c0b67e5",
     "601a84aa97a5995b",
+    "606daac6a4e443b9",
     "60cbbd6a62948e8f",
     "626c970a426ee62c",
     "62d3a3a66912478f",
@@ -354,12 +356,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-29": 4,
     "2026-10-30": 5,
-    "2026-10-31": 5
+    "2026-10-31": 5,
+    "2026-11-01": 1
   },
   "recent_titles": [
-    "\ud83d\udea8 LATEST: Public companies now hold 1.3 million $BTC, up 31% in 14 months, with Strategy accounting for 71% of that growth, according to CryptoQuant.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Fed Chair Kevin Warsh says \"inflation is too high.\"",
     "\ud83d\udd0e 21 SCREENER FILTERS, OR JUST ASK IN PLAIN ENGLISH",
     "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches $1.5 billion Bitcoin investment strategy.",
@@ -373,18 +374,10 @@
     "Canada's Carney: My message to Putin would be: We're going to tighten sanctions. Get out of Ukraine. Stop your war crimes.",
     "\ud83e\uddf0 6 ANALYTICAL TOOLS, ALL UNLOCKED: SCREENER, LAB, RED FLAGS, COMMITTEE",
     "Bitcoin Price on Halloween \ud83c\udf83 2010: $0.20 2011: $3.27 2012: $11 2013: $201 2014: $337 2015: $312 2016: $699 2017: $6,369 2018: $6,330 2019: $9,170 2020: $13,540 2021: $61,840 2022: $20,625 2023: $34...",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the $6,300,000,000 Binance crypto hack."
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the $6,300,000,000 Binance crypto hack.",
+    "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessi..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127100365472689",
-      "topics": [
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-10-22T23:28:51.913565+00:00"
-    },
     {
       "fb_id": "4688406038048185",
       "topics": [
@@ -823,52 +816,60 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-10-31T22:03:43.337354+00:00"
+    },
+    {
+      "fb_id": "1120904477532461",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-11-01T01:13:43.787903+00:00"
     }
   ],
   "tuner": {
     "topics": {
-      "ai": {
-        "n": 4,
-        "e": 12
-      },
       "crypto": {
-        "n": 9,
-        "e": 27
+        "n": 10,
+        "e": 30
       },
       "stocks": {
-        "n": 4,
-        "e": 12
+        "n": 3,
+        "e": 9
       },
-      "inflation": {
-        "n": 2,
-        "e": 6
+      "ai": {
+        "n": 3,
+        "e": 9
       },
-      "power": {
+      "unknown": {
         "n": 4,
         "e": 12
       },
       "gold_oil": {
-        "n": 4,
-        "e": 12
+        "n": 3,
+        "e": 9
       },
-      "unknown": {
+      "power": {
         "n": 4,
         "e": 12
       },
       "fed": {
         "n": 1,
         "e": 3
+      },
+      "inflation": {
+        "n": 1,
+        "e": 3
       }
     },
     "mult": {
-      "gold_oil": 1.14,
-      "ai": 0.93,
-      "stocks": 0.91,
+      "gold_oil": 1.1,
+      "ai": 0.95,
+      "stocks": 0.94,
       "crypto": 1.01,
       "inflation": 1.13,
-      "power": 0.93
+      "power": 0.95
     },
-    "updated": "2026-10-31"
+    "updated": "2026-11-01"
   },
   "comment_review": {
     "posts": 8,
@@ -876,29 +877,18 @@
     "likes": 0,
     "questions": 8,
     "praise": 0,
-    "anger": 0,
+    "anger": 1,
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "Which of these metrics do you rely on most when screening stocks for your own portfolio?",
-      "Are you adjusting your portfolio to account for sovereign wealth funds buying up Bitcoin?",
-      "Should investors view this incident as a sign of superior safety protocols or a dangerous red flag for OpenAI's upcoming commercial rollout?"
+      "Does this model framework require coding knowledge to implement, or is it fully usable within standard spreadsheet tools?",
+      "Do you think mainstream media outlets intentionally leave out context when reporting on high-profile market figures?",
+      "Will President Trump's involvement lead to tighter crypto regulations that could negatively impact my portfolio?"
     ],
-    "updated": "2026-10-31"
+    "updated": "2026-11-01"
   },
-  "last_video_post": "2026-10-31",
+  "last_video_post": "2026-11-01",
   "recent_fps": [
-    {
-      "fp": [
-        "ETF",
-        "EWZ",
-        "brazil",
-        "monday",
-        "october",
-        "under"
-      ],
-      "at": "2026-10-27T22:16:51.688084+00:00"
-    },
     {
       "fp": [
         "USGSA",
@@ -1159,6 +1149,15 @@
         "north"
       ],
       "at": "2026-10-31T22:03:43.337341+00:00"
+    },
+    {
+      "fp": [
+        "UK",
+        "built",
+        "gemini",
+        "government"
+      ],
+      "at": "2026-11-01T01:13:43.787892+00:00"
     }
   ],
   "recent_hooks": [
@@ -1243,7 +1242,8 @@
     "122129605179472689_1586987862754425",
     "122129675337472689_1745962403133778",
     "122129748513472689_2466145307210959",
-    "122129787681472689_1653974679694446"
+    "122129787681472689_1653974679694446",
+    "122129816187472689_1905234003782833"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
