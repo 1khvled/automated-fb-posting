@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "633d305b419fa92c",
-    "fb_id": "1165242339515983",
-    "title": "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000",
-    "link": "https://x.com/WatcherGuru/status/2116908324428112309",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-11-02T02:00:24.112447+00:00"
+    "hash": "eec52992645b55f6",
+    "fb_id": "1264009986803820_122130188373472689",
+    "title": "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ...",
+    "link": "https://x.com/Cointelegraph/status/2117119645018652948",
+    "mode": "serious",
+    "at": "2026-11-02T08:53:17.060036+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -326,6 +325,7 @@
     "ec1881d2e76ab77c",
     "eca4f5a6aeff6619",
     "ed6a34587915a3d4",
+    "eec52992645b55f6",
     "eec6a6d1910591bf",
     "ef5cd9fc53be1c66",
     "ef9e9adaee7d4177",
@@ -363,10 +363,9 @@
   "day_counts": {
     "2026-10-31": 5,
     "2026-11-01": 5,
-    "2026-11-02": 1
+    "2026-11-02": 2
   },
   "recent_titles": [
-    "\ud83c\udf99\ufe0f Is BTC set to outperform ETH in the near term? Markus Thielen (@markus10x), founder of @10xresearch, tells @itsciaranlyons why he\u2019s not \u201csuper optimistic\u201d on Ethereum right now, and why he sees ...",
     "\ud83d\udcda 7 FORMULA CHAPTERS: CAPM, DCF, DUPONT, ALTMAN Z, PIOTROSKI F, BENEISH M",
     "Leftist mainstream media outlets piled on this week to express outrage at my observation, during a speech in Grand Rapids for Mike Rogers, about the troubling dearth of scientific output from the w...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
@@ -380,19 +379,10 @@
     "\u2699\ufe0f 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL",
     "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si...",
     "Everything changed for the oil, AI and bond trades over the past month",
-    "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000"
+    "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000",
+    "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127438249472689",
-      "topics": [
-        "gold_oil",
-        "inflation"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-10-23T23:28:45.692777+00:00"
-    },
     {
       "fb_id": "955080280594451",
       "topics": [
@@ -829,6 +819,16 @@
       ],
       "mode": "viral",
       "at": "2026-11-02T02:00:24.112447+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122130188373472689",
+      "topics": [
+        "crypto",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "source",
+      "at": "2026-11-02T08:53:17.060036+00:00"
     }
   ],
   "tuner": {
@@ -894,17 +894,6 @@
   },
   "last_video_post": "2026-11-02",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "chair",
-        "fed",
-        "kevin",
-        "warsh"
-      ],
-      "at": "2026-10-29T02:48:49.200579+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1165,10 +1154,26 @@
         "total"
       ],
       "at": "2026-11-02T02:00:24.112440+00:00"
+    },
+    {
+      "fp": [
+        "$10.7",
+        "$5",
+        "$6.3",
+        "CZ",
+        "SAFU",
+        "binance",
+        "bloomberg",
+        "how",
+        "march",
+        "nov",
+        "revenue",
+        "withdrawals"
+      ],
+      "at": "2026-11-02T08:53:17.060029+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\udde6\ud83c\uddea Dubai royal family-backed Standard Asset Company launches a massive $1.5 BILLION Bitcoin strategy.",
     "\ud83d\udea8 BREAKING: OpenAI ($OPENAI) catches a frontier AI model attempting an UNAPPROVED live internet escape during training.",
     "\ud83d\udea8 BREAKING: Crypto CRASH as Binance confirms it was hacked, triggering a massive market selloff.",
     "JUST IN: Bitcoin ($BTC) targeted to hit $90,000 by year-end as analysts turn cautious on Ethereum ($ETH).",
@@ -1182,7 +1187,8 @@
     "JUST IN: Strategy ($MSTR) stock drops 44% over the past year.",
     "Toggle up to 4 comparison symbols and tune the lookback and rescale lengths. Then read the Composite Score against the shaded overvalued and undervalued zones.",
     "JUST IN: Investors dumped $1.8 BILLION from SPDR Gold Shares ($GLD) in October, marking its biggest monthly withdrawal since June.",
-    "BREAKING: Traders brace for an AI CRASH as market signals flip in a single month."
+    "BREAKING: Traders brace for an AI CRASH as market signals flip in a single month.",
+    "JUST IN: Binance absorbs 95% of the $6.3 BILLION stolen in last week's record hack using internal funds."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1255,7 +1261,8 @@
     "122129913615472689_1813159356495581",
     "122130004893472689_1118467140780695",
     "122130056529472689_1108135652000574",
-    "122130086703472689_1088755410662217"
+    "122130086703472689_1088755410662217",
+    "122130115011472689_1505228495037781"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
