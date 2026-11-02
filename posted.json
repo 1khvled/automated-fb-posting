@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "0c5cfe8788c68c45",
-    "fb_id": "1264009986803820_122130086703472689",
-    "title": "Everything changed for the oil, AI and bond trades over the past month",
-    "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
-    "mode": "serious",
-    "at": "2026-11-01T22:52:40.172586+00:00"
+    "hash": "633d305b419fa92c",
+    "fb_id": "1165242339515983",
+    "title": "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000",
+    "link": "https://x.com/WatcherGuru/status/2116908324428112309",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-11-02T02:00:24.112447+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -132,6 +133,7 @@
     "626c970a426ee62c",
     "62d3a3a66912478f",
     "63036692c3b611ed",
+    "633d305b419fa92c",
     "634ee2da4c909eab",
     "63d8e6fd67210451",
     "6470eb4210e740d8",
@@ -359,12 +361,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-30": 5,
     "2026-10-31": 5,
-    "2026-11-01": 5
+    "2026-11-01": 5,
+    "2026-11-02": 1
   },
   "recent_titles": [
-    "BREAKING: Bitcoin falls below $77,000 and ETH falls below $2,200 after Binance confirms that they have been hacked. This is looking like it will be the biggest hack in crypto history.",
     "\ud83c\udf99\ufe0f Is BTC set to outperform ETH in the near term? Markus Thielen (@markus10x), founder of @10xresearch, tells @itsciaranlyons why he\u2019s not \u201csuper optimistic\u201d on Ethereum right now, and why he sees ...",
     "\ud83d\udcda 7 FORMULA CHAPTERS: CAPM, DCF, DUPONT, ALTMAN Z, PIOTROSKI F, BENEISH M",
     "Leftist mainstream media outlets piled on this week to express outrage at my observation, during a speech in Grand Rapids for Mike Rogers, about the troubling dearth of scientific output from the w...",
@@ -378,19 +379,10 @@
     "MSTR Stock Is Down 44% in a Year, but Michael Saylor Says Strategy Doesn\u2019t Need Bitcoin Or Equity to Do the \u2018Heavy Lifting\u2019",
     "\u2699\ufe0f 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL",
     "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si...",
-    "Everything changed for the oil, AI and bond trades over the past month"
+    "Everything changed for the oil, AI and bond trades over the past month",
+    "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127402351472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "og:image",
-      "at": "2026-10-23T20:30:47.327626+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127438249472689",
       "topics": [
@@ -829,6 +821,14 @@
       "mode": "serious",
       "photo": "og:image",
       "at": "2026-11-01T22:52:40.172586+00:00"
+    },
+    {
+      "fb_id": "1165242339515983",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-11-02T02:00:24.112447+00:00"
     }
   ],
   "tuner": {
@@ -837,44 +837,44 @@
         "n": 10,
         "e": 30
       },
-      "stocks": {
-        "n": 3,
-        "e": 9
-      },
-      "ai": {
-        "n": 3,
-        "e": 9
-      },
-      "unknown": {
-        "n": 4,
-        "e": 12
-      },
-      "gold_oil": {
-        "n": 3,
-        "e": 9
-      },
-      "power": {
-        "n": 4,
-        "e": 12
-      },
       "fed": {
         "n": 1,
         "e": 3
       },
       "inflation": {
-        "n": 1,
-        "e": 3
+        "n": 2,
+        "e": 6
+      },
+      "unknown": {
+        "n": 4,
+        "e": 12
+      },
+      "ai": {
+        "n": 3,
+        "e": 9
+      },
+      "gold_oil": {
+        "n": 4,
+        "e": 12
+      },
+      "stocks": {
+        "n": 3,
+        "e": 9
+      },
+      "power": {
+        "n": 3,
+        "e": 9
       }
     },
     "mult": {
-      "gold_oil": 1.1,
-      "ai": 0.95,
-      "stocks": 0.94,
+      "gold_oil": 1.07,
+      "ai": 0.96,
+      "stocks": 0.96,
       "crypto": 1.01,
-      "inflation": 1.13,
-      "power": 0.95
+      "inflation": 1.09,
+      "power": 0.96
     },
-    "updated": "2026-11-01"
+    "updated": "2026-11-02"
   },
   "comment_review": {
     "posts": 8,
@@ -886,23 +886,14 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "Does this model framework require coding knowledge to implement, or is it fully usable within standard spreadsheet tools?",
-      "Do you think mainstream media outlets intentionally leave out context when reporting on high-profile market figures?",
-      "Will President Trump's involvement lead to tighter crypto regulations that could negatively impact my portfolio?"
+      "Which of these risk models would be most effective for evaluating the current holdings in my portfolio?",
+      "Based on this historical trend, should I take profits now or keep holding my Bitcoin until 2026?",
+      "Does this news make you want to move your crypto off centralized exchanges into a cold wallet?"
     ],
-    "updated": "2026-11-01"
+    "updated": "2026-11-02"
   },
-  "last_video_post": "2026-11-01",
+  "last_video_post": "2026-11-02",
   "recent_fps": [
-    {
-      "fp": [
-        "BTC",
-        "LATEST",
-        "public",
-        "strategy"
-      ],
-      "at": "2026-10-28T23:30:29.909521+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1159,6 +1150,21 @@
         "everything"
       ],
       "at": "2026-11-01T22:52:40.172577+00:00"
+    },
+    {
+      "fp": [
+        "$12,500,000,000",
+        "$3,290,000,000",
+        "$9,213,000,000",
+        "IN",
+        "JUST",
+        "crypto",
+        "longs",
+        "october",
+        "shorts",
+        "total"
+      ],
+      "at": "2026-11-02T02:00:24.112440+00:00"
     }
   ],
   "recent_hooks": [
@@ -1248,7 +1254,8 @@
     "122129842905472689_2533836720459752",
     "122129913615472689_1813159356495581",
     "122130004893472689_1118467140780695",
-    "122130056529472689_1108135652000574"
+    "122130056529472689_1108135652000574",
+    "122130086703472689_1088755410662217"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
