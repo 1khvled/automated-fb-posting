@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "eec52992645b55f6",
-    "fb_id": "1264009986803820_122130188373472689",
-    "title": "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ...",
-    "link": "https://x.com/Cointelegraph/status/2117119645018652948",
+    "hash": "3db00d4ea34b5f98",
+    "fb_id": "1264009986803820_122130298881472689",
+    "title": "\ud83d\udcca NET POSITIONS AS A % OF OPEN INTEREST \u2014 3 GROUPS ON ONE SCALE",
+    "link": "",
     "mode": "serious",
-    "at": "2026-11-02T08:53:17.060036+00:00"
+    "at": "2026-11-02T18:59:57.689832+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -97,6 +97,7 @@
     "3c7e63595369afd6",
     "3ccaf6ca07aa5503",
     "3d1734b53ce94a08",
+    "3db00d4ea34b5f98",
     "3e2710928bf1c3a0",
     "3eb4a262e3a6a366",
     "401104f0174f507a",
@@ -363,10 +364,9 @@
   "day_counts": {
     "2026-10-31": 5,
     "2026-11-01": 5,
-    "2026-11-02": 2
+    "2026-11-02": 3
   },
   "recent_titles": [
-    "\ud83d\udcda 7 FORMULA CHAPTERS: CAPM, DCF, DUPONT, ALTMAN Z, PIOTROSKI F, BENEISH M",
     "Leftist mainstream media outlets piled on this week to express outrage at my observation, during a speech in Grand Rapids for Mike Rogers, about the troubling dearth of scientific output from the w...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today. \u2022 Intel $INTC: -31% \u2022 Reddit $RDDT: -30% \u2022 Roblox $RBLX: -20% \u2022 Illumina $ILMN: -19% \u2022 SanDisk $SNDK: -15% \u2022 Arm $ARM: -12.7%...",
@@ -380,17 +380,10 @@
     "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si...",
     "Everything changed for the oil, AI and bond trades over the past month",
     "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000",
-    "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ..."
+    "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ...",
+    "\ud83d\udcca NET POSITIONS AS A % OF OPEN INTEREST \u2014 3 GROUPS ON ONE SCALE"
   ],
   "history": [
-    {
-      "fb_id": "955080280594451",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "at": "2026-10-24T01:57:10.277027+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127526059472689",
       "topics": [
@@ -829,6 +822,13 @@
       "mode": "serious",
       "photo": "source",
       "at": "2026-11-02T08:53:17.060036+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122130298881472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "product",
+      "at": "2026-11-02T18:59:57.689832+00:00"
     }
   ],
   "tuner": {
@@ -894,23 +894,6 @@
   },
   "last_video_post": "2026-11-02",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "ASK",
-        "EBITDA",
-        "EV",
-        "IN",
-        "JUST",
-        "OR",
-        "PEG",
-        "PLAIN",
-        "ROE",
-        "score",
-        "set"
-      ],
-      "at": "2026-10-29T09:07:26.260193+00:00"
-    },
     {
       "fp": [
         "$1.5",
@@ -1171,10 +1154,26 @@
         "withdrawals"
       ],
       "at": "2026-11-02T08:53:17.060029+00:00"
+    },
+    {
+      "fp": [
+        "AS",
+        "GROUP",
+        "NET",
+        "OF",
+        "ON",
+        "ONE",
+        "OPEN",
+        "SCALE",
+        "commercials",
+        "large",
+        "retail",
+        "specs"
+      ],
+      "at": "2026-11-02T18:59:57.689818+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 BREAKING: OpenAI ($OPENAI) catches a frontier AI model attempting an UNAPPROVED live internet escape during training.",
     "\ud83d\udea8 BREAKING: Crypto CRASH as Binance confirms it was hacked, triggering a massive market selloff.",
     "JUST IN: Bitcoin ($BTC) targeted to hit $90,000 by year-end as analysts turn cautious on Ethereum ($ETH).",
     "The built-in reference guide walks the whole model framework. 7 formula chapters carry every variable, threshold and diagnostic, with a quick-reference appendix.",
@@ -1188,7 +1187,8 @@
     "Toggle up to 4 comparison symbols and tune the lookback and rescale lengths. Then read the Composite Score against the shaded overvalued and undervalued zones.",
     "JUST IN: Investors dumped $1.8 BILLION from SPDR Gold Shares ($GLD) in October, marking its biggest monthly withdrawal since June.",
     "BREAKING: Traders brace for an AI CRASH as market signals flip in a single month.",
-    "JUST IN: Binance absorbs 95% of the $6.3 BILLION stolen in last week's record hack using internal funds."
+    "JUST IN: Binance absorbs 95% of the $6.3 BILLION stolen in last week's record hack using internal funds.",
+    "Commercials, Large Specs and Retail share 1 axis, with fills split above and below zero. A thin market and a giant one finally read side by side."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1262,7 +1262,8 @@
     "122130004893472689_1118467140780695",
     "122130056529472689_1108135652000574",
     "122130086703472689_1088755410662217",
-    "122130115011472689_1505228495037781"
+    "122130115011472689_1505228495037781",
+    "122130188373472689_1620269159834477"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
@@ -1276,9 +1277,10 @@
     "en-08-screener-21-filters",
     "en-09-quant-reference-guide",
     "en-10-premium-toolkit-free",
-    "en-11-valuation-settings"
+    "en-11-valuation-settings",
+    "en-12-cot-report-open-interest"
   ],
   "product_posts_day": {
-    "2026-11-01": 1
+    "2026-11-02": 1
   }
 }
