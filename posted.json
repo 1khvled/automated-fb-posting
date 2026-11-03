@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "3f3e1f89fe443bb2",
-    "fb_id": "1918110975825042",
-    "title": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users o...",
-    "link": "https://x.com/OpenAI/status/2117307611338997846",
+    "hash": "5cedfdef381f158d",
+    "fb_id": "1264009986803820_122130423039472689",
+    "title": "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a...",
+    "link": "https://x.com/burrytracker/status/2117391305395568687",
     "mode": "viral",
-    "kind": "video",
-    "at": "2026-11-03T01:29:02.143673+00:00"
+    "at": "2026-11-03T08:33:00.363140+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -125,6 +124,7 @@
     "58cfd490098879f3",
     "5b08901b0be5a112",
     "5b4b6123aa47e69f",
+    "5cedfdef381f158d",
     "5d11339eb33829c3",
     "5edb3c9ee6bfc99e",
     "5f21b28daec622b3",
@@ -366,10 +366,9 @@
   "day_counts": {
     "2026-11-01": 5,
     "2026-11-02": 3,
-    "2026-11-03": 1
+    "2026-11-03": 2
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today. \u2022 Intel $INTC: -31% \u2022 Reddit $RDDT: -30% \u2022 Roblox $RBLX: -20% \u2022 Illumina $ILMN: -19% \u2022 SanDisk $SNDK: -15% \u2022 Arm $ARM: -12.7%...",
     "Canada's Carney: My message to Putin would be: We're going to tighten sanctions. Get out of Ukraine. Stop your war crimes.",
     "\ud83e\uddf0 6 ANALYTICAL TOOLS, ALL UNLOCKED: SCREENER, LAB, RED FLAGS, COMMITTEE",
@@ -383,16 +382,10 @@
     "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000",
     "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ...",
     "\ud83d\udcca NET POSITIONS AS A % OF OPEN INTEREST \u2014 3 GROUPS ON ONE SCALE",
-    "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users o..."
+    "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users o...",
+    "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127594405472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-10-24T11:39:31.231551+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127639639472689",
       "topics": [
@@ -830,6 +823,16 @@
       ],
       "mode": "viral",
       "at": "2026-11-03T01:29:02.143673+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122130423039472689",
+      "topics": [
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-03T08:33:00.363140+00:00"
     }
   ],
   "tuner": {
@@ -891,16 +894,6 @@
   },
   "last_video_post": "2026-11-03",
   "recent_fps": [
-    {
-      "fp": [
-        "face",
-        "hugging",
-        "september",
-        "since",
-        "today"
-      ],
-      "at": "2026-10-29T21:11:03.253809+00:00"
-    },
     {
       "fp": [
         "$2,200",
@@ -1161,10 +1154,22 @@
         "AGI"
       ],
       "at": "2026-11-03T01:29:02.143666+00:00"
+    },
+    {
+      "fp": [
+        "democrats",
+        "house",
+        "president",
+        "senate",
+        "thi",
+        "tomorrow",
+        "trump",
+        "what"
+      ],
+      "at": "2026-11-03T08:33:00.363126+00:00"
     }
   ],
   "recent_hooks": [
-    "\ud83d\udea8 BREAKING: Crypto CRASH as Binance confirms it was hacked, triggering a massive market selloff.",
     "JUST IN: Bitcoin ($BTC) targeted to hit $90,000 by year-end as analysts turn cautious on Ethereum ($ETH).",
     "The built-in reference guide walks the whole model framework. 7 formula chapters carry every variable, threshold and diagnostic, with a quick-reference appendix.",
     "JUST IN: Bill Ackman SLAMS mainstream media outlets over coverage of his recent speech comments.",
@@ -1178,7 +1183,8 @@
     "JUST IN: Investors dumped $1.8 BILLION from SPDR Gold Shares ($GLD) in October, marking its biggest monthly withdrawal since June.",
     "BREAKING: Traders brace for an AI CRASH as market signals flip in a single month.",
     "JUST IN: Binance absorbs 95% of the $6.3 BILLION stolen in last week's record hack using internal funds.",
-    "Commercials, Large Specs and Retail share 1 axis, with fills split above and below zero. A thin market and a giant one finally read side by side."
+    "Commercials, Large Specs and Retail share 1 axis, with fills split above and below zero. A thin market and a giant one finally read side by side.",
+    "JUST IN: Stock market history signals a massive RALLY if Democrats sweep Congress."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1254,7 +1260,8 @@
     "122130086703472689_1088755410662217",
     "122130115011472689_1505228495037781",
     "122130188373472689_1620269159834477",
-    "122130298881472689_2094227881235370"
+    "122130298881472689_2094227881235370",
+    "122130352797472689_1834862254268104"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
