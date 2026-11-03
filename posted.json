@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "3db00d4ea34b5f98",
-    "fb_id": "1264009986803820_122130298881472689",
-    "title": "\ud83d\udcca NET POSITIONS AS A % OF OPEN INTEREST \u2014 3 GROUPS ON ONE SCALE",
-    "link": "",
-    "mode": "serious",
-    "at": "2026-11-02T18:59:57.689832+00:00"
+    "hash": "3f3e1f89fe443bb2",
+    "fb_id": "1918110975825042",
+    "title": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users o...",
+    "link": "https://x.com/OpenAI/status/2117307611338997846",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-11-03T01:29:02.143673+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -100,6 +101,7 @@
     "3db00d4ea34b5f98",
     "3e2710928bf1c3a0",
     "3eb4a262e3a6a366",
+    "3f3e1f89fe443bb2",
     "401104f0174f507a",
     "45f2f7f4666dbaa1",
     "4987c4f1f6f22605",
@@ -362,12 +364,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-10-31": 5,
     "2026-11-01": 5,
-    "2026-11-02": 3
+    "2026-11-02": 3,
+    "2026-11-03": 1
   },
   "recent_titles": [
-    "Leftist mainstream media outlets piled on this week to express outrage at my observation, during a speech in Grand Rapids for Mike Rogers, about the troubling dearth of scientific output from the w...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today. \u2022 Intel $INTC: -31% \u2022 Reddit $RDDT: -30% \u2022 Roblox $RBLX: -20% \u2022 Illumina $ILMN: -19% \u2022 SanDisk $SNDK: -15% \u2022 Arm $ARM: -12.7%...",
     "Canada's Carney: My message to Putin would be: We're going to tighten sanctions. Get out of Ukraine. Stop your war crimes.",
@@ -381,18 +382,10 @@
     "Everything changed for the oil, AI and bond trades over the past month",
     "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000",
     "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ...",
-    "\ud83d\udcca NET POSITIONS AS A % OF OPEN INTEREST \u2014 3 GROUPS ON ONE SCALE"
+    "\ud83d\udcca NET POSITIONS AS A % OF OPEN INTEREST \u2014 3 GROUPS ON ONE SCALE",
+    "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users o..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127526059472689",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "inst:ecb",
-      "at": "2026-10-24T06:42:39.882662+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127594405472689",
       "topics": [],
@@ -829,25 +822,21 @@
       "mode": "serious",
       "photo": "product",
       "at": "2026-11-02T18:59:57.689832+00:00"
+    },
+    {
+      "fb_id": "1918110975825042",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-11-03T01:29:02.143673+00:00"
     }
   ],
   "tuner": {
     "topics": {
       "crypto": {
-        "n": 10,
-        "e": 30
-      },
-      "fed": {
-        "n": 1,
-        "e": 3
-      },
-      "inflation": {
-        "n": 2,
-        "e": 6
-      },
-      "unknown": {
-        "n": 4,
-        "e": 12
+        "n": 11,
+        "e": 33
       },
       "ai": {
         "n": 3,
@@ -858,23 +847,31 @@
         "e": 12
       },
       "stocks": {
-        "n": 3,
-        "e": 9
+        "n": 4,
+        "e": 12
+      },
+      "unknown": {
+        "n": 4,
+        "e": 12
       },
       "power": {
         "n": 3,
         "e": 9
+      },
+      "inflation": {
+        "n": 1,
+        "e": 3
       }
     },
     "mult": {
-      "gold_oil": 1.07,
-      "ai": 0.96,
-      "stocks": 0.96,
+      "gold_oil": 1.05,
+      "ai": 0.97,
+      "stocks": 0.97,
       "crypto": 1.01,
       "inflation": 1.09,
-      "power": 0.96
+      "power": 0.97
     },
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "comment_review": {
     "posts": 8,
@@ -882,31 +879,18 @@
     "likes": 0,
     "questions": 8,
     "praise": 0,
-    "anger": 1,
+    "anger": 2,
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "Which of these risk models would be most effective for evaluating the current holdings in my portfolio?",
-      "Based on this historical trend, should I take profits now or keep holding my Bitcoin until 2026?",
-      "Does this news make you want to move your crypto off centralized exchanges into a cold wallet?"
+      "Will this actually help speed up my own home extension planning application?",
+      "Does Saylor's confidence make you want to buy this dip, or are you staying away from MSTR until Bitcoin recovers?",
+      "How do I know if the Composite Score is accurate enough to base my actual trades on?"
     ],
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
-  "last_video_post": "2026-11-02",
+  "last_video_post": "2026-11-03",
   "recent_fps": [
-    {
-      "fp": [
-        "$1.5",
-        "IN",
-        "JUST",
-        "asset",
-        "bitcoin",
-        "company",
-        "dubai",
-        "standard"
-      ],
-      "at": "2026-10-29T16:11:20.494646+00:00"
-    },
     {
       "fp": [
         "face",
@@ -1171,6 +1155,12 @@
         "specs"
       ],
       "at": "2026-11-02T18:59:57.689818+00:00"
+    },
+    {
+      "fp": [
+        "AGI"
+      ],
+      "at": "2026-11-03T01:29:02.143666+00:00"
     }
   ],
   "recent_hooks": [
@@ -1263,7 +1253,8 @@
     "122130056529472689_1108135652000574",
     "122130086703472689_1088755410662217",
     "122130115011472689_1505228495037781",
-    "122130188373472689_1620269159834477"
+    "122130188373472689_1620269159834477",
+    "122130298881472689_2094227881235370"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
