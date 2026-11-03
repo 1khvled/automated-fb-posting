@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "5cedfdef381f158d",
-    "fb_id": "1264009986803820_122130423039472689",
-    "title": "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a...",
-    "link": "https://x.com/burrytracker/status/2117391305395568687",
-    "mode": "viral",
-    "at": "2026-11-03T08:33:00.363140+00:00"
+    "hash": "b74f5afe5583d667",
+    "fb_id": "1264009986803820_122130517941472689",
+    "title": "\ud83c\udf9f\ufe0f FOUNDING MEMBERS: $19/MO FOR THE DAILY FEED",
+    "link": "",
+    "mode": "serious",
+    "at": "2026-11-03T16:31:06.880505+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -259,6 +259,7 @@
     "b5332e905fcd45e4",
     "b5882075649e5905",
     "b71658e7a7284937",
+    "b74f5afe5583d667",
     "b79341c94e166719",
     "b8d3b174a890c701",
     "b9f09c1b08ea1fb9",
@@ -366,10 +367,9 @@
   "day_counts": {
     "2026-11-01": 5,
     "2026-11-02": 3,
-    "2026-11-03": 2
+    "2026-11-03": 3
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 US stock market turned into a crypto memecoin market today. \u2022 Intel $INTC: -31% \u2022 Reddit $RDDT: -30% \u2022 Roblox $RBLX: -20% \u2022 Illumina $ILMN: -19% \u2022 SanDisk $SNDK: -15% \u2022 Arm $ARM: -12.7%...",
     "Canada's Carney: My message to Putin would be: We're going to tighten sanctions. Get out of Ukraine. Stop your war crimes.",
     "\ud83e\uddf0 6 ANALYTICAL TOOLS, ALL UNLOCKED: SCREENER, LAB, RED FLAGS, COMMITTEE",
     "Bitcoin Price on Halloween \ud83c\udf83 2010: $0.20 2011: $3.27 2012: $11 2013: $201 2014: $337 2015: $312 2016: $699 2017: $6,369 2018: $6,330 2019: $9,170 2020: $13,540 2021: $61,840 2022: $20,625 2023: $34...",
@@ -383,18 +383,10 @@
     "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ...",
     "\ud83d\udcca NET POSITIONS AS A % OF OPEN INTEREST \u2014 3 GROUPS ON ONE SCALE",
     "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users o...",
-    "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a..."
+    "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a...",
+    "\ud83c\udf9f\ufe0f FOUNDING MEMBERS: $19/MO FOR THE DAILY FEED"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127639639472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "source",
-      "at": "2026-10-24T14:53:27.834870+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127679605472689",
       "topics": [
@@ -833,6 +825,13 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-03T08:33:00.363140+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122130517941472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "product",
+      "at": "2026-11-03T16:31:06.880505+00:00"
     }
   ],
   "tuner": {
@@ -894,17 +893,6 @@
   },
   "last_video_post": "2026-11-03",
   "recent_fps": [
-    {
-      "fp": [
-        "$2,200",
-        "$77,000",
-        "ETH",
-        "binance",
-        "bitcoin",
-        "this"
-      ],
-      "at": "2026-10-30T01:03:58.123811+00:00"
-    },
     {
       "fp": [
         "$90,000.",
@@ -1167,10 +1155,26 @@
         "what"
       ],
       "at": "2026-11-03T08:33:00.363126+00:00"
+    },
+    {
+      "fp": [
+        "$19",
+        "$39",
+        "$99",
+        "DAILY",
+        "FEED",
+        "FOR",
+        "MO",
+        "THE",
+        "US",
+        "USD",
+        "pine",
+        "valuations"
+      ],
+      "at": "2026-11-03T16:31:06.880496+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: Bitcoin ($BTC) targeted to hit $90,000 by year-end as analysts turn cautious on Ethereum ($ETH).",
     "The built-in reference guide walks the whole model framework. 7 formula chapters carry every variable, threshold and diagnostic, with a quick-reference appendix.",
     "JUST IN: Bill Ackman SLAMS mainstream media outlets over coverage of his recent speech comments.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
@@ -1184,7 +1188,8 @@
     "BREAKING: Traders brace for an AI CRASH as market signals flip in a single month.",
     "JUST IN: Binance absorbs 95% of the $6.3 BILLION stolen in last week's record hack using internal funds.",
     "Commercials, Large Specs and Retail share 1 axis, with fills split above and below zero. A thin market and a giant one finally read side by side.",
-    "JUST IN: Stock market history signals a massive RALLY if Democrats sweep Congress."
+    "JUST IN: Stock market history signals a massive RALLY if Democrats sweep Congress.",
+    "$19/mo runs the daily signal feed on your watchlist, $39/mo adds the 4-in-1 Pine suite and alerts, $99/mo adds the local quant terminal"
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1261,7 +1266,8 @@
     "122130115011472689_1505228495037781",
     "122130188373472689_1620269159834477",
     "122130298881472689_2094227881235370",
-    "122130352797472689_1834862254268104"
+    "122130352797472689_1834862254268104",
+    "122130423039472689_3554018794750074"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
@@ -1276,9 +1282,10 @@
     "en-09-quant-reference-guide",
     "en-10-premium-toolkit-free",
     "en-11-valuation-settings",
-    "en-12-cot-report-open-interest"
+    "en-12-cot-report-open-interest",
+    "en-13-founding-member"
   ],
   "product_posts_day": {
-    "2026-11-02": 1
+    "2026-11-03": 1
   }
 }
