@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "95cb3b788893dc32",
-    "fb_id": "1264009986803820_122130772389472689",
-    "title": "72% - TSLA",
-    "link": "",
+    "hash": "d2e9caf794418754",
+    "fb_id": "1264009986803820_122130829815472689",
+    "title": "US STOCKS AND BONDS RALLIED AFTER DEMOCRATIC GAINS IN CONGRESS RAISED HOPES FOR POLITICAL GRIDLOCK AND A QUICKER END TO THE IRAN WAR. THE S&P 500 JUMPED 1.6%, THE DOW ROSE 3%, TREASURY YIELDS FELL ...",
+    "link": "https://x.com/FirstSquawk/status/2118095074332680613",
     "mode": "serious",
-    "at": "2026-11-04T16:24:31.364579+00:00"
+    "at": "2026-11-04T22:09:37.928512+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -300,6 +300,7 @@
     "d26034239bd1c674",
     "d26cee70e4267489",
     "d2ada81ab969a217",
+    "d2e9caf794418754",
     "d3dc0525d66d3983",
     "d425f4f753b3e194",
     "d4f0b2e5fc3af8b4",
@@ -371,10 +372,9 @@
   "day_counts": {
     "2026-11-02": 3,
     "2026-11-03": 4,
-    "2026-11-04": 3
+    "2026-11-04": 4
   },
   "recent_titles": [
-    "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessi...",
     "MSTR Stock Is Down 44% in a Year, but Michael Saylor Says Strategy Doesn\u2019t Need Bitcoin Or Equity to Do the \u2018Heavy Lifting\u2019",
     "\u2699\ufe0f 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL",
     "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si...",
@@ -388,19 +388,10 @@
     "Breaking: Michael Burry is winning during the AI bubble Here's how his shorts are performing: \u2022 Nvidia $NVDA: -2.3% \u2022 Palantir $PLTR: -13.9% \u2022 Oracle $ORCL: -17.6% \u2022 Micron $MU: -20.8% Everyone was...",
     "ChatGPT and Codex are helping engineers build for the physical world. We\u2019re sharing our progress across mechanical design, electrical engineering, and simulation\u2014from helping our hardware teams ite...",
     "ELECTION DAY FUTURES UPDATE: 1. S&P 500: -0.9% 2. Dow Jones: -0.5% 3. Nasdaq 100: -1.9% 4. Crude Oil: -1.0% 5. Gold: +0.7% The Nasdaq 100 is now trading at its lowest level since July 26th. Markets...",
-    "72% - TSLA"
+    "72% - TSLA",
+    "US STOCKS AND BONDS RALLIED AFTER DEMOCRATIC GAINS IN CONGRESS RAISED HOPES FOR POLITICAL GRIDLOCK AND A QUICKER END TO THE IRAN WAR. THE S&P 500 JUMPED 1.6%, THE DOW ROSE 3%, TREASURY YIELDS FELL ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127806337472689",
-      "topics": [
-        "ai",
-        "inflation"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-10-25T05:14:29.494086+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127856125472689",
       "topics": [],
@@ -835,6 +826,17 @@
       "mode": "serious",
       "photo": "product",
       "at": "2026-11-04T16:24:31.364579+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122130829815472689",
+      "topics": [
+        "gold_oil",
+        "power",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "inst:capitol",
+      "at": "2026-11-04T22:09:37.928512+00:00"
     }
   ],
   "tuner": {
@@ -896,27 +898,6 @@
   },
   "last_video_post": "2026-11-04",
   "recent_fps": [
-    {
-      "fp": [
-        "ARM",
-        "DELL",
-        "ILMN",
-        "IN",
-        "INTC",
-        "JUST",
-        "RBLX",
-        "RDDT",
-        "SNDK",
-        "US",
-        "arm",
-        "dell",
-        "illumina",
-        "intel",
-        "reddit",
-        "roblox"
-      ],
-      "at": "2026-10-31T02:28:44.030171+00:00"
-    },
     {
       "fp": [
         "canada",
@@ -1177,10 +1158,42 @@
         "piotroski"
       ],
       "at": "2026-11-04T16:24:31.364563+00:00"
+    },
+    {
+      "fp": [
+        "$100",
+        "AFTER",
+        "AND",
+        "BARREL",
+        "BASI",
+        "BELOW",
+        "BOND",
+        "BRENT",
+        "CRUDE",
+        "DOW",
+        "END",
+        "FELL",
+        "FOR",
+        "GAIN",
+        "HOPE",
+        "IN",
+        "IRAN",
+        "JUMPED",
+        "POINT",
+        "RAISED",
+        "ROSE",
+        "SEVEN",
+        "STOCK",
+        "THE",
+        "TO",
+        "US",
+        "WAR",
+        "YIELD"
+      ],
+      "at": "2026-11-04T22:09:37.928499+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 US stock market gets CRASHED like a memecoin today.",
     "Scenario lab for bear, base and bull cases. A red-flags desk runs Beneish, Altman and DuPont, with a multi-agent investment committee and a head-to-head compare view.",
     "JUST IN: Bitcoin ($BTC) Halloween price history shows massive historic GAINS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the massive $6,300,000,000 Binance crypto HACK.",
@@ -1194,7 +1207,8 @@
     "$19/mo runs the daily signal feed on your watchlist, $39/mo adds the 4-in-1 Pine suite and alerts, $99/mo adds the local quant terminal",
     "BREAKING: Michael Burry is WINNING his massive bet against the AI bubble.",
     "JUST IN: Markets CRASH on Election Day as Wall Street prices in a Democrat sweep \ud83d\udcc9",
-    "The model values Tesla ($TSLA) at $108 against a $385 price - 72% rich."
+    "The model values Tesla ($TSLA) at $108 against a $385 price - 72% rich.",
+    "BREAKING: US stocks and bonds RALLIED after Democratic Congressional gains fueled hopes for political gridlock and a swift end to the Iran war."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1276,7 +1290,8 @@
     "122130517941472689_2249806406420340",
     "122130578703472689_1150921997608769",
     "122130611421472689_983266791518207",
-    "122130672681472689_1462351586099011"
+    "122130672681472689_1462351586099011",
+    "122130772389472689_1148902704765054"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
