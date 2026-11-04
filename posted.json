@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "d66770d491d6d1c1",
-    "fb_id": "971946648905920",
-    "title": "ChatGPT and Codex are helping engineers build for the physical world. We\u2019re sharing our progress across mechanical design, electrical engineering, and simulation\u2014from helping our hardware teams ite...",
-    "link": "https://x.com/OpenAI/status/2117692475775258785",
+    "hash": "4e3bd29322582248",
+    "fb_id": "1264009986803820_122130672681472689",
+    "title": "ELECTION DAY FUTURES UPDATE: 1. S&P 500: -0.9% 2. Dow Jones: -0.5% 3. Nasdaq 100: -1.9% 4. Crude Oil: -1.0% 5. Gold: +0.7% The Nasdaq 100 is now trading at its lowest level since July 26th. Markets...",
+    "link": "https://x.com/KobeissiLetter/status/2117795977503650148",
     "mode": "viral",
-    "kind": "video",
-    "at": "2026-11-04T01:55:47.136139+00:00"
+    "at": "2026-11-04T08:19:47.698483+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -113,6 +112,7 @@
     "4c37a6b98f96b103",
     "4d61c8b851c9cafd",
     "4d7752b012807b21",
+    "4e3bd29322582248",
     "502825213b373f41",
     "5097bb6c23068f1e",
     "50a5aaa741a64e4c",
@@ -370,10 +370,9 @@
   "day_counts": {
     "2026-11-02": 3,
     "2026-11-03": 4,
-    "2026-11-04": 1
+    "2026-11-04": 2
   },
   "recent_titles": [
-    "Bitcoin Price on Halloween \ud83c\udf83 2010: $0.20 2011: $3.27 2012: $11 2013: $201 2014: $337 2015: $312 2016: $699 2017: $6,369 2018: $6,330 2019: $9,170 2020: $13,540 2021: $61,840 2022: $20,625 2023: $34...",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the $6,300,000,000 Binance crypto hack.",
     "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessi...",
     "MSTR Stock Is Down 44% in a Year, but Michael Saylor Says Strategy Doesn\u2019t Need Bitcoin Or Equity to Do the \u2018Heavy Lifting\u2019",
@@ -387,18 +386,10 @@
     "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a...",
     "\ud83c\udf9f\ufe0f FOUNDING MEMBERS: $19/MO FOR THE DAILY FEED",
     "Breaking: Michael Burry is winning during the AI bubble Here's how his shorts are performing: \u2022 Nvidia $NVDA: -2.3% \u2022 Palantir $PLTR: -13.9% \u2022 Oracle $ORCL: -17.6% \u2022 Micron $MU: -20.8% Everyone was...",
-    "ChatGPT and Codex are helping engineers build for the physical world. We\u2019re sharing our progress across mechanical design, electrical engineering, and simulation\u2014from helping our hardware teams ite..."
+    "ChatGPT and Codex are helping engineers build for the physical world. We\u2019re sharing our progress across mechanical design, electrical engineering, and simulation\u2014from helping our hardware teams ite...",
+    "ELECTION DAY FUTURES UPDATE: 1. S&P 500: -0.9% 2. Dow Jones: -0.5% 3. Nasdaq 100: -1.9% 4. Crude Oil: -1.0% 5. Gold: +0.7% The Nasdaq 100 is now trading at its lowest level since July 26th. Markets..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127725913472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-24T22:15:23.479537+00:00"
-    },
     {
       "fb_id": "1450104950555778",
       "topics": [
@@ -834,6 +825,16 @@
       ],
       "mode": "viral",
       "at": "2026-11-04T01:55:47.136139+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122130672681472689",
+      "topics": [
+        "gold_oil",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "split:scene",
+      "at": "2026-11-04T08:19:47.698483+00:00"
     }
   ],
   "tuner": {
@@ -895,20 +896,6 @@
   },
   "last_video_post": "2026-11-04",
   "recent_fps": [
-    {
-      "fp": [
-        "AP",
-        "arab",
-        "grand",
-        "leftist",
-        "mike",
-        "rapids",
-        "reuters",
-        "rogers",
-        "these"
-      ],
-      "at": "2026-10-30T19:26:04.397925+00:00"
-    },
     {
       "fp": [
         "$6.3",
@@ -1171,10 +1158,25 @@
         "codex"
       ],
       "at": "2026-11-04T01:55:47.136135+00:00"
+    },
+    {
+      "fp": [
+        "DAY",
+        "UPDATE",
+        "crude",
+        "democrat",
+        "dow",
+        "gold",
+        "jones",
+        "july",
+        "markets",
+        "nasdaq",
+        "oil"
+      ],
+      "at": "2026-11-04T08:19:47.698468+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: Bill Ackman SLAMS mainstream media outlets over coverage of his recent speech comments.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 US stock market gets CRASHED like a memecoin today.",
     "Scenario lab for bear, base and bull cases. A red-flags desk runs Beneish, Altman and DuPont, with a multi-agent investment committee and a head-to-head compare view.",
@@ -1188,7 +1190,8 @@
     "Commercials, Large Specs and Retail share 1 axis, with fills split above and below zero. A thin market and a giant one finally read side by side.",
     "JUST IN: Stock market history signals a massive RALLY if Democrats sweep Congress.",
     "$19/mo runs the daily signal feed on your watchlist, $39/mo adds the 4-in-1 Pine suite and alerts, $99/mo adds the local quant terminal",
-    "BREAKING: Michael Burry is WINNING his massive bet against the AI bubble."
+    "BREAKING: Michael Burry is WINNING his massive bet against the AI bubble.",
+    "JUST IN: Markets CRASH on Election Day as Wall Street prices in a Democrat sweep \ud83d\udcc9"
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1268,7 +1271,8 @@
     "122130352797472689_1834862254268104",
     "122130423039472689_3554018794750074",
     "122130517941472689_2249806406420340",
-    "122130578703472689_1150921997608769"
+    "122130578703472689_1150921997608769",
+    "122130611421472689_983266791518207"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
