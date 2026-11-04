@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "4e3bd29322582248",
-    "fb_id": "1264009986803820_122130672681472689",
-    "title": "ELECTION DAY FUTURES UPDATE: 1. S&P 500: -0.9% 2. Dow Jones: -0.5% 3. Nasdaq 100: -1.9% 4. Crude Oil: -1.0% 5. Gold: +0.7% The Nasdaq 100 is now trading at its lowest level since July 26th. Markets...",
-    "link": "https://x.com/KobeissiLetter/status/2117795977503650148",
-    "mode": "viral",
-    "at": "2026-11-04T08:19:47.698483+00:00"
+    "hash": "95cb3b788893dc32",
+    "fb_id": "1264009986803820_122130772389472689",
+    "title": "72% - TSLA",
+    "link": "",
+    "mode": "serious",
+    "at": "2026-11-04T16:24:31.364579+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -213,6 +213,7 @@
     "944111dc08b1e6b8",
     "94aaf39d1af68e38",
     "959bd28d9c00ec90",
+    "95cb3b788893dc32",
     "968e8a3c14a86d3b",
     "96d536b14c03c692",
     "97eaf41a60bc6480",
@@ -370,10 +371,9 @@
   "day_counts": {
     "2026-11-02": 3,
     "2026-11-03": 4,
-    "2026-11-04": 2
+    "2026-11-04": 3
   },
   "recent_titles": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the $6,300,000,000 Binance crypto hack.",
     "We built PlanAssist to help UK Government planning officers speed up building and renovations across the country. Built with Gemini, it has shown it can cut the time planning officers spend assessi...",
     "MSTR Stock Is Down 44% in a Year, but Michael Saylor Says Strategy Doesn\u2019t Need Bitcoin Or Equity to Do the \u2018Heavy Lifting\u2019",
     "\u2699\ufe0f 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL",
@@ -387,17 +387,10 @@
     "\ud83c\udf9f\ufe0f FOUNDING MEMBERS: $19/MO FOR THE DAILY FEED",
     "Breaking: Michael Burry is winning during the AI bubble Here's how his shorts are performing: \u2022 Nvidia $NVDA: -2.3% \u2022 Palantir $PLTR: -13.9% \u2022 Oracle $ORCL: -17.6% \u2022 Micron $MU: -20.8% Everyone was...",
     "ChatGPT and Codex are helping engineers build for the physical world. We\u2019re sharing our progress across mechanical design, electrical engineering, and simulation\u2014from helping our hardware teams ite...",
-    "ELECTION DAY FUTURES UPDATE: 1. S&P 500: -0.9% 2. Dow Jones: -0.5% 3. Nasdaq 100: -1.9% 4. Crude Oil: -1.0% 5. Gold: +0.7% The Nasdaq 100 is now trading at its lowest level since July 26th. Markets..."
+    "ELECTION DAY FUTURES UPDATE: 1. S&P 500: -0.9% 2. Dow Jones: -0.5% 3. Nasdaq 100: -1.9% 4. Crude Oil: -1.0% 5. Gold: +0.7% The Nasdaq 100 is now trading at its lowest level since July 26th. Markets...",
+    "72% - TSLA"
   ],
   "history": [
-    {
-      "fb_id": "1450104950555778",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "at": "2026-10-25T00:23:32.755779+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127806337472689",
       "topics": [
@@ -835,6 +828,13 @@
       "mode": "viral",
       "photo": "split:scene",
       "at": "2026-11-04T08:19:47.698483+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122130772389472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "product",
+      "at": "2026-11-04T16:24:31.364579+00:00"
     }
   ],
   "tuner": {
@@ -896,17 +896,6 @@
   },
   "last_video_post": "2026-11-04",
   "recent_fps": [
-    {
-      "fp": [
-        "$6.3",
-        "IN",
-        "JUST",
-        "binance",
-        "president",
-        "trump"
-      ],
-      "at": "2026-10-30T23:13:49.538061+00:00"
-    },
     {
       "fp": [
         "ARM",
@@ -1174,10 +1163,23 @@
         "oil"
       ],
       "at": "2026-11-04T08:19:47.698468+00:00"
+    },
+    {
+      "fp": [
+        "$108",
+        "$385",
+        "DCF",
+        "EPS",
+        "TSLA",
+        "altman",
+        "basis",
+        "forward",
+        "piotroski"
+      ],
+      "at": "2026-11-04T16:24:31.364563+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says he is looking into the $6.3 billion Binance crypto hack.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 US stock market gets CRASHED like a memecoin today.",
     "Scenario lab for bear, base and bull cases. A red-flags desk runs Beneish, Altman and DuPont, with a multi-agent investment committee and a head-to-head compare view.",
     "JUST IN: Bitcoin ($BTC) Halloween price history shows massive historic GAINS.",
@@ -1191,7 +1193,8 @@
     "JUST IN: Stock market history signals a massive RALLY if Democrats sweep Congress.",
     "$19/mo runs the daily signal feed on your watchlist, $39/mo adds the 4-in-1 Pine suite and alerts, $99/mo adds the local quant terminal",
     "BREAKING: Michael Burry is WINNING his massive bet against the AI bubble.",
-    "JUST IN: Markets CRASH on Election Day as Wall Street prices in a Democrat sweep \ud83d\udcc9"
+    "JUST IN: Markets CRASH on Election Day as Wall Street prices in a Democrat sweep \ud83d\udcc9",
+    "The model values Tesla ($TSLA) at $108 against a $385 price - 72% rich."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1272,7 +1275,8 @@
     "122130423039472689_3554018794750074",
     "122130517941472689_2249806406420340",
     "122130578703472689_1150921997608769",
-    "122130611421472689_983266791518207"
+    "122130611421472689_983266791518207",
+    "122130672681472689_1462351586099011"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
@@ -1288,9 +1292,10 @@
     "en-10-premium-toolkit-free",
     "en-11-valuation-settings",
     "en-12-cot-report-open-interest",
-    "en-13-founding-member"
+    "en-13-founding-member",
+    "sig-TSLA-20261021"
   ],
   "product_posts_day": {
-    "2026-11-03": 1
+    "2026-11-04": 1
   }
 }
