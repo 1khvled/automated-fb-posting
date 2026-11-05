@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "8f9f988762b8ff7c",
-    "fb_id": "1137976458647237",
-    "title": "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
-    "link": "https://x.com/OpenAI/status/2118124944928432327",
+    "hash": "a1a91207df4d1be9",
+    "fb_id": "1264009986803820_122131091889472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%...",
+    "link": "https://x.com/WatcherGuru/status/2118383775654785407",
     "mode": "viral",
-    "kind": "video",
-    "at": "2026-11-05T02:30:59.127159+00:00"
+    "at": "2026-11-05T23:01:24.295271+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -234,6 +233,7 @@
     "9e7a35d8c4d94bb6",
     "9e821647d63289bd",
     "9f162789c72b6097",
+    "a1a91207df4d1be9",
     "a1cc606c7a126979",
     "a213d2123000aa56",
     "a26723d092184d6c",
@@ -374,10 +374,9 @@
   "day_counts": {
     "2026-11-03": 4,
     "2026-11-04": 4,
-    "2026-11-05": 1
+    "2026-11-05": 2
   },
   "recent_titles": [
-    "\u2699\ufe0f 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL",
     "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si...",
     "Everything changed for the oil, AI and bond trades over the past month",
     "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000",
@@ -391,20 +390,10 @@
     "ELECTION DAY FUTURES UPDATE: 1. S&P 500: -0.9% 2. Dow Jones: -0.5% 3. Nasdaq 100: -1.9% 4. Crude Oil: -1.0% 5. Gold: +0.7% The Nasdaq 100 is now trading at its lowest level since July 26th. Markets...",
     "72% - TSLA",
     "US STOCKS AND BONDS RALLIED AFTER DEMOCRATIC GAINS IN CONGRESS RAISED HOPES FOR POLITICAL GRIDLOCK AND A QUICKER END TO THE IRAN WAR. THE S&P 500 JUMPED 1.6%, THE DOW ROSE 3%, TREASURY YIELDS FELL ...",
-    "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation."
+    "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127929403472689",
-      "topics": [
-        "fed",
-        "inflation",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "split:face+inst",
-      "at": "2026-10-25T14:02:47.388730+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127986229472689",
       "topics": [
@@ -840,6 +829,17 @@
       ],
       "mode": "viral",
       "at": "2026-11-05T02:30:59.127159+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122131091889472689",
+      "topics": [
+        "ai",
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-05T23:01:24.295271+00:00"
     }
   ],
   "tuner": {
@@ -901,19 +901,6 @@
   },
   "last_video_post": "2026-11-05",
   "recent_fps": [
-    {
-      "fp": [
-        "ALL",
-        "FLAG",
-        "LAB",
-        "RED",
-        "TOOL",
-        "altman",
-        "beneish",
-        "scenario"
-      ],
-      "at": "2026-10-31T14:55:01.702328+00:00"
-    },
     {
       "fp": [
         "$0.20",
@@ -1193,10 +1180,36 @@
         "plus"
       ],
       "at": "2026-11-05T02:30:59.127152+00:00"
+    },
+    {
+      "fp": [
+        "$2.3",
+        "AAPL",
+        "AMZN",
+        "GOOGL",
+        "IN",
+        "JUST",
+        "META",
+        "MSFT",
+        "NVDA",
+        "TSLA",
+        "US",
+        "amazon",
+        "apple",
+        "democrats",
+        "google",
+        "house",
+        "magnificent",
+        "meta",
+        "microsoft",
+        "nvidia",
+        "senate",
+        "tesla"
+      ],
+      "at": "2026-11-05T23:01:24.295247+00:00"
     }
   ],
   "recent_hooks": [
-    "Scenario lab for bear, base and bull cases. A red-flags desk runs Beneish, Altman and DuPont, with a multi-agent investment committee and a head-to-head compare view.",
     "JUST IN: Bitcoin ($BTC) Halloween price history shows massive historic GAINS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the massive $6,300,000,000 Binance crypto HACK.",
     "JUST IN: Strategy ($MSTR) stock drops 44% over the past year.",
@@ -1210,7 +1223,8 @@
     "BREAKING: Michael Burry is WINNING his massive bet against the AI bubble.",
     "JUST IN: Markets CRASH on Election Day as Wall Street prices in a Democrat sweep \ud83d\udcc9",
     "The model values Tesla ($TSLA) at $108 against a $385 price - 72% rich.",
-    "BREAKING: US stocks and bonds RALLIED after Democratic Congressional gains fueled hopes for political gridlock and a swift end to the Iran war."
+    "BREAKING: US stocks and bonds RALLIED after Democratic Congressional gains fueled hopes for political gridlock and a swift end to the Iran war.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks CRASH after Democrats win control of both the House and Senate."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
