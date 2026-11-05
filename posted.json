@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "d2e9caf794418754",
-    "fb_id": "1264009986803820_122130829815472689",
-    "title": "US STOCKS AND BONDS RALLIED AFTER DEMOCRATIC GAINS IN CONGRESS RAISED HOPES FOR POLITICAL GRIDLOCK AND A QUICKER END TO THE IRAN WAR. THE S&P 500 JUMPED 1.6%, THE DOW ROSE 3%, TREASURY YIELDS FELL ...",
-    "link": "https://x.com/FirstSquawk/status/2118095074332680613",
-    "mode": "serious",
-    "at": "2026-11-04T22:09:37.928512+00:00"
+    "hash": "8f9f988762b8ff7c",
+    "fb_id": "1137976458647237",
+    "title": "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
+    "link": "https://x.com/OpenAI/status/2118124944928432327",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-11-05T02:30:59.127159+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -203,6 +204,7 @@
     "8b28fa11f665d360",
     "8c979261e3d4a088",
     "8f009f9471b8fe50",
+    "8f9f988762b8ff7c",
     "90475a1c74fc1067",
     "90fe6b0d6b5f46fb",
     "9183b24a4bd57139",
@@ -370,12 +372,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-02": 3,
     "2026-11-03": 4,
-    "2026-11-04": 4
+    "2026-11-04": 4,
+    "2026-11-05": 1
   },
   "recent_titles": [
-    "MSTR Stock Is Down 44% in a Year, but Michael Saylor Says Strategy Doesn\u2019t Need Bitcoin Or Equity to Do the \u2018Heavy Lifting\u2019",
     "\u2699\ufe0f 4 COMPARISON SYMBOLS, PERIOD 10, RESCALE 100: THE VALUATION TOOL",
     "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si...",
     "Everything changed for the oil, AI and bond trades over the past month",
@@ -389,16 +390,10 @@
     "ChatGPT and Codex are helping engineers build for the physical world. We\u2019re sharing our progress across mechanical design, electrical engineering, and simulation\u2014from helping our hardware teams ite...",
     "ELECTION DAY FUTURES UPDATE: 1. S&P 500: -0.9% 2. Dow Jones: -0.5% 3. Nasdaq 100: -1.9% 4. Crude Oil: -1.0% 5. Gold: +0.7% The Nasdaq 100 is now trading at its lowest level since July 26th. Markets...",
     "72% - TSLA",
-    "US STOCKS AND BONDS RALLIED AFTER DEMOCRATIC GAINS IN CONGRESS RAISED HOPES FOR POLITICAL GRIDLOCK AND A QUICKER END TO THE IRAN WAR. THE S&P 500 JUMPED 1.6%, THE DOW ROSE 3%, TREASURY YIELDS FELL ..."
+    "US STOCKS AND BONDS RALLIED AFTER DEMOCRATIC GAINS IN CONGRESS RAISED HOPES FOR POLITICAL GRIDLOCK AND A QUICKER END TO THE IRAN WAR. THE S&P 500 JUMPED 1.6%, THE DOW ROSE 3%, TREASURY YIELDS FELL ...",
+    "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127856125472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-10-25T09:51:07.641906+00:00"
-    },
     {
       "fb_id": "1264009986803820_122127929403472689",
       "topics": [
@@ -837,48 +832,56 @@
       "mode": "serious",
       "photo": "inst:capitol",
       "at": "2026-11-04T22:09:37.928512+00:00"
+    },
+    {
+      "fb_id": "1137976458647237",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-11-05T02:30:59.127159+00:00"
     }
   ],
   "tuner": {
     "topics": {
+      "power": {
+        "n": 3,
+        "e": 9
+      },
       "unknown": {
         "n": 5,
         "e": 15
+      },
+      "crypto": {
+        "n": 6,
+        "e": 18
       },
       "ai": {
         "n": 4,
         "e": 12
       },
       "gold_oil": {
-        "n": 3,
-        "e": 9
-      },
-      "power": {
-        "n": 4,
-        "e": 12
-      },
-      "crypto": {
-        "n": 8,
-        "e": 24
-      },
-      "stocks": {
         "n": 4,
         "e": 12
       },
       "inflation": {
         "n": 1,
         "e": 3
+      },
+      "stocks": {
+        "n": 5,
+        "e": 15
       }
     },
     "mult": {
-      "gold_oil": 1.03,
-      "ai": 0.98,
-      "stocks": 0.98,
+      "gold_oil": 1.02,
+      "ai": 0.99,
+      "stocks": 0.99,
       "crypto": 1.01,
       "inflation": 1.09,
-      "power": 0.98
+      "power": 0.99
     },
-    "updated": "2026-11-04"
+    "updated": "2026-11-05"
   },
   "comment_review": {
     "posts": 8,
@@ -886,29 +889,18 @@
     "likes": 0,
     "questions": 8,
     "praise": 0,
-    "anger": 1,
+    "anger": 0,
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "Should I reduce my exposure to tech stocks right now, or is this market reaction overblown?",
-      "How much leverage, if any, are you currently holding in your crypto portfolio after this wipeout?",
-      "Is my money actually safer keeping it on a centralized exchange like Binance, or should I finally move everything to a self-custody cold wallet?"
+      "Could an AI like this actually handle my daily scheduling and personal finances safely?",
+      "How are you adjusting your portfolio ahead of the election to prepare for a potential market shift?",
+      "Which of these subscription tiers offers the best value for managing a personal swing trading portfolio?"
     ],
-    "updated": "2026-11-04"
+    "updated": "2026-11-05"
   },
-  "last_video_post": "2026-11-04",
+  "last_video_post": "2026-11-05",
   "recent_fps": [
-    {
-      "fp": [
-        "canada",
-        "carney",
-        "get",
-        "putin",
-        "stop",
-        "ukraine"
-      ],
-      "at": "2026-10-31T08:51:37.123369+00:00"
-    },
     {
       "fp": [
         "ALL",
@@ -1191,6 +1183,16 @@
         "YIELD"
       ],
       "at": "2026-11-04T22:09:37.928499+00:00"
+    },
+    {
+      "fp": [
+        "API",
+        "GIF",
+        "images",
+        "now",
+        "plus"
+      ],
+      "at": "2026-11-05T02:30:59.127152+00:00"
     }
   ],
   "recent_hooks": [
@@ -1291,7 +1293,8 @@
     "122130578703472689_1150921997608769",
     "122130611421472689_983266791518207",
     "122130672681472689_1462351586099011",
-    "122130772389472689_1148902704765054"
+    "122130772389472689_1148902704765054",
+    "122130829815472689_1111794748415379"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
