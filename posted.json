@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "a1a91207df4d1be9",
-    "fb_id": "1264009986803820_122131091889472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%...",
-    "link": "https://x.com/WatcherGuru/status/2118383775654785407",
+    "hash": "dc5b28b49107c1ef",
+    "fb_id": "1784471295998403",
+    "title": "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ...",
+    "link": "https://x.com/GoogleAIStudio/status/2118390015382454491",
     "mode": "viral",
-    "at": "2026-11-05T23:01:24.295271+00:00"
+    "kind": "video",
+    "at": "2026-11-06T03:28:11.191467+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -312,6 +313,7 @@
     "d83a3d5c86146f73",
     "d861583e99fec9ab",
     "d9e68d9471ca15df",
+    "dc5b28b49107c1ef",
     "dc7e9c4855bef73b",
     "dd3b30e96ab2a14d",
     "dde12a97e4ef93ba",
@@ -372,12 +374,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-03": 4,
     "2026-11-04": 4,
-    "2026-11-05": 2
+    "2026-11-05": 2,
+    "2026-11-06": 1
   },
   "recent_titles": [
-    "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June. This also marks its 3rd-largest monthly outflow si...",
     "Everything changed for the oil, AI and bond trades over the past month",
     "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000",
     "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ...",
@@ -391,18 +392,10 @@
     "72% - TSLA",
     "US STOCKS AND BONDS RALLIED AFTER DEMOCRATIC GAINS IN CONGRESS RAISED HOPES FOR POLITICAL GRIDLOCK AND A QUICKER END TO THE IRAN WAR. THE S&P 500 JUMPED 1.6%, THE DOW ROSE 3%, TREASURY YIELDS FELL ...",
     "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%..."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%...",
+    "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122127986229472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-25T17:41:34.673589+00:00"
-    },
     {
       "fb_id": "1264009986803820_122128049865472689",
       "topics": [
@@ -840,23 +833,27 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-05T23:01:24.295271+00:00"
+    },
+    {
+      "fb_id": "1784471295998403",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-11-06T03:28:11.191467+00:00"
     }
   ],
   "tuner": {
     "topics": {
-      "power": {
-        "n": 3,
-        "e": 9
-      },
-      "unknown": {
-        "n": 5,
-        "e": 15
-      },
       "crypto": {
         "n": 6,
         "e": 18
       },
       "ai": {
+        "n": 6,
+        "e": 18
+      },
+      "unknown": {
         "n": 4,
         "e": 12
       },
@@ -869,19 +866,23 @@
         "e": 3
       },
       "stocks": {
-        "n": 5,
-        "e": 15
+        "n": 6,
+        "e": 18
+      },
+      "power": {
+        "n": 3,
+        "e": 9
       }
     },
     "mult": {
-      "gold_oil": 1.02,
+      "gold_oil": 1.01,
       "ai": 0.99,
       "stocks": 0.99,
       "crypto": 1.01,
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-05"
+    "updated": "2026-11-06"
   },
   "comment_review": {
     "posts": 8,
@@ -893,40 +894,14 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "Could an AI like this actually handle my daily scheduling and personal finances safely?",
-      "How are you adjusting your portfolio ahead of the election to prepare for a potential market shift?",
-      "Which of these subscription tiers offers the best value for managing a personal swing trading portfolio?"
+      "Which of these subscription tiers offers the best value for managing a personal swing trading portfolio?",
+      "Is it time to cut my exposure to AI stocks before the tech pull-back worsens?",
+      "How are you using AI tools like ChatGPT to speed up your own hardware design or engineering workflows?"
     ],
-    "updated": "2026-11-05"
+    "updated": "2026-11-06"
   },
-  "last_video_post": "2026-11-05",
+  "last_video_post": "2026-11-06",
   "recent_fps": [
-    {
-      "fp": [
-        "$0.20",
-        "$11",
-        "$110,000",
-        "$13,540",
-        "$20,625",
-        "$201",
-        "$3.27",
-        "$312",
-        "$337",
-        "$34,495",
-        "$34...",
-        "$6,330",
-        "$6,369",
-        "$61,840",
-        "$699",
-        "$72,250",
-        "$77,400",
-        "$9,170",
-        "bitcoin",
-        "halloween",
-        "price"
-      ],
-      "at": "2026-10-31T18:55:28.623477+00:00"
-    },
     {
       "fp": [
         "$6,300,000,000",
@@ -1207,6 +1182,10 @@
         "tesla"
       ],
       "at": "2026-11-05T23:01:24.295247+00:00"
+    },
+    {
+      "fp": [],
+      "at": "2026-11-06T03:28:11.191460+00:00"
     }
   ],
   "recent_hooks": [
@@ -1309,7 +1288,8 @@
     "122130672681472689_1462351586099011",
     "122130772389472689_1148902704765054",
     "122130829815472689_1111794748415379",
-    "122130866481472689_3192259447634055"
+    "122130866481472689_3192259447634055",
+    "122131091889472689_1721185919522225"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
