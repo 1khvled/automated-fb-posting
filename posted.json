@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "dc5b28b49107c1ef",
-    "fb_id": "1784471295998403",
-    "title": "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ...",
-    "link": "https://x.com/GoogleAIStudio/status/2118390015382454491",
+    "hash": "f3bab71b0e7d90e4",
+    "fb_id": "1264009986803820_122131331715472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren says Democrats will hold President Trump, Big Tech CEOs, Wall Street executives, and major corporations accountable for enriching themselves.",
+    "link": "https://x.com/WatcherGuru/status/2118760836026212433",
     "mode": "viral",
-    "kind": "video",
-    "at": "2026-11-06T03:28:11.191467+00:00"
+    "at": "2026-11-06T23:29:48.154733+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -348,6 +347,7 @@
     "f33418d042ff8358",
     "f34ea8d2b87d4290",
     "f36a9072ea0136d2",
+    "f3bab71b0e7d90e4",
     "f423d63bf056a5f2",
     "f5c9f3c52bf9d8cb",
     "f5ed833925730a57",
@@ -376,10 +376,9 @@
   "day_counts": {
     "2026-11-04": 4,
     "2026-11-05": 2,
-    "2026-11-06": 1
+    "2026-11-06": 2
   },
   "recent_titles": [
-    "Everything changed for the oil, AI and bond trades over the past month",
     "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000",
     "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ...",
     "\ud83d\udcca NET POSITIONS AS A % OF OPEN INTEREST \u2014 3 GROUPS ON ONE SCALE",
@@ -393,19 +392,10 @@
     "US STOCKS AND BONDS RALLIED AFTER DEMOCRATIC GAINS IN CONGRESS RAISED HOPES FOR POLITICAL GRIDLOCK AND A QUICKER END TO THE IRAN WAR. THE S&P 500 JUMPED 1.6%, THE DOW ROSE 3%, TREASURY YIELDS FELL ...",
     "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%...",
-    "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ..."
+    "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren says Democrats will hold President Trump, Big Tech CEOs, Wall Street executives, and major corporations accountable for enriching themselves."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128049865472689",
-      "topics": [
-        "crypto",
-        "gold_oil"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-10-25T19:58:34.710219+00:00"
-    },
     {
       "fb_id": "1264009986803820_122128108773472689",
       "topics": [
@@ -841,6 +831,16 @@
       ],
       "mode": "viral",
       "at": "2026-11-06T03:28:11.191467+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122131331715472689",
+      "topics": [
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-06T23:29:48.154733+00:00"
     }
   ],
   "tuner": {
@@ -902,16 +902,6 @@
   },
   "last_video_post": "2026-11-06",
   "recent_fps": [
-    {
-      "fp": [
-        "$6,300,000,000",
-        "FBI",
-        "binance",
-        "korea",
-        "north"
-      ],
-      "at": "2026-10-31T22:03:43.337341+00:00"
-    },
     {
       "fp": [
         "UK",
@@ -1186,10 +1176,26 @@
     {
       "fp": [],
       "at": "2026-11-06T03:28:11.191460+00:00"
+    },
+    {
+      "fp": [
+        "CEO",
+        "IN",
+        "JUST",
+        "big",
+        "democrats",
+        "elizabeth",
+        "president",
+        "street",
+        "tech",
+        "trump",
+        "wall",
+        "warren"
+      ],
+      "at": "2026-11-06T23:29:48.154717+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: Bitcoin ($BTC) Halloween price history shows massive historic GAINS.",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the massive $6,300,000,000 Binance crypto HACK.",
     "JUST IN: Strategy ($MSTR) stock drops 44% over the past year.",
     "Toggle up to 4 comparison symbols and tune the lookback and rescale lengths. Then read the Composite Score against the shaded overvalued and undervalued zones.",
@@ -1203,7 +1209,8 @@
     "JUST IN: Markets CRASH on Election Day as Wall Street prices in a Democrat sweep \ud83d\udcc9",
     "The model values Tesla ($TSLA) at $108 against a $385 price - 72% rich.",
     "BREAKING: US stocks and bonds RALLIED after Democratic Congressional gains fueled hopes for political gridlock and a swift end to the Iran war.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks CRASH after Democrats win control of both the House and Senate."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks CRASH after Democrats win control of both the House and Senate.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren vows Democrats will TARGET President Trump, Big Tech CEOs, and Wall Street executives."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
