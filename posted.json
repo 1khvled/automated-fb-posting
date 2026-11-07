@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "f3bab71b0e7d90e4",
-    "fb_id": "1264009986803820_122131331715472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren says Democrats will hold President Trump, Big Tech CEOs, Wall Street executives, and major corporations accountable for enriching themselves.",
-    "link": "https://x.com/WatcherGuru/status/2118760836026212433",
+    "hash": "892ceea87f5b83f9",
+    "fb_id": "1264009986803820_122131408401472689",
+    "title": "BREAKING: Global crude oil in transit is up to 1.28 billion barrels, an all-time high. This figure has surged +180 million barrels over the last several weeks. This comes as Middle Eastern oil flow...",
+    "link": "https://x.com/KobeissiLetter/status/2118818571111612486",
     "mode": "viral",
-    "at": "2026-11-06T23:29:48.154733+00:00"
+    "at": "2026-11-07T03:13:14.098405+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -197,6 +197,7 @@
     "867b20d0da8e6817",
     "867ce1ba4a6f830b",
     "88ef3697fea063b2",
+    "892ceea87f5b83f9",
     "89ac828e8f5cead9",
     "89f910e39140c0f6",
     "8ad57dc874ac363d",
@@ -374,12 +375,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-04": 4,
     "2026-11-05": 2,
-    "2026-11-06": 2
+    "2026-11-06": 2,
+    "2026-11-07": 1
   },
   "recent_titles": [
-    "JUST IN: Crypto liquidations in October, 2026. \u2022 Longs: $9,213,000,000 \u2022 Shorts: $3,290,000,000 \u2022 Total: $12,500,000,000",
     "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ...",
     "\ud83d\udcca NET POSITIONS AS A % OF OPEN INTEREST \u2014 3 GROUPS ON ONE SCALE",
     "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users o...",
@@ -393,18 +393,10 @@
     "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%...",
     "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ...",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren says Democrats will hold President Trump, Big Tech CEOs, Wall Street executives, and major corporations accountable for enriching themselves."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren says Democrats will hold President Trump, Big Tech CEOs, Wall Street executives, and major corporations accountable for enriching themselves.",
+    "BREAKING: Global crude oil in transit is up to 1.28 billion barrels, an all-time high. This figure has surged +180 million barrels over the last several weeks. This comes as Middle Eastern oil flow..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128108773472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "serious",
-      "photo": "split:scene",
-      "at": "2026-10-25T22:13:48.319411+00:00"
-    },
     {
       "fb_id": "1264009986803820_122128132455472689",
       "topics": [
@@ -841,17 +833,26 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-06T23:29:48.154733+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122131408401472689",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-07T03:13:14.098405+00:00"
     }
   ],
   "tuner": {
     "topics": {
-      "crypto": {
-        "n": 6,
-        "e": 18
-      },
       "ai": {
-        "n": 6,
-        "e": 18
+        "n": 7,
+        "e": 21
+      },
+      "crypto": {
+        "n": 4,
+        "e": 12
       },
       "unknown": {
         "n": 4,
@@ -866,12 +867,12 @@
         "e": 3
       },
       "stocks": {
-        "n": 6,
-        "e": 18
+        "n": 7,
+        "e": 21
       },
       "power": {
-        "n": 3,
-        "e": 9
+        "n": 4,
+        "e": 12
       }
     },
     "mult": {
@@ -882,7 +883,7 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-06"
+    "updated": "2026-11-07"
   },
   "comment_review": {
     "posts": 8,
@@ -890,27 +891,18 @@
     "likes": 0,
     "questions": 8,
     "praise": 0,
-    "anger": 0,
+    "anger": 1,
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [
-      "Which of these subscription tiers offers the best value for managing a personal swing trading portfolio?",
-      "Is it time to cut my exposure to AI stocks before the tech pull-back worsens?",
-      "How are you using AI tools like ChatGPT to speed up your own hardware design or engineering workflows?"
+      "How are you using AI tools like ChatGPT to speed up your own hardware design or engineering workflows?",
+      "Are you holding through this market dip or moving your portfolio into safer assets like gold?",
+      "Given that valuation gap, are you buying the current dip or staying completely away from Tesla right now?"
     ],
-    "updated": "2026-11-06"
+    "updated": "2026-11-07"
   },
   "last_video_post": "2026-11-06",
   "recent_fps": [
-    {
-      "fp": [
-        "UK",
-        "built",
-        "gemini",
-        "government"
-      ],
-      "at": "2026-11-01T01:13:43.787892+00:00"
-    },
     {
       "fp": [
         "MSTR",
@@ -1193,10 +1185,21 @@
         "warren"
       ],
       "at": "2026-11-06T23:29:48.154717+00:00"
+    },
+    {
+      "fp": [
+        "eastern",
+        "global",
+        "hormuz",
+        "middle",
+        "ship",
+        "strait",
+        "this"
+      ],
+      "at": "2026-11-07T03:13:14.098394+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\uddf0\ud83c\uddf5 FBI confirms North Korea is responsible for the massive $6,300,000,000 Binance crypto HACK.",
     "JUST IN: Strategy ($MSTR) stock drops 44% over the past year.",
     "Toggle up to 4 comparison symbols and tune the lookback and rescale lengths. Then read the Composite Score against the shaded overvalued and undervalued zones.",
     "JUST IN: Investors dumped $1.8 BILLION from SPDR Gold Shares ($GLD) in October, marking its biggest monthly withdrawal since June.",
@@ -1210,7 +1213,8 @@
     "The model values Tesla ($TSLA) at $108 against a $385 price - 72% rich.",
     "BREAKING: US stocks and bonds RALLIED after Democratic Congressional gains fueled hopes for political gridlock and a swift end to the Iran war.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks CRASH after Democrats win control of both the House and Senate.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren vows Democrats will TARGET President Trump, Big Tech CEOs, and Wall Street executives."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren vows Democrats will TARGET President Trump, Big Tech CEOs, and Wall Street executives.",
+    "JUST IN: Global CRUDE oil in transit just hit 1.28 billion barrels, an all-time high."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1297,7 +1301,8 @@
     "122130829815472689_1111794748415379",
     "122130866481472689_3192259447634055",
     "122131091889472689_1721185919522225",
-    "122131129137472689_2432844450458273"
+    "122131129137472689_2432844450458273",
+    "122131331715472689_1844886040277678"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
