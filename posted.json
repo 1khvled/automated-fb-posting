@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "892ceea87f5b83f9",
-    "fb_id": "1264009986803820_122131408401472689",
-    "title": "BREAKING: Global crude oil in transit is up to 1.28 billion barrels, an all-time high. This figure has surged +180 million barrels over the last several weeks. This comes as Middle Eastern oil flow...",
-    "link": "https://x.com/KobeissiLetter/status/2118818571111612486",
-    "mode": "viral",
-    "at": "2026-11-07T03:13:14.098405+00:00"
+    "hash": "6f303dd6bbb7f62f",
+    "fb_id": "1669950714723473",
+    "title": "\ud83d\udd25INSIGHT: Trust has to be earned, and exchanges still have work to do. Speaking to @itsciaranlyons, @Han_Gate, founder and CEO of @Gate, said crypto exchanges need to do more to show the public tha...",
+    "link": "https://x.com/Cointelegraph/status/2119089997810954505",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-11-07T16:30:18.381049+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -158,6 +159,7 @@
     "6cd48926a0ca24f4",
     "6d938cdfc0ac455c",
     "6dfde226099b02e8",
+    "6f303dd6bbb7f62f",
     "6f632453df63c6f0",
     "706911cc390e5e03",
     "70921c7e7f00e526",
@@ -377,10 +379,9 @@
   "day_counts": {
     "2026-11-05": 2,
     "2026-11-06": 2,
-    "2026-11-07": 1
+    "2026-11-07": 2
   },
   "recent_titles": [
-    "\ud83d\udea8 Binance says it has covered about 95% of the $6.3 billion stolen in last week's record hack, using its own treasury, its SAFU fund and its futures insurance fund. Withdrawals reopened on Nov. 1. ...",
     "\ud83d\udcca NET POSITIONS AS A % OF OPEN INTEREST \u2014 3 GROUPS ON ONE SCALE",
     "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users o...",
     "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a...",
@@ -394,20 +395,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%...",
     "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren says Democrats will hold President Trump, Big Tech CEOs, Wall Street executives, and major corporations accountable for enriching themselves.",
-    "BREAKING: Global crude oil in transit is up to 1.28 billion barrels, an all-time high. This figure has surged +180 million barrels over the last several weeks. This comes as Middle Eastern oil flow..."
+    "BREAKING: Global crude oil in transit is up to 1.28 billion barrels, an all-time high. This figure has surged +180 million barrels over the last several weeks. This comes as Middle Eastern oil flow...",
+    "\ud83d\udd25INSIGHT: Trust has to be earned, and exchanges still have work to do. Speaking to @itsciaranlyons, @Han_Gate, founder and CEO of @Gate, said crypto exchanges need to do more to show the public tha..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128132455472689",
-      "topics": [
-        "gold_oil",
-        "power",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "face",
-      "at": "2026-10-26T00:26:16.012585+00:00"
-    },
     {
       "fb_id": "1264009986803820_122128189269472689",
       "topics": [
@@ -842,6 +833,14 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-07T03:13:14.098405+00:00"
+    },
+    {
+      "fb_id": "1669950714723473",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "at": "2026-11-07T16:30:18.381049+00:00"
     }
   ],
   "tuner": {
@@ -901,26 +900,8 @@
     ],
     "updated": "2026-11-07"
   },
-  "last_video_post": "2026-11-06",
+  "last_video_post": "2026-11-07",
   "recent_fps": [
-    {
-      "fp": [
-        "MSTR",
-        "bitcoin",
-        "doesn",
-        "down",
-        "equity",
-        "heavy",
-        "lifting",
-        "michael",
-        "need",
-        "saylor",
-        "stock",
-        "strategy",
-        "year"
-      ],
-      "at": "2026-11-01T07:37:41.467608+00:00"
-    },
     {
       "fp": [
         "PERIOD",
@@ -1197,6 +1178,16 @@
         "this"
       ],
       "at": "2026-11-07T03:13:14.098394+00:00"
+    },
+    {
+      "fp": [
+        "CEO",
+        "catch",
+        "gate",
+        "speaking",
+        "trust"
+      ],
+      "at": "2026-11-07T16:30:18.381041+00:00"
     }
   ],
   "recent_hooks": [
