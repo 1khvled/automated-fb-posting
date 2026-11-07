@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "6f303dd6bbb7f62f",
-    "fb_id": "1669950714723473",
-    "title": "\ud83d\udd25INSIGHT: Trust has to be earned, and exchanges still have work to do. Speaking to @itsciaranlyons, @Han_Gate, founder and CEO of @Gate, said crypto exchanges need to do more to show the public tha...",
-    "link": "https://x.com/Cointelegraph/status/2119089997810954505",
+    "hash": "e5c5cc460ad9022d",
+    "fb_id": "1264009986803820_122131642347472689",
+    "title": "Digital credit took four centuries to make possible. From the Dutch East India Company to Bitcoin, this is the story of the ten foundations that brought us here. $STRC",
+    "link": "https://x.com/saylor/status/2119203067015098830",
     "mode": "serious",
-    "kind": "video",
-    "at": "2026-11-07T16:30:18.381049+00:00"
+    "at": "2026-11-07T23:56:05.245252+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -329,6 +328,7 @@
     "e1e01a772ebf9745",
     "e4ddbb5bfc5310e3",
     "e56a10738c3298e8",
+    "e5c5cc460ad9022d",
     "e612910fc99c475f",
     "e72a683e3c7b9b38",
     "e8db4b728ba26ead",
@@ -379,10 +379,9 @@
   "day_counts": {
     "2026-11-05": 2,
     "2026-11-06": 2,
-    "2026-11-07": 2
+    "2026-11-07": 3
   },
   "recent_titles": [
-    "\ud83d\udcca NET POSITIONS AS A % OF OPEN INTEREST \u2014 3 GROUPS ON ONE SCALE",
     "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users o...",
     "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a...",
     "\ud83c\udf9f\ufe0f FOUNDING MEMBERS: $19/MO FOR THE DAILY FEED",
@@ -396,19 +395,10 @@
     "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren says Democrats will hold President Trump, Big Tech CEOs, Wall Street executives, and major corporations accountable for enriching themselves.",
     "BREAKING: Global crude oil in transit is up to 1.28 billion barrels, an all-time high. This figure has surged +180 million barrels over the last several weeks. This comes as Middle Eastern oil flow...",
-    "\ud83d\udd25INSIGHT: Trust has to be earned, and exchanges still have work to do. Speaking to @itsciaranlyons, @Han_Gate, founder and CEO of @Gate, said crypto exchanges need to do more to show the public tha..."
+    "\ud83d\udd25INSIGHT: Trust has to be earned, and exchanges still have work to do. Speaking to @itsciaranlyons, @Han_Gate, founder and CEO of @Gate, said crypto exchanges need to do more to show the public tha...",
+    "Digital credit took four centuries to make possible. From the Dutch East India Company to Bitcoin, this is the story of the ten foundations that brought us here. $STRC"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128189269472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-10-26T05:15:43.394303+00:00"
-    },
     {
       "fb_id": "2920988421604121",
       "topics": [
@@ -841,6 +831,16 @@
       ],
       "mode": "serious",
       "at": "2026-11-07T16:30:18.381049+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122131642347472689",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-11-07T23:56:05.245252+00:00"
     }
   ],
   "tuner": {
@@ -902,18 +902,6 @@
   },
   "last_video_post": "2026-11-07",
   "recent_fps": [
-    {
-      "fp": [
-        "PERIOD",
-        "THE",
-        "TOOL",
-        "composite",
-        "score",
-        "then",
-        "toggle"
-      ],
-      "at": "2026-11-01T14:30:00.567955+00:00"
-    },
     {
       "fp": [
         "$1.8",
@@ -1188,10 +1176,21 @@
         "trust"
       ],
       "at": "2026-11-07T16:30:18.381041+00:00"
+    },
+    {
+      "fp": [
+        "STRC",
+        "bitcoin",
+        "company",
+        "digital",
+        "dutch",
+        "east",
+        "india"
+      ],
+      "at": "2026-11-07T23:56:05.245236+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: Strategy ($MSTR) stock drops 44% over the past year.",
     "Toggle up to 4 comparison symbols and tune the lookback and rescale lengths. Then read the Composite Score against the shaded overvalued and undervalued zones.",
     "JUST IN: Investors dumped $1.8 BILLION from SPDR Gold Shares ($GLD) in October, marking its biggest monthly withdrawal since June.",
     "BREAKING: Traders brace for an AI CRASH as market signals flip in a single month.",
@@ -1205,7 +1204,8 @@
     "BREAKING: US stocks and bonds RALLIED after Democratic Congressional gains fueled hopes for political gridlock and a swift end to the Iran war.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks CRASH after Democrats win control of both the House and Senate.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren vows Democrats will TARGET President Trump, Big Tech CEOs, and Wall Street executives.",
-    "JUST IN: Global CRUDE oil in transit just hit 1.28 billion barrels, an all-time high."
+    "JUST IN: Global CRUDE oil in transit just hit 1.28 billion barrels, an all-time high.",
+    "JUST IN: \ud83d\udea8 4 CENTURIES of monetary history just collapsed into 10 core foundations, tracing digital credit from the Dutch East India Company straight to BITCOIN."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
