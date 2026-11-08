@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "70e1d56d2e5b49a2",
-    "fb_id": "1264009986803820_122131679151472689",
-    "title": "BREAKING: \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8 Two Israelis charged in $129 million AI-powered fraud scheme in U.S. Haaretz reported on U.S. charges against two Israelis, Sharon Hazan (54) and Guy Sheetrit (42), plus Spanish-Brit...",
-    "link": "https://x.com/Megatron_ron/status/2119120618524115267",
+    "hash": "0f9c4c04cef7c3be",
+    "fb_id": "962576203279156",
+    "title": "AI can make me rap. It can\u2019t print Bitcoin.",
+    "link": "https://x.com/saylor/status/2119488660428988740",
     "mode": "viral",
-    "at": "2026-11-08T03:17:26.413524+00:00"
+    "kind": "video",
+    "at": "2026-11-08T20:53:57.634088+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -37,6 +38,7 @@
     "0e3dfa7c1944490a",
     "0e590aebd2b44c59",
     "0f167e673f05e771",
+    "0f9c4c04cef7c3be",
     "100a2e3d51fa9091",
     "1098ec9725488722",
     "109a368c58a2c37c",
@@ -380,10 +382,9 @@
   "day_counts": {
     "2026-11-06": 2,
     "2026-11-07": 3,
-    "2026-11-08": 1
+    "2026-11-08": 2
   },
   "recent_titles": [
-    "Tomorrow could trigger the stock market's biggest rally President Trump could become the 8th president in history to lose both the House and Senate to Democrats What happened to the S&P after, on a...",
     "\ud83c\udf9f\ufe0f FOUNDING MEMBERS: $19/MO FOR THE DAILY FEED",
     "Breaking: Michael Burry is winning during the AI bubble Here's how his shorts are performing: \u2022 Nvidia $NVDA: -2.3% \u2022 Palantir $PLTR: -13.9% \u2022 Oracle $ORCL: -17.6% \u2022 Micron $MU: -20.8% Everyone was...",
     "ChatGPT and Codex are helping engineers build for the physical world. We\u2019re sharing our progress across mechanical design, electrical engineering, and simulation\u2014from helping our hardware teams ite...",
@@ -397,16 +398,10 @@
     "BREAKING: Global crude oil in transit is up to 1.28 billion barrels, an all-time high. This figure has surged +180 million barrels over the last several weeks. This comes as Middle Eastern oil flow...",
     "\ud83d\udd25INSIGHT: Trust has to be earned, and exchanges still have work to do. Speaking to @itsciaranlyons, @Han_Gate, founder and CEO of @Gate, said crypto exchanges need to do more to show the public tha...",
     "Digital credit took four centuries to make possible. From the Dutch East India Company to Bitcoin, this is the story of the ten foundations that brought us here. $STRC",
-    "BREAKING: \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8 Two Israelis charged in $129 million AI-powered fraud scheme in U.S. Haaretz reported on U.S. charges against two Israelis, Sharon Hazan (54) and Guy Sheetrit (42), plus Spanish-Brit..."
+    "BREAKING: \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8 Two Israelis charged in $129 million AI-powered fraud scheme in U.S. Haaretz reported on U.S. charges against two Israelis, Sharon Hazan (54) and Guy Sheetrit (42), plus Spanish-Brit...",
+    "AI can make me rap. It can\u2019t print Bitcoin."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128352031472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-10-26T17:25:13.486115+00:00"
-    },
     {
       "fb_id": "1264009986803820_122128401321472689",
       "topics": [
@@ -843,6 +838,14 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-08T03:17:26.413524+00:00"
+    },
+    {
+      "fb_id": "962576203279156",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-11-08T20:53:57.634088+00:00"
     }
   ],
   "tuner": {
@@ -902,15 +905,8 @@
     ],
     "updated": "2026-11-08"
   },
-  "last_video_post": "2026-11-07",
+  "last_video_post": "2026-11-08",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "everything"
-      ],
-      "at": "2026-11-01T22:52:40.172577+00:00"
-    },
     {
       "fp": [
         "$12,500,000,000",
@@ -1194,6 +1190,13 @@
         "two"
       ],
       "at": "2026-11-08T03:17:26.413508+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "bitcoin"
+      ],
+      "at": "2026-11-08T20:53:57.634077+00:00"
     }
   ],
   "recent_hooks": [
