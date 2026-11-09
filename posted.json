@@ -1,12 +1,12 @@
 {
   "last_post": {
-    "hash": "0f9c4c04cef7c3be",
-    "fb_id": "962576203279156",
-    "title": "AI can make me rap. It can\u2019t print Bitcoin.",
-    "link": "https://x.com/saylor/status/2119488660428988740",
+    "hash": "d33fea3cb24cfc7b",
+    "fb_id": "1591588082770690",
+    "title": "\ud83d\udea8 Every night over Hormuz, Iran's radar crews face the same choice: switch on and get exposed, or stay dark and go blind. And nobody is connecting the dots. MOVE 1: The bait. Cheap US decoy drones,...",
+    "link": "https://x.com/TMLwire/status/2119479031611507061",
     "mode": "viral",
     "kind": "video",
-    "at": "2026-11-08T20:53:57.634088+00:00"
+    "at": "2026-11-09T00:19:12.249277+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -308,6 +308,7 @@
     "d26cee70e4267489",
     "d2ada81ab969a217",
     "d2e9caf794418754",
+    "d33fea3cb24cfc7b",
     "d3dc0525d66d3983",
     "d425f4f753b3e194",
     "d4f0b2e5fc3af8b4",
@@ -380,12 +381,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-06": 2,
     "2026-11-07": 3,
-    "2026-11-08": 2
+    "2026-11-08": 2,
+    "2026-11-09": 1
   },
   "recent_titles": [
-    "\ud83c\udf9f\ufe0f FOUNDING MEMBERS: $19/MO FOR THE DAILY FEED",
     "Breaking: Michael Burry is winning during the AI bubble Here's how his shorts are performing: \u2022 Nvidia $NVDA: -2.3% \u2022 Palantir $PLTR: -13.9% \u2022 Oracle $ORCL: -17.6% \u2022 Micron $MU: -20.8% Everyone was...",
     "ChatGPT and Codex are helping engineers build for the physical world. We\u2019re sharing our progress across mechanical design, electrical engineering, and simulation\u2014from helping our hardware teams ite...",
     "ELECTION DAY FUTURES UPDATE: 1. S&P 500: -0.9% 2. Dow Jones: -0.5% 3. Nasdaq 100: -1.9% 4. Crude Oil: -1.0% 5. Gold: +0.7% The Nasdaq 100 is now trading at its lowest level since July 26th. Markets...",
@@ -399,20 +399,10 @@
     "\ud83d\udd25INSIGHT: Trust has to be earned, and exchanges still have work to do. Speaking to @itsciaranlyons, @Han_Gate, founder and CEO of @Gate, said crypto exchanges need to do more to show the public tha...",
     "Digital credit took four centuries to make possible. From the Dutch East India Company to Bitcoin, this is the story of the ten foundations that brought us here. $STRC",
     "BREAKING: \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8 Two Israelis charged in $129 million AI-powered fraud scheme in U.S. Haaretz reported on U.S. charges against two Israelis, Sharon Hazan (54) and Guy Sheetrit (42), plus Spanish-Brit...",
-    "AI can make me rap. It can\u2019t print Bitcoin."
+    "AI can make me rap. It can\u2019t print Bitcoin.",
+    "\ud83d\udea8 Every night over Hormuz, Iran's radar crews face the same choice: switch on and get exposed, or stay dark and go blind. And nobody is connecting the dots. MOVE 1: The bait. Cheap US decoy drones,..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128401321472689",
-      "topics": [
-        "ai",
-        "crypto",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "split:scene",
-      "at": "2026-10-26T21:51:22.907639+00:00"
-    },
     {
       "fb_id": "1999568264052997",
       "topics": [
@@ -846,25 +836,26 @@
       ],
       "mode": "viral",
       "at": "2026-11-08T20:53:57.634088+00:00"
+    },
+    {
+      "fb_id": "1591588082770690",
+      "topics": [
+        "gold_oil",
+        "power"
+      ],
+      "mode": "viral",
+      "at": "2026-11-09T00:19:12.249277+00:00"
     }
   ],
   "tuner": {
     "topics": {
       "crypto": {
-        "n": 5,
-        "e": 15
-      },
-      "gold_oil": {
-        "n": 5,
-        "e": 15
-      },
-      "inflation": {
-        "n": 1,
-        "e": 3
+        "n": 6,
+        "e": 18
       },
       "stocks": {
-        "n": 7,
-        "e": 21
+        "n": 6,
+        "e": 18
       },
       "unknown": {
         "n": 3,
@@ -877,6 +868,10 @@
       "power": {
         "n": 5,
         "e": 15
+      },
+      "gold_oil": {
+        "n": 3,
+        "e": 9
       }
     },
     "mult": {
@@ -887,7 +882,7 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-08"
+    "updated": "2026-11-09"
   },
   "comment_review": {
     "posts": 8,
@@ -895,33 +890,20 @@
     "likes": 0,
     "questions": 8,
     "praise": 0,
-    "anger": 1,
-    "fake_claims": 0,
-    "by_topic": {},
-    "sample_questions": [
-      "Should I rebalance my portfolio now to lock in these gains, or hold out for lower bond yields?",
-      "Will faster and more versatile AI image generation actually translate into revenue growth that justifies OpenAI's valuation?",
-      "Are you buying this dip in big tech, or moving your money into cash?"
-    ],
-    "updated": "2026-11-08"
-  },
-  "last_video_post": "2026-11-08",
-  "recent_fps": [
-    {
-      "fp": [
-        "$12,500,000,000",
-        "$3,290,000,000",
-        "$9,213,000,000",
-        "IN",
-        "JUST",
-        "crypto",
-        "longs",
-        "october",
-        "shorts",
-        "total"
-      ],
-      "at": "2026-11-02T02:00:24.112440+00:00"
+    "anger": 2,
+    "fake_claims": 1,
+    "by_topic": {
+      "crypto": 1
     },
+    "sample_questions": [
+      "Are you buying this dip in big tech, or moving your money into cash?",
+      "Will this cost reduction make it cheaper for me to integrate Gemini into my own projects?",
+      "How do you think a targeted crackdown on Big Tech and Wall Street would affect your stock portfolio?"
+    ],
+    "updated": "2026-11-09"
+  },
+  "last_video_post": "2026-11-09",
+  "recent_fps": [
     {
       "fp": [
         "$10.7",
@@ -1197,6 +1179,19 @@
         "bitcoin"
       ],
       "at": "2026-11-08T20:53:57.634077+00:00"
+    },
+    {
+      "fp": [
+        "MOVE",
+        "ON",
+        "US",
+        "cheap",
+        "every",
+        "hormuz",
+        "iran",
+        "radar"
+      ],
+      "at": "2026-11-09T00:19:12.249273+00:00"
     }
   ],
   "recent_hooks": [
@@ -1306,7 +1301,8 @@
     "122131408401472689_29361495426867775",
     "122131571697472689_1150934387392493",
     "122131642347472689_1608083210452700",
-    "122131679151472689_1697861541950661"
+    "122131679151472689_1697861541950661",
+    "122131868709472689_1408372078173585"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
