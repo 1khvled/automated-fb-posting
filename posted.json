@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "9173478ea9d0e894",
-    "fb_id": "29293439950289681",
-    "title": "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1) Like, repost and follow for Part 2! \ud83d\udfe0\u26a1",
-    "link": "https://x.com/MandelDuck/status/2119795235475599527",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-11-10T00:38:15.421715+00:00"
+    "hash": "6faa42930679d848",
+    "fb_id": "1264009986803820_122132244501472689",
+    "title": "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
+    "link": "https://www.cnbc.com/2026/11/10/trump-iran-war-hormuz-.html",
+    "mode": "serious",
+    "at": "2026-11-10T07:45:15.090453+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -162,6 +161,7 @@
     "6dfde226099b02e8",
     "6f303dd6bbb7f62f",
     "6f632453df63c6f0",
+    "6faa42930679d848",
     "706911cc390e5e03",
     "70921c7e7f00e526",
     "70e1d56d2e5b49a2",
@@ -385,10 +385,9 @@
   "day_counts": {
     "2026-11-08": 2,
     "2026-11-09": 2,
-    "2026-11-10": 1
+    "2026-11-10": 2
   },
   "recent_titles": [
-    "ELECTION DAY FUTURES UPDATE: 1. S&P 500: -0.9% 2. Dow Jones: -0.5% 3. Nasdaq 100: -1.9% 4. Crude Oil: -1.0% 5. Gold: +0.7% The Nasdaq 100 is now trading at its lowest level since July 26th. Markets...",
     "72% - TSLA",
     "US STOCKS AND BONDS RALLIED AFTER DEMOCRATIC GAINS IN CONGRESS RAISED HOPES FOR POLITICAL GRIDLOCK AND A QUICKER END TO THE IRAN WAR. THE S&P 500 JUMPED 1.6%, THE DOW ROSE 3%, TREASURY YIELDS FELL ...",
     "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
@@ -402,16 +401,10 @@
     "AI can make me rap. It can\u2019t print Bitcoin.",
     "\ud83d\udea8 Every night over Hormuz, Iran's radar crews face the same choice: switch on and get exposed, or stay dark and go blind. And nobody is connecting the dots. MOVE 1: The bait. Cheap US decoy drones,...",
     "You can't make this up: At 6:00 PM ET, US stock market futures opened for the first time since Nvidia CEO Jensen Huang admitted to a \"relationship\" with a Chinese spy. By 6:01 PM ET, S&P 500 future...",
-    "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1) Like, repost and follow for Part 2! \ud83d\udfe0\u26a1"
+    "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1) Like, repost and follow for Part 2! \ud83d\udfe0\u26a1",
+    "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128565493472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-10-27T12:17:05.065580+00:00"
-    },
     {
       "fb_id": "1264009986803820_122128640661472689",
       "topics": [
@@ -846,6 +839,16 @@
       ],
       "mode": "viral",
       "at": "2026-11-10T00:38:15.421715+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122132244501472689",
+      "topics": [
+        "inflation",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "og:image",
+      "at": "2026-11-10T07:45:15.090453+00:00"
     }
   ],
   "tuner": {
@@ -905,12 +908,6 @@
   },
   "last_video_post": "2026-11-10",
   "recent_fps": [
-    {
-      "fp": [
-        "AGI"
-      ],
-      "at": "2026-11-03T01:29:02.143666+00:00"
-    },
     {
       "fp": [
         "democrats",
@@ -1190,10 +1187,17 @@
         "standard"
       ],
       "at": "2026-11-10T00:38:15.421708+00:00"
+    },
+    {
+      "fp": [
+        "iran",
+        "tehran",
+        "trump"
+      ],
+      "at": "2026-11-10T07:45:15.090435+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: Traders brace for an AI CRASH as market signals flip in a single month.",
     "JUST IN: Binance absorbs 95% of the $6.3 BILLION stolen in last week's record hack using internal funds.",
     "Commercials, Large Specs and Retail share 1 axis, with fills split above and below zero. A thin market and a giant one finally read side by side.",
     "JUST IN: Stock market history signals a massive RALLY if Democrats sweep Congress.",
@@ -1207,7 +1211,8 @@
     "JUST IN: Global CRUDE oil in transit just hit 1.28 billion barrels, an all-time high.",
     "JUST IN: \ud83d\udea8 4 CENTURIES of monetary history just collapsed into 10 core foundations, tracing digital credit from the Dutch East India Company straight to BITCOIN.",
     "JUST IN: \ud83d\udea8 Feds bust $129M AI deepfake FRAUD scheme targeting major U.S. companies.",
-    "JUST IN: S&P 500 futures erased -$300B in cap at 6:01 PM ET, then swung +$350B green by 6:07 PM ET after Nvidia ($NVDA) CEO Jensen Huang admitted to a relationship with a Chinese spy."
+    "JUST IN: S&P 500 futures erased -$300B in cap at 6:01 PM ET, then swung +$350B green by 6:07 PM ET after Nvidia ($NVDA) CEO Jensen Huang admitted to a relationship with a Chinese spy.",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says the war with Iran will end \"fairly soon\" and played down prospects of new military strikes."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1302,7 +1307,8 @@
     "122131679151472689_1697861541950661",
     "122131868709472689_1408372078173585",
     "122131898421472689_1108642862219757",
-    "122131956987472689_4486912414952917"
+    "122131956987472689_4486912414952917",
+    "122132166597472689_1914241149943434"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
