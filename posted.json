@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "6faa42930679d848",
-    "fb_id": "1264009986803820_122132244501472689",
-    "title": "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
-    "link": "https://www.cnbc.com/2026/11/10/trump-iran-war-hormuz-.html",
+    "hash": "a8634920831743ef",
+    "fb_id": "1264009986803820_122132396865472689",
+    "title": "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended.",
+    "link": "https://x.com/Cointelegraph/status/2120260416265699515",
     "mode": "serious",
-    "at": "2026-11-10T07:45:15.090453+00:00"
+    "at": "2026-11-10T21:40:02.517350+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -249,6 +249,7 @@
     "a3a826e937ac0d6c",
     "a61476413f0f9565",
     "a7782c3d8ef265c3",
+    "a8634920831743ef",
     "a8a13158b3e1c008",
     "a92c121ccab46909",
     "a9d96bf57d206353",
@@ -385,10 +386,9 @@
   "day_counts": {
     "2026-11-08": 2,
     "2026-11-09": 2,
-    "2026-11-10": 2
+    "2026-11-10": 3
   },
   "recent_titles": [
-    "72% - TSLA",
     "US STOCKS AND BONDS RALLIED AFTER DEMOCRATIC GAINS IN CONGRESS RAISED HOPES FOR POLITICAL GRIDLOCK AND A QUICKER END TO THE IRAN WAR. THE S&P 500 JUMPED 1.6%, THE DOW ROSE 3%, TREASURY YIELDS FELL ...",
     "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%...",
@@ -402,18 +402,10 @@
     "\ud83d\udea8 Every night over Hormuz, Iran's radar crews face the same choice: switch on and get exposed, or stay dark and go blind. And nobody is connecting the dots. MOVE 1: The bait. Cheap US decoy drones,...",
     "You can't make this up: At 6:00 PM ET, US stock market futures opened for the first time since Nvidia CEO Jensen Huang admitted to a \"relationship\" with a Chinese spy. By 6:01 PM ET, S&P 500 future...",
     "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1) Like, repost and follow for Part 2! \ud83d\udfe0\u26a1",
-    "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes"
+    "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
+    "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128640661472689",
-      "topics": [
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-10-27T18:05:27.589448+00:00"
-    },
     {
       "fb_id": "1264009986803820_122128687497472689",
       "topics": [
@@ -849,6 +841,15 @@
       "mode": "serious",
       "photo": "og:image",
       "at": "2026-11-10T07:45:15.090453+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122132396865472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "entity-logo",
+      "at": "2026-11-10T21:40:02.517350+00:00"
     }
   ],
   "tuner": {
@@ -908,19 +909,6 @@
   },
   "last_video_post": "2026-11-10",
   "recent_fps": [
-    {
-      "fp": [
-        "democrats",
-        "house",
-        "president",
-        "senate",
-        "thi",
-        "tomorrow",
-        "trump",
-        "what"
-      ],
-      "at": "2026-11-03T08:33:00.363126+00:00"
-    },
     {
       "fp": [
         "$19",
@@ -1195,10 +1183,20 @@
         "trump"
       ],
       "at": "2026-11-10T07:45:15.090435+00:00"
+    },
+    {
+      "fp": [
+        "$49",
+        "UPDATE",
+        "bitcoin",
+        "brazilian",
+        "mercado",
+        "pix"
+      ],
+      "at": "2026-11-10T21:40:02.517340+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: Binance absorbs 95% of the $6.3 BILLION stolen in last week's record hack using internal funds.",
     "Commercials, Large Specs and Retail share 1 axis, with fills split above and below zero. A thin market and a giant one finally read side by side.",
     "JUST IN: Stock market history signals a massive RALLY if Democrats sweep Congress.",
     "$19/mo runs the daily signal feed on your watchlist, $39/mo adds the 4-in-1 Pine suite and alerts, $99/mo adds the local quant terminal",
@@ -1212,7 +1210,8 @@
     "JUST IN: \ud83d\udea8 4 CENTURIES of monetary history just collapsed into 10 core foundations, tracing digital credit from the Dutch East India Company straight to BITCOIN.",
     "JUST IN: \ud83d\udea8 Feds bust $129M AI deepfake FRAUD scheme targeting major U.S. companies.",
     "JUST IN: S&P 500 futures erased -$300B in cap at 6:01 PM ET, then swung +$350B green by 6:07 PM ET after Nvidia ($NVDA) CEO Jensen Huang admitted to a relationship with a Chinese spy.",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says the war with Iran will end \"fairly soon\" and played down prospects of new military strikes."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says the war with Iran will end \"fairly soon\" and played down prospects of new military strikes.",
+    "JUST IN: \ud83c\udde7\ud83c\uddf7\ud83d\udcb0 $49M HACK forces Mercado Bitcoin to pause crypto transfers; fiat via Pix returns next week."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
