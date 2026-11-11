@@ -3827,10 +3827,25 @@ def main() -> int:
         if (_lo <= _now_h < _hi and _count < _per_day and not _last_was_product
                 and _ps.load_posts()):
             _pcands = _ps.candidates(state)
+            # Never inject a product post whose opening line is already in the
+            # recent-hook window. It would sit at position 0, fail the hook
+            # guard, and starve every run of real stories.
+            _hooks = state.get("recent_hooks", [])
+
+            def _hook_seen(text: str) -> bool:
+                first = (text or "").strip().split("\n")[0].strip()
+                return bool(first) and any(
+                    difflib.SequenceMatcher(None, first, h).ratio() > 0.65
+                    for h in _hooks)
+
+            _pcands = [c for c in _pcands if not _hook_seen(c.get("summary"))]
             if _pcands:
                 fresh.insert(0, _pcands[0])
                 log(f"PRODUCT ROTATION: injecting '{_pcands[0].get('product_id')}' "
                     f"({_count}/{_per_day} today, hour {_now_h} in {_win} UTC)")
+            else:
+                log("product rotation skipped: every product post's opening "
+                    "line is already on the page")
         else:
             log(f"product rotation skipped: {_count}/{_per_day} today, "
                 f"hour {_now_h} in {_win} UTC, "
@@ -4047,13 +4062,21 @@ def main() -> int:
     print("--- POST (pre-credit) ---\n" + post + "\n------------")
 
     # HOOK guard: same event can still produce twin hooks from different
-    # sources. Skip the run (no failure, no alert) instead of double-posting.
+    # sources. Skip publishing (no failure, no alert) instead of double-posting.
+    #
+    # IMPORTANT: mark the item covered before returning. Without this the same
+    # top-scored item is picked again on every run, produces the same hook,
+    # gets rejected again - and the page posts nothing at all, forever. That is
+    # exactly what starved this page on 2026-11-11.
     hook = (post.strip().split("\n") or [""])[0].strip()
     hooks = state.get("recent_hooks", [])
     if hook and any(difflib.SequenceMatcher(None, hook, h).ratio() > 0.65
                     for h in hooks):
         log("Hook already posted with near-identical wording. "
-            "Skipping (event covered).")
+            "Marking this item covered so the next run moves on.")
+        posted.add(item_hash(pick["link"], pick["title"]))
+        state["posted_hashes"] = sorted(posted)[-500:]
+        save_state(state_file, state)
         return 0
 
     h = item_hash(pick["link"], pick["title"])
@@ -4074,7 +4097,10 @@ def main() -> int:
             except Exception:
                 img = None
         if not img:
-            log("product post image missing - skipping this candidate")
+            log("product post image missing - marking this candidate covered")
+            posted.add(item_hash(pick["link"], pick["title"]))
+            state["posted_hashes"] = sorted(posted)[-500:]
+            save_state(state_file, state)
             return 0
     else:
         post = add_source(post, outlet_for(pick["feed"]))
