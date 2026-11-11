@@ -15,34 +15,52 @@ frame. Honest and clearly attributed beats a guess.
 """
 from __future__ import annotations
 
+import difflib
 import re
 
-# topic -> (english question, arabic question)
-QUESTIONS = {
-    "crypto": ("What is your read on this - in or out?",
-               "شو رأيك في هاد الخبر - داخل ولا خارج؟"),
-    "bitcoin": ("Does this change anything for how you size a position?",
-                "هل هاد الخبر بيبدل شي في طريقة إدارة صفقتك؟"),
-    "eth": ("What does this mean for staking yields?",
-            "شو يعني هاد الخبر على العوائد من الستايكنغ؟"),
-    "stocks": ("Which name in this story would you actually have owned?",
-               "شو الاسم في هاد القصة اللي كنت رح تمتلكه فعلا؟"),
-    "ai": ("Where does this actually save you money in your own work?",
-           "وين هاد الشي بيوفر عليك فلوس في خدمتك؟"),
-    "gold": ("If you hedge with gold, what would you be hedging against?",
-             "إذا كنت تحمي حالك بالذهب، شو بالضبط اللي بتحمي حالك منه؟"),
-    "macro": ("How does this change the rates picture for you?",
-              "كيف هاد الخبر بيبدل صورة أسعار الفائدة عندك؟"),
-    "oil": ("What does this do to fuel costs where you live?",
-            "شو تأثير هاد الخبر على سعر الوقود عندك؟"),
-    "inflation": ("What is one thing you have cut back on because of prices?",
-                  "شو الشي الواحد اللي قللت من استهلاكه بسبب الأسعار؟"),
-    "default": ("What is your take on this?",
-                "شو رأيك في هاد الخبر؟"),
-}
+# Wire-service prefixes that make a post read like a ticker, not a page.
+_WIRE = re.compile(
+    r"(?i)^[\s🚨⚡🔴🟠🟡🔵📌❗️]*(?:just\s+in|breaking|developing|alert)"
+    r"\s*[:\-–—]\s*")
 
-LEAD_EN = ["", "", "", "", ""]
-LEAD_AR = ["", "", "", "", ""]
+
+def _strip_wire(s: str) -> str:
+    return _WIRE.sub("", (s or "").strip()).strip()
+
+
+def _is_shouty(s: str) -> bool:
+    letters = [c for c in (s or "") if c.isalpha()]
+    return len(letters) >= 30 and sum(c.isupper() for c in letters) / len(letters) > 0.8
+
+
+def _sentence_case(s: str) -> str:
+    """'BAIRD SLASHES NVIDIA TARGET' -> 'Baird slashes Nvidia target'."""
+    s = (s or "").strip()
+    if not s:
+        return s
+    low = s.lower()
+    keep = {"ai", "us", "uk", "eu", "ceo", "cfo", "cto", "etf", "ipo", "gdp",
+            "cpi", "ppi", "pce", "fomc", "sec", "fed", "ecb", "boe", "boj",
+            "opec", "nato", "imf", "hmm"}
+    words = []
+    for w in low.split(" "):
+        core = w.strip(".,;:!?()[]\"'")
+        if core in keep:
+            words.append(w.replace(core, core.upper()))
+        else:
+            words.append(w)
+    out = " ".join(words)
+    return out[:1].upper() + out[1:]
+
+# First person in the SOURCE is not first person for the page. A feed that
+# writes "our direct experience... we published" is describing itself; copying
+# that onto the page claims the experience as Ethan's, which is fabrication.
+_FIRST_PERSON = re.compile(
+    r"(?i)(?<!the )\b(?:we|our|ours|my|mine|me|i)\b|\b(?:we|i)['’](?:ve|re|ll|m|d)\b")
+
+
+def _is_first_person(s: str) -> bool:
+    return bool(_FIRST_PERSON.search(s or ""))
 
 
 def _clean(s: str) -> str:
@@ -56,13 +74,16 @@ def _clean(s: str) -> str:
     return s.strip()
 
 
-def _sentences(text: str, n: int) -> str:
+def _neutral_sentences(text: str, n: int) -> str:
+    """Up to n sentences that do not speak in the source's first person."""
     text = _clean(text)
     if not text:
         return ""
     parts = re.split(r"(?<=[.!?؟])\s+", text)
     out, total = [], 0
     for p in parts:
+        if not p or _is_first_person(p):
+            continue
         if total + len(p) > 420:
             break
         out.append(p)
@@ -97,45 +118,55 @@ def _is_target_lang(text: str, lang: str) -> bool:
 
 
 def build_post(candidate: dict, lang: str = "en") -> str:
-    """A complete, truthful post with no model involved."""
-    title = _clean(candidate.get("title", ""))
+    """A complete, truthful post with no model involved.
+
+    Reads like a wire brief, not a template: the headline with any wire
+    prefix stripped, then the facts. No appended question - a generic
+    "what do you think?" on every post is exactly the generated feel the
+    page is trying to lose.
+    """
+    title = _strip_wire(_clean(candidate.get("title", "")))
     summary = candidate.get("summary", "") or ""
     if not _is_target_lang(title + " " + summary, lang):
         return ""
-    topics = candidate.get("keywords", []) or []
-    q_en, q_ar = _question(topics)
+    # The page is Ethan Cole, not the feed. Any sentence that speaks in the
+    # source's own first person is dropped - publishing it would claim the
+    # source's experience, opinion or scoop as the page's own.
+    title_is_fp = _is_first_person(title)
+    body = _neutral_sentences(summary, 3)
+    if title_is_fp:
+        title = ""
+    # Feeds often repeat the headline as the summary's first sentence.
+    # Drop it rather than print the same line twice.
+    if body and title:
+        first = re.split(r"(?<=[.!?؟])\s+", body)[0]
+        if difflib.SequenceMatcher(None, first.lower(), title.lower()).ratio() > 0.7:
+            rest = body[len(first):].strip()
+            body = rest
 
-    body = _sentences(summary, 2)
-    if not body:
-        body = ""
+    # A shouted headline is the biggest "bot" tell. If the summary carries
+    # the facts in normal prose, lead with that instead of the caps title.
+    if not title:
+        lines = [body] if body else []
+    elif body and _is_shouty(title):
+        lines = [body]
+    else:
+        lines = [_sentence_case(title) if _is_shouty(title) else title]
+        if body:
+            lines += ["", body]
+    if not lines:
+        return ""
 
     if lang == "ar":
         outlet = (candidate.get("feed") or "").strip()
-        head = f"🔴 من {outlet}: " if outlet else "🔴 خبر: "
-        lines = [head + title]
-        if body:
-            lines.append("")
-            lines.append(body)
-        lines.append("")
-        lines.append(q_ar)
-        lines.append("")
-        lines.append("التفاصيل الكاملة في التعليقات.")
-        return "\n".join(lines)
+        head = f"من {outlet}: " if outlet else ""
+        return "\n".join([head + lines[0]] + lines[1:]).strip()
 
-    lines = [title]
-    if body:
-        lines.append("")
-        lines.append(body)
-    lines.append("")
-    lines.append(q_en)
-    return "\n".join(lines)
+    return "\n".join(lines).strip()
 
 
 def build_video_post(candidate: dict, lang: str = "en") -> str:
-    title = _clean(candidate.get("title", ""))
+    title = _strip_wire(_clean(candidate.get("title", "")))
     if not _is_target_lang(title, lang):
         return ""
-    q_en, q_ar = _question(candidate.get("keywords", []) or [])
-    if lang == "ar":
-        return f"{title}\n\n{q_ar}"
-    return f"{title}\n\n{q_en}"
+    return title

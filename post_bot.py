@@ -1067,9 +1067,15 @@ def gen_openrouter(model: str, system: str, user: str) -> str:
         raise RuntimeError(f"OpenRouter {model} HTTP {r.status_code}: "
                            f"{_json.dumps(d)[:200]}")
     try:
-        return d["choices"][0]["message"]["content"].strip()
+        msg = d["choices"][0].get("message") or {}
+        text = (msg.get("content") or "").strip()
     except Exception as ex:
         raise RuntimeError(f"OpenRouter {model} parse error: {ex}")
+    if not text:
+        # Reasoning models can spend the whole budget thinking and return
+        # content=null. That is a failure, never a post.
+        raise RuntimeError(f"OpenRouter {model} returned no content")
+    return text
 
 
 # Bare tickers confuse readers the same way in English ("$COIN" alone next to
@@ -1162,6 +1168,16 @@ def repair_post(post: str) -> str:
     post = re.sub(r"(?i)\bex-president trump\b", "President Trump", post)
     post = re.sub(r"(?i)\bformer fed chair (kevin )?warsh\b",
                   "Fed Chair Warsh", post)
+    # strip a wire-service opener the writer added anyway: the prompt bans it,
+    # but models still reach for "JUST IN:" - rescuing the draft is better than
+    # throwing away an otherwise good post (and better than shipping the tell).
+    for _ in range(3):
+        _new = re.sub(
+            r"(?i)^[\s🚨⚡🔴🟠🟡🔵📌❗️]*(?:just\s+in|breaking|developing|alert)"
+            r"\s*[:\-–—]\s*", "", post)
+        if _new == post:
+            break
+        post = _new
     # strip any LLM-written attribution lines (no attribution allowed)
     post = re.sub(r"(?im)(?<![\w-])sources?\s*:[^#\n]*", "", post)
     post = re.sub(r"(?m)^[^\n]*[🔗📸][^\n]*$", "", post)
@@ -1172,20 +1188,22 @@ def repair_post(post: str) -> str:
     tags = re.findall(r"#\w+", post)
     seen, kept = set(), []
     for t in tags:
-        if t.lower() not in seen:
-            seen.add(t.lower())
-            kept.append(t)
-    brand = [t for t in kept if t.lower() == "#ethancole"]
-    rest = [t for t in kept if t.lower() != "#ethancole"]
-    kept = (brand[:1] + rest)[:6]
-    if not kept:
-        return post
+        low = t.lower()
+        # Never the brand tag (the prompt bans it), never duplicates,
+        # at most MAX_HASHTAGS - and no tag block on a short post.
+        if low == "#ethancole" or low in seen:
+            continue
+        seen.add(low)
+        kept.append(t)
+    kept = kept[:MAX_HASHTAGS]
     body = re.sub(r"#\w+", "", post)
     body = re.sub(r"[ \t]+", " ", body)
     body = re.sub(r"\n{3,}", "\n\n", body).strip()
+    if not kept or len(body) < 120:
+        return body
     tag_block = " ".join(kept)
-    if len(body) + len(tag_block) + 2 > 350:
-        budget = 350 - len(tag_block) - 3
+    if len(body) + len(tag_block) + 2 > 900:
+        budget = 900 - len(tag_block) - 3
         cut = body[:budget]
         for sep in ("\n\n", ". ", "! ", "? "):
             i = cut.rfind(sep)
@@ -1267,10 +1285,12 @@ VIRAL MODE (this story already has traction — squeeze it):
 # Pinnable via OPENROUTER_MODELS (comma-separated); default tracks live.
 # Verified live 2026-11-08: openai/gpt-oss-120b:free is 404 (paid-only) and
 # openai/gpt-oss-120b on NVIDIA is 410 (end-of-life 2026-09-03).
-OPENROUTER_MODELS_DEFAULT = ("nvidia/nemotron-3-ultra-550b-a55b:free,"
-                             "google/gemma-4-31b-it:free,"
-                             "google/gemma-4-26b-a4b-it:free,"
-                             "nvidia/nemotron-3.5-lightning:free")
+# 2026-11-11: the two nvidia/nemotron free slugs are reasoning models that
+# return content=null (the whole budget goes to reasoning), so every attempt
+# burned a turn and raised "'NoneType' object has no attribute 'strip'".
+# Removed from the default chain; they can still be pinned via OPENROUTER_MODELS.
+OPENROUTER_MODELS_DEFAULT = ("google/gemma-4-31b-it:free,"
+                             "google/gemma-4-26b-a4b-it:free")
 NVIDIA_MODELS_DEFAULT = "openai/gpt-oss-20b"
 
 
