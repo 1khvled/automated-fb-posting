@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "gold-20261111",
-    "fb_id": "1264009986803820_122132500809472689",
-    "title": "Gold bounces back after yesterday's 2.6% drop",
-    "link": "",
+    "hash": "fd4b4edb6c5f91cb",
+    "fb_id": "1264009986803820_122132570091472689",
+    "title": "Palantir CEO Alex Karp is signaling a shift toward Democrats following their midterm victories, criticizing Trump's immigration crackdown and Republicans' approach to economic justice. Despite secu...",
+    "link": "https://x.com/clashreport/status/2120509268499505656",
     "mode": "serious",
-    "at": "2026-11-11T08:20:54+00:00"
+    "at": "2026-11-11T13:42:11.635094+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -378,6 +378,7 @@
     "fa152430a72a73ba",
     "fa384e06dfce10ce",
     "faa585879730d067",
+    "fd4b4edb6c5f91cb",
     "fd7bbc659b22c741",
     "fd91eb7bedaa641e",
     "fe5ce6652339945a",
@@ -388,10 +389,9 @@
   "day_counts": {
     "2026-11-09": 2,
     "2026-11-10": 3,
-    "2026-11-11": 2
+    "2026-11-11": 3
   },
   "recent_titles": [
-    "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren says Democrats will hold President Trump, Big Tech CEOs, Wall Street executives, and major corporations accountable for enriching themselves.",
     "BREAKING: Global crude oil in transit is up to 1.28 billion barrels, an all-time high. This figure has surged +180 million barrels over the last several weeks. This comes as Middle Eastern oil flow...",
     "\ud83d\udd25INSIGHT: Trust has to be earned, and exchanges still have work to do. Speaking to @itsciaranlyons, @Han_Gate, founder and CEO of @Gate, said crypto exchanges need to do more to show the public tha...",
@@ -405,16 +405,10 @@
     "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended.",
     "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer custo...",
     "GOLD EDGES HIGHER AS TRADERS ASSESS US INFLATION AND FED REMARKS Gold prices edged higher by as much as 0.8% to above $4,050 an ounce in Asian trading, recovering part of the previous session\u2019s 2.6...",
-    "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START"
+    "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
+    "Palantir CEO Alex Karp is signaling a shift toward Democrats following their midterm victories, criticizing Trump's immigration crackdown and Republicans' approach to economic justice. Despite secu..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128867173472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-10-28T14:10:04.996478+00:00"
-    },
     {
       "fb_id": "1264009986803820_122128925097472689",
       "topics": [
@@ -851,6 +845,15 @@
       "mode": "serious",
       "photo": "product",
       "at": "2026-11-11T12:38:06.747011+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122132570091472689",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "source",
+      "at": "2026-11-11T13:42:11.635094+00:00"
     }
   ],
   "tuner": {
@@ -914,22 +917,6 @@
   },
   "last_video_post": "2026-11-11",
   "recent_fps": [
-    {
-      "fp": [
-        "DAY",
-        "UPDATE",
-        "crude",
-        "democrat",
-        "dow",
-        "gold",
-        "jones",
-        "july",
-        "markets",
-        "nasdaq",
-        "oil"
-      ],
-      "at": "2026-11-04T08:19:47.698468+00:00"
-    },
     {
       "fp": [
         "$108",
@@ -1208,10 +1195,23 @@
         "specs"
       ],
       "at": "2026-11-11T12:38:06.747003+00:00"
+    },
+    {
+      "fp": [
+        "CEO",
+        "alex",
+        "democrat",
+        "democrats",
+        "despite",
+        "karp",
+        "palantir",
+        "republicans",
+        "trump"
+      ],
+      "at": "2026-11-11T13:42:11.635084+00:00"
     }
   ],
   "recent_hooks": [
-    "$19/mo runs the daily signal feed on your watchlist, $39/mo adds the 4-in-1 Pine suite and alerts, $99/mo adds the local quant terminal",
     "BREAKING: Michael Burry is WINNING his massive bet against the AI bubble.",
     "JUST IN: Markets CRASH on Election Day as Wall Street prices in a Democrat sweep \ud83d\udcc9",
     "The model values Tesla ($TSLA) at $108 against a $385 price - 72% rich.",
@@ -1225,7 +1225,8 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says the war with Iran will end \"fairly soon\" and played down prospects of new military strikes.",
     "JUST IN: \ud83c\udde7\ud83c\uddf7\ud83d\udcb0 $49M HACK forces Mercado Bitcoin to pause crypto transfers; fiat via Pix returns next week.",
     "JUST IN: \ud83d\udea8 GOLD bounces back after yesterday's 2.6% drop.",
-    "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed."
+    "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
+    "Palantir Technologies ($PLTR) CEO Alex Karp says Democrats have corrected course enough to potentially earn his support in 2028, despite the firm securing billions in federal contracts under President Trump. The lifelong Democrat praised the party's recent midterm victories while openly criticizing Trump's immigration crackdown and the Republican approach to economic justice."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
