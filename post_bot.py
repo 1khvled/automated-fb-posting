@@ -920,9 +920,10 @@ HASHTAGS: usually none. At most two, and only when genuinely searched
 (#nvidia, #bitcoin). Never a block of tags. Never #ethancole.
 
 ORIGINALITY: at least half of all posts must carry something the reader cannot
-get from the headline - a computed figure, a comparison, a specific
-implication, a dated historical parallel. If the source gives you no number to
-work with, write the post without one rather than inventing a figure.
+get from the headline - a comparison, a specific implication, a dated
+historical parallel, or a consequence the source only implies. Work with the
+numbers the source gives you. NEVER compute, round or invent a new figure:
+every digit in the post must appear in the source, or the post is rejected.
 
 VOICE: dry, sharp, specific. No throat-clearing, no 'in a world where'. Emoji
 rarely, never as a bullet. CAPS on at most one money word, never a sentence.
@@ -1385,10 +1386,12 @@ def rewrite_with_llm(candidate: dict) -> str:
         except Exception as ex:
             errors.append(f"{model}: {ex}")
             continue
-        if quality_check(text, candidate["title"]):
-            first_fail = quality_check(text, candidate["title"])
+        if quality_check(text, candidate["title"], candidate.get("summary", "")):
+            first_fail = quality_check(text, candidate["title"],
+                                       candidate.get("summary", ""))
             fixed = repair_post(text)
-            if not quality_check(fixed, candidate["title"]):
+            if not quality_check(fixed, candidate["title"],
+                                 candidate.get("summary", "")):
                 log(f"Rewrite OK via {model} (auto-repaired: {first_fail})")
                 return fixed
             errors.append(f"{model} failed QC: {first_fail}")
@@ -1434,7 +1437,15 @@ def _outlet_leak(post: str) -> str | None:
     return None
 
 
-def quality_check(post: str, source_title: str) -> list[str]:
+_NUM_RE = re.compile(r"\d[\d,]*(?:\.\d+)?")
+
+
+def _numbers(text: str) -> set[str]:
+    """Every numeric token, commas stripped: '$4,050' and '4050' agree."""
+    return {m.group(0).replace(",", "") for m in _NUM_RE.finditer(text or "")}
+
+
+def quality_check(post: str, source_title: str, source_text: str = "") -> list[str]:
     problems = []
     if len(post) > 900:
         problems.append("too long (>900 chars)")
@@ -1485,6 +1496,16 @@ def quality_check(post: str, source_title: str) -> list[str]:
         problems.append("emoji-bullet / key-data block (reads as generated)")
     if len(re.findall(r"[\U0001F300-\U0001FAFF]", post)) > 3:
         problems.append("emoji spam (>3)")
+    # EVERY FIGURE MUST COME FROM THE SOURCE. The prompt already says "never
+    # invent a figure" and Gemini invented "$17.4 billion" anyway. A number
+    # the source never stated is the one error a markets page cannot make:
+    # it is unverifiable, it is defamatory if it names a company, and it is
+    # the first thing a real reader will check.
+    if source_text.strip():
+        _src_nums = _numbers(source_title + " " + source_text)
+        _extra = sorted(_numbers(post) - _src_nums)
+        if _extra:
+            problems.append("figure(s) not in source: " + ", ".join(_extra[:3]))
     # originality: post must not contain the full headline verbatim
     if source_title.strip() and len(source_title.strip()) >= 20 \
             and source_title.strip().lower() in post.lower():
@@ -3926,7 +3947,8 @@ def main() -> int:
                 f"{vpick['title'][:100]}")
             try:
                 vpost = sanitize(rewrite_with_llm(vpick))
-                vprobs = quality_check(vpost, vpick["title"])
+                vprobs = quality_check(vpost, vpick["title"],
+                                       vpick.get("summary", ""))
             except Exception as ex:
                 log(f"Video rewrite failed: {ex} - using the no-LLM builder")
                 try:
@@ -4070,7 +4092,8 @@ def main() -> int:
     # The authenticity gates run on EVERY draft, including the no-LLM fallback.
     # Passing "" as the source title only skips the copies-the-headline check,
     # which the fallback legitimately trips because it is built from the source.
-    problems = quality_check(post, "" if fallback else pick["title"])
+    problems = quality_check(post, "" if fallback else pick["title"],
+                             "" if fallback else pick.get("summary", ""))
     if problems:
         log(f"Quality check FAILED: {problems}")
         print("--- DRAFT (rejected) ---\n" + post)
