@@ -57,10 +57,6 @@ except Exception as _cerr:
     card_design = None
     print(f"WARNING: card_design not loaded: {_cerr}", flush=True)
 try:
-    import product_source
-except Exception:
-    product_source = None
-try:
     import growth
 except Exception as _gerr:  # optional, but never fail silently
     growth = None
@@ -347,6 +343,22 @@ def tune_from_engagement(state: dict) -> dict:
 
 MAX_HASHTAGS = 2
 FB_API_VERSION = "v26.0"
+
+# The page is NOT a shop. Every one of these turns a post into an advert and
+# was removed from the product on 2026-11-11 at the owner's instruction.
+MARKETING_MARKERS = [
+    "edgetrading", "edge trading", "stockerai", "4-in-1", "pine suite",
+    "$19/mo", "$39/mo", "$99/mo",
+    "founding spot", "founding member", "dm me", "premium toolkit",
+    "signal feed", "local quant terminal",
+    "us readers only", "usd pricing",
+]
+
+# Wire-service openers. The archive is full of them (274 of 458 posts) and
+# they are the single most obvious "bot" tell on the page.
+TEMPLATE_OPENERS = (
+    "just in", "breaking", "developing", "alert", "update:",
+)
 
 
 def log(msg: str):
@@ -886,9 +898,20 @@ template filled in again. Pick ONE shape per post and rotate:
   - the explainer: 4-6 short lines, 500-800 characters, why it matters
   - the pushback: disagree with the consensus in the headline
   - the note: a short conversational observation, 150-250 characters
-Never open two posts in a row the same way. Use 'JUST IN:' or 'BREAKING:' at
-most once every eight posts - the page has run them into the ground and they
-now read as a wire service, which is exactly what Meta demotes.
+Never open two posts in a row the same way. NEVER use 'JUST IN:',
+'BREAKING', 'DEVELOPING', 'ALERT' or a siren emoji. The archive is 274 of 458
+posts opening exactly that way, and it is the single biggest reason the page
+reads as a bot. Start with the fact itself.
+
+NOBODY IS SELLING ANYTHING. Never mention EdgeTrading, StockerAI, a paid
+suite, a signal feed, a subscription, a price, 'founding spots' or 'DM me'.
+No links of any kind. The page grows by being worth following, not by
+advertising.
+
+NO STRUCTURE THEATRE. No bullet lists, no 'Key data:' / 'Key points:' blocks,
+no emoji used as bullets, no bold, no headers. Write in paragraphs the way a
+person types a message to a smart friend, not like a report generator. Most
+posts are one thought, not three sections.
 
 NO FIXED LENGTH. Some posts are one line. Some are six. A page where every
 post is 300 characters is a page nobody follows.
@@ -1419,6 +1442,29 @@ def quality_check(post: str, source_title: str) -> list[str]:
         problems.append("contains attribution line (no attribution allowed)")
     if re.search(r"(?m)^#{1,6}\s", post):
         problems.append("contains markdown header")
+    # ---------------------------------------------------------- authenticity
+    # Enforced, not just asked for in the prompt. A draft that trips any of
+    # these is rejected and the writer chain moves to the next model.
+    _low = post.lower()
+    _hit = next((m for m in MARKETING_MARKERS if m in _low), None)
+    if _hit:
+        problems.append(f"product marketing ('{_hit}') - the page does not sell")
+    _first = (post.strip().split("\n") or [""])[0].strip()
+    _first_low = _first.lower().lstrip("🚨⚡🔴🟠🟡🔵📌❗️ ")
+    if any(_first_low.startswith(t) for t in TEMPLATE_OPENERS):
+        problems.append("wire-service opener (JUST IN / BREAKING) - the page "
+                        "is not a news ticker")
+    # A headline shouted in caps is the second-biggest bot tell. Allow short
+    # tickers and acronyms, reject a long all-caps line.
+    _letters = [c for c in _first if c.isalpha()]
+    if len(_letters) >= 30 and sum(c.isupper() for c in _letters) / len(_letters) > 0.8:
+        problems.append("first line is shouted in CAPS")
+    # Emoji used as bullet points / structured 'key data' blocks.
+    if re.search(r"(?m)^\s*[•▪️🔹🔸▶►✅✔️]\s", post) or \
+            re.search(r"(?i)\bkey (data|points|takeaways)\b\s*:", post):
+        problems.append("emoji-bullet / key-data block (reads as generated)")
+    if len(re.findall(r"[\U0001F300-\U0001FAFF]", post)) > 3:
+        problems.append("emoji spam (>3)")
     # originality: post must not contain the full headline verbatim
     if source_title.strip() and len(source_title.strip()) >= 20 \
             and source_title.strip().lower() in post.lower():
@@ -3778,8 +3824,7 @@ def main() -> int:
         return any(difflib.SequenceMatcher(None, tl, r.lower()).ratio() > 0.75
                    for r in recent)
 
-    fresh = [c for c in fresh
-             if c.get("is_product") or not _too_similar(c["title"])]
+    fresh = [c for c in fresh if not _too_similar(c["title"])]
     # EVENT guard: same news, different wording. Fingerprints compare WHAT
     # the story is about (entities + numbers), not how it's phrased.
     fps = state.get("recent_fps", [])
@@ -3811,48 +3856,8 @@ def main() -> int:
         log(f"Dropping {dropped} unverified candidates.")
         fresh = [c for c in fresh if c.get("verified")]
     log(f"{len(fresh)} fresh (not yet posted)")
-    # PRODUCT ROTATION. The pages are the top of the funnel for a paid
-    # membership, so the product goes out on a schedule - at most
-    # PRODUCT_PER_DAY a day, inside PRODUCT_WINDOW_UTC, and never more than
-    # one in a row, so the page stays a page and not an ad feed.
-    try:
-        import product_source as _ps
-        _per_day = int(os.getenv("PRODUCT_PER_DAY", "1"))
-        _win = os.getenv("PRODUCT_WINDOW_UTC", "9-21")
-        _lo, _hi = (int(x) for x in _win.split("-"))
-        _now_h = datetime.now(timezone.utc).hour
-        _count = _ps.daily_count(state)
-        _last_was_product = bool(state.get("history") and
-                                 state["history"][-1].get("is_product"))
-        if (_lo <= _now_h < _hi and _count < _per_day and not _last_was_product
-                and _ps.load_posts()):
-            _pcands = _ps.candidates(state)
-            # Never inject a product post whose opening line is already in the
-            # recent-hook window. It would sit at position 0, fail the hook
-            # guard, and starve every run of real stories.
-            _hooks = state.get("recent_hooks", [])
-
-            def _hook_seen(text: str) -> bool:
-                first = (text or "").strip().split("\n")[0].strip()
-                return bool(first) and any(
-                    difflib.SequenceMatcher(None, first, h).ratio() > 0.65
-                    for h in _hooks)
-
-            _pcands = [c for c in _pcands if not _hook_seen(c.get("summary"))]
-            if _pcands:
-                fresh.insert(0, _pcands[0])
-                log(f"PRODUCT ROTATION: injecting '{_pcands[0].get('product_id')}' "
-                    f"({_count}/{_per_day} today, hour {_now_h} in {_win} UTC)")
-            else:
-                log("product rotation skipped: every product post's opening "
-                    "line is already on the page")
-        else:
-            log(f"product rotation skipped: {_count}/{_per_day} today, "
-                f"hour {_now_h} in {_win} UTC, "
-                f"last was product={_last_was_product}, "
-                f"posts available={len(_ps.load_posts())}")
-    except Exception as _pe:
-        log(f"product rotation unavailable: {_pe}")
+    # No product rotation. Removed 2026-11-11 at the owner's instruction: the
+    # page grows by being worth following, not by advertising a paid suite.
     # Prefer a story that CARRIES A REAL PHOTO. 18 of 44 candidates have
     # one - the chart or screenshot the source published with - and a post
     # with the story's own picture is the post that works. The boost is
@@ -4020,41 +4025,32 @@ def main() -> int:
     log(f"Picked [{pick['feed']}] score={pick['score']}: {pick['title'][:120]}")
 
     fallback = False
-    if pick.get("is_product"):
-        # A hand-written product post: already in the house voice, already
-        # fact-checked, already has its image. The LLM must not touch it and
-        # the QC (which checks the copy against a source headline) must not
-        # run on it either.
-        post = (pick.get("summary") or "").rstrip()
-        _tags = " ".join(pick.get("keywords") or [])
-        if _tags and _tags not in post:
-            post = f"{post}\n\n{_tags}"
-        fallback = True
-        log(f"PRODUCT POST: {pick.get('product_id')}")
-    else:
+    try:
+        post = rewrite_with_llm(pick)
+    except Exception as ex:
+        # Every writer is down. A page that stops posting loses its streak,
+        # so fall back to a post built from the source facts only. No model,
+        # no invention, lower polish - but the page stays alive.
+        log(f"Rewrite failed: {ex} - using the no-LLM builder")
         try:
-            post = rewrite_with_llm(pick)
-        except Exception as ex:
-                # Every writer is down. A page that stops posting loses its streak,
-            # so fall back to a post built from the source facts only. No model,
-            # no invention, lower polish - but the page stays alive.
-            log(f"Rewrite failed: {ex} - using the no-LLM builder")
-            try:
-                post = no_llm.build_post(pick, LANG)
-                if not post.strip():
-                    # The no-LLM builder cannot write Arabic without a model.
-                    # Publishing the English source on the Arabic page is worse
-                    # than publishing nothing, so skip the run instead.
-                    log("no-LLM builder cannot write in the target language - "
-                        "skipping this run rather than post the wrong language")
-                    return 2
-                fallback = True
-            except Exception as ex2:
-                log(f"no-LLM builder failed too: {ex2}")
+            post = no_llm.build_post(pick, LANG)
+            if not post.strip():
+                # The no-LLM builder cannot write Arabic without a model.
+                # Publishing the English source on the Arabic page is worse
+                # than publishing nothing, so skip the run instead.
+                log("no-LLM builder cannot write in the target language - "
+                    "skipping this run rather than post the wrong language")
                 return 2
+            fallback = True
+        except Exception as ex2:
+            log(f"no-LLM builder failed too: {ex2}")
+            return 2
 
     post = sanitize(post)  # FB has no markdown: **bold** -> CAPS etc.
-    problems = [] if fallback else quality_check(post, pick["title"])
+    # The authenticity gates run on EVERY draft, including the no-LLM fallback.
+    # Passing "" as the source title only skips the copies-the-headline check,
+    # which the fallback legitimately trips because it is built from the source.
+    problems = quality_check(post, "" if fallback else pick["title"])
     if problems:
         log(f"Quality check FAILED: {problems}")
         print("--- DRAFT (rejected) ---\n" + post)
@@ -4086,32 +4082,14 @@ def main() -> int:
     # they are the fallback now, and the generated card is gone from this
     # path entirely. If there is no real photo, the post goes text-only -
     # a text post beats a fake one.
-    if pick.get("is_product"):
-        img = ext = src = None
-        _lp = pick.get("local_photo") or ""
-        if _lp and os.path.exists(_lp):
-            try:
-                with open(_lp, "rb") as _f:
-                    img = _f.read()
-                ext, src = "jpeg", "product"
-            except Exception:
-                img = None
-        if not img:
-            log("product post image missing - marking this candidate covered")
-            posted.add(item_hash(pick["link"], pick["title"]))
-            state["posted_hashes"] = sorted(posted)[-500:]
-            save_state(state_file, state)
-            return 0
-    else:
-        post = add_source(post, outlet_for(pick["feed"]))
-        img, ext, src = find_photo(pick)
+    post = add_source(post, outlet_for(pick["feed"]))
+    img, ext, src = find_photo(pick)
     if img:
         log(f"Photo: {src}")
     else:
         log("No real photo for this story - posting text-only")
         img, ext, src = None, None, "text-only"
-    if not pick.get("is_product"):
-        post = add_credit(post, credit_for(pick["feed"], src))
+    post = add_credit(post, credit_for(pick["feed"], src))
     log(f"Visual: {src} | credit added")
     # Ethan Cole is an English-only page selling to US readers. Arabic in a
     # post is a bug, not a style choice - the Arabic page has its own bot and
@@ -4180,12 +4158,6 @@ def main() -> int:
         "at": state["last_post"]["at"],
     })
     state["history"] = hist[-50:]
-    try:
-        import product_source as _ps2
-        if pick.get("is_product"):
-            _ps2.mark_used(state, pick.get("product_id", ""))
-    except Exception:
-        pass
     save_state(state_file, state)
     return 0
 

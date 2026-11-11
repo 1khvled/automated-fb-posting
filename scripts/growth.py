@@ -278,22 +278,26 @@ def after_publish(post_id: str, post_text: str, title: str, topics: list,
     node = (post_id or "").strip()
     pid = node.split("_")[-1] if node else ""
 
-    # 1. a genuine question as the first comment (starts the thread)
-    question = ""
-    if llm:
-        try:
-            question = llm(SEED_SYSTEM[lang],
-                           f"Post:\n{post_text[:900]}").strip()
-            question = re.sub(r"^[\"'`]|[\"'`]$", "", question).strip()
-            question = question.split("\n")[0][:180]
-        except Exception:
-            question = ""
-    if not question:
-        question = ("What does this mean for your portfolio?"
-                    if lang == "en" else "شنو يعني هذا لمحفظتك؟")
-    if node:
-        out["seed_comment_id"] = post_seed_comment(node, question) or \
-            post_seed_comment(pid, question)
+    # 1. a genuine question as the first comment. OFF by default: a page that
+    # comments on its own post looks like it is talking to itself, and the
+    # "1 comment" that nobody answered is itself the tell. Real replies only.
+    # Opt back in with SEED_COMMENT=1.
+    if os.getenv("SEED_COMMENT", "0") == "1":
+        question = ""
+        if llm:
+            try:
+                question = llm(SEED_SYSTEM[lang],
+                               f"Post:\n{post_text[:900]}").strip()
+                question = re.sub(r"^[\"'`]|[\"'`]$", "", question).strip()
+                question = question.split("\n")[0][:180]
+            except Exception:
+                question = ""
+        if not question:
+            question = ("What does this mean for your portfolio?"
+                        if lang == "en" else "شنو يعني هذا لمحفظتك؟")
+        if node:
+            out["seed_comment_id"] = post_seed_comment(node, question) or \
+                post_seed_comment(pid, question)
 
     # 2. the share kit
     try:

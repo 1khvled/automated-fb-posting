@@ -46,10 +46,7 @@ jobs:
       DRY_RUN: ${{ inputs.dry_run || '0' }}
       FORCE_POST: ${{ inputs.force || '0' }}
       POST_STORIES: "1"
-      # the product rotation: how many product posts a day, and the
-      # UTC window they may go out in (the page stays a news page)
-      PRODUCT_PER_DAY: "1"
-      PRODUCT_WINDOW_UTC: "9-21"
+      # No product posts. The page does not advertise anything (2026-11-11).
       CARD_BRAND: "ethan"
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
