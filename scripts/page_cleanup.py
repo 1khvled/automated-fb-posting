@@ -1,31 +1,36 @@
 """
 scripts/page_cleanup.py
 -----------------------
-Audit the Ethan Cole page feed and remove the marketing posts that turned it
-into an ad feed.
+Audit the Ethan Cole page feed and remove what makes it read as a bot: the
+marketing posts, the visibly broken markdown posts, the engagement-bait posts,
+and the page's own comments under its own posts.
 
 The page must read like a person who follows markets, not like a product
-brochure. This script lists every post, classifies it, and - only with an
-explicit flag - deletes the ones that are product marketing.
+brochure talking to itself. This script lists every post, classifies it, and -
+only with an explicit flag - deletes.
 
 USAGE
 -----
-    python scripts/page_cleanup.py                  # report only, no writes
-    python scripts/page_cleanup.py --json out.json  # machine-readable report
-    python scripts/page_cleanup.py --delete-product # delete marketing posts
+    python scripts/page_cleanup.py                     # report only, no writes
+    python scripts/page_cleanup.py --json out.json     # machine-readable report
+    python scripts/page_cleanup.py --delete-product    # marketing posts
+    python scripts/page_cleanup.py --delete-broken     # markdown defects
+    python scripts/page_cleanup.py --delete-bait       # like/share begging
+    python scripts/page_cleanup.py --delete-self-comments [--posts 100]
+                                                       # the page's own comments
 
 SAFETY
 ------
 - Uses FB_PAGE_ACCESS_TOKEN only, and refuses to run unless /me is the page.
 - Never touches the personal profile.
-- Deletes only posts classified as product marketing (see PRODUCT_MARKERS).
+- Every destructive action needs its own flag; the default is a dry run.
 """
 from __future__ import annotations
 
 import argparse
 import json
-import os
 import sys
+import time
 from pathlib import Path
 
 import requests
@@ -50,6 +55,23 @@ PRODUCT_MARKERS = [
     "signal feed",
     "local quant terminal",
     "pine suite",
+]
+
+# Asking for likes/shares/reposts is both a credibility tell and a Partner
+# Monetization violation. A page that begs reads like a page that is selling.
+BAIT_MARKERS = [
+    "like, repost",
+    "like and share",
+    "like & share",
+    "share this",
+    "share if",
+    "follow for part",
+    "follow for more",
+    "follow for updates",
+    "tag a friend",
+    "comment below",
+    "drop a comment",
+    "type yes",
 ]
 
 
@@ -80,6 +102,8 @@ def classify(msg: str) -> str:
         return "product"
     if "**" in (msg or "") or "`" in (msg or ""):
         return "broken"
+    if any(m in low for m in BAIT_MARKERS):
+        return "bait"
     head = (msg or "").strip().upper()
     if head.startswith("JUST IN:") or head.startswith("BREAKING:"):
         return "template"
@@ -92,6 +116,10 @@ def main() -> int:
     ap.add_argument("--json", default="")
     ap.add_argument("--delete-product", action="store_true")
     ap.add_argument("--delete-broken", action="store_true")
+    ap.add_argument("--delete-bait", action="store_true")
+    ap.add_argument("--delete-self-comments", action="store_true")
+    ap.add_argument("--posts", type=int, default=100,
+                    help="how many recent posts to scan for self-comments")
     ap.add_argument("--limit", type=int, default=0, help="stop after N posts")
     args = ap.parse_args()
 
@@ -113,7 +141,8 @@ def main() -> int:
     url = f"{GRAPH}/{page_id}/posts"
     params = {
         "fields": "id,created_time,message,permalink_url,shares,"
-                  "reactions.summary(total_count),comments.summary(total_count)",
+                  "reactions.summary(total_count),"
+                  "comments.limit(50){id,message,from,created_time}",
         "limit": 100,
         "access_token": token,
     }
@@ -127,26 +156,35 @@ def main() -> int:
             break
 
     print(f"posts fetched: {len(posts)}\n")
-    counts = {"product": 0, "broken": 0, "template": 0, "story": 0}
+    counts = {"product": 0, "broken": 0, "bait": 0, "template": 0, "story": 0}
     report = []
+    self_comments = []
     for p in posts:
         msg = p.get("message", "") or ""
         kind = classify(msg)
         counts[kind] += 1
+        comments = (p.get("comments") or {}).get("data") or []
+        own = [c for c in comments
+               if str((c.get("from") or {}).get("id")) == str(page_id)]
+        self_comments.extend(own)
         report.append({
             "id": p["id"],
             "created_time": p.get("created_time"),
             "kind": kind,
             "reactions": p.get("reactions", {}).get("summary", {}).get("total_count", 0),
-            "comments": p.get("comments", {}).get("summary", {}).get("total_count", 0),
+            "comments": len(comments),
+            "self_comments": len(own),
             "message": msg,
             "permalink_url": p.get("permalink_url"),
         })
 
     print(f"product={counts['product']}  broken={counts['broken']}  "
-          f"template={counts['template']}  story={counts['story']}\n")
+          f"bait={counts['bait']}  template={counts['template']}  "
+          f"story={counts['story']}")
+    print(f"comments written by the page under its own posts: "
+          f"{len(self_comments)}\n")
     for r in report:
-        if r["kind"] in ("product", "broken"):
+        if r["kind"] in ("product", "broken", "bait"):
             first = r["message"].strip().split("\n")[0][:95]
             print(f"  {r['kind'].upper():8} {r['created_time'][:16]}  {first}")
 
@@ -155,9 +193,10 @@ def main() -> int:
                                    encoding="utf-8")
         print(f"\nreport written: {args.json}")
 
-    if not args.delete_product and not args.delete_broken:
-        print("\ndry run - nothing deleted. "
-              "Re-run with --delete-product and/or --delete-broken.")
+    if not any((args.delete_product, args.delete_broken, args.delete_bait,
+                args.delete_self_comments)):
+        print("\ndry run - nothing deleted. Flags: --delete-product, "
+              "--delete-broken, --delete-bait, --delete-self-comments.")
         return 0
 
     kinds = []
@@ -165,18 +204,41 @@ def main() -> int:
         kinds.append("product")
     if args.delete_broken:
         kinds.append("broken")
+    if args.delete_bait:
+        kinds.append("bait")
     victims = [r for r in report if r["kind"] in kinds]
-    print(f"\ndeleting {len(victims)} posts ({', '.join(kinds)})...")
     ok = 0
-    for r in victims:
-        resp = requests.delete(f"{GRAPH}/{r['id']}",
-                               params={"access_token": token}, timeout=30).json()
-        if resp.get("success"):
-            ok += 1
-            print(f"  deleted {r['id']}  {r['created_time'][:16]}")
-        else:
-            print(f"  FAILED  {r['id']}: {json.dumps(resp)[:200]}")
-    print(f"\ndeleted {ok}/{len(victims)}")
+    if victims:
+        print(f"\ndeleting {len(victims)} posts ({', '.join(kinds)})...")
+        for r in victims:
+            resp = requests.delete(f"{GRAPH}/{r['id']}",
+                                   params={"access_token": token},
+                                   timeout=30).json()
+            if resp.get("success"):
+                ok += 1
+                print(f"  deleted {r['id']}  {r['created_time'][:16]}")
+            else:
+                print(f"  FAILED  {r['id']}: {json.dumps(resp)[:200]}")
+            time.sleep(0.2)
+        print(f"\ndeleted {ok}/{len(victims)} posts")
+
+    if args.delete_self_comments and self_comments:
+        scope = self_comments[:args.posts]
+        print(f"\ndeleting {len(scope)} self-comments "
+              f"(of {len(self_comments)} found)...")
+        cok = 0
+        for c in scope:
+            resp = requests.delete(f"{GRAPH}/{c['id']}",
+                                   params={"access_token": token},
+                                   timeout=30).json()
+            if resp.get("success"):
+                cok += 1
+            else:
+                print(f"  FAILED comment {c['id']}: {json.dumps(resp)[:160]}")
+            time.sleep(0.2)
+        print(f"deleted {cok}/{len(scope)} self-comments")
+        return 0 if cok == len(scope) else 1
+
     return 0 if ok == len(victims) else 1
 
 
