@@ -1407,8 +1407,17 @@ def rewrite_with_llm(candidate: dict) -> str:
 ENGAGEMENT_BAIT = [
     "comment below", "share this", "share if", "tag a friend",
     "like and share", "like if", "follow for more", "comment yes",
-    "drop a comment", "type yes",
+    "drop a comment", "type yes", "follow for updates", "follow us",
+    "hit follow", "stay tuned",
 ]
+
+# Wire filler that no person types. The model reaches for these when it has
+# nothing to say, and they read as a template with the blanks filled in.
+TEMPLATE_PHRASES = (
+    "as this develops", "this is a developing story", "more to follow",
+    "here's what we know", "here is what we know", "what this means for",
+    "the bigger picture", "bottom line:",
+)
 
 
 # Outlet/wire names that must never appear in copy (no attribution, and
@@ -1496,12 +1505,15 @@ def quality_check(post: str, source_title: str, source_text: str = "") -> list[s
         problems.append("emoji-bullet / key-data block (reads as generated)")
     if len(re.findall(r"[\U0001F300-\U0001FAFF]", post)) > 3:
         problems.append("emoji spam (>3)")
+    _phrase = next((p for p in TEMPLATE_PHRASES if p in _low), None)
+    if _phrase:
+        problems.append(f"wire filler ('{_phrase}') - say something or stop")
     # EVERY FIGURE MUST COME FROM THE SOURCE. The prompt already says "never
     # invent a figure" and Gemini invented "$17.4 billion" anyway. A number
     # the source never stated is the one error a markets page cannot make:
     # it is unverifiable, it is defamatory if it names a company, and it is
     # the first thing a real reader will check.
-    if source_text.strip():
+    if (source_title + " " + source_text).strip():
         _src_nums = _numbers(source_title + " " + source_text)
         _extra = sorted(_numbers(post) - _src_nums)
         if _extra:
