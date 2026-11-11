@@ -1215,12 +1215,11 @@ def repair_post(post: str) -> str:
     return body + "\n\n" + tag_block
 
 
-# Virality engine: 60% rage-bait, 40% serious. Rage is detected
-# from proven traction (X likes/reposts, TG views) + conflict language.
-# Content alone can contribute max 2 (never flips mode solo); engagement
-# decides. Viral-mode posts decay slower (hot takes live for days) and get
-# a spicier rewrite prompt. Facts stay exact — only the framing gets hot.
-# The 60/40 ratio is enforced by apply_rage_mix (3 viral per 5 posts).
+# Virality engine: a story with real traction on X/TG is worth picking, but
+# the page is not a rage machine. Until 2026-11-11 this enforced a 60%
+# rage-bait mix and scored headlines higher for words like "slams" and
+# "bloodbath" - which is how a finance page ends up sounding like a tabloid.
+# Traction still counts; conflict language no longer does.
 RAGE_WORDS = [
     "slams", "blasts", "destroys", "humiliates", "exposes", "warns",
     "threatens", "leaked", "leak", "scandal", "outrage", "roasts",
@@ -1238,14 +1237,14 @@ RAGE_WORDS = [
 
 
 def apply_rage_mix(fresh: list, modes: list) -> str | None:
-    """Enforce ~60% rage-bait mix: target RAGE_TARGET viral posts out of
-    every 5 (default 3). Below target the best viral candidate gets
-    +RAGE_BOOST (default 3, usually wins); at/above target the best serious
-    candidate gets +3 to hold the serious floor (the funnel skews viral by
-    construction, so neutrality at target drifts to ~75% viral). Returns
-    log line or None."""
+    """Keep a serious floor: at/above RAGE_TARGET viral posts in the last
+    five, the best serious candidate gets +3. The old version also forced a
+    viral pick whenever the mix fell below target; RAGE_TARGET now defaults
+    to 0, so nothing is forced and the page is not 60% rage by design."""
     viral_n = modes.count("viral")
-    target = int(os.getenv("RAGE_TARGET", "3"))
+    target = int(os.getenv("RAGE_TARGET", "0"))
+    if target <= 0:
+        return None  # no quota: rank on merit, not on a rage ratio
     if viral_n < target:
         need, boost = "viral", int(os.getenv("RAGE_BOOST", "3"))
     else:
@@ -1261,9 +1260,9 @@ def apply_rage_mix(fresh: list, modes: list) -> str | None:
 
 def viral_bonus(text: str, likes: int = 0, reposts: int = 0,
                 replies: int = 0, views: int = 0) -> int:
-    t = text.lower()
-    b = min(2, sum(1 for w in RAGE_WORDS if w in t))
-    b += min(3, (likes + 2 * reposts + 2 * replies) // 500)
+    """Traction only. The old version added up to 2 points just for using
+    words like 'slams' or 'bloodbath', which selected for tabloid framing."""
+    b = min(3, (likes + 2 * reposts + 2 * replies) // 500)
     if views >= 20000:
         b += 2
     elif views >= 5000:
@@ -1272,11 +1271,12 @@ def viral_bonus(text: str, likes: int = 0, reposts: int = 0,
 
 
 SYSTEM_PROMPT_VIRAL = SYSTEM_PROMPT + """
-VIRAL MODE (this story already has traction — squeeze it):
-- Open with your hardest punch: JUST IN / BREAKING + caps conflict + stakes. Name the winner and the loser. Make a scroller feel they LOSE by skipping.
-- One sharp, opinionated closer line — raised eyebrow, not essay.
-- End the body with a debate-sparking question OR a mic-drop line (viral mode only). Give readers a reason to follow for the next update: end on an open loop (what happens next, what to watch).
-- Facts stay exact: spice the framing, never the facts. No invented quotes or numbers.
+TRACTION MODE (this story already has people talking):
+- Say why it is getting attention, in your normal voice. No JUST IN, no
+  BREAKING, no caps conflict, no winner/loser framing.
+- One sharp closing line is fine. A question is fine only if a real reader
+  would actually have an opinion about it.
+- Facts stay exact: no invented quotes, numbers or motives.
 - Never explicitly ask for likes, shares, comments or follows — engagement
   bait violates monetization policy and can kill page eligibility."""
 
