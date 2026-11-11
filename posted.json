@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "a8634920831743ef",
-    "fb_id": "1264009986803820_122132396865472689",
-    "title": "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended.",
-    "link": "https://x.com/Cointelegraph/status/2120260416265699515",
-    "mode": "serious",
-    "at": "2026-11-10T21:40:02.517350+00:00"
+    "hash": "d5747dee7ed64a4d",
+    "fb_id": "1162438299659803",
+    "title": "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer custo...",
+    "link": "https://x.com/OpenAI/status/2120216592395174382",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-11-11T01:29:38.866291+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -317,6 +318,7 @@
     "d4f0b2e5fc3af8b4",
     "d551335658005d85",
     "d570ddbf2c7fbd4e",
+    "d5747dee7ed64a4d",
     "d66770d491d6d1c1",
     "d83a3d5c86146f73",
     "d861583e99fec9ab",
@@ -384,12 +386,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-08": 2,
     "2026-11-09": 2,
-    "2026-11-10": 3
+    "2026-11-10": 3,
+    "2026-11-11": 1
   },
   "recent_titles": [
-    "US STOCKS AND BONDS RALLIED AFTER DEMOCRATIC GAINS IN CONGRESS RAISED HOPES FOR POLITICAL GRIDLOCK AND A QUICKER END TO THE IRAN WAR. THE S&P 500 JUMPED 1.6%, THE DOW ROSE 3%, TREASURY YIELDS FELL ...",
     "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%...",
     "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ...",
@@ -403,19 +404,10 @@
     "You can't make this up: At 6:00 PM ET, US stock market futures opened for the first time since Nvidia CEO Jensen Huang admitted to a \"relationship\" with a Chinese spy. By 6:01 PM ET, S&P 500 future...",
     "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1) Like, repost and follow for Part 2! \ud83d\udfe0\u26a1",
     "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
-    "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended."
+    "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended.",
+    "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer custo..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128687497472689",
-      "topics": [
-        "crypto",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "split:scene",
-      "at": "2026-10-27T22:16:51.688097+00:00"
-    },
     {
       "fb_id": "1264009986803820_122128721967472689",
       "topics": [
@@ -850,23 +842,23 @@
       "mode": "serious",
       "photo": "entity-logo",
       "at": "2026-11-10T21:40:02.517350+00:00"
+    },
+    {
+      "fb_id": "1162438299659803",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-11-11T01:29:38.866291+00:00"
     }
   ],
   "tuner": {
     "topics": {
       "unknown": {
-        "n": 3,
-        "e": 9
+        "n": 2,
+        "e": 6
       },
       "ai": {
-        "n": 7,
-        "e": 21
-      },
-      "power": {
-        "n": 6,
-        "e": 18
-      },
-      "stocks": {
         "n": 6,
         "e": 18
       },
@@ -874,9 +866,21 @@
         "n": 4,
         "e": 12
       },
+      "stocks": {
+        "n": 5,
+        "e": 15
+      },
+      "power": {
+        "n": 6,
+        "e": 18
+      },
       "crypto": {
-        "n": 4,
-        "e": 12
+        "n": 6,
+        "e": 18
+      },
+      "inflation": {
+        "n": 1,
+        "e": 3
       }
     },
     "mult": {
@@ -887,7 +891,7 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "comment_review": {
     "posts": 8,
@@ -895,37 +899,20 @@
     "likes": 0,
     "questions": 8,
     "praise": 0,
-    "anger": 2,
+    "anger": 1,
     "fake_claims": 1,
     "by_topic": {
       "crypto": 1
     },
     "sample_questions": [
-      "How do you think a targeted crackdown on Big Tech and Wall Street would affect your stock portfolio?",
-      "Does this surge in oil afloat signal an upcoming drop in gas prices at the pump, or is it time to adjust my energy stock portfolio?",
-      "Which crypto exchanges currently provide the most verifiable proof of reserves for my assets?"
+      "Does digital credit actually have a place in my long-term portfolio, or is this just more crypto hype?",
+      "Is your company's wire transfer process safe from AI deepfake scams like this?",
+      "Does AI pose any actual long-term threat to Bitcoin's scarcity, or is Saylor just hype-posting?"
     ],
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
-  "last_video_post": "2026-11-10",
+  "last_video_post": "2026-11-11",
   "recent_fps": [
-    {
-      "fp": [
-        "$19",
-        "$39",
-        "$99",
-        "DAILY",
-        "FEED",
-        "FOR",
-        "MO",
-        "THE",
-        "US",
-        "USD",
-        "pine",
-        "valuations"
-      ],
-      "at": "2026-11-03T16:31:06.880496+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1194,6 +1181,17 @@
         "pix"
       ],
       "at": "2026-11-10T21:40:02.517340+00:00"
+    },
+    {
+      "fp": [
+        "agent",
+        "business",
+        "businesses",
+        "claim",
+        "eligible",
+        "now"
+      ],
+      "at": "2026-11-11T01:29:38.866264+00:00"
     }
   ],
   "recent_hooks": [
@@ -1308,7 +1306,8 @@
     "122131898421472689_1108642862219757",
     "122131956987472689_4486912414952917",
     "122132166597472689_1914241149943434",
-    "122132244501472689_1174072694959651"
+    "122132244501472689_1174072694959651",
+    "122132396865472689_1143039411817493"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
