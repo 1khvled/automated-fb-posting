@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "7ac0c23c670df242",
-    "fb_id": "1264009986803820_122132500809472689",
-    "title": "GOLD EDGES HIGHER AS TRADERS ASSESS US INFLATION AND FED REMARKS Gold prices edged higher by as much as 0.8% to above $4,050 an ounce in Asian trading, recovering part of the previous session\u2019s 2.6...",
-    "link": "https://x.com/FirstSquawk/status/2120430895228432569",
+    "hash": "66a30b55a7e85885",
+    "fb_id": "1264009986803820_122132554893472689",
+    "title": "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
+    "link": "",
     "mode": "serious",
-    "at": "2026-11-11T08:21:07.551589+00:00"
+    "at": "2026-11-11T12:38:06.747011+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -388,10 +388,9 @@
   "day_counts": {
     "2026-11-09": 2,
     "2026-11-10": 3,
-    "2026-11-11": 2
+    "2026-11-11": 3
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%...",
     "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren says Democrats will hold President Trump, Big Tech CEOs, Wall Street executives, and major corporations accountable for enriching themselves.",
     "BREAKING: Global crude oil in transit is up to 1.28 billion barrels, an all-time high. This figure has surged +180 million barrels over the last several weeks. This comes as Middle Eastern oil flow...",
@@ -405,17 +404,10 @@
     "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
     "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended.",
     "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer custo...",
-    "GOLD EDGES HIGHER AS TRADERS ASSESS US INFLATION AND FED REMARKS Gold prices edged higher by as much as 0.8% to above $4,050 an ounce in Asian trading, recovering part of the previous session\u2019s 2.6..."
+    "GOLD EDGES HIGHER AS TRADERS ASSESS US INFLATION AND FED REMARKS Gold prices edged higher by as much as 0.8% to above $4,050 an ounce in Asian trading, recovering part of the previous session\u2019s 2.6...",
+    "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START"
   ],
   "history": [
-    {
-      "fb_id": "1759994198596339",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "at": "2026-10-28T07:21:19.436300+00:00"
-    },
     {
       "fb_id": "1264009986803820_122128867173472689",
       "topics": [],
@@ -852,6 +844,13 @@
       "mode": "serious",
       "photo": "split:face+inst",
       "at": "2026-11-11T08:21:07.551589+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122132554893472689",
+      "topics": [],
+      "mode": "serious",
+      "photo": "product",
+      "at": "2026-11-11T12:38:06.747011+00:00"
     }
   ],
   "tuner": {
@@ -915,12 +914,6 @@
   },
   "last_video_post": "2026-11-11",
   "recent_fps": [
-    {
-      "fp": [
-        "codex"
-      ],
-      "at": "2026-11-04T01:55:47.136135+00:00"
-    },
     {
       "fp": [
         "DAY",
@@ -1196,10 +1189,28 @@
         "trade"
       ],
       "at": "2026-11-11T08:21:07.551575+00:00"
+    },
+    {
+      "fp": [
+        "AND",
+        "COT",
+        "FROM",
+        "INDEX",
+        "IS",
+        "ONE",
+        "START",
+        "THE",
+        "TOP",
+        "WHERE",
+        "above",
+        "commercials",
+        "large",
+        "specs"
+      ],
+      "at": "2026-11-11T12:38:06.747003+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: Stock market history signals a massive RALLY if Democrats sweep Congress.",
     "$19/mo runs the daily signal feed on your watchlist, $39/mo adds the 4-in-1 Pine suite and alerts, $99/mo adds the local quant terminal",
     "BREAKING: Michael Burry is WINNING his massive bet against the AI bubble.",
     "JUST IN: Markets CRASH on Election Day as Wall Street prices in a Democrat sweep \ud83d\udcc9",
@@ -1213,7 +1224,8 @@
     "JUST IN: S&P 500 futures erased -$300B in cap at 6:01 PM ET, then swung +$350B green by 6:07 PM ET after Nvidia ($NVDA) CEO Jensen Huang admitted to a relationship with a Chinese spy.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says the war with Iran will end \"fairly soon\" and played down prospects of new military strikes.",
     "JUST IN: \ud83c\udde7\ud83c\uddf7\ud83d\udcb0 $49M HACK forces Mercado Bitcoin to pause crypto transfers; fiat via Pix returns next week.",
-    "JUST IN: \ud83d\udea8 GOLD bounces back after yesterday's 2.6% drop."
+    "JUST IN: \ud83d\udea8 GOLD bounces back after yesterday's 2.6% drop.",
+    "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1317,7 +1329,6 @@
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
-    "en-01-cot-index-extremes",
     "en-02-smart-money-vs-retail",
     "en-03-seasonality-year-average",
     "en-04-valuation-composite-score",
@@ -1330,9 +1341,10 @@
     "en-11-valuation-settings",
     "en-12-cot-report-open-interest",
     "en-13-founding-member",
-    "sig-TSLA-20261021"
+    "sig-TSLA-20261021",
+    "en-01-cot-index-extremes"
   ],
   "product_posts_day": {
-    "2026-11-04": 1
+    "2026-11-11": 1
   }
 }
