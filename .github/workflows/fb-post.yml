@@ -55,16 +55,14 @@ jobs:
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       GROUP_SHARE_TARGETS: ${{ secrets.GROUP_SHARE_TARGETS }}
       MAX_AGE_MINUTES: "1440"
-      # Volume + freshness. gap must be <= cron or runs are wasted:
-      # 20-min polling with a 20-min gap posts within ~20 min of a story
-      # qualifying, versus ~40 min at the old 20/30 pairing.
-      # Oct 2026: the floor was 14, so the bot lowered its publish bar to
-      # chase a quota and shipped 15 mediocre posts/day into an 8-follower
-      # page with 0 engagements. Volume into a small audience suppresses
-      # the reach of every post on it. 4/day matches the README's own
-      # monetisation band. Raise it when the audience does.
-      MIN_POST_GAP_MINUTES: "20"
-      MIN_POSTS_PER_DAY: "4"
+      # Volume. Nov 2026: 4-15 posts/day into a 7-follower page produced
+      # 0 reactions on the last 11 posts and fell to 3-8 engagements/day.
+      # Volume into a small audience suppresses the reach of every post on
+      # it. 2-3 posts a day, four hours apart, is the band a page this size
+      # can actually carry. Raise it when the audience does.
+      MIN_POST_GAP_MINUTES: "240"
+      MIN_POSTS_PER_DAY: "2"
+      MAX_POSTS_PER_DAY: "3"
       MIN_VIDEO_SCORE: "4"
       VIDEO_DEADLINE_HOUR: "20"
       VIDEO_DEADLINE_SCORE: "1"
@@ -153,9 +151,14 @@ jobs:
           if [[ "$GATE" == ALERT* ]]; then
             STREAK=$(echo "$GATE" | sed -n 's/.*streak=\([0-9]*\).*/\1/p')
             OPEN=$(gh issue list --repo ${{ github.repository }} --state open --json title --jq '[.[] | select(.title | startswith("[bot-alert]"))] | length')
-            if [ "$OPEN" = "0" ]; then
-              gh issue create --repo ${{ github.repository }} --title "[bot-alert] FB bot run failed" --body "Run ${{ github.run_id }} failed (publish error, dead token, or QC loop). Consecutive failures: $STREAK. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            if [ "$OPEN" != "0" ]; then
+              # A [bot-alert] issue is already open for this outage.
+              # One outage = one alert. Re-notifying on every failing run
+              # is what produced 20 identical Telegram messages in 3 days.
+              echo "Open [bot-alert] issue already exists - not re-alerting."
+              exit 0
             fi
+            gh issue create --repo ${{ github.repository }} --title "[bot-alert] FB bot run failed" --body "Run ${{ github.run_id }} failed (publish error, dead token, or QC loop). Consecutive failures: $STREAK. Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
             RUN_ID=${{ github.run_id }} STREAK=$STREAK python scripts/alert_failure.py || python scripts/notify_telegram.py "🚨 Ethan Cole bot run FAILED (run ${{ github.run_id }}, $STREAK consecutive failures). Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
           else
             echo "Quiet (gate=$GATE) - outage already reported, no repeat alert."
