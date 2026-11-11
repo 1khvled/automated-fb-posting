@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "d5747dee7ed64a4d",
-    "fb_id": "1162438299659803",
-    "title": "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer custo...",
-    "link": "https://x.com/OpenAI/status/2120216592395174382",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-11-11T01:29:38.866291+00:00"
+    "hash": "7ac0c23c670df242",
+    "fb_id": "1264009986803820_122132500809472689",
+    "title": "GOLD EDGES HIGHER AS TRADERS ASSESS US INFLATION AND FED REMARKS Gold prices edged higher by as much as 0.8% to above $4,050 an ounce in Asian trading, recovering part of the previous session\u2019s 2.6...",
+    "link": "https://x.com/FirstSquawk/status/2120430895228432569",
+    "mode": "serious",
+    "at": "2026-11-11T08:21:07.551589+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -183,6 +182,7 @@
     "78f0e9cf2196b1bb",
     "79bf8126b948e64b",
     "79da5906ca42200c",
+    "7ac0c23c670df242",
     "7bd03f4783b9b2bb",
     "7c887ce0c4c325c6",
     "7dd4c394ede9d017",
@@ -388,10 +388,9 @@
   "day_counts": {
     "2026-11-09": 2,
     "2026-11-10": 3,
-    "2026-11-11": 1
+    "2026-11-11": 2
   },
   "recent_titles": [
-    "Images, upgraded\u2014introducing ChatGPT Images 2.6. Now with GIFs and reference images. Plus, two new models are coming to the API with 50% faster image generation.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks crash after Democrats win control of both the House and Senate. Meta $META: -3.13% Tesla $TSLA: -8.89% Apple $AAPL: -0.73% Nvidia $NVDA: -6.50% Amazon $AMZN: -2.24%...",
     "introducing gemini omni 1.2 flash, now available in ai studio and the gemini api what's new: - fast & 30% lower cost - longer clips - edit in conversation - more natural speech - more controllable ...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren says Democrats will hold President Trump, Big Tech CEOs, Wall Street executives, and major corporations accountable for enriching themselves.",
@@ -405,18 +404,10 @@
     "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1) Like, repost and follow for Part 2! \ud83d\udfe0\u26a1",
     "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
     "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended.",
-    "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer custo..."
+    "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer custo...",
+    "GOLD EDGES HIGHER AS TRADERS ASSESS US INFLATION AND FED REMARKS Gold prices edged higher by as much as 0.8% to above $4,050 an ounce in Asian trading, recovering part of the previous session\u2019s 2.6..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128721967472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "photo": "split:face+inst",
-      "at": "2026-10-28T01:31:00.820542+00:00"
-    },
     {
       "fb_id": "1759994198596339",
       "topics": [
@@ -850,6 +841,17 @@
       ],
       "mode": "viral",
       "at": "2026-11-11T01:29:38.866291+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122132500809472689",
+      "topics": [
+        "fed",
+        "gold_oil",
+        "inflation"
+      ],
+      "mode": "serious",
+      "photo": "split:face+inst",
+      "at": "2026-11-11T08:21:07.551589+00:00"
     }
   ],
   "tuner": {
@@ -913,24 +915,6 @@
   },
   "last_video_post": "2026-11-11",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "MU",
-        "NVDA",
-        "ORCL",
-        "PLTR",
-        "burry",
-        "everyone",
-        "here",
-        "michael",
-        "micron",
-        "nvidia",
-        "oracle",
-        "palantir"
-      ],
-      "at": "2026-11-03T21:59:23.776657+00:00"
-    },
     {
       "fp": [
         "codex"
@@ -1192,10 +1176,29 @@
         "now"
       ],
       "at": "2026-11-11T01:29:38.866264+00:00"
+    },
+    {
+      "fp": [
+        "$4,050",
+        "AND",
+        "AS",
+        "ASSE",
+        "EDGE",
+        "FED",
+        "GOLD",
+        "HIGHER",
+        "US",
+        "asian",
+        "december",
+        "federal",
+        "gold",
+        "reserve",
+        "trade"
+      ],
+      "at": "2026-11-11T08:21:07.551575+00:00"
     }
   ],
   "recent_hooks": [
-    "Commercials, Large Specs and Retail share 1 axis, with fills split above and below zero. A thin market and a giant one finally read side by side.",
     "JUST IN: Stock market history signals a massive RALLY if Democrats sweep Congress.",
     "$19/mo runs the daily signal feed on your watchlist, $39/mo adds the 4-in-1 Pine suite and alerts, $99/mo adds the local quant terminal",
     "BREAKING: Michael Burry is WINNING his massive bet against the AI bubble.",
@@ -1209,7 +1212,8 @@
     "JUST IN: \ud83d\udea8 Feds bust $129M AI deepfake FRAUD scheme targeting major U.S. companies.",
     "JUST IN: S&P 500 futures erased -$300B in cap at 6:01 PM ET, then swung +$350B green by 6:07 PM ET after Nvidia ($NVDA) CEO Jensen Huang admitted to a relationship with a Chinese spy.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Donald Trump says the war with Iran will end \"fairly soon\" and played down prospects of new military strikes.",
-    "JUST IN: \ud83c\udde7\ud83c\uddf7\ud83d\udcb0 $49M HACK forces Mercado Bitcoin to pause crypto transfers; fiat via Pix returns next week."
+    "JUST IN: \ud83c\udde7\ud83c\uddf7\ud83d\udcb0 $49M HACK forces Mercado Bitcoin to pause crypto transfers; fiat via Pix returns next week.",
+    "JUST IN: \ud83d\udea8 GOLD bounces back after yesterday's 2.6% drop."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
@@ -1307,7 +1311,8 @@
     "122131956987472689_4486912414952917",
     "122132166597472689_1914241149943434",
     "122132244501472689_1174072694959651",
-    "122132396865472689_1143039411817493"
+    "122132396865472689_1143039411817493",
+    "122132429565472689_891386094002337"
   ],
   "product_posts_used": [
     "sig-FIG-20261021",
