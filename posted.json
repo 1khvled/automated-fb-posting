@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "2e7c0cca6e311970",
-    "fb_id": "1264009986803820_122132770665472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Commerce Secretary Lutnick reportedly stalled President Trump's efforts to restrict Nvidia $NVDA chip exports to China over fears it would start a trade war.",
-    "link": "https://x.com/WatcherGuru/status/2120625069684838487",
+    "hash": "6015d489cbb51539",
+    "fb_id": "1264009986803820_122132859075472689",
+    "title": "JUST IN: Binance says it has now covered 100% of losses from the $6.3 billion crypto hack by North Korea.",
+    "link": "https://x.com/WatcherGuru/status/2120924675182088405",
     "mode": "viral",
-    "at": "2026-11-12T09:53:17.551703+00:00"
+    "at": "2026-11-12T17:48:08.809047+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -133,6 +133,7 @@
     "5edb3c9ee6bfc99e",
     "5f21b28daec622b3",
     "600b7a3d6c0b67e5",
+    "6015d489cbb51539",
     "601a84aa97a5995b",
     "606daac6a4e443b9",
     "60cbbd6a62948e8f",
@@ -391,10 +392,9 @@
   "day_counts": {
     "2026-11-10": 3,
     "2026-11-11": 3,
-    "2026-11-12": 2
+    "2026-11-12": 3
   },
   "recent_titles": [
-    "\ud83d\udd25INSIGHT: Trust has to be earned, and exchanges still have work to do. Speaking to @itsciaranlyons, @Han_Gate, founder and CEO of @Gate, said crypto exchanges need to do more to show the public tha...",
     "Digital credit took four centuries to make possible. From the Dutch East India Company to Bitcoin, this is the story of the ten foundations that brought us here. $STRC",
     "BREAKING: \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8 Two Israelis charged in $129 million AI-powered fraud scheme in U.S. Haaretz reported on U.S. charges against two Israelis, Sharon Hazan (54) and Guy Sheetrit (42), plus Spanish-Brit...",
     "AI can make me rap. It can\u2019t print Bitcoin.",
@@ -408,18 +408,10 @@
     "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
     "Palantir CEO Alex Karp is signaling a shift toward Democrats following their midterm victories, criticizing Trump's immigration crackdown and Republicans' approach to economic justice. Despite secu...",
     "For the first time, AI has mathematically proven @signalapp\u2019s protocol is secure down to the code level. Using our breakthrough AlphaProof Code framework, we verified the messaging app\u2019s cryptograp...",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Commerce Secretary Lutnick reportedly stalled President Trump's efforts to restrict Nvidia $NVDA chip exports to China over fears it would start a trade war."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Commerce Secretary Lutnick reportedly stalled President Trump's efforts to restrict Nvidia $NVDA chip exports to China over fears it would start a trade war.",
+    "JUST IN: Binance says it has now covered 100% of losses from the $6.3 billion crypto hack by North Korea."
   ],
   "history": [
-    {
-      "fb_id": "3443587072516375",
-      "topics": [
-        "fed",
-        "inflation"
-      ],
-      "mode": "viral",
-      "at": "2026-10-29T02:48:49.200587+00:00"
-    },
     {
       "fb_id": "1264009986803820_122129065395472689",
       "topics": [],
@@ -855,6 +847,15 @@
       "mode": "viral",
       "photo": "split:face+face",
       "at": "2026-11-12T09:53:17.551703+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122132859075472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-12T17:48:08.809047+00:00"
     }
   ],
   "tuner": {
@@ -912,16 +913,6 @@
   },
   "last_video_post": "2026-11-12",
   "recent_fps": [
-    {
-      "fp": [
-        "API",
-        "GIF",
-        "images",
-        "now",
-        "plus"
-      ],
-      "at": "2026-11-05T02:30:59.127152+00:00"
-    },
     {
       "fp": [
         "$2.3",
@@ -1180,10 +1171,20 @@
         "trump"
       ],
       "at": "2026-11-12T09:53:17.551691+00:00"
+    },
+    {
+      "fp": [
+        "$6.3",
+        "IN",
+        "JUST",
+        "binance",
+        "korea",
+        "north"
+      ],
+      "at": "2026-11-12T17:48:08.809038+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: Markets CRASH on Election Day as Wall Street prices in a Democrat sweep \ud83d\udcc9",
     "The model values Tesla ($TSLA) at $108 against a $385 price - 72% rich.",
     "BREAKING: US stocks and bonds RALLIED after Democratic Congressional gains fueled hopes for political gridlock and a swift end to the Iran war.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks CRASH after Democrats win control of both the House and Senate.",
@@ -1197,7 +1198,8 @@
     "JUST IN: \ud83d\udea8 GOLD bounces back after yesterday's 2.6% drop.",
     "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
     "Palantir Technologies ($PLTR) CEO Alex Karp says Democrats have corrected course enough to potentially earn his support in 2028, despite the firm securing billions in federal contracts under President Trump. The lifelong Democrat praised the party's recent midterm victories while openly criticizing Trump's immigration crackdown and the Republican approach to economic justice.",
-    "Commerce Secretary Lutnick reportedly stepped in to stall President Trump's plans to tighten export limits on Nvidia ($NVDA) chips to China, framing the restriction as a trigger for an immediate trade war."
+    "Commerce Secretary Lutnick reportedly stepped in to stall President Trump's plans to tighten export limits on Nvidia ($NVDA) chips to China, framing the restriction as a trigger for an immediate trade war.",
+    "Binance has fully absorbed 100% of the losses from that $6.3 billion North Korean crypto hack."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
