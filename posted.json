@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "fd4b4edb6c5f91cb",
-    "fb_id": "1264009986803820_122132570091472689",
-    "title": "Palantir CEO Alex Karp is signaling a shift toward Democrats following their midterm victories, criticizing Trump's immigration crackdown and Republicans' approach to economic justice. Despite secu...",
-    "link": "https://x.com/clashreport/status/2120509268499505656",
-    "mode": "serious",
-    "at": "2026-11-11T13:42:11.635094+00:00"
+    "hash": "a83369515499ec81",
+    "fb_id": "2389365721897976",
+    "title": "For the first time, AI has mathematically proven @signalapp\u2019s protocol is secure down to the code level. Using our breakthrough AlphaProof Code framework, we verified the messaging app\u2019s cryptograp...",
+    "link": "https://x.com/GoogleDeepMind/status/2120484246401777737",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-11-12T02:04:38.780155+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -250,6 +251,7 @@
     "a3a826e937ac0d6c",
     "a61476413f0f9565",
     "a7782c3d8ef265c3",
+    "a83369515499ec81",
     "a8634920831743ef",
     "a8a13158b3e1c008",
     "a92c121ccab46909",
@@ -387,12 +389,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-09": 2,
     "2026-11-10": 3,
-    "2026-11-11": 3
+    "2026-11-11": 3,
+    "2026-11-12": 1
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren says Democrats will hold President Trump, Big Tech CEOs, Wall Street executives, and major corporations accountable for enriching themselves.",
     "BREAKING: Global crude oil in transit is up to 1.28 billion barrels, an all-time high. This figure has surged +180 million barrels over the last several weeks. This comes as Middle Eastern oil flow...",
     "\ud83d\udd25INSIGHT: Trust has to be earned, and exchanges still have work to do. Speaking to @itsciaranlyons, @Han_Gate, founder and CEO of @Gate, said crypto exchanges need to do more to show the public tha...",
     "Digital credit took four centuries to make possible. From the Dutch East India Company to Bitcoin, this is the story of the ten foundations that brought us here. $STRC",
@@ -406,19 +407,10 @@
     "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer custo...",
     "GOLD EDGES HIGHER AS TRADERS ASSESS US INFLATION AND FED REMARKS Gold prices edged higher by as much as 0.8% to above $4,050 an ounce in Asian trading, recovering part of the previous session\u2019s 2.6...",
     "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
-    "Palantir CEO Alex Karp is signaling a shift toward Democrats following their midterm victories, criticizing Trump's immigration crackdown and Republicans' approach to economic justice. Despite secu..."
+    "Palantir CEO Alex Karp is signaling a shift toward Democrats following their midterm victories, criticizing Trump's immigration crackdown and Republicans' approach to economic justice. Despite secu...",
+    "For the first time, AI has mathematically proven @signalapp\u2019s protocol is secure down to the code level. Using our breakthrough AlphaProof Code framework, we verified the messaging app\u2019s cryptograp..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128925097472689",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "source",
-      "at": "2026-10-28T19:36:56.379485+00:00"
-    },
     {
       "fb_id": "1264009986803820_122128964319472689",
       "topics": [
@@ -854,6 +846,14 @@
       "mode": "serious",
       "photo": "source",
       "at": "2026-11-11T13:42:11.635094+00:00"
+    },
+    {
+      "fb_id": "2389365721897976",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "at": "2026-11-12T02:04:38.780155+00:00"
     }
   ],
   "tuner": {
@@ -895,42 +895,22 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-11"
+    "updated": "2026-11-12"
   },
   "comment_review": {
-    "posts": 8,
-    "comments": 8,
+    "posts": 6,
+    "comments": 0,
     "likes": 0,
-    "questions": 8,
+    "questions": 0,
     "praise": 0,
-    "anger": 1,
-    "fake_claims": 1,
-    "by_topic": {
-      "crypto": 1
-    },
-    "sample_questions": [
-      "Does digital credit actually have a place in my long-term portfolio, or is this just more crypto hype?",
-      "Is your company's wire transfer process safe from AI deepfake scams like this?",
-      "Does AI pose any actual long-term threat to Bitcoin's scarcity, or is Saylor just hype-posting?"
-    ],
-    "updated": "2026-11-11"
+    "anger": 0,
+    "fake_claims": 0,
+    "by_topic": {},
+    "sample_questions": [],
+    "updated": "2026-11-12"
   },
-  "last_video_post": "2026-11-11",
+  "last_video_post": "2026-11-12",
   "recent_fps": [
-    {
-      "fp": [
-        "$108",
-        "$385",
-        "DCF",
-        "EPS",
-        "TSLA",
-        "altman",
-        "basis",
-        "forward",
-        "piotroski"
-      ],
-      "at": "2026-11-04T16:24:31.364563+00:00"
-    },
     {
       "fp": [
         "$100",
@@ -1209,6 +1189,14 @@
         "trump"
       ],
       "at": "2026-11-11T13:42:11.635084+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "code",
+        "using"
+      ],
+      "at": "2026-11-12T02:04:38.780148+00:00"
     }
   ],
   "recent_hooks": [
