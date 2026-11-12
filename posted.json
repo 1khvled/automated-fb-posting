@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "a83369515499ec81",
-    "fb_id": "2389365721897976",
-    "title": "For the first time, AI has mathematically proven @signalapp\u2019s protocol is secure down to the code level. Using our breakthrough AlphaProof Code framework, we verified the messaging app\u2019s cryptograp...",
-    "link": "https://x.com/GoogleDeepMind/status/2120484246401777737",
+    "hash": "2e7c0cca6e311970",
+    "fb_id": "1264009986803820_122132770665472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Commerce Secretary Lutnick reportedly stalled President Trump's efforts to restrict Nvidia $NVDA chip exports to China over fears it would start a trade war.",
+    "link": "https://x.com/WatcherGuru/status/2120625069684838487",
     "mode": "viral",
-    "kind": "video",
-    "at": "2026-11-12T02:04:38.780155+00:00"
+    "at": "2026-11-12T09:53:17.551703+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -81,6 +80,7 @@
     "2d3d5b5f61623900",
     "2d63a9f4c47e07bc",
     "2d8bf0d617a8cbae",
+    "2e7c0cca6e311970",
     "2f44d6251f2dd01c",
     "2f82b7d57908eb27",
     "2fefdaf693a6683e",
@@ -391,10 +391,9 @@
   "day_counts": {
     "2026-11-10": 3,
     "2026-11-11": 3,
-    "2026-11-12": 1
+    "2026-11-12": 2
   },
   "recent_titles": [
-    "BREAKING: Global crude oil in transit is up to 1.28 billion barrels, an all-time high. This figure has surged +180 million barrels over the last several weeks. This comes as Middle Eastern oil flow...",
     "\ud83d\udd25INSIGHT: Trust has to be earned, and exchanges still have work to do. Speaking to @itsciaranlyons, @Han_Gate, founder and CEO of @Gate, said crypto exchanges need to do more to show the public tha...",
     "Digital credit took four centuries to make possible. From the Dutch East India Company to Bitcoin, this is the story of the ten foundations that brought us here. $STRC",
     "BREAKING: \ud83c\uddee\ud83c\uddf1\ud83c\uddfa\ud83c\uddf8 Two Israelis charged in $129 million AI-powered fraud scheme in U.S. Haaretz reported on U.S. charges against two Israelis, Sharon Hazan (54) and Guy Sheetrit (42), plus Spanish-Brit...",
@@ -408,18 +407,10 @@
     "GOLD EDGES HIGHER AS TRADERS ASSESS US INFLATION AND FED REMARKS Gold prices edged higher by as much as 0.8% to above $4,050 an ounce in Asian trading, recovering part of the previous session\u2019s 2.6...",
     "\ud83d\udcca THE COT INDEX IS ONE OSCILLATOR FROM 0-100% \u2014 AND 80% IS WHERE TOPS START",
     "Palantir CEO Alex Karp is signaling a shift toward Democrats following their midterm victories, criticizing Trump's immigration crackdown and Republicans' approach to economic justice. Despite secu...",
-    "For the first time, AI has mathematically proven @signalapp\u2019s protocol is secure down to the code level. Using our breakthrough AlphaProof Code framework, we verified the messaging app\u2019s cryptograp..."
+    "For the first time, AI has mathematically proven @signalapp\u2019s protocol is secure down to the code level. Using our breakthrough AlphaProof Code framework, we verified the messaging app\u2019s cryptograp...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Commerce Secretary Lutnick reportedly stalled President Trump's efforts to restrict Nvidia $NVDA chip exports to China over fears it would start a trade war."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122128964319472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "source",
-      "at": "2026-10-28T23:30:29.909551+00:00"
-    },
     {
       "fb_id": "3443587072516375",
       "topics": [
@@ -854,6 +845,16 @@
       ],
       "mode": "viral",
       "at": "2026-11-12T02:04:38.780155+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122132770665472689",
+      "topics": [
+        "ai",
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "split:face+face",
+      "at": "2026-11-12T09:53:17.551703+00:00"
     }
   ],
   "tuner": {
@@ -911,39 +912,6 @@
   },
   "last_video_post": "2026-11-12",
   "recent_fps": [
-    {
-      "fp": [
-        "$100",
-        "AFTER",
-        "AND",
-        "BARREL",
-        "BASI",
-        "BELOW",
-        "BOND",
-        "BRENT",
-        "CRUDE",
-        "DOW",
-        "END",
-        "FELL",
-        "FOR",
-        "GAIN",
-        "HOPE",
-        "IN",
-        "IRAN",
-        "JUMPED",
-        "POINT",
-        "RAISED",
-        "ROSE",
-        "SEVEN",
-        "STOCK",
-        "THE",
-        "TO",
-        "US",
-        "WAR",
-        "YIELD"
-      ],
-      "at": "2026-11-04T22:09:37.928499+00:00"
-    },
     {
       "fp": [
         "API",
@@ -1197,10 +1165,24 @@
         "using"
       ],
       "at": "2026-11-12T02:04:38.780148+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "NVDA",
+        "china",
+        "commerce",
+        "lutnick",
+        "nvidia",
+        "president",
+        "secretary",
+        "trump"
+      ],
+      "at": "2026-11-12T09:53:17.551691+00:00"
     }
   ],
   "recent_hooks": [
-    "BREAKING: Michael Burry is WINNING his massive bet against the AI bubble.",
     "JUST IN: Markets CRASH on Election Day as Wall Street prices in a Democrat sweep \ud83d\udcc9",
     "The model values Tesla ($TSLA) at $108 against a $385 price - 72% rich.",
     "BREAKING: US stocks and bonds RALLIED after Democratic Congressional gains fueled hopes for political gridlock and a swift end to the Iran war.",
@@ -1214,7 +1196,8 @@
     "JUST IN: \ud83c\udde7\ud83c\uddf7\ud83d\udcb0 $49M HACK forces Mercado Bitcoin to pause crypto transfers; fiat via Pix returns next week.",
     "JUST IN: \ud83d\udea8 GOLD bounces back after yesterday's 2.6% drop.",
     "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
-    "Palantir Technologies ($PLTR) CEO Alex Karp says Democrats have corrected course enough to potentially earn his support in 2028, despite the firm securing billions in federal contracts under President Trump. The lifelong Democrat praised the party's recent midterm victories while openly criticizing Trump's immigration crackdown and the Republican approach to economic justice."
+    "Palantir Technologies ($PLTR) CEO Alex Karp says Democrats have corrected course enough to potentially earn his support in 2028, despite the firm securing billions in federal contracts under President Trump. The lifelong Democrat praised the party's recent midterm victories while openly criticizing Trump's immigration crackdown and the Republican approach to economic justice.",
+    "Commerce Secretary Lutnick reportedly stepped in to stall President Trump's plans to tighten export limits on Nvidia ($NVDA) chips to China, framing the restriction as a trigger for an immediate trade war."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
