@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "66db62ac4aca7e58",
-    "fb_id": "1264009986803820_122133037401472689",
-    "title": "BREAKING: Bitcoin falls below $69,000 and ETH nears $1,900 as selling pressure accelerates in crypto. Crypto markets have now lost -$150 billion in 48 hours.",
-    "link": "https://x.com/KobeissiLetter/status/2121119250601697764",
+    "hash": "0b20e0b0f3f42160",
+    "fb_id": "1264009986803820_122133119343472689",
+    "title": "Investors buying the dip in US equity ETFs at an unprecedented pace: The S&P 500 ETF, $VOO, attracted +$16.9 billion in inflows over 5 trading days ending November 10th, the most among major US equ...",
+    "link": "https://x.com/KobeissiLetter/status/2121023122472132742",
     "mode": "viral",
-    "at": "2026-11-13T11:01:50.854958+00:00"
+    "at": "2026-11-13T18:25:39.702057+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -33,6 +33,7 @@
     "0a5853d8bb9ad922",
     "0afa79877035161a",
     "0b0d21f90fa17116",
+    "0b20e0b0f3f42160",
     "0c5cfe8788c68c45",
     "0e3dfa7c1944490a",
     "0e590aebd2b44c59",
@@ -394,10 +395,9 @@
   "day_counts": {
     "2026-11-11": 3,
     "2026-11-12": 3,
-    "2026-11-13": 2
+    "2026-11-13": 3
   },
   "recent_titles": [
-    "AI can make me rap. It can\u2019t print Bitcoin.",
     "\ud83d\udea8 Every night over Hormuz, Iran's radar crews face the same choice: switch on and get exposed, or stay dark and go blind. And nobody is connecting the dots. MOVE 1: The bait. Cheap US decoy drones,...",
     "You can't make this up: At 6:00 PM ET, US stock market futures opened for the first time since Nvidia CEO Jensen Huang admitted to a \"relationship\" with a Chinese spy. By 6:01 PM ET, S&P 500 future...",
     "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1) Like, repost and follow for Part 2! \ud83d\udfe0\u26a1",
@@ -411,18 +411,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Commerce Secretary Lutnick reportedly stalled President Trump's efforts to restrict Nvidia $NVDA chip exports to China over fears it would start a trade war.",
     "JUST IN: Binance says it has now covered 100% of losses from the $6.3 billion crypto hack by North Korea.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 A trust linked to Congressman Ro Khanna's wife sold Nvidia's stock near its peak, weeks before reports of Jensen Huang's affair with a Chinese spy became public. $NVDA stock has crashed...",
-    "BREAKING: Bitcoin falls below $69,000 and ETH nears $1,900 as selling pressure accelerates in crypto. Crypto markets have now lost -$150 billion in 48 hours."
+    "BREAKING: Bitcoin falls below $69,000 and ETH nears $1,900 as selling pressure accelerates in crypto. Crypto markets have now lost -$150 billion in 48 hours.",
+    "Investors buying the dip in US equity ETFs at an unprecedented pace: The S&P 500 ETF, $VOO, attracted +$16.9 billion in inflows over 5 trading days ending November 10th, the most among major US equ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122129203899472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "photo": "entity-logo",
-      "at": "2026-10-29T21:11:03.253821+00:00"
-    },
     {
       "fb_id": "1264009986803820_122129240355472689",
       "topics": [
@@ -861,6 +853,17 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-13T11:01:50.854958+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122133119343472689",
+      "topics": [
+        "ai",
+        "crypto",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-13T18:25:39.702057+00:00"
     }
   ],
   "tuner": {
@@ -918,23 +921,6 @@
   },
   "last_video_post": "2026-11-12",
   "recent_fps": [
-    {
-      "fp": [
-        "CEO",
-        "IN",
-        "JUST",
-        "big",
-        "democrats",
-        "elizabeth",
-        "president",
-        "street",
-        "tech",
-        "trump",
-        "wall",
-        "warren"
-      ],
-      "at": "2026-11-06T23:29:48.154717+00:00"
-    },
     {
       "fp": [
         "eastern",
@@ -1181,10 +1167,28 @@
         "crypto"
       ],
       "at": "2026-11-13T11:01:50.854945+00:00"
+    },
+    {
+      "fp": [
+        "$16.9",
+        "$3.3",
+        "$5.3",
+        "ETF",
+        "QQQ",
+        "SPYM",
+        "US",
+        "VOO",
+        "VTI",
+        "investors",
+        "nasda",
+        "nasdaq",
+        "november",
+        "this"
+      ],
+      "at": "2026-11-13T18:25:39.702047+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 Magnificent 7 stocks CRASH after Democrats win control of both the House and Senate.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 Elizabeth Warren vows Democrats will TARGET President Trump, Big Tech CEOs, and Wall Street executives.",
     "JUST IN: Global CRUDE oil in transit just hit 1.28 billion barrels, an all-time high.",
     "JUST IN: \ud83d\udea8 4 CENTURIES of monetary history just collapsed into 10 core foundations, tracing digital credit from the Dutch East India Company straight to BITCOIN.",
@@ -1198,7 +1202,8 @@
     "Commerce Secretary Lutnick reportedly stepped in to stall President Trump's plans to tighten export limits on Nvidia ($NVDA) chips to China, framing the restriction as a trigger for an immediate trade war.",
     "Binance has fully absorbed 100% of the losses from that $6.3 billion North Korean crypto hack.",
     "A trust linked to Congressman Ro Khanna's wife unloaded Nvidia ($NVDA) right at the top, just weeks before reports hit about Jensen Huang's affair with a Chinese spy. The stock is down 30% since those sales. Timing like that is why people watch congressional disclosures far more closely than earnings calls.",
-    "The crypto market just erased $150 billion in value over 48 hours. When Bitcoin ($BTC) breaks below $69,000 while ETH ($ETH) drops toward $1,900, it is not a routine pullback; it is a rapid liquidation cascade. The question for traders now is whether this volume of accelerated selling pressure has found its bottom or if more downside is being priced in."
+    "The crypto market just erased $150 billion in value over 48 hours. When Bitcoin ($BTC) breaks below $69,000 while ETH ($ETH) drops toward $1,900, it is not a routine pullback; it is a rapid liquidation cascade. The question for traders now is whether this volume of accelerated selling pressure has found its bottom or if more downside is being priced in.",
+    "+$16.9 billion flowed into Vanguard S&P 500 ETF ($VOO) across 5 trading days ending November 10th. In the same window, Invesco QQQ Trust ($QQQ) pulled in +$5.3 billion and Vanguard Total Stock Market ETF ($VTI) took +$3.3 billion. Capital isn't just sitting back during pullbacks\u2014it is actively hunting the dip."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
