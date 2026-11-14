@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "0b20e0b0f3f42160",
-    "fb_id": "1264009986803820_122133119343472689",
-    "title": "Investors buying the dip in US equity ETFs at an unprecedented pace: The S&P 500 ETF, $VOO, attracted +$16.9 billion in inflows over 5 trading days ending November 10th, the most among major US equ...",
-    "link": "https://x.com/KobeissiLetter/status/2121023122472132742",
-    "mode": "viral",
-    "at": "2026-11-13T18:25:39.702057+00:00"
+    "hash": "399f3abd161c1416",
+    "fb_id": "1447262890874208",
+    "title": "\u8bd5\u4e86\u8bd5Gemini 4 hydrogen\u63a7\u5236\u6765\u505a\u89c6\u9891\uff0c\u901f\u5ea6\u660e\u663e\u8981\u6bd4carbon\u548cargon\u5feb\u7684\u591a\u3002 \u4f46\u662f\u5b83\u7684\u7406\u89e3\u529b\u7565\u5dee\u4e00\u70b9\uff0c\u51fa\u6765\u540e\u8fd8\u9700\u8981\u8c03\u6574\uff0c\u5982\u679c\u662fhydrogen \u2795carbon\u6216\u8005\u2795argon\u7ec4\u5408\u4f1a\u597d\u5f88\u591a\u3002 \u4e3a\u4ec0\u4e48\u6211\u9875\u9762\u5230\u73b0\u5728\u90fd\u6ca1\u51fa\u73b0\u7ec4\u5408\u7684\u9009\u62e9\u5462\uff1f\ud83d\udc40\ud83d\udc40",
+    "link": "https://x.com/shengtang135754/status/2121447944419500094",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-11-14T03:49:15.782898+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -97,6 +98,7 @@
     "352d927675da4e41",
     "3798774b8ed68fb4",
     "391341aa32b1abfc",
+    "399f3abd161c1416",
     "3b4aa213b4a64a56",
     "3c7e63595369afd6",
     "3ccaf6ca07aa5503",
@@ -393,12 +395,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-11": 3,
     "2026-11-12": 3,
-    "2026-11-13": 3
+    "2026-11-13": 3,
+    "2026-11-14": 1
   },
   "recent_titles": [
-    "\ud83d\udea8 Every night over Hormuz, Iran's radar crews face the same choice: switch on and get exposed, or stay dark and go blind. And nobody is connecting the dots. MOVE 1: The bait. Cheap US decoy drones,...",
     "You can't make this up: At 6:00 PM ET, US stock market futures opened for the first time since Nvidia CEO Jensen Huang admitted to a \"relationship\" with a Chinese spy. By 6:01 PM ET, S&P 500 future...",
     "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1) Like, repost and follow for Part 2! \ud83d\udfe0\u26a1",
     "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
@@ -412,18 +413,10 @@
     "JUST IN: Binance says it has now covered 100% of losses from the $6.3 billion crypto hack by North Korea.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 A trust linked to Congressman Ro Khanna's wife sold Nvidia's stock near its peak, weeks before reports of Jensen Huang's affair with a Chinese spy became public. $NVDA stock has crashed...",
     "BREAKING: Bitcoin falls below $69,000 and ETH nears $1,900 as selling pressure accelerates in crypto. Crypto markets have now lost -$150 billion in 48 hours.",
-    "Investors buying the dip in US equity ETFs at an unprecedented pace: The S&P 500 ETF, $VOO, attracted +$16.9 billion in inflows over 5 trading days ending November 10th, the most among major US equ..."
+    "Investors buying the dip in US equity ETFs at an unprecedented pace: The S&P 500 ETF, $VOO, attracted +$16.9 billion in inflows over 5 trading days ending November 10th, the most among major US equ...",
+    "\u8bd5\u4e86\u8bd5Gemini 4 hydrogen\u63a7\u5236\u6765\u505a\u89c6\u9891\uff0c\u901f\u5ea6\u660e\u663e\u8981\u6bd4carbon\u548cargon\u5feb\u7684\u591a\u3002 \u4f46\u662f\u5b83\u7684\u7406\u89e3\u529b\u7565\u5dee\u4e00\u70b9\uff0c\u51fa\u6765\u540e\u8fd8\u9700\u8981\u8c03\u6574\uff0c\u5982\u679c\u662fhydrogen \u2795carbon\u6216\u8005\u2795argon\u7ec4\u5408\u4f1a\u597d\u5f88\u591a\u3002 \u4e3a\u4ec0\u4e48\u6211\u9875\u9762\u5230\u73b0\u5728\u90fd\u6ca1\u51fa\u73b0\u7ec4\u5408\u7684\u9009\u62e9\u5462\uff1f\ud83d\udc40\ud83d\udc40"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122129240355472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-10-30T01:03:58.123824+00:00"
-    },
     {
       "fb_id": "1264009986803820_122129376177472689",
       "topics": [
@@ -864,6 +857,14 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-13T18:25:39.702057+00:00"
+    },
+    {
+      "fb_id": "1447262890874208",
+      "topics": [
+        "ai"
+      ],
+      "mode": "serious",
+      "at": "2026-11-14T03:49:15.782898+00:00"
     }
   ],
   "tuner": {
@@ -905,7 +906,7 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-13"
+    "updated": "2026-11-14"
   },
   "comment_review": {
     "posts": 7,
@@ -917,22 +918,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-11-13"
+    "updated": "2026-11-14"
   },
-  "last_video_post": "2026-11-12",
+  "last_video_post": "2026-11-14",
   "recent_fps": [
-    {
-      "fp": [
-        "eastern",
-        "global",
-        "hormuz",
-        "middle",
-        "ship",
-        "strait",
-        "this"
-      ],
-      "at": "2026-11-07T03:13:14.098394+00:00"
-    },
     {
       "fp": [
         "CEO",
@@ -1186,6 +1175,10 @@
         "this"
       ],
       "at": "2026-11-13T18:25:39.702047+00:00"
+    },
+    {
+      "fp": [],
+      "at": "2026-11-14T03:49:15.782887+00:00"
     }
   ],
   "recent_hooks": [
