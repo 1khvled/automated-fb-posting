@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "7119f18059de76a3",
-    "fb_id": "1264009986803820_122133325455472689",
-    "title": "JUST IN: Bitcoin crashes to $67,000 as $250,000,000 is liquidated from the crypto market in 10 minutes.",
-    "link": "https://x.com/WatcherGuru/status/2121431433440846020",
-    "mode": "viral",
-    "at": "2026-11-14T11:03:38.478144+00:00"
+    "hash": "15614a6abe13864d",
+    "fb_id": "1264009986803820_122133413349472689",
+    "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+    "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+    "mode": "serious",
+    "at": "2026-11-14T17:11:20.091303+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -46,6 +46,7 @@
     "11e9a2979f0b49a2",
     "126ff52b33bd93a7",
     "144c14d5e1cf0024",
+    "15614a6abe13864d",
     "163b472205423d09",
     "1816f2bc765abc08",
     "185efa1dab127fb0",
@@ -397,10 +398,9 @@
   "day_counts": {
     "2026-11-12": 3,
     "2026-11-13": 3,
-    "2026-11-14": 2
+    "2026-11-14": 3
   },
   "recent_titles": [
-    "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1) Like, repost and follow for Part 2! \ud83d\udfe0\u26a1",
     "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
     "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended.",
     "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer custo...",
@@ -414,16 +414,10 @@
     "BREAKING: Bitcoin falls below $69,000 and ETH nears $1,900 as selling pressure accelerates in crypto. Crypto markets have now lost -$150 billion in 48 hours.",
     "Investors buying the dip in US equity ETFs at an unprecedented pace: The S&P 500 ETF, $VOO, attracted +$16.9 billion in inflows over 5 trading days ending November 10th, the most among major US equ...",
     "\u8bd5\u4e86\u8bd5Gemini 4 hydrogen\u63a7\u5236\u6765\u505a\u89c6\u9891\uff0c\u901f\u5ea6\u660e\u663e\u8981\u6bd4carbon\u548cargon\u5feb\u7684\u591a\u3002 \u4f46\u662f\u5b83\u7684\u7406\u89e3\u529b\u7565\u5dee\u4e00\u70b9\uff0c\u51fa\u6765\u540e\u8fd8\u9700\u8981\u8c03\u6574\uff0c\u5982\u679c\u662fhydrogen \u2795carbon\u6216\u8005\u2795argon\u7ec4\u5408\u4f1a\u597d\u5f88\u591a\u3002 \u4e3a\u4ec0\u4e48\u6211\u9875\u9762\u5230\u73b0\u5728\u90fd\u6ca1\u51fa\u73b0\u7ec4\u5408\u7684\u9009\u62e9\u5462\uff1f\ud83d\udc40\ud83d\udc40",
-    "JUST IN: Bitcoin crashes to $67,000 as $250,000,000 is liquidated from the crypto market in 10 minutes."
+    "JUST IN: Bitcoin crashes to $67,000 as $250,000,000 is liquidated from the crypto market in 10 minutes.",
+    "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122129462673472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-10-30T14:17:06.956696+00:00"
-    },
     {
       "fb_id": "1264009986803820_122129522775472689",
       "topics": [
@@ -863,6 +857,17 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-14T11:03:38.478144+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122133413349472689",
+      "topics": [
+        "ai",
+        "crypto",
+        "power"
+      ],
+      "mode": "serious",
+      "photo": "og:image",
+      "at": "2026-11-14T17:11:20.091303+00:00"
     }
   ],
   "tuner": {
@@ -920,18 +925,6 @@
   },
   "last_video_post": "2026-11-14",
   "recent_fps": [
-    {
-      "fp": [
-        "STRC",
-        "bitcoin",
-        "company",
-        "digital",
-        "dutch",
-        "east",
-        "india"
-      ],
-      "at": "2026-11-07T23:56:05.245236+00:00"
-    },
     {
       "fp": [
         "$129",
@@ -1177,10 +1170,22 @@
         "bitcoin"
       ],
       "at": "2026-11-14T11:03:38.478133+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "ETF",
+        "big",
+        "congress",
+        "democratic",
+        "how",
+        "nvidia",
+        "tech"
+      ],
+      "at": "2026-11-14T17:11:20.091292+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: Global CRUDE oil in transit just hit 1.28 billion barrels, an all-time high.",
     "JUST IN: \ud83d\udea8 4 CENTURIES of monetary history just collapsed into 10 core foundations, tracing digital credit from the Dutch East India Company straight to BITCOIN.",
     "JUST IN: \ud83d\udea8 Feds bust $129M AI deepfake FRAUD scheme targeting major U.S. companies.",
     "JUST IN: S&P 500 futures erased -$300B in cap at 6:01 PM ET, then swung +$350B green by 6:07 PM ET after Nvidia ($NVDA) CEO Jensen Huang admitted to a relationship with a Chinese spy.",
@@ -1194,7 +1199,8 @@
     "A trust linked to Congressman Ro Khanna's wife unloaded Nvidia ($NVDA) right at the top, just weeks before reports hit about Jensen Huang's affair with a Chinese spy. The stock is down 30% since those sales. Timing like that is why people watch congressional disclosures far more closely than earnings calls.",
     "The crypto market just erased $150 billion in value over 48 hours. When Bitcoin ($BTC) breaks below $69,000 while ETH ($ETH) drops toward $1,900, it is not a routine pullback; it is a rapid liquidation cascade. The question for traders now is whether this volume of accelerated selling pressure has found its bottom or if more downside is being priced in.",
     "+$16.9 billion flowed into Vanguard S&P 500 ETF ($VOO) across 5 trading days ending November 10th. In the same window, Invesco QQQ Trust ($QQQ) pulled in +$5.3 billion and Vanguard Total Stock Market ETF ($VTI) took +$3.3 billion. Capital isn't just sitting back during pullbacks\u2014it is actively hunting the dip.",
-    "That is $250,000,000 wiped out in 10 minutes. Bitcoin dropped to $67,000 as a wave of leverage was forced out of the crypto market all at once. #bitcoin"
+    "That is $250,000,000 wiped out in 10 minutes. Bitcoin dropped to $67,000 as a wave of leverage was forced out of the crypto market all at once. #bitcoin",
+    "Democratic control of Congress and leadership turmoil at Nvidia ($NVDA) could push AI demand away from a single chip giant and toward rival semiconductor makers and rival Big Tech stocks, according to ETF experts."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
