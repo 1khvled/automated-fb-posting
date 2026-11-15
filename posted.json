@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "15614a6abe13864d",
-    "fb_id": "1264009986803820_122133413349472689",
-    "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-    "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
-    "mode": "serious",
-    "at": "2026-11-14T17:11:20.091303+00:00"
+    "hash": "2df95fcea16e4861",
+    "fb_id": "1459315789678333",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Former US Secretary of State Antony Blinken says the only way to defeat Iran is a ground invasion, but even that would be a disaster for the US: \"Iran is four times the size of Califo...",
+    "link": "https://x.com/Megatron_ron/status/2121630622913278155",
+    "mode": "viral",
+    "kind": "video",
+    "at": "2026-11-15T01:17:34.140408+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -82,6 +83,7 @@
     "2d3d5b5f61623900",
     "2d63a9f4c47e07bc",
     "2d8bf0d617a8cbae",
+    "2df95fcea16e4861",
     "2e7c0cca6e311970",
     "2f44d6251f2dd01c",
     "2f82b7d57908eb27",
@@ -396,12 +398,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-12": 3,
     "2026-11-13": 3,
-    "2026-11-14": 3
+    "2026-11-14": 3,
+    "2026-11-15": 1
   },
   "recent_titles": [
-    "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
     "\ud83c\udde7\ud83c\uddf7 UPDATE: Brazilian crypto exchange Mercado Bitcoin plans to resume fiat deposits and withdrawals via Pix next week following a $49 million hack, while crypto transfers remain suspended.",
     "Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer custo...",
     "GOLD EDGES HIGHER AS TRADERS ASSESS US INFLATION AND FED REMARKS Gold prices edged higher by as much as 0.8% to above $4,050 an ounce in Asian trading, recovering part of the previous session\u2019s 2.6...",
@@ -415,20 +416,10 @@
     "Investors buying the dip in US equity ETFs at an unprecedented pace: The S&P 500 ETF, $VOO, attracted +$16.9 billion in inflows over 5 trading days ending November 10th, the most among major US equ...",
     "\u8bd5\u4e86\u8bd5Gemini 4 hydrogen\u63a7\u5236\u6765\u505a\u89c6\u9891\uff0c\u901f\u5ea6\u660e\u663e\u8981\u6bd4carbon\u548cargon\u5feb\u7684\u591a\u3002 \u4f46\u662f\u5b83\u7684\u7406\u89e3\u529b\u7565\u5dee\u4e00\u70b9\uff0c\u51fa\u6765\u540e\u8fd8\u9700\u8981\u8c03\u6574\uff0c\u5982\u679c\u662fhydrogen \u2795carbon\u6216\u8005\u2795argon\u7ec4\u5408\u4f1a\u597d\u5f88\u591a\u3002 \u4e3a\u4ec0\u4e48\u6211\u9875\u9762\u5230\u73b0\u5728\u90fd\u6ca1\u51fa\u73b0\u7ec4\u5408\u7684\u9009\u62e9\u5462\uff1f\ud83d\udc40\ud83d\udc40",
     "JUST IN: Bitcoin crashes to $67,000 as $250,000,000 is liquidated from the crypto market in 10 minutes.",
-    "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts"
+    "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Former US Secretary of State Antony Blinken says the only way to defeat Iran is a ground invasion, but even that would be a disaster for the US: \"Iran is four times the size of Califo..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122129522775472689",
-      "topics": [
-        "ai",
-        "gold_oil",
-        "power"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-10-30T19:26:04.397936+00:00"
-    },
     {
       "fb_id": "1264009986803820_122129561205472689",
       "topics": [
@@ -868,6 +859,14 @@
       "mode": "serious",
       "photo": "og:image",
       "at": "2026-11-14T17:11:20.091303+00:00"
+    },
+    {
+      "fb_id": "1459315789678333",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "at": "2026-11-15T01:17:34.140408+00:00"
     }
   ],
   "tuner": {
@@ -909,10 +908,10 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-14"
+    "updated": "2026-11-15"
   },
   "comment_review": {
-    "posts": 7,
+    "posts": 8,
     "comments": 0,
     "likes": 0,
     "questions": 0,
@@ -921,30 +920,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-11-14"
+    "updated": "2026-11-15"
   },
-  "last_video_post": "2026-11-14",
+  "last_video_post": "2026-11-15",
   "recent_fps": [
-    {
-      "fp": [
-        "$129",
-        "AI",
-        "CEO",
-        "brit",
-        "british",
-        "guy",
-        "haaretz",
-        "hazan",
-        "israelis",
-        "jacob",
-        "sharon",
-        "sheetrit",
-        "soall",
-        "spanish",
-        "two"
-      ],
-      "at": "2026-11-08T03:17:26.413508+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1183,6 +1162,26 @@
         "tech"
       ],
       "at": "2026-11-14T17:11:20.091292+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "US",
+        "antony",
+        "blinken",
+        "califo",
+        "california",
+        "former",
+        "hormuz",
+        "iran",
+        "iraq",
+        "secretary",
+        "state",
+        "strait",
+        "that"
+      ],
+      "at": "2026-11-15T01:17:34.140401+00:00"
     }
   ],
   "recent_hooks": [
