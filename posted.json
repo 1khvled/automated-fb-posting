@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "6a3b1edcf726b506",
-    "fb_id": "1264009986803820_122133804777472689",
-    "title": "BREAKING: US stock market futures rise on reports that Jensen Huang is considering a comeback to Nvidia, $NVDA: 1. S&P 500: +0.3% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.2% 4. WTI Crude: -0.5% All ey...",
-    "link": "https://x.com/KobeissiLetter/status/2122103157425869309",
+    "hash": "430c9c9eb2154cf1",
+    "fb_id": "1264009986803820_122133931047472689",
+    "title": "Weekly Recap: 1) Nvidia CEO Jensen Huang resigns after having 3 reported affairs. 2) Billionaire shareholder Leo KoGuan says he will not invest more money in Nvidia without Jensen Huang. 3) Elon Mu...",
+    "link": "https://x.com/WatcherGuru/status/2122088800264626645",
     "mode": "viral",
-    "at": "2026-11-16T06:46:04.652643+00:00"
+    "at": "2026-11-16T16:38:39.274605+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -109,6 +109,7 @@
     "3eb4a262e3a6a366",
     "3f3e1f89fe443bb2",
     "401104f0174f507a",
+    "430c9c9eb2154cf1",
     "45f2f7f4666dbaa1",
     "4987c4f1f6f22605",
     "49a324739eb6e6c5",
@@ -403,10 +404,9 @@
   "day_counts": {
     "2026-11-14": 3,
     "2026-11-15": 3,
-    "2026-11-16": 2
+    "2026-11-16": 3
   },
   "recent_titles": [
-    "Palantir CEO Alex Karp is signaling a shift toward Democrats following their midterm victories, criticizing Trump's immigration crackdown and Republicans' approach to economic justice. Despite secu...",
     "For the first time, AI has mathematically proven @signalapp\u2019s protocol is secure down to the code level. Using our breakthrough AlphaProof Code framework, we verified the messaging app\u2019s cryptograp...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Commerce Secretary Lutnick reportedly stalled President Trump's efforts to restrict Nvidia $NVDA chip exports to China over fears it would start a trade war.",
     "JUST IN: Binance says it has now covered 100% of losses from the $6.3 billion crypto hack by North Korea.",
@@ -420,18 +420,10 @@
     "\ud83d\udd25 NEW: Tom Lee blames the crypto dump on Nvidia margin calls, pre-Anthropic IPO selling, released hack funds, AI fear and US chip-export scrutiny. His verdict is that this is a supercycle and the h...",
     "JUST IN: $230,000,000,000 wiped out from the crypto market cap in the past 24 hours. $BTC crashed 6.74% $ETH crashed 9.36% $BNB crashed 9.34% $XRP crashed 10.92% $SOL crashed 11.79%",
     "Japanese GDP Deflator Prelim YoY Actual 2.4% (Forecast 2.7%, Previous 2.6%)",
-    "BREAKING: US stock market futures rise on reports that Jensen Huang is considering a comeback to Nvidia, $NVDA: 1. S&P 500: +0.3% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.2% 4. WTI Crude: -0.5% All ey..."
+    "BREAKING: US stock market futures rise on reports that Jensen Huang is considering a comeback to Nvidia, $NVDA: 1. S&P 500: +0.3% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.2% 4. WTI Crude: -0.5% All ey...",
+    "Weekly Recap: 1) Nvidia CEO Jensen Huang resigns after having 3 reported affairs. 2) Billionaire shareholder Leo KoGuan says he will not invest more money in Nvidia without Jensen Huang. 3) Elon Mu..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122129787681472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-10-31T18:55:28.623490+00:00"
-    },
     {
       "fb_id": "1264009986803820_122129816187472689",
       "topics": [
@@ -873,6 +865,17 @@
       "mode": "viral",
       "photo": "split:face+logo",
       "at": "2026-11-16T06:46:04.652643+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122133931047472689",
+      "topics": [
+        "ai",
+        "crypto",
+        "fed"
+      ],
+      "mode": "viral",
+      "photo": "split:face+logo",
+      "at": "2026-11-16T16:38:39.274605+00:00"
     }
   ],
   "tuner": {
@@ -930,14 +933,6 @@
   },
   "last_video_post": "2026-11-15",
   "recent_fps": [
-    {
-      "fp": [
-        "iran",
-        "tehran",
-        "trump"
-      ],
-      "at": "2026-11-10T07:45:15.090435+00:00"
-    },
     {
       "fp": [
         "$49",
@@ -1195,10 +1190,26 @@
         "nvidia"
       ],
       "at": "2026-11-16T06:46:04.652635+00:00"
+    },
+    {
+      "fp": [
+        "CEO",
+        "CZ",
+        "billionaire",
+        "elon",
+        "huang",
+        "jensen",
+        "leo",
+        "musk",
+        "nvidia",
+        "recap",
+        "two",
+        "weekly"
+      ],
+      "at": "2026-11-16T16:38:39.274595+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83c\udde7\ud83c\uddf7\ud83d\udcb0 $49M HACK forces Mercado Bitcoin to pause crypto transfers; fiat via Pix returns next week.",
     "JUST IN: \ud83d\udea8 GOLD bounces back after yesterday's 2.6% drop.",
     "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
     "Palantir Technologies ($PLTR) CEO Alex Karp says Democrats have corrected course enough to potentially earn his support in 2028, despite the firm securing billions in federal contracts under President Trump. The lifelong Democrat praised the party's recent midterm victories while openly criticizing Trump's immigration crackdown and the Republican approach to economic justice.",
@@ -1212,7 +1223,8 @@
     "Tom Lee is blaming the recent crypto dump on a pileup of temporary pressure: Nvidia ($NVDA) margin calls, pre-Anthropic IPO selling, released hack funds, broader AI fear, and US chip-export scrutiny. His take is that the underlying SUPERCYCLE remains intact and these headwinds will pass.",
     "$230,000,000,000 left the crypto market cap in a single 24-hour drop.",
     "2.4% is the number to watch in Japan's prelim GDP deflator year-over-year. Markets expected 2.7%, down from the previous 2.6% reading, but the actual print missed both. Domestic inflation pressure isn't building quite as fast as the consensus laid out.",
-    "Futures are pricing tech optimism ahead of Nvidia ($NVDA) earnings and the Anthropic IPO, with Nasdaq 100 futures up 0.7% while the S&P 500 gains 0.3% and the Dow Jones ticks up 0.2%. Market focus remains squarely on the major tech events setting the tone for the week."
+    "Futures are pricing tech optimism ahead of Nvidia ($NVDA) earnings and the Anthropic IPO, with Nasdaq 100 futures up 0.7% while the S&P 500 gains 0.3% and the Dow Jones ticks up 0.2%. Market focus remains squarely on the major tech events setting the tone for the week.",
+    "Leo KoGuan is freezing further investment, Elon Musk is offering to hire him, and 150k people have signed a petition to bring him back. The market is realizing that Nvidia Corporation ($NVDA) without Jensen Huang is a fundamentally different risk profile."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
