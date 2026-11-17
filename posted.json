@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "6cb2f9480fe62c59",
-    "fb_id": "1264009986803820_122134110429472689",
-    "title": "Strive acquired 251 $BTC for $17.5M at an average cost of $69,853 per bitcoin, bringing total holdings to \u20bf43,404. - $10M raised through the $SATS ATM - Current preferred dividend coverage: 133 mon...",
-    "link": "https://x.com/ColeMacro/status/2122314310127079639",
+    "hash": "bfe298764d6ebf71",
+    "fb_id": "1264009986803820_122134213809472689",
+    "title": "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\udde9\ud83c\uddea A massive leak of 15 million Deutsche Bank records exposes undisclosed financial dealings involving Jeffrey Epstein, Donald Trump and wealthy Russian clients, including $582 million ...",
+    "link": "https://x.com/Megatron_ron/status/2122715193109090401",
     "mode": "viral",
-    "at": "2026-11-17T08:30:59.494042+00:00"
+    "at": "2026-11-17T17:53:02.864968+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -301,6 +301,7 @@
     "bbec67196eba705d",
     "bd9cd56d67ce51f1",
     "beda8733ff194127",
+    "bfe298764d6ebf71",
     "c0ca1e4fb69f6ec7",
     "c21ee7f63450eaef",
     "c251468873bbe41c",
@@ -406,10 +407,9 @@
   "day_counts": {
     "2026-11-15": 3,
     "2026-11-16": 3,
-    "2026-11-17": 2
+    "2026-11-17": 3
   },
   "recent_titles": [
-    "JUST IN: Binance says it has now covered 100% of losses from the $6.3 billion crypto hack by North Korea.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 A trust linked to Congressman Ro Khanna's wife sold Nvidia's stock near its peak, weeks before reports of Jensen Huang's affair with a Chinese spy became public. $NVDA stock has crashed...",
     "BREAKING: Bitcoin falls below $69,000 and ETH nears $1,900 as selling pressure accelerates in crypto. Crypto markets have now lost -$150 billion in 48 hours.",
     "Investors buying the dip in US equity ETFs at an unprecedented pace: The S&P 500 ETF, $VOO, attracted +$16.9 billion in inflows over 5 trading days ending November 10th, the most among major US equ...",
@@ -423,18 +423,10 @@
     "BREAKING: US stock market futures rise on reports that Jensen Huang is considering a comeback to Nvidia, $NVDA: 1. S&P 500: +0.3% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.2% 4. WTI Crude: -0.5% All ey...",
     "Weekly Recap: 1) Nvidia CEO Jensen Huang resigns after having 3 reported affairs. 2) Billionaire shareholder Leo KoGuan says he will not invest more money in Nvidia without Jensen Huang. 3) Elon Mu...",
     "Russia's Foreign Minister Lavrov: People talk about what a brave step Washington took by lifting sanctions on Russian diesel supplies. But when Democrats started asking the Americans why they had e...",
-    "Strive acquired 251 $BTC for $17.5M at an average cost of $69,853 per bitcoin, bringing total holdings to \u20bf43,404. - $10M raised through the $SATS ATM - Current preferred dividend coverage: 133 mon..."
+    "Strive acquired 251 $BTC for $17.5M at an average cost of $69,853 per bitcoin, bringing total holdings to \u20bf43,404. - $10M raised through the $SATS ATM - Current preferred dividend coverage: 133 mon...",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\udde9\ud83c\uddea A massive leak of 15 million Deutsche Bank records exposes undisclosed financial dealings involving Jeffrey Epstein, Donald Trump and wealthy Russian clients, including $582 million ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122129913615472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "split:face+logo",
-      "at": "2026-11-01T07:37:41.467623+00:00"
-    },
     {
       "fb_id": "1264009986803820_122130004893472689",
       "topics": [],
@@ -878,6 +870,15 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-17T08:30:59.494042+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122134213809472689",
+      "topics": [
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-17T17:53:02.864968+00:00"
     }
   ],
   "tuner": {
@@ -935,26 +936,6 @@
   },
   "last_video_post": "2026-11-17",
   "recent_fps": [
-    {
-      "fp": [
-        "$4,050",
-        "AND",
-        "AS",
-        "ASSE",
-        "EDGE",
-        "FED",
-        "GOLD",
-        "HIGHER",
-        "US",
-        "asian",
-        "december",
-        "federal",
-        "gold",
-        "reserve",
-        "trade"
-      ],
-      "at": "2026-11-11T08:21:07.551575+00:00"
-    },
     {
       "fp": [
         "AND",
@@ -1220,10 +1201,23 @@
         "strive"
       ],
       "at": "2026-11-17T08:30:59.494031+00:00"
+    },
+    {
+      "fp": [
+        "$581.9",
+        "$582",
+        "bank",
+        "deutsche",
+        "donald",
+        "epstein",
+        "jeffrey",
+        "russian",
+        "trump"
+      ],
+      "at": "2026-11-17T17:53:02.864954+00:00"
     }
   ],
   "recent_hooks": [
-    "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
     "Palantir Technologies ($PLTR) CEO Alex Karp says Democrats have corrected course enough to potentially earn his support in 2028, despite the firm securing billions in federal contracts under President Trump. The lifelong Democrat praised the party's recent midterm victories while openly criticizing Trump's immigration crackdown and the Republican approach to economic justice.",
     "Commerce Secretary Lutnick reportedly stepped in to stall President Trump's plans to tighten export limits on Nvidia ($NVDA) chips to China, framing the restriction as a trigger for an immediate trade war.",
     "Binance has fully absorbed 100% of the losses from that $6.3 billion North Korean crypto hack.",
@@ -1237,7 +1231,8 @@
     "2.4% is the number to watch in Japan's prelim GDP deflator year-over-year. Markets expected 2.7%, down from the previous 2.6% reading, but the actual print missed both. Domestic inflation pressure isn't building quite as fast as the consensus laid out.",
     "Futures are pricing tech optimism ahead of Nvidia ($NVDA) earnings and the Anthropic IPO, with Nasdaq 100 futures up 0.7% while the S&P 500 gains 0.3% and the Dow Jones ticks up 0.2%. Market focus remains squarely on the major tech events setting the tone for the week.",
     "Leo KoGuan is freezing further investment, Elon Musk is offering to hire him, and 150k people have signed a petition to bring him back. The market is realizing that Nvidia Corporation ($NVDA) without Jensen Huang is a fundamentally different risk profile.",
-    "251 BTC bought for $17.5M, averaging $69,853 per coin, bumps Strive\u2019s holdings to 43,404 BTC. The $10M raised through the $SATS ATM gives a liquidity cushion. Preferred dividend coverage now 133 months, a long runway. Amplification ratio at 76% $ASST $Strive, Inc. ($SATA) $SATS signals leveraged exposure."
+    "251 BTC bought for $17.5M, averaging $69,853 per coin, bumps Strive\u2019s holdings to 43,404 BTC. The $10M raised through the $SATS ATM gives a liquidity cushion. Preferred dividend coverage now 133 months, a long runway. Amplification ratio at 76% $ASST $Strive, Inc. ($SATA) $SATS signals leveraged exposure.",
+    "15 million records from Deutsche Bank ($DB) allegedly leak, exposing 3,000 transactions and roughly $582 million in suspicious payments linked to Jeffrey Epstein, alongside undisclosed financial dealings with Donald Trump and wealthy Russian clients."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
