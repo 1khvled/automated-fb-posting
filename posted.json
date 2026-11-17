@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "430c9c9eb2154cf1",
-    "fb_id": "1264009986803820_122133931047472689",
-    "title": "Weekly Recap: 1) Nvidia CEO Jensen Huang resigns after having 3 reported affairs. 2) Billionaire shareholder Leo KoGuan says he will not invest more money in Nvidia without Jensen Huang. 3) Elon Mu...",
-    "link": "https://x.com/WatcherGuru/status/2122088800264626645",
-    "mode": "viral",
-    "at": "2026-11-16T16:38:39.274605+00:00"
+    "hash": "43670f47463cdacf",
+    "fb_id": "1453422764523661",
+    "title": "Russia's Foreign Minister Lavrov: People talk about what a brave step Washington took by lifting sanctions on Russian diesel supplies. But when Democrats started asking the Americans why they had e...",
+    "link": "https://x.com/clashreport/status/2122466620773679317",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-11-17T00:28:49.003240+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -110,6 +111,7 @@
     "3f3e1f89fe443bb2",
     "401104f0174f507a",
     "430c9c9eb2154cf1",
+    "43670f47463cdacf",
     "45f2f7f4666dbaa1",
     "4987c4f1f6f22605",
     "49a324739eb6e6c5",
@@ -402,12 +404,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-14": 3,
     "2026-11-15": 3,
-    "2026-11-16": 3
+    "2026-11-16": 3,
+    "2026-11-17": 1
   },
   "recent_titles": [
-    "For the first time, AI has mathematically proven @signalapp\u2019s protocol is secure down to the code level. Using our breakthrough AlphaProof Code framework, we verified the messaging app\u2019s cryptograp...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Commerce Secretary Lutnick reportedly stalled President Trump's efforts to restrict Nvidia $NVDA chip exports to China over fears it would start a trade war.",
     "JUST IN: Binance says it has now covered 100% of losses from the $6.3 billion crypto hack by North Korea.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 A trust linked to Congressman Ro Khanna's wife sold Nvidia's stock near its peak, weeks before reports of Jensen Huang's affair with a Chinese spy became public. $NVDA stock has crashed...",
@@ -421,18 +422,10 @@
     "JUST IN: $230,000,000,000 wiped out from the crypto market cap in the past 24 hours. $BTC crashed 6.74% $ETH crashed 9.36% $BNB crashed 9.34% $XRP crashed 10.92% $SOL crashed 11.79%",
     "Japanese GDP Deflator Prelim YoY Actual 2.4% (Forecast 2.7%, Previous 2.6%)",
     "BREAKING: US stock market futures rise on reports that Jensen Huang is considering a comeback to Nvidia, $NVDA: 1. S&P 500: +0.3% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.2% 4. WTI Crude: -0.5% All ey...",
-    "Weekly Recap: 1) Nvidia CEO Jensen Huang resigns after having 3 reported affairs. 2) Billionaire shareholder Leo KoGuan says he will not invest more money in Nvidia without Jensen Huang. 3) Elon Mu..."
+    "Weekly Recap: 1) Nvidia CEO Jensen Huang resigns after having 3 reported affairs. 2) Billionaire shareholder Leo KoGuan says he will not invest more money in Nvidia without Jensen Huang. 3) Elon Mu...",
+    "Russia's Foreign Minister Lavrov: People talk about what a brave step Washington took by lifting sanctions on Russian diesel supplies. But when Democrats started asking the Americans why they had e..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122129816187472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-10-31T22:03:43.337354+00:00"
-    },
     {
       "fb_id": "1120904477532461",
       "topics": [
@@ -876,6 +869,14 @@
       "mode": "viral",
       "photo": "split:face+logo",
       "at": "2026-11-16T16:38:39.274605+00:00"
+    },
+    {
+      "fb_id": "1453422764523661",
+      "topics": [
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-11-17T00:28:49.003240+00:00"
     }
   ],
   "tuner": {
@@ -917,7 +918,7 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-16"
+    "updated": "2026-11-17"
   },
   "comment_review": {
     "posts": 8,
@@ -929,21 +930,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-11-16"
+    "updated": "2026-11-17"
   },
-  "last_video_post": "2026-11-15",
+  "last_video_post": "2026-11-17",
   "recent_fps": [
-    {
-      "fp": [
-        "$49",
-        "UPDATE",
-        "bitcoin",
-        "brazilian",
-        "mercado",
-        "pix"
-      ],
-      "at": "2026-11-10T21:40:02.517340+00:00"
-    },
     {
       "fp": [
         "agent",
@@ -1207,6 +1197,23 @@
         "weekly"
       ],
       "at": "2026-11-16T16:38:39.274595+00:00"
+    },
+    {
+      "fp": [
+        "americans",
+        "but",
+        "democrats",
+        "foreign",
+        "lavrov",
+        "minister",
+        "people",
+        "russia",
+        "russian",
+        "they",
+        "this",
+        "washington"
+      ],
+      "at": "2026-11-17T00:28:49.003234+00:00"
     }
   ],
   "recent_hooks": [
