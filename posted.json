@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "43670f47463cdacf",
-    "fb_id": "1453422764523661",
-    "title": "Russia's Foreign Minister Lavrov: People talk about what a brave step Washington took by lifting sanctions on Russian diesel supplies. But when Democrats started asking the Americans why they had e...",
-    "link": "https://x.com/clashreport/status/2122466620773679317",
-    "mode": "serious",
-    "kind": "video",
-    "at": "2026-11-17T00:28:49.003240+00:00"
+    "hash": "6cb2f9480fe62c59",
+    "fb_id": "1264009986803820_122134110429472689",
+    "title": "Strive acquired 251 $BTC for $17.5M at an average cost of $69,853 per bitcoin, bringing total holdings to \u20bf43,404. - $10M raised through the $SATS ATM - Current preferred dividend coverage: 133 mon...",
+    "link": "https://x.com/ColeMacro/status/2122314310127079639",
+    "mode": "viral",
+    "at": "2026-11-17T08:30:59.494042+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -167,6 +166,7 @@
     "6a3b1edcf726b506",
     "6a4263d89d1d1a9e",
     "6ca4a493922b82af",
+    "6cb2f9480fe62c59",
     "6cd48926a0ca24f4",
     "6d938cdfc0ac455c",
     "6dfde226099b02e8",
@@ -406,10 +406,9 @@
   "day_counts": {
     "2026-11-15": 3,
     "2026-11-16": 3,
-    "2026-11-17": 1
+    "2026-11-17": 2
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\udde8\ud83c\uddf3 Commerce Secretary Lutnick reportedly stalled President Trump's efforts to restrict Nvidia $NVDA chip exports to China over fears it would start a trade war.",
     "JUST IN: Binance says it has now covered 100% of losses from the $6.3 billion crypto hack by North Korea.",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 A trust linked to Congressman Ro Khanna's wife sold Nvidia's stock near its peak, weeks before reports of Jensen Huang's affair with a Chinese spy became public. $NVDA stock has crashed...",
     "BREAKING: Bitcoin falls below $69,000 and ETH nears $1,900 as selling pressure accelerates in crypto. Crypto markets have now lost -$150 billion in 48 hours.",
@@ -423,17 +422,10 @@
     "Japanese GDP Deflator Prelim YoY Actual 2.4% (Forecast 2.7%, Previous 2.6%)",
     "BREAKING: US stock market futures rise on reports that Jensen Huang is considering a comeback to Nvidia, $NVDA: 1. S&P 500: +0.3% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.2% 4. WTI Crude: -0.5% All ey...",
     "Weekly Recap: 1) Nvidia CEO Jensen Huang resigns after having 3 reported affairs. 2) Billionaire shareholder Leo KoGuan says he will not invest more money in Nvidia without Jensen Huang. 3) Elon Mu...",
-    "Russia's Foreign Minister Lavrov: People talk about what a brave step Washington took by lifting sanctions on Russian diesel supplies. But when Democrats started asking the Americans why they had e..."
+    "Russia's Foreign Minister Lavrov: People talk about what a brave step Washington took by lifting sanctions on Russian diesel supplies. But when Democrats started asking the Americans why they had e...",
+    "Strive acquired 251 $BTC for $17.5M at an average cost of $69,853 per bitcoin, bringing total holdings to \u20bf43,404. - $10M raised through the $SATS ATM - Current preferred dividend coverage: 133 mon..."
   ],
   "history": [
-    {
-      "fb_id": "1120904477532461",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "at": "2026-11-01T01:13:43.787903+00:00"
-    },
     {
       "fb_id": "1264009986803820_122129913615472689",
       "topics": [
@@ -877,6 +869,15 @@
       ],
       "mode": "serious",
       "at": "2026-11-17T00:28:49.003240+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122134110429472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-17T08:30:59.494042+00:00"
     }
   ],
   "tuner": {
@@ -934,17 +935,6 @@
   },
   "last_video_post": "2026-11-17",
   "recent_fps": [
-    {
-      "fp": [
-        "agent",
-        "business",
-        "businesses",
-        "claim",
-        "eligible",
-        "now"
-      ],
-      "at": "2026-11-11T01:29:38.866264+00:00"
-    },
     {
       "fp": [
         "$4,050",
@@ -1214,10 +1204,25 @@
         "washington"
       ],
       "at": "2026-11-17T00:28:49.003234+00:00"
+    },
+    {
+      "fp": [
+        "$10",
+        "$17.5",
+        "$69,853",
+        "ASST",
+        "ATM",
+        "BTC",
+        "SAT",
+        "SATA",
+        "amplification",
+        "current",
+        "strive"
+      ],
+      "at": "2026-11-17T08:30:59.494031+00:00"
     }
   ],
   "recent_hooks": [
-    "JUST IN: \ud83d\udea8 GOLD bounces back after yesterday's 2.6% drop.",
     "Above 80% on Large Specs or below 20% on Commercials flags the extremes. An orange triangle marks the moment the two groups are maximally opposed.",
     "Palantir Technologies ($PLTR) CEO Alex Karp says Democrats have corrected course enough to potentially earn his support in 2028, despite the firm securing billions in federal contracts under President Trump. The lifelong Democrat praised the party's recent midterm victories while openly criticizing Trump's immigration crackdown and the Republican approach to economic justice.",
     "Commerce Secretary Lutnick reportedly stepped in to stall President Trump's plans to tighten export limits on Nvidia ($NVDA) chips to China, framing the restriction as a trigger for an immediate trade war.",
@@ -1231,7 +1236,8 @@
     "$230,000,000,000 left the crypto market cap in a single 24-hour drop.",
     "2.4% is the number to watch in Japan's prelim GDP deflator year-over-year. Markets expected 2.7%, down from the previous 2.6% reading, but the actual print missed both. Domestic inflation pressure isn't building quite as fast as the consensus laid out.",
     "Futures are pricing tech optimism ahead of Nvidia ($NVDA) earnings and the Anthropic IPO, with Nasdaq 100 futures up 0.7% while the S&P 500 gains 0.3% and the Dow Jones ticks up 0.2%. Market focus remains squarely on the major tech events setting the tone for the week.",
-    "Leo KoGuan is freezing further investment, Elon Musk is offering to hire him, and 150k people have signed a petition to bring him back. The market is realizing that Nvidia Corporation ($NVDA) without Jensen Huang is a fundamentally different risk profile."
+    "Leo KoGuan is freezing further investment, Elon Musk is offering to hire him, and 150k people have signed a petition to bring him back. The market is realizing that Nvidia Corporation ($NVDA) without Jensen Huang is a fundamentally different risk profile.",
+    "251 BTC bought for $17.5M, averaging $69,853 per coin, bumps Strive\u2019s holdings to 43,404 BTC. The $10M raised through the $SATS ATM gives a liquidity cushion. Preferred dividend coverage now 133 months, a long runway. Amplification ratio at 76% $ASST $Strive, Inc. ($SATA) $SATS signals leveraged exposure."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
