@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "bfe298764d6ebf71",
-    "fb_id": "1264009986803820_122134213809472689",
-    "title": "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\udde9\ud83c\uddea A massive leak of 15 million Deutsche Bank records exposes undisclosed financial dealings involving Jeffrey Epstein, Donald Trump and wealthy Russian clients, including $582 million ...",
-    "link": "https://x.com/Megatron_ron/status/2122715193109090401",
+    "hash": "1457524b7a0a0de2",
+    "fb_id": "1889416958905725",
+    "title": "Gemini 4 Hydrogen turned Google Sheets into a pixel-art canvas. Using @Antigravity, the model shrank thousands of cells to create animated scenes.",
+    "link": "https://x.com/GoogleDeepMind/status/2122807824531275826",
     "mode": "viral",
-    "at": "2026-11-17T17:53:02.864968+00:00"
+    "kind": "video",
+    "at": "2026-11-18T07:39:06.890330+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -46,6 +47,7 @@
     "11e9a2979f0b49a2",
     "126ff52b33bd93a7",
     "144c14d5e1cf0024",
+    "1457524b7a0a0de2",
     "15614a6abe13864d",
     "163b472205423d09",
     "1816f2bc765abc08",
@@ -405,12 +407,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-15": 3,
     "2026-11-16": 3,
-    "2026-11-17": 3
+    "2026-11-17": 3,
+    "2026-11-18": 1
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 A trust linked to Congressman Ro Khanna's wife sold Nvidia's stock near its peak, weeks before reports of Jensen Huang's affair with a Chinese spy became public. $NVDA stock has crashed...",
     "BREAKING: Bitcoin falls below $69,000 and ETH nears $1,900 as selling pressure accelerates in crypto. Crypto markets have now lost -$150 billion in 48 hours.",
     "Investors buying the dip in US equity ETFs at an unprecedented pace: The S&P 500 ETF, $VOO, attracted +$16.9 billion in inflows over 5 trading days ending November 10th, the most among major US equ...",
     "\u8bd5\u4e86\u8bd5Gemini 4 hydrogen\u63a7\u5236\u6765\u505a\u89c6\u9891\uff0c\u901f\u5ea6\u660e\u663e\u8981\u6bd4carbon\u548cargon\u5feb\u7684\u591a\u3002 \u4f46\u662f\u5b83\u7684\u7406\u89e3\u529b\u7565\u5dee\u4e00\u70b9\uff0c\u51fa\u6765\u540e\u8fd8\u9700\u8981\u8c03\u6574\uff0c\u5982\u679c\u662fhydrogen \u2795carbon\u6216\u8005\u2795argon\u7ec4\u5408\u4f1a\u597d\u5f88\u591a\u3002 \u4e3a\u4ec0\u4e48\u6211\u9875\u9762\u5230\u73b0\u5728\u90fd\u6ca1\u51fa\u73b0\u7ec4\u5408\u7684\u9009\u62e9\u5462\uff1f\ud83d\udc40\ud83d\udc40",
@@ -424,16 +425,10 @@
     "Weekly Recap: 1) Nvidia CEO Jensen Huang resigns after having 3 reported affairs. 2) Billionaire shareholder Leo KoGuan says he will not invest more money in Nvidia without Jensen Huang. 3) Elon Mu...",
     "Russia's Foreign Minister Lavrov: People talk about what a brave step Washington took by lifting sanctions on Russian diesel supplies. But when Democrats started asking the Americans why they had e...",
     "Strive acquired 251 $BTC for $17.5M at an average cost of $69,853 per bitcoin, bringing total holdings to \u20bf43,404. - $10M raised through the $SATS ATM - Current preferred dividend coverage: 133 mon...",
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\udde9\ud83c\uddea A massive leak of 15 million Deutsche Bank records exposes undisclosed financial dealings involving Jeffrey Epstein, Donald Trump and wealthy Russian clients, including $582 million ..."
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\udde9\ud83c\uddea A massive leak of 15 million Deutsche Bank records exposes undisclosed financial dealings involving Jeffrey Epstein, Donald Trump and wealthy Russian clients, including $582 million ...",
+    "Gemini 4 Hydrogen turned Google Sheets into a pixel-art canvas. Using @Antigravity, the model shrank thousands of cells to create animated scenes."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122130004893472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-11-01T14:30:00.567965+00:00"
-    },
     {
       "fb_id": "1264009986803820_122130056529472689",
       "topics": [
@@ -879,6 +874,14 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-17T17:53:02.864968+00:00"
+    },
+    {
+      "fb_id": "1889416958905725",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-11-18T07:39:06.890330+00:00"
     }
   ],
   "tuner": {
@@ -934,27 +937,8 @@
     "sample_questions": [],
     "updated": "2026-11-18"
   },
-  "last_video_post": "2026-11-17",
+  "last_video_post": "2026-11-18",
   "recent_fps": [
-    {
-      "fp": [
-        "AND",
-        "COT",
-        "FROM",
-        "INDEX",
-        "IS",
-        "ONE",
-        "START",
-        "THE",
-        "TOP",
-        "WHERE",
-        "above",
-        "commercials",
-        "large",
-        "specs"
-      ],
-      "at": "2026-11-11T12:38:06.747003+00:00"
-    },
     {
       "fp": [
         "CEO",
@@ -1215,6 +1199,17 @@
         "trump"
       ],
       "at": "2026-11-17T17:53:02.864954+00:00"
+    },
+    {
+      "fp": [
+        "antigravity",
+        "gemini",
+        "google",
+        "hydrogen",
+        "sheets",
+        "using"
+      ],
+      "at": "2026-11-18T07:39:06.890320+00:00"
     }
   ],
   "recent_hooks": [
