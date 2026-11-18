@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "1457524b7a0a0de2",
-    "fb_id": "1889416958905725",
-    "title": "Gemini 4 Hydrogen turned Google Sheets into a pixel-art canvas. Using @Antigravity, the model shrank thousands of cells to create animated scenes.",
-    "link": "https://x.com/GoogleDeepMind/status/2122807824531275826",
+    "hash": "a8ae88d860a8b3b1",
+    "fb_id": "1264009986803820_122134526691472689",
+    "title": "BREAKING: Anthropic, $ANT, has priced its IPO at $83 per share, above its marketed range of $70 to $78, per Bloomberg. The company is now expected to raise at least $68 billion through its IPO, plu...",
+    "link": "https://x.com/KobeissiLetter/status/2123168870429274123",
     "mode": "viral",
-    "kind": "video",
-    "at": "2026-11-18T07:39:06.890330+00:00"
+    "at": "2026-11-18T23:16:32.814858+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -269,6 +268,7 @@
     "a83369515499ec81",
     "a8634920831743ef",
     "a8a13158b3e1c008",
+    "a8ae88d860a8b3b1",
     "a92c121ccab46909",
     "a9d96bf57d206353",
     "a9eab993ee21cbc4",
@@ -409,10 +409,9 @@
   "day_counts": {
     "2026-11-16": 3,
     "2026-11-17": 3,
-    "2026-11-18": 1
+    "2026-11-18": 2
   },
   "recent_titles": [
-    "BREAKING: Bitcoin falls below $69,000 and ETH nears $1,900 as selling pressure accelerates in crypto. Crypto markets have now lost -$150 billion in 48 hours.",
     "Investors buying the dip in US equity ETFs at an unprecedented pace: The S&P 500 ETF, $VOO, attracted +$16.9 billion in inflows over 5 trading days ending November 10th, the most among major US equ...",
     "\u8bd5\u4e86\u8bd5Gemini 4 hydrogen\u63a7\u5236\u6765\u505a\u89c6\u9891\uff0c\u901f\u5ea6\u660e\u663e\u8981\u6bd4carbon\u548cargon\u5feb\u7684\u591a\u3002 \u4f46\u662f\u5b83\u7684\u7406\u89e3\u529b\u7565\u5dee\u4e00\u70b9\uff0c\u51fa\u6765\u540e\u8fd8\u9700\u8981\u8c03\u6574\uff0c\u5982\u679c\u662fhydrogen \u2795carbon\u6216\u8005\u2795argon\u7ec4\u5408\u4f1a\u597d\u5f88\u591a\u3002 \u4e3a\u4ec0\u4e48\u6211\u9875\u9762\u5230\u73b0\u5728\u90fd\u6ca1\u51fa\u73b0\u7ec4\u5408\u7684\u9009\u62e9\u5462\uff1f\ud83d\udc40\ud83d\udc40",
     "JUST IN: Bitcoin crashes to $67,000 as $250,000,000 is liquidated from the crypto market in 10 minutes.",
@@ -426,19 +425,10 @@
     "Russia's Foreign Minister Lavrov: People talk about what a brave step Washington took by lifting sanctions on Russian diesel supplies. But when Democrats started asking the Americans why they had e...",
     "Strive acquired 251 $BTC for $17.5M at an average cost of $69,853 per bitcoin, bringing total holdings to \u20bf43,404. - $10M raised through the $SATS ATM - Current preferred dividend coverage: 133 mon...",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\udde9\ud83c\uddea A massive leak of 15 million Deutsche Bank records exposes undisclosed financial dealings involving Jeffrey Epstein, Donald Trump and wealthy Russian clients, including $582 million ...",
-    "Gemini 4 Hydrogen turned Google Sheets into a pixel-art canvas. Using @Antigravity, the model shrank thousands of cells to create animated scenes."
+    "Gemini 4 Hydrogen turned Google Sheets into a pixel-art canvas. Using @Antigravity, the model shrank thousands of cells to create animated scenes.",
+    "BREAKING: Anthropic, $ANT, has priced its IPO at $83 per share, above its marketed range of $70 to $78, per Bloomberg. The company is now expected to raise at least $68 billion through its IPO, plu..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122130056529472689",
-      "topics": [
-        "crypto",
-        "gold_oil"
-      ],
-      "mode": "serious",
-      "photo": "source",
-      "at": "2026-11-01T19:11:31.059043+00:00"
-    },
     {
       "fb_id": "1264009986803820_122130086703472689",
       "topics": [
@@ -882,6 +872,16 @@
       ],
       "mode": "viral",
       "at": "2026-11-18T07:39:06.890330+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122134526691472689",
+      "topics": [
+        "ai",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-11-18T23:16:32.814858+00:00"
     }
   ],
   "tuner": {
@@ -939,20 +939,6 @@
   },
   "last_video_post": "2026-11-18",
   "recent_fps": [
-    {
-      "fp": [
-        "CEO",
-        "alex",
-        "democrat",
-        "democrats",
-        "despite",
-        "karp",
-        "palantir",
-        "republicans",
-        "trump"
-      ],
-      "at": "2026-11-11T13:42:11.635084+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1210,10 +1196,27 @@
         "using"
       ],
       "at": "2026-11-18T07:39:06.890320+00:00"
+    },
+    {
+      "fp": [
+        "$26",
+        "$68",
+        "$70",
+        "$78,",
+        "$83",
+        "$86.2",
+        "$94",
+        "ANT",
+        "IPO",
+        "anthropic",
+        "bloomberg",
+        "june",
+        "this"
+      ],
+      "at": "2026-11-18T23:16:32.814846+00:00"
     }
   ],
   "recent_hooks": [
-    "Palantir Technologies ($PLTR) CEO Alex Karp says Democrats have corrected course enough to potentially earn his support in 2028, despite the firm securing billions in federal contracts under President Trump. The lifelong Democrat praised the party's recent midterm victories while openly criticizing Trump's immigration crackdown and the Republican approach to economic justice.",
     "Commerce Secretary Lutnick reportedly stepped in to stall President Trump's plans to tighten export limits on Nvidia ($NVDA) chips to China, framing the restriction as a trigger for an immediate trade war.",
     "Binance has fully absorbed 100% of the losses from that $6.3 billion North Korean crypto hack.",
     "A trust linked to Congressman Ro Khanna's wife unloaded Nvidia ($NVDA) right at the top, just weeks before reports hit about Jensen Huang's affair with a Chinese spy. The stock is down 30% since those sales. Timing like that is why people watch congressional disclosures far more closely than earnings calls.",
@@ -1227,7 +1230,8 @@
     "Futures are pricing tech optimism ahead of Nvidia ($NVDA) earnings and the Anthropic IPO, with Nasdaq 100 futures up 0.7% while the S&P 500 gains 0.3% and the Dow Jones ticks up 0.2%. Market focus remains squarely on the major tech events setting the tone for the week.",
     "Leo KoGuan is freezing further investment, Elon Musk is offering to hire him, and 150k people have signed a petition to bring him back. The market is realizing that Nvidia Corporation ($NVDA) without Jensen Huang is a fundamentally different risk profile.",
     "251 BTC bought for $17.5M, averaging $69,853 per coin, bumps Strive\u2019s holdings to 43,404 BTC. The $10M raised through the $SATS ATM gives a liquidity cushion. Preferred dividend coverage now 133 months, a long runway. Amplification ratio at 76% $ASST $Strive, Inc. ($SATA) $SATS signals leveraged exposure.",
-    "15 million records from Deutsche Bank ($DB) allegedly leak, exposing 3,000 transactions and roughly $582 million in suspicious payments linked to Jeffrey Epstein, alongside undisclosed financial dealings with Donald Trump and wealthy Russian clients."
+    "15 million records from Deutsche Bank ($DB) allegedly leak, exposing 3,000 transactions and roughly $582 million in suspicious payments linked to Jeffrey Epstein, alongside undisclosed financial dealings with Donald Trump and wealthy Russian clients.",
+    "Anthropic ($ANT) just priced its IPO at $83 per share, blowing past its initial $70 to $78 marketed range."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
