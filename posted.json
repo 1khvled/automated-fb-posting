@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "6aa85cf0ddaad6bb",
-    "fb_id": "1051481341310286",
-    "title": "Putin: The Crimean Bridge is an exclusively civilian facility. It has long ceased to be used for transporting oil and ammunition. We didn't even transport oil using that bridge. It was a purely civ...",
-    "link": "https://x.com/clashreport/status/2123391819845341581",
-    "mode": "serious",
-    "kind": "video",
-    "at": "2026-11-19T13:11:46.647976+00:00"
+    "hash": "c8917e872d1192df",
+    "fb_id": "1264009986803820_122134753305472689",
+    "title": "BREAKING: The S&P 500 closes down for the 6th-straight day, now down -$6 trillion since the October 6th high. The Nasdaq 100 is now down -15% from its record high.",
+    "link": "https://x.com/KobeissiLetter/status/2123521706731897192",
+    "mode": "viral",
+    "at": "2026-11-19T21:37:33.140533+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -318,6 +317,7 @@
     "c6f3775320d53040",
     "c73548ce6a5da906",
     "c8831ff911363d0b",
+    "c8917e872d1192df",
     "c93215bad5ea439f",
     "caaa474efee786f4",
     "ccbe6f2f8f52fbb8",
@@ -412,10 +412,9 @@
   "day_counts": {
     "2026-11-17": 3,
     "2026-11-18": 2,
-    "2026-11-19": 2
+    "2026-11-19": 3
   },
   "recent_titles": [
-    "JUST IN: Bitcoin crashes to $67,000 as $250,000,000 is liquidated from the crypto market in 10 minutes.",
     "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Former US Secretary of State Antony Blinken says the only way to defeat Iran is a ground invasion, but even that would be a disaster for the US: \"Iran is four times the size of Califo...",
     "\ud83d\udd25 NEW: Tom Lee blames the crypto dump on Nvidia margin calls, pre-Anthropic IPO selling, released hack funds, AI fear and US chip-export scrutiny. His verdict is that this is a supercycle and the h...",
@@ -429,19 +428,10 @@
     "Gemini 4 Hydrogen turned Google Sheets into a pixel-art canvas. Using @Antigravity, the model shrank thousands of cells to create animated scenes.",
     "BREAKING: Anthropic, $ANT, has priced its IPO at $83 per share, above its marketed range of $70 to $78, per Bloomberg. The company is now expected to raise at least $68 billion through its IPO, plu...",
     "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
-    "Putin: The Crimean Bridge is an exclusively civilian facility. It has long ceased to be used for transporting oil and ammunition. We didn't even transport oil using that bridge. It was a purely civ..."
+    "Putin: The Crimean Bridge is an exclusively civilian facility. It has long ceased to be used for transporting oil and ammunition. We didn't even transport oil using that bridge. It was a purely civ...",
+    "BREAKING: The S&P 500 closes down for the 6th-straight day, now down -$6 trillion since the October 6th high. The Nasdaq 100 is now down -15% from its record high."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122130188373472689",
-      "topics": [
-        "crypto",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "source",
-      "at": "2026-11-02T08:53:17.060036+00:00"
-    },
     {
       "fb_id": "1264009986803820_122130298881472689",
       "topics": [],
@@ -886,6 +876,15 @@
       ],
       "mode": "serious",
       "at": "2026-11-19T13:11:46.647976+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122134753305472689",
+      "topics": [
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-19T21:37:33.140533+00:00"
     }
   ],
   "tuner": {
@@ -943,17 +942,6 @@
   },
   "last_video_post": "2026-11-19",
   "recent_fps": [
-    {
-      "fp": [
-        "$6.3",
-        "IN",
-        "JUST",
-        "binance",
-        "korea",
-        "north"
-      ],
-      "at": "2026-11-12T17:48:08.809038+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1217,10 +1205,17 @@
         "putin"
       ],
       "at": "2026-11-19T13:11:46.647965+00:00"
+    },
+    {
+      "fp": [
+        "$6",
+        "nasdaq",
+        "october"
+      ],
+      "at": "2026-11-19T21:37:33.140525+00:00"
     }
   ],
   "recent_hooks": [
-    "Binance has fully absorbed 100% of the losses from that $6.3 billion North Korean crypto hack.",
     "A trust linked to Congressman Ro Khanna's wife unloaded Nvidia ($NVDA) right at the top, just weeks before reports hit about Jensen Huang's affair with a Chinese spy. The stock is down 30% since those sales. Timing like that is why people watch congressional disclosures far more closely than earnings calls.",
     "The crypto market just erased $150 billion in value over 48 hours. When Bitcoin ($BTC) breaks below $69,000 while ETH ($ETH) drops toward $1,900, it is not a routine pullback; it is a rapid liquidation cascade. The question for traders now is whether this volume of accelerated selling pressure has found its bottom or if more downside is being priced in.",
     "+$16.9 billion flowed into Vanguard S&P 500 ETF ($VOO) across 5 trading days ending November 10th. In the same window, Invesco QQQ Trust ($QQQ) pulled in +$5.3 billion and Vanguard Total Stock Market ETF ($VTI) took +$3.3 billion. Capital isn't just sitting back during pullbacks\u2014it is actively hunting the dip.",
@@ -1234,7 +1229,8 @@
     "251 BTC bought for $17.5M, averaging $69,853 per coin, bumps Strive\u2019s holdings to 43,404 BTC. The $10M raised through the $SATS ATM gives a liquidity cushion. Preferred dividend coverage now 133 months, a long runway. Amplification ratio at 76% $ASST $Strive, Inc. ($SATA) $SATS signals leveraged exposure.",
     "15 million records from Deutsche Bank ($DB) allegedly leak, exposing 3,000 transactions and roughly $582 million in suspicious payments linked to Jeffrey Epstein, alongside undisclosed financial dealings with Donald Trump and wealthy Russian clients.",
     "Anthropic ($ANT) just priced its IPO at $83 per share, blowing past its initial $70 to $78 marketed range.",
-    "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv..."
+    "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
+    "The S&P 500 ($SPX) has erased $6 trillion in value since its October 6th high after closing down for the 6th-straight day. With the Nasdaq 100 ($NDX) now down 15% from its own record high, the market is no longer just pulling back\u2014it is repricing tech leadership at a pace that wipes out months of gains in less than a week."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
