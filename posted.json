@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "a8ae88d860a8b3b1",
-    "fb_id": "1264009986803820_122134526691472689",
-    "title": "BREAKING: Anthropic, $ANT, has priced its IPO at $83 per share, above its marketed range of $70 to $78, per Bloomberg. The company is now expected to raise at least $68 billion through its IPO, plu...",
-    "link": "https://x.com/KobeissiLetter/status/2123168870429274123",
+    "hash": "08dd625b116fde57",
+    "fb_id": "1264009986803820_122134575663472689",
+    "title": "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
+    "link": "https://x.com/KobeissiLetter/status/2123095269004702079",
     "mode": "viral",
-    "at": "2026-11-18T23:16:32.814858+00:00"
+    "at": "2026-11-19T04:15:55.629980+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -23,6 +23,7 @@
     "081ce91eabd57f6d",
     "08987638d1cc767e",
     "08ac912336069268",
+    "08dd625b116fde57",
     "08f210dc7becee93",
     "090f78c3b2e3ecf1",
     "098b7a16f2d95fd0",
@@ -407,12 +408,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-16": 3,
     "2026-11-17": 3,
-    "2026-11-18": 2
+    "2026-11-18": 2,
+    "2026-11-19": 1
   },
   "recent_titles": [
-    "Investors buying the dip in US equity ETFs at an unprecedented pace: The S&P 500 ETF, $VOO, attracted +$16.9 billion in inflows over 5 trading days ending November 10th, the most among major US equ...",
     "\u8bd5\u4e86\u8bd5Gemini 4 hydrogen\u63a7\u5236\u6765\u505a\u89c6\u9891\uff0c\u901f\u5ea6\u660e\u663e\u8981\u6bd4carbon\u548cargon\u5feb\u7684\u591a\u3002 \u4f46\u662f\u5b83\u7684\u7406\u89e3\u529b\u7565\u5dee\u4e00\u70b9\uff0c\u51fa\u6765\u540e\u8fd8\u9700\u8981\u8c03\u6574\uff0c\u5982\u679c\u662fhydrogen \u2795carbon\u6216\u8005\u2795argon\u7ec4\u5408\u4f1a\u597d\u5f88\u591a\u3002 \u4e3a\u4ec0\u4e48\u6211\u9875\u9762\u5230\u73b0\u5728\u90fd\u6ca1\u51fa\u73b0\u7ec4\u5408\u7684\u9009\u62e9\u5462\uff1f\ud83d\udc40\ud83d\udc40",
     "JUST IN: Bitcoin crashes to $67,000 as $250,000,000 is liquidated from the crypto market in 10 minutes.",
     "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
@@ -426,20 +426,10 @@
     "Strive acquired 251 $BTC for $17.5M at an average cost of $69,853 per bitcoin, bringing total holdings to \u20bf43,404. - $10M raised through the $SATS ATM - Current preferred dividend coverage: 133 mon...",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\udde9\ud83c\uddea A massive leak of 15 million Deutsche Bank records exposes undisclosed financial dealings involving Jeffrey Epstein, Donald Trump and wealthy Russian clients, including $582 million ...",
     "Gemini 4 Hydrogen turned Google Sheets into a pixel-art canvas. Using @Antigravity, the model shrank thousands of cells to create animated scenes.",
-    "BREAKING: Anthropic, $ANT, has priced its IPO at $83 per share, above its marketed range of $70 to $78, per Bloomberg. The company is now expected to raise at least $68 billion through its IPO, plu..."
+    "BREAKING: Anthropic, $ANT, has priced its IPO at $83 per share, above its marketed range of $70 to $78, per Bloomberg. The company is now expected to raise at least $68 billion through its IPO, plu...",
+    "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122130086703472689",
-      "topics": [
-        "gold_oil",
-        "inflation",
-        "stocks"
-      ],
-      "mode": "serious",
-      "photo": "og:image",
-      "at": "2026-11-01T22:52:40.172586+00:00"
-    },
     {
       "fb_id": "1165242339515983",
       "topics": [
@@ -882,6 +872,17 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-11-18T23:16:32.814858+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122134575663472689",
+      "topics": [
+        "ai",
+        "inflation",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "split:face+logo",
+      "at": "2026-11-19T04:15:55.629980+00:00"
     }
   ],
   "tuner": {
@@ -923,7 +924,7 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-18"
+    "updated": "2026-11-19"
   },
   "comment_review": {
     "posts": 8,
@@ -935,18 +936,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-11-18"
+    "updated": "2026-11-19"
   },
   "last_video_post": "2026-11-18",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "code",
-        "using"
-      ],
-      "at": "2026-11-12T02:04:38.780148+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1214,10 +1207,23 @@
         "this"
       ],
       "at": "2026-11-18T23:16:32.814846+00:00"
+    },
+    {
+      "fp": [
+        "$1",
+        "AI",
+        "US",
+        "YTD",
+        "because",
+        "huang",
+        "jensen",
+        "sentiment",
+        "take"
+      ],
+      "at": "2026-11-19T04:15:55.629969+00:00"
     }
   ],
   "recent_hooks": [
-    "Commerce Secretary Lutnick reportedly stepped in to stall President Trump's plans to tighten export limits on Nvidia ($NVDA) chips to China, framing the restriction as a trigger for an immediate trade war.",
     "Binance has fully absorbed 100% of the losses from that $6.3 billion North Korean crypto hack.",
     "A trust linked to Congressman Ro Khanna's wife unloaded Nvidia ($NVDA) right at the top, just weeks before reports hit about Jensen Huang's affair with a Chinese spy. The stock is down 30% since those sales. Timing like that is why people watch congressional disclosures far more closely than earnings calls.",
     "The crypto market just erased $150 billion in value over 48 hours. When Bitcoin ($BTC) breaks below $69,000 while ETH ($ETH) drops toward $1,900, it is not a routine pullback; it is a rapid liquidation cascade. The question for traders now is whether this volume of accelerated selling pressure has found its bottom or if more downside is being priced in.",
@@ -1231,7 +1237,8 @@
     "Leo KoGuan is freezing further investment, Elon Musk is offering to hire him, and 150k people have signed a petition to bring him back. The market is realizing that Nvidia Corporation ($NVDA) without Jensen Huang is a fundamentally different risk profile.",
     "251 BTC bought for $17.5M, averaging $69,853 per coin, bumps Strive\u2019s holdings to 43,404 BTC. The $10M raised through the $SATS ATM gives a liquidity cushion. Preferred dividend coverage now 133 months, a long runway. Amplification ratio at 76% $ASST $Strive, Inc. ($SATA) $SATS signals leveraged exposure.",
     "15 million records from Deutsche Bank ($DB) allegedly leak, exposing 3,000 transactions and roughly $582 million in suspicious payments linked to Jeffrey Epstein, alongside undisclosed financial dealings with Donald Trump and wealthy Russian clients.",
-    "Anthropic ($ANT) just priced its IPO at $83 per share, blowing past its initial $70 to $78 marketed range."
+    "Anthropic ($ANT) just priced its IPO at $83 per share, blowing past its initial $70 to $78 marketed range.",
+    "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv..."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
