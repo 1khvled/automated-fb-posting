@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "c8917e872d1192df",
-    "fb_id": "1264009986803820_122134753305472689",
-    "title": "BREAKING: The S&P 500 closes down for the 6th-straight day, now down -$6 trillion since the October 6th high. The Nasdaq 100 is now down -15% from its record high.",
-    "link": "https://x.com/KobeissiLetter/status/2123521706731897192",
-    "mode": "viral",
-    "at": "2026-11-19T21:37:33.140533+00:00"
+    "hash": "17e71dc4edbd0d46",
+    "fb_id": "1912526099925388",
+    "title": "\ud83d\udd25 TODAY: Hashi mainnet launched on Sui and allows Bitcoin holders to use their BTC as collateral to borrow stablecoins.",
+    "link": "https://x.com/Cointelegraph/status/2123604747273830614",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-11-20T02:34:58.602086+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -50,6 +51,7 @@
     "1457524b7a0a0de2",
     "15614a6abe13864d",
     "163b472205423d09",
+    "17e71dc4edbd0d46",
     "1816f2bc765abc08",
     "185efa1dab127fb0",
     "191614348896e501",
@@ -410,12 +412,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-17": 3,
     "2026-11-18": 2,
-    "2026-11-19": 3
+    "2026-11-19": 3,
+    "2026-11-20": 1
   },
   "recent_titles": [
-    "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Former US Secretary of State Antony Blinken says the only way to defeat Iran is a ground invasion, but even that would be a disaster for the US: \"Iran is four times the size of Califo...",
     "\ud83d\udd25 NEW: Tom Lee blames the crypto dump on Nvidia margin calls, pre-Anthropic IPO selling, released hack funds, AI fear and US chip-export scrutiny. His verdict is that this is a supercycle and the h...",
     "JUST IN: $230,000,000,000 wiped out from the crypto market cap in the past 24 hours. $BTC crashed 6.74% $ETH crashed 9.36% $BNB crashed 9.34% $XRP crashed 10.92% $SOL crashed 11.79%",
@@ -429,16 +430,10 @@
     "BREAKING: Anthropic, $ANT, has priced its IPO at $83 per share, above its marketed range of $70 to $78, per Bloomberg. The company is now expected to raise at least $68 billion through its IPO, plu...",
     "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
     "Putin: The Crimean Bridge is an exclusively civilian facility. It has long ceased to be used for transporting oil and ammunition. We didn't even transport oil using that bridge. It was a purely civ...",
-    "BREAKING: The S&P 500 closes down for the 6th-straight day, now down -$6 trillion since the October 6th high. The Nasdaq 100 is now down -15% from its record high."
+    "BREAKING: The S&P 500 closes down for the 6th-straight day, now down -$6 trillion since the October 6th high. The Nasdaq 100 is now down -15% from its record high.",
+    "\ud83d\udd25 TODAY: Hashi mainnet launched on Sui and allows Bitcoin holders to use their BTC as collateral to borrow stablecoins."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122130298881472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-11-02T18:59:57.689832+00:00"
-    },
     {
       "fb_id": "1918110975825042",
       "topics": [
@@ -885,6 +880,14 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-19T21:37:33.140533+00:00"
+    },
+    {
+      "fb_id": "1912526099925388",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "at": "2026-11-20T02:34:58.602086+00:00"
     }
   ],
   "tuner": {
@@ -926,7 +929,7 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
   "comment_review": {
     "posts": 8,
@@ -938,24 +941,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-11-19"
+    "updated": "2026-11-20"
   },
-  "last_video_post": "2026-11-19",
+  "last_video_post": "2026-11-20",
   "recent_fps": [
-    {
-      "fp": [
-        "IN",
-        "JUST",
-        "NVDA",
-        "chinese",
-        "congressman",
-        "huang",
-        "jensen",
-        "khanna",
-        "nvidia"
-      ],
-      "at": "2026-11-13T03:03:53.653664+00:00"
-    },
     {
       "fp": [
         "$1,900",
@@ -1213,6 +1202,16 @@
         "october"
       ],
       "at": "2026-11-19T21:37:33.140525+00:00"
+    },
+    {
+      "fp": [
+        "BTC",
+        "TODAY",
+        "bitcoin",
+        "hashi",
+        "sui"
+      ],
+      "at": "2026-11-20T02:34:58.602080+00:00"
     }
   ],
   "recent_hooks": [
