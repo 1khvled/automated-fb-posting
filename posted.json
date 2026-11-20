@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "17e71dc4edbd0d46",
-    "fb_id": "1912526099925388",
-    "title": "\ud83d\udd25 TODAY: Hashi mainnet launched on Sui and allows Bitcoin holders to use their BTC as collateral to borrow stablecoins.",
-    "link": "https://x.com/Cointelegraph/status/2123604747273830614",
-    "mode": "serious",
-    "kind": "video",
-    "at": "2026-11-20T02:34:58.602086+00:00"
+    "hash": "f2d5f3a984c66894",
+    "fb_id": "1264009986803820_122134875819472689",
+    "title": "It's clear now more than ever: Ultimately, this bear market in tech stocks will be remembered as the best buying opportunity of the last decade. Unless your view is that the AI is worthless and the...",
+    "link": "https://x.com/KobeissiLetter/status/2123628399998521610",
+    "mode": "viral",
+    "at": "2026-11-20T10:27:13.580387+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -380,6 +379,7 @@
     "efb052f68304f89a",
     "f041ccdd0f70088f",
     "f1b4ef6fd3918287",
+    "f2d5f3a984c66894",
     "f33418d042ff8358",
     "f34ea8d2b87d4290",
     "f36a9072ea0136d2",
@@ -414,10 +414,9 @@
   "day_counts": {
     "2026-11-18": 2,
     "2026-11-19": 3,
-    "2026-11-20": 1
+    "2026-11-20": 2
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 Former US Secretary of State Antony Blinken says the only way to defeat Iran is a ground invasion, but even that would be a disaster for the US: \"Iran is four times the size of Califo...",
     "\ud83d\udd25 NEW: Tom Lee blames the crypto dump on Nvidia margin calls, pre-Anthropic IPO selling, released hack funds, AI fear and US chip-export scrutiny. His verdict is that this is a supercycle and the h...",
     "JUST IN: $230,000,000,000 wiped out from the crypto market cap in the past 24 hours. $BTC crashed 6.74% $ETH crashed 9.36% $BNB crashed 9.34% $XRP crashed 10.92% $SOL crashed 11.79%",
     "Japanese GDP Deflator Prelim YoY Actual 2.4% (Forecast 2.7%, Previous 2.6%)",
@@ -431,17 +430,10 @@
     "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
     "Putin: The Crimean Bridge is an exclusively civilian facility. It has long ceased to be used for transporting oil and ammunition. We didn't even transport oil using that bridge. It was a purely civ...",
     "BREAKING: The S&P 500 closes down for the 6th-straight day, now down -$6 trillion since the October 6th high. The Nasdaq 100 is now down -15% from its record high.",
-    "\ud83d\udd25 TODAY: Hashi mainnet launched on Sui and allows Bitcoin holders to use their BTC as collateral to borrow stablecoins."
+    "\ud83d\udd25 TODAY: Hashi mainnet launched on Sui and allows Bitcoin holders to use their BTC as collateral to borrow stablecoins.",
+    "It's clear now more than ever: Ultimately, this bear market in tech stocks will be remembered as the best buying opportunity of the last decade. Unless your view is that the AI is worthless and the..."
   ],
   "history": [
-    {
-      "fb_id": "1918110975825042",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "at": "2026-11-03T01:29:02.143673+00:00"
-    },
     {
       "fb_id": "1264009986803820_122130423039472689",
       "topics": [
@@ -888,6 +880,17 @@
       ],
       "mode": "serious",
       "at": "2026-11-20T02:34:58.602086+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122134875819472689",
+      "topics": [
+        "ai",
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "split:logo",
+      "at": "2026-11-20T10:27:13.580387+00:00"
     }
   ],
   "tuner": {
@@ -945,17 +948,6 @@
   },
   "last_video_post": "2026-11-20",
   "recent_fps": [
-    {
-      "fp": [
-        "$1,900",
-        "$150",
-        "$69,000",
-        "ETH",
-        "bitcoin",
-        "crypto"
-      ],
-      "at": "2026-11-13T11:01:50.854945+00:00"
-    },
     {
       "fp": [
         "$16.9",
@@ -1212,10 +1204,20 @@
         "sui"
       ],
       "at": "2026-11-20T02:34:58.602080+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "democrats",
+        "nvidia",
+        "revolution",
+        "ultimately",
+        "unless"
+      ],
+      "at": "2026-11-20T10:27:13.580380+00:00"
     }
   ],
   "recent_hooks": [
-    "A trust linked to Congressman Ro Khanna's wife unloaded Nvidia ($NVDA) right at the top, just weeks before reports hit about Jensen Huang's affair with a Chinese spy. The stock is down 30% since those sales. Timing like that is why people watch congressional disclosures far more closely than earnings calls.",
     "The crypto market just erased $150 billion in value over 48 hours. When Bitcoin ($BTC) breaks below $69,000 while ETH ($ETH) drops toward $1,900, it is not a routine pullback; it is a rapid liquidation cascade. The question for traders now is whether this volume of accelerated selling pressure has found its bottom or if more downside is being priced in.",
     "+$16.9 billion flowed into Vanguard S&P 500 ETF ($VOO) across 5 trading days ending November 10th. In the same window, Invesco QQQ Trust ($QQQ) pulled in +$5.3 billion and Vanguard Total Stock Market ETF ($VTI) took +$3.3 billion. Capital isn't just sitting back during pullbacks\u2014it is actively hunting the dip.",
     "That is $250,000,000 wiped out in 10 minutes. Bitcoin dropped to $67,000 as a wave of leverage was forced out of the crypto market all at once. #bitcoin",
@@ -1229,7 +1231,8 @@
     "15 million records from Deutsche Bank ($DB) allegedly leak, exposing 3,000 transactions and roughly $582 million in suspicious payments linked to Jeffrey Epstein, alongside undisclosed financial dealings with Donald Trump and wealthy Russian clients.",
     "Anthropic ($ANT) just priced its IPO at $83 per share, blowing past its initial $70 to $78 marketed range.",
     "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
-    "The S&P 500 ($SPX) has erased $6 trillion in value since its October 6th high after closing down for the 6th-straight day. With the Nasdaq 100 ($NDX) now down 15% from its own record high, the market is no longer just pulling back\u2014it is repricing tech leadership at a pace that wipes out months of gains in less than a week."
+    "The S&P 500 ($SPX) has erased $6 trillion in value since its October 6th high after closing down for the 6th-straight day. With the Nasdaq 100 ($NDX) now down 15% from its own record high, the market is no longer just pulling back\u2014it is repricing tech leadership at a pace that wipes out months of gains in less than a week.",
+    "The argument that tech stocks are cheap hinges entirely on believing the AI revolution is far from over. If Nvidia ($NVDA) handles its leadership transition and political headwinds soften, pulling back from this tech bear market might end up looking like the single best entry point of the decade."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
