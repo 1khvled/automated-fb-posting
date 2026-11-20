@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "f2d5f3a984c66894",
-    "fb_id": "1264009986803820_122134875819472689",
-    "title": "It's clear now more than ever: Ultimately, this bear market in tech stocks will be remembered as the best buying opportunity of the last decade. Unless your view is that the AI is worthless and the...",
-    "link": "https://x.com/KobeissiLetter/status/2123628399998521610",
-    "mode": "viral",
-    "at": "2026-11-20T10:27:13.580387+00:00"
+    "hash": "b64236abbe542e30",
+    "fb_id": "1264009986803820_122134968783472689",
+    "title": "Breaking: Michael Burry\u2019s updated positions He: \u2022 Sold 50% Semiconductor ETF $SMH puts \u2022 Sold 50% Nvidia $NVDA puts \u2022 Sold 30% of Zoetis $ZTS calls \u2022 Holding his Nasdaq 100 April 2027 puts \u2022 Increa...",
+    "link": "https://x.com/burrytracker/status/2123841050842186173",
+    "mode": "serious",
+    "at": "2026-11-20T18:48:46.501640+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -292,6 +292,7 @@
     "b4df5090744d57db",
     "b5332e905fcd45e4",
     "b5882075649e5905",
+    "b64236abbe542e30",
     "b71658e7a7284937",
     "b74f5afe5583d667",
     "b79341c94e166719",
@@ -414,10 +415,9 @@
   "day_counts": {
     "2026-11-18": 2,
     "2026-11-19": 3,
-    "2026-11-20": 2
+    "2026-11-20": 3
   },
   "recent_titles": [
-    "\ud83d\udd25 NEW: Tom Lee blames the crypto dump on Nvidia margin calls, pre-Anthropic IPO selling, released hack funds, AI fear and US chip-export scrutiny. His verdict is that this is a supercycle and the h...",
     "JUST IN: $230,000,000,000 wiped out from the crypto market cap in the past 24 hours. $BTC crashed 6.74% $ETH crashed 9.36% $BNB crashed 9.34% $XRP crashed 10.92% $SOL crashed 11.79%",
     "Japanese GDP Deflator Prelim YoY Actual 2.4% (Forecast 2.7%, Previous 2.6%)",
     "BREAKING: US stock market futures rise on reports that Jensen Huang is considering a comeback to Nvidia, $NVDA: 1. S&P 500: +0.3% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.2% 4. WTI Crude: -0.5% All ey...",
@@ -431,19 +431,10 @@
     "Putin: The Crimean Bridge is an exclusively civilian facility. It has long ceased to be used for transporting oil and ammunition. We didn't even transport oil using that bridge. It was a purely civ...",
     "BREAKING: The S&P 500 closes down for the 6th-straight day, now down -$6 trillion since the October 6th high. The Nasdaq 100 is now down -15% from its record high.",
     "\ud83d\udd25 TODAY: Hashi mainnet launched on Sui and allows Bitcoin holders to use their BTC as collateral to borrow stablecoins.",
-    "It's clear now more than ever: Ultimately, this bear market in tech stocks will be remembered as the best buying opportunity of the last decade. Unless your view is that the AI is worthless and the..."
+    "It's clear now more than ever: Ultimately, this bear market in tech stocks will be remembered as the best buying opportunity of the last decade. Unless your view is that the AI is worthless and the...",
+    "Breaking: Michael Burry\u2019s updated positions He: \u2022 Sold 50% Semiconductor ETF $SMH puts \u2022 Sold 50% Nvidia $NVDA puts \u2022 Sold 30% of Zoetis $ZTS calls \u2022 Holding his Nasdaq 100 April 2027 puts \u2022 Increa..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122130423039472689",
-      "topics": [
-        "power",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-11-03T08:33:00.363140+00:00"
-    },
     {
       "fb_id": "1264009986803820_122130517941472689",
       "topics": [],
@@ -891,6 +882,17 @@
       "mode": "viral",
       "photo": "split:logo",
       "at": "2026-11-20T10:27:13.580387+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122134968783472689",
+      "topics": [
+        "ai",
+        "crypto",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "source",
+      "at": "2026-11-20T18:48:46.501640+00:00"
     }
   ],
   "tuner": {
@@ -948,25 +950,6 @@
   },
   "last_video_post": "2026-11-20",
   "recent_fps": [
-    {
-      "fp": [
-        "$16.9",
-        "$3.3",
-        "$5.3",
-        "ETF",
-        "QQQ",
-        "SPYM",
-        "US",
-        "VOO",
-        "VTI",
-        "investors",
-        "nasda",
-        "nasdaq",
-        "november",
-        "this"
-      ],
-      "at": "2026-11-13T18:25:39.702047+00:00"
-    },
     {
       "fp": [],
       "at": "2026-11-14T03:49:15.782887+00:00"
@@ -1215,10 +1198,30 @@
         "unless"
       ],
       "at": "2026-11-20T10:27:13.580380+00:00"
+    },
+    {
+      "fp": [
+        "ETF",
+        "MELI",
+        "NVDA",
+        "SMH",
+        "ZT",
+        "april",
+        "burry",
+        "holding",
+        "increa",
+        "increased",
+        "michael",
+        "nasdaq",
+        "nvidia",
+        "semiconductor",
+        "sold",
+        "zoetis"
+      ],
+      "at": "2026-11-20T18:48:46.501629+00:00"
     }
   ],
   "recent_hooks": [
-    "The crypto market just erased $150 billion in value over 48 hours. When Bitcoin ($BTC) breaks below $69,000 while ETH ($ETH) drops toward $1,900, it is not a routine pullback; it is a rapid liquidation cascade. The question for traders now is whether this volume of accelerated selling pressure has found its bottom or if more downside is being priced in.",
     "+$16.9 billion flowed into Vanguard S&P 500 ETF ($VOO) across 5 trading days ending November 10th. In the same window, Invesco QQQ Trust ($QQQ) pulled in +$5.3 billion and Vanguard Total Stock Market ETF ($VTI) took +$3.3 billion. Capital isn't just sitting back during pullbacks\u2014it is actively hunting the dip.",
     "That is $250,000,000 wiped out in 10 minutes. Bitcoin dropped to $67,000 as a wave of leverage was forced out of the crypto market all at once. #bitcoin",
     "Democratic control of Congress and leadership turmoil at Nvidia ($NVDA) could push AI demand away from a single chip giant and toward rival semiconductor makers and rival Big Tech stocks, according to ETF experts.",
@@ -1232,7 +1235,8 @@
     "Anthropic ($ANT) just priced its IPO at $83 per share, blowing past its initial $70 to $78 marketed range.",
     "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
     "The S&P 500 ($SPX) has erased $6 trillion in value since its October 6th high after closing down for the 6th-straight day. With the Nasdaq 100 ($NDX) now down 15% from its own record high, the market is no longer just pulling back\u2014it is repricing tech leadership at a pace that wipes out months of gains in less than a week.",
-    "The argument that tech stocks are cheap hinges entirely on believing the AI revolution is far from over. If Nvidia ($NVDA) handles its leadership transition and political headwinds soften, pulling back from this tech bear market might end up looking like the single best entry point of the decade."
+    "The argument that tech stocks are cheap hinges entirely on believing the AI revolution is far from over. If Nvidia ($NVDA) handles its leadership transition and political headwinds soften, pulling back from this tech bear market might end up looking like the single best entry point of the decade.",
+    "Michael Burry is trimming his downside bets, selling off 50% of his puts in both VanEck Semiconductor ETF ($SMH) and Nvidia ($NVDA), alongside 30% of his Zoetis ($ZTS) calls."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
