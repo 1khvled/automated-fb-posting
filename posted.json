@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "47a657f775d9cdb6",
-    "fb_id": "1882533469600479",
-    "title": "Live look at the crypto and stock market this week",
-    "link": "https://x.com/WatcherGuru/status/2124156142569845007",
-    "mode": "serious",
-    "kind": "video",
-    "at": "2026-11-21T15:37:21.190974+00:00"
+    "hash": "26d1d31f8ef01791",
+    "fb_id": "1264009986803820_122135263359472689",
+    "title": "BREAKING: \ud83c\uddfa\ud83c\uddf8 If an AI agent empties your account, your bank won't refund your money anymore U.S. banks like Citi, PNC and Citizens changed their terms this week. If you give your credentials to an ...",
+    "link": "https://x.com/Megatron_ron/status/2124200531145187691",
+    "mode": "viral",
+    "at": "2026-11-21T21:06:19.198088+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -75,6 +74,7 @@
     "2555437bc3e1be4d",
     "25d3e965ce6b33b2",
     "26bf9ea4ca410e54",
+    "26d1d31f8ef01791",
     "2839c0e8680cd401",
     "28bc3a9d4da6a862",
     "29c4d0c4decaa67c",
@@ -418,10 +418,9 @@
   "day_counts": {
     "2026-11-19": 3,
     "2026-11-20": 3,
-    "2026-11-21": 2
+    "2026-11-21": 3
   },
   "recent_titles": [
-    "BREAKING: US stock market futures rise on reports that Jensen Huang is considering a comeback to Nvidia, $NVDA: 1. S&P 500: +0.3% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.2% 4. WTI Crude: -0.5% All ey...",
     "Weekly Recap: 1) Nvidia CEO Jensen Huang resigns after having 3 reported affairs. 2) Billionaire shareholder Leo KoGuan says he will not invest more money in Nvidia without Jensen Huang. 3) Elon Mu...",
     "Russia's Foreign Minister Lavrov: People talk about what a brave step Washington took by lifting sanctions on Russian diesel supplies. But when Democrats started asking the Americans why they had e...",
     "Strive acquired 251 $BTC for $17.5M at an average cost of $69,853 per bitcoin, bringing total holdings to \u20bf43,404. - $10M raised through the $SATS ATM - Current preferred dividend coverage: 133 mon...",
@@ -435,17 +434,10 @@
     "It's clear now more than ever: Ultimately, this bear market in tech stocks will be remembered as the best buying opportunity of the last decade. Unless your view is that the AI is worthless and the...",
     "Breaking: Michael Burry\u2019s updated positions He: \u2022 Sold 50% Semiconductor ETF $SMH puts \u2022 Sold 50% Nvidia $NVDA puts \u2022 Sold 30% of Zoetis $ZTS calls \u2022 Holding his Nasdaq 100 April 2027 puts \u2022 Increa...",
     "Crypto prices 2021 vs 2026 (November) Bitcoin: \u2022 2021: $59,700 \u2022 2026: $59,000 Ethereum: \u2022 2021: $4,410 \u2022 2026: $1,620 BNB: \u2022 2021: $605 \u2022 2026: $540 SOL: \u2022 2021: $220 \u2022 2026: $69 XRP: \u2022 2021: $1.1...",
-    "Live look at the crypto and stock market this week"
+    "Live look at the crypto and stock market this week",
+    "BREAKING: \ud83c\uddfa\ud83c\uddf8 If an AI agent empties your account, your bank won't refund your money anymore U.S. banks like Citi, PNC and Citizens changed their terms this week. If you give your credentials to an ..."
   ],
   "history": [
-    {
-      "fb_id": "971946648905920",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "at": "2026-11-04T01:55:47.136139+00:00"
-    },
     {
       "fb_id": "1264009986803820_122130672681472689",
       "topics": [
@@ -898,6 +890,15 @@
       ],
       "mode": "serious",
       "at": "2026-11-21T15:37:21.190974+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122135263359472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-21T21:06:19.198088+00:00"
     }
   ],
   "tuner": {
@@ -955,19 +956,6 @@
   },
   "last_video_post": "2026-11-21",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "ETF",
-        "big",
-        "congress",
-        "democratic",
-        "how",
-        "nvidia",
-        "tech"
-      ],
-      "at": "2026-11-14T17:11:20.091292+00:00"
-    },
     {
       "fp": [
         "IN",
@@ -1237,10 +1225,19 @@
     {
       "fp": [],
       "at": "2026-11-21T15:37:21.190966+00:00"
+    },
+    {
+      "fp": [
+        "AI",
+        "PNC",
+        "citi",
+        "citizens",
+        "claude"
+      ],
+      "at": "2026-11-21T21:06:19.198077+00:00"
     }
   ],
   "recent_hooks": [
-    "That is $250,000,000 wiped out in 10 minutes. Bitcoin dropped to $67,000 as a wave of leverage was forced out of the crypto market all at once. #bitcoin",
     "Democratic control of Congress and leadership turmoil at Nvidia ($NVDA) could push AI demand away from a single chip giant and toward rival semiconductor makers and rival Big Tech stocks, according to ETF experts.",
     "Tom Lee is blaming the recent crypto dump on a pileup of temporary pressure: Nvidia ($NVDA) margin calls, pre-Anthropic IPO selling, released hack funds, broader AI fear, and US chip-export scrutiny. His take is that the underlying SUPERCYCLE remains intact and these headwinds will pass.",
     "$230,000,000,000 left the crypto market cap in a single 24-hour drop.",
@@ -1254,7 +1251,8 @@
     "The S&P 500 ($SPX) has erased $6 trillion in value since its October 6th high after closing down for the 6th-straight day. With the Nasdaq 100 ($NDX) now down 15% from its own record high, the market is no longer just pulling back\u2014it is repricing tech leadership at a pace that wipes out months of gains in less than a week.",
     "The argument that tech stocks are cheap hinges entirely on believing the AI revolution is far from over. If Nvidia ($NVDA) handles its leadership transition and political headwinds soften, pulling back from this tech bear market might end up looking like the single best entry point of the decade.",
     "Michael Burry is trimming his downside bets, selling off 50% of his puts in both VanEck Semiconductor ETF ($SMH) and Nvidia ($NVDA), alongside 30% of his Zoetis ($ZTS) calls.",
-    "Five years of crypto cycles and Bitcoin ($BTC) sits at $59,000 compared to $59,700 in November 2021, but the rest of the market tells a much harsher story. Ethereum ($ETH) is at $1,620 down from $4,410, Solana ($SOL) dropped from $220 to $69, BNB ($BNB) slid from $605 to $540, and XRP ($XRP) moved from $1.10 to $0.90. Holding anything outside the market leader over this stretch meant paying a massive premium for zero long-term progress."
+    "Five years of crypto cycles and Bitcoin ($BTC) sits at $59,000 compared to $59,700 in November 2021, but the rest of the market tells a much harsher story. Ethereum ($ETH) is at $1,620 down from $4,410, Solana ($SOL) dropped from $220 to $69, BNB ($BNB) slid from $605 to $540, and XRP ($XRP) moved from $1.10 to $0.90. Holding anything outside the market leader over this stretch meant paying a massive premium for zero long-term progress.",
+    "Citi, PNC, and Citizens changed their bank terms this week, and the fine print is brutal for anyone handing their credentials to ChatGPT or Claude. If you give an external AI agent your login and it empties your account, gets hacked, or ignores your instructions, the banks now count every transaction as if you personally authorized it. Zero refund. You are fully on the hook for whatever the bot does."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
