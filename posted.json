@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "366c9ea6cdefd4e4",
-    "fb_id": "1264009986803820_122135091345472689",
-    "title": "Crypto prices 2021 vs 2026 (November) Bitcoin: \u2022 2021: $59,700 \u2022 2026: $59,000 Ethereum: \u2022 2021: $4,410 \u2022 2026: $1,620 BNB: \u2022 2021: $605 \u2022 2026: $540 SOL: \u2022 2021: $220 \u2022 2026: $69 XRP: \u2022 2021: $1.1...",
-    "link": "https://x.com/WatcherGuru/status/2123949842020131126",
-    "mode": "viral",
-    "at": "2026-11-21T07:41:50.299048+00:00"
+    "hash": "47a657f775d9cdb6",
+    "fb_id": "1882533469600479",
+    "title": "Live look at the crypto and stock market this week",
+    "link": "https://x.com/WatcherGuru/status/2124156142569845007",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-11-21T15:37:21.190974+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -116,6 +117,7 @@
     "430c9c9eb2154cf1",
     "43670f47463cdacf",
     "45f2f7f4666dbaa1",
+    "47a657f775d9cdb6",
     "4987c4f1f6f22605",
     "49a324739eb6e6c5",
     "49e7734863e36891",
@@ -416,10 +418,9 @@
   "day_counts": {
     "2026-11-19": 3,
     "2026-11-20": 3,
-    "2026-11-21": 1
+    "2026-11-21": 2
   },
   "recent_titles": [
-    "Japanese GDP Deflator Prelim YoY Actual 2.4% (Forecast 2.7%, Previous 2.6%)",
     "BREAKING: US stock market futures rise on reports that Jensen Huang is considering a comeback to Nvidia, $NVDA: 1. S&P 500: +0.3% 2. Nasdaq 100: +0.7% 3. Dow Jones: +0.2% 4. WTI Crude: -0.5% All ey...",
     "Weekly Recap: 1) Nvidia CEO Jensen Huang resigns after having 3 reported affairs. 2) Billionaire shareholder Leo KoGuan says he will not invest more money in Nvidia without Jensen Huang. 3) Elon Mu...",
     "Russia's Foreign Minister Lavrov: People talk about what a brave step Washington took by lifting sanctions on Russian diesel supplies. But when Democrats started asking the Americans why they had e...",
@@ -433,18 +434,10 @@
     "\ud83d\udd25 TODAY: Hashi mainnet launched on Sui and allows Bitcoin holders to use their BTC as collateral to borrow stablecoins.",
     "It's clear now more than ever: Ultimately, this bear market in tech stocks will be remembered as the best buying opportunity of the last decade. Unless your view is that the AI is worthless and the...",
     "Breaking: Michael Burry\u2019s updated positions He: \u2022 Sold 50% Semiconductor ETF $SMH puts \u2022 Sold 50% Nvidia $NVDA puts \u2022 Sold 30% of Zoetis $ZTS calls \u2022 Holding his Nasdaq 100 April 2027 puts \u2022 Increa...",
-    "Crypto prices 2021 vs 2026 (November) Bitcoin: \u2022 2021: $59,700 \u2022 2026: $59,000 Ethereum: \u2022 2021: $4,410 \u2022 2026: $1,620 BNB: \u2022 2021: $605 \u2022 2026: $540 SOL: \u2022 2021: $220 \u2022 2026: $69 XRP: \u2022 2021: $1.1..."
+    "Crypto prices 2021 vs 2026 (November) Bitcoin: \u2022 2021: $59,700 \u2022 2026: $59,000 Ethereum: \u2022 2021: $4,410 \u2022 2026: $1,620 BNB: \u2022 2021: $605 \u2022 2026: $540 SOL: \u2022 2021: $220 \u2022 2026: $69 XRP: \u2022 2021: $1.1...",
+    "Live look at the crypto and stock market this week"
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122130578703472689",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-11-03T21:59:23.776676+00:00"
-    },
     {
       "fb_id": "971946648905920",
       "topics": [
@@ -896,6 +889,15 @@
       "mode": "viral",
       "photo": "split:logo+logo",
       "at": "2026-11-21T07:41:50.299048+00:00"
+    },
+    {
+      "fb_id": "1882533469600479",
+      "topics": [
+        "crypto",
+        "stocks"
+      ],
+      "mode": "serious",
+      "at": "2026-11-21T15:37:21.190974+00:00"
     }
   ],
   "tuner": {
@@ -951,18 +953,8 @@
     "sample_questions": [],
     "updated": "2026-11-21"
   },
-  "last_video_post": "2026-11-20",
+  "last_video_post": "2026-11-21",
   "recent_fps": [
-    {
-      "fp": [
-        "$250,000,000",
-        "$67,000",
-        "IN",
-        "JUST",
-        "bitcoin"
-      ],
-      "at": "2026-11-14T11:03:38.478133+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1241,6 +1233,10 @@
         "november"
       ],
       "at": "2026-11-21T07:41:50.299033+00:00"
+    },
+    {
+      "fp": [],
+      "at": "2026-11-21T15:37:21.190966+00:00"
     }
   ],
   "recent_hooks": [
