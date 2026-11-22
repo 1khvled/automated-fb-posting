@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "17ffc1027a32bf4e",
-    "fb_id": "1264009986803820_122135293335472689",
-    "title": "Anthropic is sitting on an enormous cash pile: Anthropic's cash and cash equivalents are up to a record $237 billion following its IPO. This comes as its IPO raised $81 billion, with another $26 bi...",
-    "link": "https://x.com/KobeissiLetter/status/2124282426209775663",
+    "hash": "3a0051b3ddb41870",
+    "fb_id": "1264009986803820_122135361429472689",
+    "title": "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.",
+    "link": "https://x.com/WatcherGuru/status/2124248599769039119",
     "mode": "viral",
-    "at": "2026-11-22T01:23:10.606912+00:00"
+    "at": "2026-11-22T08:46:03.334409+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -106,6 +106,7 @@
     "3798774b8ed68fb4",
     "391341aa32b1abfc",
     "399f3abd161c1416",
+    "3a0051b3ddb41870",
     "3b4aa213b4a64a56",
     "3c7e63595369afd6",
     "3ccaf6ca07aa5503",
@@ -419,10 +420,9 @@
   "day_counts": {
     "2026-11-20": 3,
     "2026-11-21": 3,
-    "2026-11-22": 1
+    "2026-11-22": 2
   },
   "recent_titles": [
-    "Russia's Foreign Minister Lavrov: People talk about what a brave step Washington took by lifting sanctions on Russian diesel supplies. But when Democrats started asking the Americans why they had e...",
     "Strive acquired 251 $BTC for $17.5M at an average cost of $69,853 per bitcoin, bringing total holdings to \u20bf43,404. - $10M raised through the $SATS ATM - Current preferred dividend coverage: 133 mon...",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\udde9\ud83c\uddea A massive leak of 15 million Deutsche Bank records exposes undisclosed financial dealings involving Jeffrey Epstein, Donald Trump and wealthy Russian clients, including $582 million ...",
     "Gemini 4 Hydrogen turned Google Sheets into a pixel-art canvas. Using @Antigravity, the model shrank thousands of cells to create animated scenes.",
@@ -436,16 +436,10 @@
     "Crypto prices 2021 vs 2026 (November) Bitcoin: \u2022 2021: $59,700 \u2022 2026: $59,000 Ethereum: \u2022 2021: $4,410 \u2022 2026: $1,620 BNB: \u2022 2021: $605 \u2022 2026: $540 SOL: \u2022 2021: $220 \u2022 2026: $69 XRP: \u2022 2021: $1.1...",
     "Live look at the crypto and stock market this week",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 If an AI agent empties your account, your bank won't refund your money anymore U.S. banks like Citi, PNC and Citizens changed their terms this week. If you give your credentials to an ...",
-    "Anthropic is sitting on an enormous cash pile: Anthropic's cash and cash equivalents are up to a record $237 billion following its IPO. This comes as its IPO raised $81 billion, with another $26 bi..."
+    "Anthropic is sitting on an enormous cash pile: Anthropic's cash and cash equivalents are up to a record $237 billion following its IPO. This comes as its IPO raised $81 billion, with another $26 bi...",
+    "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122130772389472689",
-      "topics": [],
-      "mode": "serious",
-      "photo": "product",
-      "at": "2026-11-04T16:24:31.364579+00:00"
-    },
     {
       "fb_id": "1264009986803820_122130829815472689",
       "topics": [
@@ -899,6 +893,15 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-22T01:23:10.606912+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122135361429472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "viral",
+      "photo": "split:scene",
+      "at": "2026-11-22T08:46:03.334409+00:00"
     }
   ],
   "tuner": {
@@ -956,21 +959,6 @@
   },
   "last_video_post": "2026-11-21",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "IPO",
-        "NEW",
-        "US",
-        "anthropic",
-        "his",
-        "lee",
-        "nvidia",
-        "tom",
-        "what"
-      ],
-      "at": "2026-11-15T07:55:10.668020+00:00"
-    },
     {
       "fp": [
         "$230,000,000,000",
@@ -1233,10 +1221,19 @@
         "this"
       ],
       "at": "2026-11-22T01:23:10.606902+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "bank",
+        "central",
+        "russia"
+      ],
+      "at": "2026-11-22T08:46:03.334395+00:00"
     }
   ],
   "recent_hooks": [
-    "Tom Lee is blaming the recent crypto dump on a pileup of temporary pressure: Nvidia ($NVDA) margin calls, pre-Anthropic IPO selling, released hack funds, broader AI fear, and US chip-export scrutiny. His take is that the underlying SUPERCYCLE remains intact and these headwinds will pass.",
     "$230,000,000,000 left the crypto market cap in a single 24-hour drop.",
     "2.4% is the number to watch in Japan's prelim GDP deflator year-over-year. Markets expected 2.7%, down from the previous 2.6% reading, but the actual print missed both. Domestic inflation pressure isn't building quite as fast as the consensus laid out.",
     "Futures are pricing tech optimism ahead of Nvidia ($NVDA) earnings and the Anthropic IPO, with Nasdaq 100 futures up 0.7% while the S&P 500 gains 0.3% and the Dow Jones ticks up 0.2%. Market focus remains squarely on the major tech events setting the tone for the week.",
@@ -1250,7 +1247,8 @@
     "Michael Burry is trimming his downside bets, selling off 50% of his puts in both VanEck Semiconductor ETF ($SMH) and Nvidia ($NVDA), alongside 30% of his Zoetis ($ZTS) calls.",
     "Five years of crypto cycles and Bitcoin ($BTC) sits at $59,000 compared to $59,700 in November 2021, but the rest of the market tells a much harsher story. Ethereum ($ETH) is at $1,620 down from $4,410, Solana ($SOL) dropped from $220 to $69, BNB ($BNB) slid from $605 to $540, and XRP ($XRP) moved from $1.10 to $0.90. Holding anything outside the market leader over this stretch meant paying a massive premium for zero long-term progress.",
     "Citi, PNC, and Citizens changed their bank terms this week, and the fine print is brutal for anyone handing their credentials to ChatGPT or Claude. If you give an external AI agent your login and it empties your account, gets hacked, or ignores your instructions, the banks now count every transaction as if you personally authorized it. Zero refund. You are fully on the hook for whatever the bot does.",
-    "Anthropic ($ANTH) is sitting on a record $237 billion cash pile after raising $81 billion in its IPO and another $26 billion in a private placement."
+    "Anthropic ($ANTH) is sitting on a record $237 billion cash pile after raising $81 billion in its IPO and another $26 billion in a private placement.",
+    "Russia is officially letting its exchanges launch cryptocurrency trading, provided they clear it with the Central Bank. Going from a strict domestic crackdown to regulated exchange access shows how fast nation-states are rewriting their financial rules when global settlement needs change."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
