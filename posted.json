@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "51f69b8801a7958f",
-    "fb_id": "1264009986803820_122135654301472689",
-    "title": "US technology ETFs are seeing massive wave of deleveraging: The 3x leveraged long Semiconductor ETF, $SOXL, is down -90% from its June peak, to its lowest since September 2025. This marks its 2nd-l...",
-    "link": "https://x.com/KobeissiLetter/status/2124561296787943647",
+    "hash": "bfedb276fa402b5a",
+    "fb_id": "1264009986803820_122135765301472689",
+    "title": "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today.",
+    "link": "https://x.com/WatcherGuru/status/2124986431705604532",
     "mode": "viral",
-    "at": "2026-11-23T11:32:13.430730+00:00"
+    "at": "2026-11-23T22:54:02.443255+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -316,6 +316,7 @@
     "bd9cd56d67ce51f1",
     "beda8733ff194127",
     "bfe298764d6ebf71",
+    "bfedb276fa402b5a",
     "c0ca1e4fb69f6ec7",
     "c21ee7f63450eaef",
     "c251468873bbe41c",
@@ -423,10 +424,9 @@
   "day_counts": {
     "2026-11-21": 3,
     "2026-11-22": 3,
-    "2026-11-23": 2
+    "2026-11-23": 3
   },
   "recent_titles": [
-    "BREAKING: Anthropic, $ANT, has priced its IPO at $83 per share, above its marketed range of $70 to $78, per Bloomberg. The company is now expected to raise at least $68 billion through its IPO, plu...",
     "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
     "Putin: The Crimean Bridge is an exclusively civilian facility. It has long ceased to be used for transporting oil and ammunition. We didn't even transport oil using that bridge. It was a purely civ...",
     "BREAKING: The S&P 500 closes down for the 6th-straight day, now down -$6 trillion since the October 6th high. The Nasdaq 100 is now down -15% from its record high.",
@@ -440,17 +440,10 @@
     "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.",
     "US Treasury Secretary Bessent: need to determine which level of Nvidia business was aware, confident committees are swiftly seeking answers - CBS",
     "\ud83d\udd25INSIGHT: The most bullish thing for crypto might be a generation of politicians retiring, says @hosseeb. Speaking with @itsciaranlyons, the Dragonfly managing partner pointed to Texas Senator-elec...",
-    "US technology ETFs are seeing massive wave of deleveraging: The 3x leveraged long Semiconductor ETF, $SOXL, is down -90% from its June peak, to its lowest since September 2025. This marks its 2nd-l..."
+    "US technology ETFs are seeing massive wave of deleveraging: The 3x leveraged long Semiconductor ETF, $SOXL, is down -90% from its June peak, to its lowest since September 2025. This marks its 2nd-l...",
+    "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today."
   ],
   "history": [
-    {
-      "fb_id": "1784471295998403",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "at": "2026-11-06T03:28:11.191467+00:00"
-    },
     {
       "fb_id": "1264009986803820_122131331715472689",
       "topics": [
@@ -905,6 +898,15 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-23T11:32:13.430730+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122135765301472689",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "photo": "entity-logo",
+      "at": "2026-11-23T22:54:02.443255+00:00"
     }
   ],
   "tuner": {
@@ -962,23 +964,6 @@
   },
   "last_video_post": "2026-11-23",
   "recent_fps": [
-    {
-      "fp": [
-        "CEO",
-        "CZ",
-        "billionaire",
-        "elon",
-        "huang",
-        "jensen",
-        "leo",
-        "musk",
-        "nvidia",
-        "recap",
-        "two",
-        "weekly"
-      ],
-      "at": "2026-11-16T16:38:39.274595+00:00"
-    },
     {
       "fp": [
         "americans",
@@ -1233,10 +1218,19 @@
         "this"
       ],
       "at": "2026-11-23T11:32:13.430719+00:00"
+    },
+    {
+      "fp": [
+        "$11,300,000,000",
+        "IN",
+        "JUST",
+        "NVDA",
+        "nvidia"
+      ],
+      "at": "2026-11-23T22:54:02.443242+00:00"
     }
   ],
   "recent_hooks": [
-    "Futures are pricing tech optimism ahead of Nvidia ($NVDA) earnings and the Anthropic IPO, with Nasdaq 100 futures up 0.7% while the S&P 500 gains 0.3% and the Dow Jones ticks up 0.2%. Market focus remains squarely on the major tech events setting the tone for the week.",
     "Leo KoGuan is freezing further investment, Elon Musk is offering to hire him, and 150k people have signed a petition to bring him back. The market is realizing that Nvidia Corporation ($NVDA) without Jensen Huang is a fundamentally different risk profile.",
     "251 BTC bought for $17.5M, averaging $69,853 per coin, bumps Strive\u2019s holdings to 43,404 BTC. The $10M raised through the $SATS ATM gives a liquidity cushion. Preferred dividend coverage now 133 months, a long runway. Amplification ratio at 76% $ASST $Strive, Inc. ($SATA) $SATS signals leveraged exposure.",
     "15 million records from Deutsche Bank ($DB) allegedly leak, exposing 3,000 transactions and roughly $582 million in suspicious payments linked to Jeffrey Epstein, alongside undisclosed financial dealings with Donald Trump and wealthy Russian clients.",
@@ -1250,7 +1244,8 @@
     "Anthropic ($ANTH) is sitting on a record $237 billion cash pile after raising $81 billion in its IPO and another $26 billion in a private placement.",
     "Russia is officially letting its exchanges launch cryptocurrency trading, provided they clear it with the Central Bank. Going from a strict domestic crackdown to regulated exchange access shows how fast nation-states are rewriting their financial rules when global settlement needs change.",
     "US Treasury Secretary Bessent told CBS that committees are swiftly seeking answers on which level of Nvidia ($NVDA) business was aware. When the Treasury gets involved, a corporate investigation stops being an internal matter and becomes a sovereign risk calculation for the entire semiconductor supply chain. #nvidia",
-    "The 3x leveraged long Semiconductor ETF ($SOXL) has erased 90% of its value since its June peak, dragging the fund to its lowest level since September 2025."
+    "The 3x leveraged long Semiconductor ETF ($SOXL) has erased 90% of its value since its June peak, dragging the fund to its lowest level since September 2025.",
+    "Short sellers took an $11,300,000,000 loss on Nvidia ($NVDA) in a single day. Betting against the leader of the hardware cycle continues to be the most expensive position on the market. #nvidia"
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
