@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "434fccc9d2953264",
-    "fb_id": "1264009986803820_122135469093472689",
-    "title": "US Treasury Secretary Bessent: need to determine which level of Nvidia business was aware, confident committees are swiftly seeking answers - CBS",
-    "link": "https://x.com/FirstSquawk/status/2124538068787236973",
+    "hash": "412f0d309f8d56db",
+    "fb_id": "1967786470848956",
+    "title": "\ud83d\udd25INSIGHT: The most bullish thing for crypto might be a generation of politicians retiring, says @hosseeb. Speaking with @itsciaranlyons, the Dragonfly managing partner pointed to Texas Senator-elec...",
+    "link": "https://x.com/Cointelegraph/status/2124639541629706540",
     "mode": "serious",
-    "at": "2026-11-22T16:45:45.582373+00:00"
+    "kind": "video",
+    "at": "2026-11-23T02:47:52.914251+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -116,6 +117,7 @@
     "3eb4a262e3a6a366",
     "3f3e1f89fe443bb2",
     "401104f0174f507a",
+    "412f0d309f8d56db",
     "430c9c9eb2154cf1",
     "434fccc9d2953264",
     "43670f47463cdacf",
@@ -419,12 +421,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-20": 3,
     "2026-11-21": 3,
-    "2026-11-22": 3
+    "2026-11-22": 3,
+    "2026-11-23": 1
   },
   "recent_titles": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8\ud83c\udde9\ud83c\uddea A massive leak of 15 million Deutsche Bank records exposes undisclosed financial dealings involving Jeffrey Epstein, Donald Trump and wealthy Russian clients, including $582 million ...",
     "Gemini 4 Hydrogen turned Google Sheets into a pixel-art canvas. Using @Antigravity, the model shrank thousands of cells to create animated scenes.",
     "BREAKING: Anthropic, $ANT, has priced its IPO at $83 per share, above its marketed range of $70 to $78, per Bloomberg. The company is now expected to raise at least $68 billion through its IPO, plu...",
     "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
@@ -438,17 +439,10 @@
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 If an AI agent empties your account, your bank won't refund your money anymore U.S. banks like Citi, PNC and Citizens changed their terms this week. If you give your credentials to an ...",
     "Anthropic is sitting on an enormous cash pile: Anthropic's cash and cash equivalents are up to a record $237 billion following its IPO. This comes as its IPO raised $81 billion, with another $26 bi...",
     "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.",
-    "US Treasury Secretary Bessent: need to determine which level of Nvidia business was aware, confident committees are swiftly seeking answers - CBS"
+    "US Treasury Secretary Bessent: need to determine which level of Nvidia business was aware, confident committees are swiftly seeking answers - CBS",
+    "\ud83d\udd25INSIGHT: The most bullish thing for crypto might be a generation of politicians retiring, says @hosseeb. Speaking with @itsciaranlyons, the Dragonfly managing partner pointed to Texas Senator-elec..."
   ],
   "history": [
-    {
-      "fb_id": "1137976458647237",
-      "topics": [
-        "ai"
-      ],
-      "mode": "viral",
-      "at": "2026-11-05T02:30:59.127159+00:00"
-    },
     {
       "fb_id": "1264009986803820_122131091889472689",
       "topics": [
@@ -902,6 +896,15 @@
       "mode": "serious",
       "photo": "split:face+logo",
       "at": "2026-11-22T16:45:45.582373+00:00"
+    },
+    {
+      "fb_id": "1967786470848956",
+      "topics": [
+        "crypto",
+        "power"
+      ],
+      "mode": "serious",
+      "at": "2026-11-23T02:47:52.914251+00:00"
     }
   ],
   "tuner": {
@@ -943,7 +946,7 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-22"
+    "updated": "2026-11-23"
   },
   "comment_review": {
     "posts": 8,
@@ -955,22 +958,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-11-22"
+    "updated": "2026-11-23"
   },
-  "last_video_post": "2026-11-21",
+  "last_video_post": "2026-11-23",
   "recent_fps": [
-    {
-      "fp": [
-        "GDP",
-        "actual",
-        "deflator",
-        "forecast",
-        "japanese",
-        "prelim",
-        "previous"
-      ],
-      "at": "2026-11-16T00:21:41.759659+00:00"
-    },
     {
       "fp": [
         "IPO",
@@ -1229,6 +1220,20 @@
         "treasury"
       ],
       "at": "2026-11-22T16:45:45.582363+00:00"
+    },
+    {
+      "fp": [
+        "bitcoin",
+        "democrat",
+        "dragonfly",
+        "haseeb",
+        "james",
+        "senator",
+        "speaking",
+        "talarico",
+        "texas"
+      ],
+      "at": "2026-11-23T02:47:52.914246+00:00"
     }
   ],
   "recent_hooks": [
