@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "412f0d309f8d56db",
-    "fb_id": "1967786470848956",
-    "title": "\ud83d\udd25INSIGHT: The most bullish thing for crypto might be a generation of politicians retiring, says @hosseeb. Speaking with @itsciaranlyons, the Dragonfly managing partner pointed to Texas Senator-elec...",
-    "link": "https://x.com/Cointelegraph/status/2124639541629706540",
-    "mode": "serious",
-    "kind": "video",
-    "at": "2026-11-23T02:47:52.914251+00:00"
+    "hash": "51f69b8801a7958f",
+    "fb_id": "1264009986803820_122135654301472689",
+    "title": "US technology ETFs are seeing massive wave of deleveraging: The 3x leveraged long Semiconductor ETF, $SOXL, is down -90% from its June peak, to its lowest since September 2025. This marks its 2nd-l...",
+    "link": "https://x.com/KobeissiLetter/status/2124561296787943647",
+    "mode": "viral",
+    "at": "2026-11-23T11:32:13.430730+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -135,6 +134,7 @@
     "502825213b373f41",
     "5097bb6c23068f1e",
     "50a5aaa741a64e4c",
+    "51f69b8801a7958f",
     "53384af31d4e0217",
     "534724b3044ec482",
     "53fc57ae28b68910",
@@ -423,10 +423,9 @@
   "day_counts": {
     "2026-11-21": 3,
     "2026-11-22": 3,
-    "2026-11-23": 1
+    "2026-11-23": 2
   },
   "recent_titles": [
-    "Gemini 4 Hydrogen turned Google Sheets into a pixel-art canvas. Using @Antigravity, the model shrank thousands of cells to create animated scenes.",
     "BREAKING: Anthropic, $ANT, has priced its IPO at $83 per share, above its marketed range of $70 to $78, per Bloomberg. The company is now expected to raise at least $68 billion through its IPO, plu...",
     "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
     "Putin: The Crimean Bridge is an exclusively civilian facility. It has long ceased to be used for transporting oil and ammunition. We didn't even transport oil using that bridge. It was a purely civ...",
@@ -440,20 +439,10 @@
     "Anthropic is sitting on an enormous cash pile: Anthropic's cash and cash equivalents are up to a record $237 billion following its IPO. This comes as its IPO raised $81 billion, with another $26 bi...",
     "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.",
     "US Treasury Secretary Bessent: need to determine which level of Nvidia business was aware, confident committees are swiftly seeking answers - CBS",
-    "\ud83d\udd25INSIGHT: The most bullish thing for crypto might be a generation of politicians retiring, says @hosseeb. Speaking with @itsciaranlyons, the Dragonfly managing partner pointed to Texas Senator-elec..."
+    "\ud83d\udd25INSIGHT: The most bullish thing for crypto might be a generation of politicians retiring, says @hosseeb. Speaking with @itsciaranlyons, the Dragonfly managing partner pointed to Texas Senator-elec...",
+    "US technology ETFs are seeing massive wave of deleveraging: The 3x leveraged long Semiconductor ETF, $SOXL, is down -90% from its June peak, to its lowest since September 2025. This marks its 2nd-l..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122131091889472689",
-      "topics": [
-        "ai",
-        "power",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-11-05T23:01:24.295271+00:00"
-    },
     {
       "fb_id": "1784471295998403",
       "topics": [
@@ -905,6 +894,17 @@
       ],
       "mode": "serious",
       "at": "2026-11-23T02:47:52.914251+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122135654301472689",
+      "topics": [
+        "ai",
+        "crypto",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-23T11:32:13.430730+00:00"
     }
   ],
   "tuner": {
@@ -962,24 +962,6 @@
   },
   "last_video_post": "2026-11-23",
   "recent_fps": [
-    {
-      "fp": [
-        "IPO",
-        "NVDA",
-        "US",
-        "WTI",
-        "all",
-        "anthropic",
-        "crude",
-        "dow",
-        "huang",
-        "jensen",
-        "jones",
-        "nasdaq",
-        "nvidia"
-      ],
-      "at": "2026-11-16T06:46:04.652635+00:00"
-    },
     {
       "fp": [
         "CEO",
@@ -1234,10 +1216,26 @@
         "texas"
       ],
       "at": "2026-11-23T02:47:52.914246+00:00"
+    },
+    {
+      "fp": [
+        "3x",
+        "ETF",
+        "SOXL",
+        "US",
+        "april",
+        "july",
+        "june",
+        "march",
+        "mean",
+        "semiconductor",
+        "september",
+        "this"
+      ],
+      "at": "2026-11-23T11:32:13.430719+00:00"
     }
   ],
   "recent_hooks": [
-    "2.4% is the number to watch in Japan's prelim GDP deflator year-over-year. Markets expected 2.7%, down from the previous 2.6% reading, but the actual print missed both. Domestic inflation pressure isn't building quite as fast as the consensus laid out.",
     "Futures are pricing tech optimism ahead of Nvidia ($NVDA) earnings and the Anthropic IPO, with Nasdaq 100 futures up 0.7% while the S&P 500 gains 0.3% and the Dow Jones ticks up 0.2%. Market focus remains squarely on the major tech events setting the tone for the week.",
     "Leo KoGuan is freezing further investment, Elon Musk is offering to hire him, and 150k people have signed a petition to bring him back. The market is realizing that Nvidia Corporation ($NVDA) without Jensen Huang is a fundamentally different risk profile.",
     "251 BTC bought for $17.5M, averaging $69,853 per coin, bumps Strive\u2019s holdings to 43,404 BTC. The $10M raised through the $SATS ATM gives a liquidity cushion. Preferred dividend coverage now 133 months, a long runway. Amplification ratio at 76% $ASST $Strive, Inc. ($SATA) $SATS signals leveraged exposure.",
@@ -1251,7 +1249,8 @@
     "Citi, PNC, and Citizens changed their bank terms this week, and the fine print is brutal for anyone handing their credentials to ChatGPT or Claude. If you give an external AI agent your login and it empties your account, gets hacked, or ignores your instructions, the banks now count every transaction as if you personally authorized it. Zero refund. You are fully on the hook for whatever the bot does.",
     "Anthropic ($ANTH) is sitting on a record $237 billion cash pile after raising $81 billion in its IPO and another $26 billion in a private placement.",
     "Russia is officially letting its exchanges launch cryptocurrency trading, provided they clear it with the Central Bank. Going from a strict domestic crackdown to regulated exchange access shows how fast nation-states are rewriting their financial rules when global settlement needs change.",
-    "US Treasury Secretary Bessent told CBS that committees are swiftly seeking answers on which level of Nvidia ($NVDA) business was aware. When the Treasury gets involved, a corporate investigation stops being an internal matter and becomes a sovereign risk calculation for the entire semiconductor supply chain. #nvidia"
+    "US Treasury Secretary Bessent told CBS that committees are swiftly seeking answers on which level of Nvidia ($NVDA) business was aware. When the Treasury gets involved, a corporate investigation stops being an internal matter and becomes a sovereign risk calculation for the entire semiconductor supply chain. #nvidia",
+    "The 3x leveraged long Semiconductor ETF ($SOXL) has erased 90% of its value since its June peak, dragging the fund to its lowest level since September 2025."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
