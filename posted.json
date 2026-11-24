@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "2cf65fe07b88da20",
-    "fb_id": "1137803662290213",
-    "title": "BREAKING: Jensen Huang officially returns to Nvidia's office, $NVDA, and receives a standing ovation from Nvidia employees. \"I'm going to be a better CEO the second time around,\" Jensen Huang told ...",
-    "link": "https://x.com/KobeissiLetter/status/2124938048253116837",
-    "mode": "viral",
-    "kind": "video",
-    "at": "2026-11-24T06:36:26.725266+00:00"
+    "hash": "ca0d0d0602365c66",
+    "fb_id": "1264009986803820_122135981019472689",
+    "title": "BREAKING: Global physical gold-backed ETFs posted -20 tonnes in gold outflows last week, their largest weekly withdrawal since June. Gold ETFs have seen outflows in 3 of the last 5 weeks, totalling...",
+    "link": "https://x.com/KobeissiLetter/status/2125284835518279763",
+    "mode": "serious",
+    "at": "2026-11-24T18:15:29.315562+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -332,6 +331,7 @@
     "c8831ff911363d0b",
     "c8917e872d1192df",
     "c93215bad5ea439f",
+    "ca0d0d0602365c66",
     "caaa474efee786f4",
     "ccbe6f2f8f52fbb8",
     "cd89168481181c91",
@@ -426,10 +426,9 @@
   "day_counts": {
     "2026-11-22": 3,
     "2026-11-23": 3,
-    "2026-11-24": 1
+    "2026-11-24": 2
   },
   "recent_titles": [
-    "Putin: The Crimean Bridge is an exclusively civilian facility. It has long ceased to be used for transporting oil and ammunition. We didn't even transport oil using that bridge. It was a purely civ...",
     "BREAKING: The S&P 500 closes down for the 6th-straight day, now down -$6 trillion since the October 6th high. The Nasdaq 100 is now down -15% from its record high.",
     "\ud83d\udd25 TODAY: Hashi mainnet launched on Sui and allows Bitcoin holders to use their BTC as collateral to borrow stablecoins.",
     "It's clear now more than ever: Ultimately, this bear market in tech stocks will be remembered as the best buying opportunity of the last decade. Unless your view is that the AI is worthless and the...",
@@ -443,18 +442,10 @@
     "\ud83d\udd25INSIGHT: The most bullish thing for crypto might be a generation of politicians retiring, says @hosseeb. Speaking with @itsciaranlyons, the Dragonfly managing partner pointed to Texas Senator-elec...",
     "US technology ETFs are seeing massive wave of deleveraging: The 3x leveraged long Semiconductor ETF, $SOXL, is down -90% from its June peak, to its lowest since September 2025. This marks its 2nd-l...",
     "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today.",
-    "BREAKING: Jensen Huang officially returns to Nvidia's office, $NVDA, and receives a standing ovation from Nvidia employees. \"I'm going to be a better CEO the second time around,\" Jensen Huang told ..."
+    "BREAKING: Jensen Huang officially returns to Nvidia's office, $NVDA, and receives a standing ovation from Nvidia employees. \"I'm going to be a better CEO the second time around,\" Jensen Huang told ...",
+    "BREAKING: Global physical gold-backed ETFs posted -20 tonnes in gold outflows last week, their largest weekly withdrawal since June. Gold ETFs have seen outflows in 3 of the last 5 weeks, totalling..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122131408401472689",
-      "topics": [
-        "gold_oil"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-11-07T03:13:14.098405+00:00"
-    },
     {
       "fb_id": "1669950714723473",
       "topics": [
@@ -907,6 +898,16 @@
       ],
       "mode": "viral",
       "at": "2026-11-24T06:36:26.725266+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122135981019472689",
+      "topics": [
+        "crypto",
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "photo": "source",
+      "at": "2026-11-24T18:15:29.315562+00:00"
     }
   ],
   "tuner": {
@@ -964,22 +965,6 @@
   },
   "last_video_post": "2026-11-24",
   "recent_fps": [
-    {
-      "fp": [
-        "$10",
-        "$17.5",
-        "$69,853",
-        "ASST",
-        "ATM",
-        "BTC",
-        "SAT",
-        "SATA",
-        "amplification",
-        "current",
-        "strive"
-      ],
-      "at": "2026-11-17T08:30:59.494031+00:00"
-    },
     {
       "fp": [
         "$581.9",
@@ -1221,10 +1206,23 @@
         "nvidia"
       ],
       "at": "2026-11-24T06:36:26.725253+00:00"
+    },
+    {
+      "fp": [
+        "ETF",
+        "GLD",
+        "UK",
+        "US",
+        "china",
+        "global",
+        "gold",
+        "june",
+        "last"
+      ],
+      "at": "2026-11-24T18:15:29.315549+00:00"
     }
   ],
   "recent_hooks": [
-    "Leo KoGuan is freezing further investment, Elon Musk is offering to hire him, and 150k people have signed a petition to bring him back. The market is realizing that Nvidia Corporation ($NVDA) without Jensen Huang is a fundamentally different risk profile.",
     "251 BTC bought for $17.5M, averaging $69,853 per coin, bumps Strive\u2019s holdings to 43,404 BTC. The $10M raised through the $SATS ATM gives a liquidity cushion. Preferred dividend coverage now 133 months, a long runway. Amplification ratio at 76% $ASST $Strive, Inc. ($SATA) $SATS signals leveraged exposure.",
     "15 million records from Deutsche Bank ($DB) allegedly leak, exposing 3,000 transactions and roughly $582 million in suspicious payments linked to Jeffrey Epstein, alongside undisclosed financial dealings with Donald Trump and wealthy Russian clients.",
     "Anthropic ($ANT) just priced its IPO at $83 per share, blowing past its initial $70 to $78 marketed range.",
@@ -1238,7 +1236,8 @@
     "Russia is officially letting its exchanges launch cryptocurrency trading, provided they clear it with the Central Bank. Going from a strict domestic crackdown to regulated exchange access shows how fast nation-states are rewriting their financial rules when global settlement needs change.",
     "US Treasury Secretary Bessent told CBS that committees are swiftly seeking answers on which level of Nvidia ($NVDA) business was aware. When the Treasury gets involved, a corporate investigation stops being an internal matter and becomes a sovereign risk calculation for the entire semiconductor supply chain. #nvidia",
     "The 3x leveraged long Semiconductor ETF ($SOXL) has erased 90% of its value since its June peak, dragging the fund to its lowest level since September 2025.",
-    "Short sellers took an $11,300,000,000 loss on Nvidia ($NVDA) in a single day. Betting against the leader of the hardware cycle continues to be the most expensive position on the market. #nvidia"
+    "Short sellers took an $11,300,000,000 loss on Nvidia ($NVDA) in a single day. Betting against the leader of the hardware cycle continues to be the most expensive position on the market. #nvidia",
+    "-20 tonnes. That is how much global physical gold-backed ETFs lost last week, marking their largest weekly withdrawal since June. Gold ETFs have now suffered outflows in 3 of the last 5 weeks, coming out to -30 tonnes net. SPDR Gold Shares ($GLD), the largest gold-backed ETF in the US, led the damage by shedding -10 tonnes on its own as total US outflows hit -12 tonnes. China and the UK followed behind. Everyone watched gold hit highs while the underlying fund redemptions quietly started weeks ago."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
