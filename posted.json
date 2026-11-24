@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "bfedb276fa402b5a",
-    "fb_id": "1264009986803820_122135765301472689",
-    "title": "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today.",
-    "link": "https://x.com/WatcherGuru/status/2124986431705604532",
+    "hash": "2cf65fe07b88da20",
+    "fb_id": "1137803662290213",
+    "title": "BREAKING: Jensen Huang officially returns to Nvidia's office, $NVDA, and receives a standing ovation from Nvidia employees. \"I'm going to be a better CEO the second time around,\" Jensen Huang told ...",
+    "link": "https://x.com/KobeissiLetter/status/2124938048253116837",
     "mode": "viral",
-    "at": "2026-11-23T22:54:02.443255+00:00"
+    "kind": "video",
+    "at": "2026-11-24T06:36:26.725266+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -84,6 +85,7 @@
     "2b76f5d27278ae96",
     "2bbf1d770e89e3e5",
     "2cf55ad8c9c15fce",
+    "2cf65fe07b88da20",
     "2d3d5b5f61623900",
     "2d63a9f4c47e07bc",
     "2d8bf0d617a8cbae",
@@ -422,12 +424,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-21": 3,
     "2026-11-22": 3,
-    "2026-11-23": 3
+    "2026-11-23": 3,
+    "2026-11-24": 1
   },
   "recent_titles": [
-    "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
     "Putin: The Crimean Bridge is an exclusively civilian facility. It has long ceased to be used for transporting oil and ammunition. We didn't even transport oil using that bridge. It was a purely civ...",
     "BREAKING: The S&P 500 closes down for the 6th-straight day, now down -$6 trillion since the October 6th high. The Nasdaq 100 is now down -15% from its record high.",
     "\ud83d\udd25 TODAY: Hashi mainnet launched on Sui and allows Bitcoin holders to use their BTC as collateral to borrow stablecoins.",
@@ -441,19 +442,10 @@
     "US Treasury Secretary Bessent: need to determine which level of Nvidia business was aware, confident committees are swiftly seeking answers - CBS",
     "\ud83d\udd25INSIGHT: The most bullish thing for crypto might be a generation of politicians retiring, says @hosseeb. Speaking with @itsciaranlyons, the Dragonfly managing partner pointed to Texas Senator-elec...",
     "US technology ETFs are seeing massive wave of deleveraging: The 3x leveraged long Semiconductor ETF, $SOXL, is down -90% from its June peak, to its lowest since September 2025. This marks its 2nd-l...",
-    "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today."
+    "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today.",
+    "BREAKING: Jensen Huang officially returns to Nvidia's office, $NVDA, and receives a standing ovation from Nvidia employees. \"I'm going to be a better CEO the second time around,\" Jensen Huang told ..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122131331715472689",
-      "topics": [
-        "power",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-11-06T23:29:48.154733+00:00"
-    },
     {
       "fb_id": "1264009986803820_122131408401472689",
       "topics": [
@@ -907,6 +899,14 @@
       "mode": "viral",
       "photo": "entity-logo",
       "at": "2026-11-23T22:54:02.443255+00:00"
+    },
+    {
+      "fb_id": "1137803662290213",
+      "topics": [
+        "ai"
+      ],
+      "mode": "viral",
+      "at": "2026-11-24T06:36:26.725266+00:00"
     }
   ],
   "tuner": {
@@ -948,7 +948,7 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-23"
+    "updated": "2026-11-24"
   },
   "comment_review": {
     "posts": 8,
@@ -960,27 +960,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-11-23"
+    "updated": "2026-11-24"
   },
-  "last_video_post": "2026-11-23",
+  "last_video_post": "2026-11-24",
   "recent_fps": [
-    {
-      "fp": [
-        "americans",
-        "but",
-        "democrats",
-        "foreign",
-        "lavrov",
-        "minister",
-        "people",
-        "russia",
-        "russian",
-        "they",
-        "this",
-        "washington"
-      ],
-      "at": "2026-11-17T00:28:49.003234+00:00"
-    },
     {
       "fp": [
         "$10",
@@ -1228,6 +1211,16 @@
         "nvidia"
       ],
       "at": "2026-11-23T22:54:02.443242+00:00"
+    },
+    {
+      "fp": [
+        "CEO",
+        "NVDA",
+        "huang",
+        "jensen",
+        "nvidia"
+      ],
+      "at": "2026-11-24T06:36:26.725253+00:00"
     }
   ],
   "recent_hooks": [
