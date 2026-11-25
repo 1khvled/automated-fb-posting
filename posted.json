@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "56ab65e46e5ca38c",
-    "fb_id": "1264009986803820_122136055971472689",
-    "title": "Like AOC, @BernieSanders tours the country railing against oligarchs and billionaires. I analyzed her expenditures yesterday. Take a look. Fascinating. So I decided to analyze his campaign expendit...",
-    "link": "https://x.com/hernandezforny/status/2125226103266496979",
-    "mode": "viral",
-    "at": "2026-11-25T02:33:06.445585+00:00"
+    "hash": "d19d425e9a23d380",
+    "fb_id": "1189080443574021",
+    "title": "German AfD Leader Alice Weidel: End the energy transition. Put an end to subsidies for expensive, inefficient wind and solar power. Abolish CO2 charges immediately. Above all, provide cheap energy,...",
+    "link": "https://x.com/clashreport/status/2125551474134376849",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-11-25T11:40:55.625843+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -340,6 +341,7 @@
     "ce5020520f39e42f",
     "d0717b9d9191c46d",
     "d08268db4f781648",
+    "d19d425e9a23d380",
     "d1ada08f4696f8f6",
     "d2018c285e3aa1c8",
     "d248d07438581e6c",
@@ -427,10 +429,9 @@
   "day_counts": {
     "2026-11-23": 3,
     "2026-11-24": 2,
-    "2026-11-25": 1
+    "2026-11-25": 2
   },
   "recent_titles": [
-    "\ud83d\udd25 TODAY: Hashi mainnet launched on Sui and allows Bitcoin holders to use their BTC as collateral to borrow stablecoins.",
     "It's clear now more than ever: Ultimately, this bear market in tech stocks will be remembered as the best buying opportunity of the last decade. Unless your view is that the AI is worthless and the...",
     "Breaking: Michael Burry\u2019s updated positions He: \u2022 Sold 50% Semiconductor ETF $SMH puts \u2022 Sold 50% Nvidia $NVDA puts \u2022 Sold 30% of Zoetis $ZTS calls \u2022 Holding his Nasdaq 100 April 2027 puts \u2022 Increa...",
     "Crypto prices 2021 vs 2026 (November) Bitcoin: \u2022 2021: $59,700 \u2022 2026: $59,000 Ethereum: \u2022 2021: $4,410 \u2022 2026: $1,620 BNB: \u2022 2021: $605 \u2022 2026: $540 SOL: \u2022 2021: $220 \u2022 2026: $69 XRP: \u2022 2021: $1.1...",
@@ -444,19 +445,10 @@
     "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today.",
     "BREAKING: Jensen Huang officially returns to Nvidia's office, $NVDA, and receives a standing ovation from Nvidia employees. \"I'm going to be a better CEO the second time around,\" Jensen Huang told ...",
     "BREAKING: Global physical gold-backed ETFs posted -20 tonnes in gold outflows last week, their largest weekly withdrawal since June. Gold ETFs have seen outflows in 3 of the last 5 weeks, totalling...",
-    "Like AOC, @BernieSanders tours the country railing against oligarchs and billionaires. I analyzed her expenditures yesterday. Take a look. Fascinating. So I decided to analyze his campaign expendit..."
+    "Like AOC, @BernieSanders tours the country railing against oligarchs and billionaires. I analyzed her expenditures yesterday. Take a look. Fascinating. So I decided to analyze his campaign expendit...",
+    "German AfD Leader Alice Weidel: End the energy transition. Put an end to subsidies for expensive, inefficient wind and solar power. Abolish CO2 charges immediately. Above all, provide cheap energy,..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122131642347472689",
-      "topics": [
-        "crypto",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-11-07T23:56:05.245252+00:00"
-    },
     {
       "fb_id": "1264009986803820_122131679151472689",
       "topics": [
@@ -910,6 +902,14 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-25T02:33:06.445585+00:00"
+    },
+    {
+      "fb_id": "1189080443574021",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "at": "2026-11-25T11:40:55.625843+00:00"
     }
   ],
   "tuner": {
@@ -965,19 +965,8 @@
     "sample_questions": [],
     "updated": "2026-11-25"
   },
-  "last_video_post": "2026-11-24",
+  "last_video_post": "2026-11-25",
   "recent_fps": [
-    {
-      "fp": [
-        "antigravity",
-        "gemini",
-        "google",
-        "hydrogen",
-        "sheets",
-        "using"
-      ],
-      "at": "2026-11-18T07:39:06.890320+00:00"
-    },
     {
       "fp": [
         "$26",
@@ -1223,6 +1212,20 @@
         "take"
       ],
       "at": "2026-11-25T02:33:06.445577+00:00"
+    },
+    {
+      "fp": [
+        "abolish",
+        "above",
+        "alice",
+        "end",
+        "german",
+        "leader",
+        "put",
+        "russia",
+        "weidel"
+      ],
+      "at": "2026-11-25T11:40:55.625833+00:00"
     }
   ],
   "recent_hooks": [
