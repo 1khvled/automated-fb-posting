@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "ca0d0d0602365c66",
-    "fb_id": "1264009986803820_122135981019472689",
-    "title": "BREAKING: Global physical gold-backed ETFs posted -20 tonnes in gold outflows last week, their largest weekly withdrawal since June. Gold ETFs have seen outflows in 3 of the last 5 weeks, totalling...",
-    "link": "https://x.com/KobeissiLetter/status/2125284835518279763",
-    "mode": "serious",
-    "at": "2026-11-24T18:15:29.315562+00:00"
+    "hash": "56ab65e46e5ca38c",
+    "fb_id": "1264009986803820_122136055971472689",
+    "title": "Like AOC, @BernieSanders tours the country railing against oligarchs and billionaires. I analyzed her expenditures yesterday. Take a look. Fascinating. So I decided to analyze his campaign expendit...",
+    "link": "https://x.com/hernandezforny/status/2125226103266496979",
+    "mode": "viral",
+    "at": "2026-11-25T02:33:06.445585+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -143,6 +143,7 @@
     "54acd696bcc021cc",
     "55c2087412b8909b",
     "56194c1a1cfdf52c",
+    "56ab65e46e5ca38c",
     "58cfd490098879f3",
     "5b08901b0be5a112",
     "5b4b6123aa47e69f",
@@ -424,12 +425,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-22": 3,
     "2026-11-23": 3,
-    "2026-11-24": 2
+    "2026-11-24": 2,
+    "2026-11-25": 1
   },
   "recent_titles": [
-    "BREAKING: The S&P 500 closes down for the 6th-straight day, now down -$6 trillion since the October 6th high. The Nasdaq 100 is now down -15% from its record high.",
     "\ud83d\udd25 TODAY: Hashi mainnet launched on Sui and allows Bitcoin holders to use their BTC as collateral to borrow stablecoins.",
     "It's clear now more than ever: Ultimately, this bear market in tech stocks will be remembered as the best buying opportunity of the last decade. Unless your view is that the AI is worthless and the...",
     "Breaking: Michael Burry\u2019s updated positions He: \u2022 Sold 50% Semiconductor ETF $SMH puts \u2022 Sold 50% Nvidia $NVDA puts \u2022 Sold 30% of Zoetis $ZTS calls \u2022 Holding his Nasdaq 100 April 2027 puts \u2022 Increa...",
@@ -443,17 +443,10 @@
     "US technology ETFs are seeing massive wave of deleveraging: The 3x leveraged long Semiconductor ETF, $SOXL, is down -90% from its June peak, to its lowest since September 2025. This marks its 2nd-l...",
     "JUST IN: Nvidia $NVDA short sellers lose $11,300,000,000 today.",
     "BREAKING: Jensen Huang officially returns to Nvidia's office, $NVDA, and receives a standing ovation from Nvidia employees. \"I'm going to be a better CEO the second time around,\" Jensen Huang told ...",
-    "BREAKING: Global physical gold-backed ETFs posted -20 tonnes in gold outflows last week, their largest weekly withdrawal since June. Gold ETFs have seen outflows in 3 of the last 5 weeks, totalling..."
+    "BREAKING: Global physical gold-backed ETFs posted -20 tonnes in gold outflows last week, their largest weekly withdrawal since June. Gold ETFs have seen outflows in 3 of the last 5 weeks, totalling...",
+    "Like AOC, @BernieSanders tours the country railing against oligarchs and billionaires. I analyzed her expenditures yesterday. Take a look. Fascinating. So I decided to analyze his campaign expendit..."
   ],
   "history": [
-    {
-      "fb_id": "1669950714723473",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "at": "2026-11-07T16:30:18.381049+00:00"
-    },
     {
       "fb_id": "1264009986803820_122131642347472689",
       "topics": [
@@ -908,6 +901,15 @@
       "mode": "serious",
       "photo": "source",
       "at": "2026-11-24T18:15:29.315562+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122136055971472689",
+      "topics": [
+        "power"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-25T02:33:06.445585+00:00"
     }
   ],
   "tuner": {
@@ -949,7 +951,7 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-24"
+    "updated": "2026-11-25"
   },
   "comment_review": {
     "posts": 8,
@@ -961,24 +963,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-11-24"
+    "updated": "2026-11-25"
   },
   "last_video_post": "2026-11-24",
   "recent_fps": [
-    {
-      "fp": [
-        "$581.9",
-        "$582",
-        "bank",
-        "deutsche",
-        "donald",
-        "epstein",
-        "jeffrey",
-        "russian",
-        "trump"
-      ],
-      "at": "2026-11-17T17:53:02.864954+00:00"
-    },
     {
       "fp": [
         "antigravity",
@@ -1220,10 +1208,24 @@
         "last"
       ],
       "at": "2026-11-24T18:15:29.315549+00:00"
+    },
+    {
+      "fp": [
+        "$1.06",
+        "$53",
+        "$562,000",
+        "AOC",
+        "all",
+        "fascinating",
+        "fighting",
+        "here",
+        "like",
+        "take"
+      ],
+      "at": "2026-11-25T02:33:06.445577+00:00"
     }
   ],
   "recent_hooks": [
-    "251 BTC bought for $17.5M, averaging $69,853 per coin, bumps Strive\u2019s holdings to 43,404 BTC. The $10M raised through the $SATS ATM gives a liquidity cushion. Preferred dividend coverage now 133 months, a long runway. Amplification ratio at 76% $ASST $Strive, Inc. ($SATA) $SATS signals leveraged exposure.",
     "15 million records from Deutsche Bank ($DB) allegedly leak, exposing 3,000 transactions and roughly $582 million in suspicious payments linked to Jeffrey Epstein, alongside undisclosed financial dealings with Donald Trump and wealthy Russian clients.",
     "Anthropic ($ANT) just priced its IPO at $83 per share, blowing past its initial $70 to $78 marketed range.",
     "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
@@ -1237,7 +1239,8 @@
     "US Treasury Secretary Bessent told CBS that committees are swiftly seeking answers on which level of Nvidia ($NVDA) business was aware. When the Treasury gets involved, a corporate investigation stops being an internal matter and becomes a sovereign risk calculation for the entire semiconductor supply chain. #nvidia",
     "The 3x leveraged long Semiconductor ETF ($SOXL) has erased 90% of its value since its June peak, dragging the fund to its lowest level since September 2025.",
     "Short sellers took an $11,300,000,000 loss on Nvidia ($NVDA) in a single day. Betting against the leader of the hardware cycle continues to be the most expensive position on the market. #nvidia",
-    "-20 tonnes. That is how much global physical gold-backed ETFs lost last week, marking their largest weekly withdrawal since June. Gold ETFs have now suffered outflows in 3 of the last 5 weeks, coming out to -30 tonnes net. SPDR Gold Shares ($GLD), the largest gold-backed ETF in the US, led the damage by shedding -10 tonnes on its own as total US outflows hit -12 tonnes. China and the UK followed behind. Everyone watched gold hit highs while the underlying fund redemptions quietly started weeks ago."
+    "-20 tonnes. That is how much global physical gold-backed ETFs lost last week, marking their largest weekly withdrawal since June. Gold ETFs have now suffered outflows in 3 of the last 5 weeks, coming out to -30 tonnes net. SPDR Gold Shares ($GLD), the largest gold-backed ETF in the US, led the damage by shedding -10 tonnes on its own as total US outflows hit -12 tonnes. China and the UK followed behind. Everyone watched gold hit highs while the underlying fund redemptions quietly started weeks ago.",
+    "Bill Ackman analyzed 22,000 lines of Bernie Sanders campaign expenditures since 2017, totaling $53 MILLION spent."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
