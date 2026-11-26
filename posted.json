@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "b036ffe7a6d6b14e",
-    "fb_id": "1264009986803820_122136448749472689",
-    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says stocks are crashing because Democrats won midterm elections. \"I wasn't on the Ballot, but if I was, the results, just like all three times before, would have been m...",
-    "link": "https://x.com/WatcherGuru/status/2125642235945631799",
-    "mode": "viral",
-    "at": "2026-11-26T12:39:53.625204+00:00"
+    "hash": "bf1899fb59866b66",
+    "fb_id": "1264009986803820_122136539361472689",
+    "title": "\ud83c\uddf0\ud83c\uddf5 ALERT: North Korean hackers have moved more than $600 million in crypto stolen from Binance through THORChain, according to blockchain researchers cited by Reuters.",
+    "link": "https://x.com/Cointelegraph/status/2126063621318832330",
+    "mode": "serious",
+    "at": "2026-11-26T22:00:53.505904+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -320,6 +320,7 @@
     "bbec67196eba705d",
     "bd9cd56d67ce51f1",
     "beda8733ff194127",
+    "bf1899fb59866b66",
     "bfe298764d6ebf71",
     "bfedb276fa402b5a",
     "c0ca1e4fb69f6ec7",
@@ -431,10 +432,9 @@
   "day_counts": {
     "2026-11-24": 2,
     "2026-11-25": 3,
-    "2026-11-26": 2
+    "2026-11-26": 3
   },
   "recent_titles": [
-    "Live look at the crypto and stock market this week",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 If an AI agent empties your account, your bank won't refund your money anymore U.S. banks like Citi, PNC and Citizens changed their terms this week. If you give your credentials to an ...",
     "Anthropic is sitting on an enormous cash pile: Anthropic's cash and cash equivalents are up to a record $237 billion following its IPO. This comes as its IPO raised $81 billion, with another $26 bi...",
     "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.",
@@ -448,19 +448,10 @@
     "German AfD Leader Alice Weidel: End the energy transition. Put an end to subsidies for expensive, inefficient wind and solar power. Abolish CO2 charges immediately. Above all, provide cheap energy,...",
     "JUST IN: Financial markets are crashing again. Gold falls under $3,470 S&P 500 falls under 7,000 Nasdaq falls under 22,800 Bitcoin falls under $58,000 Trillions of dollars in combined market value ...",
     "Who is the secret hero of the successful Iowa lead detonation effort? Without hesitation: 'Stephen Miller' Former Iowa Governor candidate Zach Lahn gives INSIDER information on how Trump's White Ho...",
-    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says stocks are crashing because Democrats won midterm elections. \"I wasn't on the Ballot, but if I was, the results, just like all three times before, would have been m..."
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says stocks are crashing because Democrats won midterm elections. \"I wasn't on the Ballot, but if I was, the results, just like all three times before, would have been m...",
+    "\ud83c\uddf0\ud83c\uddf5 ALERT: North Korean hackers have moved more than $600 million in crypto stolen from Binance through THORChain, according to blockchain researchers cited by Reuters."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122131956987472689",
-      "topics": [
-        "ai",
-        "stocks"
-      ],
-      "mode": "viral",
-      "photo": "source",
-      "at": "2026-11-09T06:46:57.630541+00:00"
-    },
     {
       "fb_id": "29293439950289681",
       "topics": [
@@ -916,6 +907,15 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-26T12:39:53.625204+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122136539361472689",
+      "topics": [
+        "crypto"
+      ],
+      "mode": "serious",
+      "photo": "split:scene",
+      "at": "2026-11-26T22:00:53.505904+00:00"
     }
   ],
   "tuner": {
@@ -973,14 +973,6 @@
   },
   "last_video_post": "2026-11-26",
   "recent_fps": [
-    {
-      "fp": [
-        "$6",
-        "nasdaq",
-        "october"
-      ],
-      "at": "2026-11-19T21:37:33.140525+00:00"
-    },
     {
       "fp": [
         "BTC",
@@ -1241,10 +1233,20 @@
         "trump"
       ],
       "at": "2026-11-26T12:39:53.625189+00:00"
+    },
+    {
+      "fp": [
+        "$600",
+        "ALERT",
+        "binance",
+        "korean",
+        "north",
+        "reuters"
+      ],
+      "at": "2026-11-26T22:00:53.505884+00:00"
     }
   ],
   "recent_hooks": [
-    "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
     "The S&P 500 ($SPX) has erased $6 trillion in value since its October 6th high after closing down for the 6th-straight day. With the Nasdaq 100 ($NDX) now down 15% from its own record high, the market is no longer just pulling back\u2014it is repricing tech leadership at a pace that wipes out months of gains in less than a week.",
     "The argument that tech stocks are cheap hinges entirely on believing the AI revolution is far from over. If Nvidia ($NVDA) handles its leadership transition and political headwinds soften, pulling back from this tech bear market might end up looking like the single best entry point of the decade.",
     "Michael Burry is trimming his downside bets, selling off 50% of his puts in both VanEck Semiconductor ETF ($SMH) and Nvidia ($NVDA), alongside 30% of his Zoetis ($ZTS) calls.",
@@ -1258,7 +1260,8 @@
     "-20 tonnes. That is how much global physical gold-backed ETFs lost last week, marking their largest weekly withdrawal since June. Gold ETFs have now suffered outflows in 3 of the last 5 weeks, coming out to -30 tonnes net. SPDR Gold Shares ($GLD), the largest gold-backed ETF in the US, led the damage by shedding -10 tonnes on its own as total US outflows hit -12 tonnes. China and the UK followed behind. Everyone watched gold hit highs while the underlying fund redemptions quietly started weeks ago.",
     "Bill Ackman analyzed 22,000 lines of Bernie Sanders campaign expenditures since 2017, totaling $53 MILLION spent.",
     "Gold under $3,470, the S&P 500 under 7,000, Nasdaq under 22,800, and Bitcoin ($BTC) under $58,000 all at the same time. Trillions in combined market value wiped out today because when liquidity vanishes, even the safe havens get sold to cover the rest.",
-    "President Trump is blaming stock market weakness directly on recent midterm election wins by Democrats, arguing that the market and 401-ks would be BOOMING instead if he had been on the ballot."
+    "President Trump is blaming stock market weakness directly on recent midterm election wins by Democrats, arguing that the market and 401-ks would be BOOMING instead if he had been on the ballot.",
+    "$600 million in stolen crypto from Binance ($BNB) has now been funneled through THORChain ($RUNE) by North Korean hackers. That is a massive volume of illicit capital moving right through a decentralized protocol in broad daylight, showing once again how hard it is to stop capital flows on-chain after a major exploit."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
