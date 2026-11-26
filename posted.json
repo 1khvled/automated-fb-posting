@@ -1,12 +1,11 @@
 {
   "last_post": {
-    "hash": "a024975784ca6d34",
-    "fb_id": "1516091840412795",
-    "title": "Who is the secret hero of the successful Iowa lead detonation effort? Without hesitation: 'Stephen Miller' Former Iowa Governor candidate Zach Lahn gives INSIDER information on how Trump's White Ho...",
-    "link": "https://x.com/bennyjohnson/status/2125647572740010047",
+    "hash": "b036ffe7a6d6b14e",
+    "fb_id": "1264009986803820_122136448749472689",
+    "title": "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says stocks are crashing because Democrats won midterm elections. \"I wasn't on the Ballot, but if I was, the results, just like all three times before, would have been m...",
+    "link": "https://x.com/WatcherGuru/status/2125642235945631799",
     "mode": "viral",
-    "kind": "video",
-    "at": "2026-11-26T03:06:14.151631+00:00"
+    "at": "2026-11-26T12:39:53.625204+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -295,6 +294,7 @@
     "ad6b0fb14d2073e5",
     "adefb15cd7173c79",
     "af33f67c94d7a379",
+    "b036ffe7a6d6b14e",
     "b259bbd0146ca3d9",
     "b2c26501e86f55be",
     "b3030ad2cc77be03",
@@ -431,10 +431,9 @@
   "day_counts": {
     "2026-11-24": 2,
     "2026-11-25": 3,
-    "2026-11-26": 1
+    "2026-11-26": 2
   },
   "recent_titles": [
-    "Crypto prices 2021 vs 2026 (November) Bitcoin: \u2022 2021: $59,700 \u2022 2026: $59,000 Ethereum: \u2022 2021: $4,410 \u2022 2026: $1,620 BNB: \u2022 2021: $605 \u2022 2026: $540 SOL: \u2022 2021: $220 \u2022 2026: $69 XRP: \u2022 2021: $1.1...",
     "Live look at the crypto and stock market this week",
     "BREAKING: \ud83c\uddfa\ud83c\uddf8 If an AI agent empties your account, your bank won't refund your money anymore U.S. banks like Citi, PNC and Citizens changed their terms this week. If you give your credentials to an ...",
     "Anthropic is sitting on an enormous cash pile: Anthropic's cash and cash equivalents are up to a record $237 billion following its IPO. This comes as its IPO raised $81 billion, with another $26 bi...",
@@ -448,18 +447,10 @@
     "Like AOC, @BernieSanders tours the country railing against oligarchs and billionaires. I analyzed her expenditures yesterday. Take a look. Fascinating. So I decided to analyze his campaign expendit...",
     "German AfD Leader Alice Weidel: End the energy transition. Put an end to subsidies for expensive, inefficient wind and solar power. Abolish CO2 charges immediately. Above all, provide cheap energy,...",
     "JUST IN: Financial markets are crashing again. Gold falls under $3,470 S&P 500 falls under 7,000 Nasdaq falls under 22,800 Bitcoin falls under $58,000 Trillions of dollars in combined market value ...",
-    "Who is the secret hero of the successful Iowa lead detonation effort? Without hesitation: 'Stephen Miller' Former Iowa Governor candidate Zach Lahn gives INSIDER information on how Trump's White Ho..."
+    "Who is the secret hero of the successful Iowa lead detonation effort? Without hesitation: 'Stephen Miller' Former Iowa Governor candidate Zach Lahn gives INSIDER information on how Trump's White Ho...",
+    "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says stocks are crashing because Democrats won midterm elections. \"I wasn't on the Ballot, but if I was, the results, just like all three times before, would have been m..."
   ],
   "history": [
-    {
-      "fb_id": "1591588082770690",
-      "topics": [
-        "gold_oil",
-        "power"
-      ],
-      "mode": "viral",
-      "at": "2026-11-09T00:19:12.249277+00:00"
-    },
     {
       "fb_id": "1264009986803820_122131956987472689",
       "topics": [
@@ -915,6 +906,16 @@
       ],
       "mode": "viral",
       "at": "2026-11-26T03:06:14.151631+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122136448749472689",
+      "topics": [
+        "power",
+        "stocks"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-26T12:39:53.625204+00:00"
     }
   ],
   "tuner": {
@@ -972,14 +973,6 @@
   },
   "last_video_post": "2026-11-26",
   "recent_fps": [
-    {
-      "fp": [
-        "bridge",
-        "crimean",
-        "putin"
-      ],
-      "at": "2026-11-19T13:11:46.647965+00:00"
-    },
     {
       "fp": [
         "$6",
@@ -1235,10 +1228,22 @@
         "zach"
       ],
       "at": "2026-11-26T03:06:14.151620+00:00"
+    },
+    {
+      "fp": [
+        "IN",
+        "JUST",
+        "ballot",
+        "democrats",
+        "market",
+        "president",
+        "stock",
+        "trump"
+      ],
+      "at": "2026-11-26T12:39:53.625189+00:00"
     }
   ],
   "recent_hooks": [
-    "Anthropic ($ANT) just priced its IPO at $83 per share, blowing past its initial $70 to $78 marketed range.",
     "Take a look at sentiment right now. Because of a personal event involving Jensen Huang, there are now widespread calls that the \"AI bubble has popped.\" Sentiment is as though AI has failed, the inv...",
     "The S&P 500 ($SPX) has erased $6 trillion in value since its October 6th high after closing down for the 6th-straight day. With the Nasdaq 100 ($NDX) now down 15% from its own record high, the market is no longer just pulling back\u2014it is repricing tech leadership at a pace that wipes out months of gains in less than a week.",
     "The argument that tech stocks are cheap hinges entirely on believing the AI revolution is far from over. If Nvidia ($NVDA) handles its leadership transition and political headwinds soften, pulling back from this tech bear market might end up looking like the single best entry point of the decade.",
@@ -1252,7 +1257,8 @@
     "Short sellers took an $11,300,000,000 loss on Nvidia ($NVDA) in a single day. Betting against the leader of the hardware cycle continues to be the most expensive position on the market. #nvidia",
     "-20 tonnes. That is how much global physical gold-backed ETFs lost last week, marking their largest weekly withdrawal since June. Gold ETFs have now suffered outflows in 3 of the last 5 weeks, coming out to -30 tonnes net. SPDR Gold Shares ($GLD), the largest gold-backed ETF in the US, led the damage by shedding -10 tonnes on its own as total US outflows hit -12 tonnes. China and the UK followed behind. Everyone watched gold hit highs while the underlying fund redemptions quietly started weeks ago.",
     "Bill Ackman analyzed 22,000 lines of Bernie Sanders campaign expenditures since 2017, totaling $53 MILLION spent.",
-    "Gold under $3,470, the S&P 500 under 7,000, Nasdaq under 22,800, and Bitcoin ($BTC) under $58,000 all at the same time. Trillions in combined market value wiped out today because when liquidity vanishes, even the safe havens get sold to cover the rest."
+    "Gold under $3,470, the S&P 500 under 7,000, Nasdaq under 22,800, and Bitcoin ($BTC) under $58,000 all at the same time. Trillions in combined market value wiped out today because when liquidity vanishes, even the safe havens get sold to cover the rest.",
+    "President Trump is blaming stock market weakness directly on recent midterm election wins by Democrats, arguing that the market and 401-ks would be BOOMING instead if he had been on the ballot."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
