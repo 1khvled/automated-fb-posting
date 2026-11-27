@@ -1,11 +1,11 @@
 {
   "last_post": {
-    "hash": "00ff67d13bd5e8e3",
-    "fb_id": "1264009986803820_122136585975472689",
-    "title": "Indian 10-Year Government Bond Yield Climbs to 7.2575% After Previous Close at 7.2365%",
-    "link": "https://x.com/FirstSquawk/status/2126158068513910858",
-    "mode": "serious",
-    "at": "2026-11-27T03:53:15.568885+00:00"
+    "hash": "56344ccbb2aaae8f",
+    "fb_id": "1264009986803820_122136694803472689",
+    "title": "BREAKING: Gold rises over +4% and silver surges +10% as dip buyers continue to rotate into precious metals.",
+    "link": "https://x.com/KobeissiLetter/status/2126274285538832812",
+    "mode": "viral",
+    "at": "2026-11-27T13:17:17.329179+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -144,6 +144,7 @@
     "54acd696bcc021cc",
     "55c2087412b8909b",
     "56194c1a1cfdf52c",
+    "56344ccbb2aaae8f",
     "56ab65e46e5ca38c",
     "58cfd490098879f3",
     "5b08901b0be5a112",
@@ -433,10 +434,9 @@
   "day_counts": {
     "2026-11-25": 3,
     "2026-11-26": 3,
-    "2026-11-27": 1
+    "2026-11-27": 2
   },
   "recent_titles": [
-    "Anthropic is sitting on an enormous cash pile: Anthropic's cash and cash equivalents are up to a record $237 billion following its IPO. This comes as its IPO raised $81 billion, with another $26 bi...",
     "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.",
     "US Treasury Secretary Bessent: need to determine which level of Nvidia business was aware, confident committees are swiftly seeking answers - CBS",
     "\ud83d\udd25INSIGHT: The most bullish thing for crypto might be a generation of politicians retiring, says @hosseeb. Speaking with @itsciaranlyons, the Dragonfly managing partner pointed to Texas Senator-elec...",
@@ -450,19 +450,10 @@
     "Who is the secret hero of the successful Iowa lead detonation effort? Without hesitation: 'Stephen Miller' Former Iowa Governor candidate Zach Lahn gives INSIDER information on how Trump's White Ho...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says stocks are crashing because Democrats won midterm elections. \"I wasn't on the Ballot, but if I was, the results, just like all three times before, would have been m...",
     "\ud83c\uddf0\ud83c\uddf5 ALERT: North Korean hackers have moved more than $600 million in crypto stolen from Binance through THORChain, according to blockchain researchers cited by Reuters.",
-    "Indian 10-Year Government Bond Yield Climbs to 7.2575% After Previous Close at 7.2365%"
+    "Indian 10-Year Government Bond Yield Climbs to 7.2575% After Previous Close at 7.2365%",
+    "BREAKING: Gold rises over +4% and silver surges +10% as dip buyers continue to rotate into precious metals."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122132244501472689",
-      "topics": [
-        "inflation",
-        "power"
-      ],
-      "mode": "serious",
-      "photo": "og:image",
-      "at": "2026-11-10T07:45:15.090453+00:00"
-    },
     {
       "fb_id": "1264009986803820_122132396865472689",
       "topics": [
@@ -919,6 +910,15 @@
       "mode": "serious",
       "photo": "split:flag+face",
       "at": "2026-11-27T03:53:15.568885+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122136694803472689",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "viral",
+      "photo": "source",
+      "at": "2026-11-27T13:17:17.329179+00:00"
     }
   ],
   "tuner": {
@@ -976,17 +976,6 @@
   },
   "last_video_post": "2026-11-26",
   "recent_fps": [
-    {
-      "fp": [
-        "AI",
-        "democrats",
-        "nvidia",
-        "revolution",
-        "ultimately",
-        "unless"
-      ],
-      "at": "2026-11-20T10:27:13.580380+00:00"
-    },
     {
       "fp": [
         "ETF",
@@ -1250,10 +1239,15 @@
         "yield"
       ],
       "at": "2026-11-27T03:53:15.568877+00:00"
+    },
+    {
+      "fp": [
+        "gold"
+      ],
+      "at": "2026-11-27T13:17:17.329172+00:00"
     }
   ],
   "recent_hooks": [
-    "The argument that tech stocks are cheap hinges entirely on believing the AI revolution is far from over. If Nvidia ($NVDA) handles its leadership transition and political headwinds soften, pulling back from this tech bear market might end up looking like the single best entry point of the decade.",
     "Michael Burry is trimming his downside bets, selling off 50% of his puts in both VanEck Semiconductor ETF ($SMH) and Nvidia ($NVDA), alongside 30% of his Zoetis ($ZTS) calls.",
     "Five years of crypto cycles and Bitcoin ($BTC) sits at $59,000 compared to $59,700 in November 2021, but the rest of the market tells a much harsher story. Ethereum ($ETH) is at $1,620 down from $4,410, Solana ($SOL) dropped from $220 to $69, BNB ($BNB) slid from $605 to $540, and XRP ($XRP) moved from $1.10 to $0.90. Holding anything outside the market leader over this stretch meant paying a massive premium for zero long-term progress.",
     "Citi, PNC, and Citizens changed their bank terms this week, and the fine print is brutal for anyone handing their credentials to ChatGPT or Claude. If you give an external AI agent your login and it empties your account, gets hacked, or ignores your instructions, the banks now count every transaction as if you personally authorized it. Zero refund. You are fully on the hook for whatever the bot does.",
@@ -1267,7 +1261,8 @@
     "Gold under $3,470, the S&P 500 under 7,000, Nasdaq under 22,800, and Bitcoin ($BTC) under $58,000 all at the same time. Trillions in combined market value wiped out today because when liquidity vanishes, even the safe havens get sold to cover the rest.",
     "President Trump is blaming stock market weakness directly on recent midterm election wins by Democrats, arguing that the market and 401-ks would be BOOMING instead if he had been on the ballot.",
     "$600 million in stolen crypto from Binance ($BNB) has now been funneled through THORChain ($RUNE) by North Korean hackers. That is a massive volume of illicit capital moving right through a decentralized protocol in broad daylight, showing once again how hard it is to stop capital flows on-chain after a major exploit.",
-    "Indian 10-Year Government Bond Yield Climbs to 7.2575% After Previous Close at 7.2365%"
+    "Indian 10-Year Government Bond Yield Climbs to 7.2575% After Previous Close at 7.2365%",
+    "Dip buyers rotating back into precious metals just pushed silver up 10% and sent gold rising over 4%."
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
