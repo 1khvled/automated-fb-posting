@@ -1,11 +1,12 @@
 {
   "last_post": {
-    "hash": "56344ccbb2aaae8f",
-    "fb_id": "1264009986803820_122136694803472689",
-    "title": "BREAKING: Gold rises over +4% and silver surges +10% as dip buyers continue to rotate into precious metals.",
-    "link": "https://x.com/KobeissiLetter/status/2126274285538832812",
-    "mode": "viral",
-    "at": "2026-11-27T13:17:17.329179+00:00"
+    "hash": "2ce9e0c5bcafe8f8",
+    "fb_id": "1188435913708591",
+    "title": "Polish Foreign Minister Sikorski: If Russia, which is one of the largest oil producers, or at least used to be, is experiencing gasoline shortages at filling stations, I would call that serious tro...",
+    "link": "https://x.com/clashreport/status/2126413354889543971",
+    "mode": "serious",
+    "kind": "video",
+    "at": "2026-11-27T22:00:36.449712+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
@@ -84,6 +85,7 @@
     "2a6f98175be395ca",
     "2b76f5d27278ae96",
     "2bbf1d770e89e3e5",
+    "2ce9e0c5bcafe8f8",
     "2cf55ad8c9c15fce",
     "2cf65fe07b88da20",
     "2d3d5b5f61623900",
@@ -434,10 +436,9 @@
   "day_counts": {
     "2026-11-25": 3,
     "2026-11-26": 3,
-    "2026-11-27": 2
+    "2026-11-27": 3
   },
   "recent_titles": [
-    "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.",
     "US Treasury Secretary Bessent: need to determine which level of Nvidia business was aware, confident committees are swiftly seeking answers - CBS",
     "\ud83d\udd25INSIGHT: The most bullish thing for crypto might be a generation of politicians retiring, says @hosseeb. Speaking with @itsciaranlyons, the Dragonfly managing partner pointed to Texas Senator-elec...",
     "US technology ETFs are seeing massive wave of deleveraging: The 3x leveraged long Semiconductor ETF, $SOXL, is down -90% from its June peak, to its lowest since September 2025. This marks its 2nd-l...",
@@ -451,18 +452,10 @@
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says stocks are crashing because Democrats won midterm elections. \"I wasn't on the Ballot, but if I was, the results, just like all three times before, would have been m...",
     "\ud83c\uddf0\ud83c\uddf5 ALERT: North Korean hackers have moved more than $600 million in crypto stolen from Binance through THORChain, according to blockchain researchers cited by Reuters.",
     "Indian 10-Year Government Bond Yield Climbs to 7.2575% After Previous Close at 7.2365%",
-    "BREAKING: Gold rises over +4% and silver surges +10% as dip buyers continue to rotate into precious metals."
+    "BREAKING: Gold rises over +4% and silver surges +10% as dip buyers continue to rotate into precious metals.",
+    "Polish Foreign Minister Sikorski: If Russia, which is one of the largest oil producers, or at least used to be, is experiencing gasoline shortages at filling stations, I would call that serious tro..."
   ],
   "history": [
-    {
-      "fb_id": "1264009986803820_122132396865472689",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "serious",
-      "photo": "entity-logo",
-      "at": "2026-11-10T21:40:02.517350+00:00"
-    },
     {
       "fb_id": "1162438299659803",
       "topics": [
@@ -919,6 +912,14 @@
       "mode": "viral",
       "photo": "source",
       "at": "2026-11-27T13:17:17.329179+00:00"
+    },
+    {
+      "fb_id": "1188435913708591",
+      "topics": [
+        "gold_oil"
+      ],
+      "mode": "serious",
+      "at": "2026-11-27T22:00:36.449712+00:00"
     }
   ],
   "tuner": {
@@ -974,29 +975,8 @@
     "sample_questions": [],
     "updated": "2026-11-27"
   },
-  "last_video_post": "2026-11-26",
+  "last_video_post": "2026-11-27",
   "recent_fps": [
-    {
-      "fp": [
-        "ETF",
-        "MELI",
-        "NVDA",
-        "SMH",
-        "ZT",
-        "april",
-        "burry",
-        "holding",
-        "increa",
-        "increased",
-        "michael",
-        "nasdaq",
-        "nvidia",
-        "semiconductor",
-        "sold",
-        "zoetis"
-      ],
-      "at": "2026-11-20T18:48:46.501629+00:00"
-    },
     {
       "fp": [
         "$0.90",
@@ -1245,6 +1225,16 @@
         "gold"
       ],
       "at": "2026-11-27T13:17:17.329172+00:00"
+    },
+    {
+      "fp": [
+        "foreign",
+        "minister",
+        "polish",
+        "russia",
+        "sikorski"
+      ],
+      "at": "2026-11-27T22:00:36.449703+00:00"
     }
   ],
   "recent_hooks": [
