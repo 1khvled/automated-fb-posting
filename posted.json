@@ -1,15 +1,16 @@
 {
   "last_post": {
-    "hash": "bf1899fb59866b66",
-    "fb_id": "1264009986803820_122136539361472689",
-    "title": "\ud83c\uddf0\ud83c\uddf5 ALERT: North Korean hackers have moved more than $600 million in crypto stolen from Binance through THORChain, according to blockchain researchers cited by Reuters.",
-    "link": "https://x.com/Cointelegraph/status/2126063621318832330",
+    "hash": "00ff67d13bd5e8e3",
+    "fb_id": "1264009986803820_122136585975472689",
+    "title": "Indian 10-Year Government Bond Yield Climbs to 7.2575% After Previous Close at 7.2365%",
+    "link": "https://x.com/FirstSquawk/status/2126158068513910858",
     "mode": "serious",
-    "at": "2026-11-26T22:00:53.505904+00:00"
+    "at": "2026-11-27T03:53:15.568885+00:00"
   },
   "posted_hashes": [
     "0037667b1e80b813",
     "006c6b9c4417defe",
+    "00ff67d13bd5e8e3",
     "0240b2827df88900",
     "03e22223f98f7cc0",
     "03f8676804501e85",
@@ -430,12 +431,11 @@
     "ffb7fa8b43514930"
   ],
   "day_counts": {
-    "2026-11-24": 2,
     "2026-11-25": 3,
-    "2026-11-26": 3
+    "2026-11-26": 3,
+    "2026-11-27": 1
   },
   "recent_titles": [
-    "BREAKING: \ud83c\uddfa\ud83c\uddf8 If an AI agent empties your account, your bank won't refund your money anymore U.S. banks like Citi, PNC and Citizens changed their terms this week. If you give your credentials to an ...",
     "Anthropic is sitting on an enormous cash pile: Anthropic's cash and cash equivalents are up to a record $237 billion following its IPO. This comes as its IPO raised $81 billion, with another $26 bi...",
     "JUST IN: \ud83c\uddf7\ud83c\uddfa Russia officially allows exchanges to launch cryptocurrency trading with Central Bank approval.",
     "US Treasury Secretary Bessent: need to determine which level of Nvidia business was aware, confident committees are swiftly seeking answers - CBS",
@@ -449,17 +449,10 @@
     "JUST IN: Financial markets are crashing again. Gold falls under $3,470 S&P 500 falls under 7,000 Nasdaq falls under 22,800 Bitcoin falls under $58,000 Trillions of dollars in combined market value ...",
     "Who is the secret hero of the successful Iowa lead detonation effort? Without hesitation: 'Stephen Miller' Former Iowa Governor candidate Zach Lahn gives INSIDER information on how Trump's White Ho...",
     "JUST IN: \ud83c\uddfa\ud83c\uddf8 President Trump says stocks are crashing because Democrats won midterm elections. \"I wasn't on the Ballot, but if I was, the results, just like all three times before, would have been m...",
-    "\ud83c\uddf0\ud83c\uddf5 ALERT: North Korean hackers have moved more than $600 million in crypto stolen from Binance through THORChain, according to blockchain researchers cited by Reuters."
+    "\ud83c\uddf0\ud83c\uddf5 ALERT: North Korean hackers have moved more than $600 million in crypto stolen from Binance through THORChain, according to blockchain researchers cited by Reuters.",
+    "Indian 10-Year Government Bond Yield Climbs to 7.2575% After Previous Close at 7.2365%"
   ],
   "history": [
-    {
-      "fb_id": "29293439950289681",
-      "topics": [
-        "crypto"
-      ],
-      "mode": "viral",
-      "at": "2026-11-10T00:38:15.421715+00:00"
-    },
     {
       "fb_id": "1264009986803820_122132244501472689",
       "topics": [
@@ -916,6 +909,16 @@
       "mode": "serious",
       "photo": "split:scene",
       "at": "2026-11-26T22:00:53.505904+00:00"
+    },
+    {
+      "fb_id": "1264009986803820_122136585975472689",
+      "topics": [
+        "power",
+        "stocks"
+      ],
+      "mode": "serious",
+      "photo": "split:flag+face",
+      "at": "2026-11-27T03:53:15.568885+00:00"
     }
   ],
   "tuner": {
@@ -957,7 +960,7 @@
       "inflation": 1.09,
       "power": 0.99
     },
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
   },
   "comment_review": {
     "posts": 8,
@@ -969,20 +972,10 @@
     "fake_claims": 0,
     "by_topic": {},
     "sample_questions": [],
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
   },
   "last_video_post": "2026-11-26",
   "recent_fps": [
-    {
-      "fp": [
-        "BTC",
-        "TODAY",
-        "bitcoin",
-        "hashi",
-        "sui"
-      ],
-      "at": "2026-11-20T02:34:58.602080+00:00"
-    },
     {
       "fp": [
         "AI",
@@ -1244,10 +1237,22 @@
         "reuters"
       ],
       "at": "2026-11-26T22:00:53.505884+00:00"
+    },
+    {
+      "fp": [
+        "bond",
+        "climbs",
+        "close",
+        "government",
+        "indian",
+        "previous",
+        "year",
+        "yield"
+      ],
+      "at": "2026-11-27T03:53:15.568877+00:00"
     }
   ],
   "recent_hooks": [
-    "The S&P 500 ($SPX) has erased $6 trillion in value since its October 6th high after closing down for the 6th-straight day. With the Nasdaq 100 ($NDX) now down 15% from its own record high, the market is no longer just pulling back\u2014it is repricing tech leadership at a pace that wipes out months of gains in less than a week.",
     "The argument that tech stocks are cheap hinges entirely on believing the AI revolution is far from over. If Nvidia ($NVDA) handles its leadership transition and political headwinds soften, pulling back from this tech bear market might end up looking like the single best entry point of the decade.",
     "Michael Burry is trimming his downside bets, selling off 50% of his puts in both VanEck Semiconductor ETF ($SMH) and Nvidia ($NVDA), alongside 30% of his Zoetis ($ZTS) calls.",
     "Five years of crypto cycles and Bitcoin ($BTC) sits at $59,000 compared to $59,700 in November 2021, but the rest of the market tells a much harsher story. Ethereum ($ETH) is at $1,620 down from $4,410, Solana ($SOL) dropped from $220 to $69, BNB ($BNB) slid from $605 to $540, and XRP ($XRP) moved from $1.10 to $0.90. Holding anything outside the market leader over this stretch meant paying a massive premium for zero long-term progress.",
@@ -1261,7 +1266,8 @@
     "Bill Ackman analyzed 22,000 lines of Bernie Sanders campaign expenditures since 2017, totaling $53 MILLION spent.",
     "Gold under $3,470, the S&P 500 under 7,000, Nasdaq under 22,800, and Bitcoin ($BTC) under $58,000 all at the same time. Trillions in combined market value wiped out today because when liquidity vanishes, even the safe havens get sold to cover the rest.",
     "President Trump is blaming stock market weakness directly on recent midterm election wins by Democrats, arguing that the market and 401-ks would be BOOMING instead if he had been on the ballot.",
-    "$600 million in stolen crypto from Binance ($BNB) has now been funneled through THORChain ($RUNE) by North Korean hackers. That is a massive volume of illicit capital moving right through a decentralized protocol in broad daylight, showing once again how hard it is to stop capital flows on-chain after a major exploit."
+    "$600 million in stolen crypto from Binance ($BNB) has now been funneled through THORChain ($RUNE) by North Korean hackers. That is a massive volume of illicit capital moving right through a decentralized protocol in broad daylight, showing once again how hard it is to stop capital flows on-chain after a major exploit.",
+    "Indian 10-Year Government Bond Yield Climbs to 7.2575% After Previous Close at 7.2365%"
   ],
   "replied_comments": [
     "122126708889472689_1811546663506391",
